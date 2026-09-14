@@ -303,6 +303,30 @@ input:focus-visible, select:focus-visible { outline: 2px solid var(--accent); ou
 .grades button.again { border-color: var(--hot); color: var(--hot); }
 .grades button.easy { border-color: var(--ok); color: var(--ok); }
 
+/* Big enough to identify a bug from, small enough that the question stays on
+   screen without scrolling. A full-width square pushed everything below the
+   fold on a phone. */
+.cardimg {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: min(200px, 34vh);
+  object-fit: contain;
+  background: var(--surface-2);
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+}
+
+.thumb {
+  width: 44px;
+  height: 44px;
+  flex: 0 0 44px;
+  object-fit: cover;
+  border-radius: 6px;
+  background: var(--surface-2);
+  border: 1px solid var(--rule);
+}
+
 /* ---------- retrieve ---------- */
 
 .retrieve {

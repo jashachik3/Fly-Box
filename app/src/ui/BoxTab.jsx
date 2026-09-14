@@ -1,9 +1,15 @@
 import React, { useMemo, useState } from 'react';
-import { flies, nameOf, record } from '../content/index.js';
+import { flies, nameOf, record, assetUrl } from '../content/index.js';
 import { store } from '../state/db.js';
 import { useAsync } from '../state/useAsync.js';
 import { Card, Label, Empty, Pill } from './bits.jsx';
 import GearPanel from './GearPanel.jsx';
+
+function Thumb({ src }) {
+  const [ok, setOk] = useState(true);
+  if (!ok) return null;
+  return <img className="thumb" src={assetUrl(src)} alt="" loading="lazy" onError={() => setOk(false)} />;
+}
 
 const FILTERS = [
   { id: 'all', label: 'All' },
@@ -130,6 +136,7 @@ export default function BoxTab({ slate, trip }) {
             const onSlate = slateFlies.some((s) => s.flyId === f.id);
             return (
               <div className="listrow" key={f.id}>
+                {f.image && <Thumb src={f.image} />}
                 <div className="grow">
                   <div className="name">{f.name}</div>
                   <div className="sub">

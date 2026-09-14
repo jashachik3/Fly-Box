@@ -1,7 +1,13 @@
-import React, { useMemo } from 'react';
-import { bundle, regions, speciesIn, record, nameOf, MONTHS, confidence } from '../content/index.js';
+import React, { useMemo, useState } from 'react';
+import { bundle, regions, speciesIn, record, nameOf, MONTHS, confidence, assetUrl } from '../content/index.js';
 import { slate as buildSlate, whatsOn, retrieveFor, retrieveLine, setWord } from '../content/query.js';
 import { Card, Label, Empty, Pill, Strength, Field, Select } from './bits.jsx';
+
+function Thumb({ src }) {
+  const [ok, setOk] = useState(true);
+  if (!ok) return null;
+  return <img className="thumb" src={assetUrl(src)} alt="" loading="lazy" onError={() => setOk(false)} />;
+}
 
 export default function PlanTab({ trip, setTrip, setSlate, onStudy, onLog }) {
   const region = trip.regionId ? record('regions', trip.regionId) : null;
@@ -170,6 +176,7 @@ export default function PlanTab({ trip, setTrip, setSlate, onStudy, onLog }) {
                     const r = retrieveFor(bundle, m);
                     return (
                       <div className="listrow" key={m.id}>
+                        {fly?.image && <Thumb src={fly.image} />}
                         <div className="grow">
                           <div className="name">{fly?.name ?? m.fly}</div>
                           <div className="sub">

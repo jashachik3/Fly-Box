@@ -5,6 +5,14 @@ import bundle from './bundle.json';
 
 export { bundle };
 
+/**
+ * Content stores image paths as "assets/gotcha.jpg". A bare relative src is
+ * resolved against the CURRENT url, so it breaks the moment you are at
+ * /Fly-Box without a trailing slash. Build it off the configured base instead.
+ */
+export const assetUrl = (path) =>
+  (path ? import.meta.env.BASE_URL.replace(/\/?$/, '/') + String(path).replace(/^\//, '') : null);
+
 export const nameOf = (table, id) => bundle.byId[table]?.[id]?.name ?? id;
 export const record = (table, id) => bundle.byId[table]?.[id] ?? null;
 

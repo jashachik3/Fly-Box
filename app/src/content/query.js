@@ -161,6 +161,9 @@ export function scenarioCard(bundle, match) {
     concept: `match:${match.organism}.${match.stage}>${match.fly}`,
     kind: 'scenario',
     retrieve: r,
+    // The scenario IS the question, so no picture up front — but the answer
+    // should show you the fly you were supposed to name.
+    answerImage: bundle.byId.flies[match.fly]?.image ?? null,
     conditions: bits,
     seeing: stage?.behavior
       ? `${org.name} — ${match.stage}. ${stage.behavior}`
@@ -187,16 +190,47 @@ export function renderCard(bundle, concept, { variant } = {}) {
   if (concept.kind === 'match') {
     const match = bundle.byId.matches[concept.refs.match];
     if (!match) return null;
-    if (pick(2) === 0) return scenarioCard(bundle, match);
 
     const org = bundle.byId.organisms[match.organism];
+    const fly = bundle.byId.flies[match.fly];
+    const stage = org?.stages?.find((x) => x.stage === match.stage);
+    const r = retrieveFor(bundle, match);
+
+    // Three dressings of one fact, rotated: the applied scenario, the plain
+    // match, and — because knowing the fly is only half of it — how to make
+    // that fly behave.
+    const variantIndex = pick(r ? 3 : 2);
+
+    if (variantIndex === 0) return scenarioCard(bundle, match);
+
+    if (variantIndex === 2 && r) {
+      return {
+        concept: concept.id,
+        kind: 'match-retrieve',
+        retrieve: r,
+        image: fly?.image ?? null,
+        conditions: [org?.name ?? match.organism, match.stage],
+        seeing: `${fly?.name ?? match.fly} is on the leader.`,
+        question: 'How do you fish it?',
+        answer: r.name,
+        size: retrieveLine(r),
+        because: r.cue ?? '',
+        rigs: [],
+      };
+    }
+
     return {
       concept: concept.id,
       kind: 'match',
+      retrieve: r,
+      // Identify the natural, then see the fly that imitates it. That pairing
+      // is the whole lesson, and it only really lands as two pictures.
+      image: stage?.image ?? org?.image ?? null,
+      answerImage: fly?.image ?? null,
       conditions: [],
       seeing: `${org?.name ?? match.organism} — ${match.stage}`,
       question: 'Which fly imitates this?',
-      answer: bundle.byId.flies[match.fly]?.name ?? match.fly,
+      answer: fly?.name ?? match.fly,
       size: match.hookSizes ? `#${match.hookSizes[0]}–${match.hookSizes[1]}` : null,
       because: match.notes ?? match.presentation ?? '',
       rigs: [],

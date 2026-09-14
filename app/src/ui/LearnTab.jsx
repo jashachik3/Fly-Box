@@ -1,10 +1,24 @@
 import React, { useEffect, useMemo, useState } from 'react';
-import { bundle, concepts, record } from '../content/index.js';
+import { bundle, concepts, record, assetUrl } from '../content/index.js';
 import { deckFilter, renderCard, retrieveLine, setWord } from '../content/query.js';
 import { buildQueue, grade, newCard, progress, GRADE } from '../user/review.mjs';
 import { store } from '../state/db.js';
 import { useAsync } from '../state/useAsync.js';
 import { Card, Label, Empty, Pill, Meter } from './bits.jsx';
+
+/**
+ * Images are generated separately and may simply not be there yet. A broken
+ * image icon on a study card is worse than no image, so a file that fails to
+ * load removes itself and the card reads exactly as it did before.
+ */
+function CardImage({ src, alt }) {
+  const [ok, setOk] = useState(true);
+  if (!ok) return null;
+  return (
+    <img className="cardimg" src={assetUrl(src)} alt={alt} loading="lazy"
+         onError={() => setOk(false)} />
+  );
+}
 
 const GRADES = [
   { g: GRADE.AGAIN, label: 'Again', cls: 'again' },
@@ -110,11 +124,13 @@ export default function LearnTab({ trip, onDueCount, tripOnly = false, setTripOn
               </div>
             )}
 
+            {face.image && <CardImage src={face.image} alt="" />}
             {face.seeing && <div className="seeing">{face.seeing}</div>}
             <div className="question">{face.question}</div>
 
             {revealed && (
               <div className="answer">
+                {face.answerImage && <CardImage src={face.answerImage} alt="" />}
                 {face.kind === 'knot' || face.kind === 'rig'
                   ? <pre>{face.answer}</pre>
                   : <div className="big">{face.answer}{face.size ? ` · ${face.size}` : ''}</div>}
