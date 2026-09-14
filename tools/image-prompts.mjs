@@ -120,6 +120,9 @@ const ANATOMY = {
   'golden-stonefly.nymph': 'A large stonefly nymph: a robust flattened segmented body, TWO tails (not three), two prominent dark wing pads, strong legs splayed widely to the sides, and two long antennae.',
   'golden-stonefly.adult': 'An adult stonefly: long flat wings folded flat along the back rather than tented, two short tails, a long segmented body, and long antennae.',
   'scud.adult': 'A freshwater scud: a laterally flattened shrimp-like crustacean curled into a comma shape, with many small legs along the underside, segmented plates over the back, and short antennae.',
+  'sculpin.adult': 'A sculpin: a small bottom-dwelling freshwater fish with a broad flattened head much wider than its tapering body, large fan-like pectoral fins held out to the sides, eyes set high on top of the head, a wide mouth, and mottled camouflage. No silver flash, no forked tail.',
+  'leech.adult': 'A freshwater leech: a soft flattened segmented worm-like animal, tapering at both ends, stretched out mid-swim in an S-shaped undulation. No legs, no bristles, no head capsule.',
+
   'aquatic-worm.adult': 'An aquatic worm: a thin soft segmented worm with no legs, no head capsule and no bristles, lying in a loose curve.',
 };
 

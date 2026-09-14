@@ -82,8 +82,19 @@ export function slate(bundle, q = {}) {
   );
   const available = new Set(present.map((p) => p.organism));
 
+  // A rule that names species but no regions would otherwise surface wherever
+  // its organism lives — which is how a tarpon fly and an 11-weight ended up
+  // on a Bahamas bonefish brief. Content carries the region facets now; this
+  // is the belt to that pair of braces, because it cannot be forgotten.
+  const fitsRegion = (m) => {
+    if (!q.region) return true;
+    const named = m.facets?.species;
+    if (!named?.length) return true;
+    return named.some((id) => bundle.byId.species[id]?.regions?.includes(q.region));
+  };
+
   return bundle.tables.matches
-    .filter((m) => (q.region ? available.has(m.organism) : true) && applies(m, q))
+    .filter((m) => (q.region ? available.has(m.organism) : true) && fitsRegion(m) && applies(m, q))
     .sort((a, b) => RANK[a.strength] - RANK[b.strength] || specificity(b) - specificity(a));
 }
 

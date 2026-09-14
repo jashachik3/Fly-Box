@@ -2,6 +2,7 @@ import React, { useMemo, useState } from 'react';
 import { store } from '../state/db.js';
 import { useAsync } from '../state/useAsync.js';
 import { createLocker, GEAR_KINDS, describeGear, shortGear, describeSetup } from '../user/gear.mjs';
+import { record, nameOf, speciesIn } from '../content/index.js';
 import { Card, Label, Empty, Pill, Field, Select, Sheet } from './bits.jsx';
 
 const locker = createLocker(store);
@@ -12,7 +13,7 @@ const KIND_LABEL = {
   boot: 'Boots', net: 'Nets', other: 'Other',
 };
 
-export default function GearPanel() {
+export default function GearPanel({ trip }) {
   const { data, reload } = useAsync(async () => ({
     gear: await locker.all({ includeRetired: true }),
     setups: await locker.setups(),
@@ -30,12 +31,49 @@ export default function GearPanel() {
       .filter((g) => g.items.length);
   }, [data, showRetired]);
 
+  // A user prepping for a trip taps Gear expecting a packing list and gets an
+  // inventory of what they already own. Answer the question they came with.
+  const needs = useMemo(() => {
+    if (!trip?.regionId) return [];
+    const species = trip.speciesId
+      ? [record('species', trip.speciesId)].filter(Boolean)
+      : speciesIn(trip.regionId);
+    const ids = [...new Set(species.flatMap((sp) => sp.rigs ?? []))];
+    return ids.map((id) => record('rigs', id)).filter(Boolean);
+  }, [trip?.regionId, trip?.speciesId]);
+
   if (!data) return <Empty>Loading…</Empty>;
 
   const retiredCount = data.gear.filter((g) => g.retired).length;
 
   return (
     <>
+      {needs.length > 0 && (
+        <section className="block">
+          <Label>What {nameOf('regions', trip.regionId)} wants</Label>
+          <Card flush>
+            {needs.map((r) => (
+              <div className="listrow" key={r.id}>
+                <div className="grow">
+                  <div className="name">{r.name}</div>
+                  <div className="sub">
+                    {[
+                      r.lineWeight ? `${r.lineWeight[0]}${r.lineWeight[1] !== r.lineWeight[0] ? `–${r.lineWeight[1]}` : ''} wt` : null,
+                      r.line,
+                      r.leaderFt ? `${r.leaderFt} ft leader` : null,
+                      r.knot ? nameOf('knots', r.knot) : null,
+                    ].filter(Boolean).join(' · ')}
+                  </div>
+                </div>
+              </div>
+            ))}
+          </Card>
+          <div className="tiny">
+            The rods and lines this trip calls for. Below is what you own.
+          </div>
+        </section>
+      )}
+
       <section className="block">
         <div className="spread">
           <Label>Outfits</Label>

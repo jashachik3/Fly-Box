@@ -10,7 +10,12 @@ import { Card, Label, Empty, Pill } from './bits.jsx';
  * twice cannot top the list.
  */
 export default function Numbers({ entries, slate }) {
-  const closed = useMemo(() => entries.filter((e) => e.session.endedAt), [entries]);
+  // Trivial sessions (ended in under three minutes with nothing caught) stay
+  // in the history but are kept out of every rate.
+  const closed = useMemo(
+    () => entries.filter((e) => e.session.endedAt && !e.session.trivial),
+    [entries],
+  );
 
   const fr = useMemo(() => flyRates(closed), [closed]);
   const rr = useMemo(() => rigRates(closed), [closed]);
@@ -127,7 +132,10 @@ export default function Numbers({ entries, slate }) {
                     <td className="tiny">{r.book}</td>
                     <td className="n">
                       {r.yours
-                        ? <>{r.yours.fishPerHour ?? '—'} <span className="tiny">n={r.yours.fish}</span></>
+                        ? <>
+                            {r.yours.ranked ? r.yours.fishPerHour : '—'}{' '}
+                            <span className="tiny">n={r.yours.fish}</span>
+                          </>
                         : <span className="tiny">never fished</span>}
                     </td>
                   </tr>

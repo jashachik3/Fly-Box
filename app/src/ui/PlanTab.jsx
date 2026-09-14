@@ -30,9 +30,14 @@ export default function PlanTab({ trip, setTrip, setSlate, onStudy, onLog }) {
   const conf = confidence();
 
   const takeSlate = () => {
-    setSlate(bestPerFly.slice(0, 6).map((m) => ({
-      flyId: m.fly, strength: m.strength, source: 'brief',
-    })));
+    setSlate({
+      regionId: trip.regionId,
+      month: trip.month,
+      monthName: MONTHS[trip.month - 1],
+      flies: bestPerFly.slice(0, 6).map((m) => ({
+        flyId: m.fly, strength: m.strength, source: 'brief',
+      })),
+    });
     onLog();
   };
 
@@ -66,7 +71,7 @@ export default function PlanTab({ trip, setTrip, setSlate, onStudy, onLog }) {
             </Field>
           </div>
           <div className="row">
-            <Field label="After">
+            <Field label="Target species">
               <Select
                 value={trip.speciesId}
                 placeholder="Anything"
@@ -152,6 +157,10 @@ export default function PlanTab({ trip, setTrip, setSlate, onStudy, onLog }) {
 
           <section className="block">
             <Label>Fly slate</Label>
+            <div className="tiny">
+              The flies this brief recommends, best first. Take it with you and
+              the app records it, so later you can see where you went your own way.
+            </div>
             {bestPerFly.length === 0
               ? <Empty>No match rules cover these conditions yet.</Empty>
               : (
@@ -237,6 +246,26 @@ export default function PlanTab({ trip, setTrip, setSlate, onStudy, onLog }) {
               The slate is recorded on the session before you fish, so choosing
               something else later shows up as a choice rather than disappearing.
             </div>
+          </section>
+
+          <section className="block">
+            <Label>If a word is new</Label>
+            <Card flush>
+              {[
+                ['Slate', 'The short list of flies the brief recommends for this water, this month.'],
+                ['Point / dropper', 'On a two-fly rig the point is the lower, heavier fly that sets the depth; the dropper hangs above it.'],
+                ['Bead chain / lead eyes', 'Metal eyes at the head. They sink the fly and flip it to ride hook-point up. Bead chain is light, lead is heavy — this is your depth control.'],
+                ['Tungsten / beadhead', 'A weighted bead on a nymph. Tungsten is denser, so it gets down faster on the same hook size.'],
+                ['Strip set', 'Setting the hook by pulling line with your line hand, rod tip low, instead of lifting the rod. Every saltwater fish in here wants this.'],
+              ].map(([term, def]) => (
+                <div className="listrow" key={term}>
+                  <div className="grow">
+                    <div className="name">{term}</div>
+                    <div className="sub">{def}</div>
+                  </div>
+                </div>
+              ))}
+            </Card>
           </section>
 
           {conf.draft > 0 && (

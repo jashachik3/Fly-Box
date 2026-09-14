@@ -204,6 +204,44 @@ export function validate(tables) {
     }
   }
 
+  // A match may not call for a hook size the fly is never tied in. Caught by
+  // a guide reading the app, not by the shapes — so it lives here.
+  for (const m of tables.matches) {
+    const fly = tables.flies.find((f) => f.id === m.fly);
+    if (!fly || !m.hookSizes || !fly.hookSizes) continue;
+    if (m.hookSizes[0] < fly.hookSizes[0] || m.hookSizes[1] > fly.hookSizes[1]) {
+      err(`matches/${m.id}`, `asks for sizes ${m.hookSizes.join('-')} but ${fly.id} is only tied ${fly.hookSizes.join('-')}`);
+    }
+  }
+
+  // A rule that names species but not regions will surface wherever those
+  // species do not live — this is how an 11-weight tarpon rig ended up on a
+  // Bahamas bonefish brief.
+  for (const m of tables.matches) {
+    const f = m.facets ?? {};
+    if (f.species?.length && !f.regions?.length) {
+      const reach = new Set(f.species.flatMap((id) => tables.species.find((s) => s.id === id)?.regions ?? []));
+      warn(`matches/${m.id}`, `names species but no regions — it will appear in all of: ${[...reach].join(', ')}`);
+    }
+    // And when it names both, they have to agree.
+    if (f.species?.length && f.regions?.length) {
+      for (const sp of f.species) {
+        const rec = tables.species.find((s) => s.id === sp);
+        if (rec && !f.regions.some((r) => rec.regions?.includes(r))) {
+          err(`matches/${m.id}`, `targets "${sp}", which does not occur in ${f.regions.join(', ')}`);
+        }
+      }
+    }
+  }
+
+  // A leader that does not add up is a leader built to the wrong length.
+  for (const r of tables.rigs) {
+    const sum = (r.leaderSections ?? []).reduce((a, s) => a + (s.ft ?? 0), 0);
+    if (sum && r.leaderFt != null && Math.abs(r.leaderFt - sum) > 0.01) {
+      err(`rigs/${r.id}`, `leaderFt says ${r.leaderFt} ft but the sections add up to ${sum} ft`);
+    }
+  }
+
   // A color variant must point at a base pattern in the same family.
   for (const fly of tables.flies) {
     if (!fly.variantOf) continue;

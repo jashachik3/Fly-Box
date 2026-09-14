@@ -104,7 +104,11 @@ jobs:
           BASE_PATH: /${{ github.event.repository.name }}/
         run: npm run build
 
+      # enablement: true lets the workflow switch Pages on by itself, so the
+      # first deploy does not silently build and never publish.
       - uses: actions/configure-pages@v5
+        with:
+          enablement: true
       - uses: actions/upload-pages-artifact@v3
         with:
           path: app/dist
@@ -129,11 +133,40 @@ defaults. Then close and reopen PowerShell and check:
 git --version
 ```
 
-### 2. Make it a repo
+### 2. Tell Git who you are
+
+Git refuses to make a commit without a name and email on it. Once, globally:
+
+```powershell
+git config --global user.name "Jeff Ashachik"
+git config --global user.email "jashachik3@gmail.com"
+```
+
+**If the repo will be public**, use GitHub's noreply alias instead of your real
+address — commit metadata is permanent and public. After your account exists,
+Settings -> Emails has an address like
+`12345678+yourname@users.noreply.github.com`. Set that as `user.email` before
+the first commit; changing it afterwards means rewriting history.
+
+### 3. Make it a repo
 
 ```powershell
 cd "$HOME\OneDrive\Desktop\Fly Box"
 git init -b main
+```
+
+If that warns `re-init: ignored --initial-branch=main`, a repo already existed
+here and you may be on `master`. Check, and rename if so — the workflow only
+fires on `main`:
+
+```powershell
+git branch --show-current
+git branch -M main          # only if it said master
+```
+
+Then:
+
+```powershell
 git add .
 git commit -m "Fly Box: content layer, log layer, and the four tabs"
 ```
@@ -141,21 +174,28 @@ git commit -m "Fly Box: content layer, log layer, and the four tabs"
 `.gitignore` already keeps `node_modules`, `dist` and the generated content
 bundle out of it.
 
-### 3. Create the repo on GitHub
+### 4. Create the repo on GitHub
 
-Go to <https://github.com/new>. Name it **`fly-box`**. Don't add a README,
-.gitignore or licence — you already have files. Then, with your username in
-place of `YOURNAME`:
+Go to <https://github.com/new>. Name it whatever you like — the workflow reads
+the repo name and builds the site to match, so nothing needs editing either
+way. **Capitalisation carries through**: a repo called `Fly-Box` is served at
+`/Fly-Box/`, and GitHub Pages paths are case-sensitive, so the URL keeps the
+capitals too.
+
+Don't add a README, .gitignore or licence — you already have files. Then, with
+your username and repo name in place:
 
 ```powershell
 git remote add origin https://github.com/YOURNAME/fly-box.git
 git push -u origin main
 ```
 
-### 4. Turn Pages on
+### 5. Turn Pages on
 
 In the repo: **Settings → Pages → Build and deployment → Source**, choose
-**GitHub Actions**. That's it — `.github/workflows/deploy.yml` is already in
+**GitHub Actions**. The workflow also tries to switch this on by itself, but
+set it by hand if it is showing "Deploy from a branch" — that setting is the
+usual reason a green build still gives you a 404. That's it — `.github/workflows/deploy.yml` is already in
 the repo and takes over from here.
 
 Watch it under the **Actions** tab. The build validates the content and runs
@@ -165,10 +205,13 @@ instead of reaching your phone.
 When it finishes, your app is at:
 
 ```
-https://YOURNAME.github.io/fly-box/
+https://YOURNAME.github.io/REPO-NAME/
 ```
 
-### 5. Put it on the home screen
+exactly as the repo is capitalised — for example
+`https://jashachik3.github.io/Fly-Box/`.
+
+### 6. Put it on the home screen
 
 Open that URL on your phone.
 

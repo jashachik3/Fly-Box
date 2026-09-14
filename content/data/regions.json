@@ -71,8 +71,8 @@
       {
         "id": "nc-marsh",
         "name": "Marsh edge",
-        "type": "mangrove",
-        "notes": "Redfish on a flooding tide."
+        "type": "marsh",
+        "notes": "Smooth cordgrass, not mangrove — redfish push in on a flooding tide and back out as it drops."
       },
       {
         "id": "nc-surf",

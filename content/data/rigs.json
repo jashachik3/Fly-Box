@@ -90,7 +90,7 @@
       12
     ],
     "line": "Floating tarpon taper",
-    "leaderFt": 9,
+    "leaderFt": 7,
     "leaderSections": [
       {
         "material": "Hard mono butt",
@@ -130,7 +130,7 @@
       4
     ],
     "line": "Level euro line / mono rig",
-    "leaderFt": 20,
+    "leaderFt": 19,
     "leaderSections": [
       {
         "material": "Level mono butt",
@@ -176,7 +176,7 @@
       5
     ],
     "line": "Floating, weight-forward",
-    "leaderFt": 9,
+    "leaderFt": 11,
     "leaderSections": [
       {
         "material": "Tapered leader",
@@ -217,7 +217,7 @@
       6
     ],
     "line": "Floating, weight-forward",
-    "leaderFt": 9,
+    "leaderFt": 12,
     "leaderSections": [
       {
         "material": "Tapered leader",

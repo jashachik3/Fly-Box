@@ -701,5 +701,121 @@
     "sources": [
       "NEEDS REVIEW"
     ]
+  },
+  {
+    "id": "p-idaho-sculpin",
+    "name": "Idaho — sculpins",
+    "status": "draft",
+    "region": "idaho",
+    "organism": "sculpin",
+    "stages": [
+      "adult"
+    ],
+    "months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "abundance": "present",
+    "trigger": "On the bottom all year. Best fished when the water is off-colour or the light is low.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "p-idaho-leech",
+    "name": "Idaho — leechs",
+    "status": "draft",
+    "region": "idaho",
+    "organism": "leech",
+    "stages": [
+      "adult"
+    ],
+    "months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "abundance": "present",
+    "trigger": "Always there in the slow water; more available after a flow change stirs the silt.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "p-ncmountains-sculpin",
+    "name": "NC mountains — sculpins",
+    "status": "draft",
+    "region": "nc-mountains",
+    "organism": "sculpin",
+    "stages": [
+      "adult"
+    ],
+    "months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "abundance": "present",
+    "trigger": "On the bottom all year. Best fished when the water is off-colour or the light is low.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "p-ncmountains-leech",
+    "name": "NC mountains — leechs",
+    "status": "draft",
+    "region": "nc-mountains",
+    "organism": "leech",
+    "stages": [
+      "adult"
+    ],
+    "months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "abundance": "present",
+    "trigger": "Always there in the slow water; more available after a flow change stirs the silt.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
   }
 ]

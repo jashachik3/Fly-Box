@@ -271,42 +271,6 @@
     ]
   },
   {
-    "id": "m-shrimp-redfish-clouser",
-    "status": "draft",
-    "organism": "snapping-shrimp",
-    "stage": "adult",
-    "fly": "clouser-minnow-chartreuse-white",
-    "strength": "situational",
-    "hookSizes": [
-      2,
-      6
-    ],
-    "facets": {
-      "regions": [
-        "nc-coast"
-      ],
-      "species": [
-        "redfish"
-      ],
-      "waterTypes": [
-        "mangrove",
-        "channel"
-      ],
-      "tide": [
-        "incoming",
-        "high"
-      ]
-    },
-    "presentation": "Close and slow — they hunt by feel as much as sight in dirty marsh water.",
-    "rigs": [
-      "flats-8wt-floating"
-    ],
-    "sources": [
-      "NEEDS REVIEW"
-    ],
-    "retrieve": "crab-crawl"
-  },
-  {
     "id": "m-mantis-veverka",
     "status": "draft",
     "organism": "mantis-shrimp",
@@ -508,6 +472,11 @@
       ],
       "waterTypes": [
         "flat"
+      ],
+      "regions": [
+        "belize",
+        "bahamas",
+        "honduras"
       ]
     },
     "presentation": "Lead, drop, stop.",
@@ -569,6 +538,11 @@
       ],
       "waterTypes": [
         "flat"
+      ],
+      "regions": [
+        "belize",
+        "bahamas",
+        "honduras"
       ]
     },
     "presentation": "Barely move it. A molting crab cannot run.",
@@ -644,16 +618,23 @@
       "light": [
         "overcast",
         "low"
+      ],
+      "waterTypes": [
+        "inlet",
+        "marsh",
+        "channel",
+        "surf"
       ]
     },
-    "presentation": "Same retrieve, more contrast.",
+    "presentation": "Long fast strips for albies in the inlet. For redfish in the marsh, close and slower — in dirty water they hunt as much by feel as by sight.",
     "rigs": [
       "flats-9wt-wind"
     ],
     "sources": [
       "NEEDS REVIEW"
     ],
-    "retrieve": "baitfish-flee"
+    "retrieve": "baitfish-flee",
+    "notes": "Redfish eat shrimp too, but this fly is a minnow — fish it like one. Contrast is what the colour buys you, not imitation."
   },
   {
     "id": "m-glassminnow-clouser-base",
@@ -671,6 +652,11 @@
         "false-albacore",
         "redfish",
         "tarpon"
+      ],
+      "regions": [
+        "nc-coast",
+        "belize",
+        "honduras"
       ]
     },
     "presentation": "Long, fast, uninterrupted.",
@@ -724,7 +710,7 @@
     "strength": "first-choice",
     "hookSizes": [
       2,
-      6
+      4
     ],
     "facets": {
       "regions": [
@@ -768,6 +754,7 @@
         "tarpon"
       ],
       "waterTypes": [
+        "marsh",
         "mangrove"
       ],
       "light": [
@@ -872,6 +859,10 @@
     "facets": {
       "species": [
         "tarpon"
+      ],
+      "regions": [
+        "belize",
+        "honduras"
       ]
     },
     "presentation": "Lead, sink, slow strips, strip-strike hard and more than once.",
@@ -1218,7 +1209,7 @@
     "fly": "rs2",
     "strength": "first-choice",
     "hookSizes": [
-      16,
+      18,
       20
     ],
     "facets": {
@@ -1521,6 +1512,10 @@
       "tempBandF": [
         34,
         50
+      ],
+      "regions": [
+        "idaho",
+        "nc-mountains"
       ]
     },
     "presentation": "Dropper, dead drift.",
@@ -1728,6 +1723,307 @@
       ]
     },
     "presentation": "Dead drift, deep.",
+    "rigs": [
+      "euro-double-nymph"
+    ],
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "m-sculpin-bugger-brown",
+    "status": "draft",
+    "organism": "sculpin",
+    "stage": "adult",
+    "fly": "woolly-bugger-brown",
+    "strength": "first-choice",
+    "hookSizes": [
+      4,
+      10
+    ],
+    "facets": {
+      "regions": [
+        "idaho",
+        "nc-mountains"
+      ],
+      "species": [
+        "brown-trout",
+        "rainbow-trout",
+        "cutthroat-trout"
+      ],
+      "waterTypes": [
+        "run",
+        "seam",
+        "pocket"
+      ]
+    },
+    "presentation": "Cast across, let it get down to the stones, then strip it away from the bank in sharp pulls with a pause between. The eat comes on the fall, as it turns over.",
+    "rigs": [
+      "streamer-sink-tip"
+    ],
+    "sources": [
+      "NEEDS REVIEW"
+    ],
+    "notes": "The middle ground, and the one to start with. A sculpin has no flash — resist the urge to add any."
+  },
+  {
+    "id": "m-sculpin-bugger-olive",
+    "status": "draft",
+    "organism": "sculpin",
+    "stage": "adult",
+    "fly": "woolly-bugger-olive",
+    "strength": "first-choice",
+    "hookSizes": [
+      4,
+      10
+    ],
+    "facets": {
+      "regions": [
+        "idaho",
+        "nc-mountains"
+      ],
+      "species": [
+        "brown-trout",
+        "rainbow-trout",
+        "cutthroat-trout"
+      ],
+      "light": [
+        "bright",
+        "broken"
+      ]
+    },
+    "presentation": "As the brown. Clear water and good light.",
+    "rigs": [
+      "streamer-sink-tip"
+    ],
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "m-sculpin-bugger-black",
+    "status": "draft",
+    "organism": "sculpin",
+    "stage": "adult",
+    "fly": "woolly-bugger-black",
+    "strength": "change-up",
+    "hookSizes": [
+      4,
+      10
+    ],
+    "facets": {
+      "regions": [
+        "idaho",
+        "nc-mountains"
+      ],
+      "species": [
+        "brown-trout"
+      ],
+      "light": [
+        "low",
+        "overcast"
+      ],
+      "timeOfDay": [
+        "dawn",
+        "dusk",
+        "night"
+      ]
+    },
+    "presentation": "Silhouette does the work. Slow it down and let it hang longer at the end of the swing.",
+    "rigs": [
+      "streamer-sink-tip"
+    ],
+    "sources": [
+      "NEEDS REVIEW"
+    ],
+    "notes": "Off-colour water and the edges of light — which is when the big ones hunt."
+  },
+  {
+    "id": "m-sculpin-bugger-base",
+    "status": "draft",
+    "organism": "sculpin",
+    "stage": "adult",
+    "fly": "woolly-bugger",
+    "strength": "first-choice",
+    "hookSizes": [
+      4,
+      10
+    ],
+    "facets": {
+      "regions": [
+        "idaho",
+        "nc-mountains"
+      ],
+      "species": [
+        "brown-trout",
+        "rainbow-trout",
+        "cutthroat-trout"
+      ]
+    },
+    "presentation": "Down and across, stripped back in bursts with a pause. Loop knot so it swims.",
+    "rigs": [
+      "streamer-sink-tip"
+    ],
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "m-leech-bugger-black",
+    "status": "draft",
+    "organism": "leech",
+    "stage": "adult",
+    "fly": "woolly-bugger-black",
+    "strength": "first-choice",
+    "hookSizes": [
+      6,
+      12
+    ],
+    "facets": {
+      "regions": [
+        "idaho",
+        "nc-mountains"
+      ],
+      "species": [
+        "brown-trout",
+        "rainbow-trout",
+        "cutthroat-trout"
+      ],
+      "waterTypes": [
+        "pool",
+        "run"
+      ]
+    },
+    "presentation": "Slower and deeper than a sculpin swing. Long soft pulls, and let it sink between them — a leech that stops is a leech that sinks.",
+    "rigs": [
+      "streamer-sink-tip",
+      "indicator-nymph"
+    ],
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "m-leech-bugger-brown",
+    "status": "draft",
+    "organism": "leech",
+    "stage": "adult",
+    "fly": "woolly-bugger-brown",
+    "strength": "change-up",
+    "hookSizes": [
+      6,
+      12
+    ],
+    "facets": {
+      "regions": [
+        "idaho",
+        "nc-mountains"
+      ],
+      "species": [
+        "brown-trout",
+        "rainbow-trout",
+        "cutthroat-trout"
+      ]
+    },
+    "presentation": "As the black, in clearer water.",
+    "rigs": [
+      "streamer-sink-tip"
+    ],
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "m-shrimp-charlie-base",
+    "status": "draft",
+    "organism": "snapping-shrimp",
+    "stage": "adult",
+    "fly": "crazy-charlie",
+    "strength": "first-choice",
+    "hookSizes": [
+      4,
+      8
+    ],
+    "facets": {
+      "regions": [
+        "bahamas",
+        "belize",
+        "honduras"
+      ],
+      "species": [
+        "bonefish"
+      ],
+      "waterTypes": [
+        "flat"
+      ]
+    },
+    "presentation": "Rides point-up so it can sit on the bottom without fouling. Short strips, real pauses.",
+    "rigs": [
+      "flats-8wt-floating"
+    ],
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "m-bwo-nymph-pt-flashback",
+    "status": "draft",
+    "organism": "blue-winged-olive",
+    "stage": "nymph",
+    "fly": "pheasant-tail-flashback",
+    "strength": "change-up",
+    "hookSizes": [
+      16,
+      20
+    ],
+    "facets": {
+      "regions": [
+        "idaho",
+        "nc-mountains"
+      ],
+      "waterTypes": [
+        "riffle",
+        "pocket"
+      ],
+      "light": [
+        "low",
+        "overcast"
+      ]
+    },
+    "presentation": "Dead drift as the dropper. The flash buys a look in broken water where the natural gets lost.",
+    "rigs": [
+      "euro-double-nymph",
+      "indicator-nymph"
+    ],
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "m-bwo-nymph-perdigon-black",
+    "status": "draft",
+    "organism": "blue-winged-olive",
+    "stage": "nymph",
+    "fly": "perdigon-black",
+    "strength": "change-up",
+    "hookSizes": [
+      14,
+      20
+    ],
+    "facets": {
+      "regions": [
+        "idaho",
+        "nc-mountains"
+      ],
+      "waterTypes": [
+        "riffle",
+        "run"
+      ],
+      "light": [
+        "bright"
+      ]
+    },
+    "presentation": "Point fly. Silhouette in thin clear water and high sun, where an olive body disappears.",
     "rigs": [
       "euro-double-nymph"
     ],

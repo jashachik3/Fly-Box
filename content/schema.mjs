@@ -40,7 +40,7 @@ export const VOCAB = {
 
   waterType: [
     'riffle', 'run', 'seam', 'pool', 'tailout', 'pocket', 'flat', 'channel',
-    'mangrove', 'surf', 'inlet', 'blue-water',
+    'marsh', 'mangrove', 'surf', 'inlet', 'blue-water',
   ],
 
   timeOfDay: ['dawn', 'morning', 'midday', 'afternoon', 'dusk', 'night'],

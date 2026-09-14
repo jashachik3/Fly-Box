@@ -13,9 +13,8 @@ const GRADES = [
   { g: GRADE.EASY, label: 'Easy', cls: 'easy' },
 ];
 
-export default function LearnTab({ trip, onDueCount }) {
+export default function LearnTab({ trip, onDueCount, tripOnly = false, setTripOnly }) {
   const { data: cards, reload } = useAsync(() => store.review.all(), []);
-  const [tripOnly, setTripOnly] = useState(false);
   const [revealed, setRevealed] = useState(false);
   const [done, setDone] = useState(0);
 
@@ -70,7 +69,7 @@ export default function LearnTab({ trip, onDueCount }) {
           <button
             type="button"
             className="small ghost"
-            onClick={() => setTripOnly((v) => !v)}
+            onClick={() => setTripOnly(!tripOnly)}
             disabled={!trip.regionId}
           >
             {tripOnly ? 'Study everything' : 'Study this trip'}
@@ -133,7 +132,12 @@ export default function LearnTab({ trip, onDueCount }) {
                 )}
 
                 {face.rigs?.length > 0 && <div className="tiny">Rig: {face.rigs.join(' or ')}</div>}
-                <div className="tiny">{face.concept}</div>
+                <details className="whyline">
+                  <summary className="tiny">Why this card</summary>
+                  <div className="tiny">
+                    Scheduled as one fact: <code>{face.concept}</code>
+                  </div>
+                </details>
               </div>
             )}
           </div>
@@ -153,8 +157,9 @@ export default function LearnTab({ trip, onDueCount }) {
           )}
 
           <div className="tiny">
-            Scheduling is keyed to the concept, not this card — the same fact
-            gets asked several ways and still sits on one schedule.
+            Rate yourself honestly — <strong>Again</strong> brings a card back in
+            minutes, <strong>Good</strong> pushes it days out. The app uses that
+            to decide what you see tomorrow.
           </div>
         </section>
       )}

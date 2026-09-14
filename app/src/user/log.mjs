@@ -48,6 +48,14 @@ export function createLog(store) {
       const session = await this.current();
       if (!session) return null;
       endSession(session, at);
+
+      // A session started and ended by mistake is noise, not data. Mark it so
+      // it stays in the history but never reaches a rate — deleting someone's
+      // record because it looks trivial is not ours to do.
+      const fish = await store.catches.where((c) => c.sessionId === session.id);
+      const minutes = (new Date(session.endedAt) - new Date(session.startedAt)) / 60000;
+      session.trivial = fish.length === 0 && minutes < 3;
+
       await store.sessions.put(session);
       return session;
     },
@@ -107,6 +115,48 @@ export function createLog(store) {
 
       await store.catches.put(c);
       return c;
+    },
+
+    /**
+     * Fix a fish you logged wrong. Without this the three-tap entry is a trap:
+     * fast entry guarantees mistakes, and a log you cannot correct is a log you
+     * stop trusting.
+     */
+    async updateCatch(id, patch) {
+      const existing = await store.catches.get(id);
+      if (!existing) throw new Error('that fish is not in the log');
+      const session = await store.sessions.get(existing.sessionId);
+      const next = { ...existing, ...patch };
+
+      // Keep the role honest when the fly changes.
+      if (patch.ateFlyId) {
+        next.ateRole = next.fliesOnRig.find((f) => f.flyId === patch.ateFlyId)?.role ?? null;
+      }
+
+      const problems = validateCatch(next, session);
+      if (problems.length) throw new Error(problems.join('; '));
+      await store.catches.put(next);
+      return next;
+    },
+
+    async deleteCatch(id) {
+      await store.catches.remove(id);
+    },
+
+    /** Ended the day by mistake. Reopen it rather than starting a second one. */
+    async reopen(sessionId) {
+      const open = await this.current();
+      if (open && open.id !== sessionId) {
+        throw new Error('finish the session you have open before reopening another');
+      }
+      const session = await store.sessions.get(sessionId);
+      if (!session) throw new Error('no such session');
+      session.endedAt = null;
+      session.trivial = false;
+      const last = session.stints.at(-1);
+      if (last) last.endedAt = null;
+      await store.sessions.put(session);
+      return session;
     },
 
     // -- presets ----------------------------------------------------------

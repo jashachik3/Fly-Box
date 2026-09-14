@@ -14,6 +14,7 @@ const FILTERS = [
 ];
 
 export default function BoxTab({ slate, trip }) {
+  const slateFlies = slate?.flies ?? [];
   const { data: rows, reload } = useAsync(() => store.box.all(), []);
   const [filter, setFilter] = useState('all');
   const [q, setQ] = useState('');
@@ -28,9 +29,9 @@ export default function BoxTab({ slate, trip }) {
   // knows what you need, the box knows what you have, and the difference is a
   // shopping list you can act on before you leave.
   const needed = useMemo(() => {
-    const wanted = new Set((slate ?? []).map((s) => s.flyId));
+    const wanted = new Set(slateFlies.map((s) => s.flyId));
     return [...wanted].filter((id) => !(counts.get(id) > 0));
-  }, [slate, counts]);
+  }, [slateFlies, counts]);
 
   const shown = useMemo(() => {
     const term = q.trim().toLowerCase();
@@ -44,8 +45,11 @@ export default function BoxTab({ slate, trip }) {
   }, [q, filter, counts, needed]);
 
   async function bump(flyId, delta) {
-    const current = counts.get(flyId) ?? 0;
-    const next = Math.max(0, current + delta);
+    // Re-read rather than trusting the rendered value: with the app open in two
+    // places, a stale count in this component would overwrite the other one's
+    // taps and quietly lose half of them.
+    const fresh = await store.box.get(flyId);
+    const next = Math.max(0, (fresh?.count ?? 0) + delta);
     await store.box.put({ id: flyId, count: next, updatedAt: new Date().toISOString() });
     reload();
   }
@@ -68,7 +72,7 @@ export default function BoxTab({ slate, trip }) {
     return (
       <>
         {switcher}
-        <GearPanel />
+        <GearPanel trip={trip} />
       </>
     );
   }
@@ -82,10 +86,10 @@ export default function BoxTab({ slate, trip }) {
           <span className="tiny num">{patterns} patterns · {total} flies</span>
         </div>
 
-        {slate?.length > 0 && (
+        {slateFlies.length > 0 && (
           needed.length > 0 ? (
             <div className="banner">
-              <strong>{needed.length} of {slate.length} flies on today's slate are not in your box.</strong>
+              <strong>{needed.length} of {slateFlies.length} flies on today's slate are not in your box.</strong>
               <div className="tiny" style={{ marginTop: 4 }}>
                 {needed.map((id) => nameOf('flies', id)).join(' · ')}
               </div>
@@ -123,7 +127,7 @@ export default function BoxTab({ slate, trip }) {
         <Card flush>
           {shown.map((f) => {
             const n = counts.get(f.id) ?? 0;
-            const onSlate = (slate ?? []).some((s) => s.flyId === f.id);
+            const onSlate = slateFlies.some((s) => s.flyId === f.id);
             return (
               <div className="listrow" key={f.id}>
                 <div className="grow">

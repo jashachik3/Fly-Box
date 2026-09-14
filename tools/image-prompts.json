@@ -1,8 +1,8 @@
 {
-  "builtAt": "2026-09-14T18:15:01.600Z",
+  "builtAt": "2026-09-14T19:45:46.380Z",
   "model": "fal-ai/nano-banana-2",
   "contentVersion": "0.5.0",
-  "count": 76,
+  "count": 78,
   "entries": [
     {
       "id": "gotcha",
@@ -406,7 +406,7 @@
       "stage": "schooling",
       "file": "assets/glass-minnow-schooling.jpg",
       "label": "Glass minnow — schooling",
-      "prompt": "A single glass minnow or silverside: a slender translucent baitfish with a forked tail, a bright silver lateral stripe running the length of the body, a large dark eye, and a small terminal mouth. Roughly 30–70 mm long. Colouring: white, olive white, chartreuse white. Shown as it would be found: upper column, inlets and current seams. Macro natural-history photograph of one single live specimen, centred against a seamless pale warm-grey background with soft even lighting. The whole animal is inside the frame, in sharp focus, in a clear side or three-quarter view. Scientifically accurate anatomy and proportions, correct number of legs, tails and wings. No hook, no fishing fly, no line, no hands, no tools, no text, no watermark, no collage. Exactly one animal in the image."
+      "prompt": "A single glass minnow or silverside: a slender translucent baitfish with a forked tail, a bright silver lateral stripe running the length of the body, a large dark eye, and a small terminal mouth. Roughly 50–80 mm long. Colouring: white, olive white, chartreuse white. Shown as it would be found: upper column, inlets and current seams. Macro natural-history photograph of one single live specimen, centred against a seamless pale warm-grey background with soft even lighting. The whole animal is inside the frame, in sharp focus, in a clear side or three-quarter view. Scientifically accurate anatomy and proportions, correct number of legs, tails and wings. No hook, no fishing fly, no line, no hands, no tools, no text, no watermark, no collage. Exactly one animal in the image."
     },
     {
       "id": "bay-anchovy-schooling",
@@ -587,6 +587,24 @@
       "file": "assets/aquatic-worm-adult.jpg",
       "label": "Aquatic worm — adult",
       "prompt": "An aquatic worm: a thin soft segmented worm with no legs, no head capsule and no bristles, lying in a loose curve. Roughly 15–50 mm long. Colouring: red, pink, wine. Shown as it would be found: bottom, everywhere, especially after rain. Macro natural-history photograph of one single live specimen, centred against a seamless pale warm-grey background with soft even lighting. The whole animal is inside the frame, in sharp focus, in a clear side or three-quarter view. Scientifically accurate anatomy and proportions, correct number of legs, tails and wings. No hook, no fishing fly, no line, no hands, no tools, no text, no watermark, no collage. Exactly one animal in the image."
+    },
+    {
+      "id": "sculpin-adult",
+      "kind": "organism",
+      "organism": "sculpin",
+      "stage": "adult",
+      "file": "assets/sculpin-adult.jpg",
+      "label": "Sculpin — adult",
+      "prompt": "A sculpin: a small bottom-dwelling freshwater fish with a broad flattened head much wider than its tapering body, large fan-like pectoral fins held out to the sides, eyes set high on top of the head, a wide mouth, and mottled camouflage. No silver flash, no forked tail. Roughly 40–110 mm long. Colouring: olive, brown, mottled tan. Shown as it would be found: on the bottom, in and behind rocks in fast water. Macro natural-history photograph of one single live specimen, centred against a seamless pale warm-grey background with soft even lighting. The whole animal is inside the frame, in sharp focus, in a clear side or three-quarter view. Scientifically accurate anatomy and proportions, correct number of legs, tails and wings. No hook, no fishing fly, no line, no hands, no tools, no text, no watermark, no collage. Exactly one animal in the image."
+    },
+    {
+      "id": "leech-adult",
+      "kind": "organism",
+      "organism": "leech",
+      "stage": "adult",
+      "file": "assets/leech-adult.jpg",
+      "label": "Leech — adult",
+      "prompt": "A freshwater leech: a soft flattened segmented worm-like animal, tapering at both ends, stretched out mid-swim in an S-shaped undulation. No legs, no bristles, no head capsule. Roughly 25–90 mm long. Colouring: black, brown, olive. Shown as it would be found: near the bottom in slow water, silt and weed. Macro natural-history photograph of one single live specimen, centred against a seamless pale warm-grey background with soft even lighting. The whole animal is inside the frame, in sharp focus, in a clear side or three-quarter view. Scientifically accurate anatomy and proportions, correct number of legs, tails and wings. No hook, no fishing fly, no line, no hands, no tools, no text, no watermark, no collage. Exactly one animal in the image."
     }
   ]
 }

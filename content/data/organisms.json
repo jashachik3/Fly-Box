@@ -734,5 +734,79 @@
     "sources": [
       "NEEDS REVIEW"
     ]
+  },
+  {
+    "id": "sculpin",
+    "name": "Sculpin",
+    "status": "draft",
+    "kind": "baitfish",
+    "water": "fresh",
+    "aliases": [
+      "bullhead",
+      "muddler"
+    ],
+    "image": "assets/sculpin.jpg",
+    "stages": [
+      {
+        "stage": "adult",
+        "sizeMm": [
+          40,
+          110
+        ],
+        "hookSizes": [
+          4,
+          10
+        ],
+        "colors": [
+          "olive",
+          "brown",
+          "mottled-tan",
+          "black"
+        ],
+        "behavior": "Sits on the bottom among cobble and bolts in short bursts when disturbed, then pins itself flat again. It has no swim bladder, so it cannot hover — everything it does is on or near the stones.",
+        "where": "On the bottom, in and behind rocks in fast water",
+        "vulnerable": true,
+        "image": "assets/sculpin-adult.jpg"
+      }
+    ],
+    "notes": "The reason a big brown eats a streamer. Broad flat head, no silver flash, and it lives where the current is.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "leech",
+    "name": "Leech",
+    "status": "draft",
+    "kind": "annelid",
+    "water": "fresh",
+    "image": "assets/leech.jpg",
+    "stages": [
+      {
+        "stage": "adult",
+        "sizeMm": [
+          25,
+          90
+        ],
+        "hookSizes": [
+          6,
+          12
+        ],
+        "colors": [
+          "black",
+          "brown",
+          "olive",
+          "maroon"
+        ],
+        "behavior": "Swims with a slow undulating ripple down its whole body, then sinks when it stops. The sink is when it gets eaten.",
+        "where": "Near the bottom in slow water, silt and weed",
+        "vulnerable": true,
+        "image": "assets/leech-adult.jpg"
+      }
+    ],
+    "notes": "Available year-round and nothing else moves quite like it — which is why a marabou tail works so well.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
   }
 ]

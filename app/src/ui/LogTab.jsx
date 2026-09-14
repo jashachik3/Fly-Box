@@ -4,7 +4,7 @@ import { store, log } from '../state/db.js';
 import { useAsync } from '../state/useAsync.js';
 import { exportAll, toJson, exportFilename } from '../user/export.mjs';
 import { createLocker, describeSetup } from '../user/gear.mjs';
-import { Card, Label, Empty, Pill, Field, Select, Sheet, duration, shortDate, clock } from './bits.jsx';
+import { Card, Label, Empty, Pill, Field, Select, Sheet, FlyPicker, duration, shortDate, clock } from './bits.jsx';
 import Numbers from './Numbers.jsx';
 
 const locker = createLocker(store);
@@ -22,7 +22,9 @@ export default function LogTab({ trip, slate }) {
     gearById: await locker.gearById(),
   }), []);
 
-  const [sheet, setSheet] = useState(null);   // 'start' | 'catch' | 'rig'
+  const [sheet, setSheet] = useState(null);     // 'start' | 'catch' | 'rig' | 'end'
+  const [editing, setEditing] = useState(null); // a catch record
+  const [error, setError] = useState(null);
 
   if (state.loading || !state.data) return <Empty>Loading…</Empty>;
 
@@ -30,6 +32,24 @@ export default function LogTab({ trip, slate }) {
   const reload = state.reload;
   const stint = session?.stints.find((s) => !s.endedAt) ?? null;
   const today = session ? entries.find((e) => e.session.id === session.id)?.catches ?? [] : [];
+  const lastEnded = entries.find((e) => e.session.endedAt);
+
+  /**
+   * Every write goes through here. The log throws on invalid state — a session
+   * ended in another tab, a fly that is not on the rig — and an uncaught throw
+   * meant the sheet just sat there while a logged fish silently went nowhere.
+   * Surface it, and reload so the screen stops lying about what is open.
+   */
+  async function run(fn) {
+    try {
+      setError(null);
+      await fn();
+    } catch (err) {
+      setError(err?.message ?? String(err));
+    } finally {
+      reload();
+    }
+  }
 
   async function exportLog() {
     const payload = await exportAll(store);
@@ -45,18 +65,35 @@ export default function LogTab({ trip, slate }) {
 
   return (
     <>
+      {error && (
+        <div className="banner" role="alert">
+          <strong>That didn't save.</strong> {error}
+          <div className="tiny" style={{ marginTop: 6 }}>
+            Usually this means the session was closed somewhere else. The screen
+            has been refreshed — check what is open and try again.
+          </div>
+        </div>
+      )}
+
       {session ? (
         <LiveSession
-          session={session} stint={stint} presets={presets} today={today}
+          session={session} stint={stint} today={today}
           setups={setups} gearById={gearById}
-          onSheet={setSheet} reload={reload}
+          onSheet={setSheet} onEdit={setEditing}
         />
       ) : (
         <section className="block">
-          {slate?.length > 0 && (
+          {slate?.flies?.length > 0 && (
             <div className="banner live">
-              <strong>Today's slate is loaded</strong> — {slate.length} flies from the
-              brief. They will be recorded on the session before you fish.
+              <strong>Slate loaded — {slate.flies.length} flies</strong> for{' '}
+              {nameOf('regions', slate.regionId)} in {slate.monthName}. It gets
+              recorded on the session before you fish.
+              {slate.stale && (
+                <div className="tiny" style={{ marginTop: 6 }}>
+                  Your trip has changed since you loaded this. Go back to Plan and
+                  load it again if you want the new one.
+                </div>
+              )}
             </div>
           )}
           <button type="button" className="primary big" onClick={() => setSheet('start')}>
@@ -66,6 +103,14 @@ export default function LogTab({ trip, slate }) {
             Log the hours, not just the fish. Without them a fly you always fish
             will always look like your best fly.
           </div>
+          {lastEnded && (
+            <button
+              type="button" className="ghost small"
+              onClick={() => run(() => log.reopen(lastEnded.session.id))}
+            >
+              Reopen {shortDate(lastEnded.session.startedAt)} — ended by mistake?
+            </button>
+          )}
         </section>
       )}
 
@@ -81,7 +126,7 @@ export default function LogTab({ trip, slate }) {
 
       <History entries={entries} currentId={session?.id} />
 
-      <Numbers entries={entries} slate={slate} />
+      <Numbers entries={entries} slate={slate?.flies} />
 
       {!backup?.due && entries.length > 0 && (
         <button type="button" className="ghost" onClick={exportLog}>Export log</button>
@@ -96,16 +141,45 @@ export default function LogTab({ trip, slate }) {
       )}
       {sheet === 'rig' && (
         <RigSheet
-          presets={presets} setups={setups} gearById={gearById}
+          presets={presets} setups={setups} gearById={gearById} slate={slate}
           onClose={() => setSheet(null)}
           onDone={() => { setSheet(null); reload(); }}
+          run={run}
         />
       )}
       {sheet === 'catch' && stint && (
         <CatchSheet
-          session={session} stint={stint}
+          session={session} stint={stint} run={run}
           onClose={() => setSheet(null)}
-          onDone={() => { setSheet(null); reload(); }}
+          onDone={() => setSheet(null)}
+        />
+      )}
+      {sheet === 'end' && (
+        <Sheet title="End the session?" onClose={() => setSheet(null)}>
+          <p className="muted">
+            {today.length
+              ? `${today.length} fish logged over ${duration(session.startedAt)}.`
+              : `Nothing logged yet, ${duration(session.startedAt)} on the water.`}{' '}
+            Ending stops the clock on your hours, which is what every rate in the
+            app is calculated from.
+          </p>
+          <button
+            type="button" className="primary big"
+            onClick={() => run(async () => { await log.end(); setSheet(null); })}
+          >
+            End it
+          </button>
+          <button type="button" className="ghost" onClick={() => setSheet(null)}>
+            Keep fishing
+          </button>
+          <div className="tiny">You can reopen a session you ended by mistake.</div>
+        </Sheet>
+      )}
+      {editing && (
+        <EditCatchSheet
+          rec={editing} run={run}
+          onClose={() => setEditing(null)}
+          onDone={() => setEditing(null)}
         />
       )}
     </>
@@ -114,7 +188,7 @@ export default function LogTab({ trip, slate }) {
 
 // ---------------------------------------------------------------------------
 
-function LiveSession({ session, stint, presets, today, setups, gearById, onSheet, reload }) {
+function LiveSession({ session, stint, today, setups, gearById, onSheet, onEdit }) {
   return (
     <section className="block">
       <div className="banner live">
@@ -173,7 +247,10 @@ function LiveSession({ session, stint, presets, today, setups, gearById, onSheet
       {today.length > 0 && (
         <Card flush>
           {today.map((c) => (
-            <div className="listrow" key={c.id}>
+            <button
+              type="button" className="listrow tappable" key={c.id}
+              onClick={() => onEdit(c)}
+            >
               <div className="grow">
                 <div className="name">
                   {nameOf('species', c.speciesId)}{c.lengthIn ? ` · ${c.lengthIn}"` : ''}
@@ -182,17 +259,20 @@ function LiveSession({ session, stint, presets, today, setups, gearById, onSheet
                 <div className="sub">{nameOf('flies', c.ateFlyId)} on the {c.ateRole}</div>
               </div>
               <span className="tiny num">{clock(c.at)}</span>
-            </div>
+              <span className="tiny" aria-hidden="true">edit</span>
+            </button>
           ))}
         </Card>
       )}
+      {today.length > 0 && <div className="tiny">Tap a fish to fix or delete it.</div>}
 
-      <button
-        type="button" className="ghost"
-        onClick={async () => { await log.end(); reload(); }}
-      >
-        End session
-      </button>
+      {/* Kept well clear of + Fish on purpose: they used to sit eight pixels
+          apart, and one is destructive. */}
+      <div className="danger-zone">
+        <button type="button" className="ghost" onClick={() => onSheet('end')}>
+          End session
+        </button>
+      </div>
     </section>
   );
 }
@@ -231,7 +311,7 @@ function History({ entries, currentId }) {
 // ---------------------------------------------------------------------------
 
 function StartSheet({ trip, slate, onClose, onDone }) {
-  const [regionId, setRegionId] = useState(trip.regionId ?? null);
+  const [regionId, setRegionId] = useState(slate?.regionId ?? trip.regionId ?? null);
   const [waterId, setWaterId] = useState(null);
   const [waterF, setWaterF] = useState('');
   const [light, setLight] = useState(null);
@@ -255,6 +335,9 @@ function StartSheet({ trip, slate, onClose, onDone }) {
       }
     } catch { /* a session without a fix is still a session */ }
 
+    // Only carry the slate if it was built for the water you are actually on.
+    const carry = slate?.flies?.length && slate.regionId === regionId ? slate.flies : [];
+
     await log.start({
       regionId,
       waterId,
@@ -263,12 +346,14 @@ function StartSheet({ trip, slate, onClose, onDone }) {
         light,
         wind,
       },
-      recommended: slate ?? [],
+      recommended: carry,
       gps: gps ?? undefined,
       blurLocation: true,
     });
     onDone();
   }
+
+  const mismatch = slate?.flies?.length && regionId && slate.regionId !== regionId;
 
   return (
     <Sheet title="Start a session" onClose={onClose}>
@@ -290,36 +375,41 @@ function StartSheet({ trip, slate, onClose, onDone }) {
         </Field>
       )}
 
-      <div className="row">
-        <Field label="Water °F">
-          <input type="number" inputMode="numeric" value={waterF}
-                 onChange={(e) => setWaterF(e.target.value)} placeholder="—" />
-        </Field>
-      </div>
+      <Field label="Water °F">
+        <input type="number" inputMode="numeric" value={waterF}
+               onChange={(e) => setWaterF(e.target.value)} placeholder="—" />
+      </Field>
 
-      <div>
-        <div className="tiny" style={{ marginBottom: 6 }}>LIGHT</div>
+      <fieldset className="chipset">
+        <legend>Light</legend>
         <div className="row">
           {LIGHT.map((l) => (
             <button key={l} type="button" className="chip" aria-pressed={light === l}
                     onClick={() => setLight(light === l ? null : l)}>{l}</button>
           ))}
         </div>
-      </div>
+      </fieldset>
 
-      <div>
-        <div className="tiny" style={{ marginBottom: 6 }}>WIND</div>
+      <fieldset className="chipset">
+        <legend>Wind</legend>
         <div className="row">
           {WIND.map((w) => (
             <button key={w} type="button" className="chip" aria-pressed={wind === w}
                     onClick={() => setWind(wind === w ? null : w)}>{w}</button>
           ))}
         </div>
-      </div>
+      </fieldset>
 
-      {slate?.length > 0 && (
+      {slate?.flies?.length > 0 && !mismatch && (
         <div className="tiny">
-          Recording {slate.length} recommended flies with this session.
+          Recording {slate.flies.length} recommended flies with this session.
+        </div>
+      )}
+      {mismatch && (
+        <div className="banner">
+          Your slate was built for {nameOf('regions', slate.regionId)}. It will not
+          be recorded on a {nameOf('regions', regionId)} session — build a new one
+          on Plan if you want it.
         </div>
       )}
 
@@ -335,7 +425,7 @@ function StartSheet({ trip, slate, onClose, onDone }) {
 
 // ---------------------------------------------------------------------------
 
-function RigSheet({ presets, setups = [], gearById = {}, onClose, onDone }) {
+function RigSheet({ presets, setups = [], gearById = {}, slate, onClose, onDone, run }) {
   const [building, setBuilding] = useState(!presets.length);
   const [name, setName] = useState('');
   const [rigId, setRigId] = useState(null);
@@ -343,6 +433,7 @@ function RigSheet({ presets, setups = [], gearById = {}, onClose, onDone }) {
   const [setupId, setSetupId] = useState(null);
 
   const rig = rigId ? record('rigs', rigId) : null;
+
   // Salt rigs offer salt flies. Nothing stops you overriding it, but the
   // default should not make you scroll past forty trout nymphs on a skiff.
   const flyOptions = useMemo(() => {
@@ -359,16 +450,18 @@ function RigSheet({ presets, setups = [], gearById = {}, onClose, onDone }) {
   }
 
   async function saveAndUse() {
-    const preset = await log.savePreset({
-      name: name || (rig?.name ?? 'Rig'),
-      rigId,
-      setupId,
-      flies: slots.filter((s) => s.flyId).map((s) => ({
-        role: s.role, flyId: s.flyId, size: s.size === '' ? null : Number(s.size),
-      })),
+    await run(async () => {
+      const preset = await log.savePreset({
+        name: name || (rig?.name ?? 'Rig'),
+        rigId,
+        setupId,
+        flies: slots.filter((s) => s.flyId).map((s) => ({
+          role: s.role, flyId: s.flyId, size: s.size === '' ? null : Number(s.size),
+        })),
+      });
+      if (setupId) await locker.useSetup(setupId);
+      await log.useRig({ presetId: preset.id });
     });
-    if (setupId) await locker.useSetup(setupId);
-    await log.useRig({ presetId: preset.id });
     onDone();
   }
 
@@ -379,9 +472,11 @@ function RigSheet({ presets, setups = [], gearById = {}, onClose, onDone }) {
           <div className="stack">
             {presets.map((p) => (
               <button key={p.id} type="button" className="big"
-                      onClick={async () => {
-                  if (p.setupId) await locker.useSetup(p.setupId);
-                  await log.useRig({ presetId: p.id });
+                onClick={async () => {
+                  await run(async () => {
+                    if (p.setupId) await locker.useSetup(p.setupId);
+                    await log.useRig({ presetId: p.id });
+                  });
                   onDone();
                 }}>
                 {p.name}
@@ -407,13 +502,15 @@ function RigSheet({ presets, setups = [], gearById = {}, onClose, onDone }) {
           {rig?.useWhen && <div className="tiny">{rig.useWhen}</div>}
 
           {slots.map((s, i) => (
-            <Field key={`${s.role}-${i}`} label={s.role}>
-              <Select
-                value={s.flyId} placeholder="Pick a fly"
+            <fieldset className="chipset" key={`${s.role}-${i}`}>
+              <legend>{s.role}{s.flyId ? ` — ${nameOf('flies', s.flyId)}` : ''}</legend>
+              <FlyPicker
+                value={s.flyId}
                 onChange={(flyId) => setSlots(slots.map((x, j) => (j === i ? { ...x, flyId } : x)))}
                 options={flyOptions}
+                slateIds={(slate?.flies ?? []).map((f) => f.flyId)}
               />
-            </Field>
+            </fieldset>
           ))}
 
           {setups.length > 0 && (
@@ -449,46 +546,67 @@ function RigSheet({ presets, setups = [], gearById = {}, onClose, onDone }) {
   );
 }
 
-
 // ---------------------------------------------------------------------------
 
-function CatchSheet({ session, stint, onClose, onDone }) {
+function CatchSheet({ session, stint, onClose, onDone, run }) {
   const options = session.regionId ? speciesIn(session.regionId) : speciesList;
-  const [speciesId, setSpeciesId] = useState(options[0]?.id ?? null);
+
+  // No default species. A pre-selected chip plus a rushed "Log it" silently
+  // recorded a bonefish in an Idaho river, and there was no way to fix it.
+  const [speciesId, setSpeciesId] = useState(null);
   const [lengthIn, setLengthIn] = useState('');
-  const [ateFlyId, setAteFlyId] = useState(stint.flies[0]?.flyId ?? null);
+  const [ateFlyId, setAteFlyId] = useState(stint.flies.length === 1 ? stint.flies[0].flyId : null);
   const [pb, setPb] = useState(false);
+  const [confirmDiscard, setConfirmDiscard] = useState(false);
+
+  const dirty = speciesId || lengthIn !== '' || (ateFlyId && stint.flies.length > 1) || pb;
+
+  function dismiss() {
+    if (dirty) setConfirmDiscard(true);
+    else onClose();
+  }
 
   async function save() {
-    await log.addCatch({
+    await run(() => log.addCatch({
       speciesId,
       lengthIn: lengthIn === '' ? null : Number(lengthIn),
       ateFlyId,
       personalBest: pb,
-      waterType: null,
-    });
+    }));
     onDone();
   }
 
+  if (confirmDiscard) {
+    return (
+      <Sheet title="Throw this fish away?" onClose={() => setConfirmDiscard(false)}>
+        <p className="muted">You have started entering a fish. Closing loses it.</p>
+        <button type="button" className="primary big" onClick={() => setConfirmDiscard(false)}>
+          Keep entering
+        </button>
+        <button type="button" className="ghost" onClick={onClose}>Discard it</button>
+      </Sheet>
+    );
+  }
+
   return (
-    <Sheet title="Fish on" onClose={onClose}>
-      <div>
-        <div className="tiny" style={{ marginBottom: 6 }}>SPECIES</div>
+    <Sheet title="Fish on" onClose={onClose} onDismiss={dismiss}>
+      <fieldset className="chipset">
+        <legend>Species</legend>
         <div className="row">
           {options.map((s) => (
             <button key={s.id} type="button" className="chip" aria-pressed={speciesId === s.id}
                     onClick={() => setSpeciesId(s.id)}>{s.name}</button>
           ))}
         </div>
-      </div>
+      </fieldset>
 
       <Field label="Length (in)">
         <input type="number" inputMode="decimal" value={lengthIn}
                onChange={(e) => setLengthIn(e.target.value)} placeholder="—" />
       </Field>
 
-      <div>
-        <div className="tiny" style={{ marginBottom: 6 }}>WHICH FLY ATE</div>
+      <fieldset className="chipset">
+        <legend>Which fly ate</legend>
         <div className="stack">
           {stint.flies.map((f) => (
             <button key={f.role} type="button" className="big" aria-pressed={ateFlyId === f.flyId}
@@ -503,7 +621,7 @@ function CatchSheet({ session, stint, onClose, onDone }) {
             </button>
           ))}
         </div>
-      </div>
+      </fieldset>
 
       <button type="button" className="chip" aria-pressed={pb} onClick={() => setPb(!pb)}>
         Personal best
@@ -511,6 +629,97 @@ function CatchSheet({ session, stint, onClose, onDone }) {
 
       <button type="button" className="primary big" onClick={save} disabled={!speciesId || !ateFlyId}>
         Log it
+      </button>
+      {!speciesId && <div className="tiny">Pick a species first.</div>}
+    </Sheet>
+  );
+}
+
+// ---------------------------------------------------------------------------
+
+function EditCatchSheet({ rec, onClose, onDone, run }) {
+  const session = null;
+  const [speciesId, setSpeciesId] = useState(rec.speciesId);
+  const [lengthIn, setLengthIn] = useState(rec.lengthIn ?? '');
+  const [ateFlyId, setAteFlyId] = useState(rec.ateFlyId);
+  const [pb, setPb] = useState(!!rec.personalBest);
+  const [confirmDelete, setConfirmDelete] = useState(false);
+  void session;
+
+  if (confirmDelete) {
+    return (
+      <Sheet title="Delete this fish?" onClose={() => setConfirmDelete(false)}>
+        <p className="muted">
+          {nameOf('species', rec.speciesId)}{rec.lengthIn ? ` · ${rec.lengthIn}"` : ''} on{' '}
+          {nameOf('flies', rec.ateFlyId)}. This cannot be undone, and it changes
+          your rates.
+        </p>
+        <button type="button" className="primary big" onClick={() => setConfirmDelete(false)}>
+          Keep it
+        </button>
+        <button
+          type="button" className="ghost"
+          onClick={async () => { await run(() => log.deleteCatch(rec.id)); onDone(); }}
+        >
+          Delete it
+        </button>
+      </Sheet>
+    );
+  }
+
+  return (
+    <Sheet title="Fix this fish" onClose={onClose}>
+      <fieldset className="chipset">
+        <legend>Species</legend>
+        <div className="row">
+          {speciesList.map((s) => (
+            <button key={s.id} type="button" className="chip" aria-pressed={speciesId === s.id}
+                    onClick={() => setSpeciesId(s.id)}>{s.name}</button>
+          ))}
+        </div>
+      </fieldset>
+
+      <Field label="Length (in)">
+        <input type="number" inputMode="decimal" value={lengthIn}
+               onChange={(e) => setLengthIn(e.target.value)} placeholder="—" />
+      </Field>
+
+      <fieldset className="chipset">
+        <legend>Which fly ate</legend>
+        <div className="stack">
+          {rec.fliesOnRig.map((f) => (
+            <button key={f.role} type="button" className="big" aria-pressed={ateFlyId === f.flyId}
+                    style={ateFlyId === f.flyId
+                      ? { borderColor: 'var(--accent)', background: 'var(--accent-soft)' }
+                      : undefined}
+                    onClick={() => setAteFlyId(f.flyId)}>
+              {nameOf('flies', f.flyId)}
+              <span className="tiny" style={{ display: 'block', fontWeight: 400 }}>on the {f.role}</span>
+            </button>
+          ))}
+        </div>
+      </fieldset>
+
+      <button type="button" className="chip" aria-pressed={pb} onClick={() => setPb(!pb)}>
+        Personal best
+      </button>
+
+      <button
+        type="button" className="primary big"
+        onClick={async () => {
+          await run(() => log.updateCatch(rec.id, {
+            speciesId,
+            lengthIn: lengthIn === '' ? null : Number(lengthIn),
+            ateFlyId,
+            personalBest: pb,
+          }));
+          onDone();
+        }}
+      >
+        Save changes
+      </button>
+      <button type="button" className="ghost" onClick={() => setConfirmDelete(true)}>
+        Delete this fish
       </button>
     </Sheet>
   );
