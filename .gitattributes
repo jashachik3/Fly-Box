@@ -1,0 +1,8 @@
+# Normalise line endings. Windows checkouts stay CRLF locally, but everything
+# is stored and shipped to CI as LF — the deploy runs on Linux.
+* text=auto eol=lf
+
+# Binary, never touched.
+*.png binary
+*.jpg binary
+*.ico binary
