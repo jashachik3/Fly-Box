@@ -1,0 +1,705 @@
+[
+  {
+    "id": "p-bahamas-snapping-shrimp",
+    "name": "Bahamas — snapping shrimp",
+    "status": "draft",
+    "region": "bahamas",
+    "organism": "snapping-shrimp",
+    "stages": [
+      "adult"
+    ],
+    "months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "abundance": "peak",
+    "trigger": "Tide. They are always present; the fish are only on the flat to eat them on part of the cycle.",
+    "notes": "This is why a Bahamas brief is a weather and tide document, not a hatch chart.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "p-bahamas-swimming-crab",
+    "name": "Bahamas — small crabs",
+    "status": "draft",
+    "region": "bahamas",
+    "organism": "swimming-crab",
+    "stages": [
+      "juvenile",
+      "adult",
+      "molting"
+    ],
+    "months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "abundance": "present",
+    "trigger": "Bottom type — grass and rubble hold them, clean sand does not.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "p-bahamas-mantis-shrimp",
+    "name": "Bahamas — mantis shrimp",
+    "status": "draft",
+    "region": "bahamas",
+    "organism": "mantis-shrimp",
+    "stages": [
+      "adult"
+    ],
+    "months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "abundance": "present",
+    "trigger": "Grass and rubble bottom.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "p-bahamas-glass-minnow",
+    "name": "Bahamas — glass minnows",
+    "status": "draft",
+    "region": "bahamas",
+    "organism": "glass-minnow",
+    "stages": [
+      "schooling"
+    ],
+    "months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "abundance": "sparse",
+    "trigger": "Creek mouths and channel edges on moving water.",
+    "notes": "Incidental for bonefish; the reason to have one baitfish fly in the box anyway.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "p-belize-snapping-shrimp",
+    "name": "Belize — snapping shrimp",
+    "status": "draft",
+    "region": "belize",
+    "organism": "snapping-shrimp",
+    "stages": [
+      "adult"
+    ],
+    "months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "abundance": "peak",
+    "trigger": "Tide.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "p-belize-swimming-crab",
+    "name": "Belize — crabs",
+    "status": "draft",
+    "region": "belize",
+    "organism": "swimming-crab",
+    "stages": [
+      "juvenile",
+      "adult",
+      "molting"
+    ],
+    "months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "abundance": "peak",
+    "trigger": "Permit country. Bottom type decides colour.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "p-belize-glass-minnow",
+    "name": "Belize — baitfish",
+    "status": "draft",
+    "region": "belize",
+    "organism": "glass-minnow",
+    "stages": [
+      "schooling"
+    ],
+    "months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "abundance": "present",
+    "trigger": "Lagoons, river mouths and mangrove edges — where the resident juvenile tarpon live.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "p-belize-palolo",
+    "name": "Belize — palolo worm spawn",
+    "status": "draft",
+    "region": "belize",
+    "organism": "palolo-worm",
+    "stages": [
+      "spawning"
+    ],
+    "months": [
+      5,
+      6,
+      7
+    ],
+    "abundance": "peak",
+    "timeOfDay": [
+      "dusk"
+    ],
+    "trigger": "Strong current on an evening tide, in bursts of four to six consecutive nights. Not reliably a moon date.",
+    "notes": "Check the actual tides for your week before packing the fly. This is the least plannable event in the app.",
+    "sources": [
+      "https://midcurrent.com/v2/palolo-worms-and-tarpon-the-most-bizarre-hatch-in-saltwater-and-how-to-fish-it/ — accessed 2026-09-14. NOTE: Florida Keys data used as the closest available proxy; Belize-specific timing is NOT independently confirmed."
+    ]
+  },
+  {
+    "id": "p-honduras-snapping-shrimp",
+    "name": "Honduras — snapping shrimp",
+    "status": "draft",
+    "region": "honduras",
+    "organism": "snapping-shrimp",
+    "stages": [
+      "adult"
+    ],
+    "months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "abundance": "peak",
+    "trigger": "Tide.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "p-honduras-mantis-shrimp",
+    "name": "Honduras — mantis shrimp",
+    "status": "draft",
+    "region": "honduras",
+    "organism": "mantis-shrimp",
+    "stages": [
+      "adult"
+    ],
+    "months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "abundance": "present",
+    "trigger": "Turtle grass.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "p-nccoast-glass-minnow",
+    "name": "NC coast — glass minnows",
+    "status": "reviewed",
+    "region": "nc-coast",
+    "organism": "glass-minnow",
+    "stages": [
+      "schooling"
+    ],
+    "months": [
+      9,
+      10,
+      11,
+      12
+    ],
+    "abundance": "peak",
+    "timeOfDay": [
+      "morning",
+      "midday"
+    ],
+    "trigger": "Falling water temperature pushes bait out of the sounds through the inlets and the albies follow. Best October into November, peaking around the first week of November.",
+    "notes": "The whole fall fishery rides on this one row.",
+    "sources": [
+      "https://www.totalflyfishing.com/north-carolina/false-albacore-fly-fishing/ — accessed 2026-09-14."
+    ]
+  },
+  {
+    "id": "p-nccoast-bay-anchovy",
+    "name": "NC coast — bay anchovy",
+    "status": "draft",
+    "region": "nc-coast",
+    "organism": "bay-anchovy",
+    "stages": [
+      "schooling"
+    ],
+    "months": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "abundance": "present",
+    "trigger": "Warm months through the fall run.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "p-nccoast-swimming-crab",
+    "name": "NC coast — marsh crabs",
+    "status": "draft",
+    "region": "nc-coast",
+    "organism": "swimming-crab",
+    "stages": [
+      "juvenile",
+      "adult"
+    ],
+    "months": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "abundance": "present",
+    "trigger": "Flooding marsh tide.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "p-idaho-bwo",
+    "name": "Idaho — blue-winged olive",
+    "status": "draft",
+    "region": "idaho",
+    "organism": "blue-winged-olive",
+    "stages": [
+      "nymph",
+      "emerger",
+      "dun",
+      "spinner"
+    ],
+    "months": [
+      3,
+      4,
+      5,
+      9,
+      10,
+      11
+    ],
+    "abundance": "peak",
+    "timeOfDay": [
+      "midday",
+      "afternoon"
+    ],
+    "trigger": "Overcast and cold drizzle. A bright spring day shuts it down; a miserable one turns it on.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "p-idaho-pmd",
+    "name": "Idaho — pale morning dun",
+    "status": "draft",
+    "region": "idaho",
+    "organism": "pale-morning-dun",
+    "stages": [
+      "nymph",
+      "emerger",
+      "dun",
+      "spinner"
+    ],
+    "months": [
+      6,
+      7,
+      8
+    ],
+    "abundance": "peak",
+    "timeOfDay": [
+      "morning",
+      "midday"
+    ],
+    "trigger": "Warming water through early summer; spinner fall at dusk.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "p-idaho-caddis",
+    "name": "Idaho — caddis",
+    "status": "draft",
+    "region": "idaho",
+    "organism": "caddis",
+    "stages": [
+      "larva",
+      "pupa",
+      "adult"
+    ],
+    "months": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "abundance": "peak",
+    "timeOfDay": [
+      "afternoon",
+      "dusk"
+    ],
+    "trigger": "Evening warmth. Larvae are available on the bottom regardless of whether adults are flying.",
+    "notes": "The larva row is the one that matters most — it is why a Walt's Worm works in September when nothing is hatching.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "p-idaho-midge",
+    "name": "Idaho — midge",
+    "status": "draft",
+    "region": "idaho",
+    "organism": "midge",
+    "stages": [
+      "larva",
+      "pupa",
+      "adult"
+    ],
+    "months": [
+      1,
+      2,
+      3,
+      4,
+      10,
+      11,
+      12
+    ],
+    "abundance": "present",
+    "timeOfDay": [
+      "midday"
+    ],
+    "trigger": "Cold water with nothing else going on.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "p-idaho-golden-stone",
+    "name": "Idaho — golden stonefly",
+    "status": "draft",
+    "region": "idaho",
+    "organism": "golden-stonefly",
+    "stages": [
+      "nymph"
+    ],
+    "months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "abundance": "present",
+    "trigger": "Always on the bottom — a multi-year nymph, which is why it anchors a rig year-round.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "p-idaho-golden-stone-adult",
+    "name": "Idaho — golden stonefly adults",
+    "status": "draft",
+    "region": "idaho",
+    "organism": "golden-stonefly",
+    "stages": [
+      "adult"
+    ],
+    "months": [
+      6,
+      7
+    ],
+    "abundance": "peak",
+    "trigger": "Nymphs crawling to the bank to emerge.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "p-idaho-scud",
+    "name": "Idaho — scuds",
+    "status": "draft",
+    "region": "idaho",
+    "organism": "scud",
+    "stages": [
+      "adult"
+    ],
+    "months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "abundance": "present",
+    "trigger": "Weed beds; more available when flows change and dislodge them.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "p-idaho-worm",
+    "name": "Idaho — aquatic worms",
+    "status": "draft",
+    "region": "idaho",
+    "organism": "aquatic-worm",
+    "stages": [
+      "adult"
+    ],
+    "months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "abundance": "present",
+    "trigger": "Rising or off-colour water after rain.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "p-ncmtns-bwo",
+    "name": "NC mountains — blue-winged olive",
+    "status": "draft",
+    "region": "nc-mountains",
+    "organism": "blue-winged-olive",
+    "stages": [
+      "nymph",
+      "emerger",
+      "dun"
+    ],
+    "months": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "abundance": "peak",
+    "timeOfDay": [
+      "midday",
+      "afternoon"
+    ],
+    "trigger": "Overcast, cold, damp.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "p-ncmtns-midge",
+    "name": "NC mountains — midge",
+    "status": "draft",
+    "region": "nc-mountains",
+    "organism": "midge",
+    "stages": [
+      "larva",
+      "pupa",
+      "adult"
+    ],
+    "months": [
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "abundance": "peak",
+    "timeOfDay": [
+      "midday",
+      "afternoon"
+    ],
+    "trigger": "The only thing moving on a cold day.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "p-ncmtns-caddis",
+    "name": "NC mountains — caddis",
+    "status": "draft",
+    "region": "nc-mountains",
+    "organism": "caddis",
+    "stages": [
+      "larva",
+      "pupa",
+      "adult"
+    ],
+    "months": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "abundance": "peak",
+    "timeOfDay": [
+      "afternoon",
+      "dusk"
+    ],
+    "trigger": "Warm evenings.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "p-ncmtns-worm",
+    "name": "NC mountains — aquatic worms",
+    "status": "draft",
+    "region": "nc-mountains",
+    "organism": "aquatic-worm",
+    "stages": [
+      "adult"
+    ],
+    "months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "abundance": "present",
+    "trigger": "Freestone streams blow out fast after rain — this is the fly for the day after.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  }
+]

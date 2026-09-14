@@ -1,0 +1,285 @@
+[
+  {
+    "id": "flats-8wt-floating",
+    "name": "Flats 8-weight, floating",
+    "status": "draft",
+    "water": "salt",
+    "lineWeight": [
+      8,
+      8
+    ],
+    "line": "Floating, tropical-core, saltwater taper",
+    "leaderFt": 12,
+    "leaderSections": [
+      {
+        "material": "Hard mono butt",
+        "lb": 40,
+        "ft": 5
+      },
+      {
+        "material": "Hard mono mid",
+        "lb": 25,
+        "ft": 3
+      },
+      {
+        "material": "Fluorocarbon tippet",
+        "lb": 16,
+        "ft": 4
+      }
+    ],
+    "flies": [
+      {
+        "role": "single",
+        "notes": "One fly. Eye weight is the depth decision."
+      }
+    ],
+    "knot": "non-slip-mono-loop",
+    "useWhen": "Calm to light wind, skinny water, spooky fish. Lengthen the tippet as it gets flatter and calmer.",
+    "notes": "The default Bahamas bonefish setup.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "flats-9wt-wind",
+    "name": "Flats 9-weight, wind",
+    "status": "draft",
+    "water": "salt",
+    "lineWeight": [
+      9,
+      9
+    ],
+    "line": "Floating, tropical-core, short aggressive head",
+    "leaderFt": 9,
+    "leaderSections": [
+      {
+        "material": "Hard mono butt",
+        "lb": 40,
+        "ft": 4
+      },
+      {
+        "material": "Hard mono mid",
+        "lb": 25,
+        "ft": 2
+      },
+      {
+        "material": "Fluorocarbon tippet",
+        "lb": 16,
+        "ft": 3
+      }
+    ],
+    "flies": [
+      {
+        "role": "single"
+      }
+    ],
+    "knot": "non-slip-mono-loop",
+    "useWhen": "Moderate to strong wind, bigger flies, permit, or albacore. A shorter leader turns over when a long one will not.",
+    "notes": "The honest answer to a windy morning is a heavier rod and a shorter leader, not a better cast.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "tarpon-11wt",
+    "name": "Tarpon 11-weight",
+    "status": "draft",
+    "water": "salt",
+    "lineWeight": [
+      11,
+      12
+    ],
+    "line": "Floating tarpon taper",
+    "leaderFt": 9,
+    "leaderSections": [
+      {
+        "material": "Hard mono butt",
+        "lb": 50,
+        "ft": 4
+      },
+      {
+        "material": "Class tippet (fluorocarbon)",
+        "lb": 20,
+        "ft": 2
+      },
+      {
+        "material": "Bite tippet (fluorocarbon)",
+        "lb": 60,
+        "ft": 1
+      }
+    ],
+    "flies": [
+      {
+        "role": "single"
+      }
+    ],
+    "knot": "non-slip-mono-loop",
+    "useWhen": "Migratory adult tarpon. Resident juveniles are a 9–10 weight with 30–40 lb bite and no ceremony.",
+    "notes": "Class-to-bite junction is an Albright.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "euro-double-nymph",
+    "name": "Euro double-nymph",
+    "status": "draft",
+    "water": "fresh",
+    "lineWeight": [
+      2,
+      4
+    ],
+    "line": "Level euro line / mono rig",
+    "leaderFt": 20,
+    "leaderSections": [
+      {
+        "material": "Level mono butt",
+        "lb": 12,
+        "ft": 12
+      },
+      {
+        "material": "Sighter mono",
+        "lb": 8,
+        "ft": 2
+      },
+      {
+        "material": "Tippet",
+        "x": "5X",
+        "lb": 5,
+        "ft": 5
+      }
+    ],
+    "flies": [
+      {
+        "role": "point",
+        "notes": "The heavy fly. It sets the depth."
+      },
+      {
+        "role": "dropper",
+        "notes": "18–24 in above the point, on a tag or ring."
+      }
+    ],
+    "knot": "pitzen",
+    "useWhen": "Riffles, seams and pocket water where you can hold a tight line within a rod-and-a-half of the fish.",
+    "notes": "Jeff's biggest cutthroat came on this rig: Walt's Worm on point, Pheasant Tail dropper, 3 ft seam.",
+    "sources": [
+      "Jeff's log, 2026-09-12"
+    ]
+  },
+  {
+    "id": "dry-dropper-floating",
+    "name": "Dry-dropper, floating line",
+    "status": "draft",
+    "water": "fresh",
+    "lineWeight": [
+      4,
+      5
+    ],
+    "line": "Floating, weight-forward",
+    "leaderFt": 9,
+    "leaderSections": [
+      {
+        "material": "Tapered leader",
+        "x": "4X",
+        "lb": 6,
+        "ft": 9
+      },
+      {
+        "material": "Tippet to dropper",
+        "x": "5X",
+        "lb": 5,
+        "ft": 2
+      }
+    ],
+    "flies": [
+      {
+        "role": "dry",
+        "notes": "Buoyant enough to carry the dropper — this is the constraint, not the imitation."
+      },
+      {
+        "role": "dropper",
+        "notes": "Off the hook bend, 18–36 in depending on depth."
+      }
+    ],
+    "knot": "pitzen",
+    "useWhen": "Shallower water, spread-out fish, or when you want the dry to actually be eaten rather than just float.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "indicator-nymph",
+    "name": "Indicator nymph",
+    "status": "draft",
+    "water": "fresh",
+    "lineWeight": [
+      4,
+      6
+    ],
+    "line": "Floating, weight-forward",
+    "leaderFt": 9,
+    "leaderSections": [
+      {
+        "material": "Tapered leader",
+        "x": "4X",
+        "lb": 6,
+        "ft": 9
+      },
+      {
+        "material": "Tippet",
+        "x": "5X",
+        "lb": 5,
+        "ft": 3
+      }
+    ],
+    "flies": [
+      {
+        "role": "point"
+      },
+      {
+        "role": "dropper"
+      }
+    ],
+    "knot": "pitzen",
+    "useWhen": "Deeper or farther than a tight-line rig can reach.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "streamer-sink-tip",
+    "name": "Streamer, sink tip",
+    "status": "draft",
+    "water": "fresh",
+    "lineWeight": [
+      6,
+      7
+    ],
+    "line": "Floating with sinking tip",
+    "leaderFt": 6,
+    "leaderSections": [
+      {
+        "material": "Mono butt",
+        "lb": 15,
+        "ft": 3
+      },
+      {
+        "material": "Fluorocarbon tippet",
+        "lb": 10,
+        "ft": 3
+      }
+    ],
+    "flies": [
+      {
+        "role": "single",
+        "notes": "Loop knot so it swims."
+      }
+    ],
+    "knot": "non-slip-mono-loop",
+    "useWhen": "Off-color water, low light, big browns.",
+    "notes": "House rule: streamers get a loop knot, same as saltwater.",
+    "sources": [
+      "Jeff's stated knot policy"
+    ]
+  }
+]

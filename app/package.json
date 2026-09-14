@@ -1,0 +1,22 @@
+{
+  "name": "flybox",
+  "private": true,
+  "version": "0.4.0",
+  "type": "module",
+  "scripts": {
+    "content": "node ../content/build.mjs",
+    "dev": "npm run content && vite",
+    "build": "npm run content && vite build",
+    "preview": "vite preview",
+    "check": "node ../content/validate.mjs && node ../tools/log-demo.mjs"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "4.3.4",
+    "vite": "5.4.11",
+    "vite-plugin-pwa": "0.21.1"
+  }
+}

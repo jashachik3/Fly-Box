@@ -1,0 +1,1106 @@
+[
+  {
+    "id": "gotcha",
+    "name": "Gotcha",
+    "status": "draft",
+    "water": "salt",
+    "family": "gotcha",
+    "hookSizes": [
+      4,
+      8
+    ],
+    "weight": "bead-chain",
+    "roles": [
+      "single"
+    ],
+    "defaultKnot": "non-slip-mono-loop",
+    "image": "assets/gotcha.jpg",
+    "tiedFor": "Generic shrimp on hard sand. The Bahamas default — if you only carry one, carry this.",
+    "sources": [
+      "NEEDS REVIEW"
+    ],
+    "retrieve": "shrimp-hop"
+  },
+  {
+    "id": "gotcha-pink",
+    "name": "Gotcha — pink",
+    "status": "draft",
+    "water": "salt",
+    "family": "gotcha",
+    "variantOf": "gotcha",
+    "color": "pink",
+    "hookSizes": [
+      4,
+      8
+    ],
+    "weight": "bead-chain",
+    "roles": [
+      "single"
+    ],
+    "defaultKnot": "non-slip-mono-loop",
+    "image": "assets/gotcha-pink.jpg",
+    "tiedFor": "The original. Pink wing over pearl body, bright bottoms.",
+    "retrieve": "shrimp-hop"
+  },
+  {
+    "id": "gotcha-tan",
+    "name": "Gotcha — tan",
+    "status": "draft",
+    "water": "salt",
+    "family": "gotcha",
+    "variantOf": "gotcha",
+    "color": "tan",
+    "hookSizes": [
+      4,
+      8
+    ],
+    "weight": "bead-chain",
+    "roles": [
+      "single"
+    ],
+    "defaultKnot": "non-slip-mono-loop",
+    "image": "assets/gotcha-tan.jpg",
+    "tiedFor": "Quieter version for bright light and pressured fish.",
+    "retrieve": "shrimp-hop"
+  },
+  {
+    "id": "crazy-charlie",
+    "name": "Crazy Charlie",
+    "status": "draft",
+    "water": "salt",
+    "family": "crazy-charlie",
+    "hookSizes": [
+      4,
+      8
+    ],
+    "weight": "bead-chain",
+    "roles": [
+      "single"
+    ],
+    "defaultKnot": "non-slip-mono-loop",
+    "image": "assets/crazy-charlie.jpg",
+    "tiedFor": "Rides hook-point up over shallow sand; the fly every other bonefish fly argues with.",
+    "sources": [
+      "NEEDS REVIEW"
+    ],
+    "retrieve": "shrimp-hop"
+  },
+  {
+    "id": "crazy-charlie-tan",
+    "name": "Crazy Charlie — tan",
+    "status": "draft",
+    "water": "salt",
+    "family": "crazy-charlie",
+    "variantOf": "crazy-charlie",
+    "color": "tan",
+    "hookSizes": [
+      4,
+      8
+    ],
+    "weight": "bead-chain",
+    "roles": [
+      "single"
+    ],
+    "defaultKnot": "non-slip-mono-loop",
+    "image": "assets/crazy-charlie-tan.jpg",
+    "tiedFor": "Sand bottom, bright light.",
+    "retrieve": "shrimp-hop"
+  },
+  {
+    "id": "crazy-charlie-pink",
+    "name": "Crazy Charlie — pink",
+    "status": "draft",
+    "water": "salt",
+    "family": "crazy-charlie",
+    "variantOf": "crazy-charlie",
+    "color": "pink",
+    "hookSizes": [
+      4,
+      8
+    ],
+    "weight": "bead-chain",
+    "roles": [
+      "single"
+    ],
+    "defaultKnot": "non-slip-mono-loop",
+    "image": "assets/crazy-charlie-pink.jpg",
+    "tiedFor": "Off-color water or low light, when they need to find it.",
+    "retrieve": "shrimp-hop"
+  },
+  {
+    "id": "veverkas-mantis-shrimp",
+    "name": "Veverka's Mantis Shrimp",
+    "status": "draft",
+    "water": "salt",
+    "family": "veverkas-mantis-shrimp",
+    "color": "olive",
+    "hookSizes": [
+      2,
+      6
+    ],
+    "weight": "lead-eyes",
+    "roles": [
+      "single"
+    ],
+    "defaultKnot": "non-slip-mono-loop",
+    "image": "assets/veverkas-mantis-shrimp.jpg",
+    "tiedFor": "Bigger mouthful over grass. The fly to show a fish that refused a small tan one.",
+    "sources": [
+      "NEEDS REVIEW"
+    ],
+    "retrieve": "shrimp-hop"
+  },
+  {
+    "id": "bonefish-bitters",
+    "name": "Bonefish Bitters",
+    "status": "draft",
+    "water": "salt",
+    "family": "bonefish-bitters",
+    "hookSizes": [
+      4,
+      8
+    ],
+    "weight": "bead-chain",
+    "roles": [
+      "single"
+    ],
+    "defaultKnot": "non-slip-mono-loop",
+    "image": "assets/bonefish-bitters.jpg",
+    "tiedFor": "Small crab and shrimp profile that lands soft — the skinny-water, spooky-fish answer.",
+    "sources": [
+      "NEEDS REVIEW"
+    ],
+    "retrieve": "shrimp-hop"
+  },
+  {
+    "id": "bonefish-bitters-amber",
+    "name": "Bonefish Bitters — amber",
+    "status": "draft",
+    "water": "salt",
+    "family": "bonefish-bitters",
+    "variantOf": "bonefish-bitters",
+    "color": "amber",
+    "hookSizes": [
+      4,
+      8
+    ],
+    "weight": "bead-chain",
+    "roles": [
+      "single"
+    ],
+    "defaultKnot": "non-slip-mono-loop",
+    "image": "assets/bonefish-bitters-amber.jpg",
+    "tiedFor": "Turtle grass and mixed bottom.",
+    "retrieve": "shrimp-hop"
+  },
+  {
+    "id": "bonefish-bitters-chartreuse",
+    "name": "Bonefish Bitters — chartreuse",
+    "status": "draft",
+    "water": "salt",
+    "family": "bonefish-bitters",
+    "variantOf": "bonefish-bitters",
+    "color": "chartreuse",
+    "hookSizes": [
+      4,
+      8
+    ],
+    "weight": "bead-chain",
+    "roles": [
+      "single"
+    ],
+    "defaultKnot": "non-slip-mono-loop",
+    "image": "assets/bonefish-bitters-chartreuse.jpg",
+    "tiedFor": "Grass bottom where a tan fly disappears.",
+    "retrieve": "shrimp-hop"
+  },
+  {
+    "id": "squimp",
+    "name": "Squimp",
+    "status": "draft",
+    "water": "salt",
+    "family": "squimp",
+    "color": "tan",
+    "hookSizes": [
+      4,
+      8
+    ],
+    "weight": "bead-chain",
+    "roles": [
+      "single"
+    ],
+    "defaultKnot": "non-slip-mono-loop",
+    "image": "assets/squimp.jpg",
+    "tiedFor": "Squid-shrimp hybrid profile; a good change-up when the Gotcha is being refused.",
+    "sources": [
+      "NEEDS REVIEW"
+    ],
+    "retrieve": "shrimp-hop"
+  },
+  {
+    "id": "strong-arm-merkin",
+    "name": "Strong Arm Merkin",
+    "status": "draft",
+    "water": "salt",
+    "family": "strong-arm-merkin",
+    "hookSizes": [
+      2,
+      6
+    ],
+    "weight": "lead-eyes",
+    "roles": [
+      "single"
+    ],
+    "defaultKnot": "non-slip-mono-loop",
+    "image": "assets/strong-arm-merkin.jpg",
+    "tiedFor": "Crab that drops to the bottom claws-up. The permit fly.",
+    "sources": [
+      "NEEDS REVIEW"
+    ],
+    "retrieve": "crab-drop"
+  },
+  {
+    "id": "strong-arm-merkin-tan",
+    "name": "Strong Arm Merkin — tan",
+    "status": "draft",
+    "water": "salt",
+    "family": "strong-arm-merkin",
+    "variantOf": "strong-arm-merkin",
+    "color": "tan",
+    "hookSizes": [
+      2,
+      6
+    ],
+    "weight": "lead-eyes",
+    "roles": [
+      "single"
+    ],
+    "defaultKnot": "non-slip-mono-loop",
+    "image": "assets/strong-arm-merkin-tan.jpg",
+    "tiedFor": "Sand bottom.",
+    "retrieve": "crab-drop"
+  },
+  {
+    "id": "strong-arm-merkin-olive",
+    "name": "Strong Arm Merkin — olive",
+    "status": "draft",
+    "water": "salt",
+    "family": "strong-arm-merkin",
+    "variantOf": "strong-arm-merkin",
+    "color": "olive",
+    "hookSizes": [
+      2,
+      6
+    ],
+    "weight": "lead-eyes",
+    "roles": [
+      "single"
+    ],
+    "defaultKnot": "non-slip-mono-loop",
+    "image": "assets/strong-arm-merkin-olive.jpg",
+    "tiedFor": "Grass and rubble.",
+    "retrieve": "crab-drop"
+  },
+  {
+    "id": "avalon-permit",
+    "name": "Avalon",
+    "status": "draft",
+    "water": "salt",
+    "family": "avalon",
+    "color": "tan",
+    "hookSizes": [
+      2,
+      4
+    ],
+    "weight": "lead-eyes",
+    "roles": [
+      "single"
+    ],
+    "defaultKnot": "non-slip-mono-loop",
+    "image": "assets/avalon-permit.jpg",
+    "tiedFor": "Heavy crab with trailing beads that kick up sand on the drop.",
+    "sources": [
+      "NEEDS REVIEW"
+    ],
+    "retrieve": "crab-drop"
+  },
+  {
+    "id": "tarpon-toad",
+    "name": "Tarpon Toad",
+    "status": "draft",
+    "water": "salt",
+    "family": "tarpon-toad",
+    "hookSizes": [
+      1,
+      3
+    ],
+    "weight": "unweighted",
+    "roles": [
+      "single"
+    ],
+    "defaultKnot": "non-slip-mono-loop",
+    "image": "assets/tarpon-toad.jpg",
+    "tiedFor": "Broad, slow-sinking profile that hangs in front of a moving fish.",
+    "sources": [
+      "NEEDS REVIEW"
+    ],
+    "retrieve": "tarpon-swim"
+  },
+  {
+    "id": "tarpon-toad-black",
+    "name": "Tarpon Toad — black",
+    "status": "draft",
+    "water": "salt",
+    "family": "tarpon-toad",
+    "variantOf": "tarpon-toad",
+    "color": "black",
+    "hookSizes": [
+      1,
+      3
+    ],
+    "weight": "unweighted",
+    "roles": [
+      "single"
+    ],
+    "defaultKnot": "non-slip-mono-loop",
+    "image": "assets/tarpon-toad-black.jpg",
+    "tiedFor": "Low light, dirty water, night.",
+    "retrieve": "tarpon-swim"
+  },
+  {
+    "id": "tarpon-toad-tan",
+    "name": "Tarpon Toad — tan",
+    "status": "draft",
+    "water": "salt",
+    "family": "tarpon-toad",
+    "variantOf": "tarpon-toad",
+    "color": "tan",
+    "hookSizes": [
+      1,
+      3
+    ],
+    "weight": "unweighted",
+    "roles": [
+      "single"
+    ],
+    "defaultKnot": "non-slip-mono-loop",
+    "image": "assets/tarpon-toad-tan.jpg",
+    "tiedFor": "Clear water, bright light, shallow.",
+    "retrieve": "tarpon-swim"
+  },
+  {
+    "id": "clouser-minnow",
+    "name": "Clouser Minnow",
+    "status": "draft",
+    "water": "salt",
+    "family": "clouser-minnow",
+    "hookSizes": [
+      1,
+      6
+    ],
+    "weight": "lead-eyes",
+    "roles": [
+      "single"
+    ],
+    "defaultKnot": "non-slip-mono-loop",
+    "image": "assets/clouser-minnow.jpg",
+    "tiedFor": "Baitfish that jigs. Works everywhere something eats a minnow.",
+    "sources": [
+      "NEEDS REVIEW"
+    ],
+    "retrieve": "baitfish-flee"
+  },
+  {
+    "id": "clouser-minnow-chartreuse-white",
+    "name": "Clouser Minnow — chartreuse/white",
+    "status": "draft",
+    "water": "salt",
+    "family": "clouser-minnow",
+    "variantOf": "clouser-minnow",
+    "color": "chartreuse-white",
+    "hookSizes": [
+      1,
+      6
+    ],
+    "weight": "lead-eyes",
+    "roles": [
+      "single"
+    ],
+    "defaultKnot": "non-slip-mono-loop",
+    "image": "assets/clouser-minnow-chartreuse-white.jpg",
+    "tiedFor": "Stained water and low light.",
+    "retrieve": "baitfish-flee"
+  },
+  {
+    "id": "clouser-minnow-olive-white",
+    "name": "Clouser Minnow — olive/white",
+    "status": "draft",
+    "water": "salt",
+    "family": "clouser-minnow",
+    "variantOf": "clouser-minnow",
+    "color": "olive-white",
+    "hookSizes": [
+      1,
+      6
+    ],
+    "weight": "lead-eyes",
+    "roles": [
+      "single"
+    ],
+    "defaultKnot": "non-slip-mono-loop",
+    "image": "assets/clouser-minnow-olive-white.jpg",
+    "tiedFor": "Clear water baitfish match.",
+    "retrieve": "baitfish-flee"
+  },
+  {
+    "id": "ep-baitfish",
+    "name": "EP Baitfish",
+    "status": "draft",
+    "water": "salt",
+    "family": "ep-baitfish",
+    "color": "olive-white",
+    "hookSizes": [
+      1,
+      4
+    ],
+    "weight": "unweighted",
+    "roles": [
+      "single"
+    ],
+    "defaultKnot": "non-slip-mono-loop",
+    "image": "assets/ep-baitfish.jpg",
+    "tiedFor": "Wide, translucent baitfish profile that holds shape in the water.",
+    "sources": [
+      "NEEDS REVIEW"
+    ],
+    "retrieve": "baitfish-wounded"
+  },
+  {
+    "id": "gurgler",
+    "name": "Gurgler",
+    "status": "draft",
+    "water": "salt",
+    "family": "gurgler",
+    "color": "white",
+    "hookSizes": [
+      1,
+      4
+    ],
+    "weight": "unweighted",
+    "roles": [
+      "single"
+    ],
+    "defaultKnot": "non-slip-mono-loop",
+    "image": "assets/gurgler.jpg",
+    "tiedFor": "Surface disturbance for fish that will come up — mangrove edges and low light.",
+    "sources": [
+      "NEEDS REVIEW"
+    ],
+    "retrieve": "gurgle-pop"
+  },
+  {
+    "id": "palolo-worm-fly",
+    "name": "Palolo Worm fly",
+    "status": "draft",
+    "water": "salt",
+    "family": "palolo-worm-fly",
+    "color": "orange",
+    "hookSizes": [
+      2,
+      4
+    ],
+    "weight": "unweighted",
+    "roles": [
+      "single"
+    ],
+    "defaultKnot": "non-slip-mono-loop",
+    "image": "assets/palolo-worm-fly.jpg",
+    "tiedFor": "The one event where a specific fly beats every general one.",
+    "sources": [
+      "NEEDS REVIEW"
+    ],
+    "retrieve": "worm-swim"
+  },
+  {
+    "id": "walts-worm",
+    "name": "Walt's Worm",
+    "status": "draft",
+    "water": "fresh",
+    "family": "walts-worm",
+    "color": "natural",
+    "hookSizes": [
+      12,
+      18
+    ],
+    "weight": "tungsten",
+    "roles": [
+      "point",
+      "dropper",
+      "single"
+    ],
+    "defaultKnot": "pitzen",
+    "image": "assets/walts-worm.jpg",
+    "tiedFor": "Suggests a sowbug, a scud, a caddis larva, a mayfly nymph — it refuses to be one thing, which is why it works.",
+    "notes": "Named for Walt Young. Not 'waltz'.",
+    "sources": [
+      "Jeff's log, 2026-09-12"
+    ],
+    "retrieve": "dead-drift"
+  },
+  {
+    "id": "walts-worm-hot-spot",
+    "name": "Walt's Worm — hot spot",
+    "status": "draft",
+    "water": "fresh",
+    "family": "walts-worm",
+    "variantOf": "walts-worm",
+    "color": "natural/orange",
+    "hookSizes": [
+      12,
+      18
+    ],
+    "weight": "tungsten",
+    "roles": [
+      "point",
+      "dropper"
+    ],
+    "defaultKnot": "pitzen",
+    "image": "assets/walts-worm-hot-spot.jpg",
+    "tiedFor": "Same fly with a collar of colour — off-color water and pressured fish.",
+    "retrieve": "dead-drift"
+  },
+  {
+    "id": "pheasant-tail",
+    "name": "Pheasant Tail",
+    "status": "draft",
+    "water": "fresh",
+    "family": "pheasant-tail",
+    "color": "natural",
+    "hookSizes": [
+      14,
+      20
+    ],
+    "weight": "beadhead",
+    "roles": [
+      "dropper",
+      "point",
+      "single"
+    ],
+    "defaultKnot": "pitzen",
+    "image": "assets/pheasant-tail.jpg",
+    "tiedFor": "Slim mayfly nymph. The dropper above a heavier point fly.",
+    "sources": [
+      "Jeff's log, 2026-09-12"
+    ],
+    "retrieve": "dead-drift"
+  },
+  {
+    "id": "pheasant-tail-flashback",
+    "name": "Pheasant Tail — flashback",
+    "status": "draft",
+    "water": "fresh",
+    "family": "pheasant-tail",
+    "variantOf": "pheasant-tail",
+    "color": "natural/pearl",
+    "hookSizes": [
+      14,
+      20
+    ],
+    "weight": "beadhead",
+    "roles": [
+      "dropper",
+      "point"
+    ],
+    "defaultKnot": "pitzen",
+    "image": "assets/pheasant-tail-flashback.jpg",
+    "tiedFor": "Broken water and low light, where the natural gets lost.",
+    "retrieve": "dead-drift"
+  },
+  {
+    "id": "frenchie",
+    "name": "Frenchie",
+    "status": "draft",
+    "water": "fresh",
+    "family": "frenchie",
+    "color": "natural/pink",
+    "hookSizes": [
+      12,
+      18
+    ],
+    "weight": "tungsten",
+    "roles": [
+      "point",
+      "dropper"
+    ],
+    "defaultKnot": "pitzen",
+    "image": "assets/frenchie.jpg",
+    "tiedFor": "Pheasant Tail with a hot collar — the euro anchor fly when you want attention.",
+    "sources": [
+      "NEEDS REVIEW"
+    ],
+    "retrieve": "dead-drift"
+  },
+  {
+    "id": "perdigon",
+    "name": "Perdigon",
+    "status": "draft",
+    "water": "fresh",
+    "family": "perdigon",
+    "hookSizes": [
+      14,
+      20
+    ],
+    "weight": "tungsten",
+    "roles": [
+      "point"
+    ],
+    "defaultKnot": "pitzen",
+    "image": "assets/perdigon.jpg",
+    "tiedFor": "Slick resin body that cuts current and gets down fast. Depth first, imitation second.",
+    "sources": [
+      "NEEDS REVIEW"
+    ],
+    "retrieve": "dead-drift"
+  },
+  {
+    "id": "perdigon-olive",
+    "name": "Perdigon — olive",
+    "status": "draft",
+    "water": "fresh",
+    "family": "perdigon",
+    "variantOf": "perdigon",
+    "color": "olive",
+    "hookSizes": [
+      14,
+      20
+    ],
+    "weight": "tungsten",
+    "roles": [
+      "point"
+    ],
+    "defaultKnot": "pitzen",
+    "image": "assets/perdigon-olive.jpg",
+    "tiedFor": "Baetis-coloured, clear water.",
+    "retrieve": "dead-drift"
+  },
+  {
+    "id": "perdigon-black",
+    "name": "Perdigon — black",
+    "status": "draft",
+    "water": "fresh",
+    "family": "perdigon",
+    "variantOf": "perdigon",
+    "color": "black",
+    "hookSizes": [
+      14,
+      20
+    ],
+    "weight": "tungsten",
+    "roles": [
+      "point"
+    ],
+    "defaultKnot": "pitzen",
+    "image": "assets/perdigon-black.jpg",
+    "tiedFor": "Silhouette in bright light or thin water.",
+    "retrieve": "dead-drift"
+  },
+  {
+    "id": "zebra-midge",
+    "name": "Zebra Midge",
+    "status": "draft",
+    "water": "fresh",
+    "family": "zebra-midge",
+    "hookSizes": [
+      18,
+      22
+    ],
+    "weight": "beadhead",
+    "roles": [
+      "dropper"
+    ],
+    "defaultKnot": "pitzen",
+    "image": "assets/zebra-midge.jpg",
+    "tiedFor": "Midge pupa. Two materials and a bead, and it outfishes far more complicated flies in winter.",
+    "sources": [
+      "NEEDS REVIEW"
+    ],
+    "retrieve": "dead-drift"
+  },
+  {
+    "id": "zebra-midge-black",
+    "name": "Zebra Midge — black",
+    "status": "draft",
+    "water": "fresh",
+    "family": "zebra-midge",
+    "variantOf": "zebra-midge",
+    "color": "black",
+    "hookSizes": [
+      18,
+      22
+    ],
+    "weight": "beadhead",
+    "roles": [
+      "dropper"
+    ],
+    "defaultKnot": "pitzen",
+    "image": "assets/zebra-midge-black.jpg",
+    "tiedFor": "The default. Start here.",
+    "retrieve": "dead-drift"
+  },
+  {
+    "id": "zebra-midge-red",
+    "name": "Zebra Midge — red",
+    "status": "draft",
+    "water": "fresh",
+    "family": "zebra-midge",
+    "variantOf": "zebra-midge",
+    "color": "red",
+    "hookSizes": [
+      18,
+      22
+    ],
+    "weight": "beadhead",
+    "roles": [
+      "dropper"
+    ],
+    "defaultKnot": "pitzen",
+    "image": "assets/zebra-midge-red.jpg",
+    "tiedFor": "Blood-midge larvae in silty, slow water.",
+    "retrieve": "dead-drift"
+  },
+  {
+    "id": "rs2",
+    "name": "RS2",
+    "status": "draft",
+    "water": "fresh",
+    "family": "rs2",
+    "color": "grey",
+    "hookSizes": [
+      18,
+      22
+    ],
+    "weight": "unweighted",
+    "roles": [
+      "dropper",
+      "trailer"
+    ],
+    "defaultKnot": "pitzen",
+    "image": "assets/rs2.jpg",
+    "tiedFor": "Mayfly emerger hanging in or just under the film — the fly for refusals during a BWO hatch.",
+    "sources": [
+      "NEEDS REVIEW"
+    ],
+    "retrieve": "dead-drift"
+  },
+  {
+    "id": "parachute-adams",
+    "name": "Parachute Adams",
+    "status": "draft",
+    "water": "fresh",
+    "family": "parachute-adams",
+    "color": "grey",
+    "hookSizes": [
+      12,
+      22
+    ],
+    "weight": "unweighted",
+    "roles": [
+      "dry",
+      "single"
+    ],
+    "defaultKnot": "pitzen",
+    "image": "assets/parachute-adams.jpg",
+    "tiedFor": "Generic mayfly dun with a visible post. If one dry fly had to cover the year, this.",
+    "sources": [
+      "NEEDS REVIEW"
+    ],
+    "retrieve": "dead-drift"
+  },
+  {
+    "id": "elk-hair-caddis",
+    "name": "Elk Hair Caddis",
+    "status": "draft",
+    "water": "fresh",
+    "family": "elk-hair-caddis",
+    "hookSizes": [
+      12,
+      18
+    ],
+    "weight": "unweighted",
+    "roles": [
+      "dry",
+      "single"
+    ],
+    "defaultKnot": "pitzen",
+    "image": "assets/elk-hair-caddis.jpg",
+    "tiedFor": "Adult caddis; floats high enough to carry a dropper.",
+    "sources": [
+      "NEEDS REVIEW"
+    ],
+    "retrieve": "twitch-pause"
+  },
+  {
+    "id": "elk-hair-caddis-tan",
+    "name": "Elk Hair Caddis — tan",
+    "status": "draft",
+    "water": "fresh",
+    "family": "elk-hair-caddis",
+    "variantOf": "elk-hair-caddis",
+    "color": "tan",
+    "hookSizes": [
+      12,
+      18
+    ],
+    "weight": "unweighted",
+    "roles": [
+      "dry"
+    ],
+    "defaultKnot": "pitzen",
+    "image": "assets/elk-hair-caddis-tan.jpg",
+    "tiedFor": "The default caddis colour.",
+    "retrieve": "twitch-pause"
+  },
+  {
+    "id": "elk-hair-caddis-olive",
+    "name": "Elk Hair Caddis — olive",
+    "status": "draft",
+    "water": "fresh",
+    "family": "elk-hair-caddis",
+    "variantOf": "elk-hair-caddis",
+    "color": "olive",
+    "hookSizes": [
+      12,
+      18
+    ],
+    "weight": "unweighted",
+    "roles": [
+      "dry"
+    ],
+    "defaultKnot": "pitzen",
+    "image": "assets/elk-hair-caddis-olive.jpg",
+    "tiedFor": "Darker naturals, later season.",
+    "retrieve": "twitch-pause"
+  },
+  {
+    "id": "griffiths-gnat",
+    "name": "Griffith's Gnat",
+    "status": "draft",
+    "water": "fresh",
+    "family": "griffiths-gnat",
+    "color": "grey",
+    "hookSizes": [
+      18,
+      24
+    ],
+    "weight": "unweighted",
+    "roles": [
+      "dry"
+    ],
+    "defaultKnot": "pitzen",
+    "image": "assets/griffiths-gnat.jpg",
+    "tiedFor": "A cluster of midges, not one — which is what fish are actually eating on a cold flat afternoon.",
+    "sources": [
+      "NEEDS REVIEW"
+    ],
+    "retrieve": "dead-drift"
+  },
+  {
+    "id": "pats-rubber-legs",
+    "name": "Pat's Rubber Legs",
+    "status": "draft",
+    "water": "fresh",
+    "family": "pats-rubber-legs",
+    "color": "brown-black",
+    "hookSizes": [
+      6,
+      12
+    ],
+    "weight": "wire",
+    "roles": [
+      "point"
+    ],
+    "defaultKnot": "pitzen",
+    "image": "assets/pats-rubber-legs.jpg",
+    "tiedFor": "Stonefly nymph. Heavy, ugly, and it anchors a rig all year.",
+    "sources": [
+      "NEEDS REVIEW"
+    ],
+    "retrieve": "dead-drift"
+  },
+  {
+    "id": "scud-fly",
+    "name": "Scud",
+    "status": "draft",
+    "water": "fresh",
+    "family": "scud-fly",
+    "hookSizes": [
+      12,
+      18
+    ],
+    "weight": "beadhead",
+    "roles": [
+      "point",
+      "dropper"
+    ],
+    "defaultKnot": "pitzen",
+    "image": "assets/scud-fly.jpg",
+    "tiedFor": "Freshwater shrimp, curled on the hook.",
+    "sources": [
+      "NEEDS REVIEW"
+    ],
+    "retrieve": "dead-drift"
+  },
+  {
+    "id": "scud-fly-olive",
+    "name": "Scud — olive",
+    "status": "draft",
+    "water": "fresh",
+    "family": "scud-fly",
+    "variantOf": "scud-fly",
+    "color": "olive",
+    "hookSizes": [
+      12,
+      18
+    ],
+    "weight": "beadhead",
+    "roles": [
+      "point",
+      "dropper"
+    ],
+    "defaultKnot": "pitzen",
+    "image": "assets/scud-fly-olive.jpg",
+    "tiedFor": "Living naturals in weed.",
+    "retrieve": "dead-drift"
+  },
+  {
+    "id": "scud-fly-orange",
+    "name": "Scud — orange",
+    "status": "draft",
+    "water": "fresh",
+    "family": "scud-fly",
+    "variantOf": "scud-fly",
+    "color": "orange",
+    "hookSizes": [
+      12,
+      18
+    ],
+    "weight": "beadhead",
+    "roles": [
+      "point",
+      "dropper"
+    ],
+    "defaultKnot": "pitzen",
+    "image": "assets/scud-fly-orange.jpg",
+    "tiedFor": "Dead or gravid naturals — works on some water and nowhere else.",
+    "retrieve": "dead-drift"
+  },
+  {
+    "id": "squirmy-worm",
+    "name": "Squirmy Worm",
+    "status": "draft",
+    "water": "fresh",
+    "family": "squirmy-worm",
+    "color": "wine",
+    "hookSizes": [
+      10,
+      16
+    ],
+    "weight": "beadhead",
+    "roles": [
+      "point",
+      "dropper"
+    ],
+    "defaultKnot": "pitzen",
+    "image": "assets/squirmy-worm.jpg",
+    "tiedFor": "Rising, off-color water after rain.",
+    "sources": [
+      "NEEDS REVIEW"
+    ],
+    "retrieve": "dead-drift"
+  },
+  {
+    "id": "woolly-bugger",
+    "name": "Woolly Bugger",
+    "status": "draft",
+    "water": "fresh",
+    "family": "woolly-bugger",
+    "hookSizes": [
+      4,
+      12
+    ],
+    "weight": "beadhead",
+    "roles": [
+      "single"
+    ],
+    "defaultKnot": "non-slip-mono-loop",
+    "image": "assets/woolly-bugger.jpg",
+    "tiedFor": "Anything that swims and is worth eating. Loop knot so it moves.",
+    "sources": [
+      "NEEDS REVIEW"
+    ],
+    "retrieve": "streamer-jerk"
+  },
+  {
+    "id": "woolly-bugger-black",
+    "name": "Woolly Bugger — black",
+    "status": "draft",
+    "water": "fresh",
+    "family": "woolly-bugger",
+    "variantOf": "woolly-bugger",
+    "color": "black",
+    "hookSizes": [
+      4,
+      12
+    ],
+    "weight": "beadhead",
+    "roles": [
+      "single"
+    ],
+    "defaultKnot": "non-slip-mono-loop",
+    "image": "assets/woolly-bugger-black.jpg",
+    "tiedFor": "Silhouette in dirty water and low light.",
+    "retrieve": "streamer-jerk"
+  },
+  {
+    "id": "woolly-bugger-olive",
+    "name": "Woolly Bugger — olive",
+    "status": "draft",
+    "water": "fresh",
+    "family": "woolly-bugger",
+    "variantOf": "woolly-bugger",
+    "color": "olive",
+    "hookSizes": [
+      4,
+      12
+    ],
+    "weight": "beadhead",
+    "roles": [
+      "single"
+    ],
+    "defaultKnot": "non-slip-mono-loop",
+    "image": "assets/woolly-bugger-olive.jpg",
+    "tiedFor": "Clear water, sculpin and crayfish tones.",
+    "retrieve": "streamer-jerk"
+  },
+  {
+    "id": "woolly-bugger-brown",
+    "name": "Woolly Bugger — brown",
+    "status": "draft",
+    "water": "fresh",
+    "family": "woolly-bugger",
+    "variantOf": "woolly-bugger",
+    "color": "brown",
+    "hookSizes": [
+      4,
+      12
+    ],
+    "weight": "beadhead",
+    "roles": [
+      "single"
+    ],
+    "defaultKnot": "non-slip-mono-loop",
+    "image": "assets/woolly-bugger-brown.jpg",
+    "tiedFor": "The middle ground; the one to start with if you are not sure.",
+    "retrieve": "streamer-jerk"
+  }
+]

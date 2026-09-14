@@ -1,0 +1,317 @@
+[
+  {
+    "id": "bonefish",
+    "name": "Bonefish",
+    "status": "draft",
+    "water": "salt",
+    "regions": [
+      "bahamas",
+      "belize",
+      "honduras"
+    ],
+    "tempBandF": [
+      72,
+      88
+    ],
+    "spooky": 5,
+    "eats": [
+      "snapping-shrimp",
+      "mantis-shrimp",
+      "swimming-crab",
+      "glass-minnow"
+    ],
+    "rigs": [
+      "flats-8wt-floating",
+      "flats-9wt-wind"
+    ],
+    "tippetLb": [
+      12,
+      16
+    ],
+    "takeNotes": "They eat down, off the bottom, and you rarely see the fly go in — you see the fish tip, or the line comes tight. Strip set. A trout set pulls the fly out of the zone and ends the shot.",
+    "fightNotes": "First run is the whole fight. Clear the line, get them on the reel, keep the rod low to the side. Backing knots and a clean deck matter more than drag setting.",
+    "notes": "Resident year-round in all three regions. Spookiness is the binding constraint: line slap, a fly landing on their head, or a shadow ends a shot before fly choice matters.",
+    "sources": [
+      "NEEDS REVIEW"
+    ],
+    "huntNotes": "They hunt nose-down, rooting the bottom — tailing when it is shallow enough, mudding when it is not. A cruising fish covers ground fast and a feeding fish barely moves, and the two want completely different leads.",
+    "leadFt": [
+      4,
+      8
+    ],
+    "refusal": "A follow that turns off means the fly was too big, too heavy, or moved too much. Go one size down and one weight class lighter before you change pattern."
+  },
+  {
+    "id": "permit",
+    "name": "Permit",
+    "status": "draft",
+    "water": "salt",
+    "regions": [
+      "belize",
+      "bahamas",
+      "honduras"
+    ],
+    "tempBandF": [
+      74,
+      88
+    ],
+    "spooky": 5,
+    "eats": [
+      "swimming-crab",
+      "mantis-shrimp",
+      "snapping-shrimp"
+    ],
+    "rigs": [
+      "flats-9wt-wind"
+    ],
+    "tippetLb": [
+      16,
+      20
+    ],
+    "takeNotes": "The eat is slow and deliberate — the fish tips down on the crab. Do not strip once it commits; let it eat, then come tight.",
+    "fightNotes": "Dogged and long. They use their body against the current.",
+    "notes": "The realistic upgrade target on an early-spring Belize week, ahead of tarpon.",
+    "sources": [
+      "NEEDS REVIEW"
+    ],
+    "huntNotes": "They swim down a crab deliberately and will track it for yards before committing. The decision happens slowly, which is exactly why it is easy to ruin.",
+    "leadFt": [
+      3,
+      6
+    ],
+    "refusal": "A follow with no eat almost always means the fly swam. Let it die on the bottom and do nothing at all."
+  },
+  {
+    "id": "tarpon",
+    "name": "Tarpon",
+    "status": "reviewed",
+    "water": "salt",
+    "regions": [
+      "belize",
+      "honduras"
+    ],
+    "tempBandF": [
+      75,
+      90
+    ],
+    "spooky": 3,
+    "eats": [
+      "glass-minnow",
+      "bay-anchovy",
+      "palolo-worm",
+      "snapping-shrimp"
+    ],
+    "rigs": [
+      "tarpon-11wt"
+    ],
+    "tippetLb": [
+      16,
+      20
+    ],
+    "takeNotes": "Keep stripping through the eat and strip-strike hard, more than once. A bony mouth throws a hook that was never driven.",
+    "fightNotes": "Bow to every jump or the tippet pays for it.",
+    "notes": "Two different fisheries wearing one name. Resident juveniles hold in back lagoons and river mouths year-round and fish on a 9-10 weight. Migratory adults arrive late April through August, peaking May into early July, run 60 to well over 100 lb, and need an 11-12 weight with a bite tippet. Conflating them is the most common planning mistake for this species.",
+    "sources": [
+      "https://tailwatersflyfishing.com/blogs/blog/migratory-tarpon-fishing-in-belize — accessed 2026-09-14."
+    ],
+    "huntNotes": "They eat from below and ahead, rolling up onto something moving across them. A fly travelling toward a tarpon shuts it down; a fly leaving gets chased.",
+    "leadFt": [
+      6,
+      10
+    ],
+    "refusal": "If they flare or sink out, the fly crossed their nose. Lead further, get it deeper, and swim it away from them."
+  },
+  {
+    "id": "false-albacore",
+    "name": "False albacore",
+    "status": "reviewed",
+    "water": "salt",
+    "regions": [
+      "nc-coast"
+    ],
+    "tempBandF": [
+      52,
+      68
+    ],
+    "spooky": 4,
+    "eats": [
+      "glass-minnow",
+      "bay-anchovy"
+    ],
+    "rigs": [
+      "flats-9wt-wind"
+    ],
+    "tippetLb": [
+      12,
+      16
+    ],
+    "takeNotes": "Lead the blitz, never cast into it. Fast, long strips — a fly that stops is a fly they refuse.",
+    "fightNotes": "Straight down and fast. Loose line on the deck is how you lose them.",
+    "notes": "Fall run off the NC coast, bait-driven rather than tide-driven. They show as water falls into the high 60s; the sweet spot is 58-64 degrees and it stays worth fishing into the low 50s. Best in October and November, peaking around the first week of November and running into December.",
+    "sources": [
+      "https://www.totalflyfishing.com/north-carolina/false-albacore-fly-fishing/ — accessed 2026-09-14."
+    ],
+    "huntNotes": "They run bait down at speed and slash through a ball of it. They are hunting the one that broke away, not the school.",
+    "leadFt": [
+      10,
+      20
+    ],
+    "refusal": "A refusal means the fly is too big or it stopped. Go smaller and never stop stripping."
+  },
+  {
+    "id": "redfish",
+    "name": "Redfish",
+    "status": "draft",
+    "water": "salt",
+    "regions": [
+      "nc-coast"
+    ],
+    "tempBandF": [
+      58,
+      82
+    ],
+    "spooky": 3,
+    "eats": [
+      "swimming-crab",
+      "snapping-shrimp",
+      "glass-minnow"
+    ],
+    "rigs": [
+      "flats-8wt-floating"
+    ],
+    "tippetLb": [
+      16,
+      20
+    ],
+    "takeNotes": "They see poorly straight ahead. Put it close and move it a little.",
+    "fightNotes": "Bulldogging, short runs, structure is the risk.",
+    "notes": "Year-round backstop on the NC coast; best on a flooding marsh tide.",
+    "sources": [
+      "NEEDS REVIEW"
+    ],
+    "huntNotes": "They root and tail in shallow water and see poorly straight ahead. The shot is close and the fly has to be found rather than chased.",
+    "leadFt": [
+      2,
+      4
+    ],
+    "refusal": "If it ignores the fly it probably never saw it. Recast closer and move it a little, not more."
+  },
+  {
+    "id": "cutthroat-trout",
+    "name": "Cutthroat trout",
+    "status": "draft",
+    "water": "fresh",
+    "regions": [
+      "idaho"
+    ],
+    "tempBandF": [
+      48,
+      62
+    ],
+    "spooky": 2,
+    "eats": [
+      "blue-winged-olive",
+      "pale-morning-dun",
+      "caddis",
+      "midge",
+      "golden-stonefly",
+      "aquatic-worm",
+      "scud"
+    ],
+    "rigs": [
+      "euro-double-nymph",
+      "dry-dropper-floating",
+      "indicator-nymph"
+    ],
+    "tippetLb": [
+      4,
+      6
+    ],
+    "takeNotes": "Slow, confident rise on top — the classic mistake is setting before the fish has turned down.",
+    "fightNotes": "Less frantic than a rainbow; they use current rather than speed.",
+    "notes": "Forgiving compared with rainbows in the same water, which makes them the better target when the presentation is not perfect.",
+    "sources": [
+      "NEEDS REVIEW"
+    ],
+    "huntNotes": "They hold in soft water beside fast water and let the current bring food to them. Finding the seam matters more than the fly.",
+    "refusal": "A refusal on top usually means drag. Fix the drift before you change the fly."
+  },
+  {
+    "id": "rainbow-trout",
+    "name": "Rainbow trout",
+    "status": "draft",
+    "water": "fresh",
+    "regions": [
+      "idaho",
+      "nc-mountains"
+    ],
+    "tempBandF": [
+      50,
+      65
+    ],
+    "spooky": 3,
+    "eats": [
+      "blue-winged-olive",
+      "pale-morning-dun",
+      "caddis",
+      "midge",
+      "aquatic-worm",
+      "scud"
+    ],
+    "rigs": [
+      "euro-double-nymph",
+      "dry-dropper-floating",
+      "indicator-nymph"
+    ],
+    "tippetLb": [
+      4,
+      6
+    ],
+    "takeNotes": "Faster and more decisive than a cutthroat; a quick, short set.",
+    "fightNotes": "Runs and jumps. Give line early.",
+    "sources": [
+      "NEEDS REVIEW"
+    ],
+    "huntNotes": "They take stations in faster water than cutthroat will and move further for a fly, which makes them easier to find and quicker to spook.",
+    "refusal": "Refusals usually mean size. Drop one hook size before you change pattern."
+  },
+  {
+    "id": "brown-trout",
+    "name": "Brown trout",
+    "status": "draft",
+    "water": "fresh",
+    "regions": [
+      "idaho",
+      "nc-mountains"
+    ],
+    "tempBandF": [
+      48,
+      65
+    ],
+    "spooky": 4,
+    "eats": [
+      "blue-winged-olive",
+      "caddis",
+      "midge",
+      "golden-stonefly",
+      "aquatic-worm"
+    ],
+    "rigs": [
+      "streamer-sink-tip",
+      "euro-double-nymph",
+      "dry-dropper-floating"
+    ],
+    "tippetLb": [
+      4,
+      8
+    ],
+    "takeNotes": "Streamer eats are often a follow and a refusal at the bank — keep the fly moving all the way in.",
+    "fightNotes": "Heavy and low; they head for wood.",
+    "notes": "Low light and off-color water are the conditions worth planning around.",
+    "sources": [
+      "NEEDS REVIEW"
+    ],
+    "huntNotes": "They ambush. Big ones hunt on the edges of light — dusk, dawn, off-colour water — and follow a streamer a long way before committing or turning off.",
+    "refusal": "A follow to the bank that turns away is a pause problem, not a fly problem. Let it hang before you lift."
+  }
+]

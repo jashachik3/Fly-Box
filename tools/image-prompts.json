@@ -1,0 +1,592 @@
+{
+  "builtAt": "2026-09-14T18:15:01.600Z",
+  "model": "fal-ai/nano-banana-2",
+  "contentVersion": "0.5.0",
+  "count": 76,
+  "entries": [
+    {
+      "id": "gotcha",
+      "kind": "fly",
+      "file": "assets/gotcha.jpg",
+      "label": "Gotcha",
+      "prompt": "A Gotcha bonefish fly: a short tail of pearl mylar tubing, a body of flat pearlescent braid wound along the shank, small stainless bead-chain eyes lashed at the head, and a sparse swept-back craft-fur wing with two or three strands of pearl Krystal Flash over it, on a short-shank stainless saltwater hook. Tie it in its standard natural colours. A size 4 to 8 hook. This is an inverted pattern that rides with the hook point uppermost: the wing and the hook point are on the SAME side of the hook shank, and the weighted eyes sit on the opposite side, at the head. Show it in that swimming orientation, point up. Studio macro product photograph of one single fly-fishing fly, shown in full profile, centred against a seamless pale warm-grey background with soft even lighting and a faint shadow. The whole hook and the whole fly are inside the frame with clear space around them. Sharp focus front to back. Photographic realism, natural materials, correct proportions. No hands, no vise, no jaws, no tools, no water, no fish, no packaging, no text, no watermark, no border, no collage. Exactly one fly in the image."
+    },
+    {
+      "id": "gotcha-pink",
+      "kind": "fly",
+      "file": "assets/gotcha-pink.jpg",
+      "label": "Gotcha — pink",
+      "prompt": "A Gotcha bonefish fly: a short tail of pearl mylar tubing, a body of flat pearlescent braid wound along the shank, small stainless bead-chain eyes lashed at the head, and a sparse swept-back craft-fur wing with two or three strands of pearl Krystal Flash over it, on a short-shank stainless saltwater hook. The colour scheme is pink — materials in those colours throughout. A size 4 to 8 hook. This is an inverted pattern that rides with the hook point uppermost: the wing and the hook point are on the SAME side of the hook shank, and the weighted eyes sit on the opposite side, at the head. Show it in that swimming orientation, point up. Studio macro product photograph of one single fly-fishing fly, shown in full profile, centred against a seamless pale warm-grey background with soft even lighting and a faint shadow. The whole hook and the whole fly are inside the frame with clear space around them. Sharp focus front to back. Photographic realism, natural materials, correct proportions. No hands, no vise, no jaws, no tools, no water, no fish, no packaging, no text, no watermark, no border, no collage. Exactly one fly in the image."
+    },
+    {
+      "id": "gotcha-tan",
+      "kind": "fly",
+      "file": "assets/gotcha-tan.jpg",
+      "label": "Gotcha — tan",
+      "prompt": "A Gotcha bonefish fly: a short tail of pearl mylar tubing, a body of flat pearlescent braid wound along the shank, small stainless bead-chain eyes lashed at the head, and a sparse swept-back craft-fur wing with two or three strands of pearl Krystal Flash over it, on a short-shank stainless saltwater hook. The colour scheme is tan — materials in those colours throughout. A size 4 to 8 hook. This is an inverted pattern that rides with the hook point uppermost: the wing and the hook point are on the SAME side of the hook shank, and the weighted eyes sit on the opposite side, at the head. Show it in that swimming orientation, point up. Studio macro product photograph of one single fly-fishing fly, shown in full profile, centred against a seamless pale warm-grey background with soft even lighting and a faint shadow. The whole hook and the whole fly are inside the frame with clear space around them. Sharp focus front to back. Photographic realism, natural materials, correct proportions. No hands, no vise, no jaws, no tools, no water, no fish, no packaging, no text, no watermark, no border, no collage. Exactly one fly in the image."
+    },
+    {
+      "id": "crazy-charlie",
+      "kind": "fly",
+      "file": "assets/crazy-charlie.jpg",
+      "label": "Crazy Charlie",
+      "prompt": "A Crazy Charlie: small stainless bead-chain eyes at the head, a slim body of flat braid overwrapped with clear round V-rib so the segmentation shows, and a sparse swept-back calf-tail wing, on a short-shank stainless hook. Tie it in its standard natural colours. A size 4 to 8 hook. This is an inverted pattern that rides with the hook point uppermost: the wing and the hook point are on the SAME side of the hook shank, and the weighted eyes sit on the opposite side, at the head. Show it in that swimming orientation, point up. Studio macro product photograph of one single fly-fishing fly, shown in full profile, centred against a seamless pale warm-grey background with soft even lighting and a faint shadow. The whole hook and the whole fly are inside the frame with clear space around them. Sharp focus front to back. Photographic realism, natural materials, correct proportions. No hands, no vise, no jaws, no tools, no water, no fish, no packaging, no text, no watermark, no border, no collage. Exactly one fly in the image."
+    },
+    {
+      "id": "crazy-charlie-tan",
+      "kind": "fly",
+      "file": "assets/crazy-charlie-tan.jpg",
+      "label": "Crazy Charlie — tan",
+      "prompt": "A Crazy Charlie: small stainless bead-chain eyes at the head, a slim body of flat braid overwrapped with clear round V-rib so the segmentation shows, and a sparse swept-back calf-tail wing, on a short-shank stainless hook. The colour scheme is tan — materials in those colours throughout. A size 4 to 8 hook. This is an inverted pattern that rides with the hook point uppermost: the wing and the hook point are on the SAME side of the hook shank, and the weighted eyes sit on the opposite side, at the head. Show it in that swimming orientation, point up. Studio macro product photograph of one single fly-fishing fly, shown in full profile, centred against a seamless pale warm-grey background with soft even lighting and a faint shadow. The whole hook and the whole fly are inside the frame with clear space around them. Sharp focus front to back. Photographic realism, natural materials, correct proportions. No hands, no vise, no jaws, no tools, no water, no fish, no packaging, no text, no watermark, no border, no collage. Exactly one fly in the image."
+    },
+    {
+      "id": "crazy-charlie-pink",
+      "kind": "fly",
+      "file": "assets/crazy-charlie-pink.jpg",
+      "label": "Crazy Charlie — pink",
+      "prompt": "A Crazy Charlie: small stainless bead-chain eyes at the head, a slim body of flat braid overwrapped with clear round V-rib so the segmentation shows, and a sparse swept-back calf-tail wing, on a short-shank stainless hook. The colour scheme is pink — materials in those colours throughout. A size 4 to 8 hook. This is an inverted pattern that rides with the hook point uppermost: the wing and the hook point are on the SAME side of the hook shank, and the weighted eyes sit on the opposite side, at the head. Show it in that swimming orientation, point up. Studio macro product photograph of one single fly-fishing fly, shown in full profile, centred against a seamless pale warm-grey background with soft even lighting and a faint shadow. The whole hook and the whole fly are inside the frame with clear space around them. Sharp focus front to back. Photographic realism, natural materials, correct proportions. No hands, no vise, no jaws, no tools, no water, no fish, no packaging, no text, no watermark, no border, no collage. Exactly one fly in the image."
+    },
+    {
+      "id": "veverkas-mantis-shrimp",
+      "kind": "fly",
+      "file": "assets/veverkas-mantis-shrimp.jpg",
+      "label": "Veverka's Mantis Shrimp",
+      "prompt": "Veverka's Mantis Shrimp: a shaggy craft-fur and marabou body with barred rubber legs along the sides, two mono eyes on short stalks projecting forward beyond the hook eye, a segmented shellback over the top, and lead dumbbell eyes at the head. The colour scheme is olive — materials in those colours throughout. A size 2 to 6 hook. This is an inverted pattern that rides with the hook point uppermost: the wing and the hook point are on the SAME side of the hook shank, and the weighted eyes sit on the opposite side, at the head. Show it in that swimming orientation, point up. Studio macro product photograph of one single fly-fishing fly, shown in full profile, centred against a seamless pale warm-grey background with soft even lighting and a faint shadow. The whole hook and the whole fly are inside the frame with clear space around them. Sharp focus front to back. Photographic realism, natural materials, correct proportions. No hands, no vise, no jaws, no tools, no water, no fish, no packaging, no text, no watermark, no border, no collage. Exactly one fly in the image."
+    },
+    {
+      "id": "bonefish-bitters",
+      "kind": "fly",
+      "file": "assets/bonefish-bitters.jpg",
+      "label": "Bonefish Bitters",
+      "prompt": "A Bonefish Bitters: a short stubby body of spun deer hair with a hard epoxy shellback over the top, three or four rubber legs splayed out to each side, and small bead-chain eyes, tied sparse and light on a short stainless hook. Tie it in its standard natural colours. A size 4 to 8 hook. This is an inverted pattern that rides with the hook point uppermost: the wing and the hook point are on the SAME side of the hook shank, and the weighted eyes sit on the opposite side, at the head. Show it in that swimming orientation, point up. Studio macro product photograph of one single fly-fishing fly, shown in full profile, centred against a seamless pale warm-grey background with soft even lighting and a faint shadow. The whole hook and the whole fly are inside the frame with clear space around them. Sharp focus front to back. Photographic realism, natural materials, correct proportions. No hands, no vise, no jaws, no tools, no water, no fish, no packaging, no text, no watermark, no border, no collage. Exactly one fly in the image."
+    },
+    {
+      "id": "bonefish-bitters-amber",
+      "kind": "fly",
+      "file": "assets/bonefish-bitters-amber.jpg",
+      "label": "Bonefish Bitters — amber",
+      "prompt": "A Bonefish Bitters: a short stubby body of spun deer hair with a hard epoxy shellback over the top, three or four rubber legs splayed out to each side, and small bead-chain eyes, tied sparse and light on a short stainless hook. The colour scheme is amber — materials in those colours throughout. A size 4 to 8 hook. This is an inverted pattern that rides with the hook point uppermost: the wing and the hook point are on the SAME side of the hook shank, and the weighted eyes sit on the opposite side, at the head. Show it in that swimming orientation, point up. Studio macro product photograph of one single fly-fishing fly, shown in full profile, centred against a seamless pale warm-grey background with soft even lighting and a faint shadow. The whole hook and the whole fly are inside the frame with clear space around them. Sharp focus front to back. Photographic realism, natural materials, correct proportions. No hands, no vise, no jaws, no tools, no water, no fish, no packaging, no text, no watermark, no border, no collage. Exactly one fly in the image."
+    },
+    {
+      "id": "bonefish-bitters-chartreuse",
+      "kind": "fly",
+      "file": "assets/bonefish-bitters-chartreuse.jpg",
+      "label": "Bonefish Bitters — chartreuse",
+      "prompt": "A Bonefish Bitters: a short stubby body of spun deer hair with a hard epoxy shellback over the top, three or four rubber legs splayed out to each side, and small bead-chain eyes, tied sparse and light on a short stainless hook. The colour scheme is chartreuse — materials in those colours throughout. A size 4 to 8 hook. This is an inverted pattern that rides with the hook point uppermost: the wing and the hook point are on the SAME side of the hook shank, and the weighted eyes sit on the opposite side, at the head. Show it in that swimming orientation, point up. Studio macro product photograph of one single fly-fishing fly, shown in full profile, centred against a seamless pale warm-grey background with soft even lighting and a faint shadow. The whole hook and the whole fly are inside the frame with clear space around them. Sharp focus front to back. Photographic realism, natural materials, correct proportions. No hands, no vise, no jaws, no tools, no water, no fish, no packaging, no text, no watermark, no border, no collage. Exactly one fly in the image."
+    },
+    {
+      "id": "squimp",
+      "kind": "fly",
+      "file": "assets/squimp.jpg",
+      "label": "Squimp",
+      "prompt": "A Squimp: a slim translucent craft-fur body, long rubber legs trailing like squid tentacles, a few strands of flash, and small bead-chain eyes at the head. The colour scheme is tan — materials in those colours throughout. A size 4 to 8 hook. This is an inverted pattern that rides with the hook point uppermost: the wing and the hook point are on the SAME side of the hook shank, and the weighted eyes sit on the opposite side, at the head. Show it in that swimming orientation, point up. Studio macro product photograph of one single fly-fishing fly, shown in full profile, centred against a seamless pale warm-grey background with soft even lighting and a faint shadow. The whole hook and the whole fly are inside the frame with clear space around them. Sharp focus front to back. Photographic realism, natural materials, correct proportions. No hands, no vise, no jaws, no tools, no water, no fish, no packaging, no text, no watermark, no border, no collage. Exactly one fly in the image."
+    },
+    {
+      "id": "strong-arm-merkin",
+      "kind": "fly",
+      "file": "assets/strong-arm-merkin.jpg",
+      "label": "Strong Arm Merkin",
+      "prompt": "A Strong Arm Merkin permit crab: a flat oval body of yarn trimmed to a crab carapace shape, two prominent rubber claw arms reaching forward from the head, several rubber legs splayed to each side, and heavy lead dumbbell eyes. Tie it in its standard natural colours. A size 2 to 6 hook. This is an inverted pattern that rides with the hook point uppermost: the wing and the hook point are on the SAME side of the hook shank, and the weighted eyes sit on the opposite side, at the head. Show it in that swimming orientation, point up. Studio macro product photograph of one single fly-fishing fly, shown in full profile, centred against a seamless pale warm-grey background with soft even lighting and a faint shadow. The whole hook and the whole fly are inside the frame with clear space around them. Sharp focus front to back. Photographic realism, natural materials, correct proportions. No hands, no vise, no jaws, no tools, no water, no fish, no packaging, no text, no watermark, no border, no collage. Exactly one fly in the image."
+    },
+    {
+      "id": "strong-arm-merkin-tan",
+      "kind": "fly",
+      "file": "assets/strong-arm-merkin-tan.jpg",
+      "label": "Strong Arm Merkin — tan",
+      "prompt": "A Strong Arm Merkin permit crab: a flat oval body of yarn trimmed to a crab carapace shape, two prominent rubber claw arms reaching forward from the head, several rubber legs splayed to each side, and heavy lead dumbbell eyes. The colour scheme is tan — materials in those colours throughout. A size 2 to 6 hook. This is an inverted pattern that rides with the hook point uppermost: the wing and the hook point are on the SAME side of the hook shank, and the weighted eyes sit on the opposite side, at the head. Show it in that swimming orientation, point up. Studio macro product photograph of one single fly-fishing fly, shown in full profile, centred against a seamless pale warm-grey background with soft even lighting and a faint shadow. The whole hook and the whole fly are inside the frame with clear space around them. Sharp focus front to back. Photographic realism, natural materials, correct proportions. No hands, no vise, no jaws, no tools, no water, no fish, no packaging, no text, no watermark, no border, no collage. Exactly one fly in the image."
+    },
+    {
+      "id": "strong-arm-merkin-olive",
+      "kind": "fly",
+      "file": "assets/strong-arm-merkin-olive.jpg",
+      "label": "Strong Arm Merkin — olive",
+      "prompt": "A Strong Arm Merkin permit crab: a flat oval body of yarn trimmed to a crab carapace shape, two prominent rubber claw arms reaching forward from the head, several rubber legs splayed to each side, and heavy lead dumbbell eyes. The colour scheme is olive — materials in those colours throughout. A size 2 to 6 hook. This is an inverted pattern that rides with the hook point uppermost: the wing and the hook point are on the SAME side of the hook shank, and the weighted eyes sit on the opposite side, at the head. Show it in that swimming orientation, point up. Studio macro product photograph of one single fly-fishing fly, shown in full profile, centred against a seamless pale warm-grey background with soft even lighting and a faint shadow. The whole hook and the whole fly are inside the frame with clear space around them. Sharp focus front to back. Photographic realism, natural materials, correct proportions. No hands, no vise, no jaws, no tools, no water, no fish, no packaging, no text, no watermark, no border, no collage. Exactly one fly in the image."
+    },
+    {
+      "id": "avalon-permit",
+      "kind": "fly",
+      "file": "assets/avalon-permit.jpg",
+      "label": "Avalon",
+      "prompt": "An Avalon permit crab: a bulky tapered body with rubber legs, heavy lead dumbbell eyes at the head, and two mono loops trailing from the rear strung with bright beads that hang below the fly. The colour scheme is tan — materials in those colours throughout. A size 2 to 4 hook. This is an inverted pattern that rides with the hook point uppermost: the wing and the hook point are on the SAME side of the hook shank, and the weighted eyes sit on the opposite side, at the head. Show it in that swimming orientation, point up. Studio macro product photograph of one single fly-fishing fly, shown in full profile, centred against a seamless pale warm-grey background with soft even lighting and a faint shadow. The whole hook and the whole fly are inside the frame with clear space around them. Sharp focus front to back. Photographic realism, natural materials, correct proportions. No hands, no vise, no jaws, no tools, no water, no fish, no packaging, no text, no watermark, no border, no collage. Exactly one fly in the image."
+    },
+    {
+      "id": "tarpon-toad",
+      "kind": "fly",
+      "file": "assets/tarpon-toad.jpg",
+      "label": "Tarpon Toad",
+      "prompt": "A Tarpon Toad: a broad flat splayed tail of rabbit strip and craft fur, a compact spun-and-trimmed body collar behind the hook eye, no weighted eyes, on a heavy short-shank tarpon hook. Tie it in its standard natural colours. A size 1 to 3 hook. Show it as it is tied, hook point downward, shank horizontal, hook eye to the left. Studio macro product photograph of one single fly-fishing fly, shown in full profile, centred against a seamless pale warm-grey background with soft even lighting and a faint shadow. The whole hook and the whole fly are inside the frame with clear space around them. Sharp focus front to back. Photographic realism, natural materials, correct proportions. No hands, no vise, no jaws, no tools, no water, no fish, no packaging, no text, no watermark, no border, no collage. Exactly one fly in the image."
+    },
+    {
+      "id": "tarpon-toad-black",
+      "kind": "fly",
+      "file": "assets/tarpon-toad-black.jpg",
+      "label": "Tarpon Toad — black",
+      "prompt": "A Tarpon Toad: a broad flat splayed tail of rabbit strip and craft fur, a compact spun-and-trimmed body collar behind the hook eye, no weighted eyes, on a heavy short-shank tarpon hook. The colour scheme is black — materials in those colours throughout. A size 1 to 3 hook. Show it as it is tied, hook point downward, shank horizontal, hook eye to the left. Studio macro product photograph of one single fly-fishing fly, shown in full profile, centred against a seamless pale warm-grey background with soft even lighting and a faint shadow. The whole hook and the whole fly are inside the frame with clear space around them. Sharp focus front to back. Photographic realism, natural materials, correct proportions. No hands, no vise, no jaws, no tools, no water, no fish, no packaging, no text, no watermark, no border, no collage. Exactly one fly in the image."
+    },
+    {
+      "id": "tarpon-toad-tan",
+      "kind": "fly",
+      "file": "assets/tarpon-toad-tan.jpg",
+      "label": "Tarpon Toad — tan",
+      "prompt": "A Tarpon Toad: a broad flat splayed tail of rabbit strip and craft fur, a compact spun-and-trimmed body collar behind the hook eye, no weighted eyes, on a heavy short-shank tarpon hook. The colour scheme is tan — materials in those colours throughout. A size 1 to 3 hook. Show it as it is tied, hook point downward, shank horizontal, hook eye to the left. Studio macro product photograph of one single fly-fishing fly, shown in full profile, centred against a seamless pale warm-grey background with soft even lighting and a faint shadow. The whole hook and the whole fly are inside the frame with clear space around them. Sharp focus front to back. Photographic realism, natural materials, correct proportions. No hands, no vise, no jaws, no tools, no water, no fish, no packaging, no text, no watermark, no border, no collage. Exactly one fly in the image."
+    },
+    {
+      "id": "clouser-minnow",
+      "kind": "fly",
+      "file": "assets/clouser-minnow.jpg",
+      "label": "Clouser Minnow",
+      "prompt": "A Clouser Minnow: heavy lead dumbbell eyes lashed near the head, a sparse bucktail wing of two colours, and a slim thread head, on a straight-shank saltwater hook. Tie it in its standard natural colours. A size 1 to 6 hook. This is an inverted pattern that rides with the hook point uppermost: the wing and the hook point are on the SAME side of the hook shank, and the weighted eyes sit on the opposite side, at the head. Show it in that swimming orientation, point up. Studio macro product photograph of one single fly-fishing fly, shown in full profile, centred against a seamless pale warm-grey background with soft even lighting and a faint shadow. The whole hook and the whole fly are inside the frame with clear space around them. Sharp focus front to back. Photographic realism, natural materials, correct proportions. No hands, no vise, no jaws, no tools, no water, no fish, no packaging, no text, no watermark, no border, no collage. Exactly one fly in the image."
+    },
+    {
+      "id": "clouser-minnow-chartreuse-white",
+      "kind": "fly",
+      "file": "assets/clouser-minnow-chartreuse-white.jpg",
+      "label": "Clouser Minnow — chartreuse/white",
+      "prompt": "A Clouser Minnow: heavy lead dumbbell eyes lashed near the head, a sparse bucktail wing of two colours, and a slim thread head, on a straight-shank saltwater hook. The colour scheme is chartreuse and white — materials in those colours throughout. A size 1 to 6 hook. This is an inverted pattern that rides with the hook point uppermost: the wing and the hook point are on the SAME side of the hook shank, and the weighted eyes sit on the opposite side, at the head. Show it in that swimming orientation, point up. Studio macro product photograph of one single fly-fishing fly, shown in full profile, centred against a seamless pale warm-grey background with soft even lighting and a faint shadow. The whole hook and the whole fly are inside the frame with clear space around them. Sharp focus front to back. Photographic realism, natural materials, correct proportions. No hands, no vise, no jaws, no tools, no water, no fish, no packaging, no text, no watermark, no border, no collage. Exactly one fly in the image."
+    },
+    {
+      "id": "clouser-minnow-olive-white",
+      "kind": "fly",
+      "file": "assets/clouser-minnow-olive-white.jpg",
+      "label": "Clouser Minnow — olive/white",
+      "prompt": "A Clouser Minnow: heavy lead dumbbell eyes lashed near the head, a sparse bucktail wing of two colours, and a slim thread head, on a straight-shank saltwater hook. The colour scheme is olive and white — materials in those colours throughout. A size 1 to 6 hook. This is an inverted pattern that rides with the hook point uppermost: the wing and the hook point are on the SAME side of the hook shank, and the weighted eyes sit on the opposite side, at the head. Show it in that swimming orientation, point up. Studio macro product photograph of one single fly-fishing fly, shown in full profile, centred against a seamless pale warm-grey background with soft even lighting and a faint shadow. The whole hook and the whole fly are inside the frame with clear space around them. Sharp focus front to back. Photographic realism, natural materials, correct proportions. No hands, no vise, no jaws, no tools, no water, no fish, no packaging, no text, no watermark, no border, no collage. Exactly one fly in the image."
+    },
+    {
+      "id": "ep-baitfish",
+      "kind": "fly",
+      "file": "assets/ep-baitfish.jpg",
+      "label": "EP Baitfish",
+      "prompt": "An EP-style baitfish: a wide translucent body of brushed synthetic fibre trimmed to a deep-bodied minnow profile that tapers to a tail, with large stick-on eyes at the head and no weight. The colour scheme is olive and white — materials in those colours throughout. A size 1 to 4 hook. Show it as it is tied, hook point downward, shank horizontal, hook eye to the left. Studio macro product photograph of one single fly-fishing fly, shown in full profile, centred against a seamless pale warm-grey background with soft even lighting and a faint shadow. The whole hook and the whole fly are inside the frame with clear space around them. Sharp focus front to back. Photographic realism, natural materials, correct proportions. No hands, no vise, no jaws, no tools, no water, no fish, no packaging, no text, no watermark, no border, no collage. Exactly one fly in the image."
+    },
+    {
+      "id": "gurgler",
+      "kind": "fly",
+      "file": "assets/gurgler.jpg",
+      "label": "Gurgler",
+      "prompt": "A Gurgler: a long bucktail tail, a palmered hackle body, and a foam strip pulled forward over the top of the body and tied off at the head so it stands up as a raised lip in front. The colour scheme is white — materials in those colours throughout. A size 1 to 4 hook. Show it as it is tied, hook point downward, shank horizontal, hook eye to the left. Studio macro product photograph of one single fly-fishing fly, shown in full profile, centred against a seamless pale warm-grey background with soft even lighting and a faint shadow. The whole hook and the whole fly are inside the frame with clear space around them. Sharp focus front to back. Photographic realism, natural materials, correct proportions. No hands, no vise, no jaws, no tools, no water, no fish, no packaging, no text, no watermark, no border, no collage. Exactly one fly in the image."
+    },
+    {
+      "id": "palolo-worm-fly",
+      "kind": "fly",
+      "file": "assets/palolo-worm-fly.jpg",
+      "label": "Palolo Worm fly",
+      "prompt": "A palolo worm fly: a slim segmented chenille body with a long soft marabou or rabbit tail twice the body length, a small bead head, and no weighted eyes. The colour scheme is orange — materials in those colours throughout. A size 2 to 4 hook. Show it as it is tied, hook point downward, shank horizontal, hook eye to the left. Studio macro product photograph of one single fly-fishing fly, shown in full profile, centred against a seamless pale warm-grey background with soft even lighting and a faint shadow. The whole hook and the whole fly are inside the frame with clear space around them. Sharp focus front to back. Photographic realism, natural materials, correct proportions. No hands, no vise, no jaws, no tools, no water, no fish, no packaging, no text, no watermark, no border, no collage. Exactly one fly in the image."
+    },
+    {
+      "id": "walts-worm",
+      "kind": "fly",
+      "file": "assets/walts-worm.jpg",
+      "label": "Walt's Worm",
+      "prompt": "A Walt's Worm nymph: a plain shaggy hare's-ear dubbing body brushed out so the guard hairs stand off, no tail and no wing at all, and a tungsten bead at the head, on a curved jig nymph hook. Tie it in its standard natural colours. A size 12 to 18 hook. Show it as it is tied, hook point downward, shank horizontal, hook eye to the left. Studio macro product photograph of one single fly-fishing fly, shown in full profile, centred against a seamless pale warm-grey background with soft even lighting and a faint shadow. The whole hook and the whole fly are inside the frame with clear space around them. Sharp focus front to back. Photographic realism, natural materials, correct proportions. No hands, no vise, no jaws, no tools, no water, no fish, no packaging, no text, no watermark, no border, no collage. Exactly one fly in the image."
+    },
+    {
+      "id": "walts-worm-hot-spot",
+      "kind": "fly",
+      "file": "assets/walts-worm-hot-spot.jpg",
+      "label": "Walt's Worm — hot spot",
+      "prompt": "A Walt's Worm nymph: a plain shaggy hare's-ear dubbing body brushed out so the guard hairs stand off, no tail and no wing at all, and a tungsten bead at the head, on a curved jig nymph hook. The colour scheme is natural/orange — materials in those colours throughout. A size 12 to 18 hook. Show it as it is tied, hook point downward, shank horizontal, hook eye to the left. Studio macro product photograph of one single fly-fishing fly, shown in full profile, centred against a seamless pale warm-grey background with soft even lighting and a faint shadow. The whole hook and the whole fly are inside the frame with clear space around them. Sharp focus front to back. Photographic realism, natural materials, correct proportions. No hands, no vise, no jaws, no tools, no water, no fish, no packaging, no text, no watermark, no border, no collage. Exactly one fly in the image."
+    },
+    {
+      "id": "pheasant-tail",
+      "kind": "fly",
+      "file": "assets/pheasant-tail.jpg",
+      "label": "Pheasant Tail",
+      "prompt": "A Pheasant Tail nymph: three pheasant-tail fibre tails, a slim pheasant-tail fibre abdomen ribbed with fine copper wire, a fuller peacock-herl thorax, a dark pheasant-tail wingcase over the thorax, and a metal bead at the head. Tie it in its standard natural colours. A size 14 to 20 hook. Show it as it is tied, hook point downward, shank horizontal, hook eye to the left. Studio macro product photograph of one single fly-fishing fly, shown in full profile, centred against a seamless pale warm-grey background with soft even lighting and a faint shadow. The whole hook and the whole fly are inside the frame with clear space around them. Sharp focus front to back. Photographic realism, natural materials, correct proportions. No hands, no vise, no jaws, no tools, no water, no fish, no packaging, no text, no watermark, no border, no collage. Exactly one fly in the image."
+    },
+    {
+      "id": "pheasant-tail-flashback",
+      "kind": "fly",
+      "file": "assets/pheasant-tail-flashback.jpg",
+      "label": "Pheasant Tail — flashback",
+      "prompt": "A Pheasant Tail nymph: three pheasant-tail fibre tails, a slim pheasant-tail fibre abdomen ribbed with fine copper wire, a fuller peacock-herl thorax, a dark pheasant-tail wingcase over the thorax, and a metal bead at the head. The colour scheme is natural/pearl — materials in those colours throughout. A size 14 to 20 hook. Show it as it is tied, hook point downward, shank horizontal, hook eye to the left. Studio macro product photograph of one single fly-fishing fly, shown in full profile, centred against a seamless pale warm-grey background with soft even lighting and a faint shadow. The whole hook and the whole fly are inside the frame with clear space around them. Sharp focus front to back. Photographic realism, natural materials, correct proportions. No hands, no vise, no jaws, no tools, no water, no fish, no packaging, no text, no watermark, no border, no collage. Exactly one fly in the image."
+    },
+    {
+      "id": "frenchie",
+      "kind": "fly",
+      "file": "assets/frenchie.jpg",
+      "label": "Frenchie",
+      "prompt": "A Frenchie nymph: coq-de-leon tail fibres, a pheasant-tail abdomen ribbed with fine copper wire, and a bright fluorescent dubbing hot-spot collar directly behind a tungsten bead. The colour scheme is natural/pink — materials in those colours throughout. A size 12 to 18 hook. Show it as it is tied, hook point downward, shank horizontal, hook eye to the left. Studio macro product photograph of one single fly-fishing fly, shown in full profile, centred against a seamless pale warm-grey background with soft even lighting and a faint shadow. The whole hook and the whole fly are inside the frame with clear space around them. Sharp focus front to back. Photographic realism, natural materials, correct proportions. No hands, no vise, no jaws, no tools, no water, no fish, no packaging, no text, no watermark, no border, no collage. Exactly one fly in the image."
+    },
+    {
+      "id": "perdigon",
+      "kind": "fly",
+      "file": "assets/perdigon.jpg",
+      "label": "Perdigon",
+      "prompt": "A Perdigon nymph: a very slim smooth body of thread coated in glossy clear UV resin so it looks lacquered, a few stiff coq-de-leon tail fibres, a dark collar band behind the head, and an oversized tungsten bead. Tie it in its standard natural colours. A size 14 to 20 hook. Show it as it is tied, hook point downward, shank horizontal, hook eye to the left. Studio macro product photograph of one single fly-fishing fly, shown in full profile, centred against a seamless pale warm-grey background with soft even lighting and a faint shadow. The whole hook and the whole fly are inside the frame with clear space around them. Sharp focus front to back. Photographic realism, natural materials, correct proportions. No hands, no vise, no jaws, no tools, no water, no fish, no packaging, no text, no watermark, no border, no collage. Exactly one fly in the image."
+    },
+    {
+      "id": "perdigon-olive",
+      "kind": "fly",
+      "file": "assets/perdigon-olive.jpg",
+      "label": "Perdigon — olive",
+      "prompt": "A Perdigon nymph: a very slim smooth body of thread coated in glossy clear UV resin so it looks lacquered, a few stiff coq-de-leon tail fibres, a dark collar band behind the head, and an oversized tungsten bead. The colour scheme is olive — materials in those colours throughout. A size 14 to 20 hook. Show it as it is tied, hook point downward, shank horizontal, hook eye to the left. Studio macro product photograph of one single fly-fishing fly, shown in full profile, centred against a seamless pale warm-grey background with soft even lighting and a faint shadow. The whole hook and the whole fly are inside the frame with clear space around them. Sharp focus front to back. Photographic realism, natural materials, correct proportions. No hands, no vise, no jaws, no tools, no water, no fish, no packaging, no text, no watermark, no border, no collage. Exactly one fly in the image."
+    },
+    {
+      "id": "perdigon-black",
+      "kind": "fly",
+      "file": "assets/perdigon-black.jpg",
+      "label": "Perdigon — black",
+      "prompt": "A Perdigon nymph: a very slim smooth body of thread coated in glossy clear UV resin so it looks lacquered, a few stiff coq-de-leon tail fibres, a dark collar band behind the head, and an oversized tungsten bead. The colour scheme is black — materials in those colours throughout. A size 14 to 20 hook. Show it as it is tied, hook point downward, shank horizontal, hook eye to the left. Studio macro product photograph of one single fly-fishing fly, shown in full profile, centred against a seamless pale warm-grey background with soft even lighting and a faint shadow. The whole hook and the whole fly are inside the frame with clear space around them. Sharp focus front to back. Photographic realism, natural materials, correct proportions. No hands, no vise, no jaws, no tools, no water, no fish, no packaging, no text, no watermark, no border, no collage. Exactly one fly in the image."
+    },
+    {
+      "id": "zebra-midge",
+      "kind": "fly",
+      "file": "assets/zebra-midge.jpg",
+      "label": "Zebra Midge",
+      "prompt": "A Zebra Midge: a very small, very slim thread body ribbed with fine silver wire on a curved short hook, a tungsten bead at the head, no tail and no wing. Tie it in its standard natural colours. This is a very small fly — keep it sparse and delicate, not bulky. Show it as it is tied, hook point downward, shank horizontal, hook eye to the left. Studio macro product photograph of one single fly-fishing fly, shown in full profile, centred against a seamless pale warm-grey background with soft even lighting and a faint shadow. The whole hook and the whole fly are inside the frame with clear space around them. Sharp focus front to back. Photographic realism, natural materials, correct proportions. No hands, no vise, no jaws, no tools, no water, no fish, no packaging, no text, no watermark, no border, no collage. Exactly one fly in the image."
+    },
+    {
+      "id": "zebra-midge-black",
+      "kind": "fly",
+      "file": "assets/zebra-midge-black.jpg",
+      "label": "Zebra Midge — black",
+      "prompt": "A Zebra Midge: a very small, very slim thread body ribbed with fine silver wire on a curved short hook, a tungsten bead at the head, no tail and no wing. The colour scheme is black — materials in those colours throughout. This is a very small fly — keep it sparse and delicate, not bulky. Show it as it is tied, hook point downward, shank horizontal, hook eye to the left. Studio macro product photograph of one single fly-fishing fly, shown in full profile, centred against a seamless pale warm-grey background with soft even lighting and a faint shadow. The whole hook and the whole fly are inside the frame with clear space around them. Sharp focus front to back. Photographic realism, natural materials, correct proportions. No hands, no vise, no jaws, no tools, no water, no fish, no packaging, no text, no watermark, no border, no collage. Exactly one fly in the image."
+    },
+    {
+      "id": "zebra-midge-red",
+      "kind": "fly",
+      "file": "assets/zebra-midge-red.jpg",
+      "label": "Zebra Midge — red",
+      "prompt": "A Zebra Midge: a very small, very slim thread body ribbed with fine silver wire on a curved short hook, a tungsten bead at the head, no tail and no wing. The colour scheme is red — materials in those colours throughout. This is a very small fly — keep it sparse and delicate, not bulky. Show it as it is tied, hook point downward, shank horizontal, hook eye to the left. Studio macro product photograph of one single fly-fishing fly, shown in full profile, centred against a seamless pale warm-grey background with soft even lighting and a faint shadow. The whole hook and the whole fly are inside the frame with clear space around them. Sharp focus front to back. Photographic realism, natural materials, correct proportions. No hands, no vise, no jaws, no tools, no water, no fish, no packaging, no text, no watermark, no border, no collage. Exactly one fly in the image."
+    },
+    {
+      "id": "rs2",
+      "kind": "fly",
+      "file": "assets/rs2.jpg",
+      "label": "RS2",
+      "prompt": "An RS2 emerger: a slim dubbed body, two split microfibett tails, and a short sparse upright wing tuft of grey CDC or synthetic fibre at the thorax, tied small and unweighted. The colour scheme is grey — materials in those colours throughout. This is a very small fly — keep it sparse and delicate, not bulky. Show it as it is tied, hook point downward, shank horizontal, hook eye to the left. Studio macro product photograph of one single fly-fishing fly, shown in full profile, centred against a seamless pale warm-grey background with soft even lighting and a faint shadow. The whole hook and the whole fly are inside the frame with clear space around them. Sharp focus front to back. Photographic realism, natural materials, correct proportions. No hands, no vise, no jaws, no tools, no water, no fish, no packaging, no text, no watermark, no border, no collage. Exactly one fly in the image."
+    },
+    {
+      "id": "parachute-adams",
+      "kind": "fly",
+      "file": "assets/parachute-adams.jpg",
+      "label": "Parachute Adams",
+      "prompt": "A Parachute Adams dry fly: a white calf-hair post standing upright, grizzly hackle wound horizontally around the base of that post, a grey dubbed body, and mixed brown and grizzly fibre tails. The colour scheme is grey — materials in those colours throughout. A size 12 to 22 hook. Show it as it is tied, hook point downward, shank horizontal, hook eye to the left. Studio macro product photograph of one single fly-fishing fly, shown in full profile, centred against a seamless pale warm-grey background with soft even lighting and a faint shadow. The whole hook and the whole fly are inside the frame with clear space around them. Sharp focus front to back. Photographic realism, natural materials, correct proportions. No hands, no vise, no jaws, no tools, no water, no fish, no packaging, no text, no watermark, no border, no collage. Exactly one fly in the image."
+    },
+    {
+      "id": "elk-hair-caddis",
+      "kind": "fly",
+      "file": "assets/elk-hair-caddis.jpg",
+      "label": "Elk Hair Caddis",
+      "prompt": "An Elk Hair Caddis dry fly: a dubbed body with a hackle palmered along its whole length, a flared elk-hair wing lying tent-shaped over the body and extending past the hook bend, and a squared-off clipped-hair head. Tie it in its standard natural colours. A size 12 to 18 hook. Show it as it is tied, hook point downward, shank horizontal, hook eye to the left. Studio macro product photograph of one single fly-fishing fly, shown in full profile, centred against a seamless pale warm-grey background with soft even lighting and a faint shadow. The whole hook and the whole fly are inside the frame with clear space around them. Sharp focus front to back. Photographic realism, natural materials, correct proportions. No hands, no vise, no jaws, no tools, no water, no fish, no packaging, no text, no watermark, no border, no collage. Exactly one fly in the image."
+    },
+    {
+      "id": "elk-hair-caddis-tan",
+      "kind": "fly",
+      "file": "assets/elk-hair-caddis-tan.jpg",
+      "label": "Elk Hair Caddis — tan",
+      "prompt": "An Elk Hair Caddis dry fly: a dubbed body with a hackle palmered along its whole length, a flared elk-hair wing lying tent-shaped over the body and extending past the hook bend, and a squared-off clipped-hair head. The colour scheme is tan — materials in those colours throughout. A size 12 to 18 hook. Show it as it is tied, hook point downward, shank horizontal, hook eye to the left. Studio macro product photograph of one single fly-fishing fly, shown in full profile, centred against a seamless pale warm-grey background with soft even lighting and a faint shadow. The whole hook and the whole fly are inside the frame with clear space around them. Sharp focus front to back. Photographic realism, natural materials, correct proportions. No hands, no vise, no jaws, no tools, no water, no fish, no packaging, no text, no watermark, no border, no collage. Exactly one fly in the image."
+    },
+    {
+      "id": "elk-hair-caddis-olive",
+      "kind": "fly",
+      "file": "assets/elk-hair-caddis-olive.jpg",
+      "label": "Elk Hair Caddis — olive",
+      "prompt": "An Elk Hair Caddis dry fly: a dubbed body with a hackle palmered along its whole length, a flared elk-hair wing lying tent-shaped over the body and extending past the hook bend, and a squared-off clipped-hair head. The colour scheme is olive — materials in those colours throughout. A size 12 to 18 hook. Show it as it is tied, hook point downward, shank horizontal, hook eye to the left. Studio macro product photograph of one single fly-fishing fly, shown in full profile, centred against a seamless pale warm-grey background with soft even lighting and a faint shadow. The whole hook and the whole fly are inside the frame with clear space around them. Sharp focus front to back. Photographic realism, natural materials, correct proportions. No hands, no vise, no jaws, no tools, no water, no fish, no packaging, no text, no watermark, no border, no collage. Exactly one fly in the image."
+    },
+    {
+      "id": "griffiths-gnat",
+      "kind": "fly",
+      "file": "assets/griffiths-gnat.jpg",
+      "label": "Griffith's Gnat",
+      "prompt": "A Griffith's Gnat: a peacock-herl body with a grizzly hackle palmered along the entire length so it bristles evenly, tied very small on a dry-fly hook. The colour scheme is grey — materials in those colours throughout. This is a very small fly — keep it sparse and delicate, not bulky. Show it as it is tied, hook point downward, shank horizontal, hook eye to the left. Studio macro product photograph of one single fly-fishing fly, shown in full profile, centred against a seamless pale warm-grey background with soft even lighting and a faint shadow. The whole hook and the whole fly are inside the frame with clear space around them. Sharp focus front to back. Photographic realism, natural materials, correct proportions. No hands, no vise, no jaws, no tools, no water, no fish, no packaging, no text, no watermark, no border, no collage. Exactly one fly in the image."
+    },
+    {
+      "id": "pats-rubber-legs",
+      "kind": "fly",
+      "file": "assets/pats-rubber-legs.jpg",
+      "label": "Pat's Rubber Legs",
+      "prompt": "A Pat's Rubber Legs stonefly nymph: a fat chenille body, three pairs of white rubber legs splayed from the sides plus rubber tails and antennae, and a heavy lead-wire underbody. The colour scheme is brown and black — materials in those colours throughout. A size 6 to 12 hook. Show it as it is tied, hook point downward, shank horizontal, hook eye to the left. Studio macro product photograph of one single fly-fishing fly, shown in full profile, centred against a seamless pale warm-grey background with soft even lighting and a faint shadow. The whole hook and the whole fly are inside the frame with clear space around them. Sharp focus front to back. Photographic realism, natural materials, correct proportions. No hands, no vise, no jaws, no tools, no water, no fish, no packaging, no text, no watermark, no border, no collage. Exactly one fly in the image."
+    },
+    {
+      "id": "scud-fly",
+      "kind": "fly",
+      "file": "assets/scud-fly.jpg",
+      "label": "Scud",
+      "prompt": "A scud pattern: a curved dubbed body picked out underneath so the fibres look like legs, a thin clear plastic shellback stretched over the top and ribbed with fine wire, on a curved hook, with no tail and no wing. Tie it in its standard natural colours. A size 12 to 18 hook. Show it as it is tied, hook point downward, shank horizontal, hook eye to the left. Studio macro product photograph of one single fly-fishing fly, shown in full profile, centred against a seamless pale warm-grey background with soft even lighting and a faint shadow. The whole hook and the whole fly are inside the frame with clear space around them. Sharp focus front to back. Photographic realism, natural materials, correct proportions. No hands, no vise, no jaws, no tools, no water, no fish, no packaging, no text, no watermark, no border, no collage. Exactly one fly in the image."
+    },
+    {
+      "id": "scud-fly-olive",
+      "kind": "fly",
+      "file": "assets/scud-fly-olive.jpg",
+      "label": "Scud — olive",
+      "prompt": "A scud pattern: a curved dubbed body picked out underneath so the fibres look like legs, a thin clear plastic shellback stretched over the top and ribbed with fine wire, on a curved hook, with no tail and no wing. The colour scheme is olive — materials in those colours throughout. A size 12 to 18 hook. Show it as it is tied, hook point downward, shank horizontal, hook eye to the left. Studio macro product photograph of one single fly-fishing fly, shown in full profile, centred against a seamless pale warm-grey background with soft even lighting and a faint shadow. The whole hook and the whole fly are inside the frame with clear space around them. Sharp focus front to back. Photographic realism, natural materials, correct proportions. No hands, no vise, no jaws, no tools, no water, no fish, no packaging, no text, no watermark, no border, no collage. Exactly one fly in the image."
+    },
+    {
+      "id": "scud-fly-orange",
+      "kind": "fly",
+      "file": "assets/scud-fly-orange.jpg",
+      "label": "Scud — orange",
+      "prompt": "A scud pattern: a curved dubbed body picked out underneath so the fibres look like legs, a thin clear plastic shellback stretched over the top and ribbed with fine wire, on a curved hook, with no tail and no wing. The colour scheme is orange — materials in those colours throughout. A size 12 to 18 hook. Show it as it is tied, hook point downward, shank horizontal, hook eye to the left. Studio macro product photograph of one single fly-fishing fly, shown in full profile, centred against a seamless pale warm-grey background with soft even lighting and a faint shadow. The whole hook and the whole fly are inside the frame with clear space around them. Sharp focus front to back. Photographic realism, natural materials, correct proportions. No hands, no vise, no jaws, no tools, no water, no fish, no packaging, no text, no watermark, no border, no collage. Exactly one fly in the image."
+    },
+    {
+      "id": "squirmy-worm",
+      "kind": "fly",
+      "file": "assets/squirmy-worm.jpg",
+      "label": "Squirmy Worm",
+      "prompt": "A Squirmy Worm: a single soft stretchy silicone worm strand lashed across the middle of a short hook so both ends dangle freely, with a bead at the head. The colour scheme is wine — materials in those colours throughout. A size 10 to 16 hook. Show it as it is tied, hook point downward, shank horizontal, hook eye to the left. Studio macro product photograph of one single fly-fishing fly, shown in full profile, centred against a seamless pale warm-grey background with soft even lighting and a faint shadow. The whole hook and the whole fly are inside the frame with clear space around them. Sharp focus front to back. Photographic realism, natural materials, correct proportions. No hands, no vise, no jaws, no tools, no water, no fish, no packaging, no text, no watermark, no border, no collage. Exactly one fly in the image."
+    },
+    {
+      "id": "woolly-bugger",
+      "kind": "fly",
+      "file": "assets/woolly-bugger.jpg",
+      "label": "Woolly Bugger",
+      "prompt": "A Woolly Bugger: a soft marabou tail as long as the body, a chenille body with a saddle hackle palmered along its full length, and a bead head. Tie it in its standard natural colours. A size 4 to 12 hook. Show it as it is tied, hook point downward, shank horizontal, hook eye to the left. Studio macro product photograph of one single fly-fishing fly, shown in full profile, centred against a seamless pale warm-grey background with soft even lighting and a faint shadow. The whole hook and the whole fly are inside the frame with clear space around them. Sharp focus front to back. Photographic realism, natural materials, correct proportions. No hands, no vise, no jaws, no tools, no water, no fish, no packaging, no text, no watermark, no border, no collage. Exactly one fly in the image."
+    },
+    {
+      "id": "woolly-bugger-black",
+      "kind": "fly",
+      "file": "assets/woolly-bugger-black.jpg",
+      "label": "Woolly Bugger — black",
+      "prompt": "A Woolly Bugger: a soft marabou tail as long as the body, a chenille body with a saddle hackle palmered along its full length, and a bead head. The colour scheme is black — materials in those colours throughout. A size 4 to 12 hook. Show it as it is tied, hook point downward, shank horizontal, hook eye to the left. Studio macro product photograph of one single fly-fishing fly, shown in full profile, centred against a seamless pale warm-grey background with soft even lighting and a faint shadow. The whole hook and the whole fly are inside the frame with clear space around them. Sharp focus front to back. Photographic realism, natural materials, correct proportions. No hands, no vise, no jaws, no tools, no water, no fish, no packaging, no text, no watermark, no border, no collage. Exactly one fly in the image."
+    },
+    {
+      "id": "woolly-bugger-olive",
+      "kind": "fly",
+      "file": "assets/woolly-bugger-olive.jpg",
+      "label": "Woolly Bugger — olive",
+      "prompt": "A Woolly Bugger: a soft marabou tail as long as the body, a chenille body with a saddle hackle palmered along its full length, and a bead head. The colour scheme is olive — materials in those colours throughout. A size 4 to 12 hook. Show it as it is tied, hook point downward, shank horizontal, hook eye to the left. Studio macro product photograph of one single fly-fishing fly, shown in full profile, centred against a seamless pale warm-grey background with soft even lighting and a faint shadow. The whole hook and the whole fly are inside the frame with clear space around them. Sharp focus front to back. Photographic realism, natural materials, correct proportions. No hands, no vise, no jaws, no tools, no water, no fish, no packaging, no text, no watermark, no border, no collage. Exactly one fly in the image."
+    },
+    {
+      "id": "woolly-bugger-brown",
+      "kind": "fly",
+      "file": "assets/woolly-bugger-brown.jpg",
+      "label": "Woolly Bugger — brown",
+      "prompt": "A Woolly Bugger: a soft marabou tail as long as the body, a chenille body with a saddle hackle palmered along its full length, and a bead head. The colour scheme is brown — materials in those colours throughout. A size 4 to 12 hook. Show it as it is tied, hook point downward, shank horizontal, hook eye to the left. Studio macro product photograph of one single fly-fishing fly, shown in full profile, centred against a seamless pale warm-grey background with soft even lighting and a faint shadow. The whole hook and the whole fly are inside the frame with clear space around them. Sharp focus front to back. Photographic realism, natural materials, correct proportions. No hands, no vise, no jaws, no tools, no water, no fish, no packaging, no text, no watermark, no border, no collage. Exactly one fly in the image."
+    },
+    {
+      "id": "snapping-shrimp-adult",
+      "kind": "organism",
+      "organism": "snapping-shrimp",
+      "stage": "adult",
+      "file": "assets/snapping-shrimp-adult.jpg",
+      "label": "Snapping shrimp — adult",
+      "prompt": "A small snapping shrimp: a segmented curved body, a fantail at the rear, one claw noticeably larger than the other, long fine antennae reaching forward past the head, several pairs of small legs beneath, and dark eyes on short stalks. Roughly 25–50 mm long. Colouring: tan, pink, olive. Shown as it would be found: on and just under the bottom, sand and grass. Macro natural-history photograph of one single live specimen, centred against a seamless pale warm-grey background with soft even lighting. The whole animal is inside the frame, in sharp focus, in a clear side or three-quarter view. Scientifically accurate anatomy and proportions, correct number of legs, tails and wings. No hook, no fishing fly, no line, no hands, no tools, no text, no watermark, no collage. Exactly one animal in the image."
+    },
+    {
+      "id": "mantis-shrimp-adult",
+      "kind": "organism",
+      "organism": "mantis-shrimp",
+      "stage": "adult",
+      "file": "assets/mantis-shrimp-adult.jpg",
+      "label": "Mantis shrimp — adult",
+      "prompt": "A mantis shrimp: a long low segmented body, a broad fantail, two folded raptorial forelimbs held under the head, prominent eyes on stalks, and many small legs along the underside. Roughly 40–90 mm long. Colouring: olive, tan, green. Shown as it would be found: grass and rubble bottom. Macro natural-history photograph of one single live specimen, centred against a seamless pale warm-grey background with soft even lighting. The whole animal is inside the frame, in sharp focus, in a clear side or three-quarter view. Scientifically accurate anatomy and proportions, correct number of legs, tails and wings. No hook, no fishing fly, no line, no hands, no tools, no text, no watermark, no collage. Exactly one animal in the image."
+    },
+    {
+      "id": "swimming-crab-juvenile",
+      "kind": "organism",
+      "organism": "swimming-crab",
+      "stage": "juvenile",
+      "file": "assets/swimming-crab-juvenile.jpg",
+      "label": "Swimming crab — juvenile",
+      "prompt": "A very small juvenile swimming crab: a rounded flattened carapace wider than it is long, two small claws held up in front, eight walking legs with the rear pair flattened into paddles, and eyes on short stalks. Roughly 10–25 mm long. Colouring: tan, olive, brown. Shown as it would be found: bottom, sand and grass. Macro natural-history photograph of one single live specimen, centred against a seamless pale warm-grey background with soft even lighting. The whole animal is inside the frame, in sharp focus, in a clear side or three-quarter view. Scientifically accurate anatomy and proportions, correct number of legs, tails and wings. No hook, no fishing fly, no line, no hands, no tools, no text, no watermark, no collage. Exactly one animal in the image."
+    },
+    {
+      "id": "swimming-crab-adult",
+      "kind": "organism",
+      "organism": "swimming-crab",
+      "stage": "adult",
+      "file": "assets/swimming-crab-adult.jpg",
+      "label": "Swimming crab — adult",
+      "prompt": "An adult swimming crab: a broad flattened carapace with pointed side spines, two strong claws raised in a defensive posture, eight legs with the rear pair flattened into swimming paddles. Roughly 25–60 mm long. Colouring: tan, olive, brown. Shown as it would be found: bottom. Macro natural-history photograph of one single live specimen, centred against a seamless pale warm-grey background with soft even lighting. The whole animal is inside the frame, in sharp focus, in a clear side or three-quarter view. Scientifically accurate anatomy and proportions, correct number of legs, tails and wings. No hook, no fishing fly, no line, no hands, no tools, no text, no watermark, no collage. Exactly one animal in the image."
+    },
+    {
+      "id": "swimming-crab-molting",
+      "kind": "organism",
+      "organism": "swimming-crab",
+      "stage": "molting",
+      "file": "assets/swimming-crab-molting.jpg",
+      "label": "Swimming crab — molting",
+      "prompt": "A freshly moulted soft-shell swimming crab: a broad flattened carapace, two claws and eight legs with the rear pair flattened into paddles, but the shell pale, soft and slightly wrinkled and the claws hanging limp — visibly defenceless. Roughly 20–50 mm long. Colouring: cream, pale tan, orange. Shown as it would be found: bottom, often tucked against structure. Macro natural-history photograph of one single live specimen, centred against a seamless pale warm-grey background with soft even lighting. The whole animal is inside the frame, in sharp focus, in a clear side or three-quarter view. Scientifically accurate anatomy and proportions, correct number of legs, tails and wings. No hook, no fishing fly, no line, no hands, no tools, no text, no watermark, no collage. Exactly one animal in the image."
+    },
+    {
+      "id": "glass-minnow-schooling",
+      "kind": "organism",
+      "organism": "glass-minnow",
+      "stage": "schooling",
+      "file": "assets/glass-minnow-schooling.jpg",
+      "label": "Glass minnow — schooling",
+      "prompt": "A single glass minnow or silverside: a slender translucent baitfish with a forked tail, a bright silver lateral stripe running the length of the body, a large dark eye, and a small terminal mouth. Roughly 30–70 mm long. Colouring: white, olive white, chartreuse white. Shown as it would be found: upper column, inlets and current seams. Macro natural-history photograph of one single live specimen, centred against a seamless pale warm-grey background with soft even lighting. The whole animal is inside the frame, in sharp focus, in a clear side or three-quarter view. Scientifically accurate anatomy and proportions, correct number of legs, tails and wings. No hook, no fishing fly, no line, no hands, no tools, no text, no watermark, no collage. Exactly one animal in the image."
+    },
+    {
+      "id": "bay-anchovy-schooling",
+      "kind": "organism",
+      "organism": "bay-anchovy",
+      "stage": "schooling",
+      "file": "assets/bay-anchovy-schooling.jpg",
+      "label": "Bay anchovy — schooling",
+      "prompt": "A single bay anchovy: a very slim translucent baitfish with an oversized mouth set well back, a large eye, a silver stripe along the flank, and a forked tail. Roughly 25–60 mm long. Colouring: olive white, tan white, grey. Shown as it would be found: upper column, inlets and marsh creeks. Macro natural-history photograph of one single live specimen, centred against a seamless pale warm-grey background with soft even lighting. The whole animal is inside the frame, in sharp focus, in a clear side or three-quarter view. Scientifically accurate anatomy and proportions, correct number of legs, tails and wings. No hook, no fishing fly, no line, no hands, no tools, no text, no watermark, no collage. Exactly one animal in the image."
+    },
+    {
+      "id": "palolo-worm-spawning",
+      "kind": "organism",
+      "organism": "palolo-worm",
+      "stage": "spawning",
+      "file": "assets/palolo-worm-spawning.jpg",
+      "label": "Palolo worm — spawning",
+      "prompt": "A spawning palolo worm: a slim rust-orange segmented marine worm with many fine side bristles along its length, swimming in open water, tapering at both ends. Roughly 25–60 mm long. Colouring: orange, red brown, rust. Shown as it would be found: mid to upper column, outgoing tide near reef and coral. Macro natural-history photograph of one single live specimen, centred against a seamless pale warm-grey background with soft even lighting. The whole animal is inside the frame, in sharp focus, in a clear side or three-quarter view. Scientifically accurate anatomy and proportions, correct number of legs, tails and wings. No hook, no fishing fly, no line, no hands, no tools, no text, no watermark, no collage. Exactly one animal in the image."
+    },
+    {
+      "id": "blue-winged-olive-nymph",
+      "kind": "organism",
+      "organism": "blue-winged-olive",
+      "stage": "nymph",
+      "file": "assets/blue-winged-olive-nymph.jpg",
+      "label": "Blue-winged olive — nymph",
+      "prompt": "A tiny slender mayfly nymph of the swimming type: a narrow tapered segmented abdomen, THREE thin tails, small feathery gills along the sides of the abdomen, dark wing pads on the thorax, six legs, and two short antennae. Roughly 5–9 mm long. Colouring: olive, brown, dark olive. Shown as it would be found: riffles and seams, near the bottom. Macro natural-history photograph of one single live specimen, centred against a seamless pale warm-grey background with soft even lighting. The whole animal is inside the frame, in sharp focus, in a clear side or three-quarter view. Scientifically accurate anatomy and proportions, correct number of legs, tails and wings. No hook, no fishing fly, no line, no hands, no tools, no text, no watermark, no collage. Exactly one animal in the image."
+    },
+    {
+      "id": "blue-winged-olive-emerger",
+      "kind": "organism",
+      "organism": "blue-winged-olive",
+      "stage": "emerger",
+      "file": "assets/blue-winged-olive-emerger.jpg",
+      "label": "Blue-winged olive — emerger",
+      "prompt": "A small mayfly emerging at the water surface: the adult half-pulled out of a split nymphal shuck still attached at the rear, with crumpled unopened wings and the body hanging in the surface film. Roughly 5–9 mm long. Colouring: olive, grey olive. Shown as it would be found: surface film. Macro natural-history photograph of one single live specimen, centred against a seamless pale warm-grey background with soft even lighting. The whole animal is inside the frame, in sharp focus, in a clear side or three-quarter view. Scientifically accurate anatomy and proportions, correct number of legs, tails and wings. No hook, no fishing fly, no line, no hands, no tools, no text, no watermark, no collage. Exactly one animal in the image."
+    },
+    {
+      "id": "blue-winged-olive-dun",
+      "kind": "organism",
+      "organism": "blue-winged-olive",
+      "stage": "dun",
+      "file": "assets/blue-winged-olive-dun.jpg",
+      "label": "Blue-winged olive — dun",
+      "prompt": "A small mayfly dun at rest on the water: two upright opaque grey wings held together above the body like a sail, a slender curved abdomen, two or three long tails, six legs. Roughly 5–9 mm long. Colouring: olive, grey. Shown as it would be found: surface. Macro natural-history photograph of one single live specimen, centred against a seamless pale warm-grey background with soft even lighting. The whole animal is inside the frame, in sharp focus, in a clear side or three-quarter view. Scientifically accurate anatomy and proportions, correct number of legs, tails and wings. No hook, no fishing fly, no line, no hands, no tools, no text, no watermark, no collage. Exactly one animal in the image."
+    },
+    {
+      "id": "blue-winged-olive-spinner",
+      "kind": "organism",
+      "organism": "blue-winged-olive",
+      "stage": "spinner",
+      "file": "assets/blue-winged-olive-spinner.jpg",
+      "label": "Blue-winged olive — spinner",
+      "prompt": "A small spent mayfly spinner: clear glassy wings spread flat out to both sides lying flush in the surface film, a very slim body, and long thin tails. Roughly 5–9 mm long. Colouring: rust, olive, clear wing. Shown as it would be found: surface film, usually evening. Macro natural-history photograph of one single live specimen, centred against a seamless pale warm-grey background with soft even lighting. The whole animal is inside the frame, in sharp focus, in a clear side or three-quarter view. Scientifically accurate anatomy and proportions, correct number of legs, tails and wings. No hook, no fishing fly, no line, no hands, no tools, no text, no watermark, no collage. Exactly one animal in the image."
+    },
+    {
+      "id": "pale-morning-dun-nymph",
+      "kind": "organism",
+      "organism": "pale-morning-dun",
+      "stage": "nymph",
+      "file": "assets/pale-morning-dun-nymph.jpg",
+      "label": "Pale morning dun — nymph",
+      "prompt": "A small crawler mayfly nymph: a stouter, flatter body than a swimming nymph, three tails, plate-like gills along the abdomen, thick dark wing pads, and sturdy legs gripping. Roughly 7–11 mm long. Colouring: brown, amber, olive brown. Shown as it would be found: riffles, among cobble. Macro natural-history photograph of one single live specimen, centred against a seamless pale warm-grey background with soft even lighting. The whole animal is inside the frame, in sharp focus, in a clear side or three-quarter view. Scientifically accurate anatomy and proportions, correct number of legs, tails and wings. No hook, no fishing fly, no line, no hands, no tools, no text, no watermark, no collage. Exactly one animal in the image."
+    },
+    {
+      "id": "pale-morning-dun-emerger",
+      "kind": "organism",
+      "organism": "pale-morning-dun",
+      "stage": "emerger",
+      "file": "assets/pale-morning-dun-emerger.jpg",
+      "label": "Pale morning dun — emerger",
+      "prompt": "A pale yellow mayfly emerging from its nymphal shuck at the surface, wings still crumpled and half-unfolded. Roughly 7–11 mm long. Colouring: pale yellow, amber. Shown as it would be found: surface film. Macro natural-history photograph of one single live specimen, centred against a seamless pale warm-grey background with soft even lighting. The whole animal is inside the frame, in sharp focus, in a clear side or three-quarter view. Scientifically accurate anatomy and proportions, correct number of legs, tails and wings. No hook, no fishing fly, no line, no hands, no tools, no text, no watermark, no collage. Exactly one animal in the image."
+    },
+    {
+      "id": "pale-morning-dun-dun",
+      "kind": "organism",
+      "organism": "pale-morning-dun",
+      "stage": "dun",
+      "file": "assets/pale-morning-dun-dun.jpg",
+      "label": "Pale morning dun — dun",
+      "prompt": "A pale yellow mayfly dun on the water: upright pale wings held together over the body, a soft yellow-cream abdomen, three tails. Roughly 7–11 mm long. Colouring: pale yellow, cream, pale olive. Shown as it would be found: surface. Macro natural-history photograph of one single live specimen, centred against a seamless pale warm-grey background with soft even lighting. The whole animal is inside the frame, in sharp focus, in a clear side or three-quarter view. Scientifically accurate anatomy and proportions, correct number of legs, tails and wings. No hook, no fishing fly, no line, no hands, no tools, no text, no watermark, no collage. Exactly one animal in the image."
+    },
+    {
+      "id": "pale-morning-dun-spinner",
+      "kind": "organism",
+      "organism": "pale-morning-dun",
+      "stage": "spinner",
+      "file": "assets/pale-morning-dun-spinner.jpg",
+      "label": "Pale morning dun — spinner",
+      "prompt": "A spent mayfly spinner with clear wings flat on the surface and a rust-toned slim body. Roughly 7–11 mm long. Colouring: rust, amber. Shown as it would be found: surface film. Macro natural-history photograph of one single live specimen, centred against a seamless pale warm-grey background with soft even lighting. The whole animal is inside the frame, in sharp focus, in a clear side or three-quarter view. Scientifically accurate anatomy and proportions, correct number of legs, tails and wings. No hook, no fishing fly, no line, no hands, no tools, no text, no watermark, no collage. Exactly one animal in the image."
+    },
+    {
+      "id": "caddis-larva",
+      "kind": "organism",
+      "organism": "caddis",
+      "stage": "larva",
+      "file": "assets/caddis-larva.jpg",
+      "label": "Caddis — larva",
+      "prompt": "A caddis larva: a pale grub-like segmented soft body curled into a C, a distinctly darker hard head capsule, and three pairs of small legs clustered just behind the head. No wings, no tails. Roughly 8–16 mm long. Colouring: green, olive, cream. Shown as it would be found: bottom, riffles. Macro natural-history photograph of one single live specimen, centred against a seamless pale warm-grey background with soft even lighting. The whole animal is inside the frame, in sharp focus, in a clear side or three-quarter view. Scientifically accurate anatomy and proportions, correct number of legs, tails and wings. No hook, no fishing fly, no line, no hands, no tools, no text, no watermark, no collage. Exactly one animal in the image."
+    },
+    {
+      "id": "caddis-pupa",
+      "kind": "organism",
+      "organism": "caddis",
+      "stage": "pupa",
+      "file": "assets/caddis-pupa.jpg",
+      "label": "Caddis — pupa",
+      "prompt": "A caddis pupa: a curved body with developing wing pads swept back along the sides, long trailing legs and antennae folded along the body, and a swollen thorax. Roughly 8–14 mm long. Colouring: green, amber, olive. Shown as it would be found: mid column, rising. Macro natural-history photograph of one single live specimen, centred against a seamless pale warm-grey background with soft even lighting. The whole animal is inside the frame, in sharp focus, in a clear side or three-quarter view. Scientifically accurate anatomy and proportions, correct number of legs, tails and wings. No hook, no fishing fly, no line, no hands, no tools, no text, no watermark, no collage. Exactly one animal in the image."
+    },
+    {
+      "id": "caddis-adult",
+      "kind": "organism",
+      "organism": "caddis",
+      "stage": "adult",
+      "file": "assets/caddis-adult.jpg",
+      "label": "Caddis — adult",
+      "prompt": "An adult caddisfly: a moth-like insect with hairy wings folded tent-shaped over the back, long antennae swept forward, six legs, and no tails at all. Roughly 8–18 mm long. Colouring: tan, olive, brown. Shown as it would be found: surface. Macro natural-history photograph of one single live specimen, centred against a seamless pale warm-grey background with soft even lighting. The whole animal is inside the frame, in sharp focus, in a clear side or three-quarter view. Scientifically accurate anatomy and proportions, correct number of legs, tails and wings. No hook, no fishing fly, no line, no hands, no tools, no text, no watermark, no collage. Exactly one animal in the image."
+    },
+    {
+      "id": "midge-larva",
+      "kind": "organism",
+      "organism": "midge",
+      "stage": "larva",
+      "file": "assets/midge-larva.jpg",
+      "label": "Midge — larva",
+      "prompt": "A midge larva: an extremely thin worm-like segmented body slightly curved, no legs and no wings, with a tiny darker head. Roughly 4–12 mm long. Colouring: red, cream, olive. Shown as it would be found: bottom, silt and slow water. Macro natural-history photograph of one single live specimen, centred against a seamless pale warm-grey background with soft even lighting. The whole animal is inside the frame, in sharp focus, in a clear side or three-quarter view. Scientifically accurate anatomy and proportions, correct number of legs, tails and wings. No hook, no fishing fly, no line, no hands, no tools, no text, no watermark, no collage. Exactly one animal in the image."
+    },
+    {
+      "id": "midge-pupa",
+      "kind": "organism",
+      "organism": "midge",
+      "stage": "pupa",
+      "file": "assets/midge-pupa.jpg",
+      "label": "Midge — pupa",
+      "prompt": "A midge pupa: a slim body with a slightly swollen thorax, hanging vertically, with a small tuft of white breathing filaments at the head. Roughly 4–10 mm long. Colouring: black, olive, grey. Shown as it would be found: upper column and film. Macro natural-history photograph of one single live specimen, centred against a seamless pale warm-grey background with soft even lighting. The whole animal is inside the frame, in sharp focus, in a clear side or three-quarter view. Scientifically accurate anatomy and proportions, correct number of legs, tails and wings. No hook, no fishing fly, no line, no hands, no tools, no text, no watermark, no collage. Exactly one animal in the image."
+    },
+    {
+      "id": "midge-adult",
+      "kind": "organism",
+      "organism": "midge",
+      "stage": "adult",
+      "file": "assets/midge-adult.jpg",
+      "label": "Midge — adult",
+      "prompt": "An adult midge: a tiny delicate two-winged fly with clear wings held flat over a slender body, long fine legs, and feathery antennae. Roughly 3–8 mm long. Colouring: black, grey, cream. Shown as it would be found: surface. Macro natural-history photograph of one single live specimen, centred against a seamless pale warm-grey background with soft even lighting. The whole animal is inside the frame, in sharp focus, in a clear side or three-quarter view. Scientifically accurate anatomy and proportions, correct number of legs, tails and wings. No hook, no fishing fly, no line, no hands, no tools, no text, no watermark, no collage. Exactly one animal in the image."
+    },
+    {
+      "id": "golden-stonefly-nymph",
+      "kind": "organism",
+      "organism": "golden-stonefly",
+      "stage": "nymph",
+      "file": "assets/golden-stonefly-nymph.jpg",
+      "label": "Golden stonefly — nymph",
+      "prompt": "A large stonefly nymph: a robust flattened segmented body, TWO tails (not three), two prominent dark wing pads, strong legs splayed widely to the sides, and two long antennae. Roughly 15–35 mm long. Colouring: golden brown, amber, brown. Shown as it would be found: bottom, fast rocky water. Macro natural-history photograph of one single live specimen, centred against a seamless pale warm-grey background with soft even lighting. The whole animal is inside the frame, in sharp focus, in a clear side or three-quarter view. Scientifically accurate anatomy and proportions, correct number of legs, tails and wings. No hook, no fishing fly, no line, no hands, no tools, no text, no watermark, no collage. Exactly one animal in the image."
+    },
+    {
+      "id": "golden-stonefly-adult",
+      "kind": "organism",
+      "organism": "golden-stonefly",
+      "stage": "adult",
+      "file": "assets/golden-stonefly-adult.jpg",
+      "label": "Golden stonefly — adult",
+      "prompt": "An adult stonefly: long flat wings folded flat along the back rather than tented, two short tails, a long segmented body, and long antennae. Roughly 20–40 mm long. Colouring: golden, tan, orange belly. Shown as it would be found: surface, near banks. Macro natural-history photograph of one single live specimen, centred against a seamless pale warm-grey background with soft even lighting. The whole animal is inside the frame, in sharp focus, in a clear side or three-quarter view. Scientifically accurate anatomy and proportions, correct number of legs, tails and wings. No hook, no fishing fly, no line, no hands, no tools, no text, no watermark, no collage. Exactly one animal in the image."
+    },
+    {
+      "id": "scud-adult",
+      "kind": "organism",
+      "organism": "scud",
+      "stage": "adult",
+      "file": "assets/scud-adult.jpg",
+      "label": "Scud — adult",
+      "prompt": "A freshwater scud: a laterally flattened shrimp-like crustacean curled into a comma shape, with many small legs along the underside, segmented plates over the back, and short antennae. Roughly 6–16 mm long. Colouring: olive, grey, tan. Shown as it would be found: weed beds and among cobble. Macro natural-history photograph of one single live specimen, centred against a seamless pale warm-grey background with soft even lighting. The whole animal is inside the frame, in sharp focus, in a clear side or three-quarter view. Scientifically accurate anatomy and proportions, correct number of legs, tails and wings. No hook, no fishing fly, no line, no hands, no tools, no text, no watermark, no collage. Exactly one animal in the image."
+    },
+    {
+      "id": "aquatic-worm-adult",
+      "kind": "organism",
+      "organism": "aquatic-worm",
+      "stage": "adult",
+      "file": "assets/aquatic-worm-adult.jpg",
+      "label": "Aquatic worm — adult",
+      "prompt": "An aquatic worm: a thin soft segmented worm with no legs, no head capsule and no bristles, lying in a loose curve. Roughly 15–50 mm long. Colouring: red, pink, wine. Shown as it would be found: bottom, everywhere, especially after rain. Macro natural-history photograph of one single live specimen, centred against a seamless pale warm-grey background with soft even lighting. The whole animal is inside the frame, in sharp focus, in a clear side or three-quarter view. Scientifically accurate anatomy and proportions, correct number of legs, tails and wings. No hook, no fishing fly, no line, no hands, no tools, no text, no watermark, no collage. Exactly one animal in the image."
+    }
+  ]
+}

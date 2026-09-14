@@ -1,0 +1,61 @@
+name: Deploy Fly Box
+
+# Every push to main rebuilds the content bundle, builds the PWA and publishes
+# it. Nothing to run by hand — edit content/data/*.json, push, and the phone
+# picks up the new version the next time it loads.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Never let two deploys race; the newest push wins.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # Fail the build on bad content rather than shipping it. The log tests
+      # run here too, so a broken user layer never reaches the phone.
+      - name: Check content and the log layer
+        run: |
+          node content/validate.mjs
+          node tools/log-demo.mjs
+
+      - name: Install
+        working-directory: app
+        run: npm install --no-audit --no-fund
+
+      - name: Build
+        working-directory: app
+        env:
+          BASE_PATH: /${{ github.event.repository.name }}/
+        run: npm run build
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: app/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4

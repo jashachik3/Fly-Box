@@ -1,0 +1,225 @@
+[
+  {
+    "id": "bahamas",
+    "name": "Bahamas — bonefish flats",
+    "status": "draft",
+    "water": "salt",
+    "coords": [
+      26.7,
+      -78.98
+    ],
+    "tideStation": "9710441",
+    "timezone": "America/Nassau",
+    "primaryFactor": "Tide stage decides when fish are on a flat; wind direction decides which flat is fishable at all.",
+    "waters": [
+      {
+        "id": "bahamas-hard-sand",
+        "name": "Hard sand flat",
+        "type": "flat",
+        "notes": "Wade-able, best on a pushing tide. Fish are visible at distance in good light."
+      },
+      {
+        "id": "bahamas-turtle-grass",
+        "name": "Turtle grass flat",
+        "type": "flat",
+        "notes": "Fish are harder to see and flies hang up. Lighter eyes or a weed guard."
+      },
+      {
+        "id": "bahamas-mangrove-edge",
+        "name": "Mangrove edge",
+        "type": "mangrove",
+        "notes": "Holds fish on high water; they push in to feed and come back out on the drop."
+      },
+      {
+        "id": "bahamas-creek-mouth",
+        "name": "Creek mouth",
+        "type": "channel",
+        "notes": "Ambush point on a falling tide — fish funnel out."
+      }
+    ],
+    "notes": "Resident bonefish year-round; the calendar question is weather, not presence. Spring is the settled-weather window. Winter cold fronts are the real risk to a booked week.",
+    "sources": [
+      "Tide station 9710441 = Settlement Point, Grand Bahama (26.71, -79.00). Station verified against the NOAA CO-OPS metadata API, 2026-09-14.",
+      "Flat descriptions and the spring-window claim are still unverified."
+    ]
+  },
+  {
+    "id": "nc-coast",
+    "name": "North Carolina coast",
+    "status": "reviewed",
+    "water": "salt",
+    "coords": [
+      34.72,
+      -76.67
+    ],
+    "tideStation": "8656483",
+    "timezone": "America/New_York",
+    "primaryFactor": "Bait, then wind. The fall albacore fishery follows glass minnows and finger mullet out of the Pamlico, Albemarle and Core sounds and stacks them at the inlets.",
+    "waters": [
+      {
+        "id": "nc-bardens-inlet",
+        "name": "Barden's Inlet, Cape Lookout",
+        "type": "inlet",
+        "notes": "The albie inlet. Bait funnels through it out of the sounds; fish the current seams."
+      },
+      {
+        "id": "nc-inlet",
+        "name": "Inlet",
+        "type": "inlet",
+        "notes": "Albie water in fall. Current seams stack bait."
+      },
+      {
+        "id": "nc-marsh",
+        "name": "Marsh edge",
+        "type": "mangrove",
+        "notes": "Redfish on a flooding tide."
+      },
+      {
+        "id": "nc-surf",
+        "name": "Surf",
+        "type": "surf"
+      }
+    ],
+    "notes": "Fall false albacore run is the marquee event; redfish are the year-round backstop.",
+    "sources": [
+      "Tide station 8656483 = Beaufort, Duke Marine Lab, NC (34.717, -76.671). Station verified against the NOAA CO-OPS metadata API, 2026-09-14.",
+      "https://www.totalflyfishing.com/north-carolina/false-albacore-fly-fishing/ — accessed 2026-09-14."
+    ]
+  },
+  {
+    "id": "belize",
+    "name": "Belize",
+    "status": "draft",
+    "water": "salt",
+    "coords": [
+      17.5,
+      -88.0
+    ],
+    "timezone": "America/Belize",
+    "primaryFactor": "Wind and cold fronts through March; tide on the flats.",
+    "waters": [
+      {
+        "id": "belize-flat",
+        "name": "Sand and grass flats",
+        "type": "flat"
+      },
+      {
+        "id": "belize-lagoon",
+        "name": "Lagoon and river mouth",
+        "type": "channel",
+        "notes": "Resident juvenile tarpon hold here year-round."
+      },
+      {
+        "id": "belize-mangrove",
+        "name": "Mangrove shoreline",
+        "type": "mangrove"
+      }
+    ],
+    "notes": "Resident juvenile tarpon are available year-round. Migratory adults are a late-spring-into-summer proposition, so an early-spring week is really a permit and bonefish trip with tarpon as a bonus.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "honduras",
+    "name": "Honduras — Bay Islands",
+    "status": "draft",
+    "water": "salt",
+    "coords": [
+      16.1,
+      -86.1
+    ],
+    "timezone": "America/Tegucigalpa",
+    "primaryFactor": "Wind; the leeward side of the island is the fishable side.",
+    "waters": [
+      {
+        "id": "honduras-flat",
+        "name": "Sand flats",
+        "type": "flat"
+      },
+      {
+        "id": "honduras-turtle-grass",
+        "name": "Turtle grass",
+        "type": "flat"
+      }
+    ],
+    "notes": "Bonefish are typically smaller and in larger schools than the Bahamas — more shots, smaller fish, and they spook as a group.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "idaho",
+    "name": "Idaho — South Fork country",
+    "status": "draft",
+    "water": "fresh",
+    "coords": [
+      43.47,
+      -111.47
+    ],
+    "usgsGauge": "13037500",
+    "timezone": "America/Denver",
+    "primaryFactor": "Flow. A big change in cfs resets where fish sit and what they eat before any hatch does.",
+    "waters": [
+      {
+        "id": "id-riffle",
+        "name": "Riffle",
+        "type": "riffle"
+      },
+      {
+        "id": "id-seam",
+        "name": "Seam",
+        "type": "seam",
+        "notes": "Where the 19\" cutthroat came from — 3 ft, moderate."
+      },
+      {
+        "id": "id-tailout",
+        "name": "Tailout",
+        "type": "tailout"
+      },
+      {
+        "id": "id-bank",
+        "name": "Bank water",
+        "type": "run"
+      }
+    ],
+    "notes": "Cutthroat and rainbows; fall is the settled window.",
+    "sources": [
+      "Gauge 13037500 = Snake River near Heise, ID — the standard South Fork gauge. Station verified against the USGS site service, 2026-09-14. (My earlier label said 'near Irwin'; Irwin is a different station, 13032500.)"
+    ]
+  },
+  {
+    "id": "nc-mountains",
+    "name": "North Carolina mountains",
+    "status": "draft",
+    "water": "fresh",
+    "coords": [
+      35.273,
+      -82.706
+    ],
+    "usgsGauge": "03441000",
+    "timezone": "America/New_York",
+    "primaryFactor": "Water temperature and clarity. Freestone streams swing fast after rain.",
+    "waters": [
+      {
+        "id": "nc-pocket",
+        "name": "Pocket water",
+        "type": "pocket"
+      },
+      {
+        "id": "nc-riffle",
+        "name": "Riffle",
+        "type": "riffle"
+      },
+      {
+        "id": "nc-pool",
+        "name": "Plunge pool",
+        "type": "pool"
+      }
+    ],
+    "notes": "Small water, short casts, fish that see pressure. Midges and BWOs carry the cold months.",
+    "sources": [
+      "Gauge 03441000 = Davidson River near Brevard, NC (35.273, -82.706). Station verified against the USGS site service, 2026-09-14."
+    ]
+  }
+]

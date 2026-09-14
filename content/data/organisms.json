@@ -1,0 +1,738 @@
+[
+  {
+    "id": "snapping-shrimp",
+    "name": "Snapping shrimp",
+    "status": "draft",
+    "kind": "crustacean",
+    "water": "salt",
+    "aliases": [
+      "pistol shrimp"
+    ],
+    "image": "assets/snapping-shrimp.jpg",
+    "stages": [
+      {
+        "stage": "adult",
+        "sizeMm": [
+          25,
+          50
+        ],
+        "hookSizes": [
+          4,
+          8
+        ],
+        "colors": [
+          "tan",
+          "pink",
+          "olive",
+          "cream"
+        ],
+        "behavior": "Lives in the bottom; when flushed it darts backward in short hops and stops. The stop is when it gets eaten.",
+        "where": "On and just under the bottom, sand and grass",
+        "vulnerable": true,
+        "image": "assets/snapping-shrimp-adult.jpg"
+      }
+    ],
+    "notes": "The default bonefish food across all three salt regions. Almost every bonefish pattern is some argument about this animal.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "mantis-shrimp",
+    "name": "Mantis shrimp",
+    "status": "draft",
+    "kind": "crustacean",
+    "water": "salt",
+    "image": "assets/mantis-shrimp.jpg",
+    "stages": [
+      {
+        "stage": "adult",
+        "sizeMm": [
+          40,
+          90
+        ],
+        "hookSizes": [
+          2,
+          6
+        ],
+        "colors": [
+          "olive",
+          "tan",
+          "green",
+          "cream"
+        ],
+        "behavior": "Longer-bodied and slower than a snapping shrimp; swims more than it hops.",
+        "where": "Grass and rubble bottom",
+        "vulnerable": true,
+        "image": "assets/mantis-shrimp-adult.jpg"
+      }
+    ],
+    "notes": "A bigger mouthful — worth having when fish are refusing small tan flies.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "swimming-crab",
+    "name": "Swimming crab",
+    "status": "draft",
+    "kind": "crustacean",
+    "water": "salt",
+    "aliases": [
+      "blue crab",
+      "flats crab"
+    ],
+    "image": "assets/swimming-crab.jpg",
+    "stages": [
+      {
+        "stage": "juvenile",
+        "sizeMm": [
+          10,
+          25
+        ],
+        "hookSizes": [
+          4,
+          8
+        ],
+        "colors": [
+          "tan",
+          "olive",
+          "brown"
+        ],
+        "behavior": "Scuttles and then drops flat to the bottom when threatened.",
+        "where": "Bottom, sand and grass",
+        "vulnerable": true,
+        "image": "assets/swimming-crab-juvenile.jpg"
+      },
+      {
+        "stage": "adult",
+        "sizeMm": [
+          25,
+          60
+        ],
+        "hookSizes": [
+          1,
+          4
+        ],
+        "colors": [
+          "tan",
+          "olive",
+          "brown"
+        ],
+        "behavior": "Faces the threat with claws up, then drops.",
+        "where": "Bottom",
+        "vulnerable": true,
+        "image": "assets/swimming-crab-adult.jpg"
+      },
+      {
+        "stage": "molting",
+        "sizeMm": [
+          20,
+          50
+        ],
+        "hookSizes": [
+          2,
+          6
+        ],
+        "colors": [
+          "cream",
+          "pale-tan",
+          "orange"
+        ],
+        "behavior": "Soft and defenceless; pale and slow-moving.",
+        "where": "Bottom, often tucked against structure",
+        "vulnerable": true,
+        "image": "assets/swimming-crab-molting.jpg"
+      }
+    ],
+    "notes": "The permit answer, and a real bonefish and redfish food too. The drop-to-the-bottom behaviour is what the presentation imitates — the fly should fall, not swim.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "glass-minnow",
+    "name": "Glass minnow",
+    "status": "reviewed",
+    "kind": "baitfish",
+    "water": "salt",
+    "scientificName": "Menidia spp.",
+    "aliases": [
+      "silverside",
+      "spearing"
+    ],
+    "image": "assets/glass-minnow.jpg",
+    "stages": [
+      {
+        "stage": "schooling",
+        "sizeMm": [
+          50,
+          80
+        ],
+        "hookSizes": [
+          1,
+          6
+        ],
+        "colors": [
+          "white",
+          "olive-white",
+          "chartreuse-white",
+          "grey"
+        ],
+        "behavior": "Dense translucent schools that ball up under pressure.",
+        "where": "Upper column, inlets and current seams",
+        "vulnerable": true,
+        "image": "assets/glass-minnow-schooling.jpg"
+      }
+    ],
+    "notes": "Drives the fall albacore run on the NC coast, alongside finger mullet. The naturals are two to three inches, and matching that length matters more than colour.",
+    "sources": [
+      "https://www.totalflyfishing.com/north-carolina/false-albacore-fly-fishing/ — accessed 2026-09-14."
+    ]
+  },
+  {
+    "id": "bay-anchovy",
+    "name": "Bay anchovy",
+    "status": "draft",
+    "kind": "baitfish",
+    "water": "salt",
+    "image": "assets/bay-anchovy.jpg",
+    "stages": [
+      {
+        "stage": "schooling",
+        "sizeMm": [
+          25,
+          60
+        ],
+        "hookSizes": [
+          2,
+          6
+        ],
+        "colors": [
+          "olive-white",
+          "tan-white",
+          "grey"
+        ],
+        "behavior": "Tight schools, higher in the column than silversides.",
+        "where": "Upper column, inlets and marsh creeks",
+        "vulnerable": true,
+        "image": "assets/bay-anchovy-schooling.jpg"
+      }
+    ],
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "palolo-worm",
+    "name": "Palolo worm",
+    "status": "draft",
+    "kind": "annelid",
+    "water": "salt",
+    "image": "assets/palolo-worm.jpg",
+    "stages": [
+      {
+        "stage": "spawning",
+        "sizeMm": [
+          25,
+          60
+        ],
+        "hookSizes": [
+          2,
+          4
+        ],
+        "colors": [
+          "orange",
+          "red-brown",
+          "rust"
+        ],
+        "behavior": "Swims in the open column in enormous numbers over a few consecutive evenings. The worms do not hatch so much as disassemble, and the swimming sections are what gets eaten.",
+        "where": "Mid to upper column, outgoing tide near reef and coral",
+        "vulnerable": true,
+        "image": "assets/palolo-worm-spawning.jpg"
+      }
+    ],
+    "notes": "Early May into July, in sequences of four to six consecutive nights. The folk calendar pins it to the May full moon, but current strength is the better predictor and some May full moons produce nothing while some June tides are exceptional. Carry the fly only on a trip that overlaps the window, and do not plan around it.",
+    "sources": [
+      "https://midcurrent.com/v2/palolo-worms-and-tarpon-the-most-bizarre-hatch-in-saltwater-and-how-to-fish-it/ — accessed 2026-09-14. NOTE: Florida Keys data used as the closest available proxy; Belize-specific timing is NOT independently confirmed."
+    ]
+  },
+  {
+    "id": "blue-winged-olive",
+    "name": "Blue-winged olive",
+    "status": "draft",
+    "kind": "mayfly",
+    "water": "fresh",
+    "scientificName": "Baetis spp.",
+    "aliases": [
+      "BWO",
+      "baetis"
+    ],
+    "image": "assets/blue-winged-olive.jpg",
+    "stages": [
+      {
+        "stage": "nymph",
+        "sizeMm": [
+          5,
+          9
+        ],
+        "hookSizes": [
+          16,
+          20
+        ],
+        "colors": [
+          "olive",
+          "brown",
+          "dark-olive"
+        ],
+        "behavior": "Strong swimmer; darts between rocks.",
+        "where": "Riffles and seams, near the bottom",
+        "vulnerable": true,
+        "image": "assets/blue-winged-olive-nymph.jpg"
+      },
+      {
+        "stage": "emerger",
+        "sizeMm": [
+          5,
+          9
+        ],
+        "hookSizes": [
+          16,
+          20
+        ],
+        "colors": [
+          "olive",
+          "grey-olive"
+        ],
+        "behavior": "Hangs in the film, struggling out of the shuck.",
+        "where": "Surface film",
+        "vulnerable": true,
+        "image": "assets/blue-winged-olive-emerger.jpg"
+      },
+      {
+        "stage": "dun",
+        "sizeMm": [
+          5,
+          9
+        ],
+        "hookSizes": [
+          16,
+          20
+        ],
+        "colors": [
+          "olive",
+          "grey"
+        ],
+        "behavior": "Rides the surface a long way on cold, wet days — which is exactly why fish key on it.",
+        "where": "Surface",
+        "vulnerable": true,
+        "image": "assets/blue-winged-olive-dun.jpg"
+      },
+      {
+        "stage": "spinner",
+        "sizeMm": [
+          5,
+          9
+        ],
+        "hookSizes": [
+          18,
+          22
+        ],
+        "colors": [
+          "rust",
+          "olive",
+          "clear-wing"
+        ],
+        "behavior": "Falls spent, flush in the film. Rises to it are subtle and easy to misread.",
+        "where": "Surface film, usually evening",
+        "vulnerable": true,
+        "image": "assets/blue-winged-olive-spinner.jpg"
+      }
+    ],
+    "notes": "The cold-weather workhorse in both Idaho and the NC mountains. Overcast and drizzle are the trigger, not the calendar.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "pale-morning-dun",
+    "name": "Pale morning dun",
+    "status": "draft",
+    "kind": "mayfly",
+    "water": "fresh",
+    "scientificName": "Ephemerella spp.",
+    "aliases": [
+      "PMD"
+    ],
+    "image": "assets/pale-morning-dun.jpg",
+    "stages": [
+      {
+        "stage": "nymph",
+        "sizeMm": [
+          7,
+          11
+        ],
+        "hookSizes": [
+          14,
+          18
+        ],
+        "colors": [
+          "brown",
+          "amber",
+          "olive-brown"
+        ],
+        "behavior": "Crawler; clings rather than swims.",
+        "where": "Riffles, among cobble",
+        "vulnerable": true,
+        "image": "assets/pale-morning-dun-nymph.jpg"
+      },
+      {
+        "stage": "emerger",
+        "sizeMm": [
+          7,
+          11
+        ],
+        "hookSizes": [
+          14,
+          18
+        ],
+        "colors": [
+          "pale-yellow",
+          "amber"
+        ],
+        "behavior": "Cripples in the film are taken preferentially over clean duns.",
+        "where": "Surface film",
+        "vulnerable": true,
+        "image": "assets/pale-morning-dun-emerger.jpg"
+      },
+      {
+        "stage": "dun",
+        "sizeMm": [
+          7,
+          11
+        ],
+        "hookSizes": [
+          14,
+          18
+        ],
+        "colors": [
+          "pale-yellow",
+          "cream",
+          "pale-olive"
+        ],
+        "behavior": "Mid-morning to midday emergence in warm months.",
+        "where": "Surface",
+        "vulnerable": true,
+        "image": "assets/pale-morning-dun-dun.jpg"
+      },
+      {
+        "stage": "spinner",
+        "sizeMm": [
+          7,
+          11
+        ],
+        "hookSizes": [
+          16,
+          18
+        ],
+        "colors": [
+          "rust",
+          "amber"
+        ],
+        "behavior": "Evening spinner fall.",
+        "where": "Surface film",
+        "vulnerable": true,
+        "image": "assets/pale-morning-dun-spinner.jpg"
+      }
+    ],
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "caddis",
+    "name": "Caddis",
+    "status": "draft",
+    "kind": "caddis",
+    "water": "fresh",
+    "scientificName": "Trichoptera",
+    "image": "assets/caddis.jpg",
+    "stages": [
+      {
+        "stage": "larva",
+        "sizeMm": [
+          8,
+          16
+        ],
+        "hookSizes": [
+          12,
+          18
+        ],
+        "colors": [
+          "green",
+          "olive",
+          "cream",
+          "tan"
+        ],
+        "behavior": "Cased or free-living on the bottom; dislodged larvae drift helplessly.",
+        "where": "Bottom, riffles",
+        "vulnerable": true,
+        "image": "assets/caddis-larva.jpg"
+      },
+      {
+        "stage": "pupa",
+        "sizeMm": [
+          8,
+          14
+        ],
+        "hookSizes": [
+          14,
+          18
+        ],
+        "colors": [
+          "green",
+          "amber",
+          "olive"
+        ],
+        "behavior": "Rises fast through the column in a gas bubble — this is the stage fish chase.",
+        "where": "Mid column, rising",
+        "vulnerable": true,
+        "image": "assets/caddis-pupa.jpg"
+      },
+      {
+        "stage": "adult",
+        "sizeMm": [
+          8,
+          18
+        ],
+        "hookSizes": [
+          12,
+          18
+        ],
+        "colors": [
+          "tan",
+          "olive",
+          "brown",
+          "grey"
+        ],
+        "behavior": "Skitters and hops on the surface rather than riding it. Splashy rises mean adults.",
+        "where": "Surface",
+        "vulnerable": true,
+        "image": "assets/caddis-adult.jpg"
+      }
+    ],
+    "notes": "Splashy, aggressive rises are the field tell that separates caddis from a mayfly hatch.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "midge",
+    "name": "Midge",
+    "status": "draft",
+    "kind": "midge",
+    "water": "fresh",
+    "scientificName": "Chironomidae",
+    "image": "assets/midge.jpg",
+    "stages": [
+      {
+        "stage": "larva",
+        "sizeMm": [
+          4,
+          12
+        ],
+        "hookSizes": [
+          18,
+          24
+        ],
+        "colors": [
+          "red",
+          "cream",
+          "olive",
+          "black"
+        ],
+        "behavior": "Wriggling, thin, almost featureless.",
+        "where": "Bottom, silt and slow water",
+        "vulnerable": true,
+        "image": "assets/midge-larva.jpg"
+      },
+      {
+        "stage": "pupa",
+        "sizeMm": [
+          4,
+          10
+        ],
+        "hookSizes": [
+          18,
+          24
+        ],
+        "colors": [
+          "black",
+          "olive",
+          "grey",
+          "red"
+        ],
+        "behavior": "Hangs vertically in the film before emerging.",
+        "where": "Upper column and film",
+        "vulnerable": true,
+        "image": "assets/midge-pupa.jpg"
+      },
+      {
+        "stage": "adult",
+        "sizeMm": [
+          3,
+          8
+        ],
+        "hookSizes": [
+          20,
+          24
+        ],
+        "colors": [
+          "black",
+          "grey",
+          "cream"
+        ],
+        "behavior": "Clusters on the surface on cold days.",
+        "where": "Surface",
+        "vulnerable": false,
+        "image": "assets/midge-adult.jpg"
+      }
+    ],
+    "notes": "The winter answer in the NC mountains. Size down further than feels reasonable.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "golden-stonefly",
+    "name": "Golden stonefly",
+    "status": "draft",
+    "kind": "stonefly",
+    "water": "fresh",
+    "image": "assets/golden-stonefly.jpg",
+    "stages": [
+      {
+        "stage": "nymph",
+        "sizeMm": [
+          15,
+          35
+        ],
+        "hookSizes": [
+          6,
+          12
+        ],
+        "colors": [
+          "golden-brown",
+          "amber",
+          "brown"
+        ],
+        "behavior": "Crawls to the bank to emerge — available on the bottom year-round, not just at hatch time.",
+        "where": "Bottom, fast rocky water",
+        "vulnerable": true,
+        "image": "assets/golden-stonefly-nymph.jpg"
+      },
+      {
+        "stage": "adult",
+        "sizeMm": [
+          20,
+          40
+        ],
+        "hookSizes": [
+          6,
+          10
+        ],
+        "colors": [
+          "golden",
+          "tan",
+          "orange-belly"
+        ],
+        "behavior": "Clumsy on the water; big fish move for them.",
+        "where": "Surface, near banks",
+        "vulnerable": true,
+        "image": "assets/golden-stonefly-adult.jpg"
+      }
+    ],
+    "notes": "The nymph earns its place as a year-round anchor fly regardless of whether adults are around.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "scud",
+    "name": "Scud",
+    "status": "draft",
+    "kind": "crustacean",
+    "water": "fresh",
+    "aliases": [
+      "freshwater shrimp",
+      "gammarus"
+    ],
+    "image": "assets/scud.jpg",
+    "stages": [
+      {
+        "stage": "adult",
+        "sizeMm": [
+          6,
+          16
+        ],
+        "hookSizes": [
+          12,
+          18
+        ],
+        "colors": [
+          "olive",
+          "grey",
+          "tan",
+          "orange"
+        ],
+        "behavior": "Swims in short bursts, curls when dislodged.",
+        "where": "Weed beds and among cobble",
+        "vulnerable": true,
+        "image": "assets/scud-adult.jpg"
+      }
+    ],
+    "notes": "Turns orange when dead or gravid, which is why the orange version works on some water and nowhere else.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "aquatic-worm",
+    "name": "Aquatic worm",
+    "status": "draft",
+    "kind": "annelid",
+    "water": "fresh",
+    "aliases": [
+      "San Juan worm",
+      "annelid"
+    ],
+    "image": "assets/aquatic-worm.jpg",
+    "stages": [
+      {
+        "stage": "adult",
+        "sizeMm": [
+          15,
+          50
+        ],
+        "hookSizes": [
+          10,
+          16
+        ],
+        "colors": [
+          "red",
+          "pink",
+          "wine",
+          "tan"
+        ],
+        "behavior": "Washed loose from silt and drifts helplessly.",
+        "where": "Bottom, everywhere, especially after rain",
+        "vulnerable": true,
+        "image": "assets/aquatic-worm-adult.jpg"
+      }
+    ],
+    "notes": "The rising-and-off-color-water answer.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  }
+]

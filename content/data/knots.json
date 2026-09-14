@@ -1,0 +1,160 @@
+[
+  {
+    "id": "pitzen",
+    "name": "Pitzen knot",
+    "status": "draft",
+    "uses": [
+      "tippet-to-fly"
+    ],
+    "water": "fresh",
+    "strengthPct": 95,
+    "steps": [
+      "Pass the tag through the hook eye and back alongside the standing line.",
+      "Wrap the tag forward, away from the eye, three or four turns around the standing line.",
+      "Bring the tag back and pass it through the loop formed at the eye.",
+      "Wet it and pull the standing line to seat the knot tight against the eye.",
+      "Trim the tag close."
+    ],
+    "bestFor": "Freshwater dries and nymphs — small, strong, and it seats clean on tiny hook eyes.",
+    "failsWhen": "Seated dry, or drawn up by pulling the tag instead of the standing line.",
+    "notes": "House rule: this is the freshwater fly knot. Do not mix a clinch into the rotation — one knot tied well beats two tied adequately.",
+    "sources": [
+      "Jeff's stated knot policy"
+    ]
+  },
+  {
+    "id": "non-slip-mono-loop",
+    "name": "Non-slip mono loop",
+    "status": "draft",
+    "uses": [
+      "tippet-to-fly"
+    ],
+    "strengthPct": 95,
+    "steps": [
+      "Tie a simple overhand knot in the tippet about six inches from the tag end, leaving it open.",
+      "Pass the tag through the hook eye and back through the overhand knot from the same side it exited.",
+      "Wrap the tag around the standing line — more turns for lighter tippet, fewer for heavy.",
+      "Bring the tag back through the overhand knot, entering the same side it originally exited.",
+      "Wet it, seat the wraps first, then pull the standing line to close the loop to size.",
+      "Trim the tag close."
+    ],
+    "bestFor": "Every saltwater fly, and freshwater streamers — the loop lets a weighted fly swim and drop freely.",
+    "failsWhen": "The tag re-enters the overhand from the wrong side, which quietly halves the strength.",
+    "notes": "House rule: loop knot on all saltwater flies and all streamers. Wrap count varies with tippet weight — that is the part worth drilling.",
+    "sources": [
+      "Jeff's stated knot policy"
+    ]
+  },
+  {
+    "id": "blood-knot",
+    "name": "Blood knot",
+    "status": "draft",
+    "uses": [
+      "leader-to-tippet"
+    ],
+    "strengthPct": 90,
+    "steps": [
+      "Overlap the two lines by several inches, facing opposite directions.",
+      "Wrap one tag around the other line five turns, then bring it back through the gap at the centre.",
+      "Wrap the second tag around the first line five turns in the opposite direction.",
+      "Pass it back through the same centre gap, from the opposite side.",
+      "Wet and pull both standing lines steadily until the wraps roll together.",
+      "Trim both tags."
+    ],
+    "bestFor": "Joining leader sections of similar diameter — the tidiest option for a hand-built leader.",
+    "failsWhen": "Diameters differ by more than about 0.002 in; use a surgeon's knot instead.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "double-surgeons",
+    "name": "Double surgeon's knot",
+    "status": "draft",
+    "uses": [
+      "leader-to-tippet"
+    ],
+    "strengthPct": 88,
+    "steps": [
+      "Lay the two lines alongside each other with a long overlap.",
+      "Form a loop with both lines together.",
+      "Pass both tag ends through the loop twice.",
+      "Wet it and pull all four ends at once to seat it evenly.",
+      "Trim both tags."
+    ],
+    "bestFor": "Fast tippet changes on the water, and joining unequal diameters.",
+    "failsWhen": "Only two of the four ends are pulled, which seats it crooked.",
+    "notes": "The cold-hands, failing-light knot.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "perfection-loop",
+    "name": "Perfection loop",
+    "status": "draft",
+    "uses": [
+      "loop-to-loop",
+      "line-to-leader"
+    ],
+    "strengthPct": 92,
+    "steps": [
+      "Form a loop with the tag behind the standing line.",
+      "Form a second, smaller loop in front of the first, holding both.",
+      "Bring the tag between the two loops.",
+      "Pass the second loop through the first.",
+      "Wet and pull the new loop and the standing line apart to seat.",
+      "Trim the tag."
+    ],
+    "bestFor": "The butt-end loop on a hand-built leader, for loop-to-loop onto the fly line.",
+    "failsWhen": "Seated without wetting in heavy butt material, which cuts itself.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "nail-knot",
+    "name": "Nail knot",
+    "status": "draft",
+    "uses": [
+      "line-to-leader"
+    ],
+    "strengthPct": 90,
+    "steps": [
+      "Lay a small tube alongside the fly line tip and the leader butt.",
+      "Wrap the leader butt around line and tube six or seven turns, working toward the line tip.",
+      "Feed the tag back through the tube and withdraw the tube.",
+      "Pull the wraps snug a little at a time, alternating ends.",
+      "Seat hard, trim both tags, and coat if you want it to shoot cleanly."
+    ],
+    "bestFor": "A permanent butt section on a fly line with no welded loop.",
+    "failsWhen": "Wraps cross over one another instead of lying side by side.",
+    "notes": "A vise-and-coffee-table knot, not a knot to learn on the water.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "albright",
+    "name": "Albright knot",
+    "status": "draft",
+    "uses": [
+      "bite-tippet",
+      "backing-to-line"
+    ],
+    "strengthPct": 88,
+    "steps": [
+      "Form a loop in the heavier line.",
+      "Pass the lighter line through the loop and wrap it back over both legs, ten turns, working toward the loop's end.",
+      "Feed the tag back out through the loop the same side it entered.",
+      "Wet, seat the wraps down the loop, then pull both standing lines.",
+      "Trim both tags."
+    ],
+    "bestFor": "Joining wildly unequal diameters — class tippet to a heavy bite section.",
+    "failsWhen": "Wraps slide off the end of the loop under load because they were never seated.",
+    "notes": "Only needed once tarpon are genuinely on the calendar.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  }
+]

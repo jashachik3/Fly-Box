@@ -1,0 +1,1738 @@
+[
+  {
+    "id": "m-shrimp-gotcha",
+    "status": "draft",
+    "organism": "snapping-shrimp",
+    "stage": "adult",
+    "fly": "gotcha",
+    "strength": "first-choice",
+    "hookSizes": [
+      4,
+      8
+    ],
+    "facets": {
+      "regions": [
+        "bahamas",
+        "belize",
+        "honduras"
+      ],
+      "species": [
+        "bonefish"
+      ],
+      "waterTypes": [
+        "flat"
+      ],
+      "tide": [
+        "incoming",
+        "high"
+      ],
+      "depthIn": [
+        6,
+        24
+      ]
+    },
+    "presentation": "Lead the fish 6–8 ft. Let it settle to the bottom. Two short strips as it closes, then stop — the eat comes on the stop.",
+    "rigs": [
+      "flats-8wt-floating"
+    ],
+    "notes": "If one fly goes on the leader before you see anything, it is this.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "m-shrimp-gotcha-tan",
+    "status": "draft",
+    "organism": "snapping-shrimp",
+    "stage": "adult",
+    "fly": "gotcha-tan",
+    "strength": "first-choice",
+    "hookSizes": [
+      4,
+      8
+    ],
+    "facets": {
+      "regions": [
+        "bahamas",
+        "honduras"
+      ],
+      "species": [
+        "bonefish"
+      ],
+      "waterTypes": [
+        "flat"
+      ],
+      "light": [
+        "bright"
+      ],
+      "tide": [
+        "incoming",
+        "high"
+      ],
+      "depthIn": [
+        6,
+        18
+      ]
+    },
+    "presentation": "Same as the pink, but you can land it closer — fish are less startled by the quieter fly.",
+    "rigs": [
+      "flats-8wt-floating"
+    ],
+    "notes": "Hard white sand, high sun, fish that have seen pressure.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "m-shrimp-gotcha-pink",
+    "status": "draft",
+    "organism": "snapping-shrimp",
+    "stage": "adult",
+    "fly": "gotcha-pink",
+    "strength": "change-up",
+    "hookSizes": [
+      4,
+      8
+    ],
+    "facets": {
+      "regions": [
+        "bahamas",
+        "belize",
+        "honduras"
+      ],
+      "species": [
+        "bonefish"
+      ],
+      "waterTypes": [
+        "flat"
+      ],
+      "light": [
+        "overcast",
+        "low",
+        "broken"
+      ],
+      "depthIn": [
+        8,
+        30
+      ]
+    },
+    "presentation": "Lead further and strip a little more — they have to find it.",
+    "rigs": [
+      "flats-8wt-floating"
+    ],
+    "notes": "Colour change is about visibility, not imitation. Low light and stirred-up water.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "m-shrimp-charlie-tan",
+    "status": "draft",
+    "organism": "snapping-shrimp",
+    "stage": "adult",
+    "fly": "crazy-charlie-tan",
+    "strength": "first-choice",
+    "hookSizes": [
+      4,
+      8
+    ],
+    "facets": {
+      "regions": [
+        "bahamas",
+        "belize",
+        "honduras"
+      ],
+      "species": [
+        "bonefish"
+      ],
+      "waterTypes": [
+        "flat"
+      ],
+      "light": [
+        "bright"
+      ],
+      "depthIn": [
+        4,
+        18
+      ]
+    },
+    "presentation": "Rides point-up, so it can sit on the bottom without fouling. Short strips.",
+    "rigs": [
+      "flats-8wt-floating"
+    ],
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "m-shrimp-charlie-pink",
+    "status": "draft",
+    "organism": "snapping-shrimp",
+    "stage": "adult",
+    "fly": "crazy-charlie-pink",
+    "strength": "change-up",
+    "hookSizes": [
+      4,
+      8
+    ],
+    "facets": {
+      "regions": [
+        "bahamas",
+        "belize",
+        "honduras"
+      ],
+      "species": [
+        "bonefish"
+      ],
+      "light": [
+        "overcast",
+        "low"
+      ]
+    },
+    "presentation": "Short strips, longer pauses.",
+    "rigs": [
+      "flats-8wt-floating"
+    ],
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "m-shrimp-bitters",
+    "status": "draft",
+    "organism": "snapping-shrimp",
+    "stage": "adult",
+    "fly": "bonefish-bitters",
+    "strength": "situational",
+    "hookSizes": [
+      6,
+      8
+    ],
+    "facets": {
+      "regions": [
+        "bahamas",
+        "honduras"
+      ],
+      "species": [
+        "bonefish"
+      ],
+      "waterTypes": [
+        "flat"
+      ],
+      "wind": [
+        "calm",
+        "light"
+      ],
+      "depthIn": [
+        2,
+        10
+      ]
+    },
+    "presentation": "Land it soft and close — a foot or two in front, barely move it.",
+    "rigs": [
+      "flats-8wt-floating"
+    ],
+    "notes": "The skinny-water, tailing-fish, one-shot fly. Weight is the enemy here.",
+    "sources": [
+      "NEEDS REVIEW"
+    ],
+    "retrieve": "crab-crawl"
+  },
+  {
+    "id": "m-shrimp-squimp",
+    "status": "draft",
+    "organism": "snapping-shrimp",
+    "stage": "adult",
+    "fly": "squimp",
+    "strength": "change-up",
+    "hookSizes": [
+      4,
+      8
+    ],
+    "facets": {
+      "regions": [
+        "bahamas",
+        "belize"
+      ],
+      "species": [
+        "bonefish"
+      ],
+      "waterTypes": [
+        "flat"
+      ]
+    },
+    "presentation": "Longer, slower strips than a Gotcha.",
+    "rigs": [
+      "flats-8wt-floating"
+    ],
+    "notes": "The fly to show a fish that followed and refused.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "m-shrimp-redfish-clouser",
+    "status": "draft",
+    "organism": "snapping-shrimp",
+    "stage": "adult",
+    "fly": "clouser-minnow-chartreuse-white",
+    "strength": "situational",
+    "hookSizes": [
+      2,
+      6
+    ],
+    "facets": {
+      "regions": [
+        "nc-coast"
+      ],
+      "species": [
+        "redfish"
+      ],
+      "waterTypes": [
+        "mangrove",
+        "channel"
+      ],
+      "tide": [
+        "incoming",
+        "high"
+      ]
+    },
+    "presentation": "Close and slow — they hunt by feel as much as sight in dirty marsh water.",
+    "rigs": [
+      "flats-8wt-floating"
+    ],
+    "sources": [
+      "NEEDS REVIEW"
+    ],
+    "retrieve": "crab-crawl"
+  },
+  {
+    "id": "m-mantis-veverka",
+    "status": "draft",
+    "organism": "mantis-shrimp",
+    "stage": "adult",
+    "fly": "veverkas-mantis-shrimp",
+    "strength": "first-choice",
+    "hookSizes": [
+      2,
+      6
+    ],
+    "facets": {
+      "regions": [
+        "bahamas",
+        "belize",
+        "honduras"
+      ],
+      "species": [
+        "bonefish",
+        "permit"
+      ],
+      "waterTypes": [
+        "flat"
+      ],
+      "depthIn": [
+        10,
+        36
+      ]
+    },
+    "presentation": "Longer strips — it swims rather than hops.",
+    "rigs": [
+      "flats-8wt-floating",
+      "flats-9wt-wind"
+    ],
+    "notes": "The upgrade when small tan flies are being refused. Fish it on the shrimp hop but stretch the strips out — a mantis swims more than it hops.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "m-mantis-bitters-chartreuse",
+    "status": "draft",
+    "organism": "mantis-shrimp",
+    "stage": "adult",
+    "fly": "bonefish-bitters-chartreuse",
+    "strength": "change-up",
+    "hookSizes": [
+      4,
+      8
+    ],
+    "facets": {
+      "regions": [
+        "bahamas",
+        "honduras"
+      ],
+      "species": [
+        "bonefish"
+      ],
+      "waterTypes": [
+        "flat"
+      ],
+      "depthIn": [
+        6,
+        20
+      ]
+    },
+    "presentation": "Short strips over grass, keeping it just off the bottom.",
+    "rigs": [
+      "flats-8wt-floating"
+    ],
+    "notes": "Over turtle grass a tan fly vanishes; the chartreuse is a visibility decision.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "m-crab-bitters-amber",
+    "status": "draft",
+    "organism": "swimming-crab",
+    "stage": "juvenile",
+    "fly": "bonefish-bitters-amber",
+    "strength": "first-choice",
+    "hookSizes": [
+      4,
+      8
+    ],
+    "facets": {
+      "regions": [
+        "bahamas",
+        "honduras"
+      ],
+      "species": [
+        "bonefish"
+      ],
+      "waterTypes": [
+        "flat"
+      ],
+      "depthIn": [
+        4,
+        16
+      ]
+    },
+    "presentation": "Let it drop and sit. Tiny twitch, then nothing.",
+    "rigs": [
+      "flats-8wt-floating"
+    ],
+    "sources": [
+      "NEEDS REVIEW"
+    ],
+    "retrieve": "crab-drop"
+  },
+  {
+    "id": "m-crab-merkin-tan",
+    "status": "draft",
+    "organism": "swimming-crab",
+    "stage": "adult",
+    "fly": "strong-arm-merkin-tan",
+    "strength": "first-choice",
+    "hookSizes": [
+      2,
+      6
+    ],
+    "facets": {
+      "regions": [
+        "belize",
+        "bahamas",
+        "honduras"
+      ],
+      "species": [
+        "permit"
+      ],
+      "waterTypes": [
+        "flat"
+      ],
+      "depthIn": [
+        12,
+        48
+      ]
+    },
+    "presentation": "Put it on their nose and let it fall. Do not strip once the fish tips down.",
+    "rigs": [
+      "flats-9wt-wind"
+    ],
+    "notes": "Sand bottom.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "m-crab-merkin-olive",
+    "status": "draft",
+    "organism": "swimming-crab",
+    "stage": "adult",
+    "fly": "strong-arm-merkin-olive",
+    "strength": "first-choice",
+    "hookSizes": [
+      2,
+      6
+    ],
+    "facets": {
+      "regions": [
+        "belize",
+        "bahamas",
+        "honduras"
+      ],
+      "species": [
+        "permit"
+      ],
+      "waterTypes": [
+        "flat"
+      ],
+      "depthIn": [
+        12,
+        48
+      ]
+    },
+    "presentation": "As the tan. The colour follows the bottom, not the fish.",
+    "rigs": [
+      "flats-9wt-wind"
+    ],
+    "notes": "Grass and rubble bottom.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "m-crab-merkin-base",
+    "status": "draft",
+    "organism": "swimming-crab",
+    "stage": "adult",
+    "fly": "strong-arm-merkin",
+    "strength": "first-choice",
+    "hookSizes": [
+      2,
+      6
+    ],
+    "facets": {
+      "species": [
+        "permit"
+      ],
+      "waterTypes": [
+        "flat"
+      ]
+    },
+    "presentation": "Lead, drop, stop.",
+    "rigs": [
+      "flats-9wt-wind"
+    ],
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "m-crab-avalon",
+    "status": "draft",
+    "organism": "swimming-crab",
+    "stage": "adult",
+    "fly": "avalon-permit",
+    "strength": "change-up",
+    "hookSizes": [
+      2,
+      4
+    ],
+    "facets": {
+      "regions": [
+        "belize",
+        "honduras"
+      ],
+      "species": [
+        "permit"
+      ],
+      "depthIn": [
+        18,
+        60
+      ]
+    },
+    "presentation": "Two sharp strips to kick up sand, then dead.",
+    "rigs": [
+      "flats-9wt-wind"
+    ],
+    "notes": "Deeper water and moving current, where a light crab never reaches the fish.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "m-crab-molting-merkin",
+    "status": "draft",
+    "organism": "swimming-crab",
+    "stage": "molting",
+    "fly": "strong-arm-merkin-tan",
+    "strength": "situational",
+    "hookSizes": [
+      4,
+      6
+    ],
+    "facets": {
+      "species": [
+        "permit",
+        "bonefish"
+      ],
+      "waterTypes": [
+        "flat"
+      ]
+    },
+    "presentation": "Barely move it. A molting crab cannot run.",
+    "rigs": [
+      "flats-9wt-wind"
+    ],
+    "sources": [
+      "NEEDS REVIEW"
+    ],
+    "retrieve": "crab-crawl"
+  },
+  {
+    "id": "m-glassminnow-clouser-olive",
+    "status": "draft",
+    "organism": "glass-minnow",
+    "stage": "schooling",
+    "fly": "clouser-minnow-olive-white",
+    "strength": "first-choice",
+    "hookSizes": [
+      1,
+      4
+    ],
+    "facets": {
+      "regions": [
+        "nc-coast"
+      ],
+      "species": [
+        "false-albacore"
+      ],
+      "months": [
+        9,
+        10,
+        11
+      ],
+      "waterTypes": [
+        "inlet",
+        "surf"
+      ],
+      "light": [
+        "bright",
+        "broken"
+      ]
+    },
+    "presentation": "Cast to the edge of the blitz, never the middle. Long fast strips and do not stop.",
+    "rigs": [
+      "flats-9wt-wind"
+    ],
+    "notes": "Match the bait length before you argue about colour.",
+    "sources": [
+      "NEEDS REVIEW"
+    ],
+    "retrieve": "baitfish-flee"
+  },
+  {
+    "id": "m-glassminnow-clouser-chartreuse",
+    "status": "draft",
+    "organism": "glass-minnow",
+    "stage": "schooling",
+    "fly": "clouser-minnow-chartreuse-white",
+    "strength": "change-up",
+    "hookSizes": [
+      1,
+      4
+    ],
+    "facets": {
+      "regions": [
+        "nc-coast"
+      ],
+      "species": [
+        "false-albacore",
+        "redfish"
+      ],
+      "light": [
+        "overcast",
+        "low"
+      ]
+    },
+    "presentation": "Same retrieve, more contrast.",
+    "rigs": [
+      "flats-9wt-wind"
+    ],
+    "sources": [
+      "NEEDS REVIEW"
+    ],
+    "retrieve": "baitfish-flee"
+  },
+  {
+    "id": "m-glassminnow-clouser-base",
+    "status": "draft",
+    "organism": "glass-minnow",
+    "stage": "schooling",
+    "fly": "clouser-minnow",
+    "strength": "first-choice",
+    "hookSizes": [
+      1,
+      6
+    ],
+    "facets": {
+      "species": [
+        "false-albacore",
+        "redfish",
+        "tarpon"
+      ]
+    },
+    "presentation": "Long, fast, uninterrupted.",
+    "rigs": [
+      "flats-9wt-wind"
+    ],
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "m-glassminnow-ep",
+    "status": "draft",
+    "organism": "glass-minnow",
+    "stage": "schooling",
+    "fly": "ep-baitfish",
+    "strength": "change-up",
+    "hookSizes": [
+      1,
+      4
+    ],
+    "facets": {
+      "regions": [
+        "nc-coast"
+      ],
+      "species": [
+        "false-albacore"
+      ],
+      "months": [
+        9,
+        10,
+        11
+      ]
+    },
+    "presentation": "Slower than the Clouser, and let it hang at the end.",
+    "rigs": [
+      "flats-9wt-wind"
+    ],
+    "notes": "Holds a wide profile when the fish want bulk over flash.",
+    "sources": [
+      "NEEDS REVIEW"
+    ],
+    "retrieve": "baitfish-wounded"
+  },
+  {
+    "id": "m-anchovy-ep",
+    "status": "draft",
+    "organism": "bay-anchovy",
+    "stage": "schooling",
+    "fly": "ep-baitfish",
+    "strength": "first-choice",
+    "hookSizes": [
+      2,
+      6
+    ],
+    "facets": {
+      "regions": [
+        "nc-coast"
+      ],
+      "species": [
+        "false-albacore",
+        "redfish"
+      ],
+      "waterTypes": [
+        "inlet",
+        "channel"
+      ]
+    },
+    "presentation": "Steady medium strips through the seam.",
+    "rigs": [
+      "flats-9wt-wind"
+    ],
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "m-anchovy-gurgler",
+    "status": "draft",
+    "organism": "bay-anchovy",
+    "stage": "schooling",
+    "fly": "gurgler",
+    "strength": "situational",
+    "hookSizes": [
+      1,
+      4
+    ],
+    "facets": {
+      "regions": [
+        "nc-coast",
+        "belize"
+      ],
+      "species": [
+        "redfish",
+        "tarpon"
+      ],
+      "waterTypes": [
+        "mangrove"
+      ],
+      "light": [
+        "low"
+      ],
+      "timeOfDay": [
+        "dawn",
+        "dusk"
+      ]
+    },
+    "presentation": "Pop it, then let it sit. The pause is the whole fly.",
+    "rigs": [
+      "flats-9wt-wind"
+    ],
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "m-baitfish-toad-tan",
+    "status": "draft",
+    "organism": "glass-minnow",
+    "stage": "schooling",
+    "fly": "tarpon-toad-tan",
+    "strength": "first-choice",
+    "hookSizes": [
+      1,
+      3
+    ],
+    "facets": {
+      "regions": [
+        "belize",
+        "honduras"
+      ],
+      "species": [
+        "tarpon"
+      ],
+      "waterTypes": [
+        "channel",
+        "mangrove"
+      ],
+      "light": [
+        "bright"
+      ]
+    },
+    "presentation": "Lead the fish, let it sink to their level, slow strips. Keep stripping through the eat.",
+    "rigs": [
+      "tarpon-11wt"
+    ],
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "m-baitfish-toad-black",
+    "status": "draft",
+    "organism": "glass-minnow",
+    "stage": "schooling",
+    "fly": "tarpon-toad-black",
+    "strength": "change-up",
+    "hookSizes": [
+      1,
+      3
+    ],
+    "facets": {
+      "regions": [
+        "belize",
+        "honduras"
+      ],
+      "species": [
+        "tarpon"
+      ],
+      "light": [
+        "low",
+        "overcast"
+      ],
+      "timeOfDay": [
+        "dawn",
+        "dusk",
+        "night"
+      ]
+    },
+    "presentation": "Slow. Silhouette does the work.",
+    "rigs": [
+      "tarpon-11wt"
+    ],
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "m-baitfish-toad-base",
+    "status": "draft",
+    "organism": "glass-minnow",
+    "stage": "schooling",
+    "fly": "tarpon-toad",
+    "strength": "first-choice",
+    "hookSizes": [
+      1,
+      3
+    ],
+    "facets": {
+      "species": [
+        "tarpon"
+      ]
+    },
+    "presentation": "Lead, sink, slow strips, strip-strike hard and more than once.",
+    "rigs": [
+      "tarpon-11wt"
+    ],
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "m-palolo",
+    "status": "draft",
+    "organism": "palolo-worm",
+    "stage": "spawning",
+    "fly": "palolo-worm-fly",
+    "strength": "first-choice",
+    "hookSizes": [
+      2,
+      4
+    ],
+    "facets": {
+      "regions": [
+        "belize"
+      ],
+      "species": [
+        "tarpon"
+      ],
+      "tide": [
+        "outgoing"
+      ],
+      "timeOfDay": [
+        "dusk"
+      ]
+    },
+    "presentation": "Dead drift in the current, almost no strip.",
+    "rigs": [
+      "tarpon-11wt"
+    ],
+    "notes": "A handful of evenings a year, and current strength predicts it better than the moon does.",
+    "sources": [
+      "https://midcurrent.com/v2/palolo-worms-and-tarpon-the-most-bizarre-hatch-in-saltwater-and-how-to-fish-it/ — accessed 2026-09-14. NOTE: Florida Keys data used as the closest available proxy; Belize-specific timing is NOT independently confirmed."
+    ]
+  },
+  {
+    "id": "m-bwo-nymph-pt",
+    "status": "draft",
+    "organism": "blue-winged-olive",
+    "stage": "nymph",
+    "fly": "pheasant-tail",
+    "strength": "first-choice",
+    "hookSizes": [
+      16,
+      20
+    ],
+    "facets": {
+      "regions": [
+        "idaho",
+        "nc-mountains"
+      ],
+      "species": [
+        "rainbow-trout",
+        "cutthroat-trout",
+        "brown-trout"
+      ],
+      "waterTypes": [
+        "riffle",
+        "seam",
+        "run"
+      ],
+      "tempBandF": [
+        44,
+        58
+      ]
+    },
+    "presentation": "Dead drift, tight line, no indicator. Fish it as the dropper above a heavier point fly.",
+    "rigs": [
+      "euro-double-nymph",
+      "indicator-nymph",
+      "dry-dropper-floating"
+    ],
+    "notes": "This is the dropper in Jeff's Idaho rig.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "m-bwo-nymph-perdigon-olive",
+    "status": "draft",
+    "organism": "blue-winged-olive",
+    "stage": "nymph",
+    "fly": "perdigon-olive",
+    "strength": "first-choice",
+    "hookSizes": [
+      14,
+      18
+    ],
+    "facets": {
+      "regions": [
+        "idaho",
+        "nc-mountains"
+      ],
+      "waterTypes": [
+        "riffle",
+        "run",
+        "pocket"
+      ],
+      "tempBandF": [
+        42,
+        56
+      ]
+    },
+    "presentation": "Point fly. Its job is depth — it gets the dropper down before the drift is over.",
+    "rigs": [
+      "euro-double-nymph"
+    ],
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "m-bwo-nymph-frenchie",
+    "status": "draft",
+    "organism": "blue-winged-olive",
+    "stage": "nymph",
+    "fly": "frenchie",
+    "strength": "change-up",
+    "hookSizes": [
+      14,
+      18
+    ],
+    "facets": {
+      "regions": [
+        "idaho",
+        "nc-mountains"
+      ],
+      "waterTypes": [
+        "riffle",
+        "seam"
+      ],
+      "light": [
+        "overcast"
+      ]
+    },
+    "presentation": "Dead drift. The hot collar is an attention decision, not an imitation one.",
+    "rigs": [
+      "euro-double-nymph"
+    ],
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "m-bwo-emerger-rs2",
+    "status": "draft",
+    "organism": "blue-winged-olive",
+    "stage": "emerger",
+    "fly": "rs2",
+    "strength": "first-choice",
+    "hookSizes": [
+      18,
+      22
+    ],
+    "facets": {
+      "regions": [
+        "idaho",
+        "nc-mountains"
+      ],
+      "waterTypes": [
+        "tailout",
+        "seam",
+        "pool"
+      ],
+      "light": [
+        "overcast"
+      ],
+      "tempBandF": [
+        42,
+        55
+      ]
+    },
+    "presentation": "In or just under the film, dead drift. This is the answer when fish are rising and refusing the dun.",
+    "rigs": [
+      "dry-dropper-floating"
+    ],
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "m-bwo-dun-para-adams",
+    "status": "draft",
+    "organism": "blue-winged-olive",
+    "stage": "dun",
+    "fly": "parachute-adams",
+    "strength": "first-choice",
+    "hookSizes": [
+      16,
+      20
+    ],
+    "facets": {
+      "regions": [
+        "idaho",
+        "nc-mountains"
+      ],
+      "species": [
+        "rainbow-trout",
+        "cutthroat-trout",
+        "brown-trout"
+      ],
+      "waterTypes": [
+        "tailout",
+        "seam",
+        "pool"
+      ],
+      "timeOfDay": [
+        "midday",
+        "afternoon"
+      ],
+      "light": [
+        "overcast"
+      ],
+      "tempBandF": [
+        42,
+        56
+      ]
+    },
+    "presentation": "Drag-free drift, upstream or down-and-across with slack. A cold drizzly afternoon is the whole point.",
+    "rigs": [
+      "dry-dropper-floating"
+    ],
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "m-bwo-spinner-para-adams",
+    "status": "draft",
+    "organism": "blue-winged-olive",
+    "stage": "spinner",
+    "fly": "parachute-adams",
+    "strength": "situational",
+    "hookSizes": [
+      18,
+      22
+    ],
+    "facets": {
+      "regions": [
+        "idaho",
+        "nc-mountains"
+      ],
+      "timeOfDay": [
+        "dusk"
+      ],
+      "waterTypes": [
+        "tailout",
+        "pool"
+      ]
+    },
+    "presentation": "Flush in the film. Rises are subtle — look for the nose, not the splash.",
+    "rigs": [
+      "dry-dropper-floating"
+    ],
+    "notes": "A dedicated spent-wing pattern beats this; it is a placeholder until one is added.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "m-pmd-nymph-frenchie",
+    "status": "draft",
+    "organism": "pale-morning-dun",
+    "stage": "nymph",
+    "fly": "frenchie",
+    "strength": "first-choice",
+    "hookSizes": [
+      14,
+      18
+    ],
+    "facets": {
+      "regions": [
+        "idaho"
+      ],
+      "waterTypes": [
+        "riffle",
+        "run"
+      ],
+      "months": [
+        6,
+        7,
+        8
+      ],
+      "tempBandF": [
+        52,
+        62
+      ]
+    },
+    "presentation": "Dead drift on the point or the dropper.",
+    "rigs": [
+      "euro-double-nymph"
+    ],
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "m-pmd-dun-para-adams",
+    "status": "draft",
+    "organism": "pale-morning-dun",
+    "stage": "dun",
+    "fly": "parachute-adams",
+    "strength": "change-up",
+    "hookSizes": [
+      14,
+      18
+    ],
+    "facets": {
+      "regions": [
+        "idaho"
+      ],
+      "timeOfDay": [
+        "morning",
+        "midday"
+      ],
+      "months": [
+        6,
+        7,
+        8
+      ]
+    },
+    "presentation": "Drag-free. A pale-bodied parachute is closer, but this will get eaten.",
+    "rigs": [
+      "dry-dropper-floating"
+    ],
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "m-pmd-emerger-rs2",
+    "status": "draft",
+    "organism": "pale-morning-dun",
+    "stage": "emerger",
+    "fly": "rs2",
+    "strength": "first-choice",
+    "hookSizes": [
+      16,
+      20
+    ],
+    "facets": {
+      "regions": [
+        "idaho"
+      ],
+      "months": [
+        6,
+        7,
+        8
+      ],
+      "timeOfDay": [
+        "morning",
+        "midday"
+      ]
+    },
+    "presentation": "In the film behind a visible dry.",
+    "rigs": [
+      "dry-dropper-floating"
+    ],
+    "notes": "Cripples get eaten before clean duns do.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "m-caddis-larva-walts",
+    "status": "draft",
+    "organism": "caddis",
+    "stage": "larva",
+    "fly": "walts-worm",
+    "strength": "first-choice",
+    "hookSizes": [
+      12,
+      18
+    ],
+    "facets": {
+      "regions": [
+        "idaho",
+        "nc-mountains"
+      ],
+      "species": [
+        "cutthroat-trout",
+        "rainbow-trout",
+        "brown-trout"
+      ],
+      "waterTypes": [
+        "riffle",
+        "seam",
+        "run"
+      ]
+    },
+    "presentation": "Point fly, dead drift, tight line. Depth first.",
+    "rigs": [
+      "euro-double-nymph",
+      "dry-dropper-floating"
+    ],
+    "notes": "This is the fly that took the 19\" cutthroat on 2026-09-12 — on point, euro rig, 3 ft seam — and the rainbow that afternoon as a dry-dropper.",
+    "sources": [
+      "Jeff's log, 2026-09-12"
+    ]
+  },
+  {
+    "id": "m-caddis-larva-walts-hotspot",
+    "status": "draft",
+    "organism": "caddis",
+    "stage": "larva",
+    "fly": "walts-worm-hot-spot",
+    "strength": "change-up",
+    "hookSizes": [
+      12,
+      18
+    ],
+    "facets": {
+      "regions": [
+        "idaho",
+        "nc-mountains"
+      ],
+      "light": [
+        "overcast",
+        "low"
+      ]
+    },
+    "presentation": "Same drift; the collar buys you a look in off-colour water.",
+    "rigs": [
+      "euro-double-nymph"
+    ],
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "m-caddis-pupa-perdigon",
+    "status": "draft",
+    "organism": "caddis",
+    "stage": "pupa",
+    "fly": "perdigon",
+    "strength": "change-up",
+    "hookSizes": [
+      14,
+      18
+    ],
+    "facets": {
+      "regions": [
+        "idaho",
+        "nc-mountains"
+      ],
+      "waterTypes": [
+        "riffle",
+        "run"
+      ]
+    },
+    "presentation": "Dead drift, then let it swing and rise at the end — the pupa is rising when it gets eaten.",
+    "rigs": [
+      "euro-double-nymph"
+    ],
+    "notes": "The lift at the end of the drift is the imitation, not the fly.",
+    "sources": [
+      "NEEDS REVIEW"
+    ],
+    "retrieve": "swing-lift"
+  },
+  {
+    "id": "m-caddis-adult-ehc",
+    "status": "draft",
+    "organism": "caddis",
+    "stage": "adult",
+    "fly": "elk-hair-caddis",
+    "strength": "first-choice",
+    "hookSizes": [
+      12,
+      18
+    ],
+    "facets": {
+      "regions": [
+        "idaho",
+        "nc-mountains"
+      ],
+      "timeOfDay": [
+        "afternoon",
+        "dusk"
+      ]
+    },
+    "presentation": "Drift it, then twitch it. Splashy rises mean they want movement.",
+    "rigs": [
+      "dry-dropper-floating"
+    ],
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "m-caddis-adult-ehc-tan",
+    "status": "draft",
+    "organism": "caddis",
+    "stage": "adult",
+    "fly": "elk-hair-caddis-tan",
+    "strength": "first-choice",
+    "hookSizes": [
+      14,
+      16
+    ],
+    "facets": {
+      "regions": [
+        "idaho",
+        "nc-mountains"
+      ],
+      "timeOfDay": [
+        "afternoon",
+        "dusk"
+      ],
+      "months": [
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    "presentation": "As above. Also the dry half of a dry-dropper, because it floats a nymph.",
+    "rigs": [
+      "dry-dropper-floating"
+    ],
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "m-caddis-adult-ehc-olive",
+    "status": "draft",
+    "organism": "caddis",
+    "stage": "adult",
+    "fly": "elk-hair-caddis-olive",
+    "strength": "change-up",
+    "hookSizes": [
+      14,
+      18
+    ],
+    "facets": {
+      "regions": [
+        "idaho",
+        "nc-mountains"
+      ],
+      "months": [
+        8,
+        9,
+        10
+      ]
+    },
+    "presentation": "Drift and twitch.",
+    "rigs": [
+      "dry-dropper-floating"
+    ],
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "m-midge-larva-zebra-red",
+    "status": "draft",
+    "organism": "midge",
+    "stage": "larva",
+    "fly": "zebra-midge-red",
+    "strength": "first-choice",
+    "hookSizes": [
+      18,
+      22
+    ],
+    "facets": {
+      "regions": [
+        "nc-mountains",
+        "idaho"
+      ],
+      "waterTypes": [
+        "pool",
+        "run"
+      ],
+      "tempBandF": [
+        34,
+        48
+      ]
+    },
+    "presentation": "Deep, slow, dead drift.",
+    "rigs": [
+      "indicator-nymph",
+      "euro-double-nymph"
+    ],
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "m-midge-pupa-zebra-black",
+    "status": "draft",
+    "organism": "midge",
+    "stage": "pupa",
+    "fly": "zebra-midge-black",
+    "strength": "first-choice",
+    "hookSizes": [
+      18,
+      22
+    ],
+    "facets": {
+      "regions": [
+        "nc-mountains",
+        "idaho"
+      ],
+      "months": [
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "tempBandF": [
+        34,
+        48
+      ]
+    },
+    "presentation": "Suspended in the upper column, dead drift. Size down further than feels reasonable.",
+    "rigs": [
+      "indicator-nymph",
+      "dry-dropper-floating"
+    ],
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "m-midge-pupa-zebra-base",
+    "status": "draft",
+    "organism": "midge",
+    "stage": "pupa",
+    "fly": "zebra-midge",
+    "strength": "first-choice",
+    "hookSizes": [
+      18,
+      22
+    ],
+    "facets": {
+      "tempBandF": [
+        34,
+        50
+      ]
+    },
+    "presentation": "Dropper, dead drift.",
+    "rigs": [
+      "indicator-nymph"
+    ],
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "m-midge-adult-griffiths",
+    "status": "draft",
+    "organism": "midge",
+    "stage": "adult",
+    "fly": "griffiths-gnat",
+    "strength": "first-choice",
+    "hookSizes": [
+      18,
+      24
+    ],
+    "facets": {
+      "regions": [
+        "nc-mountains"
+      ],
+      "waterTypes": [
+        "pool",
+        "tailout"
+      ],
+      "timeOfDay": [
+        "midday",
+        "afternoon"
+      ],
+      "tempBandF": [
+        36,
+        48
+      ]
+    },
+    "presentation": "Dead drift in slow water. It imitates a cluster, which is what they are actually eating.",
+    "rigs": [
+      "dry-dropper-floating"
+    ],
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "m-stone-nymph-pats",
+    "status": "draft",
+    "organism": "golden-stonefly",
+    "stage": "nymph",
+    "fly": "pats-rubber-legs",
+    "strength": "first-choice",
+    "hookSizes": [
+      6,
+      12
+    ],
+    "facets": {
+      "regions": [
+        "idaho"
+      ],
+      "waterTypes": [
+        "riffle",
+        "pocket",
+        "run"
+      ]
+    },
+    "presentation": "Point fly, bounced along the bottom. Available all year, not just at hatch time.",
+    "rigs": [
+      "euro-double-nymph",
+      "indicator-nymph"
+    ],
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "m-scud-fly",
+    "status": "draft",
+    "organism": "scud",
+    "stage": "adult",
+    "fly": "scud-fly",
+    "strength": "first-choice",
+    "hookSizes": [
+      12,
+      18
+    ],
+    "facets": {
+      "regions": [
+        "idaho"
+      ],
+      "waterTypes": [
+        "run",
+        "pool"
+      ]
+    },
+    "presentation": "Dead drift near weed and cobble.",
+    "rigs": [
+      "euro-double-nymph",
+      "indicator-nymph"
+    ],
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "m-scud-olive",
+    "status": "draft",
+    "organism": "scud",
+    "stage": "adult",
+    "fly": "scud-fly-olive",
+    "strength": "first-choice",
+    "hookSizes": [
+      12,
+      18
+    ],
+    "facets": {
+      "regions": [
+        "idaho"
+      ],
+      "waterTypes": [
+        "run",
+        "pool"
+      ]
+    },
+    "presentation": "As above. Living naturals are olive and grey.",
+    "rigs": [
+      "euro-double-nymph"
+    ],
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "m-scud-orange",
+    "status": "draft",
+    "organism": "scud",
+    "stage": "adult",
+    "fly": "scud-fly-orange",
+    "strength": "situational",
+    "hookSizes": [
+      12,
+      16
+    ],
+    "facets": {
+      "regions": [
+        "idaho"
+      ]
+    },
+    "presentation": "Dead drift.",
+    "rigs": [
+      "euro-double-nymph"
+    ],
+    "notes": "Only where the naturals actually turn orange. A good example of a colour rule that does not travel between watersheds — the log will settle this one.",
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "m-worm-squirmy",
+    "status": "draft",
+    "organism": "aquatic-worm",
+    "stage": "adult",
+    "fly": "squirmy-worm",
+    "strength": "first-choice",
+    "hookSizes": [
+      10,
+      16
+    ],
+    "facets": {
+      "regions": [
+        "idaho",
+        "nc-mountains"
+      ],
+      "waterTypes": [
+        "run",
+        "seam",
+        "pool"
+      ]
+    },
+    "presentation": "Point fly, deep, dead drift. Rising water after rain is the trigger.",
+    "rigs": [
+      "euro-double-nymph",
+      "indicator-nymph"
+    ],
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  },
+  {
+    "id": "m-worm-walts-hotspot",
+    "status": "draft",
+    "organism": "aquatic-worm",
+    "stage": "adult",
+    "fly": "walts-worm-hot-spot",
+    "strength": "change-up",
+    "hookSizes": [
+      12,
+      16
+    ],
+    "facets": {
+      "regions": [
+        "idaho",
+        "nc-mountains"
+      ]
+    },
+    "presentation": "Dead drift, deep.",
+    "rigs": [
+      "euro-double-nymph"
+    ],
+    "sources": [
+      "NEEDS REVIEW"
+    ]
+  }
+]
