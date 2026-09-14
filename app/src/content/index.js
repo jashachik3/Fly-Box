@@ -21,8 +21,29 @@ export const speciesList = bundle.tables.species;
 export const flies = bundle.tables.flies;
 export const organisms = bundle.tables.organisms;
 export const rigs = bundle.tables.rigs;
+export const materials = bundle.tables.materials ?? [];
+
+/**
+ * The bench sheet for one leader — cut list, junction turns, spools, IGFA
+ * limits. Computed by content/leader.mjs at build time, so the phone is only
+ * ever reading an answer.
+ */
+export const leaderSheet = (rigId) => bundle.leaderSheets?.[rigId] ?? null;
 export const knots = bundle.tables.knots;
 export const concepts = bundle.concepts;
+
+/**
+ * The concept ids a deck holds. Membership ships as indexes into `concepts`
+ * (see content/build.mjs), so this is where they turn back into ids. `key` is a
+ * deck id, a region id, or "<region>.<species>" for a trip.
+ */
+export const deckMembers = (key) => {
+  const idx = bundle.index.deckConcepts?.[key] ?? bundle.index.tripDecks?.[key];
+  if (!idx) return null;
+  const out = new Set();
+  for (const i of idx) { const c = bundle.concepts[i]; if (c) out.add(c.id); }
+  return out;
+};
 
 export const speciesIn = (regionId) =>
   bundle.tables.species.filter((s) => s.regions?.includes(regionId));

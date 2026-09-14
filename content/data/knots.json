@@ -19,8 +19,15 @@
     "failsWhen": "Seated dry, or drawn up by pulling the tag instead of the standing line.",
     "notes": "House rule: this is the freshwater fly knot. Do not mix a clinch into the rotation — one knot tied well beats two tied adequately.",
     "sources": [
-      "Jeff's stated knot policy"
-    ]
+      "Jeff's stated knot policy",
+      "Allowance is a working convention, not a measured figure — practitioners use 1–6 in per end"
+    ],
+    "diagram": "assets/diagrams/knot-pitzen.svg",
+    "allowanceIn": [
+      4,
+      5
+    ],
+    "defaultTurns": 4
   },
   {
     "id": "non-slip-mono-loop",
@@ -40,10 +47,18 @@
     ],
     "bestFor": "Every saltwater fly, and freshwater streamers — the loop lets a weighted fly swim and drop freely.",
     "failsWhen": "The tag re-enters the overhand from the wrong side, which quietly halves the strength.",
-    "notes": "House rule: loop knot on all saltwater flies and all streamers. Wrap count varies with tippet weight — that is the part worth drilling.",
+    "notes": "House rule: loop knot on all saltwater flies and all streamers. Wrap count varies with tippet weight — that is the part worth drilling. Orvis: 6 turns under 8 lb, 5 turns up to 40 lb. Start with about 10 in of tag — most of the allowance is grip, not knot.",
     "sources": [
-      "Jeff's stated knot policy"
-    ]
+      "Jeff's stated knot policy",
+      "Allowance is a working convention, not a measured figure — practitioners use 1–6 in per end",
+      "Orvis — non-slip mono loop"
+    ],
+    "diagram": "assets/diagrams/knot-non-slip-mono-loop.svg",
+    "allowanceIn": [
+      6,
+      10
+    ],
+    "defaultTurns": 5
   },
   {
     "id": "blood-knot",
@@ -64,8 +79,19 @@
     "bestFor": "Joining leader sections of similar diameter — the tidiest option for a hand-built leader.",
     "failsWhen": "Diameters differ by more than about 0.002 in; use a surgeon's knot instead.",
     "sources": [
-      "NEEDS REVIEW"
-    ]
+      "NEEDS REVIEW",
+      "Allowance is a working convention, not a measured figure — practitioners use 1–6 in per end",
+      "Gary Borger — the 5/7 blood knot"
+    ],
+    "diagram": "assets/diagrams/knot-blood-knot.svg",
+    "allowanceIn": [
+      3,
+      4
+    ],
+    "defaultTurns": 5,
+    "stepToleranceIn": 0.002,
+    "extraTurnPerStepIn": 0.002,
+    "notes": "Gary Borger's rule: an even blood knot seats up to a 0.002 in difference. For each further 0.002 in, the THIN side takes one more turn — that is the 5/7 blood knot."
   },
   {
     "id": "double-surgeons",
@@ -84,10 +110,18 @@
     ],
     "bestFor": "Fast tippet changes on the water, and joining unequal diameters.",
     "failsWhen": "Only two of the four ends are pulled, which seats it crooked.",
-    "notes": "The cold-hands, failing-light knot.",
+    "notes": "The cold-hands, failing-light knot. Tolerates a diameter mismatch a blood knot will not, which is exactly when to reach for it.",
     "sources": [
-      "NEEDS REVIEW"
-    ]
+      "NEEDS REVIEW",
+      "Allowance is a working convention, not a measured figure — practitioners use 1–6 in per end"
+    ],
+    "diagram": "assets/diagrams/knot-double-surgeons.svg",
+    "allowanceIn": [
+      4,
+      5
+    ],
+    "defaultTurns": 2,
+    "stepToleranceIn": 0.012
   },
   {
     "id": "perfection-loop",
@@ -109,7 +143,13 @@
     "bestFor": "The butt-end loop on a hand-built leader, for loop-to-loop onto the fly line.",
     "failsWhen": "Seated without wetting in heavy butt material, which cuts itself.",
     "sources": [
-      "NEEDS REVIEW"
+      "NEEDS REVIEW",
+      "Allowance is a working convention, not a measured figure — practitioners use 1–6 in per end"
+    ],
+    "diagram": "assets/diagrams/knot-perfection-loop.svg",
+    "allowanceIn": [
+      4,
+      5
     ]
   },
   {
@@ -131,8 +171,15 @@
     "failsWhen": "Wraps cross over one another instead of lying side by side.",
     "notes": "A vise-and-coffee-table knot, not a knot to learn on the water.",
     "sources": [
-      "NEEDS REVIEW"
-    ]
+      "NEEDS REVIEW",
+      "Allowance is a working convention, not a measured figure — practitioners use 1–6 in per end"
+    ],
+    "diagram": "assets/diagrams/knot-nail-knot.svg",
+    "allowanceIn": [
+      5,
+      6
+    ],
+    "defaultTurns": 6
   },
   {
     "id": "albright",
@@ -152,9 +199,17 @@
     ],
     "bestFor": "Joining wildly unequal diameters — class tippet to a heavy bite section.",
     "failsWhen": "Wraps slide off the end of the loop under load because they were never seated.",
-    "notes": "Only needed once tarpon are genuinely on the calendar.",
+    "notes": "Only needed once tarpon are genuinely on the calendar. Built for wildly unequal diameters — class tippet to a heavy bite section.",
     "sources": [
-      "NEEDS REVIEW"
-    ]
+      "NEEDS REVIEW",
+      "Allowance is a working convention, not a measured figure — practitioners use 1–6 in per end"
+    ],
+    "diagram": "assets/diagrams/knot-albright.svg",
+    "allowanceIn": [
+      5,
+      6
+    ],
+    "defaultTurns": 10,
+    "stepToleranceIn": 0.04
   }
 ]

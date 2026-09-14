@@ -4,6 +4,7 @@ import { store } from '../state/db.js';
 import { useAsync } from '../state/useAsync.js';
 import { Card, Label, Empty, Pill } from './bits.jsx';
 import GearPanel from './GearPanel.jsx';
+import KnotsPanel from './KnotsPanel.jsx';
 
 function Thumb({ src }) {
   const [ok, setOk] = useState(true);
@@ -71,6 +72,8 @@ export default function BoxTab({ slate, trip }) {
               onClick={() => setView('flies')}>Flies</button>
       <button type="button" className="chip" aria-pressed={view === 'gear'}
               onClick={() => setView('gear')}>Gear</button>
+      <button type="button" className="chip" aria-pressed={view === 'knots'}
+              onClick={() => setView('knots')}>Knots</button>
     </div>
   );
 
@@ -79,6 +82,15 @@ export default function BoxTab({ slate, trip }) {
       <>
         {switcher}
         <GearPanel trip={trip} />
+      </>
+    );
+  }
+
+  if (view === 'knots') {
+    return (
+      <>
+        {switcher}
+        <KnotsPanel />
       </>
     );
   }

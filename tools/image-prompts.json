@@ -1,8 +1,9 @@
 {
-  "builtAt": "2026-09-14T19:45:46.380Z",
+  "builtAt": "2026-09-14T22:50:58.845Z",
   "model": "fal-ai/nano-banana-2",
-  "contentVersion": "0.5.0",
-  "count": 78,
+  "editModel": "fal-ai/nano-banana-2/edit",
+  "contentVersion": "0.6.0",
+  "count": 123,
   "entries": [
     {
       "id": "gotcha",
@@ -605,6 +606,456 @@
       "file": "assets/leech-adult.jpg",
       "label": "Leech — adult",
       "prompt": "A freshwater leech: a soft flattened segmented worm-like animal, tapering at both ends, stretched out mid-swim in an S-shaped undulation. No legs, no bristles, no head capsule. Roughly 25–90 mm long. Colouring: black, brown, olive. Shown as it would be found: near the bottom in slow water, silt and weed. Macro natural-history photograph of one single live specimen, centred against a seamless pale warm-grey background with soft even lighting. The whole animal is inside the frame, in sharp focus, in a clear side or three-quarter view. Scientifically accurate anatomy and proportions, correct number of legs, tails and wings. No hook, no fishing fly, no line, no hands, no tools, no text, no watermark, no collage. Exactly one animal in the image."
+    },
+    {
+      "id": "knot-pitzen-1",
+      "kind": "knot-panel",
+      "mode": "edit",
+      "ref": "tools/refs/knot-pitzen-1.png",
+      "out": "app/public/assets/panels/knot-pitzen-1.jpg",
+      "aspect": "1:1",
+      "label": "Pitzen knot — step 1 of 5",
+      "prompt": "Redraw this fly-fishing knot diagram. It is step 1 of 5 of tying a Pitzen knot: Pass the tag through the hook eye and back alongside the standing line. Render it as a clean modern instructional illustration, the kind printed in a good knot-tying guide: smooth rounded monofilament with a soft highlight along its length so it reads as a round cord rather than a flat ribbon, a subtle contact shadow where one strand lies over another so the crossings are obvious, crisp edges, even line weight, no sketchiness, no cross-hatching, no paper texture. Keep the two colours distinct exactly as given: the darker strand stays dark charcoal, the teal strand stays teal. Where a hook is shown, render it as polished steel wire with a clear eye. Flat straight-on view, no perspective, no tilt, no 3D camera angle. Reproduce the geometry EXACTLY as given. Do not add, remove, shorten, lengthen or reroute any strand. Every place one strand crosses another, keep the SAME one in front — this is the whole meaning of the picture and changing it draws a different knot. Keep the number of wraps identical. Count them in the reference and render that many. Do not add a wrap to make it look neater. Do not add any text, numbers, letters, labels, arrows, callouts, rulers, watermarks or captions. None. They are added separately. No hands, no fingers, no tools, no vise, no water, no scenery, no props. Plain flat off-white background, no gradient, no vignette, no shadow on the background."
+    },
+    {
+      "id": "knot-pitzen-2",
+      "kind": "knot-panel",
+      "mode": "edit",
+      "ref": "tools/refs/knot-pitzen-2.png",
+      "out": "app/public/assets/panels/knot-pitzen-2.jpg",
+      "aspect": "1:1",
+      "label": "Pitzen knot — step 2 of 5",
+      "prompt": "Redraw this fly-fishing knot diagram. It is step 2 of 5 of tying a Pitzen knot: Wrap the tag forward, away from the eye, three or four turns around the standing line. Render it as a clean modern instructional illustration, the kind printed in a good knot-tying guide: smooth rounded monofilament with a soft highlight along its length so it reads as a round cord rather than a flat ribbon, a subtle contact shadow where one strand lies over another so the crossings are obvious, crisp edges, even line weight, no sketchiness, no cross-hatching, no paper texture. Keep the two colours distinct exactly as given: the darker strand stays dark charcoal, the teal strand stays teal. Where a hook is shown, render it as polished steel wire with a clear eye. Flat straight-on view, no perspective, no tilt, no 3D camera angle. Reproduce the geometry EXACTLY as given. Do not add, remove, shorten, lengthen or reroute any strand. Every place one strand crosses another, keep the SAME one in front — this is the whole meaning of the picture and changing it draws a different knot. Keep the number of wraps identical. Count them in the reference and render that many. Do not add a wrap to make it look neater. Do not add any text, numbers, letters, labels, arrows, callouts, rulers, watermarks or captions. None. They are added separately. No hands, no fingers, no tools, no vise, no water, no scenery, no props. Plain flat off-white background, no gradient, no vignette, no shadow on the background."
+    },
+    {
+      "id": "knot-pitzen-3",
+      "kind": "knot-panel",
+      "mode": "edit",
+      "ref": "tools/refs/knot-pitzen-3.png",
+      "out": "app/public/assets/panels/knot-pitzen-3.jpg",
+      "aspect": "1:1",
+      "label": "Pitzen knot — step 3 of 5",
+      "prompt": "Redraw this fly-fishing knot diagram. It is step 3 of 5 of tying a Pitzen knot: Bring the tag back and pass it through the loop formed at the eye. Render it as a clean modern instructional illustration, the kind printed in a good knot-tying guide: smooth rounded monofilament with a soft highlight along its length so it reads as a round cord rather than a flat ribbon, a subtle contact shadow where one strand lies over another so the crossings are obvious, crisp edges, even line weight, no sketchiness, no cross-hatching, no paper texture. Keep the two colours distinct exactly as given: the darker strand stays dark charcoal, the teal strand stays teal. Where a hook is shown, render it as polished steel wire with a clear eye. Flat straight-on view, no perspective, no tilt, no 3D camera angle. Reproduce the geometry EXACTLY as given. Do not add, remove, shorten, lengthen or reroute any strand. Every place one strand crosses another, keep the SAME one in front — this is the whole meaning of the picture and changing it draws a different knot. Keep the number of wraps identical. Count them in the reference and render that many. Do not add a wrap to make it look neater. Do not add any text, numbers, letters, labels, arrows, callouts, rulers, watermarks or captions. None. They are added separately. No hands, no fingers, no tools, no vise, no water, no scenery, no props. Plain flat off-white background, no gradient, no vignette, no shadow on the background."
+    },
+    {
+      "id": "knot-pitzen-4",
+      "kind": "knot-panel",
+      "mode": "edit",
+      "ref": "tools/refs/knot-pitzen-4.png",
+      "out": "app/public/assets/panels/knot-pitzen-4.jpg",
+      "aspect": "1:1",
+      "label": "Pitzen knot — step 4 of 5",
+      "prompt": "Redraw this fly-fishing knot diagram. It is step 4 of 5 of tying a Pitzen knot: Wet it and pull the standing line to seat the knot tight against the eye. Render it as a clean modern instructional illustration, the kind printed in a good knot-tying guide: smooth rounded monofilament with a soft highlight along its length so it reads as a round cord rather than a flat ribbon, a subtle contact shadow where one strand lies over another so the crossings are obvious, crisp edges, even line weight, no sketchiness, no cross-hatching, no paper texture. Keep the two colours distinct exactly as given: the darker strand stays dark charcoal, the teal strand stays teal. Where a hook is shown, render it as polished steel wire with a clear eye. Flat straight-on view, no perspective, no tilt, no 3D camera angle. Reproduce the geometry EXACTLY as given. Do not add, remove, shorten, lengthen or reroute any strand. Every place one strand crosses another, keep the SAME one in front — this is the whole meaning of the picture and changing it draws a different knot. Keep the number of wraps identical. Count them in the reference and render that many. Do not add a wrap to make it look neater. Do not add any text, numbers, letters, labels, arrows, callouts, rulers, watermarks or captions. None. They are added separately. No hands, no fingers, no tools, no vise, no water, no scenery, no props. Plain flat off-white background, no gradient, no vignette, no shadow on the background."
+    },
+    {
+      "id": "knot-pitzen-5",
+      "kind": "knot-panel",
+      "mode": "edit",
+      "ref": "tools/refs/knot-pitzen-5.png",
+      "out": "app/public/assets/panels/knot-pitzen-5.jpg",
+      "aspect": "1:1",
+      "label": "Pitzen knot — step 5 of 5",
+      "prompt": "Redraw this fly-fishing knot diagram. It is step 5 of 5 of tying a Pitzen knot: Trim the tag close. Render it as a clean modern instructional illustration, the kind printed in a good knot-tying guide: smooth rounded monofilament with a soft highlight along its length so it reads as a round cord rather than a flat ribbon, a subtle contact shadow where one strand lies over another so the crossings are obvious, crisp edges, even line weight, no sketchiness, no cross-hatching, no paper texture. Keep the two colours distinct exactly as given: the darker strand stays dark charcoal, the teal strand stays teal. Where a hook is shown, render it as polished steel wire with a clear eye. Flat straight-on view, no perspective, no tilt, no 3D camera angle. Reproduce the geometry EXACTLY as given. Do not add, remove, shorten, lengthen or reroute any strand. Every place one strand crosses another, keep the SAME one in front — this is the whole meaning of the picture and changing it draws a different knot. Keep the number of wraps identical. Count them in the reference and render that many. Do not add a wrap to make it look neater. Do not add any text, numbers, letters, labels, arrows, callouts, rulers, watermarks or captions. None. They are added separately. No hands, no fingers, no tools, no vise, no water, no scenery, no props. Plain flat off-white background, no gradient, no vignette, no shadow on the background."
+    },
+    {
+      "id": "knot-non-slip-mono-loop-1",
+      "kind": "knot-panel",
+      "mode": "edit",
+      "ref": "tools/refs/knot-non-slip-mono-loop-1.png",
+      "out": "app/public/assets/panels/knot-non-slip-mono-loop-1.jpg",
+      "aspect": "1:1",
+      "label": "Non-slip mono loop — step 1 of 6",
+      "prompt": "Redraw this fly-fishing knot diagram. It is step 1 of 6 of tying a Non-slip mono loop: Tie a simple overhand knot in the tippet about six inches from the tag end, leaving it open. Render it as a clean modern instructional illustration, the kind printed in a good knot-tying guide: smooth rounded monofilament with a soft highlight along its length so it reads as a round cord rather than a flat ribbon, a subtle contact shadow where one strand lies over another so the crossings are obvious, crisp edges, even line weight, no sketchiness, no cross-hatching, no paper texture. Keep the two colours distinct exactly as given: the darker strand stays dark charcoal, the teal strand stays teal. Where a hook is shown, render it as polished steel wire with a clear eye. Flat straight-on view, no perspective, no tilt, no 3D camera angle. Reproduce the geometry EXACTLY as given. Do not add, remove, shorten, lengthen or reroute any strand. Every place one strand crosses another, keep the SAME one in front — this is the whole meaning of the picture and changing it draws a different knot. Keep the number of wraps identical. Count them in the reference and render that many. Do not add a wrap to make it look neater. Do not add any text, numbers, letters, labels, arrows, callouts, rulers, watermarks or captions. None. They are added separately. No hands, no fingers, no tools, no vise, no water, no scenery, no props. Plain flat off-white background, no gradient, no vignette, no shadow on the background."
+    },
+    {
+      "id": "knot-non-slip-mono-loop-2",
+      "kind": "knot-panel",
+      "mode": "edit",
+      "ref": "tools/refs/knot-non-slip-mono-loop-2.png",
+      "out": "app/public/assets/panels/knot-non-slip-mono-loop-2.jpg",
+      "aspect": "1:1",
+      "label": "Non-slip mono loop — step 2 of 6",
+      "prompt": "Redraw this fly-fishing knot diagram. It is step 2 of 6 of tying a Non-slip mono loop: Pass the tag through the hook eye and back through the overhand knot from the same side it exited. Render it as a clean modern instructional illustration, the kind printed in a good knot-tying guide: smooth rounded monofilament with a soft highlight along its length so it reads as a round cord rather than a flat ribbon, a subtle contact shadow where one strand lies over another so the crossings are obvious, crisp edges, even line weight, no sketchiness, no cross-hatching, no paper texture. Keep the two colours distinct exactly as given: the darker strand stays dark charcoal, the teal strand stays teal. Where a hook is shown, render it as polished steel wire with a clear eye. Flat straight-on view, no perspective, no tilt, no 3D camera angle. Reproduce the geometry EXACTLY as given. Do not add, remove, shorten, lengthen or reroute any strand. Every place one strand crosses another, keep the SAME one in front — this is the whole meaning of the picture and changing it draws a different knot. Keep the number of wraps identical. Count them in the reference and render that many. Do not add a wrap to make it look neater. Do not add any text, numbers, letters, labels, arrows, callouts, rulers, watermarks or captions. None. They are added separately. No hands, no fingers, no tools, no vise, no water, no scenery, no props. Plain flat off-white background, no gradient, no vignette, no shadow on the background."
+    },
+    {
+      "id": "knot-non-slip-mono-loop-3",
+      "kind": "knot-panel",
+      "mode": "edit",
+      "ref": "tools/refs/knot-non-slip-mono-loop-3.png",
+      "out": "app/public/assets/panels/knot-non-slip-mono-loop-3.jpg",
+      "aspect": "1:1",
+      "label": "Non-slip mono loop — step 3 of 6",
+      "prompt": "Redraw this fly-fishing knot diagram. It is step 3 of 6 of tying a Non-slip mono loop: Wrap the tag around the standing line — more turns for lighter tippet, fewer for heavy. Render it as a clean modern instructional illustration, the kind printed in a good knot-tying guide: smooth rounded monofilament with a soft highlight along its length so it reads as a round cord rather than a flat ribbon, a subtle contact shadow where one strand lies over another so the crossings are obvious, crisp edges, even line weight, no sketchiness, no cross-hatching, no paper texture. Keep the two colours distinct exactly as given: the darker strand stays dark charcoal, the teal strand stays teal. Where a hook is shown, render it as polished steel wire with a clear eye. Flat straight-on view, no perspective, no tilt, no 3D camera angle. Reproduce the geometry EXACTLY as given. Do not add, remove, shorten, lengthen or reroute any strand. Every place one strand crosses another, keep the SAME one in front — this is the whole meaning of the picture and changing it draws a different knot. Keep the number of wraps identical. Count them in the reference and render that many. Do not add a wrap to make it look neater. Do not add any text, numbers, letters, labels, arrows, callouts, rulers, watermarks or captions. None. They are added separately. No hands, no fingers, no tools, no vise, no water, no scenery, no props. Plain flat off-white background, no gradient, no vignette, no shadow on the background."
+    },
+    {
+      "id": "knot-non-slip-mono-loop-4",
+      "kind": "knot-panel",
+      "mode": "edit",
+      "ref": "tools/refs/knot-non-slip-mono-loop-4.png",
+      "out": "app/public/assets/panels/knot-non-slip-mono-loop-4.jpg",
+      "aspect": "1:1",
+      "label": "Non-slip mono loop — step 4 of 6",
+      "prompt": "Redraw this fly-fishing knot diagram. It is step 4 of 6 of tying a Non-slip mono loop: Bring the tag back through the overhand knot, entering the same side it originally exited. Render it as a clean modern instructional illustration, the kind printed in a good knot-tying guide: smooth rounded monofilament with a soft highlight along its length so it reads as a round cord rather than a flat ribbon, a subtle contact shadow where one strand lies over another so the crossings are obvious, crisp edges, even line weight, no sketchiness, no cross-hatching, no paper texture. Keep the two colours distinct exactly as given: the darker strand stays dark charcoal, the teal strand stays teal. Where a hook is shown, render it as polished steel wire with a clear eye. Flat straight-on view, no perspective, no tilt, no 3D camera angle. Reproduce the geometry EXACTLY as given. Do not add, remove, shorten, lengthen or reroute any strand. Every place one strand crosses another, keep the SAME one in front — this is the whole meaning of the picture and changing it draws a different knot. Keep the number of wraps identical. Count them in the reference and render that many. Do not add a wrap to make it look neater. Do not add any text, numbers, letters, labels, arrows, callouts, rulers, watermarks or captions. None. They are added separately. No hands, no fingers, no tools, no vise, no water, no scenery, no props. Plain flat off-white background, no gradient, no vignette, no shadow on the background."
+    },
+    {
+      "id": "knot-non-slip-mono-loop-5",
+      "kind": "knot-panel",
+      "mode": "edit",
+      "ref": "tools/refs/knot-non-slip-mono-loop-5.png",
+      "out": "app/public/assets/panels/knot-non-slip-mono-loop-5.jpg",
+      "aspect": "1:1",
+      "label": "Non-slip mono loop — step 5 of 6",
+      "prompt": "Redraw this fly-fishing knot diagram. It is step 5 of 6 of tying a Non-slip mono loop: Wet it, seat the wraps first, then pull the standing line to close the loop to size. Render it as a clean modern instructional illustration, the kind printed in a good knot-tying guide: smooth rounded monofilament with a soft highlight along its length so it reads as a round cord rather than a flat ribbon, a subtle contact shadow where one strand lies over another so the crossings are obvious, crisp edges, even line weight, no sketchiness, no cross-hatching, no paper texture. Keep the two colours distinct exactly as given: the darker strand stays dark charcoal, the teal strand stays teal. Where a hook is shown, render it as polished steel wire with a clear eye. Flat straight-on view, no perspective, no tilt, no 3D camera angle. Reproduce the geometry EXACTLY as given. Do not add, remove, shorten, lengthen or reroute any strand. Every place one strand crosses another, keep the SAME one in front — this is the whole meaning of the picture and changing it draws a different knot. Keep the number of wraps identical. Count them in the reference and render that many. Do not add a wrap to make it look neater. Do not add any text, numbers, letters, labels, arrows, callouts, rulers, watermarks or captions. None. They are added separately. No hands, no fingers, no tools, no vise, no water, no scenery, no props. Plain flat off-white background, no gradient, no vignette, no shadow on the background."
+    },
+    {
+      "id": "knot-non-slip-mono-loop-6",
+      "kind": "knot-panel",
+      "mode": "edit",
+      "ref": "tools/refs/knot-non-slip-mono-loop-6.png",
+      "out": "app/public/assets/panels/knot-non-slip-mono-loop-6.jpg",
+      "aspect": "1:1",
+      "label": "Non-slip mono loop — step 6 of 6",
+      "prompt": "Redraw this fly-fishing knot diagram. It is step 6 of 6 of tying a Non-slip mono loop: Trim the tag close. Render it as a clean modern instructional illustration, the kind printed in a good knot-tying guide: smooth rounded monofilament with a soft highlight along its length so it reads as a round cord rather than a flat ribbon, a subtle contact shadow where one strand lies over another so the crossings are obvious, crisp edges, even line weight, no sketchiness, no cross-hatching, no paper texture. Keep the two colours distinct exactly as given: the darker strand stays dark charcoal, the teal strand stays teal. Where a hook is shown, render it as polished steel wire with a clear eye. Flat straight-on view, no perspective, no tilt, no 3D camera angle. Reproduce the geometry EXACTLY as given. Do not add, remove, shorten, lengthen or reroute any strand. Every place one strand crosses another, keep the SAME one in front — this is the whole meaning of the picture and changing it draws a different knot. Keep the number of wraps identical. Count them in the reference and render that many. Do not add a wrap to make it look neater. Do not add any text, numbers, letters, labels, arrows, callouts, rulers, watermarks or captions. None. They are added separately. No hands, no fingers, no tools, no vise, no water, no scenery, no props. Plain flat off-white background, no gradient, no vignette, no shadow on the background."
+    },
+    {
+      "id": "knot-blood-knot-1",
+      "kind": "knot-panel",
+      "mode": "edit",
+      "ref": "tools/refs/knot-blood-knot-1.png",
+      "out": "app/public/assets/panels/knot-blood-knot-1.jpg",
+      "aspect": "1:1",
+      "label": "Blood knot — step 1 of 6",
+      "prompt": "Redraw this fly-fishing knot diagram. It is step 1 of 6 of tying a Blood knot: Overlap the two lines by several inches, facing opposite directions. Render it as a clean modern instructional illustration, the kind printed in a good knot-tying guide: smooth rounded monofilament with a soft highlight along its length so it reads as a round cord rather than a flat ribbon, a subtle contact shadow where one strand lies over another so the crossings are obvious, crisp edges, even line weight, no sketchiness, no cross-hatching, no paper texture. Keep the two colours distinct exactly as given: the darker strand stays dark charcoal, the teal strand stays teal. Where a hook is shown, render it as polished steel wire with a clear eye. Flat straight-on view, no perspective, no tilt, no 3D camera angle. Reproduce the geometry EXACTLY as given. Do not add, remove, shorten, lengthen or reroute any strand. Every place one strand crosses another, keep the SAME one in front — this is the whole meaning of the picture and changing it draws a different knot. Keep the number of wraps identical. Count them in the reference and render that many. Do not add a wrap to make it look neater. Do not add any text, numbers, letters, labels, arrows, callouts, rulers, watermarks or captions. None. They are added separately. No hands, no fingers, no tools, no vise, no water, no scenery, no props. Plain flat off-white background, no gradient, no vignette, no shadow on the background."
+    },
+    {
+      "id": "knot-blood-knot-2",
+      "kind": "knot-panel",
+      "mode": "edit",
+      "ref": "tools/refs/knot-blood-knot-2.png",
+      "out": "app/public/assets/panels/knot-blood-knot-2.jpg",
+      "aspect": "1:1",
+      "label": "Blood knot — step 2 of 6",
+      "prompt": "Redraw this fly-fishing knot diagram. It is step 2 of 6 of tying a Blood knot: Wrap one tag around the other line five turns, then bring it back through the gap at the centre. Render it as a clean modern instructional illustration, the kind printed in a good knot-tying guide: smooth rounded monofilament with a soft highlight along its length so it reads as a round cord rather than a flat ribbon, a subtle contact shadow where one strand lies over another so the crossings are obvious, crisp edges, even line weight, no sketchiness, no cross-hatching, no paper texture. Keep the two colours distinct exactly as given: the darker strand stays dark charcoal, the teal strand stays teal. Where a hook is shown, render it as polished steel wire with a clear eye. Flat straight-on view, no perspective, no tilt, no 3D camera angle. Reproduce the geometry EXACTLY as given. Do not add, remove, shorten, lengthen or reroute any strand. Every place one strand crosses another, keep the SAME one in front — this is the whole meaning of the picture and changing it draws a different knot. Keep the number of wraps identical. Count them in the reference and render that many. Do not add a wrap to make it look neater. Do not add any text, numbers, letters, labels, arrows, callouts, rulers, watermarks or captions. None. They are added separately. No hands, no fingers, no tools, no vise, no water, no scenery, no props. Plain flat off-white background, no gradient, no vignette, no shadow on the background."
+    },
+    {
+      "id": "knot-blood-knot-3",
+      "kind": "knot-panel",
+      "mode": "edit",
+      "ref": "tools/refs/knot-blood-knot-3.png",
+      "out": "app/public/assets/panels/knot-blood-knot-3.jpg",
+      "aspect": "1:1",
+      "label": "Blood knot — step 3 of 6",
+      "prompt": "Redraw this fly-fishing knot diagram. It is step 3 of 6 of tying a Blood knot: Wrap the second tag around the first line five turns in the opposite direction. Render it as a clean modern instructional illustration, the kind printed in a good knot-tying guide: smooth rounded monofilament with a soft highlight along its length so it reads as a round cord rather than a flat ribbon, a subtle contact shadow where one strand lies over another so the crossings are obvious, crisp edges, even line weight, no sketchiness, no cross-hatching, no paper texture. Keep the two colours distinct exactly as given: the darker strand stays dark charcoal, the teal strand stays teal. Where a hook is shown, render it as polished steel wire with a clear eye. Flat straight-on view, no perspective, no tilt, no 3D camera angle. Reproduce the geometry EXACTLY as given. Do not add, remove, shorten, lengthen or reroute any strand. Every place one strand crosses another, keep the SAME one in front — this is the whole meaning of the picture and changing it draws a different knot. Keep the number of wraps identical. Count them in the reference and render that many. Do not add a wrap to make it look neater. Do not add any text, numbers, letters, labels, arrows, callouts, rulers, watermarks or captions. None. They are added separately. No hands, no fingers, no tools, no vise, no water, no scenery, no props. Plain flat off-white background, no gradient, no vignette, no shadow on the background."
+    },
+    {
+      "id": "knot-blood-knot-4",
+      "kind": "knot-panel",
+      "mode": "edit",
+      "ref": "tools/refs/knot-blood-knot-4.png",
+      "out": "app/public/assets/panels/knot-blood-knot-4.jpg",
+      "aspect": "1:1",
+      "label": "Blood knot — step 4 of 6",
+      "prompt": "Redraw this fly-fishing knot diagram. It is step 4 of 6 of tying a Blood knot: Pass it back through the same centre gap, from the opposite side. Render it as a clean modern instructional illustration, the kind printed in a good knot-tying guide: smooth rounded monofilament with a soft highlight along its length so it reads as a round cord rather than a flat ribbon, a subtle contact shadow where one strand lies over another so the crossings are obvious, crisp edges, even line weight, no sketchiness, no cross-hatching, no paper texture. Keep the two colours distinct exactly as given: the darker strand stays dark charcoal, the teal strand stays teal. Where a hook is shown, render it as polished steel wire with a clear eye. Flat straight-on view, no perspective, no tilt, no 3D camera angle. Reproduce the geometry EXACTLY as given. Do not add, remove, shorten, lengthen or reroute any strand. Every place one strand crosses another, keep the SAME one in front — this is the whole meaning of the picture and changing it draws a different knot. Keep the number of wraps identical. Count them in the reference and render that many. Do not add a wrap to make it look neater. Do not add any text, numbers, letters, labels, arrows, callouts, rulers, watermarks or captions. None. They are added separately. No hands, no fingers, no tools, no vise, no water, no scenery, no props. Plain flat off-white background, no gradient, no vignette, no shadow on the background."
+    },
+    {
+      "id": "knot-blood-knot-5",
+      "kind": "knot-panel",
+      "mode": "edit",
+      "ref": "tools/refs/knot-blood-knot-5.png",
+      "out": "app/public/assets/panels/knot-blood-knot-5.jpg",
+      "aspect": "1:1",
+      "label": "Blood knot — step 5 of 6",
+      "prompt": "Redraw this fly-fishing knot diagram. It is step 5 of 6 of tying a Blood knot: Wet and pull both standing lines steadily until the wraps roll together. Render it as a clean modern instructional illustration, the kind printed in a good knot-tying guide: smooth rounded monofilament with a soft highlight along its length so it reads as a round cord rather than a flat ribbon, a subtle contact shadow where one strand lies over another so the crossings are obvious, crisp edges, even line weight, no sketchiness, no cross-hatching, no paper texture. Keep the two colours distinct exactly as given: the darker strand stays dark charcoal, the teal strand stays teal. Where a hook is shown, render it as polished steel wire with a clear eye. Flat straight-on view, no perspective, no tilt, no 3D camera angle. Reproduce the geometry EXACTLY as given. Do not add, remove, shorten, lengthen or reroute any strand. Every place one strand crosses another, keep the SAME one in front — this is the whole meaning of the picture and changing it draws a different knot. Keep the number of wraps identical. Count them in the reference and render that many. Do not add a wrap to make it look neater. Do not add any text, numbers, letters, labels, arrows, callouts, rulers, watermarks or captions. None. They are added separately. No hands, no fingers, no tools, no vise, no water, no scenery, no props. Plain flat off-white background, no gradient, no vignette, no shadow on the background."
+    },
+    {
+      "id": "knot-blood-knot-6",
+      "kind": "knot-panel",
+      "mode": "edit",
+      "ref": "tools/refs/knot-blood-knot-6.png",
+      "out": "app/public/assets/panels/knot-blood-knot-6.jpg",
+      "aspect": "1:1",
+      "label": "Blood knot — step 6 of 6",
+      "prompt": "Redraw this fly-fishing knot diagram. It is step 6 of 6 of tying a Blood knot: Trim both tags. Render it as a clean modern instructional illustration, the kind printed in a good knot-tying guide: smooth rounded monofilament with a soft highlight along its length so it reads as a round cord rather than a flat ribbon, a subtle contact shadow where one strand lies over another so the crossings are obvious, crisp edges, even line weight, no sketchiness, no cross-hatching, no paper texture. Keep the two colours distinct exactly as given: the darker strand stays dark charcoal, the teal strand stays teal. Where a hook is shown, render it as polished steel wire with a clear eye. Flat straight-on view, no perspective, no tilt, no 3D camera angle. Reproduce the geometry EXACTLY as given. Do not add, remove, shorten, lengthen or reroute any strand. Every place one strand crosses another, keep the SAME one in front — this is the whole meaning of the picture and changing it draws a different knot. Keep the number of wraps identical. Count them in the reference and render that many. Do not add a wrap to make it look neater. Do not add any text, numbers, letters, labels, arrows, callouts, rulers, watermarks or captions. None. They are added separately. No hands, no fingers, no tools, no vise, no water, no scenery, no props. Plain flat off-white background, no gradient, no vignette, no shadow on the background."
+    },
+    {
+      "id": "knot-double-surgeons-1",
+      "kind": "knot-panel",
+      "mode": "edit",
+      "ref": "tools/refs/knot-double-surgeons-1.png",
+      "out": "app/public/assets/panels/knot-double-surgeons-1.jpg",
+      "aspect": "1:1",
+      "label": "Double surgeon's knot — step 1 of 5",
+      "prompt": "Redraw this fly-fishing knot diagram. It is step 1 of 5 of tying a Double surgeon's knot: Lay the two lines alongside each other with a long overlap. Render it as a clean modern instructional illustration, the kind printed in a good knot-tying guide: smooth rounded monofilament with a soft highlight along its length so it reads as a round cord rather than a flat ribbon, a subtle contact shadow where one strand lies over another so the crossings are obvious, crisp edges, even line weight, no sketchiness, no cross-hatching, no paper texture. Keep the two colours distinct exactly as given: the darker strand stays dark charcoal, the teal strand stays teal. Where a hook is shown, render it as polished steel wire with a clear eye. Flat straight-on view, no perspective, no tilt, no 3D camera angle. Reproduce the geometry EXACTLY as given. Do not add, remove, shorten, lengthen or reroute any strand. Every place one strand crosses another, keep the SAME one in front — this is the whole meaning of the picture and changing it draws a different knot. Keep the number of wraps identical. Count them in the reference and render that many. Do not add a wrap to make it look neater. Do not add any text, numbers, letters, labels, arrows, callouts, rulers, watermarks or captions. None. They are added separately. No hands, no fingers, no tools, no vise, no water, no scenery, no props. Plain flat off-white background, no gradient, no vignette, no shadow on the background."
+    },
+    {
+      "id": "knot-double-surgeons-2",
+      "kind": "knot-panel",
+      "mode": "edit",
+      "ref": "tools/refs/knot-double-surgeons-2.png",
+      "out": "app/public/assets/panels/knot-double-surgeons-2.jpg",
+      "aspect": "1:1",
+      "label": "Double surgeon's knot — step 2 of 5",
+      "prompt": "Redraw this fly-fishing knot diagram. It is step 2 of 5 of tying a Double surgeon's knot: Form a loop with both lines together. Render it as a clean modern instructional illustration, the kind printed in a good knot-tying guide: smooth rounded monofilament with a soft highlight along its length so it reads as a round cord rather than a flat ribbon, a subtle contact shadow where one strand lies over another so the crossings are obvious, crisp edges, even line weight, no sketchiness, no cross-hatching, no paper texture. Keep the two colours distinct exactly as given: the darker strand stays dark charcoal, the teal strand stays teal. Where a hook is shown, render it as polished steel wire with a clear eye. Flat straight-on view, no perspective, no tilt, no 3D camera angle. Reproduce the geometry EXACTLY as given. Do not add, remove, shorten, lengthen or reroute any strand. Every place one strand crosses another, keep the SAME one in front — this is the whole meaning of the picture and changing it draws a different knot. Keep the number of wraps identical. Count them in the reference and render that many. Do not add a wrap to make it look neater. Do not add any text, numbers, letters, labels, arrows, callouts, rulers, watermarks or captions. None. They are added separately. No hands, no fingers, no tools, no vise, no water, no scenery, no props. Plain flat off-white background, no gradient, no vignette, no shadow on the background."
+    },
+    {
+      "id": "knot-double-surgeons-3",
+      "kind": "knot-panel",
+      "mode": "edit",
+      "ref": "tools/refs/knot-double-surgeons-3.png",
+      "out": "app/public/assets/panels/knot-double-surgeons-3.jpg",
+      "aspect": "1:1",
+      "label": "Double surgeon's knot — step 3 of 5",
+      "prompt": "Redraw this fly-fishing knot diagram. It is step 3 of 5 of tying a Double surgeon's knot: Pass both tag ends through the loop twice. Render it as a clean modern instructional illustration, the kind printed in a good knot-tying guide: smooth rounded monofilament with a soft highlight along its length so it reads as a round cord rather than a flat ribbon, a subtle contact shadow where one strand lies over another so the crossings are obvious, crisp edges, even line weight, no sketchiness, no cross-hatching, no paper texture. Keep the two colours distinct exactly as given: the darker strand stays dark charcoal, the teal strand stays teal. Where a hook is shown, render it as polished steel wire with a clear eye. Flat straight-on view, no perspective, no tilt, no 3D camera angle. Reproduce the geometry EXACTLY as given. Do not add, remove, shorten, lengthen or reroute any strand. Every place one strand crosses another, keep the SAME one in front — this is the whole meaning of the picture and changing it draws a different knot. Keep the number of wraps identical. Count them in the reference and render that many. Do not add a wrap to make it look neater. Do not add any text, numbers, letters, labels, arrows, callouts, rulers, watermarks or captions. None. They are added separately. No hands, no fingers, no tools, no vise, no water, no scenery, no props. Plain flat off-white background, no gradient, no vignette, no shadow on the background."
+    },
+    {
+      "id": "knot-double-surgeons-4",
+      "kind": "knot-panel",
+      "mode": "edit",
+      "ref": "tools/refs/knot-double-surgeons-4.png",
+      "out": "app/public/assets/panels/knot-double-surgeons-4.jpg",
+      "aspect": "1:1",
+      "label": "Double surgeon's knot — step 4 of 5",
+      "prompt": "Redraw this fly-fishing knot diagram. It is step 4 of 5 of tying a Double surgeon's knot: Wet it and pull all four ends at once to seat it evenly. Render it as a clean modern instructional illustration, the kind printed in a good knot-tying guide: smooth rounded monofilament with a soft highlight along its length so it reads as a round cord rather than a flat ribbon, a subtle contact shadow where one strand lies over another so the crossings are obvious, crisp edges, even line weight, no sketchiness, no cross-hatching, no paper texture. Keep the two colours distinct exactly as given: the darker strand stays dark charcoal, the teal strand stays teal. Where a hook is shown, render it as polished steel wire with a clear eye. Flat straight-on view, no perspective, no tilt, no 3D camera angle. Reproduce the geometry EXACTLY as given. Do not add, remove, shorten, lengthen or reroute any strand. Every place one strand crosses another, keep the SAME one in front — this is the whole meaning of the picture and changing it draws a different knot. Keep the number of wraps identical. Count them in the reference and render that many. Do not add a wrap to make it look neater. Do not add any text, numbers, letters, labels, arrows, callouts, rulers, watermarks or captions. None. They are added separately. No hands, no fingers, no tools, no vise, no water, no scenery, no props. Plain flat off-white background, no gradient, no vignette, no shadow on the background."
+    },
+    {
+      "id": "knot-double-surgeons-5",
+      "kind": "knot-panel",
+      "mode": "edit",
+      "ref": "tools/refs/knot-double-surgeons-5.png",
+      "out": "app/public/assets/panels/knot-double-surgeons-5.jpg",
+      "aspect": "1:1",
+      "label": "Double surgeon's knot — step 5 of 5",
+      "prompt": "Redraw this fly-fishing knot diagram. It is step 5 of 5 of tying a Double surgeon's knot: Trim both tags. Render it as a clean modern instructional illustration, the kind printed in a good knot-tying guide: smooth rounded monofilament with a soft highlight along its length so it reads as a round cord rather than a flat ribbon, a subtle contact shadow where one strand lies over another so the crossings are obvious, crisp edges, even line weight, no sketchiness, no cross-hatching, no paper texture. Keep the two colours distinct exactly as given: the darker strand stays dark charcoal, the teal strand stays teal. Where a hook is shown, render it as polished steel wire with a clear eye. Flat straight-on view, no perspective, no tilt, no 3D camera angle. Reproduce the geometry EXACTLY as given. Do not add, remove, shorten, lengthen or reroute any strand. Every place one strand crosses another, keep the SAME one in front — this is the whole meaning of the picture and changing it draws a different knot. Keep the number of wraps identical. Count them in the reference and render that many. Do not add a wrap to make it look neater. Do not add any text, numbers, letters, labels, arrows, callouts, rulers, watermarks or captions. None. They are added separately. No hands, no fingers, no tools, no vise, no water, no scenery, no props. Plain flat off-white background, no gradient, no vignette, no shadow on the background."
+    },
+    {
+      "id": "knot-perfection-loop-1",
+      "kind": "knot-panel",
+      "mode": "edit",
+      "ref": "tools/refs/knot-perfection-loop-1.png",
+      "out": "app/public/assets/panels/knot-perfection-loop-1.jpg",
+      "aspect": "1:1",
+      "label": "Perfection loop — step 1 of 6",
+      "prompt": "Redraw this fly-fishing knot diagram. It is step 1 of 6 of tying a Perfection loop: Form a loop with the tag behind the standing line. Render it as a clean modern instructional illustration, the kind printed in a good knot-tying guide: smooth rounded monofilament with a soft highlight along its length so it reads as a round cord rather than a flat ribbon, a subtle contact shadow where one strand lies over another so the crossings are obvious, crisp edges, even line weight, no sketchiness, no cross-hatching, no paper texture. Keep the two colours distinct exactly as given: the darker strand stays dark charcoal, the teal strand stays teal. Where a hook is shown, render it as polished steel wire with a clear eye. Flat straight-on view, no perspective, no tilt, no 3D camera angle. Reproduce the geometry EXACTLY as given. Do not add, remove, shorten, lengthen or reroute any strand. Every place one strand crosses another, keep the SAME one in front — this is the whole meaning of the picture and changing it draws a different knot. Keep the number of wraps identical. Count them in the reference and render that many. Do not add a wrap to make it look neater. Do not add any text, numbers, letters, labels, arrows, callouts, rulers, watermarks or captions. None. They are added separately. No hands, no fingers, no tools, no vise, no water, no scenery, no props. Plain flat off-white background, no gradient, no vignette, no shadow on the background."
+    },
+    {
+      "id": "knot-perfection-loop-2",
+      "kind": "knot-panel",
+      "mode": "edit",
+      "ref": "tools/refs/knot-perfection-loop-2.png",
+      "out": "app/public/assets/panels/knot-perfection-loop-2.jpg",
+      "aspect": "1:1",
+      "label": "Perfection loop — step 2 of 6",
+      "prompt": "Redraw this fly-fishing knot diagram. It is step 2 of 6 of tying a Perfection loop: Form a second, smaller loop in front of the first, holding both. Render it as a clean modern instructional illustration, the kind printed in a good knot-tying guide: smooth rounded monofilament with a soft highlight along its length so it reads as a round cord rather than a flat ribbon, a subtle contact shadow where one strand lies over another so the crossings are obvious, crisp edges, even line weight, no sketchiness, no cross-hatching, no paper texture. Keep the two colours distinct exactly as given: the darker strand stays dark charcoal, the teal strand stays teal. Where a hook is shown, render it as polished steel wire with a clear eye. Flat straight-on view, no perspective, no tilt, no 3D camera angle. Reproduce the geometry EXACTLY as given. Do not add, remove, shorten, lengthen or reroute any strand. Every place one strand crosses another, keep the SAME one in front — this is the whole meaning of the picture and changing it draws a different knot. Keep the number of wraps identical. Count them in the reference and render that many. Do not add a wrap to make it look neater. Do not add any text, numbers, letters, labels, arrows, callouts, rulers, watermarks or captions. None. They are added separately. No hands, no fingers, no tools, no vise, no water, no scenery, no props. Plain flat off-white background, no gradient, no vignette, no shadow on the background."
+    },
+    {
+      "id": "knot-perfection-loop-3",
+      "kind": "knot-panel",
+      "mode": "edit",
+      "ref": "tools/refs/knot-perfection-loop-3.png",
+      "out": "app/public/assets/panels/knot-perfection-loop-3.jpg",
+      "aspect": "1:1",
+      "label": "Perfection loop — step 3 of 6",
+      "prompt": "Redraw this fly-fishing knot diagram. It is step 3 of 6 of tying a Perfection loop: Bring the tag between the two loops. Render it as a clean modern instructional illustration, the kind printed in a good knot-tying guide: smooth rounded monofilament with a soft highlight along its length so it reads as a round cord rather than a flat ribbon, a subtle contact shadow where one strand lies over another so the crossings are obvious, crisp edges, even line weight, no sketchiness, no cross-hatching, no paper texture. Keep the two colours distinct exactly as given: the darker strand stays dark charcoal, the teal strand stays teal. Where a hook is shown, render it as polished steel wire with a clear eye. Flat straight-on view, no perspective, no tilt, no 3D camera angle. Reproduce the geometry EXACTLY as given. Do not add, remove, shorten, lengthen or reroute any strand. Every place one strand crosses another, keep the SAME one in front — this is the whole meaning of the picture and changing it draws a different knot. Keep the number of wraps identical. Count them in the reference and render that many. Do not add a wrap to make it look neater. Do not add any text, numbers, letters, labels, arrows, callouts, rulers, watermarks or captions. None. They are added separately. No hands, no fingers, no tools, no vise, no water, no scenery, no props. Plain flat off-white background, no gradient, no vignette, no shadow on the background."
+    },
+    {
+      "id": "knot-perfection-loop-4",
+      "kind": "knot-panel",
+      "mode": "edit",
+      "ref": "tools/refs/knot-perfection-loop-4.png",
+      "out": "app/public/assets/panels/knot-perfection-loop-4.jpg",
+      "aspect": "1:1",
+      "label": "Perfection loop — step 4 of 6",
+      "prompt": "Redraw this fly-fishing knot diagram. It is step 4 of 6 of tying a Perfection loop: Pass the second loop through the first. Render it as a clean modern instructional illustration, the kind printed in a good knot-tying guide: smooth rounded monofilament with a soft highlight along its length so it reads as a round cord rather than a flat ribbon, a subtle contact shadow where one strand lies over another so the crossings are obvious, crisp edges, even line weight, no sketchiness, no cross-hatching, no paper texture. Keep the two colours distinct exactly as given: the darker strand stays dark charcoal, the teal strand stays teal. Where a hook is shown, render it as polished steel wire with a clear eye. Flat straight-on view, no perspective, no tilt, no 3D camera angle. Reproduce the geometry EXACTLY as given. Do not add, remove, shorten, lengthen or reroute any strand. Every place one strand crosses another, keep the SAME one in front — this is the whole meaning of the picture and changing it draws a different knot. Keep the number of wraps identical. Count them in the reference and render that many. Do not add a wrap to make it look neater. Do not add any text, numbers, letters, labels, arrows, callouts, rulers, watermarks or captions. None. They are added separately. No hands, no fingers, no tools, no vise, no water, no scenery, no props. Plain flat off-white background, no gradient, no vignette, no shadow on the background."
+    },
+    {
+      "id": "knot-perfection-loop-5",
+      "kind": "knot-panel",
+      "mode": "edit",
+      "ref": "tools/refs/knot-perfection-loop-5.png",
+      "out": "app/public/assets/panels/knot-perfection-loop-5.jpg",
+      "aspect": "1:1",
+      "label": "Perfection loop — step 5 of 6",
+      "prompt": "Redraw this fly-fishing knot diagram. It is step 5 of 6 of tying a Perfection loop: Wet and pull the new loop and the standing line apart to seat. Render it as a clean modern instructional illustration, the kind printed in a good knot-tying guide: smooth rounded monofilament with a soft highlight along its length so it reads as a round cord rather than a flat ribbon, a subtle contact shadow where one strand lies over another so the crossings are obvious, crisp edges, even line weight, no sketchiness, no cross-hatching, no paper texture. Keep the two colours distinct exactly as given: the darker strand stays dark charcoal, the teal strand stays teal. Where a hook is shown, render it as polished steel wire with a clear eye. Flat straight-on view, no perspective, no tilt, no 3D camera angle. Reproduce the geometry EXACTLY as given. Do not add, remove, shorten, lengthen or reroute any strand. Every place one strand crosses another, keep the SAME one in front — this is the whole meaning of the picture and changing it draws a different knot. Keep the number of wraps identical. Count them in the reference and render that many. Do not add a wrap to make it look neater. Do not add any text, numbers, letters, labels, arrows, callouts, rulers, watermarks or captions. None. They are added separately. No hands, no fingers, no tools, no vise, no water, no scenery, no props. Plain flat off-white background, no gradient, no vignette, no shadow on the background."
+    },
+    {
+      "id": "knot-perfection-loop-6",
+      "kind": "knot-panel",
+      "mode": "edit",
+      "ref": "tools/refs/knot-perfection-loop-6.png",
+      "out": "app/public/assets/panels/knot-perfection-loop-6.jpg",
+      "aspect": "1:1",
+      "label": "Perfection loop — step 6 of 6",
+      "prompt": "Redraw this fly-fishing knot diagram. It is step 6 of 6 of tying a Perfection loop: Trim the tag. Render it as a clean modern instructional illustration, the kind printed in a good knot-tying guide: smooth rounded monofilament with a soft highlight along its length so it reads as a round cord rather than a flat ribbon, a subtle contact shadow where one strand lies over another so the crossings are obvious, crisp edges, even line weight, no sketchiness, no cross-hatching, no paper texture. Keep the two colours distinct exactly as given: the darker strand stays dark charcoal, the teal strand stays teal. Where a hook is shown, render it as polished steel wire with a clear eye. Flat straight-on view, no perspective, no tilt, no 3D camera angle. Reproduce the geometry EXACTLY as given. Do not add, remove, shorten, lengthen or reroute any strand. Every place one strand crosses another, keep the SAME one in front — this is the whole meaning of the picture and changing it draws a different knot. Keep the number of wraps identical. Count them in the reference and render that many. Do not add a wrap to make it look neater. Do not add any text, numbers, letters, labels, arrows, callouts, rulers, watermarks or captions. None. They are added separately. No hands, no fingers, no tools, no vise, no water, no scenery, no props. Plain flat off-white background, no gradient, no vignette, no shadow on the background."
+    },
+    {
+      "id": "knot-nail-knot-1",
+      "kind": "knot-panel",
+      "mode": "edit",
+      "ref": "tools/refs/knot-nail-knot-1.png",
+      "out": "app/public/assets/panels/knot-nail-knot-1.jpg",
+      "aspect": "1:1",
+      "label": "Nail knot — step 1 of 5",
+      "prompt": "Redraw this fly-fishing knot diagram. It is step 1 of 5 of tying a Nail knot: Lay a small tube alongside the fly line tip and the leader butt. Render it as a clean modern instructional illustration, the kind printed in a good knot-tying guide: smooth rounded monofilament with a soft highlight along its length so it reads as a round cord rather than a flat ribbon, a subtle contact shadow where one strand lies over another so the crossings are obvious, crisp edges, even line weight, no sketchiness, no cross-hatching, no paper texture. Keep the two colours distinct exactly as given: the darker strand stays dark charcoal, the teal strand stays teal. Where a hook is shown, render it as polished steel wire with a clear eye. Flat straight-on view, no perspective, no tilt, no 3D camera angle. Reproduce the geometry EXACTLY as given. Do not add, remove, shorten, lengthen or reroute any strand. Every place one strand crosses another, keep the SAME one in front — this is the whole meaning of the picture and changing it draws a different knot. Keep the number of wraps identical. Count them in the reference and render that many. Do not add a wrap to make it look neater. Do not add any text, numbers, letters, labels, arrows, callouts, rulers, watermarks or captions. None. They are added separately. No hands, no fingers, no tools, no vise, no water, no scenery, no props. Plain flat off-white background, no gradient, no vignette, no shadow on the background."
+    },
+    {
+      "id": "knot-nail-knot-2",
+      "kind": "knot-panel",
+      "mode": "edit",
+      "ref": "tools/refs/knot-nail-knot-2.png",
+      "out": "app/public/assets/panels/knot-nail-knot-2.jpg",
+      "aspect": "1:1",
+      "label": "Nail knot — step 2 of 5",
+      "prompt": "Redraw this fly-fishing knot diagram. It is step 2 of 5 of tying a Nail knot: Wrap the leader butt around line and tube six or seven turns, working toward the line tip. Render it as a clean modern instructional illustration, the kind printed in a good knot-tying guide: smooth rounded monofilament with a soft highlight along its length so it reads as a round cord rather than a flat ribbon, a subtle contact shadow where one strand lies over another so the crossings are obvious, crisp edges, even line weight, no sketchiness, no cross-hatching, no paper texture. Keep the two colours distinct exactly as given: the darker strand stays dark charcoal, the teal strand stays teal. Where a hook is shown, render it as polished steel wire with a clear eye. Flat straight-on view, no perspective, no tilt, no 3D camera angle. Reproduce the geometry EXACTLY as given. Do not add, remove, shorten, lengthen or reroute any strand. Every place one strand crosses another, keep the SAME one in front — this is the whole meaning of the picture and changing it draws a different knot. Keep the number of wraps identical. Count them in the reference and render that many. Do not add a wrap to make it look neater. Do not add any text, numbers, letters, labels, arrows, callouts, rulers, watermarks or captions. None. They are added separately. No hands, no fingers, no tools, no vise, no water, no scenery, no props. Plain flat off-white background, no gradient, no vignette, no shadow on the background."
+    },
+    {
+      "id": "knot-nail-knot-3",
+      "kind": "knot-panel",
+      "mode": "edit",
+      "ref": "tools/refs/knot-nail-knot-3.png",
+      "out": "app/public/assets/panels/knot-nail-knot-3.jpg",
+      "aspect": "1:1",
+      "label": "Nail knot — step 3 of 5",
+      "prompt": "Redraw this fly-fishing knot diagram. It is step 3 of 5 of tying a Nail knot: Feed the tag back through the tube and withdraw the tube. Render it as a clean modern instructional illustration, the kind printed in a good knot-tying guide: smooth rounded monofilament with a soft highlight along its length so it reads as a round cord rather than a flat ribbon, a subtle contact shadow where one strand lies over another so the crossings are obvious, crisp edges, even line weight, no sketchiness, no cross-hatching, no paper texture. Keep the two colours distinct exactly as given: the darker strand stays dark charcoal, the teal strand stays teal. Where a hook is shown, render it as polished steel wire with a clear eye. Flat straight-on view, no perspective, no tilt, no 3D camera angle. Reproduce the geometry EXACTLY as given. Do not add, remove, shorten, lengthen or reroute any strand. Every place one strand crosses another, keep the SAME one in front — this is the whole meaning of the picture and changing it draws a different knot. Keep the number of wraps identical. Count them in the reference and render that many. Do not add a wrap to make it look neater. Do not add any text, numbers, letters, labels, arrows, callouts, rulers, watermarks or captions. None. They are added separately. No hands, no fingers, no tools, no vise, no water, no scenery, no props. Plain flat off-white background, no gradient, no vignette, no shadow on the background."
+    },
+    {
+      "id": "knot-nail-knot-4",
+      "kind": "knot-panel",
+      "mode": "edit",
+      "ref": "tools/refs/knot-nail-knot-4.png",
+      "out": "app/public/assets/panels/knot-nail-knot-4.jpg",
+      "aspect": "1:1",
+      "label": "Nail knot — step 4 of 5",
+      "prompt": "Redraw this fly-fishing knot diagram. It is step 4 of 5 of tying a Nail knot: Pull the wraps snug a little at a time, alternating ends. Render it as a clean modern instructional illustration, the kind printed in a good knot-tying guide: smooth rounded monofilament with a soft highlight along its length so it reads as a round cord rather than a flat ribbon, a subtle contact shadow where one strand lies over another so the crossings are obvious, crisp edges, even line weight, no sketchiness, no cross-hatching, no paper texture. Keep the two colours distinct exactly as given: the darker strand stays dark charcoal, the teal strand stays teal. Where a hook is shown, render it as polished steel wire with a clear eye. Flat straight-on view, no perspective, no tilt, no 3D camera angle. Reproduce the geometry EXACTLY as given. Do not add, remove, shorten, lengthen or reroute any strand. Every place one strand crosses another, keep the SAME one in front — this is the whole meaning of the picture and changing it draws a different knot. Keep the number of wraps identical. Count them in the reference and render that many. Do not add a wrap to make it look neater. Do not add any text, numbers, letters, labels, arrows, callouts, rulers, watermarks or captions. None. They are added separately. No hands, no fingers, no tools, no vise, no water, no scenery, no props. Plain flat off-white background, no gradient, no vignette, no shadow on the background."
+    },
+    {
+      "id": "knot-nail-knot-5",
+      "kind": "knot-panel",
+      "mode": "edit",
+      "ref": "tools/refs/knot-nail-knot-5.png",
+      "out": "app/public/assets/panels/knot-nail-knot-5.jpg",
+      "aspect": "1:1",
+      "label": "Nail knot — step 5 of 5",
+      "prompt": "Redraw this fly-fishing knot diagram. It is step 5 of 5 of tying a Nail knot: Seat hard, trim both tags, and coat if you want it to shoot cleanly. Render it as a clean modern instructional illustration, the kind printed in a good knot-tying guide: smooth rounded monofilament with a soft highlight along its length so it reads as a round cord rather than a flat ribbon, a subtle contact shadow where one strand lies over another so the crossings are obvious, crisp edges, even line weight, no sketchiness, no cross-hatching, no paper texture. Keep the two colours distinct exactly as given: the darker strand stays dark charcoal, the teal strand stays teal. Where a hook is shown, render it as polished steel wire with a clear eye. Flat straight-on view, no perspective, no tilt, no 3D camera angle. Reproduce the geometry EXACTLY as given. Do not add, remove, shorten, lengthen or reroute any strand. Every place one strand crosses another, keep the SAME one in front — this is the whole meaning of the picture and changing it draws a different knot. Keep the number of wraps identical. Count them in the reference and render that many. Do not add a wrap to make it look neater. Do not add any text, numbers, letters, labels, arrows, callouts, rulers, watermarks or captions. None. They are added separately. No hands, no fingers, no tools, no vise, no water, no scenery, no props. Plain flat off-white background, no gradient, no vignette, no shadow on the background."
+    },
+    {
+      "id": "knot-albright-1",
+      "kind": "knot-panel",
+      "mode": "edit",
+      "ref": "tools/refs/knot-albright-1.png",
+      "out": "app/public/assets/panels/knot-albright-1.jpg",
+      "aspect": "1:1",
+      "label": "Albright knot — step 1 of 5",
+      "prompt": "Redraw this fly-fishing knot diagram. It is step 1 of 5 of tying a Albright knot: Form a loop in the heavier line. Render it as a clean modern instructional illustration, the kind printed in a good knot-tying guide: smooth rounded monofilament with a soft highlight along its length so it reads as a round cord rather than a flat ribbon, a subtle contact shadow where one strand lies over another so the crossings are obvious, crisp edges, even line weight, no sketchiness, no cross-hatching, no paper texture. Keep the two colours distinct exactly as given: the darker strand stays dark charcoal, the teal strand stays teal. Where a hook is shown, render it as polished steel wire with a clear eye. Flat straight-on view, no perspective, no tilt, no 3D camera angle. Reproduce the geometry EXACTLY as given. Do not add, remove, shorten, lengthen or reroute any strand. Every place one strand crosses another, keep the SAME one in front — this is the whole meaning of the picture and changing it draws a different knot. Keep the number of wraps identical. Count them in the reference and render that many. Do not add a wrap to make it look neater. Do not add any text, numbers, letters, labels, arrows, callouts, rulers, watermarks or captions. None. They are added separately. No hands, no fingers, no tools, no vise, no water, no scenery, no props. Plain flat off-white background, no gradient, no vignette, no shadow on the background."
+    },
+    {
+      "id": "knot-albright-2",
+      "kind": "knot-panel",
+      "mode": "edit",
+      "ref": "tools/refs/knot-albright-2.png",
+      "out": "app/public/assets/panels/knot-albright-2.jpg",
+      "aspect": "1:1",
+      "label": "Albright knot — step 2 of 5",
+      "prompt": "Redraw this fly-fishing knot diagram. It is step 2 of 5 of tying a Albright knot: Pass the lighter line through the loop and wrap it back over both legs, ten turns, working toward the loop's end. Render it as a clean modern instructional illustration, the kind printed in a good knot-tying guide: smooth rounded monofilament with a soft highlight along its length so it reads as a round cord rather than a flat ribbon, a subtle contact shadow where one strand lies over another so the crossings are obvious, crisp edges, even line weight, no sketchiness, no cross-hatching, no paper texture. Keep the two colours distinct exactly as given: the darker strand stays dark charcoal, the teal strand stays teal. Where a hook is shown, render it as polished steel wire with a clear eye. Flat straight-on view, no perspective, no tilt, no 3D camera angle. Reproduce the geometry EXACTLY as given. Do not add, remove, shorten, lengthen or reroute any strand. Every place one strand crosses another, keep the SAME one in front — this is the whole meaning of the picture and changing it draws a different knot. Keep the number of wraps identical. Count them in the reference and render that many. Do not add a wrap to make it look neater. Do not add any text, numbers, letters, labels, arrows, callouts, rulers, watermarks or captions. None. They are added separately. No hands, no fingers, no tools, no vise, no water, no scenery, no props. Plain flat off-white background, no gradient, no vignette, no shadow on the background."
+    },
+    {
+      "id": "knot-albright-3",
+      "kind": "knot-panel",
+      "mode": "edit",
+      "ref": "tools/refs/knot-albright-3.png",
+      "out": "app/public/assets/panels/knot-albright-3.jpg",
+      "aspect": "1:1",
+      "label": "Albright knot — step 3 of 5",
+      "prompt": "Redraw this fly-fishing knot diagram. It is step 3 of 5 of tying a Albright knot: Feed the tag back out through the loop the same side it entered. Render it as a clean modern instructional illustration, the kind printed in a good knot-tying guide: smooth rounded monofilament with a soft highlight along its length so it reads as a round cord rather than a flat ribbon, a subtle contact shadow where one strand lies over another so the crossings are obvious, crisp edges, even line weight, no sketchiness, no cross-hatching, no paper texture. Keep the two colours distinct exactly as given: the darker strand stays dark charcoal, the teal strand stays teal. Where a hook is shown, render it as polished steel wire with a clear eye. Flat straight-on view, no perspective, no tilt, no 3D camera angle. Reproduce the geometry EXACTLY as given. Do not add, remove, shorten, lengthen or reroute any strand. Every place one strand crosses another, keep the SAME one in front — this is the whole meaning of the picture and changing it draws a different knot. Keep the number of wraps identical. Count them in the reference and render that many. Do not add a wrap to make it look neater. Do not add any text, numbers, letters, labels, arrows, callouts, rulers, watermarks or captions. None. They are added separately. No hands, no fingers, no tools, no vise, no water, no scenery, no props. Plain flat off-white background, no gradient, no vignette, no shadow on the background."
+    },
+    {
+      "id": "knot-albright-4",
+      "kind": "knot-panel",
+      "mode": "edit",
+      "ref": "tools/refs/knot-albright-4.png",
+      "out": "app/public/assets/panels/knot-albright-4.jpg",
+      "aspect": "1:1",
+      "label": "Albright knot — step 4 of 5",
+      "prompt": "Redraw this fly-fishing knot diagram. It is step 4 of 5 of tying a Albright knot: Wet, seat the wraps down the loop, then pull both standing lines. Render it as a clean modern instructional illustration, the kind printed in a good knot-tying guide: smooth rounded monofilament with a soft highlight along its length so it reads as a round cord rather than a flat ribbon, a subtle contact shadow where one strand lies over another so the crossings are obvious, crisp edges, even line weight, no sketchiness, no cross-hatching, no paper texture. Keep the two colours distinct exactly as given: the darker strand stays dark charcoal, the teal strand stays teal. Where a hook is shown, render it as polished steel wire with a clear eye. Flat straight-on view, no perspective, no tilt, no 3D camera angle. Reproduce the geometry EXACTLY as given. Do not add, remove, shorten, lengthen or reroute any strand. Every place one strand crosses another, keep the SAME one in front — this is the whole meaning of the picture and changing it draws a different knot. Keep the number of wraps identical. Count them in the reference and render that many. Do not add a wrap to make it look neater. Do not add any text, numbers, letters, labels, arrows, callouts, rulers, watermarks or captions. None. They are added separately. No hands, no fingers, no tools, no vise, no water, no scenery, no props. Plain flat off-white background, no gradient, no vignette, no shadow on the background."
+    },
+    {
+      "id": "knot-albright-5",
+      "kind": "knot-panel",
+      "mode": "edit",
+      "ref": "tools/refs/knot-albright-5.png",
+      "out": "app/public/assets/panels/knot-albright-5.jpg",
+      "aspect": "1:1",
+      "label": "Albright knot — step 5 of 5",
+      "prompt": "Redraw this fly-fishing knot diagram. It is step 5 of 5 of tying a Albright knot: Trim both tags. Render it as a clean modern instructional illustration, the kind printed in a good knot-tying guide: smooth rounded monofilament with a soft highlight along its length so it reads as a round cord rather than a flat ribbon, a subtle contact shadow where one strand lies over another so the crossings are obvious, crisp edges, even line weight, no sketchiness, no cross-hatching, no paper texture. Keep the two colours distinct exactly as given: the darker strand stays dark charcoal, the teal strand stays teal. Where a hook is shown, render it as polished steel wire with a clear eye. Flat straight-on view, no perspective, no tilt, no 3D camera angle. Reproduce the geometry EXACTLY as given. Do not add, remove, shorten, lengthen or reroute any strand. Every place one strand crosses another, keep the SAME one in front — this is the whole meaning of the picture and changing it draws a different knot. Keep the number of wraps identical. Count them in the reference and render that many. Do not add a wrap to make it look neater. Do not add any text, numbers, letters, labels, arrows, callouts, rulers, watermarks or captions. None. They are added separately. No hands, no fingers, no tools, no vise, no water, no scenery, no props. Plain flat off-white background, no gradient, no vignette, no shadow on the background."
+    },
+    {
+      "id": "leader-flats-8wt-floating",
+      "kind": "leader",
+      "mode": "edit",
+      "ref": "tools/refs/leader-flats-8wt-floating.png",
+      "out": "app/public/assets/panels/leader-flats-8wt-floating.jpg",
+      "aspect": "9:16",
+      "label": "Flats 8-weight, floating — leader",
+      "prompt": "Redraw this fly-fishing leader diagram. Top to bottom it is a fly line, then 5 ft of hard mono butt, then 3 ft of hard mono mid, then 4 ft of fluorocarbon tippet, then the fly. Render it as a clean modern tackle diagram: each section a smooth rounded monofilament strand with a soft highlight, thicker sections clearly thicker than thinner ones, the gold section stays gold, everything else stays dark charcoal, the fly line at the top rendered as a thicker coated line, hooks as polished steel wire with clear eyes. Straight-on flat view, vertical, no perspective, no tilt. Reproduce the geometry EXACTLY as given. Do not add, remove, shorten, lengthen or reroute any strand. Every place one strand crosses another, keep the SAME one in front — this is the whole meaning of the picture and changing it draws a different knot. Keep the number of wraps identical. Count them in the reference and render that many. Do not add a wrap to make it look neater. Do not add any text, numbers, letters, labels, arrows, callouts, rulers, watermarks or captions. None. They are added separately. No hands, no fingers, no tools, no vise, no water, no scenery, no props. Plain flat off-white background, no gradient, no vignette, no shadow on the background."
+    },
+    {
+      "id": "leader-flats-9wt-wind",
+      "kind": "leader",
+      "mode": "edit",
+      "ref": "tools/refs/leader-flats-9wt-wind.png",
+      "out": "app/public/assets/panels/leader-flats-9wt-wind.jpg",
+      "aspect": "9:16",
+      "label": "Flats 9-weight, wind — leader",
+      "prompt": "Redraw this fly-fishing leader diagram. Top to bottom it is a fly line, then 4 ft of hard mono butt, then 2 ft of hard mono mid, then 3 ft of fluorocarbon tippet, then the fly. Render it as a clean modern tackle diagram: each section a smooth rounded monofilament strand with a soft highlight, thicker sections clearly thicker than thinner ones, the gold section stays gold, everything else stays dark charcoal, the fly line at the top rendered as a thicker coated line, hooks as polished steel wire with clear eyes. Straight-on flat view, vertical, no perspective, no tilt. Reproduce the geometry EXACTLY as given. Do not add, remove, shorten, lengthen or reroute any strand. Every place one strand crosses another, keep the SAME one in front — this is the whole meaning of the picture and changing it draws a different knot. Keep the number of wraps identical. Count them in the reference and render that many. Do not add a wrap to make it look neater. Do not add any text, numbers, letters, labels, arrows, callouts, rulers, watermarks or captions. None. They are added separately. No hands, no fingers, no tools, no vise, no water, no scenery, no props. Plain flat off-white background, no gradient, no vignette, no shadow on the background."
+    },
+    {
+      "id": "leader-tarpon-11wt",
+      "kind": "leader",
+      "mode": "edit",
+      "ref": "tools/refs/leader-tarpon-11wt.png",
+      "out": "app/public/assets/panels/leader-tarpon-11wt.jpg",
+      "aspect": "9:16",
+      "label": "Tarpon 11-weight — leader",
+      "prompt": "Redraw this fly-fishing leader diagram. Top to bottom it is a fly line, then 4 ft of hard mono butt, then 2 ft of class tippet (fluorocarbon), then 1 ft of bite tippet (fluorocarbon), then the fly. Render it as a clean modern tackle diagram: each section a smooth rounded monofilament strand with a soft highlight, thicker sections clearly thicker than thinner ones, the gold section stays gold, everything else stays dark charcoal, the fly line at the top rendered as a thicker coated line, hooks as polished steel wire with clear eyes. Straight-on flat view, vertical, no perspective, no tilt. Reproduce the geometry EXACTLY as given. Do not add, remove, shorten, lengthen or reroute any strand. Every place one strand crosses another, keep the SAME one in front — this is the whole meaning of the picture and changing it draws a different knot. Keep the number of wraps identical. Count them in the reference and render that many. Do not add a wrap to make it look neater. Do not add any text, numbers, letters, labels, arrows, callouts, rulers, watermarks or captions. None. They are added separately. No hands, no fingers, no tools, no vise, no water, no scenery, no props. Plain flat off-white background, no gradient, no vignette, no shadow on the background."
+    },
+    {
+      "id": "leader-euro-double-nymph",
+      "kind": "leader",
+      "mode": "edit",
+      "ref": "tools/refs/leader-euro-double-nymph.png",
+      "out": "app/public/assets/panels/leader-euro-double-nymph.jpg",
+      "aspect": "9:16",
+      "label": "Euro double-nymph — leader",
+      "prompt": "Redraw this fly-fishing leader diagram. Top to bottom it is a fly line, then 12 ft of level mono butt, then 2 ft of sighter mono, then 5 ft of tippet, then the fly. Render it as a clean modern tackle diagram: each section a smooth rounded monofilament strand with a soft highlight, thicker sections clearly thicker than thinner ones, the gold section stays gold, everything else stays dark charcoal, the fly line at the top rendered as a thicker coated line, hooks as polished steel wire with clear eyes. Straight-on flat view, vertical, no perspective, no tilt. Reproduce the geometry EXACTLY as given. Do not add, remove, shorten, lengthen or reroute any strand. Every place one strand crosses another, keep the SAME one in front — this is the whole meaning of the picture and changing it draws a different knot. Keep the number of wraps identical. Count them in the reference and render that many. Do not add a wrap to make it look neater. Do not add any text, numbers, letters, labels, arrows, callouts, rulers, watermarks or captions. None. They are added separately. No hands, no fingers, no tools, no vise, no water, no scenery, no props. Plain flat off-white background, no gradient, no vignette, no shadow on the background."
+    },
+    {
+      "id": "leader-dry-dropper-floating",
+      "kind": "leader",
+      "mode": "edit",
+      "ref": "tools/refs/leader-dry-dropper-floating.png",
+      "out": "app/public/assets/panels/leader-dry-dropper-floating.jpg",
+      "aspect": "9:16",
+      "label": "Dry-dropper, floating line — leader",
+      "prompt": "Redraw this fly-fishing leader diagram. Top to bottom it is a fly line, then 9 ft of tapered leader, then 2 ft of tippet to dropper, then the fly. Render it as a clean modern tackle diagram: each section a smooth rounded monofilament strand with a soft highlight, thicker sections clearly thicker than thinner ones, the gold section stays gold, everything else stays dark charcoal, the fly line at the top rendered as a thicker coated line, hooks as polished steel wire with clear eyes. Straight-on flat view, vertical, no perspective, no tilt. Reproduce the geometry EXACTLY as given. Do not add, remove, shorten, lengthen or reroute any strand. Every place one strand crosses another, keep the SAME one in front — this is the whole meaning of the picture and changing it draws a different knot. Keep the number of wraps identical. Count them in the reference and render that many. Do not add a wrap to make it look neater. Do not add any text, numbers, letters, labels, arrows, callouts, rulers, watermarks or captions. None. They are added separately. No hands, no fingers, no tools, no vise, no water, no scenery, no props. Plain flat off-white background, no gradient, no vignette, no shadow on the background."
+    },
+    {
+      "id": "leader-indicator-nymph",
+      "kind": "leader",
+      "mode": "edit",
+      "ref": "tools/refs/leader-indicator-nymph.png",
+      "out": "app/public/assets/panels/leader-indicator-nymph.jpg",
+      "aspect": "9:16",
+      "label": "Indicator nymph — leader",
+      "prompt": "Redraw this fly-fishing leader diagram. Top to bottom it is a fly line, then 9 ft of tapered leader, then 3 ft of tippet, then the fly. Render it as a clean modern tackle diagram: each section a smooth rounded monofilament strand with a soft highlight, thicker sections clearly thicker than thinner ones, the gold section stays gold, everything else stays dark charcoal, the fly line at the top rendered as a thicker coated line, hooks as polished steel wire with clear eyes. Straight-on flat view, vertical, no perspective, no tilt. Reproduce the geometry EXACTLY as given. Do not add, remove, shorten, lengthen or reroute any strand. Every place one strand crosses another, keep the SAME one in front — this is the whole meaning of the picture and changing it draws a different knot. Keep the number of wraps identical. Count them in the reference and render that many. Do not add a wrap to make it look neater. Do not add any text, numbers, letters, labels, arrows, callouts, rulers, watermarks or captions. None. They are added separately. No hands, no fingers, no tools, no vise, no water, no scenery, no props. Plain flat off-white background, no gradient, no vignette, no shadow on the background."
+    },
+    {
+      "id": "leader-streamer-sink-tip",
+      "kind": "leader",
+      "mode": "edit",
+      "ref": "tools/refs/leader-streamer-sink-tip.png",
+      "out": "app/public/assets/panels/leader-streamer-sink-tip.jpg",
+      "aspect": "9:16",
+      "label": "Streamer, sink tip — leader",
+      "prompt": "Redraw this fly-fishing leader diagram. Top to bottom it is a fly line, then 3 ft of mono butt, then 3 ft of fluorocarbon tippet, then the fly. Render it as a clean modern tackle diagram: each section a smooth rounded monofilament strand with a soft highlight, thicker sections clearly thicker than thinner ones, the gold section stays gold, everything else stays dark charcoal, the fly line at the top rendered as a thicker coated line, hooks as polished steel wire with clear eyes. Straight-on flat view, vertical, no perspective, no tilt. Reproduce the geometry EXACTLY as given. Do not add, remove, shorten, lengthen or reroute any strand. Every place one strand crosses another, keep the SAME one in front — this is the whole meaning of the picture and changing it draws a different knot. Keep the number of wraps identical. Count them in the reference and render that many. Do not add a wrap to make it look neater. Do not add any text, numbers, letters, labels, arrows, callouts, rulers, watermarks or captions. None. They are added separately. No hands, no fingers, no tools, no vise, no water, no scenery, no props. Plain flat off-white background, no gradient, no vignette, no shadow on the background."
     }
   ]
 }

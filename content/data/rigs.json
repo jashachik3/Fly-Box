@@ -13,18 +13,42 @@
     "leaderSections": [
       {
         "material": "Hard mono butt",
+        "materialId": "maxima-chameleon-40",
+        "source": "built",
         "lb": 40,
-        "ft": 5
+        "ft": 5,
+        "knotBelow": "blood-knot"
       },
       {
-        "material": "Hard mono mid",
+        "material": "Hard mono",
+        "materialId": "maxima-chameleon-30",
+        "source": "built",
+        "lb": 30,
+        "ft": 2,
+        "knotBelow": "blood-knot"
+      },
+      {
+        "material": "Hard mono",
+        "materialId": "maxima-chameleon-25",
+        "source": "built",
         "lb": 25,
-        "ft": 3
+        "ft": 1.5,
+        "knotBelow": "blood-knot"
+      },
+      {
+        "material": "Hard mono",
+        "materialId": "maxima-chameleon-20",
+        "source": "built",
+        "lb": 20,
+        "ft": 1.5,
+        "knotBelow": "double-surgeons"
       },
       {
         "material": "Fluorocarbon tippet",
+        "materialId": "fluoro-16",
+        "source": "built",
         "lb": 16,
-        "ft": 4
+        "ft": 2
       }
     ],
     "flies": [
@@ -35,9 +59,37 @@
     ],
     "knot": "non-slip-mono-loop",
     "useWhen": "Calm to light wind, skinny water, spooky fish. Lengthen the tippet as it gets flatter and calmer.",
-    "notes": "The default Bahamas bonefish setup.",
+    "notes": "The default Bahamas bonefish setup. Leader length here is genuinely contested: guides on South Andros argue for 9 ft and under and say bonefish are not leader-shy, while others build 12–18 ft. 12 ft is a middle position, not a settled answer.",
     "sources": [
-      "NEEDS REVIEW"
+      "Lefty Kreh bonefish leader formula",
+      "Bruce Chard flats leader (Deneki)",
+      "Deneki — leader length, South Andros guides",
+      "Gary Borger — blood knot diameter limit"
+    ],
+    "diagram": "assets/diagrams/leader-flats-8wt-floating.svg",
+    "buildNotes": "Five sections, not three. 40 to 25 to 16 lb looks tidy but steps about 0.005 in at each joint — double what an even blood knot seats — so it never closes properly. The intermediates keep every mono joint inside the rule. The last joint is mono to fluorocarbon, which takes a surgeon’s knot rather than a blood knot: mono swells when it wets and slips against fluoro.",
+    "adjust": [
+      {
+        "when": "Flat calm, clear, fish refusing",
+        "change": "Lengthen the tippet 12–18 in, or drop to 12 lb",
+        "why": "Less leader landing near the fish and a softer turnover."
+      },
+      {
+        "when": "Wind gets up",
+        "change": "Shorten the tippet and leave the butt alone — 9 ft total",
+        "why": "The butt carries the turnover; the tippet is what collapses."
+      },
+      {
+        "when": "Wind AND a big or weighted fly",
+        "change": "Keep the 40 lb butt and shorten everything below it",
+        "why": "Big flies need butt stiffness to turn over. Sources that say lighten the butt in wind are talking about small flies — resolve it by fly size, not by wind.",
+        "disputed": true
+      },
+      {
+        "when": "Tight mangrove, fish inside 30 ft",
+        "change": "Cut to 7–8 ft total",
+        "why": "Accuracy beats stealth once they are that close."
+      }
     ]
   },
   {
@@ -54,18 +106,42 @@
     "leaderSections": [
       {
         "material": "Hard mono butt",
+        "materialId": "maxima-chameleon-40",
+        "source": "built",
         "lb": 40,
-        "ft": 4
+        "ft": 4,
+        "knotBelow": "blood-knot"
       },
       {
-        "material": "Hard mono mid",
+        "material": "Hard mono",
+        "materialId": "maxima-chameleon-30",
+        "source": "built",
+        "lb": 30,
+        "ft": 1.5,
+        "knotBelow": "blood-knot"
+      },
+      {
+        "material": "Hard mono",
+        "materialId": "maxima-chameleon-25",
+        "source": "built",
         "lb": 25,
-        "ft": 2
+        "ft": 1,
+        "knotBelow": "blood-knot"
+      },
+      {
+        "material": "Hard mono",
+        "materialId": "maxima-chameleon-20",
+        "source": "built",
+        "lb": 20,
+        "ft": 1,
+        "knotBelow": "double-surgeons"
       },
       {
         "material": "Fluorocarbon tippet",
+        "materialId": "fluoro-16",
+        "source": "built",
         "lb": 16,
-        "ft": 3
+        "ft": 1.5
       }
     ],
     "flies": [
@@ -78,6 +154,20 @@
     "notes": "The honest answer to a windy morning is a heavier rod and a shorter leader, not a better cast.",
     "sources": [
       "NEEDS REVIEW"
+    ],
+    "diagram": "assets/diagrams/leader-flats-9wt-wind.svg",
+    "buildNotes": "The 12 ft build, shortened at every section rather than chopped at the tippet. The taper is what turns a fly over in wind; cutting only the tippet leaves it unbalanced.",
+    "adjust": [
+      {
+        "when": "It drops out overnight",
+        "change": "Go back to the 12 ft leader",
+        "why": "A short leader is a wind tax, not an improvement."
+      },
+      {
+        "when": "Still not turning over",
+        "change": "Shorten the tippet before anything else",
+        "why": "The tippet is the part that folds."
+      }
     ]
   },
   {
@@ -94,16 +184,24 @@
     "leaderSections": [
       {
         "material": "Hard mono butt",
-        "lb": 50,
-        "ft": 4
+        "materialId": "maxima-chameleon-40",
+        "source": "built",
+        "lb": 40,
+        "ft": 4,
+        "knotBelow": "albright"
       },
       {
         "material": "Class tippet (fluorocarbon)",
+        "materialId": "fluoro-20",
+        "source": "built",
         "lb": 20,
-        "ft": 2
+        "ft": 2,
+        "knotBelow": "albright"
       },
       {
         "material": "Bite tippet (fluorocarbon)",
+        "materialId": "fluoro-60",
+        "source": "built",
         "lb": 60,
         "ft": 1
       }
@@ -117,7 +215,23 @@
     "useWhen": "Migratory adult tarpon. Resident juveniles are a 9–10 weight with 30–40 lb bite and no ceremony.",
     "notes": "Class-to-bite junction is an Albright.",
     "sources": [
+      "IGFA International Angling Rules",
       "NEEDS REVIEW"
+    ],
+    "diagram": "assets/diagrams/leader-tarpon-11wt.svg",
+    "igfa": true,
+    "buildNotes": "Both joints are Albrights — the diameter gaps are far past anything a blood knot will hold. If you care about the record book, IGFA measures the class tippet at 15 in minimum INSIDE the knots, and the bite tippet at 12 in maximum from the hook eye to the class tippet. The bite here is exactly at the limit, so cut it long, tie it, then measure the finished section — not the other way round.",
+    "adjust": [
+      {
+        "when": "Resident juveniles rather than migratory fish",
+        "change": "Drop to a 9–10 weight with 30–40 lb bite",
+        "why": "Smaller fish, smaller flies, less ceremony."
+      },
+      {
+        "when": "Fish are eating but you are not coming tight",
+        "change": "Check the bite tippet is not chafed, then strip-set harder",
+        "why": "That mouth is bone. A trout set pulls the fly straight out."
+      }
     ]
   },
   {
@@ -134,18 +248,34 @@
     "leaderSections": [
       {
         "material": "Level mono butt",
-        "lb": 12,
-        "ft": 12
+        "materialId": "maxima-chameleon-20",
+        "source": "built",
+        "lb": 20,
+        "ft": 12,
+        "knotBelow": "blood-knot"
       },
       {
-        "material": "Sighter mono",
-        "lb": 8,
-        "ft": 2
+        "material": "Sighter — hi-vis",
+        "materialId": "amnesia-12-red",
+        "source": "built",
+        "lb": 12,
+        "ft": 1,
+        "knotBelow": "blood-knot"
+      },
+      {
+        "material": "Sighter — contrast",
+        "materialId": "stren-gold-10",
+        "source": "built",
+        "lb": 10,
+        "ft": 1,
+        "knotBelow": "double-surgeons"
       },
       {
         "material": "Tippet",
-        "x": "5X",
+        "materialId": "fluoro-5x",
+        "source": "built",
         "lb": 5,
+        "x": "5X",
         "ft": 5
       }
     ],
@@ -163,7 +293,24 @@
     "useWhen": "Riffles, seams and pocket water where you can hold a tight line within a rod-and-a-half of the fish.",
     "notes": "Jeff's biggest cutthroat came on this rig: Walt's Worm on point, Pheasant Tail dropper, 3 ft seam.",
     "sources": [
-      "Jeff's log, 2026-09-12"
+      "Jeff's log, 2026-09-12",
+      "Troutbitten — standard Mono Rig",
+      "Gary Borger — blood knot diameter limit"
+    ],
+    "diagram": "assets/diagrams/leader-euro-double-nymph.svg",
+    "buildNotes": "Two sighter colours stacked, not one — the contrast between them is what your eye actually reads. Put a 2 mm tippet ring between the sighter and the tippet: the leader then stops getting shorter every time you re-tie, and you can hang 5X off 10 lb mono without obeying any taper rule at all. Butt length is a matter of school — 12 ft here, but the same rig is built anywhere from 3 ft to 26 ft.",
+    "adjust": [
+      {
+        "when": "Deeper or faster water",
+        "change": "Heavier point fly before longer tippet",
+        "why": "Depth is set by the fly, not the leader, on a tight line."
+      },
+      {
+        "when": "Fish refusing a good drift",
+        "change": "Check for drag before dropping an X",
+        "why": "Expert sources disagree here: the conventional read is too-thick tippet, but Troutbitten argues trout are drag-shy rather than leader-shy and that fine tippet just masks presentation.",
+        "disputed": true
+      }
     ]
   },
   {
@@ -179,15 +326,20 @@
     "leaderFt": 11,
     "leaderSections": [
       {
-        "material": "Tapered leader",
-        "x": "4X",
+        "material": "Knotless tapered leader",
+        "materialId": "tapered-4x",
+        "source": "bought",
         "lb": 6,
-        "ft": 9
+        "x": "4X",
+        "ft": 9,
+        "knotBelow": "double-surgeons"
       },
       {
         "material": "Tippet to dropper",
-        "x": "5X",
+        "materialId": "fluoro-5x",
+        "source": "built",
         "lb": 5,
+        "x": "5X",
         "ft": 2
       }
     ],
@@ -205,6 +357,20 @@
     "useWhen": "Shallower water, spread-out fish, or when you want the dry to actually be eaten rather than just float.",
     "sources": [
       "NEEDS REVIEW"
+    ],
+    "diagram": "assets/diagrams/leader-dry-dropper-floating.svg",
+    "buildNotes": "Bought, not built. The 9 ft 4X is a card off the shelf; the only thing you tie is the tippet. Buying short and adding tippet is how you get length without losing the taper.",
+    "adjust": [
+      {
+        "when": "Very clear, flat water",
+        "change": "Add 12–18 in of tippet at a time until turnover suffers",
+        "why": "Lengthen in increments — the point where it stops straightening is the answer."
+      },
+      {
+        "when": "Wind, or the dry will not carry the dropper",
+        "change": "Shorten to 7.5 ft and go up a size on the dry",
+        "why": "Buoyancy is the constraint, not the imitation."
+      }
     ]
   },
   {
@@ -220,15 +386,20 @@
     "leaderFt": 12,
     "leaderSections": [
       {
-        "material": "Tapered leader",
-        "x": "4X",
+        "material": "Knotless tapered leader",
+        "materialId": "tapered-4x",
+        "source": "bought",
         "lb": 6,
-        "ft": 9
+        "x": "4X",
+        "ft": 9,
+        "knotBelow": "double-surgeons"
       },
       {
         "material": "Tippet",
-        "x": "5X",
+        "materialId": "fluoro-5x",
+        "source": "built",
         "lb": 5,
+        "x": "5X",
         "ft": 3
       }
     ],
@@ -244,6 +415,14 @@
     "useWhen": "Deeper or farther than a tight-line rig can reach.",
     "sources": [
       "NEEDS REVIEW"
+    ],
+    "diagram": "assets/diagrams/leader-indicator-nymph.svg",
+    "adjust": [
+      {
+        "when": "Not reaching the bottom",
+        "change": "Set the indicator about one and a half times the water depth above the point fly",
+        "why": "The rule of thumb that gets a dead drift on the bottom rather than above it."
+      }
     ]
   },
   {
@@ -260,11 +439,16 @@
     "leaderSections": [
       {
         "material": "Mono butt",
+        "materialId": "maxima-chameleon-15",
+        "source": "built",
         "lb": 15,
-        "ft": 3
+        "ft": 3,
+        "knotBelow": "double-surgeons"
       },
       {
         "material": "Fluorocarbon tippet",
+        "materialId": "fluoro-10",
+        "source": "built",
         "lb": 10,
         "ft": 3
       }
@@ -280,6 +464,15 @@
     "notes": "House rule: streamers get a loop knot, same as saltwater.",
     "sources": [
       "Jeff's stated knot policy"
+    ],
+    "diagram": "assets/diagrams/leader-streamer-sink-tip.svg",
+    "buildNotes": "Short and stiff on purpose. A sink tip does the depth work; a long leader just lets the fly ride up above it.",
+    "adjust": [
+      {
+        "when": "Water is off-colour",
+        "change": "Go shorter and heavier — as little as 3 ft",
+        "why": "They cannot see the leader and you need to turn a heavy fly over."
+      }
     ]
   }
 ]

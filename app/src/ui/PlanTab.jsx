@@ -1,7 +1,7 @@
 import React, { useMemo, useState } from 'react';
 import { bundle, regions, speciesIn, record, nameOf, MONTHS, confidence, assetUrl } from '../content/index.js';
 import { slate as buildSlate, whatsOn, retrieveFor, retrieveLine, setWord } from '../content/query.js';
-import { Card, Label, Empty, Pill, Strength, Field, Select } from './bits.jsx';
+import { Card, Label, Empty, Pill, Strength, Field, Select, Diagram } from './bits.jsx';
 
 function Thumb({ src }) {
   const [ok, setOk] = useState(true);
@@ -225,16 +225,22 @@ export default function PlanTab({ trip, setTrip, setSlate, onStudy, onLog }) {
                   const rig = record('rigs', id);
                   if (!rig) return null;
                   return (
-                    <div className="listrow" key={id}>
-                      <div className="grow">
-                        <div className="name">{rig.name}</div>
-                        <div className="sub">
-                          {rig.line}
-                          {rig.leaderFt ? ` · ${rig.leaderFt} ft leader` : ''}
-                          {rig.knot ? ` · ${nameOf('knots', rig.knot)}` : ''}
+                    <details className="ref" key={id}>
+                      <summary>
+                        <div className="grow">
+                          <div className="name">{rig.name}</div>
+                          <div className="sub">
+                            {rig.line}
+                            {rig.leaderFt ? ` · ${rig.leaderFt} ft leader` : ''}
+                            {rig.knot ? ` · ${nameOf('knots', rig.knot)}` : ''}
+                          </div>
                         </div>
+                      </summary>
+                      <div className="refbody">
+                        <Diagram src={rig.diagram} alt={`${rig.name} — leader diagram`} />
+                        {rig.useWhen && <p className="muted">{rig.useWhen}</p>}
                       </div>
-                    </div>
+                    </details>
                   );
                 })}
               </Card>

@@ -1,0 +1,355 @@
+[
+  {
+    "id": "bahamas-bonefish",
+    "name": "Bahamas bonefish",
+    "status": "draft",
+    "group": "destination",
+    "sort": 0,
+    "blurb": "The real trip. Everything that lives on those flats, what imitates it, and how to make it move.",
+    "filter": {
+      "water": "salt",
+      "regions": [
+        "bahamas"
+      ]
+    },
+    "notes": "First deck for a reason — this is the trip on the calendar."
+  },
+  {
+    "id": "belize-grass-flats",
+    "name": "Belize grass flats",
+    "status": "draft",
+    "group": "destination",
+    "sort": 10,
+    "blurb": "Turtle grass and hard bottom in Belize: what shows up over grass, and the flies that sit above it.",
+    "filter": {
+      "water": "salt",
+      "regions": [
+        "belize"
+      ],
+      "waterTypes": [
+        "flat"
+      ]
+    }
+  },
+  {
+    "id": "belize-everything",
+    "name": "Belize, all water",
+    "status": "draft",
+    "group": "destination",
+    "sort": 20,
+    "blurb": "Flats, lagoon and mangrove together — the whole Belize picture rather than one bottom type.",
+    "filter": {
+      "water": "salt",
+      "regions": [
+        "belize"
+      ]
+    }
+  },
+  {
+    "id": "honduras-bay-islands",
+    "name": "Honduras — Bay Islands",
+    "status": "draft",
+    "group": "destination",
+    "sort": 30,
+    "blurb": "Smaller flats, clearer water, shorter shots.",
+    "filter": {
+      "water": "salt",
+      "regions": [
+        "honduras"
+      ]
+    }
+  },
+  {
+    "id": "nc-fall-run",
+    "name": "NC fall run",
+    "status": "draft",
+    "group": "destination",
+    "sort": 40,
+    "blurb": "October and November on the Carolina coast — bait balls, albies, and marsh redfish.",
+    "filter": {
+      "water": "salt",
+      "regions": [
+        "nc-coast"
+      ],
+      "months": [
+        10,
+        11
+      ]
+    }
+  },
+  {
+    "id": "idaho-south-fork",
+    "name": "Idaho — South Fork country",
+    "status": "draft",
+    "group": "destination",
+    "sort": 50,
+    "blurb": "The home water. Bugs by stage, the rigs that fish them, and when each one is on.",
+    "filter": {
+      "water": "fresh",
+      "regions": [
+        "idaho"
+      ]
+    }
+  },
+  {
+    "id": "nc-mountain-trout",
+    "name": "NC mountain trout",
+    "status": "draft",
+    "group": "destination",
+    "sort": 60,
+    "blurb": "Pocket water and small pools — short casts, quick reads.",
+    "filter": {
+      "water": "fresh",
+      "regions": [
+        "nc-mountains"
+      ]
+    }
+  },
+  {
+    "id": "quarry-bonefish",
+    "name": "Bonefish",
+    "status": "draft",
+    "group": "quarry",
+    "sort": 0,
+    "blurb": "Everything that ends with a bonefish eating it, wherever they live.",
+    "filter": {
+      "species": [
+        "bonefish"
+      ],
+      "water": "salt"
+    }
+  },
+  {
+    "id": "quarry-permit",
+    "name": "Permit",
+    "status": "draft",
+    "group": "quarry",
+    "sort": 10,
+    "blurb": "Crabs, refusals, and the small number of things that actually work.",
+    "filter": {
+      "species": [
+        "permit"
+      ],
+      "water": "salt"
+    }
+  },
+  {
+    "id": "quarry-tarpon",
+    "name": "Tarpon",
+    "status": "draft",
+    "group": "quarry",
+    "sort": 20,
+    "blurb": "Big flies, heavy leaders, and a strip set. Study this before the trip exists, not after.",
+    "filter": {
+      "species": [
+        "tarpon"
+      ],
+      "water": "salt"
+    }
+  },
+  {
+    "id": "quarry-redfish-albies",
+    "name": "Redfish and albies",
+    "status": "draft",
+    "group": "quarry",
+    "sort": 30,
+    "blurb": "The two Carolina fish, which want opposite things from the same fly box.",
+    "filter": {
+      "species": [
+        "redfish",
+        "false-albacore"
+      ],
+      "water": "salt"
+    }
+  },
+  {
+    "id": "quarry-trout",
+    "name": "Trout",
+    "status": "draft",
+    "group": "quarry",
+    "sort": 40,
+    "blurb": "Cutthroat, rainbow and brown — the bugs, the stages, and what each fish forgives.",
+    "filter": {
+      "species": [
+        "cutthroat-trout",
+        "rainbow-trout",
+        "brown-trout"
+      ],
+      "water": "fresh"
+    }
+  },
+  {
+    "id": "technique-euro",
+    "name": "Euro nymphing",
+    "status": "draft",
+    "group": "technique",
+    "sort": 0,
+    "blurb": "The tight-line rig, the flies that go on it, and the knots that hold it together.",
+    "filter": {
+      "rigs": [
+        "euro-double-nymph"
+      ],
+      "water": "fresh"
+    }
+  },
+  {
+    "id": "technique-dry-dropper",
+    "name": "Dry-dropper",
+    "status": "draft",
+    "group": "technique",
+    "sort": 10,
+    "blurb": "A dry that can carry weight, and a dropper that earns its place.",
+    "filter": {
+      "rigs": [
+        "dry-dropper-floating"
+      ],
+      "water": "fresh"
+    }
+  },
+  {
+    "id": "technique-streamers",
+    "name": "Streamers",
+    "status": "draft",
+    "group": "technique",
+    "sort": 20,
+    "blurb": "Sink tip, short leader, loop knot. Off-color water and low light.",
+    "filter": {
+      "rigs": [
+        "streamer-sink-tip"
+      ],
+      "water": "fresh"
+    }
+  },
+  {
+    "id": "technique-flats",
+    "name": "Sight fishing the flats",
+    "status": "draft",
+    "group": "technique",
+    "sort": 30,
+    "blurb": "Everything that happens in skinny saltwater, across all three destinations.",
+    "filter": {
+      "water": "salt",
+      "waterTypes": [
+        "flat"
+      ]
+    }
+  },
+  {
+    "id": "fundamentals-knots",
+    "name": "Knots",
+    "status": "draft",
+    "group": "fundamentals",
+    "sort": 0,
+    "blurb": "Seven knots, tied in order, with the step each one is usually got wrong on.",
+    "filter": {
+      "kinds": [
+        "knot"
+      ]
+    }
+  },
+  {
+    "id": "fundamentals-leaders",
+    "name": "Leaders and rigs",
+    "status": "draft",
+    "group": "fundamentals",
+    "sort": 10,
+    "blurb": "What every rig is made of, section by section — so you can build one without the diagram.",
+    "filter": {
+      "kinds": [
+        "rig"
+      ]
+    }
+  },
+  {
+    "id": "fundamentals-retrieves",
+    "name": "Making it move",
+    "status": "draft",
+    "group": "fundamentals",
+    "sort": 20,
+    "blurb": "Strip length, speed, pause, and when the eat actually comes.",
+    "filter": {
+      "kinds": [
+        "retrieve"
+      ]
+    }
+  },
+  {
+    "id": "fundamentals-salt-prey",
+    "name": "What lives on the flats",
+    "status": "draft",
+    "group": "fundamentals",
+    "sort": 30,
+    "blurb": "Field ID for saltwater prey, stage by stage — the half of the answer that comes before the fly.",
+    "filter": {
+      "kinds": [
+        "organism-stage"
+      ],
+      "water": "salt"
+    }
+  },
+  {
+    "id": "fundamentals-bugs",
+    "name": "Bugs, stage by stage",
+    "status": "draft",
+    "group": "fundamentals",
+    "sort": 40,
+    "blurb": "Freshwater insects from nymph to spinner, and the tell that separates them.",
+    "filter": {
+      "kinds": [
+        "organism-stage"
+      ],
+      "water": "fresh"
+    }
+  },
+  {
+    "id": "fundamentals-crustaceans",
+    "name": "Shrimp and crabs",
+    "status": "draft",
+    "group": "fundamentals",
+    "sort": 50,
+    "blurb": "Both waters at once. A scud and a snapping shrimp are the same problem at different scale.",
+    "filter": {
+      "organismKinds": [
+        "crustacean"
+      ],
+      "kinds": [
+        "organism-stage",
+        "match",
+        "fly",
+        "retrieve"
+      ]
+    }
+  },
+  {
+    "id": "fundamentals-baitfish",
+    "name": "Baitfish",
+    "status": "draft",
+    "group": "fundamentals",
+    "sort": 60,
+    "blurb": "Glass minnows, anchovies and sculpin — and why the retrieve matters more than the pattern.",
+    "filter": {
+      "organismKinds": [
+        "baitfish"
+      ],
+      "kinds": [
+        "organism-stage",
+        "match",
+        "fly",
+        "retrieve"
+      ]
+    }
+  },
+  {
+    "id": "fundamentals-seasons",
+    "name": "When things happen",
+    "status": "draft",
+    "group": "fundamentals",
+    "sort": 70,
+    "blurb": "The calendar on its own: what is on, where, and what sets it off.",
+    "filter": {
+      "kinds": [
+        "presence"
+      ]
+    }
+  }
+]

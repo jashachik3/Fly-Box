@@ -11,6 +11,7 @@ import { readFileSync, existsSync, readdirSync } from 'node:fs';
 import { join, dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { SCHEMAS, VOCAB, SLUG_RE } from './schema.mjs';
+import { buildSheet } from './leader.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const DATA = join(HERE, 'data');
@@ -234,6 +235,17 @@ export function validate(tables) {
     }
   }
 
+  // A leader has to be buildable, not just describable. The build sheet knows
+  // whether each junction's diameter step is one its knot can actually seat —
+  // which is the difference between a leader that holds and one that slips
+  // under load and gets blamed on the fly.
+  const byIdOf = (t) => Object.fromEntries((tables[t] ?? []).map((r) => [r.id, r]));
+  for (const r of tables.rigs) {
+    const sheet = buildSheet(r, { materials: byIdOf('materials'), knots: byIdOf('knots') });
+    for (const w of sheet.warnings) warn('rigs', w);
+    for (const g of sheet.igfa) warn(`rigs/${r.id}`, `IGFA — ${g}`);
+  }
+
   // A leader that does not add up is a leader built to the wrong length.
   for (const r of tables.rigs) {
     const sum = (r.leaderSections ?? []).reduce((a, s) => a + (s.ft ?? 0), 0);
@@ -272,6 +284,20 @@ export function validate(tables) {
   if (CHECK_IMAGES) {
     const have = existsSync(IMAGES) ? new Set(readdirSync(IMAGES)) : new Set();
     if (!have.size) warn('images', `no asset directory found at ${IMAGES}`);
+    // Diagrams live in their own directory and are generated, not drawn, so a
+    // missing one means someone forgot to run the build — worth saying plainly.
+    const dPath = join(IMAGES, 'diagrams');
+    const haveD = existsSync(dPath) ? new Set(readdirSync(dPath)) : new Set();
+    for (const [where, d] of [
+      ...tables.knots.map((r) => [`knots/${r.id}`, r.diagram]),
+      ...tables.rigs.map((r) => [`rigs/${r.id}`, r.diagram]),
+    ]) {
+      if (!d) continue;
+      if (!haveD.has(d.split('/').pop())) {
+        warn(where, `diagram "${d}" is missing — run: node tools/build-diagrams.mjs`);
+      }
+    }
+
     const wanted = [
       ...tables.flies.map((r) => [`flies/${r.id}`, r.image]),
       ...tables.organisms.map((r) => [`organisms/${r.id}`, r.image]),

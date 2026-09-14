@@ -1,14 +1,15 @@
 {
   "name": "flybox",
   "private": true,
-  "version": "0.4.0",
+  "version": "0.6.0",
   "type": "module",
   "scripts": {
-    "content": "node ../content/build.mjs",
+    "diagrams": "node ../tools/build-diagrams.mjs",
+    "content": "npm run diagrams && node ../content/build.mjs",
     "dev": "npm run content && vite",
     "build": "npm run content && vite build",
     "preview": "vite preview",
-    "check": "node ../content/validate.mjs && node ../tools/log-demo.mjs"
+    "check": "node ../content/validate.mjs --images && node ../tools/log-demo.mjs"
   },
   "dependencies": {
     "react": "18.3.1",

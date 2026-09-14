@@ -3,7 +3,7 @@ import { store } from '../state/db.js';
 import { useAsync } from '../state/useAsync.js';
 import { createLocker, GEAR_KINDS, describeGear, shortGear, describeSetup } from '../user/gear.mjs';
 import { record, nameOf, speciesIn } from '../content/index.js';
-import { Card, Label, Empty, Pill, Field, Select, Sheet } from './bits.jsx';
+import { Card, Label, Empty, Pill, Field, Select, Sheet, Diagram } from './bits.jsx';
 
 const locker = createLocker(store);
 
@@ -53,19 +53,24 @@ export default function GearPanel({ trip }) {
           <Label>What {nameOf('regions', trip.regionId)} wants</Label>
           <Card flush>
             {needs.map((r) => (
-              <div className="listrow" key={r.id}>
-                <div className="grow">
-                  <div className="name">{r.name}</div>
-                  <div className="sub">
-                    {[
-                      r.lineWeight ? `${r.lineWeight[0]}${r.lineWeight[1] !== r.lineWeight[0] ? `–${r.lineWeight[1]}` : ''} wt` : null,
-                      r.line,
-                      r.leaderFt ? `${r.leaderFt} ft leader` : null,
-                      r.knot ? nameOf('knots', r.knot) : null,
-                    ].filter(Boolean).join(' · ')}
+              <details className="ref" key={r.id}>
+                <summary>
+                  <div className="grow">
+                    <div className="name">{r.name}</div>
+                    <div className="sub">
+                      {[
+                        r.lineWeight ? `${r.lineWeight[0]}${r.lineWeight[1] !== r.lineWeight[0] ? `–${r.lineWeight[1]}` : ''} wt` : null,
+                        r.line,
+                        r.leaderFt ? `${r.leaderFt} ft leader` : null,
+                        r.knot ? nameOf('knots', r.knot) : null,
+                      ].filter(Boolean).join(' · ')}
+                    </div>
                   </div>
+                </summary>
+                <div className="refbody">
+                  <Diagram src={r.diagram} alt={`${r.name} — leader diagram`} />
                 </div>
-              </div>
+              </details>
             ))}
           </Card>
           <div className="tiny">

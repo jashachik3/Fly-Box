@@ -18,7 +18,7 @@ const SUBTITLE = {
   plan: 'where, when, what on',
   learn: 'drill it before you need it',
   log: 'what actually happened',
-  box: 'what you are carrying',
+  box: 'flies, gear, knots',
 };
 
 export default function App() {
@@ -28,13 +28,16 @@ export default function App() {
     hasHistory: (await store.sessions.all()).length > 0,
     slate: await store.meta.get('slate'),
     trip: await store.meta.get('trip'),
+    deck: await store.meta.get('deck'),
     seen: await store.meta.get('seen-intro'),
   }), []);
 
   const [tab, setTab] = useState(null);
   const [trip, setTrip] = useState({ regionId: null, speciesId: null, month: new Date().getMonth() + 1 });
   const [slate, setSlate] = useState(null);
-  const [studyTrip, setStudyTrip] = useState(false);
+  // Which deck the Learn tab is on: null = everything, 'trip' = whatever the
+  // Plan tab currently has set, anything else = a named deck from content.
+  const [deck, setDeck] = useState(null);
   const [dueCount, setDueCount] = useState(0);
   const [intro, setIntro] = useState(false);
 
@@ -55,6 +58,7 @@ export default function App() {
       void id;
       setTrip((t) => ({ ...t, ...rest }));
     }
+    if (boot.data.deck) setDeck(boot.data.deck.value ?? null);
   }, [boot.data, tab]);
 
   // The slate and the trip both survive a reload. They used to live only in
@@ -71,12 +75,20 @@ export default function App() {
     store.meta.put({ id: 'trip', ...trip });
   }, [trip, boot.data]);
 
+  // Which deck you were studying survives a reload too. Picking a deck is a
+  // decision about what you are training for; it should not reset every time
+  // the phone drops the tab.
+  useEffect(() => {
+    if (!boot.data) return;
+    store.meta.put({ id: 'deck', value: deck });
+  }, [deck, boot.data]);
+
   const liveSlate = slate && {
     ...slate,
     stale: slate.regionId !== trip.regionId || slate.month !== trip.month,
   };
 
-  const goStudy = () => { setStudyTrip(true); setTab('learn'); };
+  const goStudy = () => { setDeck('trip'); setTab('learn'); };
   const goLog = () => setTab('log');
 
   function dismissIntro() {
@@ -99,9 +111,9 @@ export default function App() {
             <strong>Four tabs, in the order you use them.</strong>
             <ul className="plain">
               <li><b>Plan</b> — pick where and when, get the fish, what is hatching, and a fly slate.</li>
-              <li><b>Learn</b> — drill that slate before the trip, not on the water.</li>
+              <li><b>Learn</b> — drill it before the trip, not on the water. Pick a deck: a destination, a fish, a rig, or just the knots.</li>
               <li><b>Log</b> — record the hours and the fish. This is what makes the rest yours.</li>
-              <li><b>Box</b> — what flies and gear you actually own, and what is missing.</li>
+              <li><b>Box</b> — what flies and gear you own, what is missing, and every knot and leader with its diagram.</li>
             </ul>
             <button type="button" className="small" onClick={dismissIntro}>Got it</button>
           </div>
@@ -111,8 +123,7 @@ export default function App() {
           <PlanTab trip={trip} setTrip={setTrip} setSlate={setSlate} onStudy={goStudy} onLog={goLog} />
         )}
         {tab === 'learn' && (
-          <LearnTab trip={trip} onDueCount={setDueCount}
-                    tripOnly={studyTrip} setTripOnly={setStudyTrip} />
+          <LearnTab trip={trip} onDueCount={setDueCount} deck={deck} setDeck={setDeck} />
         )}
         {tab === 'log' && <LogTab trip={trip} slate={liveSlate} />}
         {tab === 'box' && <BoxTab slate={liveSlate} trip={trip} />}

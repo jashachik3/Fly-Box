@@ -14,6 +14,8 @@ import { writeFileSync, mkdirSync, existsSync } from 'node:fs';
 import { join, dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { CONCEPT, SCHEMAS } from './schema.mjs';
+import { deckResolver } from './deck.mjs';
+import { buildSheet } from './leader.mjs';
 import { loadAll, validate } from './validate.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
@@ -22,7 +24,7 @@ const OUT = join(OUT_DIR, 'bundle.json');
 
 // Bump when the SHAPE changes, not when content changes. The app checks this
 // against what it has cached and re-hydrates when it moves.
-const CONTENT_VERSION = '0.5.0';
+const CONTENT_VERSION = '0.6.0';
 
 const tables = loadAll();
 validate(tables);
@@ -114,6 +116,67 @@ if (dupes.length) {
 }
 
 // ---------------------------------------------------------------------------
+// Derived: deck membership
+// ---------------------------------------------------------------------------
+// Decks are queries in the source and answers in the bundle. Resolving them
+// here means the phone never runs a filter, and — more usefully — an empty
+// deck is a build failure rather than a blank screen someone finds on a boat.
+
+const byIdOf = (table) => Object.fromEntries((tables[table] ?? []).map((r) => [r.id, r]));
+
+const { predicate: deckPredicate } = deckResolver(tables);
+
+// Membership is stored as INDEXES into `concepts`, not as concept ids. The ids
+// are long on purpose ("match:swimming-crab.adult>strong-arm-merkin-olive") and
+// there are thousands of memberships across all the decks; as strings that is a
+// hundred kilobytes of duplication in a file the phone has to precache.
+const indexOf = new Map(concepts.map((c, i) => [c.id, i]));
+const membership = (filter) => concepts.filter(deckPredicate(filter)).map((c) => indexOf.get(c.id));
+
+const deckConcepts = {};
+const thinDecks = [];
+
+for (const d of tables.decks) {
+  const ids = membership(d.filter);
+  if (!ids.length) {
+    console.error(`\n  build refused: deck "${d.id}" matches nothing.`);
+    console.error('  a deck that resolves to zero cards is a filter typo, not a deck.\n');
+    process.exit(1);
+  }
+  if (ids.length < 5) thinDecks.push(`${d.id} (${ids.length})`);
+  deckConcepts[d.id] = ids;
+}
+
+// The Plan tab's "study this trip" is a deck too — it just has no record,
+// because the trip is chosen on the phone. Resolve every region, and every
+// region-and-species pair, through the SAME rules the named decks use, so
+// "Bahamas" and "Bahamas bonefish" cannot quietly disagree about what is in
+// them. There are only a few dozen combinations and they cost bytes, not time.
+const tripDecks = {};
+for (const r of tables.regions) {
+  tripDecks[r.id] = membership({ water: r.water, regions: [r.id] });
+  for (const sp of tables.species) {
+    if (!sp.regions?.includes(r.id)) continue;
+    tripDecks[`${r.id}.${sp.id}`] = membership({ water: r.water, regions: [r.id], species: [sp.id] });
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Derived: leader build sheets
+// ---------------------------------------------------------------------------
+// Computed here so the phone never runs the arithmetic, and — more to the
+// point — so a leader whose diameters do not work is caught at build time
+// rather than at a bench with the spools already cut.
+
+const leaderSheets = {};
+const leaderProblems = [];
+for (const r of tables.rigs) {
+  const sheet = buildSheet(r, { materials: byIdOf('materials'), knots: byIdOf('knots') });
+  leaderSheets[r.id] = sheet;
+  leaderProblems.push(...sheet.warnings);
+}
+
+// ---------------------------------------------------------------------------
 // Derived: indexes
 // ---------------------------------------------------------------------------
 
@@ -177,7 +240,10 @@ const bundle = {
     fliesByFamily,
     fliesByRetrieve,
     speciesByRegion,
+    deckConcepts,
+    tripDecks,
   },
+  leaderSheets,
 };
 
 if (!existsSync(OUT_DIR)) mkdirSync(OUT_DIR, { recursive: true });
@@ -186,5 +252,10 @@ writeFileSync(OUT, JSON.stringify(bundle, null, 0));
 const kb = (JSON.stringify(bundle).length / 1024).toFixed(0);
 console.log('');
 console.log(`  built  ${OUT.replace(resolve(HERE, '..'), '.')}`);
-console.log(`  ${concepts.length} concepts  ·  ${bundle.counts.matches} match rules  ·  ${kb} KB`);
+console.log(`  ${concepts.length} concepts  ·  ${bundle.counts.matches} match rules  ·  ${tables.decks.length} decks  ·  ${kb} KB`);
+if (thinDecks.length) console.log(`  thin decks (under 5 cards): ${thinDecks.join(', ')}`);
+if (leaderProblems.length) {
+  console.log('');
+  for (const p of leaderProblems) console.log(`  leader  ${p}`);
+}
 console.log('');

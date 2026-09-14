@@ -285,6 +285,7 @@ export function renderCard(bundle, concept, { variant } = {}) {
       answer: (knot.steps ?? []).map((s, i) => `${i + 1}. ${s}`).join('\n'),
       size: null,
       because: knot.failsWhen ? `Fails when: ${knot.failsWhen}` : '',
+      answerImage: knot.diagram ?? null,
       rigs: [],
     };
   }
@@ -301,6 +302,7 @@ export function renderCard(bundle, concept, { variant } = {}) {
       answer: (rig.leaderSections ?? []).map((s) => `${s.ft} ft ${s.material}${s.lb ? ` (${s.lb} lb${s.x ? `, ${s.x}` : ''})` : ''}`).join('\n'),
       size: null,
       because: rig.knot ? `Knot: ${bundle.byId.knots[rig.knot]?.name ?? rig.knot}` : '',
+      answerImage: rig.diagram ?? null,
       rigs: [],
     };
   }

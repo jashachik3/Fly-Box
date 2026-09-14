@@ -1,4 +1,5 @@
-import React, { useEffect, useId, useRef } from 'react';
+import React, { useEffect, useId, useRef, useState } from 'react';
+import { assetUrl } from '../content/index.js';
 
 export const Label = ({ children }) => <h2 className="label">{children}</h2>;
 
@@ -197,3 +198,53 @@ export const shortDate = (iso) =>
 
 export const clock = (iso) =>
   new Date(iso).toLocaleTimeString(undefined, { hour: 'numeric', minute: '2-digit' });
+
+// ---------------------------------------------------------------------------
+// Diagrams
+// ---------------------------------------------------------------------------
+// Knot sequences and leader schematics are SVGs generated from the content, so
+// they scale without limit — which is the whole point on a phone. Inline they
+// are a legible thumbnail; tapped, they fill the screen and can be pinched.
+// A file that is not there removes itself rather than leaving a broken frame.
+
+export function Diagram({ src, alt = '', hint = 'Tap to enlarge' }) {
+  const [ok, setOk] = useState(true);
+  const [open, setOpen] = useState(false);
+  if (!src || !ok) return null;
+
+  return (
+    <>
+      <button type="button" className="diagbtn" onClick={() => setOpen(true)}
+              aria-label={alt ? `${alt} — open full screen` : 'Open diagram full screen'}>
+        <img className="diagram" src={assetUrl(src)} alt={alt} loading="lazy"
+             onError={() => setOk(false)} />
+        <span className="tiny hint">{hint}</span>
+      </button>
+      {open && <DiagramViewer src={src} alt={alt} onClose={() => setOpen(false)} />}
+    </>
+  );
+}
+
+function DiagramViewer({ src, alt, onClose }) {
+  const ref = useRef(null);
+  const opener = useRef(null);
+
+  useEffect(() => {
+    opener.current = document.activeElement;
+    ref.current?.querySelector('button')?.focus();
+    return () => { if (opener.current instanceof HTMLElement) opener.current.focus(); };
+  }, []);
+
+  return (
+    <div className="viewer" ref={ref} role="dialog" aria-modal="true" aria-label={alt || 'Diagram'}
+         onKeyDown={(e) => { if (e.key === 'Escape') { e.stopPropagation(); onClose(); } }}>
+      <div className="viewerbar">
+        <span className="tiny">{alt}</span>
+        <button type="button" className="small ghost" onClick={onClose}>Close</button>
+      </div>
+      <div className="viewerbody">
+        <img src={assetUrl(src)} alt={alt} />
+      </div>
+    </div>
+  );
+}

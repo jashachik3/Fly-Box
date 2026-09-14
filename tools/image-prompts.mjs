@@ -12,6 +12,19 @@
 // with a caddis body. Every prompt below names the parts, the order they sit
 // in, and the geometry — and every fly prompt says explicitly whether the
 // pattern rides point up, because that is the single most-broken detail.
+//
+// Knots and leaders are in this pack too, but they work differently: they are
+// EDITS, not generations. The geometry is drawn first as vector by
+// tools/build-diagrams.mjs --refs, and the model is handed that drawing and
+// asked only to render it properly. That is deliberate. Asked to invent a knot
+// from a sentence, an image model gets each crossing's over/under right about
+// two thirds of the time and cannot reliably draw a stated number of wraps — so
+// a text-generated knot looks convincing and often cannot be tied. Given the
+// geometry, it only has to do the part it is good at.
+//
+// The references carry no text, no numbers and no arrows. Those are composited
+// back on afterwards from the record, so nothing a model renders can garble a
+// step number or a wrap count.
 
 import { readFileSync, writeFileSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
@@ -191,9 +204,83 @@ for (const org of bundle.tables.organisms) {
   }
 }
 
+// ---------------------------------------------------------------------------
+// Knot panels and leader schematics — image-to-image
+// ---------------------------------------------------------------------------
+
+const EDIT_RULES = [
+  'Reproduce the geometry EXACTLY as given. Do not add, remove, shorten, lengthen or reroute any strand.',
+  'Every place one strand crosses another, keep the SAME one in front — this is the whole meaning of the picture and changing it draws a different knot.',
+  'Keep the number of wraps identical. Count them in the reference and render that many. Do not add a wrap to make it look neater.',
+  'Do not add any text, numbers, letters, labels, arrows, callouts, rulers, watermarks or captions. None. They are added separately.',
+  'No hands, no fingers, no tools, no vise, no water, no scenery, no props.',
+  'Plain flat off-white background, no gradient, no vignette, no shadow on the background.',
+].join(' ');
+
+const KNOT_STYLE = [
+  'Render it as a clean modern instructional illustration, the kind printed in a good knot-tying guide:',
+  'smooth rounded monofilament with a soft highlight along its length so it reads as a round cord rather than a flat ribbon,',
+  'a subtle contact shadow where one strand lies over another so the crossings are obvious,',
+  'crisp edges, even line weight, no sketchiness, no cross-hatching, no paper texture.',
+  'Keep the two colours distinct exactly as given: the darker strand stays dark charcoal, the teal strand stays teal.',
+  'Where a hook is shown, render it as polished steel wire with a clear eye.',
+  'Flat straight-on view, no perspective, no tilt, no 3D camera angle.',
+].join(' ');
+
+const LEADER_STYLE = [
+  'Render it as a clean modern tackle diagram:',
+  'each section a smooth rounded monofilament strand with a soft highlight, thicker sections clearly thicker than thinner ones,',
+  'the gold section stays gold, everything else stays dark charcoal,',
+  'the fly line at the top rendered as a thicker coated line,',
+  'hooks as polished steel wire with clear eyes.',
+  'Straight-on flat view, vertical, no perspective, no tilt.',
+].join(' ');
+
+const knotsData = JSON.parse(readFileSync(resolve(HERE, '..', 'content', 'data', 'knots.json'), 'utf8'));
+const rigsData = JSON.parse(readFileSync(resolve(HERE, '..', 'content', 'data', 'rigs.json'), 'utf8'));
+
+for (const k of knotsData) {
+  (k.steps ?? []).forEach((step, i) => {
+    entries.push({
+      id: `knot-${k.id}-${i + 1}`,
+      kind: 'knot-panel',
+      mode: 'edit',
+      ref: `tools/refs/knot-${k.id}-${i + 1}.png`,
+      out: `app/public/assets/panels/knot-${k.id}-${i + 1}.jpg`,
+      aspect: '1:1',
+      label: `${k.name} — step ${i + 1} of ${k.steps.length}`,
+      prompt: [
+        `Redraw this fly-fishing knot diagram. It is step ${i + 1} of ${k.steps.length} of tying a ${k.name}: ${step}`,
+        KNOT_STYLE,
+        EDIT_RULES,
+      ].join(' '),
+    });
+  });
+}
+
+for (const r of rigsData) {
+  const sections = (r.leaderSections ?? [])
+    .map((s) => `${s.ft} ft of ${s.material.toLowerCase()}`).join(', then ');
+  entries.push({
+    id: `leader-${r.id}`,
+    kind: 'leader',
+    mode: 'edit',
+    ref: `tools/refs/leader-${r.id}.png`,
+    out: `app/public/assets/panels/leader-${r.id}.jpg`,
+    aspect: '9:16',
+    label: `${r.name} — leader`,
+    prompt: [
+      `Redraw this fly-fishing leader diagram. Top to bottom it is a fly line, then ${sections}, then the fly.`,
+      LEADER_STYLE,
+      EDIT_RULES,
+    ].join(' '),
+  });
+}
+
 const out = {
   builtAt: new Date().toISOString(),
   model: 'fal-ai/nano-banana-2',
+  editModel: 'fal-ai/nano-banana-2/edit',
   contentVersion: bundle.contentVersion,
   count: entries.length,
   entries,
@@ -201,8 +288,9 @@ const out = {
 
 writeFileSync(resolve(HERE, 'image-prompts.json'), JSON.stringify(out, null, 2));
 
-const flies = entries.filter((e) => e.kind === 'fly').length;
+const by = (kind) => entries.filter((e) => e.kind === kind).length;
 console.log('');
-console.log(`  tools/image-prompts.json — ${entries.length} prompts (${flies} flies, ${entries.length - flies} bug stages)`);
-console.log('  next:  node tools/generate-images.mjs');
+console.log(`  tools/image-prompts.json — ${entries.length} prompts`);
+console.log(`  ${by('fly')} flies · ${by('organism')} bug stages · ${by('knot-panel')} knot panels · ${by('leader')} leaders`);
+console.log('  next:  node tools/generate-images.mjs --kind=knot-panel --limit=5');
 console.log('');

@@ -1,10 +1,10 @@
 import React, { useEffect, useMemo, useState } from 'react';
-import { bundle, concepts, record, assetUrl } from '../content/index.js';
+import { bundle, concepts, record, assetUrl, deckMembers } from '../content/index.js';
 import { deckFilter, renderCard, retrieveLine, setWord } from '../content/query.js';
 import { buildQueue, grade, newCard, progress, GRADE } from '../user/review.mjs';
 import { store } from '../state/db.js';
 import { useAsync } from '../state/useAsync.js';
-import { Card, Label, Empty, Pill, Meter } from './bits.jsx';
+import { Card, Label, Empty, Pill, Meter, Sheet, Diagram } from './bits.jsx';
 
 /**
  * Images are generated separately and may simply not be there yet. A broken
@@ -27,19 +27,137 @@ const GRADES = [
   { g: GRADE.EASY, label: 'Easy', cls: 'easy' },
 ];
 
-export default function LearnTab({ trip, onDueCount, tripOnly = false, setTripOnly }) {
+// Headings, in the order they are shown. The slugs come from VOCAB.deckGroup;
+// the words are for a person standing in a parking lot deciding what to drill.
+const GROUPS = [
+  ['destination', 'Where you are going'],
+  ['quarry', 'What you are after'],
+  ['technique', 'How you are fishing'],
+  ['fundamentals', 'Fundamentals'],
+];
+
+const EVERYTHING = { id: null, name: 'Everything', blurb: 'Every card in the app, in scheduled order.' };
+const TRIP = 'trip';
+
+// ---------------------------------------------------------------------------
+
+/**
+ * Decks are queries, not lists. The named ones are resolved at build time into
+ * bundle.index.deckConcepts, so choosing one is a set lookup; the trip deck is
+ * resolved live, because the trip changes on the phone.
+ */
+function deckPredicate(deck, trip) {
+  let key = deck;
+  if (deck === TRIP) {
+    if (!trip?.regionId) return () => true;
+    key = trip.speciesId ? `${trip.regionId}.${trip.speciesId}` : trip.regionId;
+  }
+  if (!key) return () => true;
+
+  const members = deckMembers(key);
+  // Either a deck id left over from an older build, or a trip whose region and
+  // species pair was not precomputed. Fall back to the live filter rather than
+  // showing an empty tab with no explanation.
+  if (!members) {
+    return deck === TRIP
+      ? deckFilter(bundle, { region: trip.regionId, species: trip.speciesId ?? undefined })
+      : () => true;
+  }
+  return (c) => members.has(c.id);
+}
+
+function deckTitle(deck, trip) {
+  if (deck === TRIP) {
+    return trip?.regionId
+      ? { name: record('regions', trip.regionId)?.name ?? 'This trip', blurb: 'Only what this trip needs.' }
+      : EVERYTHING;
+  }
+  return record('decks', deck) ?? EVERYTHING;
+}
+
+function DeckPicker({ deck, trip, cards, onPick, onClose }) {
+  // Per-deck progress is only worth computing while the sheet is open.
+  const stats = useMemo(() => {
+    const out = {};
+    for (const d of bundle.tables.decks) {
+      const ids = deckMembers(d.id) ?? new Set();
+      out[d.id] = progress(concepts.filter((c) => ids.has(c.id)), cards ?? []);
+    }
+    out.__all = progress(concepts, cards ?? []);
+    if (trip?.regionId) {
+      out.__trip = progress(concepts.filter(deckPredicate(TRIP, trip)), cards ?? []);
+    }
+    return out;
+  }, [cards, trip?.regionId, trip?.speciesId]);
+
+  const Row = ({ id, name, blurb, s }) => (
+    <button
+      type="button"
+      className={`deckrow${deck === id ? ' picked' : ''}`}
+      onClick={() => { onPick(id); onClose(); }}
+      aria-current={deck === id ? 'true' : undefined}
+    >
+      <div className="spread">
+        <strong>{name}</strong>
+        <span className="tiny num">{s ? `${s.known}/${s.total}` : ''}</span>
+      </div>
+      {blurb && <div className="tiny muted">{blurb}</div>}
+      {s && <Meter known={s.known} learning={s.learning} total={s.total} />}
+    </button>
+  );
+
+  return (
+    <Sheet title="Pick a deck" onClose={onClose}>
+      <div className="decklist">
+        <h4 className="deckgroup">Start here</h4>
+        <Row id={null} name={EVERYTHING.name} blurb={EVERYTHING.blurb} s={stats.__all} />
+        {trip?.regionId && (
+          <Row
+            id={TRIP}
+            name={`${record('regions', trip.regionId)?.name ?? 'This trip'} — this trip`}
+            blurb="Follows whatever you have set on the Plan tab."
+            s={stats.__trip}
+          />
+        )}
+
+        {GROUPS.map(([group, heading]) => {
+          const rows = bundle.tables.decks
+            .filter((d) => d.group === group)
+            .sort((a, b) => (a.sort ?? 99) - (b.sort ?? 99) || a.name.localeCompare(b.name));
+          if (!rows.length) return null;
+          return (
+            <React.Fragment key={group}>
+              <h4 className="deckgroup">{heading}</h4>
+              {rows.map((d) => (
+                <Row key={d.id} id={d.id} name={d.name} blurb={d.blurb} s={stats[d.id]} />
+              ))}
+            </React.Fragment>
+          );
+        })}
+      </div>
+      <div className="tiny">
+        A deck is a filter, not a list — add a fly to the app and it joins every
+        deck it belongs in. Your progress is kept per card, so switching decks
+        never loses anything.
+      </div>
+    </Sheet>
+  );
+}
+
+// ---------------------------------------------------------------------------
+
+export default function LearnTab({ trip, deck = null, setDeck, onDueCount }) {
   const { data: cards, reload } = useAsync(() => store.review.all(), []);
   const [revealed, setRevealed] = useState(false);
   const [done, setDone] = useState(0);
+  const [picking, setPicking] = useState(false);
 
-  // Decks are queries, not tables: "everything Bahamas" is a filter over the
-  // concept list, so a trip deck costs nothing to create and never goes stale.
   const filter = useMemo(
-    () => (tripOnly && trip.regionId
-      ? deckFilter(bundle, { region: trip.regionId, species: trip.speciesId ?? undefined })
-      : () => true),
-    [tripOnly, trip.regionId, trip.speciesId],
+    () => deckPredicate(deck, trip),
+    [deck, trip.regionId, trip.speciesId],
   );
+
+  const heading = deckTitle(deck, trip);
 
   const queue = useMemo(
     () => (cards ? buildQueue(concepts, cards, { filter }) : null),
@@ -73,23 +191,25 @@ export default function LearnTab({ trip, onDueCount, tripOnly = false, setTripOn
     reload();
   }
 
+  function pick(id) {
+    setDeck(id);
+    setRevealed(false);
+    setDone(0);
+  }
+
   if (!queue || !stats) return <Empty>Loading…</Empty>;
 
   return (
     <>
       <section className="block">
         <div className="spread">
-          <Label>{tripOnly && trip.regionId ? record('regions', trip.regionId)?.name ?? 'Trip deck' : 'Everything'}</Label>
-          <button
-            type="button"
-            className="small ghost"
-            onClick={() => setTripOnly(!tripOnly)}
-            disabled={!trip.regionId}
-          >
-            {tripOnly ? 'Study everything' : 'Study this trip'}
+          <Label>{heading.name}</Label>
+          <button type="button" className="small ghost" onClick={() => setPicking(true)}>
+            Change deck
           </button>
         </div>
         <Card>
+          {heading.blurb && <div className="tiny muted">{heading.blurb}</div>}
           <Meter known={stats.known} learning={stats.learning} total={stats.total} />
           <div className="row">
             <Pill tone="first">{stats.known} known</Pill>
@@ -102,12 +222,22 @@ export default function LearnTab({ trip, onDueCount, tripOnly = false, setTripOn
         </Card>
       </section>
 
+      {picking && (
+        <DeckPicker
+          deck={deck}
+          trip={trip}
+          cards={cards}
+          onPick={pick}
+          onClose={() => setPicking(false)}
+        />
+      )}
+
       {!item && (
         <Empty>
           Nothing due.<br />
           {stats.unseen > 0
             ? 'New cards are released a dozen a day so the backlog stays honest.'
-            : 'You have seen every card in this deck. Come back when they come due.'}
+            : 'You have seen every card in this deck. Pick another, or come back when they come due.'}
         </Empty>
       )}
 
@@ -130,7 +260,12 @@ export default function LearnTab({ trip, onDueCount, tripOnly = false, setTripOn
 
             {revealed && (
               <div className="answer">
-                {face.answerImage && <CardImage src={face.answerImage} alt="" />}
+                {/* A knot's answer IS the picture, so it gets the full diagram
+                    treatment: readable inline, full screen on a tap. */}
+                {face.answerImage && (face.kind === 'knot' || face.kind === 'rig')
+                  ? <Diagram src={face.answerImage} alt={face.question}
+                             hint={face.kind === 'knot' ? 'Tap for every step' : 'Tap for the whole leader'} />
+                  : face.answerImage && <CardImage src={face.answerImage} alt="" />}
                 {face.kind === 'knot' || face.kind === 'rig'
                   ? <pre>{face.answer}</pre>
                   : <div className="big">{face.answer}{face.size ? ` · ${face.size}` : ''}</div>}
