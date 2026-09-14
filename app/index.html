@@ -6,7 +6,10 @@
     <meta name="theme-color" content="#14605b" media="(prefers-color-scheme: light)" />
     <meta name="theme-color" content="#0d1310" media="(prefers-color-scheme: dark)" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <!-- "black-translucent" makes iOS draw the page UNDER the clock and
+         battery, with white status text that vanishes on a light ground.
+         "default" insets the content instead. -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
     <title>Fly Box</title>
   </head>
   <body>
