@@ -31,11 +31,31 @@ export default defineConfig({
         ],
       },
       workbox: {
-        // The fly and bug images are the bulk of the app and have to be there
-        // on a flat with no signal. Precache them rather than hoping.
-        globPatterns: ['**/*.{js,css,html,json,png,jpg,svg,webp,woff2}'],
+        // The app shell, the knot and leader art, and the icons are precached:
+        // a few MB, and the app works offline the moment it is installed.
+        //
+        // The 300-odd fly and bug photographs are NOT — they are 90 MB, and
+        // precaching them made every install and every update a cellular
+        // download. They live in a runtime cache instead: each picture is kept
+        // the first time it is seen, and Plan's "Save pictures offline" fills
+        // the same cache with everything a trip needs before you lose signal
+        // (see src/state/pack.js). Same cache name on both sides — that is
+        // what makes the two meet.
+        globPatterns: ['**/*.{js,css,html,json,png,svg,webp,woff2}', 'assets/panels/**/*.jpg'],
+        globIgnores: ['assets/*.jpg', 'assets/bugs/*.jpg'],
         maximumFileSizeToCacheInBytes: 8 * 1024 * 1024,
         navigateFallback: `${base}index.html`.replace('//', '/'),
+        runtimeCaching: [
+          {
+            urlPattern: ({ url }) => /\/assets\/(bugs\/)?[^/]+\.jpg$/.test(url.pathname),
+            handler: 'CacheFirst',
+            options: {
+              cacheName: 'fly-art',
+              expiration: { maxEntries: 600, maxAgeSeconds: 365 * 24 * 3600 },
+              cacheableResponse: { statuses: [0, 200] },
+            },
+          },
+        ],
       },
     }),
   ],

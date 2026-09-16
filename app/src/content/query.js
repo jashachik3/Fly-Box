@@ -169,6 +169,28 @@ export function fieldKey(bundle, answers = {}, { region, month, water } = {}) {
   });
 }
 
+/**
+ * Every picture a trip can show: the flies its match rules recommend (all of
+ * them, not just the top of the slate — the Box gap list and the field key
+ * reach further down) and every stage of every organism that is around.
+ * Paths, not URLs; the caller resolves them against the base. Used by
+ * "Save pictures offline" on Plan.
+ */
+export function tripImages(bundle, q = {}) {
+  const out = new Set();
+  for (const m of slate(bundle, q)) {
+    const img = bundle.byId.flies[m.fly]?.image;
+    if (img) out.add(img);
+  }
+  for (const p of whatsOn(bundle, q)) {
+    const org = bundle.byId.organisms[p.organism];
+    if (!org) continue;
+    if (org.image) out.add(org.image);
+    for (const st of org.stages ?? []) if (st.image) out.add(st.image);
+  }
+  return [...out];
+}
+
 // ---------------------------------------------------------------------------
 // Reading 3 — generated judgment cards
 // ---------------------------------------------------------------------------

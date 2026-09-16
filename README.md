@@ -202,6 +202,13 @@ historical endpoints, for the hour the session began. Each source fails alone.
 `tools/conditions-demo.mjs` proves the parsing on recorded responses;
 `--live` calls the real services for every region.
 
-Next: the Bahamas brief authored properly and trip packs cached for offline ·
-the review pass over the records still marked draft · lazy-load the images
-instead of precaching all 90 MB on install.
+Also built: pictures on demand. The app shell, knot panels and leader art are
+precached (a few MB) so the app works offline from the moment it is installed;
+the 300 fly and bug photographs are not. Each is kept the first time it is
+seen, and Plan's *Pictures offline* saves everything a trip can show — every
+fly its rules recommend, every stage of every bug that is around — into the
+same cache while there is wi-fi. A Bahamas week is 30 pictures, about 6 MB;
+Idaho in July is 76. The install dropped from 90 MB to under 10.
+
+Next: the Bahamas brief authored properly as the first trip pack · the review
+pass over the records still marked draft.

@@ -9,7 +9,7 @@
 import { readFileSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { fieldKey, identify } from '../app/src/content/query.js';
+import { fieldKey, identify, tripImages } from '../app/src/content/query.js';
 import { traitsOf, QUESTIONS, QUESTION_ORDER, sizeWords } from '../app/src/content/traits.js';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
@@ -93,6 +93,17 @@ line(`     ${nonsense.length} results`);
 line();
 line('  7. Insect questions are marked insect-only, so the UI can hide them for a crab');
 ok(QUESTIONS.place.insectOnly && QUESTIONS.wings.insectOnly && QUESTIONS.tails.insectOnly && !QUESTIONS.size.insectOnly, 'insectOnly flags');
+
+line();
+line('  8. TRIP IMAGE SET — what "Save pictures offline" fetches');
+const bahImgs = tripImages(bundle, { region: 'bahamas', month: 4 });
+const idImgs = tripImages(bundle, { region: 'idaho', month: 7 });
+ok(bahImgs.length > 10 && bahImgs.length < 200, `bahamas April: ${bahImgs.length} pictures — a trip, not the whole app`);
+ok(bahImgs.every((p) => /^assets\/(bugs\/)?[^/]+\.jpg$/.test(p)), 'paths are assets/<id>.jpg or assets/bugs/<id>-<stage>.jpg');
+ok(new Set(bahImgs).size === bahImgs.length, 'no duplicates');
+ok(!bahImgs.some((p) => /hendrickson|pheasant-tail/.test(p)), 'no trout flies in a Bahamas pack');
+ok(idImgs.some((p) => p.startsWith('assets/bugs/')) && idImgs.some((p) => !p.startsWith('assets/bugs/')), 'idaho pack has both flies and bugs');
+line(`     bahamas Apr: ${bahImgs.length} pictures (~${Math.round(bahImgs.length * 0.19)} MB) · idaho Jul: ${idImgs.length} (~${Math.round(idImgs.length * 0.19)} MB)`);
 
 line();
 if (failed) { line(`  ${failed} assertion(s) failed`); process.exit(1); }

@@ -1,6 +1,7 @@
-import React, { useMemo, useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import { bundle, regions, speciesIn, record, nameOf, MONTHS, confidence, assetUrl } from '../content/index.js';
-import { slate as buildSlate, whatsOn, retrieveFor, retrieveLine, setWord } from '../content/query.js';
+import { slate as buildSlate, whatsOn, retrieveFor, retrieveLine, setWord, tripImages } from '../content/query.js';
+import { packStatus, savePack, canPack } from '../state/pack.js';
 import { Card, Label, Empty, Pill, Strength, Field, Select, Diagram } from './bits.jsx';
 import { formatHookRange } from '../../../content/hooksize.mjs';
 import LiveNow from './LiveNow.jsx';
@@ -263,6 +264,7 @@ export default function PlanTab({ trip, setTrip, setSlate, onStudy, onLog }) {
               The slate is recorded on the session before you fish, so choosing
               something else later shows up as a choice rather than disappearing.
             </div>
+            <Pack regionId={trip.regionId} month={trip.month} />
           </section>
 
           <section className="block">
@@ -294,5 +296,73 @@ export default function PlanTab({ trip, setTrip, setSlate, onStudy, onLog }) {
         </>
       )}
     </>
+  );
+}
+
+
+/**
+ * The pictures for this trip, saved to the phone while there is wi-fi. The
+ * app shell is always offline-ready; the photographs are not until either
+ * you have looked at them or you press this.
+ */
+function Pack({ regionId, month }) {
+  const paths = useMemo(
+    () => (regionId ? tripImages(bundle, { region: regionId, month }) : []),
+    [regionId, month],
+  );
+  const [status, setStatus] = useState(null);   // { saved, total, supported }
+  const [progress, setProgress] = useState(null); // { done, total, failed } while running
+
+  useEffect(() => {
+    let alive = true;
+    setStatus(null);
+    if (!paths.length) return undefined;
+    packStatus(paths).then((s) => { if (alive) setStatus(s); });
+    return () => { alive = false; };
+  }, [paths]);
+
+  if (!regionId || !paths.length || !canPack()) return null;
+
+  async function save() {
+    setProgress({ done: 0, total: paths.length, failed: 0 });
+    const result = await savePack(paths, setProgress);
+    setProgress(null);
+    setStatus({ saved: result.done, total: result.total, supported: true });
+  }
+
+  const complete = status && status.saved >= status.total;
+  const mb = Math.round((paths.length * 0.19) * 10) / 10;
+
+  return (
+    <div className="pack">
+      <div className="spread">
+        <div>
+          <strong>Pictures offline.</strong>{' '}
+          <span className="muted">
+            {progress
+              ? `Saving ${progress.done} of ${progress.total}…`
+              : status
+                ? complete
+                  ? `All ${status.total} saved for this trip.`
+                  : `${status.saved} of ${status.total} saved · about ${mb} MB.`
+                : `${paths.length} pictures · about ${mb} MB.`}
+          </span>
+        </div>
+        {!complete && (
+          <button type="button" className="small" onClick={save} disabled={Boolean(progress)}>
+            {progress ? 'Saving…' : 'Save now'}
+          </button>
+        )}
+      </div>
+      {progress?.failed > 0 && (
+        <div className="tiny">{progress.failed} could not be fetched — try again with better signal.</div>
+      )}
+      {!progress && !complete && (
+        <div className="tiny">
+          Every fly this brief can recommend and every bug that is around, kept on
+          the phone. Do it on wi-fi; on the flat it is too late.
+        </div>
+      )}
+    </div>
   );
 }
