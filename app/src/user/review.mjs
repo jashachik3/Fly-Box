@@ -96,11 +96,54 @@ export function buildQueue(concepts, cards, {
   // this morning.
   due.sort((a, b) => a.card.due.localeCompare(b.card.due));
 
+  // New cards used to be released in content order, which meant every bug
+  // stage, then every match, then every fly — a week of "what is this, and
+  // what stage?" before a single "which fly?". Instead, deal the day's dozen
+  // round-robin across kinds, from a shuffle that is fixed for the day so the
+  // same twelve come back after a reload.
+  const dayKey = now.toISOString().slice(0, 10);
+  const shuffled = seededShuffle(fresh, dayKey);
+  const byKind = new Map();
+  for (const f of shuffled) {
+    const k = f.concept.kind;
+    if (!byKind.has(k)) byKind.set(k, []);
+    byKind.get(k).push(f);
+  }
+  const dealt = [];
+  const lanes = [...byKind.values()];
+  while (dealt.length < Math.min(newPerDay, fresh.length)) {
+    for (const lane of lanes) {
+      if (dealt.length >= newPerDay) break;
+      const next = lane.shift();
+      if (next) dealt.push(next);
+    }
+  }
+
   return {
     due: due.slice(0, maxDue),
-    fresh: fresh.slice(0, newPerDay),
+    fresh: dealt,
     counts: { due: due.length, new: fresh.length, total: pool.length },
   };
+}
+
+// Deterministic per key. Same input, same order — a re-render or a reload
+// must not reshuffle the cards you were partway through.
+function seededShuffle(arr, key) {
+  let h = 2166136261;
+  for (let i = 0; i < key.length; i++) { h ^= key.charCodeAt(i); h = Math.imul(h, 16777619); }
+  let a = h >>> 0;
+  const rnd = () => {
+    a |= 0; a = (a + 0x6D2B79F5) | 0;
+    let t = Math.imul(a ^ (a >>> 15), 1 | a);
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+  const out = [...arr];
+  for (let i = out.length - 1; i > 0; i--) {
+    const j = Math.floor(rnd() * (i + 1));
+    [out[i], out[j]] = [out[j], out[i]];
+  }
+  return out;
 }
 
 export function progress(concepts, cards) {

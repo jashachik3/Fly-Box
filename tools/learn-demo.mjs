@@ -11,6 +11,7 @@ import { readFileSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { renderCard, choicesFor } from '../app/src/content/query.js';
+import { buildQueue } from '../app/src/user/review.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const bundle = JSON.parse(readFileSync(resolve(HERE, '..', 'app', 'src', 'content', 'bundle.json'), 'utf8'));
@@ -87,6 +88,19 @@ line(`  ${bundle.concepts.length} concepts × 3 dressings → ${counts.faces} fa
 line(`  ${counts.withImage} faces carry a question picture`);
 line(`  ${counts.choice} multiple choice · ${counts.rate} reveal-and-rate (knots, leaders)`);
 line(`  by kind: ${Object.entries(counts.byKind).map(([k, v]) => `${k} ${v}`).join(' · ')}`);
+
+// The day's new cards are dealt across kinds, not in content order.
+const q = buildQueue(bundle.concepts, [], { now: new Date('2026-09-16T12:00:00Z') });
+const kinds = q.fresh.map((f) => f.concept.kind);
+ok(q.fresh.length === 12, `a fresh day releases 12 cards, got ${q.fresh.length}`);
+ok(new Set(kinds).size >= 4, `the dozen spans several kinds, got ${[...new Set(kinds)].join(', ')}`);
+ok(!(kinds[0] === kinds[1] && kinds[1] === kinds[2]), 'the first three are not all the same kind');
+const q2 = buildQueue(bundle.concepts, [], { now: new Date('2026-09-16T18:00:00Z') });
+ok(q2.fresh.map((f) => f.concept.id).join() === q.fresh.map((f) => f.concept.id).join(), 'same day, same dozen');
+const q3 = buildQueue(bundle.concepts, [], { now: new Date('2026-09-17T12:00:00Z') });
+ok(q3.fresh.map((f) => f.concept.id).join() !== q.fresh.map((f) => f.concept.id).join(), 'a new day deals a different dozen');
+line();
+line(`  today's dozen: ${kinds.join(' · ')}`);
 
 // A worked example, for eyes.
 const sample = bundle.concepts.find((c) => c.id === 'match:blue-winged-olive.dun>parachute-adams') ?? bundle.concepts.find((c) => c.kind === 'match');
