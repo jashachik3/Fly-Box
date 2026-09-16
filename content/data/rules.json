@@ -1,0 +1,370 @@
+[
+  {
+    "id": "rig-1",
+    "name": "Rule of thumb for matching fly size to tippet",
+    "kind": "rigging",
+    "q": "Rule of thumb for matching fly size to tippet",
+    "a": "Divide hook size by 3 (or 4 for a stealthier presentation) → X. Size 12 fly ÷ 3 = 4X.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "rig-2",
+    "name": "What does the X number mean?",
+    "kind": "rigging",
+    "q": "What does the X number mean?",
+    "a": "Diameter: X = (11 − diameter in thousandths). 4X = .007 in. Higher X = thinner.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "rig-3",
+    "name": "Tapered leader anatomy",
+    "kind": "rigging",
+    "q": "Tapered leader anatomy",
+    "a": "~60% butt (stiff, turns over), ~20% taper (steps down), ~20% tippet (level, replaceable).",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "rig-4",
+    "name": "Standard trout leader",
+    "kind": "rigging",
+    "q": "Standard trout leader",
+    "a": "9 ft 4X or 5X. Go 12 ft for spooky spring-creek fish; 7.5 ft for streamers or small brushy water.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "rig-5",
+    "name": "Streamer leader",
+    "kind": "rigging",
+    "q": "Streamer leader",
+    "a": "Short and stout: 4-7.5 ft of 0X-2X (10-15 lb). On a sink tip, 3-4 ft level.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "rig-6",
+    "name": "Dry-dropper spacing",
+    "kind": "rigging",
+    "q": "Dry-dropper spacing",
+    "a": "Dropper tippet 12-36 in below the dry, tied to the hook bend; depth ≈ 1.5× water depth for nymphs under an indicator.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "rig-7",
+    "name": "Euro nymph leader",
+    "kind": "rigging",
+    "q": "Euro nymph leader",
+    "a": "Long thin level mono (~20 ft), colored sighter section, 4-6 ft tippet; heavy point fly, lighter dropper above.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "rig-8",
+    "name": "Bonefish leader",
+    "kind": "rigging",
+    "q": "Bonefish leader",
+    "a": "9-12 ft tapering to 10-12 lb fluoro tippet (flats fluoro sinks and is abrasion-resistant).",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "rig-9",
+    "name": "Permit leader",
+    "kind": "rigging",
+    "q": "Permit leader",
+    "a": "10-12 ft, 16 lb fluoro tippet.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "rig-10",
+    "name": "Tarpon leader",
+    "kind": "rigging",
+    "q": "Tarpon leader",
+    "a": "Butt → Bimini class tippet (16-20 lb) → 40-80 lb fluoro shock/bite tippet, ~12-18 in.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "rig-11",
+    "name": "Striped bass / bluefish leader",
+    "kind": "rigging",
+    "q": "Striped bass / bluefish leader",
+    "a": "6-9 ft of 20-30 lb; add wire or 50-60 lb bite for bluefish.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "rig-12",
+    "name": "Barracuda / needlefish leader",
+    "kind": "rigging",
+    "q": "Barracuda / needlefish leader",
+    "a": "Wire bite tippet (knottable wire, ~30 lb) joined with Albright.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "rig-13",
+    "name": "Fluoro vs nylon",
+    "kind": "rigging",
+    "q": "Fluoro vs nylon",
+    "a": "Fluoro: sinks, less visible, abrasion-resistant — nymphs, streamers, salt. Nylon: floats, cheaper, more stretch — dries.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "rig-14",
+    "name": "Fly line taper: WF vs DT",
+    "kind": "rigging",
+    "q": "Fly line taper: WF vs DT",
+    "a": "Weight-forward loads fast and shoots line — default. Double taper for delicate short casts and roll casts.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "rig-15",
+    "name": "Sink rates",
+    "kind": "rigging",
+    "q": "Sink rates",
+    "a": "Floating → intermediate (1-2 ips) → sink tip (type 3-6) → full sink. Choose by depth and current speed.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "rig-16",
+    "name": "Backing amounts",
+    "kind": "rigging",
+    "q": "Backing amounts",
+    "a": "Trout: 75-100 yd 20 lb. Salt 8-10wt: 200+ yd 30 lb. Tarpon: 300 yd 30-50 lb or gel-spun.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "kr-1",
+    "name": "Size 18 Parachute Adams to 5X",
+    "kind": "knot-choice",
+    "q": "Which knot: Size 18 Parachute Adams to 5X?",
+    "a": "Pitzen knot",
+    "knot": "pitzen",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "kr-2",
+    "name": "Zebra Midge to 6X",
+    "kind": "knot-choice",
+    "q": "Which knot: Zebra Midge to 6X?",
+    "a": "Pitzen knot",
+    "knot": "pitzen",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "kr-3",
+    "name": "Woolly Bugger to 2X",
+    "kind": "knot-choice",
+    "q": "Which knot: Woolly Bugger to 2X?",
+    "a": "Non-Slip Mono Loop (Kreh Loop)",
+    "knot": "nonslip-loop",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "kr-4",
+    "name": "Clouser to 16 lb fluoro",
+    "kind": "knot-choice",
+    "q": "Which knot: Clouser to 16 lb fluoro?",
+    "a": "Non-Slip Mono Loop (Kreh Loop)",
+    "knot": "nonslip-loop",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "kr-5",
+    "name": "Merkin crab to 16 lb for permit",
+    "kind": "knot-choice",
+    "q": "Which knot: Merkin crab to 16 lb for permit?",
+    "a": "Non-Slip Mono Loop (Kreh Loop)",
+    "knot": "nonslip-loop",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "kr-6",
+    "name": "Adding 5X tippet to a 4X leader",
+    "kind": "knot-choice",
+    "q": "Which knot: Adding 5X tippet to a 4X leader?",
+    "a": "Double Surgeon's Knot",
+    "knot": "surgeons",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "kr-7",
+    "name": "Building a tapered leader from 25/20/15/12 lb sections",
+    "kind": "knot-choice",
+    "q": "Which knot: Building a tapered leader from 25/20/15/12 lb sections?",
+    "a": "Blood Knot",
+    "knot": "blood",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "kr-8",
+    "name": "Backing to reel",
+    "kind": "knot-choice",
+    "q": "Which knot: Backing to reel?",
+    "a": "Arbor Knot",
+    "knot": "arbor",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "kr-9",
+    "name": "Backing to fly line",
+    "kind": "knot-choice",
+    "q": "Which knot: Backing to fly line?",
+    "a": "Albright knot",
+    "knot": "albright",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "kr-10",
+    "name": "Fly line to leader, both have factory loops",
+    "kind": "knot-choice",
+    "q": "Which knot: Fly line to leader, both have factory loops?",
+    "a": "Loop-to-Loop Connection",
+    "knot": "loop-to-loop",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "kr-11",
+    "name": "Fly line with no loop to leader butt",
+    "kind": "knot-choice",
+    "q": "Which knot: Fly line with no loop to leader butt?",
+    "a": "Nail Knot",
+    "knot": "nail",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "kr-12",
+    "name": "Mono to wire bite tippet for barracuda",
+    "kind": "knot-choice",
+    "q": "Which knot: Mono to wire bite tippet for barracuda?",
+    "a": "Albright knot",
+    "knot": "albright",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "kr-13",
+    "name": "Doubling 16 lb class tippet for tarpon",
+    "kind": "knot-choice",
+    "q": "Which knot: Doubling 16 lb class tippet for tarpon?",
+    "a": "Bimini Twist",
+    "knot": "bimini",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "kr-14",
+    "name": "Bimini loop to 60 lb shock tippet",
+    "kind": "knot-choice",
+    "q": "Which knot: Bimini loop to 60 lb shock tippet?",
+    "a": "Huffnagle / Slim Beauty",
+    "knot": "huffnagle",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "kr-15",
+    "name": "Sex Dungeon streamer to 0X",
+    "kind": "knot-choice",
+    "q": "Which knot: Sex Dungeon streamer to 0X?",
+    "a": "Non-Slip Mono Loop (Kreh Loop)",
+    "knot": "nonslip-loop",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "kr-16",
+    "name": "Elk Hair Caddis to 4X",
+    "kind": "knot-choice",
+    "q": "Which knot: Elk Hair Caddis to 4X?",
+    "a": "Pitzen knot",
+    "knot": "pitzen",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  }
+]

@@ -40,7 +40,51 @@
     "notes": "Resident bonefish year-round; the calendar question is weather, not presence. Spring is the settled-weather window. Winter cold fronts are the real risk to a booked week.",
     "sources": [
       "Tide station 9710441 = Settlement Point, Grand Bahama (26.71, -79.00). Station verified against the NOAA CO-OPS metadata API, 2026-09-14.",
-      "Flat descriptions and the spring-window claim are still unverified."
+      "Flat descriptions and the spring-window claim are still unverified.",
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "namedWaters": [
+      "Andros",
+      "Abaco Marls",
+      "Grand Bahama",
+      "Long Island",
+      "Acklins / Crooked"
+    ],
+    "species": [
+      {
+        "species": "bonefish",
+        "label": "Bonefish",
+        "season": "year-round, best Oct–May; bigger fish than Belize, wading flats",
+        "rod": "8wt",
+        "leader": "10-12 ft, 10-12 lb (16 lb on Andros for big fish)",
+        "flies": [
+          "gotcha",
+          "peterson-spawning-shrimp",
+          "mantis-shrimp",
+          "ep-shrimp",
+          "bonefish-bitters"
+        ]
+      },
+      {
+        "species": "permit",
+        "label": "Permit",
+        "season": "spring–summer, Andros west side, Abaco",
+        "rod": "9-10wt",
+        "leader": "12 ft, 16 lb",
+        "flies": [
+          "merkin",
+          "flexo-crab"
+        ]
+      },
+      {
+        "label": "Barracuda",
+        "season": "winter on flats",
+        "rod": "9wt",
+        "leader": "wire",
+        "flies": [
+          "needlefish-fly"
+        ]
+      }
     ]
   },
   {
@@ -83,7 +127,108 @@
     "notes": "Fall false albacore run is the marquee event; redfish are the year-round backstop.",
     "sources": [
       "Tide station 8656483 = Beaufort, Duke Marine Lab, NC (34.717, -76.671). Station verified against the NOAA CO-OPS metadata API, 2026-09-14.",
-      "https://www.totalflyfishing.com/north-carolina/false-albacore-fly-fishing/ — accessed 2026-09-14."
+      "https://www.totalflyfishing.com/north-carolina/false-albacore-fly-fishing/ — accessed 2026-09-14.",
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "namedWaters": [
+      "Outer Banks inlets",
+      "Cape Lookout",
+      "Crystal Coast marshes",
+      "Pamlico Sound",
+      "Wrightsville / Cape Fear"
+    ],
+    "species": [
+      {
+        "species": "redfish",
+        "label": "Redfish (red drum)",
+        "season": "year-round; tailing in marsh grass late summer–fall, big schools in winter",
+        "rod": "8wt",
+        "leader": "9 ft, 16-20 lb fluoro",
+        "flies": [
+          "redfish-toad",
+          "kwan",
+          "clouser-redfish",
+          "spoon-fly",
+          "gurgler"
+        ]
+      },
+      {
+        "label": "Speckled seatrout",
+        "season": "spring and fall, dock lights at night",
+        "rod": "7-8wt",
+        "leader": "9 ft, 12-16 lb",
+        "flies": [
+          "clouser-minnow",
+          "seaducer",
+          "gurgler",
+          "gummy-minnow"
+        ]
+      },
+      {
+        "species": "false-albacore",
+        "label": "False albacore",
+        "season": "Oct–Nov at Cape Lookout",
+        "rod": "9-10wt, 250 yd backing",
+        "leader": "6-9 ft, 15-20 lb fluoro",
+        "flies": [
+          "albie-fly",
+          "surf-candy",
+          "gummy-minnow"
+        ]
+      },
+      {
+        "label": "Striped bass",
+        "season": "Nov–Feb Roanoke/OBX, spring Roanoke River run",
+        "rod": "8-9wt, intermediate line",
+        "leader": "6-9 ft, 20-30 lb",
+        "flies": [
+          "clouser-minnow",
+          "lefty-deceiver",
+          "half-and-half",
+          "hollow-fleye"
+        ]
+      },
+      {
+        "label": "Bluefish",
+        "season": "spring and fall runs",
+        "rod": "8-9wt",
+        "leader": "wire or 50-60 lb bite",
+        "flies": [
+          "lefty-deceiver",
+          "crease-fly",
+          "clouser-minnow"
+        ]
+      },
+      {
+        "label": "Flounder",
+        "season": "summer–fall inlets",
+        "rod": "7-8wt",
+        "leader": "9 ft, 16 lb",
+        "flies": [
+          "clouser-minnow",
+          "spoon-fly"
+        ]
+      },
+      {
+        "label": "Spanish mackerel",
+        "season": "summer nearshore",
+        "rod": "8wt",
+        "leader": "short wire bite",
+        "flies": [
+          "albie-fly",
+          "surf-candy"
+        ]
+      },
+      {
+        "label": "Cobia",
+        "season": "May–June sight-casting nearshore",
+        "rod": "10-12wt",
+        "leader": "40-60 lb",
+        "flies": [
+          "lefty-deceiver",
+          "hollow-fleye"
+        ]
+      }
     ]
   },
   {
@@ -93,7 +238,7 @@
     "water": "salt",
     "coords": [
       17.5,
-      -88.0
+      -88
     ],
     "timezone": "America/Belize",
     "primaryFactor": "Wind and cold fronts through March; tide on the flats.",
@@ -117,7 +262,94 @@
     ],
     "notes": "Resident juvenile tarpon are available year-round. Migratory adults are a late-spring-into-summer proposition, so an early-spring week is really a permit and bonefish trip with tarpon as a bonus.",
     "sources": [
-      "NEEDS REVIEW"
+      "NEEDS REVIEW",
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "namedWaters": [
+      "Ambergris Caye",
+      "Turneffe Atoll",
+      "Placencia / Permit Alley",
+      "Roatán",
+      "Guanaja"
+    ],
+    "species": [
+      {
+        "species": "bonefish",
+        "label": "Bonefish",
+        "season": "year-round; small, in big schools on turtle grass and mud",
+        "rod": "7-8wt",
+        "leader": "9-10 ft, 10-12 lb fluoro",
+        "flies": [
+          "gotcha",
+          "crazy-charlie",
+          "bonefish-bitters",
+          "peterson-spawning-shrimp"
+        ]
+      },
+      {
+        "species": "permit",
+        "label": "Permit",
+        "season": "year-round, best Mar–Jun; Placencia and Turneffe",
+        "rod": "9-10wt",
+        "leader": "10-12 ft, 16-20 lb fluoro",
+        "flies": [
+          "merkin",
+          "avalon-permit",
+          "bauer-crab",
+          "flexo-crab"
+        ]
+      },
+      {
+        "species": "tarpon",
+        "label": "Tarpon",
+        "season": "resident juveniles year-round in lagoons; migratory 60-100 lb May–Sep",
+        "rod": "9wt (baby) / 11-12wt (migratory)",
+        "leader": "class 16-20 lb + 40-80 lb shock",
+        "flies": [
+          "tarpon-toad",
+          "cockroach",
+          "black-death",
+          "ep-baitfish"
+        ]
+      },
+      {
+        "label": "Snook",
+        "season": "year-round in mangroves and river mouths",
+        "rod": "8-9wt",
+        "leader": "30-40 lb bite",
+        "flies": [
+          "seaducer",
+          "clouser-minnow",
+          "ep-baitfish"
+        ]
+      },
+      {
+        "label": "Barracuda",
+        "season": "year-round on flats edges",
+        "rod": "9-10wt",
+        "leader": "wire bite",
+        "flies": [
+          "needlefish-fly"
+        ]
+      },
+      {
+        "label": "Jack crevalle / horse-eye jack",
+        "season": "year-round, blitzing bait",
+        "rod": "9-10wt",
+        "leader": "30 lb",
+        "flies": [
+          "lefty-deceiver",
+          "gurgler",
+          "ep-baitfish"
+        ]
+      },
+      {
+        "label": "Grand Slam",
+        "season": "bonefish + permit + tarpon in one day",
+        "rod": "carry an 8, 10, and 12",
+        "leader": "—",
+        "flies": []
+      }
     ]
   },
   {
@@ -145,7 +377,94 @@
     ],
     "notes": "Bonefish are typically smaller and in larger schools than the Bahamas — more shots, smaller fish, and they spook as a group.",
     "sources": [
-      "NEEDS REVIEW"
+      "NEEDS REVIEW",
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "namedWaters": [
+      "Ambergris Caye",
+      "Turneffe Atoll",
+      "Placencia / Permit Alley",
+      "Roatán",
+      "Guanaja"
+    ],
+    "species": [
+      {
+        "species": "bonefish",
+        "label": "Bonefish",
+        "season": "year-round; small, in big schools on turtle grass and mud",
+        "rod": "7-8wt",
+        "leader": "9-10 ft, 10-12 lb fluoro",
+        "flies": [
+          "gotcha",
+          "crazy-charlie",
+          "bonefish-bitters",
+          "peterson-spawning-shrimp"
+        ]
+      },
+      {
+        "species": "permit",
+        "label": "Permit",
+        "season": "year-round, best Mar–Jun; Placencia and Turneffe",
+        "rod": "9-10wt",
+        "leader": "10-12 ft, 16-20 lb fluoro",
+        "flies": [
+          "merkin",
+          "avalon-permit",
+          "bauer-crab",
+          "flexo-crab"
+        ]
+      },
+      {
+        "species": "tarpon",
+        "label": "Tarpon",
+        "season": "resident juveniles year-round in lagoons; migratory 60-100 lb May–Sep",
+        "rod": "9wt (baby) / 11-12wt (migratory)",
+        "leader": "class 16-20 lb + 40-80 lb shock",
+        "flies": [
+          "tarpon-toad",
+          "cockroach",
+          "black-death",
+          "ep-baitfish"
+        ]
+      },
+      {
+        "label": "Snook",
+        "season": "year-round in mangroves and river mouths",
+        "rod": "8-9wt",
+        "leader": "30-40 lb bite",
+        "flies": [
+          "seaducer",
+          "clouser-minnow",
+          "ep-baitfish"
+        ]
+      },
+      {
+        "label": "Barracuda",
+        "season": "year-round on flats edges",
+        "rod": "9-10wt",
+        "leader": "wire bite",
+        "flies": [
+          "needlefish-fly"
+        ]
+      },
+      {
+        "label": "Jack crevalle / horse-eye jack",
+        "season": "year-round, blitzing bait",
+        "rod": "9-10wt",
+        "leader": "30 lb",
+        "flies": [
+          "lefty-deceiver",
+          "gurgler",
+          "ep-baitfish"
+        ]
+      },
+      {
+        "label": "Grand Slam",
+        "season": "bonefish + permit + tarpon in one day",
+        "rod": "carry an 8, 10, and 12",
+        "leader": "—",
+        "flies": []
+      }
     ]
   },
   {
@@ -185,7 +504,66 @@
     ],
     "notes": "Cutthroat and rainbows; fall is the settled window.",
     "sources": [
-      "Gauge 13037500 = Snake River near Heise, ID — the standard South Fork gauge. Station verified against the USGS site service, 2026-09-14. (My earlier label said 'near Irwin'; Irwin is a different station, 13032500.)"
+      "Gauge 13037500 = Snake River near Heise, ID — the standard South Fork gauge. Station verified against the USGS site service, 2026-09-14. (My earlier label said 'near Irwin'; Irwin is a different station, 13032500.)",
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "namedWaters": [
+      "Henry's Fork (Railroad Ranch, Box Canyon)",
+      "South Fork Snake",
+      "Silver Creek",
+      "Big Wood",
+      "Salmon River",
+      "Teton River"
+    ],
+    "species": [
+      {
+        "species": "rainbow-trout",
+        "label": "Rainbow trout",
+        "season": "year-round; big Henry's Fork rainbows in June PMD/green drake",
+        "rod": "5wt (4wt on Silver Creek)",
+        "leader": "9-12 ft, 5X-6X",
+        "flies": [
+          "pmd-comparadun",
+          "green-drake-extended",
+          "rusty-spinner",
+          "rs2"
+        ]
+      },
+      {
+        "species": "cutthroat-trout",
+        "label": "Yellowstone / fine-spotted cutthroat",
+        "season": "July–Sep on the South Fork and Teton, love dries",
+        "rod": "5-6wt",
+        "leader": "9 ft, 3X-4X",
+        "flies": [
+          "chubby-chernobyl",
+          "stimulator",
+          "morrish-hopper",
+          "pmd-comparadun"
+        ]
+      },
+      {
+        "species": "brown-trout",
+        "label": "Brown trout",
+        "season": "fall streamers, Box Canyon and South Fork",
+        "rod": "6-7wt, sink tip",
+        "leader": "4-6 ft, 0X-1X",
+        "flies": [
+          "sculpzilla",
+          "sex-dungeon",
+          "woolly-bugger",
+          "zonker"
+        ]
+      },
+      {
+        "label": "Steelhead",
+        "season": "fall and spring on the Salmon / Clearwater",
+        "rod": "7-8wt or spey",
+        "leader": "10-12 lb",
+        "flies": [
+          "woolly-bugger"
+        ]
+      }
     ]
   },
   {
@@ -219,7 +597,71 @@
     ],
     "notes": "Small water, short casts, fish that see pressure. Midges and BWOs carry the cold months.",
     "sources": [
-      "Gauge 03441000 = Davidson River near Brevard, NC (35.273, -82.706). Station verified against the USGS site service, 2026-09-14."
+      "Gauge 03441000 = Davidson River near Brevard, NC (35.273, -82.706). Station verified against the USGS site service, 2026-09-14.",
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "namedWaters": [
+      "Davidson River",
+      "Nantahala (DH and tailwater)",
+      "Watauga / South Holston tailwaters (nearby TN)",
+      "Tuckasegee",
+      "Great Smoky Mountains NP streams",
+      "Wilson Creek",
+      "small blue-line brookie streams"
+    ],
+    "species": [
+      {
+        "label": "Southern Appalachian brook trout (wild, blue-line streams)",
+        "season": "spring–fall, high elevation, small water",
+        "rod": "2-3wt, 6-7.5 ft",
+        "leader": "7.5 ft, 4X-5X",
+        "flies": [
+          "thunderhead",
+          "yellow-palmer",
+          "parachute-adams",
+          "elk-hair-caddis",
+          "green-weenie"
+        ]
+      },
+      {
+        "species": "brown-trout",
+        "label": "Wild brown trout",
+        "season": "year-round; Davidson is technical, midges and tiny nymphs",
+        "rod": "4-5wt",
+        "leader": "9-12 ft, 5X-7X",
+        "flies": [
+          "zebra-midge",
+          "rs2",
+          "pheasant-tail"
+        ]
+      },
+      {
+        "species": "rainbow-trout",
+        "label": "Wild / stocked rainbow",
+        "season": "year-round; delayed harvest Oct–Jun",
+        "rod": "4-5wt",
+        "leader": "9 ft, 4X-5X",
+        "flies": [
+          "hares-ear",
+          "prince-nymph",
+          "egg-pattern",
+          "san-juan-worm",
+          "woolly-bugger"
+        ]
+      },
+      {
+        "label": "Tailwater browns and rainbows (Watauga/SoHo)",
+        "season": "year-round, sulphurs May–Aug",
+        "rod": "5wt",
+        "leader": "9-12 ft, 5X-6X",
+        "flies": [
+          "pmd-comparadun",
+          "sparkle-dun",
+          "zebra-midge",
+          "scud-fly",
+          "sowbug"
+        ]
+      }
     ]
   }
 ]

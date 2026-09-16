@@ -57,15 +57,22 @@ function pitzen() {
   const EYE = [88, Y];
   const standing = () => arc(smooth([[352, Y - 9], [200, Y - 9], [120, Y - 7], [94, Y]]), 0,
     { w: WS, color: INK });
-  const returnTag = () => arc(smooth([[94, Y], [116, Y + 14], [180, Y + 16], [250, Y + 16]]), 0,
+  // The tag comes back through the eye and runs out along the standing line.
+  // The bight it leaves at the eye is the loop everything else depends on.
+  const returnTag = (to = 268) => arc(smooth([[94, Y], [116, Y + 14], [180, Y + 16], [to, Y + 16]]), 0,
     { w: WT, color: TAG, cap: 'butt' });
 
-  // The wraps run FORWARD, away from the eye. Four turns is the house number.
-  const AX_A = [160, Y - 8], AX_B = [276, Y - 8], TURNS = 4, R = 31, PH = 0.2;
+  // The wraps travel BACK TOWARD THE EYE — right to left. Getting this
+  // backwards ties a different knot, and it is the step people miss.
+  const AX_A = [286, Y - 8], AX_B = [168, Y - 8], TURNS = 4, R = 31, PH = 0.2;
   const coil = () => helixArcs(AX_A, AX_B, TURNS, R, { phase: PH, w: WT, color: TAG });
   const coilStart = helixPoint(AX_A, AX_B, TURNS, R, { phase: PH }, 0).p;
   const coilEnd = helixPoint(AX_A, AX_B, TURNS, R, { phase: PH }, 1).p;
-  const intoCoil = () => arc(smooth([[94, Y], [118, Y + 16], [142, Y + 16], coilStart]), 1,
+  // Tag runs out past the wraps, then turns and comes back over them.
+  const outToStart = () => arc(smooth([[94, Y], [150, Y + 16], [250, Y + 18], [300, Y + 12], coilStart]), 1,
+    { w: WT, color: TAG, cap: 'butt' });
+  // …and finishes through the bight at the eye.
+  const throughLoop = () => arc(smooth([[coilEnd[0], coilEnd[1]], [150, Y + 46], [116, Y + 30], [108, Y + 4]]), 3,
     { w: WT, color: TAG, cap: 'butt' });
 
   const hk = `<g transform="translate(${EYE[0]},${EYE[1]})">${hook(0, 0, { flip: true, scale: 0.92 })}</g>`;
@@ -74,45 +81,38 @@ function pitzen() {
     // 1
     paint([standing(), returnTag()], [
       hk,
-      cutEnd(250, Y + 16, 0),
-      arrow([[292, Y + 58], [246, Y + 42], [212, Y + 26]]),
+      cutEnd(268, Y + 16, 0),
+      arrow([[300, Y + 58], [252, Y + 42], [214, Y + 26]]),
       label(214, Y + 84, 'tag end'),
       label(214, 102, 'standing line'),
+      note(316, 'pinch the loop at the eye'),
     ]),
     // 2
-    paint([standing(), intoCoil(), ...coil()], [
+    paint([standing(), outToStart(), ...coil()], [
       hk,
       cutEnd(coilEnd[0], coilEnd[1], Math.PI / 2),
-      countNote(306, '4 turns'),
-      arrow([[158, 86], [208, 78], [258, 86]]),
-      note(330, 'forward, away from the eye'),
+      countNote(300, '4 turns'),
+      arrow([[272, 84], [216, 76], [166, 84]]),
+      note(330, 'back down toward the eye'),
     ]),
     // 3
-    paint([
-      standing(), intoCoil(), ...coil(),
-      arc(smooth([[coilEnd[0], coilEnd[1]], [288, 262], [180, 276], [116, 238], [110, Y + 6]]), 3,
-        { w: WT, color: TAG, cap: 'butt' }),
-    ], [
+    paint([standing(), outToStart(), ...coil(), throughLoop()], [
       hk,
-      arrow([[152, 270], [120, 240], [110, 204]]),
-      note(320, 'through the loop at the eye'),
+      arrow([[168, 262], [124, 236], [110, 202]]),
+      note(320, 'through the loop you are pinching'),
     ]),
     // 4
-    paint([
-      standing(), intoCoil(), ...coil(),
-      arc(smooth([[coilEnd[0], coilEnd[1]], [288, 262], [180, 276], [116, 238], [110, Y + 6]]), 3,
-        { w: WT, color: TAG, cap: 'butt' }),
-    ], [
+    paint([standing(), outToStart(), ...coil(), throughLoop()], [
       hk,
       arrow([[248, Y - 58], [312, Y - 52]]),
       arrow([[104, 118], [56, 112]]),
       label(280, Y - 80, 'pull'),
-      label(170, 322, 'wet it first'),
+      note(322, 'wet it — it seats with a pop'),
     ]),
     // 5 — seated
     paint([
       arc(smooth([[352, Y - 8], [200, Y - 8], [150, Y - 8]]), 0, { w: WS, color: INK }),
-      ...helixArcs([112, Y - 8], [166, Y - 8], 4, 15, { phase: 0.25, w: WT, color: TAG }),
+      ...helixArcs([166, Y - 8], [112, Y - 8], 4, 15, { phase: 0.25, w: WT, color: TAG }),
       arc(poly([[166, Y + 4], [192, Y + 12]]), 2, { w: WT, color: TAG, cap: 'butt' }),
     ], [
       hk,
@@ -586,7 +586,7 @@ export function knotDiagram(knot, { panelImages = [] } = {}) {
   ].filter(Boolean).join('  ·  ');
 
   const { w, h, body } = grid(panels, {
-    cols: 2, size: 340, gutter: 24, capH: 96, pad: 26, titleH: 74,
+    cols: 2, size: 340, gutter: 24, capH: 122, pad: 26, titleH: 74,
     title: knot.name,
     subtitle: sub,
   });

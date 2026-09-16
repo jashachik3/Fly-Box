@@ -1,0 +1,144 @@
+[
+  {
+    "id": "rr-1",
+    "name": "2-3wt · 7-8 ft",
+    "lineWeight": [
+      2,
+      3
+    ],
+    "lengthFt": [
+      7,
+      8
+    ],
+    "use": "Small creeks, brookies, panfish, dry flies only",
+    "reel": "Click-pawl fine",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "rr-2",
+    "name": "4wt · 8-9 ft",
+    "lengthFt": [
+      8,
+      9
+    ],
+    "use": "Small-medium rivers, dries and light nymphs",
+    "reel": "Simple drag",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "rr-3",
+    "name": "5wt · 9 ft",
+    "use": "The all-round trout rod: dries, nymphs, small streamers",
+    "reel": "Disc drag, large arbor",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "rr-4",
+    "name": "6wt · 9 ft",
+    "use": "Big rivers, wind, hoppers, streamers, smallmouth",
+    "reel": "Disc drag",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "rr-5",
+    "name": "7wt · 9-10 ft",
+    "lengthFt": [
+      9,
+      10
+    ],
+    "use": "Big streamers, largemouth, carp, steelhead, light salt (schoolie stripers, seatrout)",
+    "reel": "Sealed drag if salt",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "rr-6",
+    "name": "8wt · 9 ft",
+    "use": "Bonefish, redfish, snook, stripers, pike — the salt all-rounder",
+    "reel": "Sealed disc drag, 200 yd backing",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "rr-7",
+    "name": "9wt · 9 ft",
+    "use": "Permit, big redfish, false albacore, baby tarpon, big stripers",
+    "reel": "Sealed drag, strong",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "rr-8",
+    "name": "10wt · 9 ft",
+    "use": "Permit in wind, juvenile tarpon, roosterfish, big bluefish",
+    "reel": "Sealed drag, 250 yd",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "rr-9",
+    "name": "11-12wt · 9 ft",
+    "lineWeight": [
+      11,
+      12
+    ],
+    "use": "Adult tarpon, GT, sailfish, big jacks",
+    "reel": "Heavy sealed drag, 300+ yd, gel-spun backing",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "rr-10",
+    "name": "Euro nymph 3wt · 10-11 ft",
+    "lengthFt": [
+      10,
+      11
+    ],
+    "use": "Tight-line nymphing, long reach, no indicator",
+    "reel": "Balanced weight matters more than drag",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "rr-11",
+    "name": "Switch/Spey 6-8wt · 11-13 ft",
+    "lineWeight": [
+      6,
+      8
+    ],
+    "lengthFt": [
+      11,
+      13
+    ],
+    "use": "Steelhead, salmon, swinging flies on big rivers",
+    "reel": "Large arbor to balance long rod",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  }
+]

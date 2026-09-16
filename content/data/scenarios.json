@@ -1,0 +1,658 @@
+[
+  {
+    "id": "sc-1",
+    "name": "Tailwater, February, midday, fish sipping in slow water, not",
+    "prompt": "Tailwater, February, midday, fish sipping in slow water, nothing visible on surface",
+    "answer": "Zebra Midge size 20-22 under a small dry, or RS2 in the film, 6X",
+    "flies": [
+      "zebra-midge",
+      "rs2",
+      "griffiths-gnat"
+    ],
+    "tags": [
+      "fresh",
+      "winter",
+      "midge"
+    ],
+    "regions": [
+      "nc-mountains",
+      "idaho"
+    ],
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "sc-2",
+    "name": "Freestone river, June, big orange bugs crashing into banksid",
+    "prompt": "Freestone river, June, big orange bugs crashing into bankside willows",
+    "answer": "Salmonfly — Chubby Chernobyl size 4-6 on 2X, tight to the bank",
+    "flies": [
+      "chubby-chernobyl",
+      "stimulator"
+    ],
+    "tags": [
+      "fresh",
+      "stonefly"
+    ],
+    "regions": [
+      "idaho"
+    ],
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "sc-3",
+    "name": "Overcast April afternoon, small gray-winged bugs riding the ",
+    "prompt": "Overcast April afternoon, small gray-winged bugs riding the current, fish rising steadily",
+    "answer": "BWO hatch — Comparadun or Sparkle Dun 18-20 on 5X-6X",
+    "flies": [
+      "bwo-comparadun",
+      "sparkle-dun",
+      "rs2"
+    ],
+    "tags": [
+      "fresh",
+      "mayfly",
+      "spring"
+    ],
+    "regions": [
+      "idaho",
+      "nc-mountains"
+    ],
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "sc-4",
+    "name": "Evening in summer, moth-like bugs skittering, splashy rises",
+    "prompt": "Evening in summer, moth-like bugs skittering, splashy rises",
+    "answer": "Caddis — Elk Hair or X-Caddis 14-16, twitch it; swing a soft hackle if they refuse",
+    "flies": [
+      "elk-hair-caddis",
+      "x-caddis",
+      "soft-hackle-po"
+    ],
+    "tags": [
+      "fresh",
+      "caddis"
+    ],
+    "regions": [
+      "idaho",
+      "nc-mountains"
+    ],
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "sc-5",
+    "name": "Late August, windy meadow stream, grass banks, no hatch",
+    "prompt": "Late August, windy meadow stream, grass banks, no hatch",
+    "answer": "Hopper-dropper: Morrish Hopper 8-10 with a Pheasant Tail 16 below, 3X-4X",
+    "flies": [
+      "morrish-hopper",
+      "pheasant-tail"
+    ],
+    "tags": [
+      "fresh",
+      "terrestrial"
+    ],
+    "regions": [
+      "idaho"
+    ],
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "sc-6",
+    "name": "Fast, deep run, no rises, spring runoff dropping",
+    "prompt": "Fast, deep run, no rises, spring runoff dropping",
+    "answer": "Heavy nymph rig: Pat's Rubber Legs 8 point fly + Perdigon 16 dropper, or Euro nymph tight-line",
+    "flies": [
+      "pats-rubber-legs",
+      "perdigon",
+      "frenchie"
+    ],
+    "tags": [
+      "fresh",
+      "nymph"
+    ],
+    "regions": [
+      "idaho",
+      "nc-mountains"
+    ],
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "sc-7",
+    "name": "Off-color water after rain, big brown trout river, low light",
+    "prompt": "Off-color water after rain, big brown trout river, low light",
+    "answer": "Streamer: Sculpzilla or Sex Dungeon on 0X-1X, sink tip, strip along banks",
+    "flies": [
+      "sculpzilla",
+      "sex-dungeon",
+      "woolly-bugger"
+    ],
+    "tags": [
+      "fresh",
+      "streamer"
+    ],
+    "regions": [
+      "idaho"
+    ],
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "sc-8",
+    "name": "Dawn in August on a spring creek, tiny black bugs in clouds ",
+    "prompt": "Dawn in August on a spring creek, tiny black bugs in clouds over riffles",
+    "answer": "Trico spinner fall — size 22-24 on 6X-7X, long leader",
+    "flies": [
+      "trico-spinner"
+    ],
+    "tags": [
+      "fresh",
+      "mayfly",
+      "small"
+    ],
+    "regions": [
+      "idaho"
+    ],
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "sc-9",
+    "name": "Bonefish tailing in 8 in of water over turtle grass, calm",
+    "prompt": "Bonefish tailing in 8 in of water over turtle grass, calm",
+    "answer": "Light fly: Bonefish Bitters or unweighted Gotcha size 6-8, bead-chain not lead, 10 lb fluoro, lead the fish by 3 ft",
+    "flies": [
+      "bonefish-bitters",
+      "gotcha",
+      "crazy-charlie"
+    ],
+    "tags": [
+      "salt",
+      "bonefish",
+      "shallow"
+    ],
+    "regions": [
+      "bahamas"
+    ],
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "sc-10",
+    "name": "Bonefish cruising in 3 ft of water on a windy flat",
+    "prompt": "Bonefish cruising in 3 ft of water on a windy flat",
+    "answer": "Weighted Gotcha or Mantis Shrimp size 2-4 with lead eyes to get down fast",
+    "flies": [
+      "gotcha",
+      "mantis-shrimp",
+      "ep-shrimp"
+    ],
+    "tags": [
+      "salt",
+      "bonefish",
+      "deep"
+    ],
+    "regions": [
+      "bahamas"
+    ],
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "sc-11",
+    "name": "Permit tailing on a coral flat",
+    "prompt": "Permit tailing on a coral flat",
+    "answer": "Crab pattern — Merkin or Bauer Crab size 2-4, 16 lb fluoro, drop it close and let it sink",
+    "flies": [
+      "merkin",
+      "bauer-crab",
+      "flexo-crab"
+    ],
+    "tags": [
+      "salt",
+      "permit"
+    ],
+    "regions": [
+      "bahamas"
+    ],
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "sc-12",
+    "name": "Tarpon rolling at dawn in a channel, May, worms in the water",
+    "prompt": "Tarpon rolling at dawn in a channel, May, worms in the water",
+    "answer": "Palolo worm fly 1/0-2/0 on 60 lb shock, 11-12wt",
+    "flies": [
+      "palolo-worm-fly",
+      "tarpon-toad"
+    ],
+    "tags": [
+      "salt",
+      "tarpon"
+    ],
+    "regions": [],
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "sc-13",
+    "name": "Redfish tailing in flooded marsh grass",
+    "prompt": "Redfish tailing in flooded marsh grass",
+    "answer": "Weedless, soft-landing fly: Redfish Toad or Kwan size 2-4, 8wt, 16-20 lb",
+    "flies": [
+      "redfish-toad",
+      "kwan"
+    ],
+    "tags": [
+      "salt",
+      "redfish"
+    ],
+    "regions": [
+      "nc-coast"
+    ],
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "sc-14",
+    "name": "Striped bass blitzing on small silver bait in the surf at du",
+    "prompt": "Striped bass blitzing on small silver bait in the surf at dusk",
+    "answer": "Clouser or Surf Candy 1-2/0 matching bait size, intermediate line, 20 lb",
+    "flies": [
+      "clouser-minnow",
+      "surf-candy",
+      "ep-sand-eel"
+    ],
+    "tags": [
+      "salt",
+      "striper"
+    ],
+    "regions": [
+      "nc-coast"
+    ],
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "sc-15",
+    "name": "Bluefish chopping through a school of bunker",
+    "prompt": "Bluefish chopping through a school of bunker",
+    "answer": "Big Deceiver or Hollow Fleye 2/0-4/0, wire or 60 lb bite tippet, or a Crease Fly on top",
+    "flies": [
+      "lefty-deceiver",
+      "hollow-fleye",
+      "crease-fly"
+    ],
+    "tags": [
+      "salt",
+      "bluefish"
+    ],
+    "regions": [
+      "nc-coast"
+    ],
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "sc-16",
+    "name": "Barracuda laid up on a flat",
+    "prompt": "Barracuda laid up on a flat",
+    "answer": "Needlefish/Cuda fly, wire bite, strip as fast as you can",
+    "flies": [
+      "needlefish-fly"
+    ],
+    "tags": [
+      "salt",
+      "barracuda"
+    ],
+    "regions": [
+      "bahamas"
+    ],
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "sc-17",
+    "name": "Snook under a dock light at night",
+    "prompt": "Snook under a dock light at night",
+    "answer": "Small glass minnow imitation: Gummy Minnow or small Clouser size 2-4, 20-30 lb bite",
+    "flies": [
+      "gummy-minnow",
+      "clouser-minnow"
+    ],
+    "tags": [
+      "salt",
+      "snook"
+    ],
+    "regions": [
+      "nc-coast"
+    ],
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "sc-21",
+    "name": "How do I choose fly weight?",
+    "prompt": "How do I choose fly weight?",
+    "answer": "Depth × current speed. Slow/shallow → unweighted or bead-chain. Fast/deep → tungsten, lead eyes, or split shot. On flats: shallow tailing fish = light, cruising in deeper water = heavy.",
+    "flies": [],
+    "tags": [
+      "concept"
+    ],
+    "regions": [],
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "sc-22",
+    "name": "How do I choose fly size?",
+    "prompt": "How do I choose fly size?",
+    "answer": "Match the natural, then go one size smaller if refused. Big bugs/baits = big fly; pressured or clear water = smaller.",
+    "flies": [],
+    "tags": [
+      "concept"
+    ],
+    "regions": [],
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "sc-23",
+    "name": "Cape Lookout, late October, albies busting on tiny bait at t",
+    "prompt": "Cape Lookout, late October, albies busting on tiny bait at the surface",
+    "answer": "Albie fly / Surf Candy size 2 matching bay anchovy, 9-10wt, 15-20 lb fluoro, strip fast and long",
+    "flies": [
+      "albie-fly",
+      "surf-candy"
+    ],
+    "tags": [
+      "salt",
+      "albie"
+    ],
+    "regions": [
+      "nc-coast"
+    ],
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "sc-24",
+    "name": "NC marsh, September flood tide, tails waving in the spartina",
+    "prompt": "NC marsh, September flood tide, tails waving in the spartina grass",
+    "answer": "Weedless Redfish Toad or Kwan size 2, 8wt, 16-20 lb, drop it a foot ahead and let it sit",
+    "flies": [
+      "redfish-toad",
+      "kwan"
+    ],
+    "tags": [
+      "salt",
+      "redfish"
+    ],
+    "regions": [
+      "nc-coast"
+    ],
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "sc-25",
+    "name": "Placencia, April, permit tailing on a mud flat in 2 ft",
+    "prompt": "Placencia, April, permit tailing on a mud flat in 2 ft",
+    "answer": "Avalon or Merkin size 2-4, 16-20 lb fluoro, 10wt, lead by a foot and let it drop",
+    "flies": [
+      "avalon-permit",
+      "merkin",
+      "bauer-crab"
+    ],
+    "tags": [
+      "salt",
+      "permit"
+    ],
+    "regions": [],
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "sc-26",
+    "name": "Belize lagoon at dawn, baby tarpon rolling in mangroves",
+    "prompt": "Belize lagoon at dawn, baby tarpon rolling in mangroves",
+    "answer": "Tarpon Toad or Cockroach 1/0 on 40 lb shock, 9wt, floating line",
+    "flies": [
+      "tarpon-toad",
+      "cockroach",
+      "seaducer"
+    ],
+    "tags": [
+      "salt",
+      "tarpon"
+    ],
+    "regions": [],
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "sc-27",
+    "name": "Andros, big single bonefish cruising a white sand flat, brig",
+    "prompt": "Andros, big single bonefish cruising a white sand flat, bright sun",
+    "answer": "Peterson's Spawning Shrimp or Mantis Shrimp size 2-4 with lead eyes, 12-16 lb, long lead",
+    "flies": [
+      "peterson-spawning-shrimp",
+      "mantis-shrimp"
+    ],
+    "tags": [
+      "salt",
+      "bonefish"
+    ],
+    "regions": [
+      "bahamas"
+    ],
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "sc-28",
+    "name": "Henry's Fork Ranch, mid-June, big olive-bodied mayflies and ",
+    "prompt": "Henry's Fork Ranch, mid-June, big olive-bodied mayflies and picky rainbows",
+    "answer": "Green Drake extended body size 10-12 on 4X, 12 ft leader, dead-drift downstream presentation",
+    "flies": [
+      "green-drake-extended"
+    ],
+    "tags": [
+      "fresh",
+      "mayfly"
+    ],
+    "regions": [
+      "idaho"
+    ],
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "sc-29",
+    "name": "South Fork Snake, late July, drifting the bank, cutthroat lo",
+    "prompt": "South Fork Snake, late July, drifting the bank, cutthroat looking up",
+    "answer": "Chubby Chernobyl 8 with a Pheasant Tail 16 dropper, 3X, bang the banks",
+    "flies": [
+      "chubby-chernobyl",
+      "pheasant-tail"
+    ],
+    "tags": [
+      "fresh",
+      "dry-dropper"
+    ],
+    "regions": [
+      "idaho"
+    ],
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "sc-30",
+    "name": "Silver Creek, August morning, fish sipping in glassy weedy w",
+    "prompt": "Silver Creek, August morning, fish sipping in glassy weedy water",
+    "answer": "Trico spinner 22 or Callibaetis Sparkle Dun 16, 6X-7X, 12+ ft leader, downstream reach cast",
+    "flies": [
+      "trico-spinner",
+      "sparkle-dun"
+    ],
+    "tags": [
+      "fresh",
+      "spring creek"
+    ],
+    "regions": [
+      "idaho"
+    ],
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "sc-31",
+    "name": "Davidson River, tiny nymphs and picky browns, gin-clear",
+    "prompt": "Davidson River, tiny nymphs and picky browns, gin-clear",
+    "answer": "Zebra Midge 22 or RS2 under a small indicator, 6X-7X, long leader",
+    "flies": [
+      "zebra-midge",
+      "rs2",
+      "wd40"
+    ],
+    "tags": [
+      "fresh",
+      "technical"
+    ],
+    "regions": [
+      "nc-mountains"
+    ],
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "sc-32",
+    "name": "Blue-line brookie stream, tight rhododendron, summer",
+    "prompt": "Blue-line brookie stream, tight rhododendron, summer",
+    "answer": "Thunderhead or Yellow Palmer 14, 3wt, short 7.5 ft 4X leader, bow-and-arrow casts",
+    "flies": [
+      "thunderhead",
+      "yellow-palmer",
+      "elk-hair-caddis"
+    ],
+    "tags": [
+      "fresh",
+      "brook trout"
+    ],
+    "regions": [
+      "nc-mountains"
+    ],
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "sc-33",
+    "name": "Watauga tailwater, June evening, yellow mayflies coming off",
+    "prompt": "Watauga tailwater, June evening, yellow mayflies coming off",
+    "answer": "Sulphur — PMD Comparadun or Sparkle Dun 16 on 5X, rusty spinner at dark",
+    "flies": [
+      "pmd-comparadun",
+      "sparkle-dun",
+      "rusty-spinner"
+    ],
+    "tags": [
+      "fresh",
+      "mayfly"
+    ],
+    "regions": [
+      "nc-mountains"
+    ],
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "sc-34",
+    "name": "NC delayed-harvest stream, November, freshly stocked fish",
+    "prompt": "NC delayed-harvest stream, November, freshly stocked fish",
+    "answer": "Egg pattern or San Juan Worm with a Prince Nymph dropper, 4X; Woolly Bugger if slow",
+    "flies": [
+      "egg-pattern",
+      "san-juan-worm",
+      "prince-nymph",
+      "woolly-bugger"
+    ],
+    "tags": [
+      "fresh",
+      "delayed harvest"
+    ],
+    "regions": [
+      "nc-mountains"
+    ],
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  }
+]

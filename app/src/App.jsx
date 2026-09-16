@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import PlanTab from './ui/PlanTab.jsx';
 import LearnTab from './ui/LearnTab.jsx';
 import LogTab from './ui/LogTab.jsx';
+import IdTab from './ui/IdTab.jsx';
 import BoxTab from './ui/BoxTab.jsx';
 import { store } from './state/db.js';
 import { useAsync } from './state/useAsync.js';
@@ -11,6 +12,7 @@ const TABS = [
   { id: 'plan', label: 'Plan' },
   { id: 'learn', label: 'Learn' },
   { id: 'log', label: 'Log' },
+  { id: 'id', label: 'ID' },
   { id: 'box', label: 'Box' },
 ];
 
@@ -18,6 +20,7 @@ const SUBTITLE = {
   plan: 'where, when, what on',
   learn: 'drill it before you need it',
   log: 'what actually happened',
+  id: 'what is this bug?',
   box: 'flies, gear, knots',
 };
 
@@ -108,11 +111,12 @@ export default function App() {
       <main>
         {intro && (
           <div className="intro">
-            <strong>Four tabs, in the order you use them.</strong>
+            <strong>Five tabs, in the order you use them.</strong>
             <ul className="plain">
               <li><b>Plan</b> — pick where and when, get the fish, what is hatching, and a fly slate.</li>
               <li><b>Learn</b> — drill it before the trip, not on the water. Pick a deck: a destination, a fish, a rig, or just the knots.</li>
               <li><b>Log</b> — record the hours and the fish. This is what makes the rest yours.</li>
+              <li><b>ID</b> — a bug on your thumb: tap what you can see, get the stage and the fly.</li>
               <li><b>Box</b> — what flies and gear you own, what is missing, and every knot and leader with its diagram.</li>
             </ul>
             <button type="button" className="small" onClick={dismissIntro}>Got it</button>
@@ -126,6 +130,7 @@ export default function App() {
           <LearnTab trip={trip} onDueCount={setDueCount} deck={deck} setDeck={setDeck} />
         )}
         {tab === 'log' && <LogTab trip={trip} slate={liveSlate} />}
+        {tab === 'id' && <IdTab trip={trip} />}
         {tab === 'box' && <BoxTab slate={liveSlate} trip={trip} />}
       </main>
 

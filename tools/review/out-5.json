@@ -1,0 +1,430 @@
+[
+ {
+  "id": "slumpbuster",
+  "verdict": "wrong",
+  "recipe": "John Barr's Slumpbuster (Charlie's Fly Box, In The Riffle, Orvis): TMC 5262 2XL hook #2-10 with a brass or tungsten cone at the eye over 10-20 turns of lead wire; behind the cone a collar of pine-squirrel strip wrapped around the shank like a hackle and trimmed to about half a shank length; a body of gold Mini Flat Braid; and a dyed pine-squirrel Zonker strip laid matuka-style flat along the top of the shank to the bend, trailing past the bend as the tail, pinned down by open spirals of Brassie-size Ultra Wire that are spiralled up through the parted squirrel hair. Standard colours olive, black, rusty brown, natural, white.",
+  "hook": "TMC 5262 (2XL nymph/streamer), #2-10, fished point-DOWN. The cone is a head weight only, not an inverting weight; nothing about this pattern is tied inverted.",
+  "errors": [
+   "\"a pine-squirrel fur strip along the top of the shank and trailing as a tail\" omits the defining matuka construction: the strip is pinned to the top of the shank by open spirals of wire that pass UP THROUGH the hair, so wire ribbing crosses the wing. Without it an image model will draw a loose Zonker strip tied down only at each end.",
+   "\"A brass cone head at the eye, a pine-squirrel fur strip ... sparkle braid body\" leaves out the squirrel collar wrapped around the shank immediately behind the cone. That flared collar is the single most recognisable visual feature of the fly after the cone.",
+   "\"sparkle braid body\" is vague; every source specifies gold Mini-Flat Braid, a flat, wide, bright gold braid — not a round sparkle chenille.",
+   "No colour is stated at all, so the model is free to pick anything. Olive is the standard/original demonstration colour."
+  ],
+  "missing": [
+   "Ultra Wire rib (Brassie size) spiralled through the squirrel wing, matuka style",
+   "Squirrel-strip collar wrapped behind the cone, trimmed to about half a shank length",
+   "Lead wire underbody beneath the braid (adds the forward taper you see)",
+   "A stated colourway (olive standard)",
+   "Tail length: the strip trails roughly a shank length past the bend"
+  ],
+  "invented": [
+   "Nothing outright invented, but \"Long-shank streamer hook\" overstates it — TMC 5262 is a 2XL hook, not a long-shank streamer hook."
+  ],
+  "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is a \"Slumpbuster\". A 2XL nymph/streamer hook, size 6. Construction from the eye back: a gold brass cone head seated at the hook eye; immediately behind the cone a collar of olive pine-squirrel strip wrapped around the shank like a hackle, its guard hairs flaring back about half a shank length; then a slim tapered body of flat gold Mini-Flat Braid over a hidden lead-wire underbody; and an olive-dyed pine-squirrel Zonker strip laid matuka-style flat along the TOP of the shank from behind the collar to the bend, continuing past the bend as a tail about one shank length long, the strip pinned down by four or five open spirals of fine copper wire that pass up through the parted squirrel hair so the hair stands away from the shank. Overall olive with a gold body flash. This fly is not inverted and has no weighted eyes: hook rides point-DOWN, hook point facing DOWN, all materials on the upper side of the shank opposite the point. Only one fly, hook bend and point clearly visible.",
+  "sources": [
+   "https://charliesflybox.com/blogs/step-by-step-tutorials/slumpbuster",
+   "https://www.intheriffle.com/in-the-riffle-blog/barrs-slumpbuster",
+   "https://news.orvis.com/fly-fishing/classic-video-tie-slumpbuster-streamer"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "sparkle-minnow",
+  "verdict": "minor",
+  "recipe": "Coffey's Sparkle Minnow (In The Riffle, Flylords, Northern Angler): Daiichi 2220 #4-8 with a BLACK conehead at the eye over lead wire; body of gold Ice Dub spun in a loop and brushed out shaggy, with a pearl Ice Dub belly; copper or root-beer Krystal Flash along the sides; tail of blood-quill marabou blended white, tan and olive. Brown thread. Also tied all-white/pearl, and in Sculpin Helmet and articulated versions.",
+  "hook": "Daiichi 2220 (long-shank streamer), #4-8, point-DOWN. Conehead is a head weight, not an inverting weight.",
+  "errors": [
+   "\"a shaggy body of gold and copper Ice Dub brushed out\" — copper is the Krystal Flash, not a dubbing colour. The recipe is gold Ice Dub for the body with a PEARL Ice Dub belly, plus copper/root-beer Krystal Flash strands.",
+   "\"Cone head\" does not state the colour; sources specify a black conehead, which is a strong visual contrast against the gold body.",
+   "\"marabou tail\" does not state the colour; the standard tail is blended white, tan and olive blood-quill marabou."
+  ],
+  "missing": [
+   "Black conehead (colour)",
+   "Pearl Ice Dub belly under the gold body",
+   "Copper / root-beer Krystal Flash along the sides",
+   "Tail colours (white, tan and olive marabou), roughly one shank length",
+   "Lead-wire underbody"
+  ],
+  "invented": [
+   "\"copper ... Ice Dub\" as a body dubbing — no source lists copper dubbing in this pattern."
+  ],
+  "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is a \"Coffey's Sparkle Minnow\". Long-shank streamer hook, size 6. Construction from the eye back: a black metal conehead at the hook eye; behind it a shaggy dubbing-loop body of gold Ice Dub picked out into a bristling halo of sparkling fibres, with a pearl Ice Dub belly underneath and three or four strands of copper root-beer Krystal Flash down each side; the body sits over a hidden lead-wire underbody; at the bend a soft blood-quill marabou tail about one shank length long, white with tan and olive blended over it. This fly is not inverted and has no weighted eyes: hook rides point-DOWN, hook point facing DOWN, materials on top of and around the shank. Only one fly, hook bend and point clearly visible.",
+  "sources": [
+   "https://www.intheriffle.com/in-the-riffle-blog/coffeys-sparkle-minnow",
+   "https://flylordsmag.com/how-to-tie-coffeys-sparkle-minnow/",
+   "https://thenorthernangler.com/blogs/fly-tying-tutorials/sparkle-minnow-tutorial"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "crayfish-fly",
+  "verdict": "wrong",
+  "recipe": "SOURCES DISAGREE BECAUSE THE ENTRY NAMES TWO DIFFERENT FLIES. Clouser's Crayfish (Bob Clouser; Global FlyFisher, Fat Fingered Fly Tyer, In The Riffle): Mustad R74-9672 / 3XL nymph hook #2-12 weighted with lead wire lashed along BOTH SIDES of the shank (no dumbbell eyes); ringneck pheasant-tail antennae extending 1-1.5 shank lengths past the bend; tan/cream or light-olive dubbed body; olive or orange furry-foam carapace pulled over the back; mallard flank feathers curled inward to form the claws; grizzly or ginger saddle hackle palmered for legs. It is dead-drifted like a nymph and rides point-DOWN. Whitlock's Near Nuff Crayfish (Umpqua) is a different fly: it uses DUMBBELL EYES specifically so it rides hook point UP, in brown and dirty olive.",
+  "hook": "Clouser's Crayfish: 3XL nymph hook, point-DOWN, weighted with lead wire along the sides, explicitly designed to dead-drift like a nymph. Near Nuff Crayfish: dumbbell eyes, rides point-UP. Our entry's 'lead eyes' metadata matches Near Nuff, our fly name lists Clouser first — these must be split.",
+  "errors": [
+   "KNOWN SYSTEMIC BUG PRESENT: \"The wing/hair and weighted eyes are tied on the SAME side of the shank as the hook point, so the fly rides upside down...\" is pasted onto a fly that has NO WING AND NO HAIR at all. A crayfish has claws, a carapace and antennae; there is no wing to place.",
+   "\"Lead eyes near the bend so it rides claw-forward\" — Clouser's Crayfish has no lead eyes; it is weighted with lead wire lashed along both sides of the shank. And no source describes lead eyes 'near the bend'; where dumbbell eyes are used (Near Nuff) they sit near the hook eye.",
+   "\"so it rides claw-forward\" conflates two ideas. The claws are at the hook BEND end (they and the antennae extend past the bend), which is the crayfish's head end — the animal is tied facing backwards on the hook. Eye weight controls point-up/down, not which way the claws face.",
+   "\"two rust-olive claws of hen feather or rubber\" — the claws are MALLARD FLANK feathers, curled inward with scissors. No source uses rubber claws.",
+   "\"rubber antennae\" — the antennae are ringneck pheasant-tail fibres, not rubber.",
+   "The orientation sentence is flatly wrong for Clouser's Crayfish, which Clouser designed to dead-drift like a nymph, point-down."
+  ],
+  "missing": [
+   "Legs: grizzly or ginger saddle hackle palmered through the body and trimmed top and bottom",
+   "Carapace material specified as furry foam (olive or orange), segmented down with thread",
+   "Body dubbing colour (tan, cream or light olive)",
+   "Weighting method: lead wire along both sides of the shank, which flattens the profile",
+   "Antennae length: one to one and a half shank lengths past the bend",
+   "That the crayfish faces backwards on the hook — head/claws at the bend, tail at the hook eye"
+  ],
+  "invented": [
+   "\"rubber\" claws",
+   "\"rubber antennae\"",
+   "\"Lead eyes near the bend\"",
+   "The entire inverted-orientation paragraph, including a \"wing/hair\" this fly does not have"
+  ],
+  "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is a \"Clouser's Crayfish\". A 3XL curved nymph/streamer hook, size 6, weighted with lead wire lashed along BOTH SIDES of the shank so the body is flattened — there are no dumbbell eyes. The crayfish faces backwards on the hook: its head is at the hook BEND and its tail at the hook eye. Construction from the hook eye back: a tan-to-light-olive dubbed abdomen and thorax over the flat lead underbody; an olive furry-foam strip pulled over the top of the whole body as a carapace and tied down in three or four segments; a ginger or grizzly saddle hackle palmered through the dubbing and trimmed flat top and bottom so only side legs remain; at the bend a pair of mottled mallard flank feathers curled inward to form two claws, splayed in a V and pointing back past the bend; and two ringneck pheasant-tail fibre antennae extending one to one and a half shank lengths past the bend between the claws. Overall olive-tan with a darker olive back. This fly has NO wing and NO weighted eyes and is not inverted: it is dead-drifted like a nymph, so show it hook point DOWN, with the furry-foam carapace on top of the shank, opposite the point. Only one fly, hook bend and point clearly visible.",
+  "sources": [
+   "https://globalflyfisher.com/video/clouser-crayfish-0",
+   "https://fatfingeredflytyer.com/clousers-crayfish-fly-step-by-step/",
+   "https://www.intheriffle.com/in-the-riffle-blog/clouser-crayfish",
+   "https://anglersall.com/products/whitlocks-near-nuff-crayfish-umpqua-fly"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "game-changer",
+  "verdict": "wrong",
+  "recipe": "Blane Chocklett's Game Changer (Mad River Outfitters step-by-step, Global FlyFisher, Fly Fish Food): a chain of articulated Fish-Spine shanks (typically 10mm shanks for the rear body and 15mm shanks toward the front) terminating at the FRONT in the hook — Gamakatsu SL12S #1/0 on the standard version, with an optional mid-chain stinger hook. Rearmost shank carries a white saddle-hackle or marabou tail; each successive shank is dressed with splayed hen-saddle feathers (the original Feather Game Changer) or a synthetic brush (Polar Fiber / Game Changer Chenille / Body Wrap versions), tied in a tent shape at about 45 degrees and taken from progressively lower on the skin to build density; Chocklett's Filler Flash palmered between layers; optional pectoral fins; a Fish-Mask or resin head with large 3D eyes at the front. Unweighted in the standard version.",
+  "hook": "Gamakatsu SL12S #1/0 (short-shank wide-gap) at the FRONT of the chain, point-DOWN. The articulated shanks trail BEHIND the hook. Only the deliberately inverted 'belly-scratcher' variant rides point-up, and that one uses tungsten belly weighting.",
+  "errors": [
+   "\"Several small shanks linked in a chain ending in a hook\" is at best ambiguous and reads most naturally as hook-at-the-rear. On a Game Changer the hook is at the FRONT, at the head, and the shanks trail behind it as the body and tail. An image model will almost certainly put the hook last in the chain, at the tail — the wrong way round.",
+   "\"forked tail\" — no source gives a Game Changer a forked fish tail. The tail is a soft white saddle hackle or marabou plume on the rearmost shank.",
+   "\"each shank wrapped with a white synthetic fiber brush\" states only one of several dressings and omits the original: the Feather Game Changer uses splayed hen-saddle feathers. If you want the synthetic version, say Polar Fiber or Game Changer Chenille explicitly.",
+   "\"big 3D eyes at the head\" is right in spirit but omits that the eyes are set into a Fish-Mask / resin head at the hook, not floating on fibre."
+  ],
+  "missing": [
+   "Hook position at the FRONT of the chain",
+   "Fish-Spine articulated shanks by name, and that segments shorten toward the tail",
+   "Tail: white saddle hackle or marabou on the rearmost shank",
+   "Filler Flash palmered between the feather/brush layers",
+   "Fish-Mask or UV-resin head that carries the eyes",
+   "Optional pectoral fins (hackle tips at the head)"
+  ],
+  "invented": [
+   "\"forked tail\"",
+   "Implicit hook-at-the-rear arrangement"
+  ],
+  "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is a \"Game Changer\". Built on a chain of five or six articulated wire Fish-Spine shanks with a short-shank wide-gap streamer hook, size 1/0, at the FRONT of the chain as the head — the shanks trail BEHIND the hook and form the body and tail, not the other way round. Construction from the front: a moulded Fish-Mask resin head with a large stick-on 3D eye on each side; then, working back along the chain, each shank dressed with splayed white hen-saddle feathers tied in a tent shape at about 45 degrees, plus a few strands of pearl filler flash palmered between the layers, each segment shorter than the one in front so the dressed segments together form a deep, tapered, continuously curving baitfish profile; the rearmost shank carries a soft white saddle-hackle or marabou tail. Unweighted. This fly is not inverted and has no weighted eyes: hook rides point-DOWN at the head of the fly, hook point facing DOWN, materials on top of and around the shanks. Only one fly, hook bend and point clearly visible.",
+  "sources": [
+   "https://madriveroutfitters.blogspot.com/2019/01/fly-tying-blane-chockletts-feather-game.html",
+   "https://globalflyfisher.com/video/how-to-tie-the-gamechanger",
+   "https://www.flyfishfood.com/blogs/streamer-tutorials/belly-scratching-game-changer"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "clouser-minnow",
+  "verdict": "wrong",
+  "recipe": "Clouser Deep Minnow (Bob Clouser; Charlie's Fly Box, Global FlyFisher, Orvis, Wikipedia): TMC 811S #6-2/0; painted lead dumbbell eyes lashed across the shank with figure-eight wraps roughly two or three hook-eye lengths (about a third of the shank) back from the hook eye; a sparse white bucktail belly about two shank lengths long tied at the eyes on the non-point side; four to eight strands of pearl or gold Krystal Flash; the hook is then turned over and a sparse chartreuse bucktail wing of the same length is tied on the hook-point side. No body, no tail, no hackle — the rear shank is bare. Original colourway chartreuse over white.",
+  "hook": "TMC 811S standard-length stainless saltwater hook, #6-2/0. Fishes INVERTED, point-UP: 'The fly rides hook point up which makes it pretty much snag free' (Charlie's Fly Box). The chartreuse wing is on the same side as the hook point; the white belly is on the opposite side.",
+  "errors": [
+   "KNOWN SYSTEMIC BUG PRESENT: the inverted-orientation paragraph \"The wing/hair and weighted eyes are tied on the SAME side of the shank as the hook point, so the fly rides upside down...\" is pasted in TWICE, verbatim. On this pattern the paragraph belongs, but the duplicate must go.",
+   "\"Painted lead dumbbell eyes tied on top of the shank just behind the hook eye\" — two problems. (a) Position: every source puts the eyes back from the hook eye, about two to three eye-lengths or roughly a third of the shank, leaving a visible bare thread head in front. 'Just behind the hook eye' crowds them forward. (b) \"on top of the shank\" directly contradicts the orientation sentence that follows in the same prompt; a dumbbell straddles the shank on figure-eight wraps, and in fished orientation it hangs below the shank while the point is up.",
+   "\"a sparse white bucktail belly tied under the eyes\" — 'under' is wrong for the fished view being described. In the finished, point-up fly the white bucktail is the BELLY and sits below the shank on the side away from the point; describing it as 'under the eyes' reads as a position along the shank rather than a side.",
+   "\"a few strands of pearl flash tied on the point side\" — the flash goes over the white belly and under the chartreuse wing, i.e. sandwiched between the two bucktail bunches. Sources give pearl or gold Krystal Flash, four to eight strands.",
+   "No bucktail length is given; sources put both bunches at roughly two shank lengths, sweeping well past the bend."
+  ],
+  "missing": [
+   "Eye placement measured back from the hook eye (2-3 eye-lengths / about a third of the shank)",
+   "Bare thread head in front of the eyes",
+   "Bucktail length: about two shank lengths",
+   "That the rear of the shank is completely bare — no body, tail or hackle",
+   "Explicit statement of the classic chartreuse-over-white colourway relationship (chartreuse = back/point side, white = belly)"
+  ],
+  "invented": [
+   "\"tied on top of the shank just behind the hook eye\" — contradicts both the recipe and the prompt's own orientation sentence",
+   "Flash \"tied on the point side\" as a separate placement"
+  ],
+  "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is a \"Clouser Deep Minnow\", chartreuse and white. Standard-length stainless saltwater hook, size 2. Construction from the eye back: a short bare thread head, then painted lead dumbbell eyes lashed across the shank with figure-eight wraps about two or three hook-eye lengths back from the hook eye, roughly a third of the way along the shank; at the eyes a sparse chartreuse bucktail wing tied on the hook-point side of the shank, about two shank lengths long and sweeping back well past the bend; six strands of pearl Krystal Flash immediately beneath it; and a sparse white bucktail belly of the same length tied on the opposite side of the shank, so the finished fly is white below and chartreuse above. No body, no tail, no hackle — the rear half of the shank is bare. The bucktail wing and the hook point are on the SAME side of the shank and the fly fishes upside down: show the hook point facing UP with the chartreuse wing directly above the shank on the same side as the point, the white belly below the shank, and the dumbbell eyes straddling the shank at the head. Only one fly, hook bend and point clearly visible.",
+  "sources": [
+   "https://charliesflybox.com/blogs/step-by-step-tutorials/clouser-minnow",
+   "https://globalflyfisher.com/patterns/clouser-deep-minnow",
+   "https://en.wikipedia.org/wiki/Clouser_Deep_Minnow",
+   "https://news.orvis.com/fly-fishing/video-bob-clouser-on-how-to-tie-the-clouser-minnow"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "lefty-deceiver",
+  "verdict": "minor",
+  "recipe": "Lefty's Deceiver (Lefty Kreh; Charlie's Fly Box, Orvis, MidCurrent): TMC 811S #8-3/0; tail of four (some sources six to eight) white saddle hackles tied in opposing pairs at the BEND, two to three times the hook-shank length; pearl Krystal Flash along the sides; a body of pearl flat braid or flat silver/mylar tinsel wrapped over the shank; a white bucktail collar applied all the way AROUND the shank behind the head, lying back to about halfway along the tail; a second, darker bucktail collar (olive, green, blue or purple) over the top and sides only; six or seven peacock herls laid flat over the top as a topping; painted red eye with black pupil. Unweighted. Classic colourways all-white, and white with a green/blue back.",
+  "hook": "TMC 811S standard-length stainless saltwater hook, #8-3/0, point-DOWN. Unweighted, so no inverted orientation and no weighted-eye language belongs here — our prompt correctly says point-down.",
+  "errors": [
+   "\"Four to six long white saddle hackle feathers\" — Charlie's Fly Box and Orvis specify four, tied in two opposing pairs; other sources allow six to eight. The important missing detail is that they are paired back-to-back so the tail splays, and that they are two to three times the shank length.",
+   "\"a few strands of silver flash\" — sources specify pearl Krystal Flash, not silver.",
+   "\"Long saltwater hook\" — TMC 811S is a standard-length saltwater hook, not a long-shank. A long shank would foul the tail, which is the opposite of what the Deceiver was designed to avoid.",
+   "The prompt describes an all-white fly with no back colour and no topping. The all-white Deceiver is legitimate, but the pattern as published has a darker bucktail back and a peacock-herl topping, and omitting them will reliably produce a fly missing its most recognisable feature."
+  ],
+  "missing": [
+   "Body: pearl flat braid or flat silver/mylar tinsel wrapped over the shank",
+   "Second, darker bucktail collar over the top and sides (olive, green, blue or purple)",
+   "Topping: six or seven peacock herls laid flat along the back",
+   "Tail hackles tied in opposing pairs so they splay, two to three times shank length",
+   "Eye colour: red with a black pupil",
+   "That the bucktail collar is spun all the way around the shank, not only on top"
+  ],
+  "invented": [
+   "\"silver flash\" in place of pearl Krystal Flash",
+   "\"Long saltwater hook\""
+  ],
+  "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is a \"Lefty's Deceiver\". Standard-length stainless saltwater hook, size 1/0. Construction from the eye back: a smooth painted head, red with a black pupil; behind it a collar of white bucktail spun all the way AROUND the shank and lying back over the body to about halfway along the tail; over the top and sides of that a second, darker bucktail collar in olive-green of the same length, and six or seven peacock herls laid flat along the very top as a topping; a few strands of pearl Krystal Flash down each side; a slim body of pearl flat braid or flat silver tinsel wrapped along the shank; and at the BEND a tail of four white saddle hackles tied in two opposing back-to-back pairs so they splay slightly, two to three times the hook-shank length. Unweighted, no dumbbell eyes. This fly is not inverted: hook rides point-DOWN, hook point facing DOWN, materials on top of and around the shank. Only one fly, hook bend and point clearly visible.",
+  "sources": [
+   "https://charliesflybox.com/blogs/step-by-step-tutorials/deceiver",
+   "https://news.orvis.com/fly-fishing/Tying-Leftys-Deceiver",
+   "https://midcurrent.com/v2/how-to-tie-leftys-deceiver/",
+   "https://en.wikipedia.org/wiki/Lefty%27s_Deceiver"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "half-and-half",
+  "verdict": "wrong",
+  "recipe": "Half & Half (Bob Clouser / Lefty Kreh hybrid; Fat Fingered Fly Tyer, J. Stockard, Orvis): Gamakatsu B10S or SL12S #2-6/0; dumbbell or brass eyes lashed across the shank about one third of the shank back from the hook eye; at the BEND four to six streamer saddle hackles of equal length as a Deceiver tail; ten to twenty strands of silver Flashabou; white bucktail belly and chartreuse bucktail wing Clouser-style (also olive, red or black). Rides hook point up.",
+  "hook": "Gamakatsu B10S / SL12S wide-gap streamer-saltwater hook, #2-6/0. Fishes INVERTED, point-UP — the dumbbell eyes flip it, so the chartreuse wing and the hook point are on the same side.",
+  "errors": [
+   "KNOWN SYSTEMIC BUG PRESENT: the inverted-orientation paragraph is pasted in TWICE, verbatim. The paragraph is correct for this pattern, but the duplicate must be deleted.",
+   "\"Long saddle-hackle tail like a Deceiver at the bend, lead dumbbell eyes and bucktail like a Clouser at the front\" — this is a description by reference, not a materials list. An image model given 'like a Deceiver' and 'like a Clouser' has nothing concrete to draw. No colour, no count, no lengths, no eye position.",
+   "No colourway is stated. The canonical Half & Half is chartreuse over white; without it the model picks at random.",
+   "Eye position is unstated; sources put the dumbbells about one third of the shank back from the hook eye, not at the very front.",
+   "\"Saltwater hook\" is under-specified — this pattern needs a wide-gap hook because of the bulky front."
+  ],
+  "missing": [
+   "Number of tail hackles (four to six) and their length (two to three times the shank)",
+   "Flash: ten to twenty strands of silver Flashabou at the eyes",
+   "Colours: chartreuse bucktail wing over white bucktail belly",
+   "Dumbbell eye placement about a third of the shank back from the hook eye",
+   "That the bucktail is split belly/wing on opposite sides of the shank, Clouser-style"
+  ],
+  "invented": [
+   "Nothing factually invented, but the duplicated orientation paragraph is boilerplate rather than description."
+  ],
+  "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is a \"Half & Half\", chartreuse and white. Wide-gap stainless streamer/saltwater hook, size 1/0. Construction from the eye back: a short thread head, then painted lead dumbbell eyes lashed across the shank with figure-eight wraps about one third of the shank back from the hook eye; at the eyes a sparse chartreuse bucktail wing on the hook-point side of the shank, about two shank lengths long; ten to twenty strands of silver Flashabou; a sparse white bucktail belly of the same length on the opposite side of the shank; and at the BEND four to six long chartreuse saddle hackles tied in opposing pairs as a splayed Deceiver-style tail, two to three times the hook-shank length. The bucktail wing and the hook point are on the SAME side of the shank and the fly fishes upside down: show the hook point facing UP with the chartreuse wing directly above the shank on the same side as the point, the white belly below the shank, and the dumbbell eyes straddling the shank at the head. Only one fly, hook bend and point clearly visible.",
+  "sources": [
+   "https://fatfingeredflytyer.com/clousers-half-half-step-by-step/",
+   "https://www.jsflyfishing.com/blogs/fom/clousers-half-and-half-variant",
+   "https://news.orvis.com/fly-fishing/video-tie-half-half"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "ep-baitfish",
+  "verdict": "minor",
+  "recipe": "EP Baitfish / EP Minnow (Enrico Puglisi; Charlie's Fly Box, Fly Life Magazine, Global FlyFisher): Gamakatsu SC15 #6-2/0 (short-shank, wide-gap) with monofilament or GSP thread; successive bunches of EP Fibers tied in and folded back on themselves along the shank, light colour on the belly and a darker colour on the back, with silver and pearl flash layered in between; the whole mass then scissor-trimmed to a baitfish silhouette (anything from a deep sunfish shape to a slim minnow); solid or stick-on 3D eyes glued at the head; permanent-marker detailing and barring; head cement or UV resin. 'More a pattern of tying than a specific pattern.'",
+  "hook": "Gamakatsu SC15 or similar SHORT-shank, wide-gap stainless saltwater hook, #6-2/0, point-DOWN. Unweighted — no inverted orientation, and our prompt is correct to say point-down.",
+  "errors": [
+   "\"Saltwater hook\" is under-specified in a way that matters: EP baitfish are tied on SHORT-shank wide-gap hooks with most of the body extending past the bend. If the model draws a long-shank hook the proportions will be wrong.",
+   "\"tied in bunches along the shank\" omits the defining technique — each bunch is folded back on itself over the thread, which is what gives the fibre mass its density and its cut edge.",
+   "\"white belly, olive back\" is a fine colourway but the prompt omits the flash layered between the fibre bunches, which every source includes."
+  ],
+  "missing": [
+   "Silver and pearl flash layered between the EP fibre bunches",
+   "That the fibre bunches are folded back over themselves",
+   "Permanent-marker barring/detailing on the back",
+   "Body extends well past the hook bend; short-shank wide-gap hook",
+   "Small bead of glue or resin holding the stick-on eyes"
+  ],
+  "invented": [],
+  "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is an \"EP Baitfish\". Short-shank, wide-gap stainless saltwater hook, size 1/0. Construction: successive bunches of translucent EP synthetic fibres tied in along the shank and folded back over themselves — white on the belly, olive on the back, with a few strands of pearl and silver flash sandwiched between the layers — building a deep, slab-sided body whose bulk extends well past the hook bend, then scissor-trimmed to a clean tapered baitfish silhouette with a cut edge. A large stick-on 3D eye on each side of the head, set in a small bead of clear resin, and faint dark marker barring on the olive back. The fibres are translucent so light passes through the edges of the body. Unweighted, no dumbbell eyes. This fly is not inverted: hook rides point-DOWN, hook point facing DOWN, the fibre body built on top of and around the shank. Only one fly, hook bend and point clearly visible.",
+  "sources": [
+   "https://charliesflybox.com/blogs/step-by-step-tutorials/ep-minnow",
+   "https://flylifemagazine.com/fly-tying-utilize-the-puglisi-ep-fibers-for-more-realistic-baitfish-patterns/",
+   "https://globalflyfisher.com/video/ep-baitfish-0"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "hollow-fleye",
+  "verdict": "minor",
+  "recipe": "Hollow Fleye (Bob Popovics; Fly Fisherman, Global FlyFisher, The Mission): stainless saltwater hooks #6-6/0; bunches of bucktail spun around the shank tied in pointing FORWARD over the hook eye, then pushed rearward by thread wraps taken only in FRONT of the tie-in point so the hair flares and stands hollow off the shank (this is what distinguishes it from a Thunder Creek). Short-shank hooks take about three bunches, each roughly two thirds the length of the previous; long-shank hooks five or more, each about three quarters. Optional flash at intervals; tab prismatic eyes (about 1/4 inch) or jungle-cock nails; thread head with quick-dry cement; the finished fly is wetted and shaped into a tapered fusiform profile. No separate tail — the exposed bucktail butts form it. Single colours, or contrasting top and bottom.",
+  "hook": "Stainless saltwater hook, commonly SHORT-shank wide-gap, #6-6/0; long-shank only for the biggest versions. Point-DOWN, unweighted.",
+  "errors": [
+   "\"tied reverse (pointing forward then folded back)\" — it is not folded. The bucktail is tied in pointing forward and then pushed back by thread wraps built only in front of the tie-in point; nothing is folded over. 'Folded back' will make the model draw a Thunder Creek-style bullet head instead of the airy hollow flare.",
+   "\"Long saltwater hook\" — the standard Hollow Fleye is tied on a short-shank hook; the long shank is the exception for 10-inch flies. At the stated sizes 1/0-4/0 a short-shank wide-gap hook is correct.",
+   "\"big eyes\" is unspecific; sources give tab prismatic stick-on eyes about 1/4 inch, or jungle-cock nails.",
+   "The prompt does not say the bunches shorten toward the front, which is what produces the tapered profile."
+  ],
+  "missing": [
+   "Each bunch about two thirds to three quarters the length of the one behind it, rearmost longest",
+   "Bucktail is spun ALL THE WAY AROUND the shank, not just on top",
+   "The bunch butts form the tail — there is no separate tail material",
+   "Thread head sealed with cement; the fly is wetted and shaped into a fusiform taper",
+   "Eye type: tab prismatic stick-on or jungle cock"
+  ],
+  "invented": [
+   "\"folded back\"",
+   "\"Long saltwater hook\""
+  ],
+  "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is a \"Hollow Fleye\". Short-shank, wide-gap stainless saltwater hook, size 3/0. Construction: three to five successive bunches of white bucktail spun ALL THE WAY AROUND the shank, each bunch tied in pointing FORWARD over the hook eye and then pushed rearward by thread wraps taken only in front of the tie-in point, so the hair flares outward and stands hollow away from the shank rather than lying flat — the rearmost bunch longest and each bunch in front of it about two thirds to three quarters as long, so the fly builds into a big, airy, translucent, tapered baitfish profile whose exposed butt ends form the tail. A few strands of pearl flash between bunches. At the head, a small thread head sealed with cement and a 1/4-inch tab prismatic stick-on eye on each side. No body, no separate tail material, unweighted, no dumbbell eyes. This fly is not inverted: hook rides point-DOWN, hook point facing DOWN, bucktail flared all around and above the shank. Only one fly, hook bend and point clearly visible.",
+  "sources": [
+   "https://www.flyfisherman.com/editorial/fly-tying-hollow-fleyes/151795",
+   "https://globalflyfisher.com/video/hidden-bulkhead-hollow-fleye",
+   "https://themissionflymag.com/bulkhead-hollow-fleye-step-by-step/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "surf-candy",
+  "verdict": "minor",
+  "recipe": "Surf Candy (Bob Popovics; Global FlyFisher, MidCurrent, Salt Water Sportsman, In The Loop): short-shank stainless saltwater hook (Mustad 34007 / TMC 811S) with fine thread or clear mono; a body of flat silver mylar tinsel wrapped to the bend and back; a layered wing of Ultra Hair / Super Hair — clear or white underneath, six to eight strands of Flashabou or Krystal Flash in the middle, chartreuse or olive topped with dark grey, black or olive over; then thin layers of five-minute epoxy (or UV resin) built up over the forward part of the fly to form a hard translucent tapered head; 3D prism or self-adhesive eyes set between epoxy layers; optional red/orange marker gill marks between coats. Wing is stretched while the epoxy sets to keep the profile slim.",
+  "hook": "Short-shank stainless saltwater hook, #2-2/0, point-DOWN. Unweighted apart from the epoxy; no inverted orientation, and our prompt correctly says point-down.",
+  "errors": [
+   "\"a painted eye and gill\" — the eyes are 3D PRISM or self-adhesive stick-on eyes pressed into the resin between coats, not painted. That is a visible difference: a Surf Candy has a domed, reflective stick-on eye embedded in clear epoxy. The gill is a marker slash, also under the resin.",
+   "\"a slim body of olive-over-white synthetic hair\" omits the flat silver mylar tinsel body wrapped on the shank beneath the hair, which shows through the resin, and the flash layer sandwiched between the white and olive hair.",
+   "\"coated in clear epoxy over the front half\" — sources differ on extent. The Global FlyFisher version runs the epoxy from the bend through the hook eye; Popovics' classic builds it over the forward body only. Say that a range exists rather than asserting exactly half.",
+   "The hair type is unstated; sources specify Ultra Hair / Super Hair (stiff, straight, translucent synthetic), not soft craft fur."
+  ],
+  "missing": [
+   "Flat silver mylar tinsel body under the wing",
+   "Six to eight strands of Flashabou/Krystal Flash between the white underwing and the dark topping",
+   "Hair type: Ultra Hair / Super Hair",
+   "3D prism or stick-on eyes set into the resin",
+   "Marker gill slash under the resin",
+   "Slim profile achieved by stretching the wing as the resin cures"
+  ],
+  "invented": [
+   "\"a painted eye\""
+  ],
+  "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is a \"Surf Candy\". Short-shank stainless saltwater hook, size 1/0. Construction from the eye back: a slim layered wing of stiff translucent Ultra Hair tied in at the head — clear-white underneath, six to eight strands of pearl flash in the middle, olive over the top — swept back well past the bend and tapering to a loose, translucent, hair-tip tail; beneath the wing a body of flat silver mylar tinsel wrapped along the shank; the forward portion of the fly, from the head back roughly to the hook point, encased in smooth thin layers of clear five-minute epoxy built into a hard, glassy, translucent tapered head (sources vary on how far back the resin runs — some coat from the bend all the way through the hook eye); a domed 3D prism stick-on eye embedded in the resin on each side, and a short red gill slash drawn in marker under the resin. Unweighted apart from the resin, no dumbbell eyes. This fly is not inverted: hook rides point-DOWN, hook point facing DOWN, materials on top of the shank. Only one fly, hook bend and point clearly visible.",
+  "sources": [
+   "https://globalflyfisher.com/patterns-tie-better/surf-candy",
+   "https://midcurrent.com/videos/how-to-tie-bob-popovicss-surf-candy/",
+   "https://www.saltwatersportsman.com/techniques/fly-tying/bob-popovics-surf-candy/",
+   "https://intheloopmag.com/fly-tying-bob-popovics-surf-candy/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "gummy-minnow",
+  "verdict": "minor",
+  "recipe": "Gummy Minnow (silicone-sheet pattern popularised with Blane Chocklett's Sili Skin; In The Riffle, Flylords, El Gallo): TMC 811S #6-1/0 with white GSP thread; body built from layers of soft self-adhesive silicone sheet — pearlescent Thin Crystal Skin or Sili Skin for the body, a moss-green or olive strip laid over the back, and a clear outer layer over the whole thing — folded around the shank, sealed to itself and then trimmed with scissors to a minnow silhouette with a forked tail. Super-pearl 3/16-inch stick-on eyes. Head cement to finish. Unweighted.",
+  "hook": "TMC 811S short-shank stainless saltwater hook, #6-1/0, point-DOWN. Unweighted, so no inverted orientation; our prompt correctly says point-down.",
+  "errors": [
+   "\"a small eye\" — the Gummy Minnow's eye is conspicuously LARGE: 3/16-inch super-pearl stick-on eyes, disproportionately big on the head. 'Small eye' produces the wrong silhouette.",
+   "\"A soft translucent silicone sheet body\" with no back colour — the standard fly has a moss-green or olive strip over the back against a pearl body, which is the whole point of the layered construction. Without it the model draws a plain clear fish.",
+   "\"silver flash inside\" is loose; what is inside is a pearlescent Crystal Skin / Sili Skin layer rather than loose flash strands.",
+   "The prompt omits the shape: the body is trimmed to a minnow outline with a FORKED TAIL extending past the hook bend."
+  ],
+  "missing": [
+   "Moss-green or olive back strip over a pearl body",
+   "Clear outer Sili Skin layer sealing the whole body",
+   "Large 3/16-inch super-pearl stick-on 3D eyes",
+   "Scissor-trimmed minnow outline with a forked tail past the bend",
+   "That the silicone is folded around the shank and sealed to itself"
+  ],
+  "invented": [
+   "\"a small eye\""
+  ],
+  "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is a \"Gummy Minnow\". Short-shank stainless saltwater hook, size 2. Construction: a body cut from soft self-adhesive translucent silicone sheet folded around the shank and sealed to itself — pearlescent on the belly and flanks, a moss-green olive strip laid over the back, and a clear outer layer over the whole thing — then scissor-trimmed to a small minnow silhouette with a forked tail extending past the hook bend and a slim pinched waist at the tail root. A large 3/16-inch super-pearl stick-on 3D eye on each side of the head, disproportionately big for the fly. Glossy, wet-looking and semi-transparent, so light passes through the body and the hook shank is faintly visible inside it. Unweighted, no dumbbell eyes. This fly is not inverted: hook rides point-DOWN, hook point facing DOWN, the silicone body enclosing the shank. Only one fly, hook bend and point clearly visible.",
+  "sources": [
+   "https://flylordsmag.com/how-to-tie-the-gummy-minnow/",
+   "https://www.intheriffle.com/in-the-riffle-blog/gummy-minnow",
+   "https://elgalloflyfishing.com/tie-the-perfect-gummy-minnow-for-roosterfish/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "ep-sand-eel",
+  "verdict": "uncertain",
+  "recipe": "There is no single authoritative written recipe for a pattern called 'EP Sand Eel' — it is a commercial Enrico Puglisi fly and the published sand-eel tyings vary. The common construction across sources: a short-shank wide-gap stainless saltwater hook with sparse bunches of EP Fibers (or bucktail plus E-Z Body tubing in the Saltwater Edge version) tied in and folded back along the shank, white belly under an olive, tan or golden-olive back, with a few strands of pearl or lavender flash, trimmed into a very long, very slim, round-sectioned eel profile that runs one and a half to three times the hook length past the bend and tapers to a fine point; small stick-on eyes at the head, usually set in a bead of UV resin forming a smooth nose. Usually unweighted; lightly weighted versions exist.",
+  "hook": "Short-shank wide-gap stainless saltwater hook (Gamakatsu SC15 or similar), #2-1/0, point-DOWN. Unweighted or lightly weighted; nothing inverted, and our prompt correctly says point-down.",
+  "errors": [
+   "\"Long saltwater hook\" is probably wrong. EP-fibre patterns are built on SHORT-shank wide-gap hooks with the fibre body doing the length; a long shank would put the hook point too far back in a slim eel body. Sources for EP-style baitfish consistently specify Gamakatsu SC15-type short-shank hooks. (Sand-eel patterns from other tyers do use long-shank or tarpon hooks, so this is a genuine range, not a certainty.)",
+   "\"small eyes\" and \"slim profile\" are so generic they give the model almost nothing. No fibre-layering method, no flash, no head resin, no length ratio."
+  ],
+  "missing": [
+   "Fibre bunches tied in and folded back along the shank",
+   "A few strands of pearl flash between belly and back",
+   "Stick-on eyes set in a bead of clear UV resin forming a smooth tapered nose",
+   "Proportion: profile runs one and a half to three times the hook length past the bend and tapers to a fine point",
+   "That the body is round in section rather than slab-sided like an EP Baitfish"
+  ],
+  "invented": [
+   "\"Long saltwater hook\""
+  ],
+  "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is an \"EP Sand Eel\". Short-shank, wide-gap stainless saltwater hook, size 1. Construction: sparse bunches of translucent EP synthetic fibres tied in along the shank and folded back over themselves — a white belly under an olive-and-tan back, with three or four strands of pearl flash between the layers — then trimmed into a very long, very slim, round-sectioned eel profile that extends roughly twice the hook length past the bend and tapers to a fine hair point rather than a cut tail. A small stick-on eye on each side of the head, set in a bead of clear UV resin that forms a smooth tapered nose. Unweighted or very lightly weighted. This fly is not inverted and has no dumbbell eyes: hook rides point-DOWN, hook point facing DOWN, materials on top of and around the shank. Only one fly, hook bend and point clearly visible.",
+  "sources": [
+   "https://charliesflybox.com/blogs/step-by-step-tutorials/ep-minnow",
+   "https://saltwateredge.com/blogs/saltwater-edge/how-to-tie-a-sand-lance-fly-sand-eel-pattern-step-by-step-guide",
+   "https://flylordsmag.com/how-to-tie-sand-eel-fly/",
+   "https://www.saltwaterflies.com/capecodsandeel_pat.html"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "gotcha",
+  "verdict": "wrong",
+  "recipe": "Gotcha (Jim McVay; Charlie's Fly Box, MidCurrent, Deneki, Salty Fly Tying): TMC 811S or Mustad 34007 #8-1/0 tied with pale 'Gotcha pink' thread; medium silver bead-chain eyes (or plated lead eyes for heavier versions) lashed across the shank about two hook-eye widths back from the hook eye; tail of flat pearl Diamond/mylar braid, shredded and picked out, about one shank length past the bend; body of the same flat pearl braid wrapped forward to the eyes and figure-eighted around them; a sparse tan or cream craft-fur (or pale polar-fibre) wing about one and a half to two shank lengths, tied in behind the eyes with three or four strands of pearl Krystal Flash; a pronounced pink thread head built up in front of the eyes and gloss-coated. Some tyings add hot-orange sili-legs.",
+  "hook": "TMC 811S / Mustad 34007 standard-length stainless saltwater hook, #8-1/0. Tied hook-point-down in the vice but the hook is TURNED OVER partway through (Deneki step 7) so the wing goes on the hook-point side; with bead-chain eyes the finished fly fishes INVERTED, point-UP, with the wing shielding the point. Note: sources vary in how explicitly they state this — Charlie's Fly Box does not spell the orientation out, while the Crazy Charlie lineage it descends from is documented as the first bonefish fly designed to ride point up.",
+  "errors": [
+   "KNOWN SYSTEMIC BUG PRESENT: the inverted-orientation paragraph is pasted in TWICE, verbatim. The paragraph is appropriate here but the duplicate must go.",
+   "\"a short sparse tail of pearl flash fibers about half the shank length\" — wrong material and wrong length. The tail is flat pearl Diamond/mylar BRAID, shredded and picked out into a fan, and it extends about one full shank length past the bend.",
+   "\"a slim pearl mylar tinsel body\" — the body is flat pearl Diamond Braid wrapped in overlapping turns and figure-eighted around the eyes, a fatter, more textured look than plain mylar tinsel.",
+   "\"silver bead-chain eyes tied just behind the hook eye\" — sources put the eyes about two hook-eye widths back, leaving room in front for the pink head. 'Just behind the hook eye' leaves no room for the head.",
+   "\"with pink thread\" badly undersells the fly's single most recognisable feature: a prominent, glossy, built-up PINK THREAD HEAD in front of the bead-chain eyes, which is what makes a Gotcha look like a Gotcha.",
+   "\"A sparse tan craft-fur wing ... extending past the bend\" gives no length; sources say one and a half to two shank lengths."
+  ],
+  "missing": [
+   "Prominent built-up glossy pink thread head in front of the eyes",
+   "Three or four strands of pearl Krystal Flash through the craft-fur wing",
+   "Tail material (shredded pearl Diamond braid) and length (about one shank length)",
+   "Body material named as flat pearl Diamond Braid, figure-eighted around the eyes",
+   "Wing length of one and a half to two shank lengths",
+   "Eye placement about two hook-eye widths back from the hook eye"
+  ],
+  "invented": [
+   "\"pearl flash fibers\" as the tail",
+   "Eyes \"just behind the hook eye\""
+  ],
+  "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is a \"Gotcha\". Standard-length stainless saltwater hook, size 4. Construction from the eye back: a prominent, glossy, built-up pale-pink thread head at the very front; then medium silver bead-chain eyes lashed across the shank with figure-eight wraps about two hook-eye widths back from the hook eye; behind the eyes a sparse tan craft-fur wing tied on the hook-point side of the shank, one and a half to two shank lengths long and sweeping well past the bend, with three or four strands of pearl Krystal Flash through it; a body of flat pearl Diamond Braid wrapped in overlapping turns along the shank and figure-eighted around the eyes; and at the bend a tail of the same pearl braid, shredded and picked out into a fan about one shank length past the bend. The craft-fur wing and the hook point are on the SAME side of the shank and the fly fishes upside down: show the hook point facing UP with the tan wing directly above the shank on the same side as the point, screening the point, the pearl braid body below, and the bead-chain eyes straddling the shank just behind the pink head. Only one fly, hook bend and point clearly visible.",
+  "sources": [
+   "https://charliesflybox.com/blogs/step-by-step-tutorials/gotcha",
+   "https://midcurrent.com/v2/how-to-tie-a-gotcha-bonefish-fly-the-pattern-sizes-and-steps-that-work/",
+   "https://deneki.com/2024/12/fly-tying-gotcha/",
+   "https://blog.saltyflytying.com/gotcha-%E2%80%A2-jim-mcvay/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "crazy-charlie",
+  "verdict": "wrong",
+  "recipe": "Crazy Charlie / Nasty Charlie (Bob Nauheim and Charlie Smith, Andros 1977; Charlie's Fly Box, Wikipedia): TMC 811S #2-8; silver bead-chain eyes lashed across the shank two or three hook-eye lengths back from the hook eye — Nauheim's innovation, and the first bonefish fly designed to ride hook point up; an underbody of pearl Krystal Flash / Flashabou wrapped along the shank and figure-eighted around the eyes, then overwrapped with clear D-Rib or V-Rib so the pearl shows through the translucent rib; a sparse, UNSTACKED white calf-tail wing tied in on the hook-point side reaching just past the bend, with a few strands of pearl flash as a topping. No tail. Original wing white; popular colourways white/pearl, tan, pink, chartreuse, brown.",
+  "hook": "TMC 811S short-shank stainless saltwater hook, #2-8. Fishes INVERTED, point-UP: 'the first bonefish fly to incorporate bead chain eyes ... and allow the fly to ride hook point up' (Wikipedia, citing the pattern's history). The calf-tail wing is on the hook-point side.",
+  "errors": [
+   "KNOWN SYSTEMIC BUG PRESENT: the inverted-orientation paragraph is pasted in TWICE, verbatim. The paragraph is correct for this pattern but the duplicate must be removed.",
+   "\"a body of clear vinyl rib over pink flash\" — the underbody flash is PEARL (Krystal Flash or Flashabou), not pink. Pink is a wing/thread colourway variant, not the standard underbody. The classic reads as a translucent silver-pearl body.",
+   "\"Silver bead-chain eyes just behind the hook eye\" — Charlie's Fly Box specifies two or three hook-eye lengths back from the hook eye, leaving a short bare front.",
+   "\"a sparse white calf-tail wing ... lying back past the bend\" — sources say the wing reaches JUST past the bend, and specify that the calf tail is deliberately left UNSTACKED, so the tips are ragged and staggered rather than an even brush.",
+   "\"a body of clear vinyl rib\" omits that the rib is also figure-eighted around the bead-chain eyes, so the translucent ribbing continues over the eye wraps."
+  ],
+  "missing": [
+   "Pearl flash topping over the calf-tail wing",
+   "Pearl (not pink) Krystal Flash/Flashabou underbody",
+   "Eye placement two to three hook-eye lengths back from the hook eye",
+   "That the calf tail is unstacked, with ragged staggered tips",
+   "That the vinyl/D-Rib is figure-eighted around the eyes as well as wrapped along the shank",
+   "Explicit statement that there is NO tail on this pattern"
+  ],
+  "invented": [
+   "\"pink flash\" as the underbody"
+  ],
+  "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is a \"Crazy Charlie\". Short-shank stainless saltwater hook, size 6. Construction from the eye back: a small neat thread head; then silver bead-chain eyes lashed across the shank with figure-eight wraps two or three hook-eye lengths back from the hook eye; immediately behind the eyes a sparse, deliberately unstacked white calf-tail wing tied on the hook-point side of the shank with ragged staggered tips reaching just past the hook bend, and a few strands of pearl Krystal Flash laid over it as a topping; and along the whole shank a body of pearl Krystal Flash wrapped as an underbody and figure-eighted around the eyes, then overwrapped with clear D-Rib so the pearl flash glows through the translucent segmented rib. There is NO tail. Classic white and pearl. The calf-tail wing and the hook point are on the SAME side of the shank and the fly fishes upside down: show the hook point facing UP with the white wing directly above the shank on the same side as the point, and the translucent ribbed pearl body below the shank. Only one fly, hook bend and point clearly visible.",
+  "sources": [
+   "https://charliesflybox.com/blogs/step-by-step-tutorials/crazy-charlie",
+   "https://en.wikipedia.org/wiki/Crazy_Charlie",
+   "https://flylordsmag.com/how-to-tie-the-crazy-charlie/",
+   "https://www.hatchmag.com/articles/easy-tie-bonefish-flies/7715250"
+  ],
+  "confidence": "high"
+ }
+]

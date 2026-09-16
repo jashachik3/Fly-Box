@@ -1,0 +1,348 @@
+[
+  {
+    "id": "parachute-adams",
+    "verdict": "minor",
+    "recipe": "Eye to bend: bare thread head, then a single upright post of white calf body hair or white poly yarn with one grizzly and one brown hackle wound horizontally in flat turns around the post base; slim gray (Adams gray) muskrat or Superfine dubbed body over the rear two-thirds of the shank; tail of mixed grizzly and brown hackle fibres, or moose body hair in the RiverKeeper/Kreft version, about one shank length. Kreft lists 'Post: Poly / Tail: Moose body hair / Body: Superfine gray dubbing / Hackle: Brown and grizzly'; Orvis-style commercial versions often use white calf body hair for the post and grizzly hackle alone.",
+    "hook": "Standard straight-eye dry-fly hook (Daiichi 1100/1180, TMC 100), #12-22. Rides point-DOWN, post and materials on top of the shank.",
+    "errors": [
+      "Tail material is stated as a certainty: 'a tail of mixed grizzly and brown hackle fibers'. Sources split — the RiverKeeper/Kreft pattern sheet says moose body hair, the traditional Adams tail is mixed brown and grizzly hackle fibres. Both are standard; the prompt should allow either rather than assert one.",
+      "'a white calf-hair post' is asserted where sources also commonly specify white poly yarn or a white turkey flat — a range, not a single answer."
+    ],
+    "missing": [
+      "The bare thread head behind the eye (a visible feature of a well-tied parachute).",
+      "Post height — roughly one hook-shank tall.",
+      "Tail length — about one shank length.",
+      "An explicit statement that there is NO collar hackle standing around the shank; all hackle lies horizontal around the post. Without this an image model frequently adds a standard dry-fly collar as well."
+    ],
+    "invented": [],
+    "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is a \"Parachute Adams\". Standard straight-eye dry-fly hook, size 12-22. From the eye back: a small bare thread head; a single upright post of white calf body hair (white poly yarn is equally standard) standing vertically about one hook-shank tall, with one grizzly and one brown hackle wound horizontally in flat turns around the base of that post so the hackle fibres radiate outward parallel to the shank; a slim tapered body of gray Adams-gray muskrat or superfine dubbing covering the rear two-thirds of the shank; a tail of mixed grizzly and brown hackle fibres (moose body hair in some recipes) about one shank length, tied straight back over the bend. There is NO collar hackle standing up around the shank — every hackle turn is horizontal around the post. Hook rides point-down: hook point facing DOWN, post and all materials on top of the shank, on the opposite side from the point. Only one fly, hook bend and point clearly visible.",
+    "sources": [
+      "https://www.johnkreft.com/mayfly-fly-patterns/parachute-adams/",
+      "https://en.wikipedia.org/wiki/Adams_(dry_fly)",
+      "https://www.flytyer.com/tie-perfect-adams/2/"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "bwo-comparadun",
+    "verdict": "minor",
+    "recipe": "Eye to bend: small thread head; a single wing of DUN-DYED (grey) deer hair tied upright about one-third back from the eye and flared into a flat 180-degree semicircle across the top of the shank, wing length equal to the hook; no hackle at all; slim light-olive dubbed abdomen; two dun Microfibett tails split widely into outriggers, about one and a half times the hook length. Loren Williams: 'Hook: Partridge SLD #14-#22 / Wing: Dyed dun deer hair / Tail: Dun Microfibetts / Body: Lt. Olive Fly Rite or Superfine Dubbing'.",
+    "hook": "Standard straight dry-fly hook (Partridge SLD, TMC 100), #16-22. Rides point-DOWN, wing on top of the shank.",
+    "errors": [
+      "'a fan of natural deer hair' — the BWO version is specified with dun-dyed (grey) deer hair in the written recipe. Natural deer is used on tan/cream comparaduns; sources do vary, but 'natural' as the default colour for a BWO is not what the recipe says.",
+      "'flared 180 degrees over the top of the thorax' understates where the wing sits — it is tied about one-third of the shank back from the eye, and the 180-degree fan is a flat semicircle spanning the TOP half only, side to side above the shank. 'over the top of the thorax' can read as a wing lying back over the body."
+    ],
+    "missing": [
+      "Tails must be split WIDELY apart into a V of outriggers (they are what holds the fly upright in place of hackle), about 1.5x hook length.",
+      "Wing length equal to the hook length.",
+      "Body colour specification — light olive.",
+      "The explicit 'no hackle' is present but should be reinforced as 'no hackle anywhere on the fly', since image models routinely add a collar to a deer-hair dry."
+    ],
+    "invented": [],
+    "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is a \"BWO Comparadun\". Standard straight dry-fly hook, size 16-22. From the eye back: a small thread head; a single wing of dun-dyed grey deer hair tied upright about one-third of the shank back from the eye and flared into a flat 180-degree semicircle spanning side to side across the TOP of the shank only, wing length equal to the hook length; NO hackle anywhere on the fly; a slim tapered light-olive dubbed abdomen running to the bend; two dun Microfibett tails split widely apart into a V of outriggers, about one and a half hook lengths long, lying in the horizontal plane. Hook rides point-down: hook point facing DOWN, the deer-hair wing on top of the shank on the opposite side from the point. Only one fly, hook bend and point clearly visible.",
+    "sources": [
+      "https://www.lwflies.com/tutorials/dry-flies/bwo-comparadun",
+      "https://news.orvis.com/fly-fishing/video-how-to-tie-a-sulphur-comparadun",
+      "https://globalflyfisher.com/patterns-tie-better/comparadone"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "pmd-comparadun",
+    "verdict": "minor",
+    "recipe": "Same architecture as the BWO Comparadun with PMD colours. Eye to bend: thread head; upright wing of natural light/tan coastal deer hair (or bleached deer) flared into a flat 180-degree semicircle over the top of the shank, wing length equal to the hook; no hackle; slim pale yellow to pale yellowish-olive Superfine dubbed body; two widely split pale-dun Microfibett tails about 1.5x hook length.",
+    "hook": "Standard straight dry-fly hook (TMC 100, Partridge SLD), #14-18. Rides point-DOWN, wing on top of the shank.",
+    "errors": [
+      "'Deer-hair wing fanned 180 degrees upright over the thorax' — same wording problem as the BWO: the wing sits about a third back from the eye and fans side to side across the top of the shank, it does not lie over the thorax."
+    ],
+    "missing": [
+      "The prompt does not use the 'From the eye back:' construction the rest of the house style uses, so there is no material order for the image model to follow.",
+      "Wing colour — natural light tan / bleached coastal deer hair.",
+      "Wing length equal to hook length.",
+      "Tails must be split WIDELY into outriggers, pale dun Microfibetts, about 1.5x hook length.",
+      "'no tail' is not an issue here but the total absence of hackle should be stated as 'no hackle anywhere'."
+    ],
+    "invented": [],
+    "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is a \"PMD Comparadun\". Standard straight dry-fly hook, size 14-18. From the eye back: a small thread head; a single wing of natural light tan coastal deer hair tied upright about one-third of the shank back from the eye and flared into a flat 180-degree semicircle spanning side to side across the TOP of the shank only, wing length equal to the hook length; NO hackle anywhere on the fly; a slim tapered pale yellow to pale yellowish-olive dubbed body running to the bend; two pale dun Microfibett tails split widely apart into a V of outriggers, about one and a half hook lengths long. Hook rides point-down: hook point facing DOWN, the deer-hair wing on top of the shank on the opposite side from the point. Only one fly, hook bend and point clearly visible.",
+    "sources": [
+      "https://www.lwflies.com/tutorials/dry-flies/bwo-comparadun",
+      "https://news.orvis.com/fly-fishing/video-how-to-tie-a-sulphur-comparadun",
+      "https://charliesflybox.com/blogs/step-by-step-tutorials/sparkle-dun"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "sparkle-dun",
+    "verdict": "minor",
+    "recipe": "Craig Mathews / Blue Ribbon Flies, West Yellowstone. Three materials only. Eye to bend: thread head; upright wing of bleached coastal deer hair (or early-season elk) flared into a flat 180-degree semicircle over the top of the shank, wing length equal to one shank length; no hackle; dubbed body to match the hatch (Charlie's Fly Box PMD version: pale yellow Superfine); and in place of a tail a trailing shuck of rusty brown Z-Lon or Darlon (amber or gold crinkled Zelon in the Blue Ribbon/RiverKeeper listing), equal in length to the hook shank with irregular cut ends.",
+    "hook": "TMC 100 / standard straight dry-fly hook, #14-22. Rides point-DOWN, wing on top of the shank.",
+    "errors": [
+      "'a short trailing shuck of brown Z-lon yarn off the bend' — the shuck is not short: Charlie's Fly Box specifies it 'equal in length to the hook shank', with irregular, ragged cut ends. 'Short' will produce a stub.",
+      "Shuck colour is given as a single value 'brown'. Sources give a range: rusty brown Z-Lon/Darlon (Charlie's Fly Box) or amber/gold crinkled Zelon (Blue Ribbon Flies / RiverKeeper)."
+    ],
+    "missing": [
+      "Wing material specifics — bleached coastal deer hair or early-season elk — and the 180-degree fan (the prompt says only 'fanned upright').",
+      "Wing length equal to one shank length.",
+      "Body colour is unspecified, so the image model will invent one; give a colourway (e.g. pale yellow for the PMD, olive for the BWO).",
+      "An explicit 'no tail at all — the shuck replaces the tail' statement; otherwise the model tends to add split tails as well as the shuck."
+    ],
+    "invented": [],
+    "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is a \"Sparkle Dun\". Standard straight dry-fly hook (TMC 100), size 14-22. From the eye back: a small thread head; a single wing of bleached coastal deer hair tied upright about one-third of the shank back from the eye and flared into a flat 180-degree semicircle spanning side to side across the TOP of the shank only, wing height equal to one hook-shank length; NO hackle anywhere on the fly; a slim tapered pale yellow superfine dubbed body running to the bend; and in place of any tail, a trailing shuck of rusty brown or amber crinkled Z-Lon yarn tied in at the bend, equal in length to the hook shank, with ragged uneven cut ends. There are no split tails — the shuck is the only thing trailing behind the bend. Hook rides point-down: hook point facing DOWN, the deer-hair wing on top of the shank on the opposite side from the point. Only one fly, hook bend and point clearly visible.",
+    "sources": [
+      "https://charliesflybox.com/blogs/step-by-step-tutorials/sparkle-dun",
+      "https://www.johnkreft.com/mayfly-fly-patterns/sparkle-dun-mayfly/",
+      "https://howtoflyfish.orvis.com/fly-tying-videos/dry-flies/1054-bwo_improved_sparkle_dun"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "hendrickson-dry",
+    "verdict": "wrong",
+    "recipe": "These are two different flies and the prompt describes neither correctly. Art Flick's LIGHT HENDRICKSON (female dun), eye to bend: bare thread head, two upright divided wings of barred lemon wood-duck flank equal to the shank length, a collar of blue-dun rooster hackle wound BOTH in front of and behind the wing bases, a thin slightly tapered body of pale pink urine-stained vixen red-fox belly fur, and blue-dun rooster hackle-fibre tails slightly longer than the shank. Art Flick's RED QUILL (male dun) is the same fly with a body of stripped Rhode Island Red rooster hackle quill — a hard, glossy, distinctly SEGMENTED reddish-brown quill body, not dubbing — with wood-duck wings, medium-dun tail and medium-dun hackle.",
+    "hook": "Standard straight dry-fly hook (Mustad 94840, Daiichi 1100/1180), #12-16. Rides point-DOWN, wings on top of the shank.",
+    "errors": [
+      "'The fly is a \"Hendrickson (Red Quill / Light Hendrickson)\"' — the prompt names two distinct patterns and then gives one body. An image model cannot draw both; this needs to be split into two flies or committed to one.",
+      "'slim pinkish-tan dubbed body' is only the Light Hendrickson. The Red Quill's body is a stripped Rhode Island Red hackle quill — a smooth, glossy, segmented reddish-brown quill wrap. Labelling a dubbed body 'Red Quill' is a straight factual error.",
+      "'stiff dun hackle wound around the shank behind the wings' — wrong placement. Catskill-style hackle is wound both IN FRONT OF and BEHIND the upright wings, with the front turns supporting the wings. Hackle only behind the wings is not a Catskill dry.",
+      "'long stiff hackle-fiber tails' understates the colour: Flick specifies blue-dun (Light Hendrickson) / medium-dun (Red Quill) rooster hackle fibres."
+    ],
+    "missing": [
+      "The bare, thread-covered shank behind the hook eye — the signature Catskill feature ('some bare shank behind the hook eye', Orvis).",
+      "Wing material named precisely as BARRED LEMON WOOD-DUCK FLANK fibres (the prompt says 'wood-duck flank' but does not call out the barring, which is the visual identifier).",
+      "Wing height — equal to the hook shank.",
+      "Tail length — slightly longer than the hook shank.",
+      "The overall Catskill 'sparse' character; these flies are notably thin-bodied and sparsely hackled."
+    ],
+    "invented": [
+      "Nothing is invented outright, but merging the Red Quill and Light Hendrickson into one description creates a fly that exists in no recipe."
+    ],
+    "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is a \"Light Hendrickson\", Art Flick's classic Catskill-style dry fly. Standard straight dry-fly hook (Mustad 94840), size 12-14. From the eye back: a short length of bare thread-wrapped shank behind the eye; two upright, divided wings of barred lemon wood-duck flank fibres, wing height equal to the hook shank; a sparse collar of stiff blue-dun rooster hackle wound BOTH in front of and behind the base of the wings; a very slim, slightly tapered body of pale pink-cream fox-belly fur dubbing; long stiff blue-dun rooster hackle-fibre tails, slightly longer than the hook shank, tied straight back over the bend. The whole fly is sparse and elegant in classic Catskill proportions. Hook rides point-down: hook point facing DOWN, wings and all materials on top of the shank, on the opposite side from the point. Only one fly, hook bend and point clearly visible.",
+    "sources": [
+      "https://www.swtu.org/2026/04/06/light-hendrickson-art-flick/",
+      "https://www.johnkreft.com/mayfly-fly-patterns/art-flicks-red-quill/",
+      "https://news.orvis.com/fly-fishing/video-how-to-tie-a-catskills-style-march-brown-dry-fly",
+      "https://www.johnkreft.com/tying-catskill-dry-flies/"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "march-brown-dry",
+    "verdict": "minor",
+    "recipe": "The American March Brown (Art Flick / Catskill), eye to bend: bare thread head; two upright divided wings of BARRED LEMON WOOD-DUCK FLANK; a mixed collar of brown (dark ginger) and grizzly hackle wound both in front of and behind the wings; a slim fawn/tan body of red-fox belly fur dubbing, ribbed with brown thread in Flick's original; a tail of reddish-brown or dark ginger hackle fibres. Note that sources disagree by region: the British/European March Brown (Rhithrogena germanica) is an entirely different dressing — hare's-ear body ribbed yellow, partridge or hen-pheasant wing, brown partridge hackle.",
+    "hook": "Standard straight dry-fly hook (Mustad 94840), #10-14. Rides point-DOWN, wings on top of the shank.",
+    "errors": [
+      "'upright mottled wings' is too vague and is the fly's key identifier. The American recipe specifies barred lemon wood-duck flank fibres, upright and divided into two wings. 'Mottled wings' invites an image model to draw solid mottled turkey-quill slip wings, which is a different fly.",
+      "'brown and grizzly hackle collar' is the right mix but omits that in Catskill style the hackle is wound both in front of and behind the wings, not as a single collar in front."
+    ],
+    "missing": [
+      "The brown-thread rib over the body (in Flick's original; several modern listings drop it, so it is a range).",
+      "Body material named — fawn/tan red-fox belly fur; 'tan dubbed body' is close but unspecific.",
+      "Tail colour — reddish-brown / dark ginger hackle fibres.",
+      "The bare thread-covered shank behind the eye (Catskill signature).",
+      "Wing height equal to the shank, tail about one shank length.",
+      "No mention that the two wings are DIVIDED (split into a V seen from the front)."
+    ],
+    "invented": [],
+    "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is an \"American March Brown\", Catskill-style dry fly. Standard straight dry-fly hook (Mustad 94840), size 10-14. From the eye back: a short length of bare thread-wrapped shank behind the eye; two upright, divided wings of barred lemon wood-duck flank fibres, wing height equal to the hook shank; a mixed collar of brown (dark ginger) and grizzly hackle wound BOTH in front of and behind the base of the wings, giving a barred brown-and-grey look; a slim fawn-tan red-fox-belly fur dubbed body, lightly ribbed with brown thread; a tail of reddish-brown dark ginger hackle fibres about one shank length, tied straight back over the bend. Sparse, classic Catskill proportions. Hook rides point-down: hook point facing DOWN, wings and all materials on top of the shank, on the opposite side from the point. Only one fly, hook bend and point clearly visible.",
+    "sources": [
+      "https://traderscreek.com/american-march-brown-dry-fly-fly-recipe/",
+      "https://news.orvis.com/fly-fishing/video-how-to-tie-a-catskills-style-march-brown-dry-fly",
+      "https://www.johnkreft.com/art-flicks-march-brown-dry-fly/"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "green-drake-extended",
+    "verdict": "uncertain",
+    "recipe": "There is no single authoritative recipe — this is a family of commercial and tyer-specific patterns and the published dressings genuinely disagree. Umpqua's BDE Extended Body Green Drake: 'a foam extended body and poly wing', olive, sizes 10-12. Orvis's Travis Extended Body Green Drake: extended body plus 'a parachute post'. The Caddis Fly Shop tutorial version: TMC100 size 8, tail moose body hair, extended body of green-dyed deer hair with BWO Superfine dubbing, wing of dark-dyed deer hair plus a hot-orange para post, black saddle hackle. Common ground: a slim segmented olive body carried well past the bend, two or three dark tail fibres at its tip, a dark upright wing/post and a hackle at the front, most often wound parachute-style around the post.",
+    "hook": "Standard or slightly long straight dry-fly hook (TMC 100 size 8, or #10-12 for commercial versions). Rides point-DOWN, extended body and wing on top of the shank.",
+    "errors": [
+      "'olive foam or dubbed extended body' — olive is the WESTERN green drake (Drunella grandis). The Eastern Green Drake (Ephemera guttulata) is pale cream-yellow with dark markings, and 'Green Drake' patterns sold in the East are creamy, not olive. The prompt should say which.",
+      "'parachute hackle' is stated without a post for it to wind around, while the wing is described as 'upright dark deer-hair or synthetic wing'. Unless the prompt says the hackle winds horizontally around the base of that upright wing/post, an image model will draw a vertical collar hackle instead."
+    ],
+    "missing": [
+      "How far the extended body reaches past the bend — roughly one shank length in the published versions.",
+      "That the extended body is visibly SEGMENTED (banded), which is what makes these patterns read as drakes.",
+      "Tail material — dark moose body hair in the written tutorial; the prompt just says 'three tails'.",
+      "A thorax/dubbed section over the hook shank itself, forward of where the extended body joins."
+    ],
+    "invented": [
+      "'three tails at its tip' is plausible for the natural (both Ephemera guttulata and Drunella grandis have three tails) but the written tying recipes found do not specify a count — the Caddis Fly Shop sheet just says 'Moose Body Hair'. Treat it as a reasonable choice, not a sourced one."
+    ],
+    "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is an \"Extended Body Green Drake\" in the Western olive colourway. Large standard dry-fly hook, size 8-12. From the eye back: a small thread head; a single upright post of dark grey-dun deer hair or dark poly yarn standing vertically, with a grizzly or dark dun hackle wound horizontally in flat turns around the BASE of that post, parachute style, so the hackle fibres lie parallel to the shank; an olive dubbed thorax over the hook shank; then the body continuing rearward and well past the hook bend as a slim, clearly segmented, banded olive extended body of foam or wrapped dyed deer hair, reaching about one shank length beyond the bend; three dark moose-hair tail fibres splayed at the very tip of that extended body. No collar hackle standing around the shank — all hackle is horizontal around the post. Hook rides point-down: hook point facing DOWN, post, thorax and extended body all on top of the shank, on the opposite side from the point. Only one fly, hook bend and point clearly visible.",
+    "sources": [
+      "https://www.umpqua.com/bde-ext/",
+      "https://www.orvis.com/product/travis-extended-body-green-drake/0154.html",
+      "https://oregonflyfishingblog.com/2021/08/01/extended-body-green-drake-fly-tying-instructional-video/"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "trico-dun",
+    "verdict": "wrong",
+    "recipe": "Eye to bend: tiny thread head; a short upright wing of LIGHT GREY / pale dun poly yarn or dun CDC; a distinctly bulky blackish thorax; a very slim abdomen — olive on the female dun with a blackish thorax, all black on the male dun; three fine pale tails, considerably longer than the body. Often tied thorax-style with a grizzly hackle clipped flat underneath the shank, or with no hackle at all when a CDC wing is used. WiFlyFisher: 'Female Trico duns have an olive-colored body and blackish thorax'; 'Male Trico duns are mainly black'; recommended dressing is 'a thorax pattern with a light gray poly wing and a grizzly hackle clipped underneath the hook shank, or just a CDC wing'; 'Tricos have 3 tails'.",
+    "hook": "Tiny standard straight dry-fly hook, #20-26. Rides point-DOWN, wing on top of the shank.",
+    "errors": [
+      "'a small upright white poly or CDC wing' — WRONG for the dun. The Trico DUN has a pale grey/light dun wing; the WHITE poly wing is the mark of the Trico SPINNER. Since this batch also contains a Trico Spinner, a white-winged dun makes the two images indistinguishable and teaches the wrong identifier.",
+      "'split tails' — Tricorythodes has THREE tails, not two; the standard dressing uses three fine fibres, and they are long relative to this tiny body.",
+      "'Slim black or olive thread body' treats black and olive as interchangeable. They are sex-specific: male all black, female olive abdomen with a blackish thorax. The prompt should say which, and should include the dark thorax on the olive version."
+    ],
+    "missing": [
+      "The bulky, distinctly darker thorax that gives the thorax-style dun its shape.",
+      "Hackle treatment — either a grizzly hackle clipped flat underneath the shank, or no hackle when tied with CDC.",
+      "Tail length — well over one shank length on this tiny hook."
+    ],
+    "invented": [
+      "The white wing is not supported for the dun in any recipe found; it belongs to the spinner."
+    ],
+    "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is a \"Trico Dun\" (female). Tiny standard straight dry-fly hook, size 20-26. From the eye back: a minute thread head; a short upright wing of PALE GREY light-dun poly yarn or dun CDC standing up over the thorax — grey, not white; a noticeably bulky blackish dubbed thorax; a very slim olive thread abdomen tapering back to the bend; three fine pale tails, clearly longer than the hook shank, slightly splayed. Either no hackle at all, or a grizzly hackle trimmed flat flush underneath the shank. Hook rides point-down: hook point facing DOWN, wing and all materials on top of the shank, on the opposite side from the point. Only one fly, hook bend and point clearly visible.",
+    "sources": [
+      "https://www.wiflyfisher.com/Trico-Hatch.asp",
+      "https://www.umpqua.com/trico-dun/"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "trico-spinner",
+    "verdict": "minor",
+    "recipe": "Eye to bend: tiny thread head; white poly or organza wings tied flat and spent, straight out to each side perpendicular to the shank; a bulky black poly-dubbed thorax; a very slim abdomen — black on the male, creamy-white to olive on the female after egg-laying; white or pale-dun tails, three of them, long and splayed (some tyers omit the tails entirely). WiFlyFisher spinner recipe: 'white-colored split tails (or none at all) with a body of either black, olive, or white thread, a bulky black poly dubbed thorax, and white poly or organza wings tied spent'. No hackle.",
+    "hook": "Tiny standard straight dry-fly hook, #20-26. Rides point-DOWN, wings on top of / level with the shank.",
+    "errors": [
+      "'splayed tails' does not say how many or what colour — Tricos have three tails and the dressing calls for white or pale fibres, long relative to the tiny body."
+    ],
+    "missing": [
+      "The bulky BLACK dubbed thorax, which is a defining lump on this fly and is the main thing distinguishing it in a macro photo from a plain thread-bodied midge.",
+      "An explicit 'no hackle'.",
+      "That the wings lie in the horizontal plane, perpendicular to the shank, so from a side profile they read as thin flat slivers rather than upright tufts.",
+      "The female variant (creamy-white to olive abdomen) as an acknowledged alternative."
+    ],
+    "invented": [],
+    "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is a \"Trico Spinner\" (male). Tiny standard straight dry-fly hook, size 20-26. From the eye back: a minute thread head; two white poly yarn or organza wings tied flat and fully spent, sticking straight out to each side perpendicular to the shank and lying in the horizontal plane, so in side profile they read as thin flat slivers rather than upright tufts; a noticeably bulky black dubbed thorax; a very slim black thread abdomen tapering back to the bend; three long white or pale-dun tails, well over one shank length, splayed apart. NO hackle anywhere on the fly. Hook rides point-down: hook point facing DOWN, wings and all materials on top of the shank, on the opposite side from the point. Only one fly, hook bend and point clearly visible.",
+    "sources": [
+      "https://www.wiflyfisher.com/Trico-Hatch.asp"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "rusty-spinner",
+    "verdict": "minor",
+    "recipe": "Eye to bend: small thread head; wings of LIGHT DUN (sometimes white) poly yarn tied flat and spent, straight out to each side perpendicular to the shank; a slightly fuller rusty/cinnamon-brown dubbed thorax; a slim rusty-brown dubbed or turkey-biot abdomen; two pale-dun Microfibett tails split into a wide V, about one and a half hook lengths, splayed roughly 45 degrees apart. No hackle. Loren Williams: 'Wings: Light Dun Poly yarn or similar buoyant synthetic yarn / Tails: Microfibetts / Body: Cinnamon Brown Dubbing'.",
+    "hook": "Standard straight dry-fly hook (Partridge SLD, TMC 100), #12-20. Rides point-DOWN, wings on top of / level with the shank.",
+    "errors": [
+      "'clear or white poly wings' — 'clear' is not a material in any recipe found and will push an image model toward transparent glassy or cellophane wings. The written recipes specify light dun poly yarn, with white as the common alternative.",
+      "'split tails' without a count, length or splay angle. The recipe gives two Microfibetts, about 1.5x hook length, split to roughly 45 degrees."
+    ],
+    "missing": [
+      "The thorax — a slightly fuller dubbed section at the wing root, which is what gives the spinner its profile.",
+      "An explicit 'no hackle'.",
+      "That the wings lie in the horizontal plane, perpendicular to the shank.",
+      "Body material options — rusty/cinnamon-brown dubbing or a rust turkey biot for a segmented look."
+    ],
+    "invented": [
+      "'clear' wings."
+    ],
+    "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is a \"Rusty Spinner\". Standard straight dry-fly hook, size 12-20. From the eye back: a small thread head; two light dun (pale grey) poly yarn wings tied flat and fully spent, sticking straight out to each side perpendicular to the shank and lying in the horizontal plane; a slightly fuller rusty cinnamon-brown dubbed thorax at the wing root; a slim rusty-brown dubbed abdomen, lightly segmented, tapering back to the bend; two pale dun Microfibett tails split into a wide V about 45 degrees apart, roughly one and a half hook lengths long. NO hackle anywhere on the fly. Hook rides point-down: hook point facing DOWN, wings and all materials on top of the shank, on the opposite side from the point. Only one fly, hook bend and point clearly visible.",
+    "sources": [
+      "https://www.lwflies.com/tutorials/dry-flies/poly-wing-rusty-spinner",
+      "https://howtoflyfish.orvis.com/fly-tying-videos/dry-flies/713-poly_wing_rusty_spinner",
+      "https://news.orvis.com/fly-fishing/video-how-to-tie-the-rusty-spinner"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "elk-hair-caddis",
+    "verdict": "minor",
+    "recipe": "Al Troth's original, eye to bend: the trimmed butt ends of the elk hair form a squared-off bristly head just behind the eye; the wing of light elk flank hair lies back over the body in a low tent, extending to about the end of the bend; a body of hare's-ear dubbing dyed to match the insect, palmered along its whole length with a dark red / furnace (or ginger) hackle, and counter-ribbed with FINE GOLD WIRE which locks the palmered hackle down; no tail. Troth's own listing: 'Body: Hare's-ear dubbing... Rib: Fine gold wire. Hackle: Dark red or furnace. Wing: Elk flank hair.'",
+    "hook": "Standard straight dry-fly hook (Mustad 94833/94838, TMC 100, Daiichi 1100), #6-20 (commonly 12-18). Rides point-DOWN, wing on top of the shank.",
+    "errors": [
+      "'brown hackle palmered along a tan dubbed body' — the hackle colour in Troth's own recipe is dark red or furnace (ginger in other listings). 'Brown' is close but the furnace/dark-red variegation is what the original specifies; sources give a range from ginger through brown to furnace."
+    ],
+    "missing": [
+      "The FINE GOLD WIRE rib, counter-wrapped over the palmered hackle. This is in every authoritative listing of the pattern and is clearly visible in a macro shot — its omission is the most significant gap in this prompt.",
+      "Body material named as hare's-ear dubbing (spiky, guard-hair texture), not just 'tan dubbed body'.",
+      "Wing length — extends to about the end of the hook bend.",
+      "That the elk-hair butts are trimmed square into a bristly flared head, which the prompt describes as 'a trimmed elk-hair butt' but without the flared/squared character."
+    ],
+    "invented": [],
+    "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is an \"Elk Hair Caddis\" (Al Troth). Standard straight dry-fly hook, size 12-18. From the eye back: the trimmed, squared-off, bristly flared butt ends of the elk hair forming a short head just behind the eye; a wing of light tan elk flank hair lying back low over the body in a tent shape, reaching to about the end of the hook bend; underneath it a spiky tan hare's-ear dubbed body running the length of the shank, with a brown, ginger or furnace hackle palmered in open spirals along that whole body, and a fine gold wire rib counter-wrapped over the palmered hackle in the opposite direction to lock it down; NO tail of any kind behind the bend. Hook rides point-down: hook point facing DOWN, wing and all materials on top of the shank, on the opposite side from the point. Only one fly, hook bend and point clearly visible.",
+    "sources": [
+      "https://www.flytyer.com/elk-hair-caddis/",
+      "https://en.wikipedia.org/wiki/Elk_Hair_Caddis",
+      "http://www.rockyrivertu.org/troth-elk-hair-caddis-ffi.html"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "x-caddis",
+    "verdict": "minor",
+    "recipe": "Craig Mathews / Blue Ribbon Flies. Eye to bend: the trimmed butt ends of the wing hair form the head; a wing of NATURAL DEER HAIR (not elk), cleaned and stacked, lying back over the body in a tent to about the end of the bend; a dubbed body (olive, amber, tan or black); NO hackle and NO tail, replaced by a trailing shuck of crinkled Zelon — 'Amber or gold crinkled Zelon' (RiverKeeper/Blue Ribbon) or 'Olive Zelon' (Orvis), about a hook-shank long with ragged ends.",
+    "hook": "TMC 100 / Daiichi 1180 / standard straight dry-fly hook, #12-20. Rides point-DOWN, wing on top of the shank.",
+    "errors": [
+      "'Elk-hair wing' — the recipe specifies DEER hair. RiverKeeper: 'Wing: X caddis deer hair'. Orvis: 'Natural deer hair, cleaned and stacked. (The pattern uses deer hair, not elk hair.)' Deer hair is finer and flares more than elk, so this is a visible difference, and the whole point of the X-Caddis as distinct from the Elk Hair Caddis in this batch.",
+      "'a short trailing Z-lon shuck' — the shuck is about one hook-shank long, not short."
+    ],
+    "missing": [
+      "The trimmed deer-hair butt ends forming the head ('Head: Deer-hair butts', Orvis).",
+      "Shuck colour — amber/gold, or olive to match the body.",
+      "Body colour — olive, amber, tan or black; the prompt just says 'dubbed body'.",
+      "An explicit 'no tail — the shuck replaces it'."
+    ],
+    "invented": [],
+    "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is an \"X-Caddis\" (Craig Mathews, Blue Ribbon Flies). Standard straight dry-fly hook (TMC 100), size 12-18. From the eye back: the trimmed, squared-off butt ends of the wing hair forming a short bristly head just behind the eye; a wing of natural DEER hair — not elk — cleaned and stacked, lying back low over the body in a tent shape to about the end of the hook bend; a slim olive dubbed body running the length of the shank; NO hackle anywhere and NO tail; instead a trailing shuck of amber or olive crinkled Zelon yarn tied in at the bend, about one hook-shank long, with ragged uneven ends. Hook rides point-down: hook point facing DOWN, wing and all materials on top of the shank, on the opposite side from the point. Only one fly, hook bend and point clearly visible.",
+    "sources": [
+      "https://www.johnkreft.com/caddis-fly-patterns/x-caddis/",
+      "https://howtoflyfish.orvis.com/fly-tying-videos/dry-flies/716-olive_x_caddis",
+      "https://caddischronicles.com/2017/03/the-x-caddis.html"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "cdc-caddis",
+    "verdict": "uncertain",
+    "recipe": "'CDC Caddis' is a family name, not one dressing, and the published recipes genuinely differ. The Fly Bench version, eye to bend: head of olive Superfine dubbing; overwing of natural grey CDC feathers tented back over the body; an underwing of light grey Sparkle Emerger Yarn; body of olive Superfine dubbing; no hackle ('No hackle is needed — CDC provides both buoyancy and movement'); no tail; hook TMC 100 #12-16. Hans Weilenmann's CDC & Elk (Global FlyFisher) is a different construction again — a single CDC feather palmered as the body with a deer/elk hair overwing. What is common to all: a slim dubbed or CDC body, a soft CDC wing tented over the back, no hackle collar and no tail.",
+    "hook": "Standard straight dry-fly hook (TMC 100), #12-20. Rides point-DOWN, wing on top of the shank.",
+    "errors": [
+      "Nothing in the prompt is contradicted by the sources, but the prompt describes a generic construction that no single named recipe matches, and sources disagree on whether there is an underwing, a dubbed head, or a palmered CDC body."
+    ],
+    "missing": [
+      "The dubbed head in front of the wing (The Fly Bench: 'Head: Olive Superfine Dubbing') — without it the wing butts sit bare against the eye.",
+      "The light grey sparkle-yarn underwing in that version.",
+      "Body colour — olive is the common default.",
+      "Wing length — back to about the end of the bend.",
+      "That CDC fibres look soft, wispy and slightly translucent rather than like a stiff hair wing; without this the image model tends to draw a deer-hair wing."
+    ],
+    "invented": [],
+    "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is a \"CDC Caddis\". Standard straight dry-fly hook (TMC 100), size 14-20. From the eye back: a small olive dubbed head; an overwing of one or two natural grey CDC feathers laid back over the body in a low tent shape to about the end of the hook bend — soft, wispy, slightly translucent barbules, clearly a feather wing and not a stiff hair wing; optionally a sparse underwing of light grey sparkle yarn beneath it; a slim olive superfine dubbed body running the length of the shank; NO hackle collar anywhere and NO tail. A sparse, delicate fly that sits low. Hook rides point-down: hook point facing DOWN, wing and all materials on top of the shank, on the opposite side from the point. Only one fly, hook bend and point clearly visible.",
+    "sources": [
+      "https://theflybench.com/patterns/cdc-caddis",
+      "https://globalflyfisher.com/patterns-tie-better/cdc-elk-family",
+      "https://www.flyfishfood.com/blogs/dry-fly-tutorials/cdc-biot-caddis"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "stimulator",
+    "verdict": "minor",
+    "recipe": "Randall Kaufmann's. Eye to bend: fluorescent fire-orange thread head; a grizzly hackle PALMERED in open turns over a hot-orange / reddish-orange sparkle-dubbed thorax; a wing of natural elk or deer hair lying back over the body to about the end of the bend; a long yellow (golden stone) or orange (salmonfly) dubbed abdomen palmered with a brown hackle one or two sizes smaller than the thorax hackle, the whole abdomen counter-ribbed with FINE GOLD WIRE; a short flared bunch of elk or deer hair as the tail. RiverKeeper's Kaufmann salmonfly sheet: 'Hook: TMC 200R or Daiichi 1270 #4-6 / Thread: 6/0 fluorescent fire orange / Tail: Short flared bunch of elk or deer hair / Abdomen rib: Fine gold wire / Abdomen hackle: Brown - 1 or 2 sizes smaller / Wing: Elk or deer hair / Thorax: Reddish orange sparkle dubbing / Thorax hackle: Grizzly, slightly longer than abdomen hackle'. Orvis's yellow version uses a copper-wire rib and a hot-orange Ice Dub head.",
+    "hook": "TMC 200R / Daiichi 1260 or 1270 — a 3XL LONG, curved or humped-shank dry-fly hook, #4-16. Rides point-DOWN, wing on top of the shank.",
+    "errors": [
+      "'Long-shank dry-fly hook' — the specified hook (TMC 200R / Daiichi 1260/1270) is 3XL long AND curved/humped along the shank, not a straight long-shank. The curve is a visible part of the fly's silhouette.",
+      "'a bushy grizzly hackle collar over an orange dubbed thorax' — the grizzly is PALMERED in open spiral turns across the whole thorax, not wound as a single dense collar at the front. Kaufmann also specifies it slightly longer than the abdomen hackle."
+    ],
+    "missing": [
+      "The fine gold wire (copper in the Orvis yellow version) counter-rib over the abdomen, which locks the palmered brown hackle down and is clearly visible in a macro shot.",
+      "The fluorescent fire-orange / red thread head showing at the eye.",
+      "That the abdomen hackle is a size or two SHORTER than the thorax hackle, giving the fly its tapered, front-heavy profile.",
+      "Tail described as a SHORT FLARED bunch of elk or deer hair (the prompt says 'a short elk-hair tail' but not flared).",
+      "Wing length — back to about the end of the bend."
+    ],
+    "invented": [],
+    "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is a \"Stimulator\" (Randall Kaufmann), yellow/golden-stone colourway. 3XL long, curved humped-shank dry-fly hook (TMC 200R or Daiichi 1270), size 6-14 — the shank visibly curves, it is not straight. From the eye back: a fluorescent fire-orange thread head; a grizzly hackle palmered in open spiral turns across a hot-orange sparkle-dubbed thorax, the grizzly fibres bushy and slightly longer than the hackle behind them; a wing of natural elk hair lying back over the body to about the end of the hook bend; a long yellow dubbed abdomen filling the rest of the curved shank, palmered in open turns with a brown hackle one or two sizes shorter than the grizzly, and counter-ribbed with fine gold wire spiralled the opposite way over that palmered hackle; a short, flared bunch of natural elk hair as the tail at the bend. Hook rides point-down: hook point facing DOWN, wing and all materials on top of the shank, on the opposite side from the point. Only one fly, hook bend and point clearly visible.",
+    "sources": [
+      "https://www.johnkreft.com/stonefly-fly-patterns/kaufmanns-stimulator-salmonfly/",
+      "https://news.orvis.com/fly-fishing/Tying-the-Yellow-Stimulator",
+      "https://www.flyfishfood.com/blogs/dry-fly-tutorials/hi-vis-stimulator"
+    ],
+    "confidence": "high"
+  }
+]

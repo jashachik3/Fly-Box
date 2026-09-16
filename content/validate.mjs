@@ -191,7 +191,8 @@ export function validate(tables) {
     }
     const fly = tables.flies.find((x) => x.id === m.fly);
     const org = tables.organisms.find((x) => x.id === m.organism);
-    if (fly && org && fly.water !== org.water) {
+    // 'both' is not a mismatch — plenty of patterns cross over.
+    if (fly && org && fly.water !== org.water && fly.water !== 'both' && org.water !== 'both') {
       warn(`matches/${m.id}`, `pairs a ${org.water} organism with a ${fly.water} fly`);
     }
   }

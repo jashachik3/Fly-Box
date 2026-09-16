@@ -1,5 +1,6 @@
 import React, { useMemo, useState } from 'react';
 import { flies, nameOf, record, assetUrl } from '../content/index.js';
+import { formatHookRange } from '../../../content/hooksize.mjs';
 import { store } from '../state/db.js';
 import { useAsync } from '../state/useAsync.js';
 import { Card, Label, Empty, Pill } from './bits.jsx';
@@ -152,7 +153,7 @@ export default function BoxTab({ slate, trip }) {
                 <div className="grow">
                   <div className="name">{f.name}</div>
                   <div className="sub">
-                    #{f.hookSizes[0]}–{f.hookSizes[1]}
+                    {formatHookRange(f.hookSizes)}
                     {f.weight ? ` · ${f.weight}` : ''}
                     {f.variantOf ? ` · ${record('flies', f.variantOf)?.name ?? ''}` : ''}
                   </div>

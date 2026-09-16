@@ -17,9 +17,13 @@
     "image": "assets/gotcha.jpg",
     "tiedFor": "Generic shrimp on hard sand. The Bahamas default — if you only carry one, carry this.",
     "sources": [
-      "NEEDS REVIEW"
+      "NEEDS REVIEW",
+      "FLYBOX v0.3 legacy content (2026-09-13)"
     ],
-    "retrieve": "shrimp-hop"
+    "retrieve": "shrimp-hop",
+    "category": "saltwater",
+    "weightNote": "bead-chain or lead eyes",
+    "look": "Pink head, pearl body, tan craft fur wing — the bonefish standard"
   },
   {
     "id": "gotcha-pink",
@@ -40,7 +44,12 @@
     "defaultKnot": "non-slip-mono-loop",
     "image": "assets/gotcha-pink.jpg",
     "tiedFor": "The original. Pink wing over pearl body, bright bottoms.",
-    "retrieve": "shrimp-hop"
+    "retrieve": "shrimp-hop",
+    "category": "saltwater",
+    "look": "Pink head, pearl body, tan wing",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
   },
   {
     "id": "gotcha-tan",
@@ -61,7 +70,12 @@
     "defaultKnot": "non-slip-mono-loop",
     "image": "assets/gotcha-tan.jpg",
     "tiedFor": "Quieter version for bright light and pressured fish.",
-    "retrieve": "shrimp-hop"
+    "retrieve": "shrimp-hop",
+    "category": "saltwater",
+    "look": "Tan head, orange body, tan wing",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
   },
   {
     "id": "crazy-charlie",
@@ -81,9 +95,13 @@
     "image": "assets/crazy-charlie.jpg",
     "tiedFor": "Rides hook-point up over shallow sand; the fly every other bonefish fly argues with.",
     "sources": [
-      "NEEDS REVIEW"
+      "NEEDS REVIEW",
+      "FLYBOX v0.3 legacy content (2026-09-13)"
     ],
-    "retrieve": "shrimp-hop"
+    "retrieve": "shrimp-hop",
+    "category": "saltwater",
+    "weightNote": "bead-chain eyes",
+    "look": "Vinyl rib body, calf tail wing, bead chain — original bonefish fly"
   },
   {
     "id": "crazy-charlie-tan",
@@ -104,7 +122,12 @@
     "defaultKnot": "non-slip-mono-loop",
     "image": "assets/crazy-charlie-tan.jpg",
     "tiedFor": "Sand bottom, bright light.",
-    "retrieve": "shrimp-hop"
+    "retrieve": "shrimp-hop",
+    "category": "saltwater",
+    "look": "Tan body and wing",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
   },
   {
     "id": "crazy-charlie-pink",
@@ -125,7 +148,12 @@
     "defaultKnot": "non-slip-mono-loop",
     "image": "assets/crazy-charlie-pink.jpg",
     "tiedFor": "Off-color water or low light, when they need to find it.",
-    "retrieve": "shrimp-hop"
+    "retrieve": "shrimp-hop",
+    "category": "saltwater",
+    "look": "Pink body, white calf tail",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
   },
   {
     "id": "veverkas-mantis-shrimp",
@@ -148,7 +176,8 @@
     "sources": [
       "NEEDS REVIEW"
     ],
-    "retrieve": "shrimp-hop"
+    "retrieve": "shrimp-hop",
+    "look": "Shellback mantis with forward mono eyes, barred legs, lead eyes — the bigger mouthful"
   },
   {
     "id": "bonefish-bitters",
@@ -168,9 +197,13 @@
     "image": "assets/bonefish-bitters.jpg",
     "tiedFor": "Small crab and shrimp profile that lands soft — the skinny-water, spooky-fish answer.",
     "sources": [
-      "NEEDS REVIEW"
+      "NEEDS REVIEW",
+      "FLYBOX v0.3 legacy content (2026-09-13)"
     ],
-    "retrieve": "shrimp-hop"
+    "retrieve": "shrimp-hop",
+    "category": "saltwater",
+    "weightNote": "epoxy head",
+    "look": "Small epoxy head, rubber legs, sparse — for skinny water"
   },
   {
     "id": "bonefish-bitters-amber",
@@ -320,9 +353,13 @@
     "image": "assets/avalon-permit.jpg",
     "tiedFor": "Heavy crab with trailing beads that kick up sand on the drop.",
     "sources": [
-      "NEEDS REVIEW"
+      "NEEDS REVIEW",
+      "FLYBOX v0.3 legacy content (2026-09-13)"
     ],
-    "retrieve": "crab-drop"
+    "retrieve": "crab-drop",
+    "category": "saltwater",
+    "weightNote": "bead-chain + keel",
+    "look": "Shrimp-crab hybrid with keel weight, tan/orange — Caribbean permit"
   },
   {
     "id": "tarpon-toad",
@@ -342,9 +379,13 @@
     "image": "assets/tarpon-toad.jpg",
     "tiedFor": "Broad, slow-sinking profile that hangs in front of a moving fish.",
     "sources": [
-      "NEEDS REVIEW"
+      "NEEDS REVIEW",
+      "FLYBOX v0.3 legacy content (2026-09-13)"
     ],
-    "retrieve": "tarpon-swim"
+    "retrieve": "tarpon-swim",
+    "category": "saltwater",
+    "weightNote": "none",
+    "look": "Flat yarn body, rabbit strip tail, suspends in the column"
   },
   {
     "id": "tarpon-toad-black",
@@ -386,7 +427,12 @@
     "defaultKnot": "non-slip-mono-loop",
     "image": "assets/tarpon-toad-tan.jpg",
     "tiedFor": "Clear water, bright light, shallow.",
-    "retrieve": "tarpon-swim"
+    "retrieve": "tarpon-swim",
+    "category": "saltwater",
+    "look": "Tan yarn and rabbit",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
   },
   {
     "id": "clouser-minnow",
@@ -406,9 +452,13 @@
     "image": "assets/clouser-minnow.jpg",
     "tiedFor": "Baitfish that jigs. Works everywhere something eats a minnow.",
     "sources": [
-      "NEEDS REVIEW"
+      "NEEDS REVIEW",
+      "FLYBOX v0.3 legacy content (2026-09-13)"
     ],
-    "retrieve": "baitfish-flee"
+    "retrieve": "baitfish-flee",
+    "category": "saltwater",
+    "weightNote": "lead/brass eyes",
+    "look": "Dumbbell eyes, bucktail over/under, rides hook-up — chartreuse/white classic"
   },
   {
     "id": "clouser-minnow-chartreuse-white",
@@ -429,7 +479,12 @@
     "defaultKnot": "non-slip-mono-loop",
     "image": "assets/clouser-minnow-chartreuse-white.jpg",
     "tiedFor": "Stained water and low light.",
-    "retrieve": "baitfish-flee"
+    "retrieve": "baitfish-flee",
+    "category": "saltwater",
+    "look": "Chartreuse bucktail over white",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
   },
   {
     "id": "clouser-minnow-olive-white",
@@ -450,7 +505,12 @@
     "defaultKnot": "non-slip-mono-loop",
     "image": "assets/clouser-minnow-olive-white.jpg",
     "tiedFor": "Clear water baitfish match.",
-    "retrieve": "baitfish-flee"
+    "retrieve": "baitfish-flee",
+    "category": "saltwater",
+    "look": "Olive over white",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
   },
   {
     "id": "ep-baitfish",
@@ -471,9 +531,13 @@
     "image": "assets/ep-baitfish.jpg",
     "tiedFor": "Wide, translucent baitfish profile that holds shape in the water.",
     "sources": [
-      "NEEDS REVIEW"
+      "NEEDS REVIEW",
+      "FLYBOX v0.3 legacy content (2026-09-13)"
     ],
-    "retrieve": "baitfish-wounded"
+    "retrieve": "baitfish-wounded",
+    "category": "saltwater",
+    "weightNote": "none",
+    "look": "EP fiber deep profile, stick-on eyes, translucent"
   },
   {
     "id": "gurgler",
@@ -494,9 +558,13 @@
     "image": "assets/gurgler.jpg",
     "tiedFor": "Surface disturbance for fish that will come up — mangrove edges and low light.",
     "sources": [
-      "NEEDS REVIEW"
+      "NEEDS REVIEW",
+      "FLYBOX v0.3 legacy content (2026-09-13)"
     ],
-    "retrieve": "gurgle-pop"
+    "retrieve": "gurgle-pop",
+    "category": "topwater",
+    "weightNote": "none",
+    "look": "Foam lip pushes water, bucktail tail — stripers, seatrout, snook"
   },
   {
     "id": "palolo-worm-fly",
@@ -517,9 +585,13 @@
     "image": "assets/palolo-worm-fly.jpg",
     "tiedFor": "The one event where a specific fly beats every general one.",
     "sources": [
-      "NEEDS REVIEW"
+      "NEEDS REVIEW",
+      "FLYBOX v0.3 legacy content (2026-09-13)"
     ],
-    "retrieve": "worm-swim"
+    "retrieve": "worm-swim",
+    "category": "saltwater",
+    "weightNote": "none",
+    "look": "Long coral worm trailing a small olive head, swims high"
   },
   {
     "id": "walts-worm",
@@ -543,9 +615,13 @@
     "tiedFor": "Suggests a sowbug, a scud, a caddis larva, a mayfly nymph — it refuses to be one thing, which is why it works.",
     "notes": "Named for Walt Young. Not 'waltz'.",
     "sources": [
-      "Jeff's log, 2026-09-12"
+      "Jeff's log, 2026-09-12",
+      "FLYBOX v0.3 legacy content (2026-09-13)"
     ],
-    "retrieve": "dead-drift"
+    "retrieve": "dead-drift",
+    "category": "nymph",
+    "weightNote": "bead",
+    "look": "Just hare's ear dubbing on a hook — ugly and deadly"
   },
   {
     "id": "walts-worm-hot-spot",
@@ -590,9 +666,13 @@
     "image": "assets/pheasant-tail.jpg",
     "tiedFor": "Slim mayfly nymph. The dropper above a heavier point fly.",
     "sources": [
-      "Jeff's log, 2026-09-12"
+      "Jeff's log, 2026-09-12",
+      "FLYBOX v0.3 legacy content (2026-09-13)"
     ],
-    "retrieve": "dead-drift"
+    "retrieve": "dead-drift",
+    "category": "nymph",
+    "weightNote": "bead or none",
+    "look": "Pheasant tail fibers body, copper wire rib, peacock thorax"
   },
   {
     "id": "pheasant-tail-flashback",
@@ -636,9 +716,13 @@
     "image": "assets/frenchie.jpg",
     "tiedFor": "Pheasant Tail with a hot collar — the euro anchor fly when you want attention.",
     "sources": [
-      "NEEDS REVIEW"
+      "NEEDS REVIEW",
+      "FLYBOX v0.3 legacy content (2026-09-13)"
     ],
-    "retrieve": "dead-drift"
+    "retrieve": "dead-drift",
+    "category": "nymph",
+    "weightNote": "tungsten bead",
+    "look": "Pheasant tail body, hot orange/pink dubbing collar"
   },
   {
     "id": "perdigon",
@@ -658,9 +742,13 @@
     "image": "assets/perdigon.jpg",
     "tiedFor": "Slick resin body that cuts current and gets down fast. Depth first, imitation second.",
     "sources": [
-      "NEEDS REVIEW"
+      "NEEDS REVIEW",
+      "FLYBOX v0.3 legacy content (2026-09-13)"
     ],
-    "retrieve": "dead-drift"
+    "retrieve": "dead-drift",
+    "category": "nymph",
+    "weightNote": "tungsten bead",
+    "look": "Slim epoxy-coated body, sinks like a rock — Euro nymph"
   },
   {
     "id": "perdigon-olive",
@@ -681,7 +769,12 @@
     "defaultKnot": "pitzen",
     "image": "assets/perdigon-olive.jpg",
     "tiedFor": "Baetis-coloured, clear water.",
-    "retrieve": "dead-drift"
+    "retrieve": "dead-drift",
+    "category": "nymph",
+    "look": "Olive quill body, black bead",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
   },
   {
     "id": "perdigon-black",
@@ -702,7 +795,12 @@
     "defaultKnot": "pitzen",
     "image": "assets/perdigon-black.jpg",
     "tiedFor": "Silhouette in bright light or thin water.",
-    "retrieve": "dead-drift"
+    "retrieve": "dead-drift",
+    "category": "nymph",
+    "look": "Black body, pink hot spot",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
   },
   {
     "id": "zebra-midge",
@@ -722,9 +820,13 @@
     "image": "assets/zebra-midge.jpg",
     "tiedFor": "Midge pupa. Two materials and a bead, and it outfishes far more complicated flies in winter.",
     "sources": [
-      "NEEDS REVIEW"
+      "NEEDS REVIEW",
+      "FLYBOX v0.3 legacy content (2026-09-13)"
     ],
-    "retrieve": "dead-drift"
+    "retrieve": "dead-drift",
+    "category": "nymph",
+    "weightNote": "bead",
+    "look": "Black/red thread body, silver wire rib, small bead"
   },
   {
     "id": "zebra-midge-black",
@@ -745,7 +847,12 @@
     "defaultKnot": "pitzen",
     "image": "assets/zebra-midge-black.jpg",
     "tiedFor": "The default. Start here.",
-    "retrieve": "dead-drift"
+    "retrieve": "dead-drift",
+    "category": "nymph",
+    "look": "Black thread, silver wire, silver bead",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
   },
   {
     "id": "zebra-midge-red",
@@ -766,7 +873,12 @@
     "defaultKnot": "pitzen",
     "image": "assets/zebra-midge-red.jpg",
     "tiedFor": "Blood-midge larvae in silty, slow water.",
-    "retrieve": "dead-drift"
+    "retrieve": "dead-drift",
+    "category": "nymph",
+    "look": "Red thread, silver wire",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
   },
   {
     "id": "rs2",
@@ -788,9 +900,13 @@
     "image": "assets/rs2.jpg",
     "tiedFor": "Mayfly emerger hanging in or just under the film — the fly for refusals during a BWO hatch.",
     "sources": [
-      "NEEDS REVIEW"
+      "NEEDS REVIEW",
+      "FLYBOX v0.3 legacy content (2026-09-13)"
     ],
-    "retrieve": "dead-drift"
+    "retrieve": "dead-drift",
+    "category": "emerger",
+    "weightNote": "none",
+    "look": "Sparse gray/olive body, split microfibett tails, stub of CDC or Antron wing"
   },
   {
     "id": "parachute-adams",
@@ -812,9 +928,13 @@
     "image": "assets/parachute-adams.jpg",
     "tiedFor": "Generic mayfly dun with a visible post. If one dry fly had to cover the year, this.",
     "sources": [
-      "NEEDS REVIEW"
+      "NEEDS REVIEW",
+      "FLYBOX v0.3 legacy content (2026-09-13)"
     ],
-    "retrieve": "dead-drift"
+    "retrieve": "dead-drift",
+    "category": "dry",
+    "weightNote": "none",
+    "look": "Gray body, white post, grizzly/brown hackle wound horizontally around post"
   },
   {
     "id": "elk-hair-caddis",
@@ -835,9 +955,13 @@
     "image": "assets/elk-hair-caddis.jpg",
     "tiedFor": "Adult caddis; floats high enough to carry a dropper.",
     "sources": [
-      "NEEDS REVIEW"
+      "NEEDS REVIEW",
+      "FLYBOX v0.3 legacy content (2026-09-13)"
     ],
-    "retrieve": "twitch-pause"
+    "retrieve": "twitch-pause",
+    "category": "dry",
+    "weightNote": "none",
+    "look": "Tan/olive dubbed body, palmered hackle, elk hair wing tented over back"
   },
   {
     "id": "elk-hair-caddis-tan",
@@ -858,7 +982,12 @@
     "defaultKnot": "pitzen",
     "image": "assets/elk-hair-caddis-tan.jpg",
     "tiedFor": "The default caddis colour.",
-    "retrieve": "twitch-pause"
+    "retrieve": "twitch-pause",
+    "category": "dry",
+    "look": "Tan body, tan elk wing",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
   },
   {
     "id": "elk-hair-caddis-olive",
@@ -879,7 +1008,12 @@
     "defaultKnot": "pitzen",
     "image": "assets/elk-hair-caddis-olive.jpg",
     "tiedFor": "Darker naturals, later season.",
-    "retrieve": "twitch-pause"
+    "retrieve": "twitch-pause",
+    "category": "dry",
+    "look": "Olive body",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
   },
   {
     "id": "griffiths-gnat",
@@ -900,9 +1034,13 @@
     "image": "assets/griffiths-gnat.jpg",
     "tiedFor": "A cluster of midges, not one — which is what fish are actually eating on a cold flat afternoon.",
     "sources": [
-      "NEEDS REVIEW"
+      "NEEDS REVIEW",
+      "FLYBOX v0.3 legacy content (2026-09-13)"
     ],
-    "retrieve": "dead-drift"
+    "retrieve": "dead-drift",
+    "category": "dry",
+    "weightNote": "none",
+    "look": "Peacock herl body with palmered grizzly hackle — looks like a cluster of midges"
   },
   {
     "id": "pats-rubber-legs",
@@ -923,9 +1061,13 @@
     "image": "assets/pats-rubber-legs.jpg",
     "tiedFor": "Stonefly nymph. Heavy, ugly, and it anchors a rig all year.",
     "sources": [
-      "NEEDS REVIEW"
+      "NEEDS REVIEW",
+      "FLYBOX v0.3 legacy content (2026-09-13)"
     ],
-    "retrieve": "dead-drift"
+    "retrieve": "dead-drift",
+    "category": "nymph",
+    "weightNote": "lead wraps",
+    "look": "Chenille body, rubber legs every direction"
   },
   {
     "id": "scud-fly",
@@ -946,9 +1088,13 @@
     "image": "assets/scud-fly.jpg",
     "tiedFor": "Freshwater shrimp, curled on the hook.",
     "sources": [
-      "NEEDS REVIEW"
+      "NEEDS REVIEW",
+      "FLYBOX v0.3 legacy content (2026-09-13)"
     ],
-    "retrieve": "dead-drift"
+    "retrieve": "dead-drift",
+    "category": "nymph",
+    "weightNote": "light",
+    "look": "Curved hook, dubbed olive/tan body, plastic shellback, picked-out legs"
   },
   {
     "id": "scud-fly-olive",
@@ -970,7 +1116,12 @@
     "defaultKnot": "pitzen",
     "image": "assets/scud-fly-olive.jpg",
     "tiedFor": "Living naturals in weed.",
-    "retrieve": "dead-drift"
+    "retrieve": "dead-drift",
+    "category": "nymph",
+    "look": "Olive dubbing",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
   },
   {
     "id": "scud-fly-orange",
@@ -992,7 +1143,12 @@
     "defaultKnot": "pitzen",
     "image": "assets/scud-fly-orange.jpg",
     "tiedFor": "Dead or gravid naturals — works on some water and nowhere else.",
-    "retrieve": "dead-drift"
+    "retrieve": "dead-drift",
+    "category": "nymph",
+    "look": "Orange dubbing",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
   },
   {
     "id": "squirmy-worm",
@@ -1036,9 +1192,13 @@
     "image": "assets/woolly-bugger.jpg",
     "tiedFor": "Anything that swims and is worth eating. Loop knot so it moves.",
     "sources": [
-      "NEEDS REVIEW"
+      "NEEDS REVIEW",
+      "FLYBOX v0.3 legacy content (2026-09-13)"
     ],
-    "retrieve": "streamer-jerk"
+    "retrieve": "streamer-jerk",
+    "category": "streamer",
+    "weightNote": "bead/cone or none",
+    "look": "Marabou tail, chenille body, palmered hackle — black, olive, brown"
   },
   {
     "id": "woolly-bugger-black",
@@ -1059,7 +1219,12 @@
     "defaultKnot": "non-slip-mono-loop",
     "image": "assets/woolly-bugger-black.jpg",
     "tiedFor": "Silhouette in dirty water and low light.",
-    "retrieve": "streamer-jerk"
+    "retrieve": "streamer-jerk",
+    "category": "streamer",
+    "look": "Black marabou, black chenille, black hackle",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
   },
   {
     "id": "woolly-bugger-olive",
@@ -1080,7 +1245,12 @@
     "defaultKnot": "non-slip-mono-loop",
     "image": "assets/woolly-bugger-olive.jpg",
     "tiedFor": "Clear water, sculpin and crayfish tones.",
-    "retrieve": "streamer-jerk"
+    "retrieve": "streamer-jerk",
+    "category": "streamer",
+    "look": "Olive marabou and chenille, grizzly-olive hackle",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
   },
   {
     "id": "woolly-bugger-brown",
@@ -1101,6 +1271,3784 @@
     "defaultKnot": "non-slip-mono-loop",
     "image": "assets/woolly-bugger-brown.jpg",
     "tiedFor": "The middle ground; the one to start with if you are not sure.",
-    "retrieve": "streamer-jerk"
+    "retrieve": "streamer-jerk",
+    "category": "streamer",
+    "look": "Brown marabou, brown chenille",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "parachute-adams-gray",
+    "name": "Parachute Adams — Gray (standard)",
+    "water": "fresh",
+    "family": "parachute-adams",
+    "variantOf": "parachute-adams",
+    "color": "Gray (standard)",
+    "hookSizes": [
+      12,
+      22
+    ],
+    "category": "dry",
+    "weight": "unweighted",
+    "look": "Gray body, white post",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Everything mayfly",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/parachute-adams-gray.jpg"
+  },
+  {
+    "id": "parachute-adams-purple",
+    "name": "Parachute Adams — Purple Haze",
+    "water": "fresh",
+    "family": "parachute-adams",
+    "variantOf": "parachute-adams",
+    "color": "Purple Haze",
+    "hookSizes": [
+      12,
+      22
+    ],
+    "category": "dry",
+    "weight": "unweighted",
+    "look": "Purple body",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Attractor, western rivers",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/parachute-adams-purple.jpg"
+  },
+  {
+    "id": "parachute-adams-olive",
+    "name": "Parachute Adams — Olive",
+    "water": "fresh",
+    "family": "parachute-adams",
+    "variantOf": "parachute-adams",
+    "color": "Olive",
+    "hookSizes": [
+      12,
+      22
+    ],
+    "category": "dry",
+    "weight": "unweighted",
+    "look": "Olive body",
+    "defaultKnot": "pitzen",
+    "tiedFor": "BWO, PMD",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/parachute-adams-olive.jpg"
+  },
+  {
+    "id": "bwo-comparadun",
+    "name": "BWO Comparadun",
+    "water": "fresh",
+    "family": "bwo-comparadun",
+    "hookSizes": [
+      16,
+      22
+    ],
+    "category": "dry",
+    "weight": "unweighted",
+    "weightNote": "none",
+    "look": "Olive body, deer hair wing fanned 180°, no hackle, split tails",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Imitates fw-bwo-dun.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/bwo-comparadun.jpg"
+  },
+  {
+    "id": "pmd-comparadun",
+    "name": "PMD Comparadun",
+    "water": "fresh",
+    "family": "pmd-comparadun",
+    "hookSizes": [
+      14,
+      18
+    ],
+    "category": "dry",
+    "weight": "unweighted",
+    "weightNote": "none",
+    "look": "Pale yellow body, fanned deer hair wing",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Imitates fw-pmd-dun.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/pmd-comparadun.jpg"
+  },
+  {
+    "id": "sparkle-dun",
+    "name": "Sparkle Dun",
+    "water": "fresh",
+    "family": "sparkle-dun",
+    "hookSizes": [
+      14,
+      22
+    ],
+    "category": "dry",
+    "weight": "unweighted",
+    "weightNote": "none",
+    "look": "Comparadun with a Z-lon shuck tail instead of split tails",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Imitates mayfly dun with trailing shuck.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/sparkle-dun.jpg"
+  },
+  {
+    "id": "sparkle-dun-olive",
+    "name": "Sparkle Dun — Olive",
+    "water": "fresh",
+    "family": "sparkle-dun",
+    "variantOf": "sparkle-dun",
+    "color": "Olive",
+    "hookSizes": [
+      14,
+      22
+    ],
+    "category": "dry",
+    "weight": "unweighted",
+    "look": "Olive body",
+    "defaultKnot": "pitzen",
+    "tiedFor": "BWO",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/sparkle-dun-olive.jpg"
+  },
+  {
+    "id": "sparkle-dun-pmd",
+    "name": "Sparkle Dun — PMD yellow",
+    "water": "fresh",
+    "family": "sparkle-dun",
+    "variantOf": "sparkle-dun",
+    "color": "PMD yellow",
+    "hookSizes": [
+      14,
+      22
+    ],
+    "category": "dry",
+    "weight": "unweighted",
+    "look": "Pale yellow",
+    "defaultKnot": "pitzen",
+    "tiedFor": "PMD, sulphur",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/sparkle-dun-pmd.jpg"
+  },
+  {
+    "id": "sparkle-dun-callibaetis",
+    "name": "Sparkle Dun — Callibaetis gray",
+    "water": "fresh",
+    "family": "sparkle-dun",
+    "variantOf": "sparkle-dun",
+    "color": "Callibaetis gray",
+    "hookSizes": [
+      14,
+      22
+    ],
+    "category": "dry",
+    "weight": "unweighted",
+    "look": "Gray-tan body",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Callibaetis",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/sparkle-dun-callibaetis.jpg"
+  },
+  {
+    "id": "hendrickson-dry",
+    "name": "Hendrickson (Red Quill / Light Hendrickson)",
+    "water": "fresh",
+    "family": "hendrickson-dry",
+    "hookSizes": [
+      12,
+      14
+    ],
+    "category": "dry",
+    "weight": "unweighted",
+    "weightNote": "none",
+    "look": "Classic Catskill style, upright wood duck wings, dun hackle",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Imitates fw-hendrickson-dun.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/hendrickson-dry.jpg"
+  },
+  {
+    "id": "march-brown-dry",
+    "name": "March Brown Dry",
+    "water": "fresh",
+    "family": "march-brown-dry",
+    "hookSizes": [
+      10,
+      14
+    ],
+    "category": "dry",
+    "weight": "unweighted",
+    "weightNote": "none",
+    "look": "Tan body, mottled wings, brown/grizzly hackle",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Imitates fw-march-brown-dun.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/march-brown-dry.jpg"
+  },
+  {
+    "id": "green-drake-extended",
+    "name": "Extended Body Green Drake",
+    "water": "fresh",
+    "family": "green-drake-extended",
+    "hookSizes": [
+      8,
+      12
+    ],
+    "category": "dry",
+    "weight": "unweighted",
+    "weightNote": "none",
+    "look": "Long foam/dubbed olive body extending past the hook, dark wing",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Imitates fw-green-drake-dun.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/green-drake-extended.jpg"
+  },
+  {
+    "id": "trico-dun",
+    "name": "Trico Dun",
+    "water": "fresh",
+    "family": "trico-dun",
+    "hookSizes": [
+      20,
+      26
+    ],
+    "category": "dry",
+    "weight": "unweighted",
+    "weightNote": "none",
+    "look": "Tiny olive or black body, white CDC or poly wing",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Imitates fw-trico-dun.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/trico-dun.jpg"
+  },
+  {
+    "id": "trico-spinner",
+    "name": "Trico Spinner",
+    "water": "fresh",
+    "family": "trico-spinner",
+    "hookSizes": [
+      20,
+      26
+    ],
+    "category": "dry",
+    "weight": "unweighted",
+    "weightNote": "none",
+    "look": "Black body, white poly spent wings flat, splayed tails",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Imitates fw-trico-spinner.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/trico-spinner.jpg"
+  },
+  {
+    "id": "rusty-spinner",
+    "name": "Rusty Spinner",
+    "water": "fresh",
+    "family": "rusty-spinner",
+    "hookSizes": [
+      12,
+      20
+    ],
+    "category": "dry",
+    "weight": "unweighted",
+    "weightNote": "none",
+    "look": "Rust body, clear/white poly wings spent flat, split tails",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Imitates fw-bwo-spinner, fw-pmd-spinner, fw-hendrickson-spinner.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/rusty-spinner.jpg"
+  },
+  {
+    "id": "rusty-spinner-rusty",
+    "name": "Rusty Spinner — Rusty",
+    "water": "fresh",
+    "family": "rusty-spinner",
+    "variantOf": "rusty-spinner",
+    "color": "Rusty",
+    "hookSizes": [
+      12,
+      20
+    ],
+    "category": "dry",
+    "weight": "unweighted",
+    "look": "Rust body",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Most spinners",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/rusty-spinner-rusty.jpg"
+  },
+  {
+    "id": "rusty-spinner-olive",
+    "name": "Rusty Spinner — Olive",
+    "water": "fresh",
+    "family": "rusty-spinner",
+    "variantOf": "rusty-spinner",
+    "color": "Olive",
+    "hookSizes": [
+      12,
+      20
+    ],
+    "category": "dry",
+    "weight": "unweighted",
+    "look": "Olive body",
+    "defaultKnot": "pitzen",
+    "tiedFor": "BWO spinners",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/rusty-spinner-olive.jpg"
+  },
+  {
+    "id": "rusty-spinner-black",
+    "name": "Rusty Spinner — Black",
+    "water": "fresh",
+    "family": "rusty-spinner",
+    "variantOf": "rusty-spinner",
+    "color": "Black",
+    "hookSizes": [
+      12,
+      20
+    ],
+    "category": "dry",
+    "weight": "unweighted",
+    "look": "Black body",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Trico spinners",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/rusty-spinner-black.jpg"
+  },
+  {
+    "id": "elk-hair-caddis-black",
+    "name": "Elk Hair Caddis — Black",
+    "water": "fresh",
+    "family": "elk-hair-caddis",
+    "variantOf": "elk-hair-caddis",
+    "color": "Black",
+    "hookSizes": [
+      12,
+      18
+    ],
+    "category": "dry",
+    "weight": "unweighted",
+    "look": "Black body, dark wing",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Small dark caddis, spring",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/elk-hair-caddis-black.jpg"
+  },
+  {
+    "id": "x-caddis",
+    "name": "X-Caddis",
+    "water": "fresh",
+    "family": "x-caddis",
+    "hookSizes": [
+      14,
+      18
+    ],
+    "category": "dry",
+    "weight": "unweighted",
+    "weightNote": "none",
+    "look": "Elk hair caddis without hackle, trailing Z-lon shuck",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Imitates fw-caddis-adult, caddis emerger.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/x-caddis.jpg"
+  },
+  {
+    "id": "x-caddis-tan",
+    "name": "X-Caddis — Tan",
+    "water": "fresh",
+    "family": "x-caddis",
+    "variantOf": "x-caddis",
+    "color": "Tan",
+    "hookSizes": [
+      14,
+      18
+    ],
+    "category": "dry",
+    "weight": "unweighted",
+    "look": "Tan body",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Standard",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/x-caddis-tan.jpg"
+  },
+  {
+    "id": "x-caddis-olive",
+    "name": "X-Caddis — Olive",
+    "water": "fresh",
+    "family": "x-caddis",
+    "variantOf": "x-caddis",
+    "color": "Olive",
+    "hookSizes": [
+      14,
+      18
+    ],
+    "category": "dry",
+    "weight": "unweighted",
+    "look": "Olive body",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Spring Brachycentrus",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/x-caddis-olive.jpg"
+  },
+  {
+    "id": "cdc-caddis",
+    "name": "CDC Caddis",
+    "water": "fresh",
+    "family": "cdc-caddis",
+    "hookSizes": [
+      14,
+      20
+    ],
+    "category": "dry",
+    "weight": "unweighted",
+    "weightNote": "none",
+    "look": "Sparse, CDC feather wing tented, sits in the film",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Imitates fw-caddis-adult.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/cdc-caddis.jpg"
+  },
+  {
+    "id": "stimulator",
+    "name": "Stimulator",
+    "water": "fresh",
+    "family": "stimulator",
+    "hookSizes": [
+      6,
+      14
+    ],
+    "category": "dry",
+    "weight": "unweighted",
+    "weightNote": "none",
+    "look": "Long orange/yellow body, palmered hackle, elk hair wing, bushy front hackle; great dry-dropper indicator",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Imitates fw-golden-stone-adult, fw-salmonfly-adult, fw-yellow-sally-adult, large caddis.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/stimulator.jpg"
+  },
+  {
+    "id": "stimulator-yellow",
+    "name": "Stimulator — Yellow",
+    "water": "fresh",
+    "family": "stimulator",
+    "variantOf": "stimulator",
+    "color": "Yellow",
+    "hookSizes": [
+      6,
+      14
+    ],
+    "category": "dry",
+    "weight": "unweighted",
+    "look": "Yellow body, orange head",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Golden stones, Yellow Sallies, caddis",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/stimulator-yellow.jpg"
+  },
+  {
+    "id": "stimulator-orange",
+    "name": "Stimulator — Orange",
+    "water": "fresh",
+    "family": "stimulator",
+    "variantOf": "stimulator",
+    "color": "Orange",
+    "hookSizes": [
+      6,
+      14
+    ],
+    "category": "dry",
+    "weight": "unweighted",
+    "look": "Orange body",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Salmonflies",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/stimulator-orange.jpg"
+  },
+  {
+    "id": "stimulator-olive",
+    "name": "Stimulator — Olive",
+    "water": "fresh",
+    "family": "stimulator",
+    "variantOf": "stimulator",
+    "color": "Olive",
+    "hookSizes": [
+      6,
+      14
+    ],
+    "category": "dry",
+    "weight": "unweighted",
+    "look": "Olive body",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Big caddis",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/stimulator-olive.jpg"
+  },
+  {
+    "id": "chubby-chernobyl",
+    "name": "Chubby Chernobyl",
+    "water": "fresh",
+    "family": "chubby-chernobyl",
+    "hookSizes": [
+      6,
+      12
+    ],
+    "category": "dry",
+    "weight": "unweighted",
+    "weightNote": "none",
+    "look": "Foam body, rubber legs, white poly wing — floats a heavy dropper",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Imitates fw-salmonfly-adult, fw-golden-stone-adult, fw-hopper-adult.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/chubby-chernobyl.jpg"
+  },
+  {
+    "id": "chubby-chernobyl-golden",
+    "name": "Chubby Chernobyl — Golden",
+    "water": "fresh",
+    "family": "chubby-chernobyl",
+    "variantOf": "chubby-chernobyl",
+    "color": "Golden",
+    "hookSizes": [
+      6,
+      12
+    ],
+    "category": "dry",
+    "weight": "unweighted",
+    "look": "Tan foam, gold dubbing, tan legs",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Golden stones, hoppers",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/chubby-chernobyl-golden.jpg"
+  },
+  {
+    "id": "chubby-chernobyl-purple",
+    "name": "Chubby Chernobyl — Purple",
+    "water": "fresh",
+    "family": "chubby-chernobyl",
+    "variantOf": "chubby-chernobyl",
+    "color": "Purple",
+    "hookSizes": [
+      6,
+      12
+    ],
+    "category": "dry",
+    "weight": "unweighted",
+    "look": "Purple foam and dubbing",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Attractor; cutthroat love it",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/chubby-chernobyl-purple.jpg"
+  },
+  {
+    "id": "chubby-chernobyl-royal",
+    "name": "Chubby Chernobyl — Royal",
+    "water": "fresh",
+    "family": "chubby-chernobyl",
+    "variantOf": "chubby-chernobyl",
+    "color": "Royal",
+    "hookSizes": [
+      6,
+      12
+    ],
+    "category": "dry",
+    "weight": "unweighted",
+    "look": "Peacock body, red foam",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Attractor, high visibility",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/chubby-chernobyl-royal.jpg"
+  },
+  {
+    "id": "chubby-chernobyl-orange",
+    "name": "Chubby Chernobyl — Orange/Black",
+    "water": "fresh",
+    "family": "chubby-chernobyl",
+    "variantOf": "chubby-chernobyl",
+    "color": "Orange/Black",
+    "hookSizes": [
+      6,
+      12
+    ],
+    "category": "dry",
+    "weight": "unweighted",
+    "look": "Orange foam over black",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Salmonfly",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/chubby-chernobyl-orange.jpg"
+  },
+  {
+    "id": "yellow-sally-dry",
+    "name": "Yellow Sally",
+    "water": "fresh",
+    "family": "yellow-sally-dry",
+    "hookSizes": [
+      14,
+      16
+    ],
+    "category": "dry",
+    "weight": "unweighted",
+    "weightNote": "none",
+    "look": "Yellow foam or dubbed body, light wing, often a red butt",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Imitates fw-yellow-sally-adult.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/yellow-sally-dry.jpg"
+  },
+  {
+    "id": "midge-adult",
+    "name": "Adult Midge (CDC/Hackle)",
+    "water": "fresh",
+    "family": "midge-adult",
+    "hookSizes": [
+      20,
+      26
+    ],
+    "category": "dry",
+    "weight": "unweighted",
+    "weightNote": "none",
+    "look": "Thread body, tiny CDC wing, sparse hackle",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Imitates fw-midge-adult.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/midge-adult.jpg"
+  },
+  {
+    "id": "royal-wulff",
+    "name": "Royal Wulff",
+    "water": "fresh",
+    "family": "royal-wulff",
+    "hookSizes": [
+      10,
+      16
+    ],
+    "category": "dry",
+    "weight": "unweighted",
+    "weightNote": "none",
+    "look": "Peacock herl body with red floss band, white calf hair wings, brown hackle",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Imitates attractor, generic mayfly.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/royal-wulff.jpg"
+  },
+  {
+    "id": "morrish-hopper",
+    "name": "Morrish Hopper",
+    "water": "fresh",
+    "family": "morrish-hopper",
+    "hookSizes": [
+      6,
+      12
+    ],
+    "category": "dry",
+    "weight": "unweighted",
+    "weightNote": "none",
+    "look": "Segmented foam body, knotted rubber legs, realistic hopper profile",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Imitates fw-hopper-adult.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/morrish-hopper.jpg"
+  },
+  {
+    "id": "morrish-hopper-tan",
+    "name": "Morrish Hopper — Tan",
+    "water": "fresh",
+    "family": "morrish-hopper",
+    "variantOf": "morrish-hopper",
+    "color": "Tan",
+    "hookSizes": [
+      6,
+      12
+    ],
+    "category": "dry",
+    "weight": "unweighted",
+    "look": "Tan foam",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Standard",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/morrish-hopper-tan.jpg"
+  },
+  {
+    "id": "morrish-hopper-yellow",
+    "name": "Morrish Hopper — Yellow",
+    "water": "fresh",
+    "family": "morrish-hopper",
+    "variantOf": "morrish-hopper",
+    "color": "Yellow",
+    "hookSizes": [
+      6,
+      12
+    ],
+    "category": "dry",
+    "weight": "unweighted",
+    "look": "Yellow foam",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Late summer",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/morrish-hopper-yellow.jpg"
+  },
+  {
+    "id": "morrish-hopper-pink",
+    "name": "Morrish Hopper — Pink",
+    "water": "fresh",
+    "family": "morrish-hopper",
+    "variantOf": "morrish-hopper",
+    "color": "Pink",
+    "hookSizes": [
+      6,
+      12
+    ],
+    "category": "dry",
+    "weight": "unweighted",
+    "look": "Pink foam",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Attractor, cutthroat",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/morrish-hopper-pink.jpg"
+  },
+  {
+    "id": "daves-hopper",
+    "name": "Dave's Hopper",
+    "water": "fresh",
+    "family": "daves-hopper",
+    "hookSizes": [
+      6,
+      12
+    ],
+    "category": "dry",
+    "weight": "unweighted",
+    "weightNote": "none",
+    "look": "Classic deer hair head, turkey wing, knotted pheasant legs",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Imitates fw-hopper-adult.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/daves-hopper.jpg"
+  },
+  {
+    "id": "parachute-ant",
+    "name": "Parachute Ant",
+    "water": "fresh",
+    "family": "parachute-ant",
+    "hookSizes": [
+      14,
+      20
+    ],
+    "category": "dry",
+    "weight": "unweighted",
+    "weightNote": "none",
+    "look": "Two dubbed humps with a thin waist, white post for visibility",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Imitates fw-ant-adult.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/parachute-ant.jpg"
+  },
+  {
+    "id": "foam-ant",
+    "name": "Foam Ant",
+    "water": "fresh",
+    "family": "foam-ant",
+    "hookSizes": [
+      14,
+      18
+    ],
+    "category": "dry",
+    "weight": "unweighted",
+    "weightNote": "none",
+    "look": "Black foam segments, sits low in film",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Imitates fw-ant-adult.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/foam-ant.jpg"
+  },
+  {
+    "id": "flying-ant",
+    "name": "Flying Ant",
+    "water": "fresh",
+    "family": "flying-ant",
+    "hookSizes": [
+      14,
+      18
+    ],
+    "category": "dry",
+    "weight": "unweighted",
+    "weightNote": "none",
+    "look": "Ant body with clear or white wings",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Imitates fw-ant-flying.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/flying-ant.jpg"
+  },
+  {
+    "id": "foam-beetle",
+    "name": "Foam Beetle",
+    "water": "fresh",
+    "family": "foam-beetle",
+    "hookSizes": [
+      12,
+      16
+    ],
+    "category": "dry",
+    "weight": "unweighted",
+    "weightNote": "none",
+    "look": "Black foam shellback, peacock body, rubber legs, bright sighter dot",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Imitates fw-beetle-adult.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/foam-beetle.jpg"
+  },
+  {
+    "id": "rs2-gray",
+    "name": "RS2 — Gray",
+    "water": "fresh",
+    "family": "rs2",
+    "variantOf": "rs2",
+    "color": "Gray",
+    "hookSizes": [
+      18,
+      24
+    ],
+    "category": "emerger",
+    "weight": "unweighted",
+    "look": "Gray body",
+    "defaultKnot": "pitzen",
+    "tiedFor": "BWO, midges",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/rs2-gray.jpg"
+  },
+  {
+    "id": "rs2-olive",
+    "name": "RS2 — Olive",
+    "water": "fresh",
+    "family": "rs2",
+    "variantOf": "rs2",
+    "color": "Olive",
+    "hookSizes": [
+      18,
+      24
+    ],
+    "category": "emerger",
+    "weight": "unweighted",
+    "look": "Olive body",
+    "defaultKnot": "pitzen",
+    "tiedFor": "BWO",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/rs2-olive.jpg"
+  },
+  {
+    "id": "rs2-black",
+    "name": "RS2 — Black",
+    "water": "fresh",
+    "family": "rs2",
+    "variantOf": "rs2",
+    "color": "Black",
+    "hookSizes": [
+      18,
+      24
+    ],
+    "category": "emerger",
+    "weight": "unweighted",
+    "look": "Black body",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Midges",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/rs2-black.jpg"
+  },
+  {
+    "id": "cdc-loopwing",
+    "name": "CDC Loop Wing Emerger",
+    "water": "fresh",
+    "family": "cdc-loopwing",
+    "hookSizes": [
+      16,
+      22
+    ],
+    "category": "emerger",
+    "weight": "unweighted",
+    "weightNote": "none",
+    "look": "Looped CDC wing over a thin body, hangs in the film",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Imitates fw-bwo-emerger, fw-pmd-emerger.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/cdc-loopwing.jpg"
+  },
+  {
+    "id": "barrs-emerger",
+    "name": "Barr's Emerger",
+    "water": "fresh",
+    "family": "barrs-emerger",
+    "hookSizes": [
+      16,
+      22
+    ],
+    "category": "emerger",
+    "weight": "unweighted",
+    "weightNote": "none",
+    "look": "Short brown abdomen, olive thorax, wing case fibers — fished as dropper",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Imitates fw-bwo-emerger, fw-pmd-emerger, fw-bwo-nymph.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/barrs-emerger.jpg"
+  },
+  {
+    "id": "klinkhammer",
+    "name": "Klinkhammer",
+    "water": "fresh",
+    "family": "klinkhammer",
+    "hookSizes": [
+      12,
+      20
+    ],
+    "category": "emerger",
+    "weight": "unweighted",
+    "weightNote": "none",
+    "look": "Curved hook, body hangs below film, parachute hackle and post above",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Imitates fw-bwo-emerger, fw-caddis-pupa.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/klinkhammer.jpg"
+  },
+  {
+    "id": "sparkle-pupa",
+    "name": "LaFontaine Sparkle Pupa",
+    "water": "fresh",
+    "family": "sparkle-pupa",
+    "hookSizes": [
+      12,
+      18
+    ],
+    "category": "emerger",
+    "weight": "unweighted",
+    "weightNote": "none",
+    "look": "Antron bubble sheath around body mimics gas bubble",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Imitates fw-caddis-pupa.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/sparkle-pupa.jpg"
+  },
+  {
+    "id": "soft-hackle-po",
+    "name": "Partridge & Orange (soft hackle)",
+    "water": "fresh",
+    "family": "soft-hackle-po",
+    "hookSizes": [
+      12,
+      16
+    ],
+    "category": "wet",
+    "weight": "unweighted",
+    "weightNote": "none",
+    "look": "Orange silk body, sparse partridge hackle swept back — swung",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Imitates fw-caddis-pupa, fw-caddis-diving, fw-pmd-emerger.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/soft-hackle-po.jpg"
+  },
+  {
+    "id": "soft-hackle-po-orange",
+    "name": "Partridge & Orange (soft hackle) — Orange",
+    "water": "fresh",
+    "family": "soft-hackle-po",
+    "variantOf": "soft-hackle-po",
+    "color": "Orange",
+    "hookSizes": [
+      12,
+      16
+    ],
+    "category": "wet",
+    "weight": "unweighted",
+    "look": "Orange silk",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Caddis pupa",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/soft-hackle-po-orange.jpg"
+  },
+  {
+    "id": "soft-hackle-po-yellow",
+    "name": "Partridge & Orange (soft hackle) — Yellow",
+    "water": "fresh",
+    "family": "soft-hackle-po",
+    "variantOf": "soft-hackle-po",
+    "color": "Yellow",
+    "hookSizes": [
+      12,
+      16
+    ],
+    "category": "wet",
+    "weight": "unweighted",
+    "look": "Yellow silk",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Sulphur, PMD emergers",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/soft-hackle-po-yellow.jpg"
+  },
+  {
+    "id": "soft-hackle-po-olive",
+    "name": "Partridge & Orange (soft hackle) — Olive",
+    "water": "fresh",
+    "family": "soft-hackle-po",
+    "variantOf": "soft-hackle-po",
+    "color": "Olive",
+    "hookSizes": [
+      12,
+      16
+    ],
+    "category": "wet",
+    "weight": "unweighted",
+    "look": "Olive silk",
+    "defaultKnot": "pitzen",
+    "tiedFor": "BWO emergers",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/soft-hackle-po-olive.jpg"
+  },
+  {
+    "id": "diving-caddis",
+    "name": "Diving Caddis",
+    "water": "fresh",
+    "family": "diving-caddis",
+    "hookSizes": [
+      14,
+      18
+    ],
+    "category": "wet",
+    "weight": "unweighted",
+    "weightNote": "light",
+    "look": "Antron wing slicked back, sparkle body",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Imitates fw-caddis-diving.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/diving-caddis.jpg"
+  },
+  {
+    "id": "wd40",
+    "name": "WD-40",
+    "water": "fresh",
+    "family": "wd40",
+    "hookSizes": [
+      18,
+      24
+    ],
+    "category": "emerger",
+    "weight": "unweighted",
+    "weightNote": "none",
+    "look": "Thread body, wood duck tail and wing case, dubbed thorax",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Imitates fw-midge-pupa, fw-bwo-emerger.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/wd40.jpg"
+  },
+  {
+    "id": "hares-ear",
+    "name": "Gold Ribbed Hare's Ear",
+    "water": "fresh",
+    "family": "hares-ear",
+    "hookSizes": [
+      10,
+      18
+    ],
+    "category": "nymph",
+    "weight": "beadhead",
+    "weightNote": "bead or none",
+    "look": "Buggy hare's mask dubbing, gold rib, dark wing case",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Imitates fw-march-brown-nymph, fw-hendrickson-nymph, generic nymph.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/hares-ear.jpg"
+  },
+  {
+    "id": "jig-hares-ear",
+    "name": "Jig Hare's Ear",
+    "water": "fresh",
+    "family": "jig-hares-ear",
+    "hookSizes": [
+      12,
+      16
+    ],
+    "category": "nymph",
+    "weight": "tungsten",
+    "weightNote": "tungsten slotted bead",
+    "look": "Hare's ear on a jig hook, rides hook-point up — Euro nymph",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Imitates fw-march-brown-nymph, generic nymph.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/jig-hares-ear.jpg"
+  },
+  {
+    "id": "prince-nymph",
+    "name": "Prince Nymph",
+    "water": "fresh",
+    "family": "prince-nymph",
+    "hookSizes": [
+      10,
+      16
+    ],
+    "category": "nymph",
+    "weight": "beadhead",
+    "weightNote": "bead",
+    "look": "Peacock body, white goose biot wings, brown biot tails",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Imitates fw-yellow-sally-nymph, fw-caddis-pupa, attractor.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/prince-nymph.jpg"
+  },
+  {
+    "id": "copper-john",
+    "name": "Copper John",
+    "water": "fresh",
+    "family": "copper-john",
+    "hookSizes": [
+      12,
+      20
+    ],
+    "category": "nymph",
+    "weight": "beadhead",
+    "weightNote": "bead + wire",
+    "look": "Copper wire body, epoxy wing case, heavy — the point fly",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Imitates generic mayfly nymph, attractor.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/copper-john.jpg"
+  },
+  {
+    "id": "copper-john-copper",
+    "name": "Copper John — Copper",
+    "water": "fresh",
+    "family": "copper-john",
+    "variantOf": "copper-john",
+    "color": "Copper",
+    "hookSizes": [
+      12,
+      20
+    ],
+    "category": "nymph",
+    "weight": "beadhead",
+    "look": "Copper wire body",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Standard",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/copper-john-copper.jpg"
+  },
+  {
+    "id": "copper-john-red",
+    "name": "Copper John — Red",
+    "water": "fresh",
+    "family": "copper-john",
+    "variantOf": "copper-john",
+    "color": "Red",
+    "hookSizes": [
+      12,
+      20
+    ],
+    "category": "nymph",
+    "weight": "beadhead",
+    "look": "Red wire",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Attractor, stained water",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/copper-john-red.jpg"
+  },
+  {
+    "id": "copper-john-chartreuse",
+    "name": "Copper John — Chartreuse",
+    "water": "fresh",
+    "family": "copper-john",
+    "variantOf": "copper-john",
+    "color": "Chartreuse",
+    "hookSizes": [
+      12,
+      20
+    ],
+    "category": "nymph",
+    "weight": "beadhead",
+    "look": "Chartreuse wire",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Caddis larva, attractor",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/copper-john-chartreuse.jpg"
+  },
+  {
+    "id": "copper-john-black",
+    "name": "Copper John — Black",
+    "water": "fresh",
+    "family": "copper-john",
+    "variantOf": "copper-john",
+    "color": "Black",
+    "hookSizes": [
+      12,
+      20
+    ],
+    "category": "nymph",
+    "weight": "beadhead",
+    "look": "Black wire",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Dark nymphs",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/copper-john-black.jpg"
+  },
+  {
+    "id": "zebra-midge-olive",
+    "name": "Zebra Midge — Olive",
+    "water": "fresh",
+    "family": "zebra-midge",
+    "variantOf": "zebra-midge",
+    "color": "Olive",
+    "hookSizes": [
+      16,
+      24
+    ],
+    "category": "nymph",
+    "weight": "beadhead",
+    "look": "Olive thread, gold wire",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Spring creeks",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/zebra-midge-olive.jpg"
+  },
+  {
+    "id": "zebra-midge-purple",
+    "name": "Zebra Midge — Purple",
+    "water": "fresh",
+    "family": "zebra-midge",
+    "variantOf": "zebra-midge",
+    "color": "Purple",
+    "hookSizes": [
+      16,
+      24
+    ],
+    "category": "nymph",
+    "weight": "beadhead",
+    "look": "Purple thread",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Tailwater favorite",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/zebra-midge-purple.jpg"
+  },
+  {
+    "id": "bloodworm",
+    "name": "Bloodworm Midge Larva",
+    "water": "fresh",
+    "family": "bloodworm",
+    "hookSizes": [
+      14,
+      18
+    ],
+    "category": "nymph",
+    "weight": "unweighted",
+    "weightNote": "none",
+    "look": "Red segmented body, often on a curved hook",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Imitates fw-midge-larva.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/bloodworm.jpg"
+  },
+  {
+    "id": "pats-rubber-legs-black-brown",
+    "name": "Pat's Rubber Legs — Black/Brown",
+    "water": "fresh",
+    "family": "pats-rubber-legs",
+    "variantOf": "pats-rubber-legs",
+    "color": "Black/Brown",
+    "hookSizes": [
+      4,
+      10
+    ],
+    "category": "nymph",
+    "weight": "lead-eyes",
+    "look": "Black and brown variegated chenille",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Golden stones",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/pats-rubber-legs-black-brown.jpg"
+  },
+  {
+    "id": "pats-rubber-legs-black",
+    "name": "Pat's Rubber Legs — Black",
+    "water": "fresh",
+    "family": "pats-rubber-legs",
+    "variantOf": "pats-rubber-legs",
+    "color": "Black",
+    "hookSizes": [
+      4,
+      10
+    ],
+    "category": "nymph",
+    "weight": "lead-eyes",
+    "look": "All black",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Salmonfly nymph",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/pats-rubber-legs-black.jpg"
+  },
+  {
+    "id": "pats-rubber-legs-tan-brown",
+    "name": "Pat's Rubber Legs — Tan/Brown (coffee & cream)",
+    "water": "fresh",
+    "family": "pats-rubber-legs",
+    "variantOf": "pats-rubber-legs",
+    "color": "Tan/Brown (coffee & cream)",
+    "hookSizes": [
+      4,
+      10
+    ],
+    "category": "nymph",
+    "weight": "lead-eyes",
+    "look": "Tan and brown",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Golden stone, clear water",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/pats-rubber-legs-tan-brown.jpg"
+  },
+  {
+    "id": "girdle-bug",
+    "name": "Girdle Bug",
+    "water": "fresh",
+    "family": "girdle-bug",
+    "hookSizes": [
+      4,
+      10
+    ],
+    "category": "nymph",
+    "weight": "lead-eyes",
+    "weightNote": "lead wraps",
+    "look": "Simpler rubber-leg stone, black or brown chenille",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Imitates fw-golden-stone-nymph.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/girdle-bug.jpg"
+  },
+  {
+    "id": "kaufmann-stone",
+    "name": "Kaufmann's Stone",
+    "water": "fresh",
+    "family": "kaufmann-stone",
+    "hookSizes": [
+      4,
+      8
+    ],
+    "category": "nymph",
+    "weight": "lead-eyes",
+    "weightNote": "lead wraps",
+    "look": "Realistic stonefly nymph, biot tails, turkey wing cases",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Imitates fw-salmonfly-nymph, fw-golden-stone-nymph.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/kaufmann-stone.jpg"
+  },
+  {
+    "id": "perdigon-brown",
+    "name": "Perdigon — Brown",
+    "water": "fresh",
+    "family": "perdigon",
+    "variantOf": "perdigon",
+    "color": "Brown",
+    "hookSizes": [
+      14,
+      20
+    ],
+    "category": "nymph",
+    "weight": "tungsten",
+    "look": "Brown quill body",
+    "defaultKnot": "pitzen",
+    "tiedFor": "PMD, sulphur nymphs",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/perdigon-brown.jpg"
+  },
+  {
+    "id": "frenchie-pink",
+    "name": "Frenchie — Pink collar",
+    "water": "fresh",
+    "family": "frenchie",
+    "variantOf": "frenchie",
+    "color": "Pink collar",
+    "hookSizes": [
+      14,
+      18
+    ],
+    "category": "nymph",
+    "weight": "tungsten",
+    "look": "Pheasant tail, pink dubbing collar",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Standard",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/frenchie-pink.jpg"
+  },
+  {
+    "id": "frenchie-orange",
+    "name": "Frenchie — Orange collar",
+    "water": "fresh",
+    "family": "frenchie",
+    "variantOf": "frenchie",
+    "color": "Orange collar",
+    "hookSizes": [
+      14,
+      18
+    ],
+    "category": "nymph",
+    "weight": "tungsten",
+    "look": "Pheasant tail, hot orange collar",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Stained water",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/frenchie-orange.jpg"
+  },
+  {
+    "id": "frenchie-chartreuse",
+    "name": "Frenchie — Chartreuse collar",
+    "water": "fresh",
+    "family": "frenchie",
+    "variantOf": "frenchie",
+    "color": "Chartreuse collar",
+    "hookSizes": [
+      14,
+      18
+    ],
+    "category": "nymph",
+    "weight": "tungsten",
+    "look": "Pheasant tail, chartreuse collar",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Winter, stocked fish",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/frenchie-chartreuse.jpg"
+  },
+  {
+    "id": "green-rockworm",
+    "name": "Green Rock Worm",
+    "water": "fresh",
+    "family": "green-rockworm",
+    "hookSizes": [
+      12,
+      16
+    ],
+    "category": "nymph",
+    "weight": "beadhead",
+    "weightNote": "bead",
+    "look": "Bright green segmented body, dark head, curved hook",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Imitates fw-caddis-larva.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/green-rockworm.jpg"
+  },
+  {
+    "id": "scud-fly-tan",
+    "name": "Scud — Tan",
+    "water": "fresh",
+    "family": "scud-fly",
+    "variantOf": "scud-fly",
+    "color": "Tan",
+    "hookSizes": [
+      12,
+      18
+    ],
+    "category": "nymph",
+    "weight": "unweighted",
+    "look": "Tan dubbing",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Sand-bottom tailwaters",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/scud-fly-tan.jpg"
+  },
+  {
+    "id": "sowbug",
+    "name": "Sowbug",
+    "water": "fresh",
+    "family": "sowbug",
+    "hookSizes": [
+      14,
+      18
+    ],
+    "category": "nymph",
+    "weight": "unweighted",
+    "weightNote": "light",
+    "look": "Flat gray oval body, straight hook",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Imitates fw-scud-adult.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/sowbug.jpg"
+  },
+  {
+    "id": "san-juan-worm",
+    "name": "San Juan Worm / Squirmy",
+    "water": "fresh",
+    "family": "san-juan-worm",
+    "hookSizes": [
+      10,
+      14
+    ],
+    "category": "nymph",
+    "weight": "beadhead",
+    "weightNote": "bead or split shot",
+    "look": "Red or pink chenille/squirmy strand, bead",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Imitates aquatic worm.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/san-juan-worm.jpg"
+  },
+  {
+    "id": "san-juan-worm-red",
+    "name": "San Juan Worm / Squirmy — Red",
+    "water": "fresh",
+    "family": "san-juan-worm",
+    "variantOf": "san-juan-worm",
+    "color": "Red",
+    "hookSizes": [
+      10,
+      14
+    ],
+    "category": "nymph",
+    "weight": "beadhead",
+    "look": "Red chenille",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Standard",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/san-juan-worm-red.jpg"
+  },
+  {
+    "id": "san-juan-worm-pink",
+    "name": "San Juan Worm / Squirmy — Pink",
+    "water": "fresh",
+    "family": "san-juan-worm",
+    "variantOf": "san-juan-worm",
+    "color": "Pink",
+    "hookSizes": [
+      10,
+      14
+    ],
+    "category": "nymph",
+    "weight": "beadhead",
+    "look": "Pink squirmy",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Stocked and high water",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/san-juan-worm-pink.jpg"
+  },
+  {
+    "id": "san-juan-worm-purple",
+    "name": "San Juan Worm / Squirmy — Purple",
+    "water": "fresh",
+    "family": "san-juan-worm",
+    "variantOf": "san-juan-worm",
+    "color": "Purple",
+    "hookSizes": [
+      10,
+      14
+    ],
+    "category": "nymph",
+    "weight": "beadhead",
+    "look": "Purple chenille",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Tailwaters",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/san-juan-worm-purple.jpg"
+  },
+  {
+    "id": "egg-pattern",
+    "name": "Egg (Glo Bug)",
+    "water": "fresh",
+    "family": "egg-pattern",
+    "hookSizes": [
+      10,
+      16
+    ],
+    "category": "nymph",
+    "weight": "unweighted",
+    "weightNote": "none",
+    "look": "Round yarn ball, orange/pink/chartreuse",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Imitates trout/salmon eggs.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/egg-pattern.jpg"
+  },
+  {
+    "id": "egg-pattern-orange",
+    "name": "Egg (Glo Bug) — Orange",
+    "water": "fresh",
+    "family": "egg-pattern",
+    "variantOf": "egg-pattern",
+    "color": "Orange",
+    "hookSizes": [
+      10,
+      16
+    ],
+    "category": "nymph",
+    "weight": "unweighted",
+    "look": "Orange yarn",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Standard",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/egg-pattern-orange.jpg"
+  },
+  {
+    "id": "egg-pattern-pink",
+    "name": "Egg (Glo Bug) — Pink (shrimp)",
+    "water": "fresh",
+    "family": "egg-pattern",
+    "variantOf": "egg-pattern",
+    "color": "Pink (shrimp)",
+    "hookSizes": [
+      10,
+      16
+    ],
+    "category": "nymph",
+    "weight": "unweighted",
+    "look": "Pale pink",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Clear water",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/egg-pattern-pink.jpg"
+  },
+  {
+    "id": "egg-pattern-chartreuse",
+    "name": "Egg (Glo Bug) — Chartreuse",
+    "water": "fresh",
+    "family": "egg-pattern",
+    "variantOf": "egg-pattern",
+    "color": "Chartreuse",
+    "hookSizes": [
+      10,
+      16
+    ],
+    "category": "nymph",
+    "weight": "unweighted",
+    "look": "Chartreuse yarn",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Stained water, steelhead",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/egg-pattern-chartreuse.jpg"
+  },
+  {
+    "id": "woolly-bugger-white",
+    "name": "Woolly Bugger — White",
+    "water": "both",
+    "family": "woolly-bugger",
+    "variantOf": "woolly-bugger",
+    "color": "White",
+    "hookSizes": [
+      2,
+      12
+    ],
+    "category": "streamer",
+    "weight": "beadhead",
+    "look": "White marabou and chenille, flash",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Baitfish, stillwater",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/woolly-bugger-white.jpg"
+  },
+  {
+    "id": "zonker",
+    "name": "Zonker",
+    "water": "fresh",
+    "family": "zonker",
+    "hookSizes": [
+      2,
+      8
+    ],
+    "category": "streamer",
+    "weight": "beadhead",
+    "weightNote": "cone or none",
+    "look": "Rabbit strip along back, mylar body, red throat",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Imitates fw-minnow-adult.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/zonker.jpg"
+  },
+  {
+    "id": "zonker-natural",
+    "name": "Zonker — Natural",
+    "water": "fresh",
+    "family": "zonker",
+    "variantOf": "zonker",
+    "color": "Natural",
+    "hookSizes": [
+      2,
+      8
+    ],
+    "category": "streamer",
+    "weight": "beadhead",
+    "look": "Natural rabbit, pearl body",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Minnows",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/zonker-natural.jpg"
+  },
+  {
+    "id": "zonker-olive",
+    "name": "Zonker — Olive",
+    "water": "fresh",
+    "family": "zonker",
+    "variantOf": "zonker",
+    "color": "Olive",
+    "hookSizes": [
+      2,
+      8
+    ],
+    "category": "streamer",
+    "weight": "beadhead",
+    "look": "Olive rabbit",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Sculpin",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/zonker-olive.jpg"
+  },
+  {
+    "id": "zonker-black",
+    "name": "Zonker — Black",
+    "water": "fresh",
+    "family": "zonker",
+    "variantOf": "zonker",
+    "color": "Black",
+    "hookSizes": [
+      2,
+      8
+    ],
+    "category": "streamer",
+    "weight": "beadhead",
+    "look": "Black rabbit",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Low light",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/zonker-black.jpg"
+  },
+  {
+    "id": "muddler-minnow",
+    "name": "Muddler Minnow",
+    "water": "fresh",
+    "family": "muddler-minnow",
+    "hookSizes": [
+      2,
+      10
+    ],
+    "category": "streamer",
+    "weight": "unweighted",
+    "weightNote": "none",
+    "look": "Spun deer hair head, turkey wing, gold body",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Imitates fw-sculpin-adult, fw-hopper-adult.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/muddler-minnow.jpg"
+  },
+  {
+    "id": "sculpzilla",
+    "name": "Sculpzilla",
+    "water": "fresh",
+    "family": "sculpzilla",
+    "hookSizes": [
+      4,
+      8
+    ],
+    "category": "streamer",
+    "weight": "unweighted",
+    "weightNote": "sculpin helmet",
+    "look": "Weighted sculpin head, rabbit strip, trailing stinger hook",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Imitates fw-sculpin-adult.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/sculpzilla.jpg"
+  },
+  {
+    "id": "sculpzilla-olive",
+    "name": "Sculpzilla — Olive",
+    "water": "fresh",
+    "family": "sculpzilla",
+    "variantOf": "sculpzilla",
+    "color": "Olive",
+    "hookSizes": [
+      4,
+      8
+    ],
+    "category": "streamer",
+    "weight": "unweighted",
+    "look": "Olive rabbit",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Standard",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/sculpzilla-olive.jpg"
+  },
+  {
+    "id": "sculpzilla-black",
+    "name": "Sculpzilla — Black",
+    "water": "fresh",
+    "family": "sculpzilla",
+    "variantOf": "sculpzilla",
+    "color": "Black",
+    "hookSizes": [
+      4,
+      8
+    ],
+    "category": "streamer",
+    "weight": "unweighted",
+    "look": "Black rabbit",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Low light",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/sculpzilla-black.jpg"
+  },
+  {
+    "id": "sculpzilla-white",
+    "name": "Sculpzilla — White",
+    "water": "fresh",
+    "family": "sculpzilla",
+    "variantOf": "sculpzilla",
+    "color": "White",
+    "hookSizes": [
+      4,
+      8
+    ],
+    "category": "streamer",
+    "weight": "unweighted",
+    "look": "White rabbit",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Baitfish, winter",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/sculpzilla-white.jpg"
+  },
+  {
+    "id": "sex-dungeon",
+    "name": "Sex Dungeon",
+    "water": "fresh",
+    "family": "sex-dungeon",
+    "hookSizes": [
+      2,
+      4
+    ],
+    "category": "streamer",
+    "weight": "lead-eyes",
+    "weightNote": "lead eyes",
+    "look": "Articulated deer hair head, rubber legs, schlappen — big trout streamer",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Imitates fw-sculpin-adult, large baitfish.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/sex-dungeon.jpg"
+  },
+  {
+    "id": "sex-dungeon-olive",
+    "name": "Sex Dungeon — Olive",
+    "water": "fresh",
+    "family": "sex-dungeon",
+    "variantOf": "sex-dungeon",
+    "color": "Olive",
+    "hookSizes": [
+      2,
+      4
+    ],
+    "category": "streamer",
+    "weight": "lead-eyes",
+    "look": "Olive deer hair and schlappen",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Sculpin",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/sex-dungeon-olive.jpg"
+  },
+  {
+    "id": "sex-dungeon-yellow",
+    "name": "Sex Dungeon — Yellow",
+    "water": "fresh",
+    "family": "sex-dungeon",
+    "variantOf": "sex-dungeon",
+    "color": "Yellow",
+    "hookSizes": [
+      2,
+      4
+    ],
+    "category": "streamer",
+    "weight": "lead-eyes",
+    "look": "Yellow",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Stained water, attractor",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/sex-dungeon-yellow.jpg"
+  },
+  {
+    "id": "sex-dungeon-black",
+    "name": "Sex Dungeon — Black",
+    "water": "fresh",
+    "family": "sex-dungeon",
+    "variantOf": "sex-dungeon",
+    "color": "Black",
+    "hookSizes": [
+      2,
+      4
+    ],
+    "category": "streamer",
+    "weight": "lead-eyes",
+    "look": "Black",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Low light, high water",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/sex-dungeon-black.jpg"
+  },
+  {
+    "id": "sex-dungeon-white",
+    "name": "Sex Dungeon — White",
+    "water": "fresh",
+    "family": "sex-dungeon",
+    "variantOf": "sex-dungeon",
+    "color": "White",
+    "hookSizes": [
+      2,
+      4
+    ],
+    "category": "streamer",
+    "weight": "lead-eyes",
+    "look": "White",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Baitfish",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/sex-dungeon-white.jpg"
+  },
+  {
+    "id": "slumpbuster",
+    "name": "Slumpbuster",
+    "water": "fresh",
+    "family": "slumpbuster",
+    "hookSizes": [
+      4,
+      8
+    ],
+    "category": "streamer",
+    "weight": "beadhead",
+    "weightNote": "cone",
+    "look": "Pine squirrel strip, cone head, sparkle body",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Imitates fw-sculpin-adult, fw-minnow-adult.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/slumpbuster.jpg"
+  },
+  {
+    "id": "sparkle-minnow",
+    "name": "Sparkle Minnow",
+    "water": "fresh",
+    "family": "sparkle-minnow",
+    "hookSizes": [
+      4,
+      8
+    ],
+    "category": "streamer",
+    "weight": "beadhead",
+    "weightNote": "cone",
+    "look": "Flashy Ice Dub body, marabou tail, cone head",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Imitates fw-minnow-adult.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/sparkle-minnow.jpg"
+  },
+  {
+    "id": "crayfish-fly",
+    "name": "Crayfish (Clouser Crayfish / Near Nuff)",
+    "water": "fresh",
+    "family": "crayfish-fly",
+    "hookSizes": [
+      4,
+      8
+    ],
+    "category": "streamer",
+    "weight": "lead-eyes",
+    "weightNote": "lead eyes",
+    "look": "Claws trail at the bend so it swims backwards like a fleeing crayfish, olive-rust body",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Imitates fw-crayfish-adult.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/crayfish-fly.jpg"
+  },
+  {
+    "id": "game-changer",
+    "name": "Game Changer",
+    "water": "both",
+    "family": "game-changer",
+    "hookSizes": [
+      -1,
+      2
+    ],
+    "category": "streamer",
+    "weight": "unweighted",
+    "weightNote": "none",
+    "look": "Multi-shank articulated body, swims with a serpentine S-motion",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Imitates fw-minnow-adult, sw-mullet.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/game-changer.jpg"
+  },
+  {
+    "id": "game-changer-white",
+    "name": "Game Changer — White",
+    "water": "both",
+    "family": "game-changer",
+    "variantOf": "game-changer",
+    "color": "White",
+    "hookSizes": [
+      -1,
+      2
+    ],
+    "category": "streamer",
+    "weight": "unweighted",
+    "look": "White fiber",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Baitfish",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/game-changer-white.jpg"
+  },
+  {
+    "id": "game-changer-olive-white",
+    "name": "Game Changer — Olive/White",
+    "water": "both",
+    "family": "game-changer",
+    "variantOf": "game-changer",
+    "color": "Olive/White",
+    "hookSizes": [
+      -1,
+      2
+    ],
+    "category": "streamer",
+    "weight": "unweighted",
+    "look": "Olive back",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Clear water",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/game-changer-olive-white.jpg"
+  },
+  {
+    "id": "game-changer-chartreuse",
+    "name": "Game Changer — Chartreuse",
+    "water": "both",
+    "family": "game-changer",
+    "variantOf": "game-changer",
+    "color": "Chartreuse",
+    "hookSizes": [
+      -1,
+      2
+    ],
+    "category": "streamer",
+    "weight": "unweighted",
+    "look": "Chartreuse",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Stained water",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/game-changer-chartreuse.jpg"
+  },
+  {
+    "id": "clouser-minnow-tan-white",
+    "name": "Clouser Minnow — Tan/White",
+    "water": "both",
+    "family": "clouser-minnow",
+    "variantOf": "clouser-minnow",
+    "color": "Tan/White",
+    "hookSizes": [
+      -1,
+      8
+    ],
+    "category": "saltwater",
+    "weight": "lead-eyes",
+    "look": "Tan over white",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Sand flats, bonefish, seatrout",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/clouser-minnow-tan-white.jpg"
+  },
+  {
+    "id": "clouser-minnow-pink-white",
+    "name": "Clouser Minnow — Pink/White",
+    "water": "both",
+    "family": "clouser-minnow",
+    "variantOf": "clouser-minnow",
+    "color": "Pink/White",
+    "hookSizes": [
+      -1,
+      8
+    ],
+    "category": "saltwater",
+    "weight": "lead-eyes",
+    "look": "Pink over white",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Snook, seatrout, low light",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/clouser-minnow-pink-white.jpg"
+  },
+  {
+    "id": "clouser-minnow-all-black",
+    "name": "Clouser Minnow — Black",
+    "water": "both",
+    "family": "clouser-minnow",
+    "variantOf": "clouser-minnow",
+    "color": "Black",
+    "hookSizes": [
+      -1,
+      8
+    ],
+    "category": "saltwater",
+    "weight": "lead-eyes",
+    "look": "Black over black, purple flash",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Night, muddy water",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/clouser-minnow-all-black.jpg"
+  },
+  {
+    "id": "lefty-deceiver",
+    "name": "Lefty's Deceiver",
+    "water": "salt",
+    "family": "lefty-deceiver",
+    "hookSizes": [
+      -3,
+      2
+    ],
+    "category": "saltwater",
+    "weight": "unweighted",
+    "weightNote": "none",
+    "look": "Saddle hackle tail, bucktail collar, no fouling — unweighted swimmer",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Imitates sw-mullet, sw-pilchard, generic baitfish.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/lefty-deceiver.jpg"
+  },
+  {
+    "id": "lefty-deceiver-white",
+    "name": "Lefty's Deceiver — White",
+    "water": "salt",
+    "family": "lefty-deceiver",
+    "variantOf": "lefty-deceiver",
+    "color": "White",
+    "hookSizes": [
+      -3,
+      2
+    ],
+    "category": "saltwater",
+    "weight": "unweighted",
+    "look": "All white, silver flash",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Baitfish, stripers",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/lefty-deceiver-white.jpg"
+  },
+  {
+    "id": "lefty-deceiver-chartreuse-white",
+    "name": "Lefty's Deceiver — Chartreuse/White",
+    "water": "salt",
+    "family": "lefty-deceiver",
+    "variantOf": "lefty-deceiver",
+    "color": "Chartreuse/White",
+    "hookSizes": [
+      -3,
+      2
+    ],
+    "category": "saltwater",
+    "weight": "unweighted",
+    "look": "Chartreuse over white",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Stained water, bluefish",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/lefty-deceiver-chartreuse-white.jpg"
+  },
+  {
+    "id": "lefty-deceiver-olive-white",
+    "name": "Lefty's Deceiver — Olive/White",
+    "water": "salt",
+    "family": "lefty-deceiver",
+    "variantOf": "lefty-deceiver",
+    "color": "Olive/White",
+    "hookSizes": [
+      -3,
+      2
+    ],
+    "category": "saltwater",
+    "weight": "unweighted",
+    "look": "Olive over white",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Mullet, clear water",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/lefty-deceiver-olive-white.jpg"
+  },
+  {
+    "id": "lefty-deceiver-black",
+    "name": "Lefty's Deceiver — Black",
+    "water": "salt",
+    "family": "lefty-deceiver",
+    "variantOf": "lefty-deceiver",
+    "color": "Black",
+    "hookSizes": [
+      -3,
+      2
+    ],
+    "category": "saltwater",
+    "weight": "unweighted",
+    "look": "All black",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Night, tarpon",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/lefty-deceiver-black.jpg"
+  },
+  {
+    "id": "half-and-half",
+    "name": "Half & Half",
+    "water": "salt",
+    "family": "half-and-half",
+    "hookSizes": [
+      -1,
+      1
+    ],
+    "category": "saltwater",
+    "weight": "lead-eyes",
+    "weightNote": "lead eyes",
+    "look": "Deceiver tail on a Clouser front",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Imitates generic baitfish.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/half-and-half.jpg"
+  },
+  {
+    "id": "ep-baitfish-white",
+    "name": "EP Baitfish — White",
+    "water": "salt",
+    "family": "ep-baitfish",
+    "variantOf": "ep-baitfish",
+    "color": "White",
+    "hookSizes": [
+      -3,
+      1
+    ],
+    "category": "saltwater",
+    "weight": "unweighted",
+    "look": "White EP fiber",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Standard",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/ep-baitfish-white.jpg"
+  },
+  {
+    "id": "ep-baitfish-olive-white",
+    "name": "EP Baitfish — Olive/White",
+    "water": "salt",
+    "family": "ep-baitfish",
+    "variantOf": "ep-baitfish",
+    "color": "Olive/White",
+    "hookSizes": [
+      -3,
+      1
+    ],
+    "category": "saltwater",
+    "weight": "unweighted",
+    "look": "Olive back",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Pilchards, mullet",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/ep-baitfish-olive-white.jpg"
+  },
+  {
+    "id": "ep-baitfish-gray-white",
+    "name": "EP Baitfish — Gray/White",
+    "water": "salt",
+    "family": "ep-baitfish",
+    "variantOf": "ep-baitfish",
+    "color": "Gray/White",
+    "hookSizes": [
+      -3,
+      1
+    ],
+    "category": "saltwater",
+    "weight": "unweighted",
+    "look": "Gray back",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Menhaden, clear water",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/ep-baitfish-gray-white.jpg"
+  },
+  {
+    "id": "hollow-fleye",
+    "name": "Hollow Fleye",
+    "water": "salt",
+    "family": "hollow-fleye",
+    "hookSizes": [
+      -3,
+      0
+    ],
+    "category": "saltwater",
+    "weight": "unweighted",
+    "weightNote": "none",
+    "look": "Reverse-tied bucktail creates a big hollow profile with no weight",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Imitates sw-mullet, sw-squid.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/hollow-fleye.jpg"
+  },
+  {
+    "id": "surf-candy",
+    "name": "Surf Candy",
+    "water": "salt",
+    "family": "surf-candy",
+    "hookSizes": [
+      -1,
+      2
+    ],
+    "category": "saltwater",
+    "weight": "unweighted",
+    "weightNote": "epoxy",
+    "look": "Epoxy or UV resin head over synthetic hair, translucent, durable",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Imitates sw-glass-minnow, sw-sand-eel.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/surf-candy.jpg"
+  },
+  {
+    "id": "surf-candy-olive-white",
+    "name": "Surf Candy — Olive/White",
+    "water": "salt",
+    "family": "surf-candy",
+    "variantOf": "surf-candy",
+    "color": "Olive/White",
+    "hookSizes": [
+      -1,
+      2
+    ],
+    "category": "saltwater",
+    "weight": "unweighted",
+    "look": "Olive back, white belly",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Bay anchovy, sand eel",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/surf-candy-olive-white.jpg"
+  },
+  {
+    "id": "surf-candy-chartreuse-white",
+    "name": "Surf Candy — Chartreuse/White",
+    "water": "salt",
+    "family": "surf-candy",
+    "variantOf": "surf-candy",
+    "color": "Chartreuse/White",
+    "hookSizes": [
+      -1,
+      2
+    ],
+    "category": "saltwater",
+    "weight": "unweighted",
+    "look": "Chartreuse back",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Stained water",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/surf-candy-chartreuse-white.jpg"
+  },
+  {
+    "id": "gummy-minnow",
+    "name": "Gummy Minnow",
+    "water": "salt",
+    "family": "gummy-minnow",
+    "hookSizes": [
+      2,
+      4
+    ],
+    "category": "saltwater",
+    "weight": "unweighted",
+    "weightNote": "none",
+    "look": "Soft translucent silicone body, ultra-realistic",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Imitates sw-glass-minnow.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/gummy-minnow.jpg"
+  },
+  {
+    "id": "ep-sand-eel",
+    "name": "EP Sand Eel",
+    "water": "salt",
+    "family": "ep-sand-eel",
+    "hookSizes": [
+      0,
+      2
+    ],
+    "category": "saltwater",
+    "weight": "unweighted",
+    "weightNote": "none or light",
+    "look": "Long thin olive-over-white profile",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Imitates sw-sand-eel.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/ep-sand-eel.jpg"
+  },
+  {
+    "id": "gotcha-chartreuse",
+    "name": "Gotcha — Chartreuse",
+    "water": "salt",
+    "family": "gotcha",
+    "variantOf": "gotcha",
+    "color": "Chartreuse",
+    "hookSizes": [
+      4,
+      8
+    ],
+    "category": "saltwater",
+    "weight": "bead-chain",
+    "look": "Pink head, chartreuse wing",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Turtle grass, off-color water",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/gotcha-chartreuse.jpg"
+  },
+  {
+    "id": "crazy-charlie-white",
+    "name": "Crazy Charlie — White",
+    "water": "salt",
+    "family": "crazy-charlie",
+    "variantOf": "crazy-charlie",
+    "color": "White",
+    "hookSizes": [
+      4,
+      8
+    ],
+    "category": "saltwater",
+    "weight": "bead-chain",
+    "look": "Pearl body, white wing",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Bright sun, white marl",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/crazy-charlie-white.jpg"
+  },
+  {
+    "id": "ep-shrimp",
+    "name": "EP Spawning Shrimp",
+    "water": "salt",
+    "family": "ep-shrimp",
+    "hookSizes": [
+      2,
+      6
+    ],
+    "category": "saltwater",
+    "weight": "lead-eyes",
+    "weightNote": "lead eyes",
+    "look": "Realistic shrimp with orange egg sac, mono eyes",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Imitates sw-shrimp.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/ep-shrimp.jpg"
+  },
+  {
+    "id": "ep-shrimp-tan",
+    "name": "EP Spawning Shrimp — Tan",
+    "water": "salt",
+    "family": "ep-shrimp",
+    "variantOf": "ep-shrimp",
+    "color": "Tan",
+    "hookSizes": [
+      2,
+      6
+    ],
+    "category": "saltwater",
+    "weight": "lead-eyes",
+    "look": "Tan EP, orange egg sac",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Standard",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/ep-shrimp-tan.jpg"
+  },
+  {
+    "id": "ep-shrimp-olive",
+    "name": "EP Spawning Shrimp — Olive",
+    "water": "salt",
+    "family": "ep-shrimp",
+    "variantOf": "ep-shrimp",
+    "color": "Olive",
+    "hookSizes": [
+      2,
+      6
+    ],
+    "category": "saltwater",
+    "weight": "lead-eyes",
+    "look": "Olive EP",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Grass flats",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/ep-shrimp-olive.jpg"
+  },
+  {
+    "id": "mantis-shrimp",
+    "name": "Mantis Shrimp",
+    "water": "salt",
+    "family": "mantis-shrimp",
+    "hookSizes": [
+      2,
+      4
+    ],
+    "category": "saltwater",
+    "weight": "lead-eyes",
+    "weightNote": "lead eyes",
+    "look": "Long low banded tan/cream mantis, stalked eyes, folded claws — big bonefish and permit",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Imitates sw-mantis-shrimp.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/mantis-shrimp.jpg"
+  },
+  {
+    "id": "mantis-shrimp-tan",
+    "name": "Mantis Shrimp — Tan",
+    "water": "salt",
+    "family": "mantis-shrimp",
+    "variantOf": "mantis-shrimp",
+    "color": "Tan",
+    "hookSizes": [
+      2,
+      4
+    ],
+    "category": "saltwater",
+    "weight": "lead-eyes",
+    "look": "Tan",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "White sand",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/mantis-shrimp-tan.jpg"
+  },
+  {
+    "id": "mantis-shrimp-olive",
+    "name": "Mantis Shrimp — Olive",
+    "water": "salt",
+    "family": "mantis-shrimp",
+    "variantOf": "mantis-shrimp",
+    "color": "Olive",
+    "hookSizes": [
+      2,
+      4
+    ],
+    "category": "saltwater",
+    "weight": "lead-eyes",
+    "look": "Olive",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Grass and coral",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/mantis-shrimp-olive.jpg"
+  },
+  {
+    "id": "merkin",
+    "name": "Merkin (Del Brown's Permit Fly)",
+    "water": "salt",
+    "family": "merkin",
+    "hookSizes": [
+      2,
+      6
+    ],
+    "category": "saltwater",
+    "weight": "lead-eyes",
+    "weightNote": "lead eyes",
+    "look": "Yarn strands tied across the shank, rubber legs, dives fast",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Imitates sw-crab.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/merkin.jpg"
+  },
+  {
+    "id": "merkin-tan",
+    "name": "Merkin (Del Brown's Permit Fly) — Tan",
+    "water": "salt",
+    "family": "merkin",
+    "variantOf": "merkin",
+    "color": "Tan",
+    "hookSizes": [
+      2,
+      6
+    ],
+    "category": "saltwater",
+    "weight": "lead-eyes",
+    "look": "Tan yarn, tan legs",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Sand and marl flats",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/merkin-tan.jpg"
+  },
+  {
+    "id": "merkin-olive",
+    "name": "Merkin (Del Brown's Permit Fly) — Olive",
+    "water": "salt",
+    "family": "merkin",
+    "variantOf": "merkin",
+    "color": "Olive",
+    "hookSizes": [
+      2,
+      6
+    ],
+    "category": "saltwater",
+    "weight": "lead-eyes",
+    "look": "Olive yarn",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Turtle grass",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/merkin-olive.jpg"
+  },
+  {
+    "id": "merkin-brown",
+    "name": "Merkin (Del Brown's Permit Fly) — Brown/Rust",
+    "water": "salt",
+    "family": "merkin",
+    "variantOf": "merkin",
+    "color": "Brown/Rust",
+    "hookSizes": [
+      2,
+      6
+    ],
+    "category": "saltwater",
+    "weight": "lead-eyes",
+    "look": "Brown yarn",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Mud flats, Belize",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/merkin-brown.jpg"
+  },
+  {
+    "id": "flexo-crab",
+    "name": "Flexo Crab",
+    "water": "salt",
+    "family": "flexo-crab",
+    "hookSizes": [
+      2,
+      6
+    ],
+    "category": "saltwater",
+    "weight": "lead-eyes",
+    "weightNote": "lead eyes",
+    "look": "Round body from expandable mesh tubing, realistic",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Imitates sw-crab.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/flexo-crab.jpg"
+  },
+  {
+    "id": "raghead-crab",
+    "name": "Raghead Crab",
+    "water": "salt",
+    "family": "raghead-crab",
+    "hookSizes": [
+      2,
+      6
+    ],
+    "category": "saltwater",
+    "weight": "lead-eyes",
+    "weightNote": "lead eyes",
+    "look": "Yarn body trimmed round, hackle claws",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Imitates sw-crab.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/raghead-crab.jpg"
+  },
+  {
+    "id": "bauer-crab",
+    "name": "Bauer Crab",
+    "water": "salt",
+    "family": "bauer-crab",
+    "hookSizes": [
+      2,
+      6
+    ],
+    "category": "saltwater",
+    "weight": "lead-eyes",
+    "weightNote": "lead eyes",
+    "look": "Flat fiber body, lands softly, permit fly",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Imitates sw-crab.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/bauer-crab.jpg"
+  },
+  {
+    "id": "kwan",
+    "name": "Kwan",
+    "water": "salt",
+    "family": "kwan",
+    "hookSizes": [
+      2,
+      6
+    ],
+    "category": "saltwater",
+    "weight": "lead-eyes",
+    "weightNote": "lead eyes",
+    "look": "Yarn body, rabbit tail — redfish/permit crossover",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Imitates sw-crab, sw-shrimp, sw-mud-minnow.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/kwan.jpg"
+  },
+  {
+    "id": "kwan-tan",
+    "name": "Kwan — Tan",
+    "water": "salt",
+    "family": "kwan",
+    "variantOf": "kwan",
+    "color": "Tan",
+    "hookSizes": [
+      2,
+      6
+    ],
+    "category": "saltwater",
+    "weight": "lead-eyes",
+    "look": "Tan yarn, tan rabbit",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Standard",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/kwan-tan.jpg"
+  },
+  {
+    "id": "kwan-olive",
+    "name": "Kwan — Olive",
+    "water": "salt",
+    "family": "kwan",
+    "variantOf": "kwan",
+    "color": "Olive",
+    "hookSizes": [
+      2,
+      6
+    ],
+    "category": "saltwater",
+    "weight": "lead-eyes",
+    "look": "Olive yarn",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Grass flats",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/kwan-olive.jpg"
+  },
+  {
+    "id": "redfish-toad",
+    "name": "Redfish Toad",
+    "water": "salt",
+    "family": "redfish-toad",
+    "hookSizes": [
+      2,
+      4
+    ],
+    "category": "saltwater",
+    "weight": "bead-chain",
+    "weightNote": "bead-chain",
+    "look": "Brushed dubbing collar, craft-fur tail, orange hot spot, weedguard — lands soft in grass",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Imitates sw-mud-minnow, sw-shrimp.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/redfish-toad.jpg"
+  },
+  {
+    "id": "redfish-toad-tan",
+    "name": "Redfish Toad — Tan",
+    "water": "salt",
+    "family": "redfish-toad",
+    "variantOf": "redfish-toad",
+    "color": "Tan",
+    "hookSizes": [
+      2,
+      4
+    ],
+    "category": "saltwater",
+    "weight": "bead-chain",
+    "look": "Tan rabbit",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Marsh",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/redfish-toad-tan.jpg"
+  },
+  {
+    "id": "redfish-toad-black-purple",
+    "name": "Redfish Toad — Black/Purple",
+    "water": "salt",
+    "family": "redfish-toad",
+    "variantOf": "redfish-toad",
+    "color": "Black/Purple",
+    "hookSizes": [
+      2,
+      4
+    ],
+    "category": "saltwater",
+    "weight": "bead-chain",
+    "look": "Black and purple",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Stained marsh water",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/redfish-toad-black-purple.jpg"
+  },
+  {
+    "id": "redfish-toad-chartreuse",
+    "name": "Redfish Toad — Chartreuse",
+    "water": "salt",
+    "family": "redfish-toad",
+    "variantOf": "redfish-toad",
+    "color": "Chartreuse",
+    "hookSizes": [
+      2,
+      4
+    ],
+    "category": "saltwater",
+    "weight": "bead-chain",
+    "look": "Chartreuse rabbit",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Muddy water",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/redfish-toad-chartreuse.jpg"
+  },
+  {
+    "id": "tarpon-toad-black-purple",
+    "name": "Tarpon Toad — Black/Purple",
+    "water": "salt",
+    "family": "tarpon-toad",
+    "variantOf": "tarpon-toad",
+    "color": "Black/Purple",
+    "hookSizes": [
+      -2,
+      0
+    ],
+    "category": "saltwater",
+    "weight": "unweighted",
+    "look": "Black and purple",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Low light, dirty water",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/tarpon-toad-black-purple.jpg"
+  },
+  {
+    "id": "tarpon-toad-chartreuse",
+    "name": "Tarpon Toad — Chartreuse",
+    "water": "salt",
+    "family": "tarpon-toad",
+    "variantOf": "tarpon-toad",
+    "color": "Chartreuse",
+    "hookSizes": [
+      -2,
+      0
+    ],
+    "category": "saltwater",
+    "weight": "unweighted",
+    "look": "Chartreuse",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Stained water",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/tarpon-toad-chartreuse.jpg"
+  },
+  {
+    "id": "squid-fly",
+    "name": "Squid Fly",
+    "water": "salt",
+    "family": "squid-fly",
+    "hookSizes": [
+      -3,
+      0
+    ],
+    "category": "saltwater",
+    "weight": "unweighted",
+    "weightNote": "none",
+    "look": "Pink/white saddle hackles, big eyes, mantle profile",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Imitates sw-squid.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/squid-fly.jpg"
+  },
+  {
+    "id": "needlefish-fly",
+    "name": "Needlefish Fly",
+    "water": "salt",
+    "family": "needlefish-fly",
+    "hookSizes": [
+      -1,
+      0
+    ],
+    "category": "saltwater",
+    "weight": "unweighted",
+    "weightNote": "none",
+    "look": "6-10 in braided tube or fiber, chartreuse/green, wire bite tippet",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Imitates sw-needlefish.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/needlefish-fly.jpg"
+  },
+  {
+    "id": "gurgler-white",
+    "name": "Gurgler — White",
+    "water": "salt",
+    "family": "gurgler",
+    "variantOf": "gurgler",
+    "color": "White",
+    "hookSizes": [
+      2,
+      6
+    ],
+    "category": "topwater",
+    "weight": "unweighted",
+    "look": "White foam and bucktail",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Standard",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/gurgler-white.jpg"
+  },
+  {
+    "id": "gurgler-chartreuse",
+    "name": "Gurgler — Chartreuse",
+    "water": "salt",
+    "family": "gurgler",
+    "variantOf": "gurgler",
+    "color": "Chartreuse",
+    "hookSizes": [
+      2,
+      6
+    ],
+    "category": "topwater",
+    "weight": "unweighted",
+    "look": "Chartreuse foam",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Low light, stained",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/gurgler-chartreuse.jpg"
+  },
+  {
+    "id": "gurgler-black",
+    "name": "Gurgler — Black",
+    "water": "salt",
+    "family": "gurgler",
+    "variantOf": "gurgler",
+    "color": "Black",
+    "hookSizes": [
+      2,
+      6
+    ],
+    "category": "topwater",
+    "weight": "unweighted",
+    "look": "Black foam",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Night snook, dawn",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/gurgler-black.jpg"
+  },
+  {
+    "id": "crease-fly",
+    "name": "Crease Fly",
+    "water": "salt",
+    "family": "crease-fly",
+    "hookSizes": [
+      -1,
+      1
+    ],
+    "category": "topwater",
+    "weight": "unweighted",
+    "weightNote": "none",
+    "look": "Folded foam sheet body, painted, pops and slides",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Imitates injured baitfish.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/crease-fly.jpg"
+  },
+  {
+    "id": "quill-gordon-dry",
+    "name": "Quill Gordon Dry",
+    "water": "fresh",
+    "family": "quill-gordon-dry",
+    "hookSizes": [
+      12,
+      14
+    ],
+    "category": "dry",
+    "weight": "unweighted",
+    "weightNote": "none",
+    "look": "Stripped peacock quill body, wood duck wings, dun hackle",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Imitates fw-quill-gordon-dun.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/quill-gordon-dry.jpg"
+  },
+  {
+    "id": "green-weenie",
+    "name": "Green Weenie",
+    "water": "fresh",
+    "family": "green-weenie",
+    "hookSizes": [
+      12,
+      14
+    ],
+    "category": "nymph",
+    "weight": "unweighted",
+    "weightNote": "none or light",
+    "look": "Chartreuse chenille body with a loop tail — Appalachian staple",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Imitates fw-inchworm-adult, fw-caddis-larva.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/green-weenie.jpg"
+  },
+  {
+    "id": "green-weenie-chartreuse",
+    "name": "Green Weenie — Chartreuse",
+    "water": "fresh",
+    "family": "green-weenie",
+    "variantOf": "green-weenie",
+    "color": "Chartreuse",
+    "hookSizes": [
+      12,
+      14
+    ],
+    "category": "nymph",
+    "weight": "unweighted",
+    "look": "Chartreuse chenille",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Standard",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/green-weenie-chartreuse.jpg"
+  },
+  {
+    "id": "green-weenie-lime",
+    "name": "Green Weenie — Lime",
+    "water": "fresh",
+    "family": "green-weenie",
+    "variantOf": "green-weenie",
+    "color": "Lime",
+    "hookSizes": [
+      12,
+      14
+    ],
+    "category": "nymph",
+    "weight": "unweighted",
+    "look": "Lime chenille",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Inchworm season",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/green-weenie-lime.jpg"
+  },
+  {
+    "id": "thunderhead",
+    "name": "Thunderhead",
+    "water": "fresh",
+    "family": "thunderhead",
+    "hookSizes": [
+      12,
+      16
+    ],
+    "category": "dry",
+    "weight": "unweighted",
+    "weightNote": "none",
+    "look": "Wulff-style white calf wing, gray body — Smokies/NC brook trout fly",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Imitates attractor, generic mayfly.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/thunderhead.jpg"
+  },
+  {
+    "id": "yellow-palmer",
+    "name": "Yellow Palmer",
+    "water": "fresh",
+    "family": "yellow-palmer",
+    "hookSizes": [
+      12,
+      16
+    ],
+    "category": "dry",
+    "weight": "unweighted",
+    "weightNote": "none",
+    "look": "Yellow body under ginger hackle palmered the whole shank, no wings — Smokies dry",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Imitates attractor, fw-yellow-sally-adult.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/yellow-palmer.jpg"
+  },
+  {
+    "id": "yallarhammer",
+    "name": "Yallarhammer",
+    "water": "fresh",
+    "family": "yallarhammer",
+    "hookSizes": [
+      10,
+      14
+    ],
+    "category": "wet",
+    "weight": "unweighted",
+    "weightNote": "none",
+    "look": "Long barred yellow feather palmered over a yellow body — the old NC mountain wet fly",
+    "defaultKnot": "pitzen",
+    "tiedFor": "Imitates attractor, fw-yellow-sally-adult.",
+    "status": "draft",
+    "sources": [
+      "Split from the Yellow Palmer record, 2026-09-16 — they are two different flies"
+    ],
+    "image": "assets/yallarhammer.jpg"
+  },
+  {
+    "id": "albie-fly",
+    "name": "Jiggy",
+    "water": "salt",
+    "family": "albie-fly",
+    "hookSizes": [
+      0,
+      2
+    ],
+    "category": "saltwater",
+    "weight": "beadhead",
+    "weightNote": "metal cone at the nose",
+    "look": "Metal cone head, sparse synthetic wing, slim — sinks fast and jigs. NC albies and bonito",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Imitates sw-bay-anchovy, sw-glass-minnow.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/albie-fly.jpg"
+  },
+  {
+    "id": "spoon-fly",
+    "name": "Kirk's Spoon Fly",
+    "water": "salt",
+    "family": "spoon-fly",
+    "hookSizes": [
+      2,
+      4
+    ],
+    "category": "saltwater",
+    "weight": "unweighted",
+    "weightNote": "epoxy",
+    "look": "Gold epoxy-coated mylar spoon with a bucktail tail, wobbles — NC/Gulf redfish",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Imitates flash attractor.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/spoon-fly.jpg"
+  },
+  {
+    "id": "seaducer",
+    "name": "Seaducer",
+    "water": "salt",
+    "family": "seaducer",
+    "hookSizes": [
+      -1,
+      1
+    ],
+    "category": "saltwater",
+    "weight": "unweighted",
+    "weightNote": "none",
+    "look": "Palmered hackle body, splayed tail, sinks slowly — snook, seatrout, redfish",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Imitates generic baitfish, sw-shrimp.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/seaducer.jpg"
+  },
+  {
+    "id": "seaducer-red-white",
+    "name": "Seaducer — Red/White",
+    "water": "salt",
+    "family": "seaducer",
+    "variantOf": "seaducer",
+    "color": "Red/White",
+    "hookSizes": [
+      -1,
+      1
+    ],
+    "category": "saltwater",
+    "weight": "unweighted",
+    "look": "Red and white hackle",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Classic",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/seaducer-red-white.jpg"
+  },
+  {
+    "id": "seaducer-chartreuse",
+    "name": "Seaducer — Chartreuse",
+    "water": "salt",
+    "family": "seaducer",
+    "variantOf": "seaducer",
+    "color": "Chartreuse",
+    "hookSizes": [
+      -1,
+      1
+    ],
+    "category": "saltwater",
+    "weight": "unweighted",
+    "look": "Chartreuse",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Stained water",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/seaducer-chartreuse.jpg"
+  },
+  {
+    "id": "seaducer-grizzly",
+    "name": "Seaducer — Grizzly/Tan",
+    "water": "salt",
+    "family": "seaducer",
+    "variantOf": "seaducer",
+    "color": "Grizzly/Tan",
+    "hookSizes": [
+      -1,
+      1
+    ],
+    "category": "saltwater",
+    "weight": "unweighted",
+    "look": "Grizzly hackle",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Clear water",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/seaducer-grizzly.jpg"
+  },
+  {
+    "id": "cockroach",
+    "name": "Cockroach (Tarpon)",
+    "water": "salt",
+    "family": "cockroach",
+    "hookSizes": [
+      -2,
+      0
+    ],
+    "category": "saltwater",
+    "weight": "unweighted",
+    "weightNote": "none",
+    "look": "Grizzly hackle tail, brown collar — classic Keys/Belize tarpon fly",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Imitates generic baitfish.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/cockroach.jpg"
+  },
+  {
+    "id": "black-death",
+    "name": "Black Death",
+    "water": "salt",
+    "family": "black-death",
+    "hookSizes": [
+      -2,
+      0
+    ],
+    "category": "saltwater",
+    "weight": "unweighted",
+    "weightNote": "none",
+    "look": "Black and red tarpon fly for low light and dirty water",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Imitates generic baitfish.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/black-death.jpg"
+  },
+  {
+    "id": "peterson-spawning-shrimp",
+    "name": "Peterson's Spawning Shrimp",
+    "water": "salt",
+    "family": "peterson-spawning-shrimp",
+    "hookSizes": [
+      2,
+      6
+    ],
+    "category": "saltwater",
+    "weight": "lead-eyes",
+    "weightNote": "lead eyes",
+    "look": "Tan shrimp with orange egg cluster — Bahamas/Belize bonefish",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Imitates sw-shrimp.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/peterson-spawning-shrimp.jpg"
+  },
+  {
+    "id": "clouser-redfish",
+    "name": "Redfish Clouser (copper/gold)",
+    "water": "salt",
+    "family": "clouser-redfish",
+    "hookSizes": [
+      2,
+      4
+    ],
+    "category": "saltwater",
+    "weight": "lead-eyes",
+    "weightNote": "lead eyes",
+    "look": "Copper or root-beer Clouser for stained marsh water",
+    "defaultKnot": "non-slip-mono-loop",
+    "tiedFor": "Imitates sw-mud-minnow, sw-shrimp.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "image": "assets/clouser-redfish.jpg"
   }
 ]

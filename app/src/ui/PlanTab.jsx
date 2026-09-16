@@ -2,6 +2,7 @@ import React, { useMemo, useState } from 'react';
 import { bundle, regions, speciesIn, record, nameOf, MONTHS, confidence, assetUrl } from '../content/index.js';
 import { slate as buildSlate, whatsOn, retrieveFor, retrieveLine, setWord } from '../content/query.js';
 import { Card, Label, Empty, Pill, Strength, Field, Select, Diagram } from './bits.jsx';
+import { formatHookRange } from '../../../content/hooksize.mjs';
 
 function Thumb({ src }) {
   const [ok, setOk] = useState(true);
@@ -181,7 +182,7 @@ export default function PlanTab({ trip, setTrip, setSlate, onStudy, onLog }) {
                           <div className="name">{fly?.name ?? m.fly}</div>
                           <div className="sub">
                             {nameOf('organisms', m.organism)} · {m.stage}
-                            {m.hookSizes ? ` · #${m.hookSizes[0]}–${m.hookSizes[1]}` : ''}
+                            {m.hookSizes ? ` · #${formatHookRange(m.hookSizes)}` : ''}
                             {fly?.weight ? ` · ${fly.weight}` : ''}
                           </div>
                           {r && (

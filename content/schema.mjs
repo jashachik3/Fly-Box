@@ -14,13 +14,19 @@
 // These lists are what stop "bead chain" and "beadchain" from both existing.
 
 export const VOCAB = {
-  water: ['fresh', 'salt'],
+  // 'both' is a real answer for a fly — a Woolly Bugger does not care which
+  // water it is in — and a filter on water must let it through rather than
+  // dropping it from both sides.
+  water: ['fresh', 'salt', 'both'],
 
   // Life stages. Insects and crustaceans share one list; a stage is only legal
   // on an organism that actually declares it (checked in validate.mjs).
   stage: [
     'egg', 'larva', 'pupa', 'nymph', 'emerger', 'dun', 'spinner', 'adult',
     'juvenile', 'molting', 'spawning', 'schooling', 'dead-drifting',
+    // An adult back on the water to lay eggs is a different target from a
+    // freshly hatched one, and a flying ant is a different day from an ant.
+    'ovipositing', 'winged',
   ],
 
   organismKind: [
@@ -33,6 +39,10 @@ export const VOCAB = {
   ],
 
   flyRole: ['point', 'dropper', 'dry', 'single', 'trailer'],
+
+  // What KIND of fly it is, as against where it sits on the rig. Both matter
+  // and they are not the same axis: a nymph can be a point fly or a dropper.
+  flyCategory: ['dry', 'emerger', 'nymph', 'wet', 'streamer', 'saltwater', 'topwater'],
 
   // How strongly a match is recommended. Deliberately three values — a
   // 1–10 confidence score invites false precision you cannot justify.
@@ -80,7 +90,10 @@ export const VOCAB = {
   // concept by build.mjs — a deck that filters by kind filters on this.
   conceptKind: [
     'match', 'organism-stage', 'fly', 'knot', 'rig', 'retrieve', 'presence',
+    'scenario', 'rule', 'outfit',
   ],
+
+  ruleKind: ['rigging', 'knot-choice'],
 
   // How the deck list is grouped on screen. Order here is the order shown.
   deckGroup: ['destination', 'quarry', 'technique', 'fundamentals'],
@@ -186,6 +199,18 @@ export const SCHEMAS = {
         type: T.enum('waterType'),
         notes: T.str(),
       })),
+      namedWaters: T.arr(T.str()),   // the rivers and flats by name, unstructured
+      // What to bring for each fish HERE. The same species wants a different
+      // rod and leader in Idaho than it does on a flat, so this belongs on the
+      // region rather than on the species.
+      species: T.arr(T.obj({
+        species: T.ref('species'),
+        label: T.str(),              // the legacy wording, kept when it is richer
+        season: T.str(),
+        rod: T.str(),
+        leader: T.str(),
+        flies: T.arr(T.ref('flies')),
+      })),
     },
   },
 
@@ -207,7 +232,8 @@ export const SCHEMAS = {
         sizeMm: T.range(),
         hookSizes: T.range(),        // [smallest number, largest number]
         colors: T.arr(T.str()),
-        behavior: T.str(),           // what it does — the field-ID tell
+        look: T.str(),               // what it looks like
+        behavior: T.str(),           // what it does — the other half of the ID
         where: T.str(),              // where in the column / on the bottom
         vulnerable: T.bool(),        // is this the stage fish key on
         image: T.str(),
@@ -246,7 +272,10 @@ export const SCHEMAS = {
       color: T.str(),
       aliases: T.arr(T.str()),
       hookSizes: T.range({ required: true }),
+      category: T.enum('flyCategory'),
       weight: T.enum('flyWeight'),
+      weightNote: T.str(),                 // the tier's own words, e.g. "bead or split shot"
+      look: T.str(),                       // what it looks like in the box — the ID tell
       roles: T.arr(T.enum('flyRole')),
       defaultKnot: T.ref('knots'),
       retrieve: T.ref('retrieves'),        // how this fly is meant to move
@@ -384,9 +413,55 @@ export const SCHEMAS = {
       lb: T.num(),
       x: T.str(),
       diameterIn: T.num(),
+      flySizes: T.range(),           // hook sizes this tippet is matched to
       buttDiameterIn: T.num(),       // tapered leaders only
       spoolYd: T.num(),
       bestFor: T.str(),
+    },
+  },
+
+  // -- Scenarios: situation in, fly out -----------------------------------
+  // The most direct drill in the app: a paragraph of what you are looking at,
+  // and what you tie on. Kept separate from matches because a scenario is a
+  // whole picture — season, water, light, behaviour — not one organism.
+  scenarios: {
+    file: 'scenarios.json',
+    shape: {
+      ...BASE,
+      name: T.str(),
+      prompt: T.str({ required: true }),
+      answer: T.str({ required: true }),
+      flies: T.arr(T.ref('flies')),
+      tags: T.arr(T.str()),
+      regions: T.arr(T.ref('regions')),
+      months: T.arr(T.int({ min: 1, max: 12 })),
+    },
+  },
+
+  // -- Rules: the things you either know or you do not --------------------
+  rules: {
+    file: 'rules.json',
+    shape: {
+      ...BASE,
+      name: T.str(),
+      kind: T.enum('ruleKind', { required: true }),
+      q: T.str({ required: true }),
+      a: T.str({ required: true }),
+      knot: T.ref('knots'),          // knot-choice rules answer with a knot
+    },
+  },
+
+  // -- Outfits: rod and reel by job ---------------------------------------
+  outfits: {
+    file: 'outfits.json',
+    shape: {
+      ...BASE,
+      name: T.str(),
+      lineWeight: T.range(),
+      lengthFt: T.range(),
+      use: T.str({ required: true }),
+      reel: T.str(),
+      water: T.enum('water'),
     },
   },
 

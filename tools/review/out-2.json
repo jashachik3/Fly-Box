@@ -1,0 +1,332 @@
+[
+ {
+  "id": "chubby-chernobyl",
+  "verdict": "minor",
+  "recipe": "Eye to bend: blunt foam head over the eye; a strip of 2mm foam laid flat along the top of the shank and tied down at two points so it forms two fat segments; a clump of white poly yarn (or EP fibre) wing tied in at EACH of those two points, lying back over the body at a low angle; two rubber legs splayed to each side at each tie-down point (four legs total); an Ice Dub sparkle-dubbed underbody showing between the foam segments; a short tail of a few strands of Krystal Flash at the bend. Standard colourways tan, black, purple and royal, always with the white wing.",
+  "hook": "2XL-3XL long-shank terrestrial/dry hook (TMC 5262, Daiichi 1260/1280, TMC 2302, Umpqua 200R), sizes 6-14. Rides point-DOWN.",
+  "errors": [
+   "\"two white poly-yarn wings standing up\" - the two poly wings are tied in flat at two points along the foam body and lie BACK over the body at a low angle; they are not upright posts. This is the single most recognisable feature and upright wings would render a parachute-style fly, not a Chubby.",
+   "\"Large dry-fly hook\" - it is a 2XL-3XL long-shank terrestrial hook, not a standard-length dry hook; a standard dry hook gives a stubby, wrong-proportioned body."
+  ],
+  "missing": [
+   "The sparkle dubbing underbody (Ice Dub) that shows between/below the foam segments",
+   "The segmented foam body - the foam is tied down at two points to create two distinct fat segments, not one smooth slab",
+   "That the legs come in two pairs, one pair at each foam tie-down point",
+   "A named colourway - tan with white wing is the standard; black, purple, royal are the other originals"
+  ],
+  "invented": [],
+  "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is a \"Chubby Chernobyl\". A 2XL-3XL long-shank terrestrial dry-fly hook, size 8. From the eye back: a short blunt tan foam head projecting over the hook eye; a strip of 2mm tan foam laid flat along the top of the whole shank and lashed down at two points so it forms two fat foam segments; at each of those two tie-down points a clump of white poly yarn lying BACK over the body at a low angle, splayed and combed out, the rear clump shorter and the front clump reaching past the hook bend - the wings lie back over the fly, they are NOT upright posts; at each tie-down point two speckled brown rubber legs splayed out to each side, four rubber legs in total; a tan sparkle dubbing underbody visible beneath and between the foam segments; a short tail of a few strands of pearl Krystal Flash at the bend. Hook rides point-down: hook point facing DOWN, all materials on top of the shank. Only one fly, hook bend and point clearly visible.",
+  "sources": [
+   "https://www.flyfishfood.com/blogs/dry-fly-tutorials/chubby-chernobyl",
+   "https://www.flytyer.com/chubby-chernobyl-2/",
+   "https://blog.fishwest.com/fly-tying-tutorial-chubby-chernobyl/",
+   "https://www.johnkreft.com/stonefly-fly-patterns/chubby-chernobyl-purple/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "yellow-sally-dry",
+  "verdict": "minor",
+  "recipe": "Eye to bend (Yellow Sally Stimulator / traditional little yellow stonefly dry): thread head; a cree or grizzly hackle collar at the front; bright yellow dubbed thorax; a wing of bleached or light elk hair set low and flat over the back, reaching about to the bend; bright yellow dubbed abdomen ribbed with fine gold wire, often with a yellow hackle palmered and trimmed short; and at the very rear a bright ORANGE (sometimes red) dubbed egg-sac butt. Simpler dressings (e.g. the North Carolina Yellow Sally) drop the palmered hackle: yellow rabbit abdomen, light elk wing, yellow thorax, dark dun hackle. No tail in the Stimulator-style dressing; some regional versions add two short pale split tails.",
+  "hook": "Standard dry hook (TMC 100) #14-16 for the simple dressing, or a 3XL natural-bend/curved dry hook (Dai-Riki 270, TMC 200R) for the Stimulator-style. Rides point-DOWN.",
+  "errors": [
+   "\"red thread butt\" - the standard egg-sac butt is bright ORANGE dubbing (orange rabbit fur) in the Orvis/Stimulator dressing; red is a variant, and it is dubbing rather than bare thread in most published recipes. Sources differ here, so orange-to-red is the honest range.",
+   "\"Slim yellow foam or dubbed body\" - an either/or the image model will mangle; the classic dressing is dubbed yellow rabbit/synthetic fur, ribbed. Foam is a separate modern variant.",
+   "\"a flat light-colored wing lying over the back\" - under-specified: the wing is bleached or light ELK HAIR, a hair wing kept thin and tented low over the back, not a feather slip or a flat sheet.",
+   "\"small hackle\" - the hackle is a full collar at the thorax (cree, grizzly or dark dun), and in the Stimulator-style dressing there is a second yellow hackle palmered the length of the abdomen."
+  ],
+  "missing": [
+   "Fine gold wire rib over the yellow abdomen (Stimulator-style dressing)",
+   "Palmered body hackle over the abdomen (Stimulator-style dressing)",
+   "That the wing is hair, and hair butts form the head"
+  ],
+  "invented": [],
+  "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is a \"Yellow Sally\" little yellow stonefly dry fly. Standard dry-fly hook, size 14. From the eye back: a small thread head; a collar of cree or grizzly hackle wound at the front; a bright yellow dubbed thorax; a wing of bleached light elk hair lying low and flat, tented over the back and reaching to the hook bend; a slim bright yellow dubbed abdomen ribbed with fine gold wire; and at the very rear, right at the bend, a small bright orange dubbed egg-sac butt. No tail. Hook rides point-down: hook point facing DOWN, all materials on top of the shank. Only one fly, hook bend and point clearly visible.",
+  "sources": [
+   "https://howtoflyfish.orvis.com/fly-tying-videos/dry-flies/703-yellow-sally-stimulator",
+   "http://www.rockyrivertu.org/north-carolina-yellow-sally.html",
+   "https://thefeatherbender.com/yellow-sally-stonefly/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "griffiths-gnat",
+  "verdict": "ok",
+  "recipe": "Eye to bend: small thread head; grizzly hackle palmered in open spiral turns from the eye all the way back to the bend over a body of two or three peacock herls wrapped the full length of the shank. No tail, no wing, no rib in the original. Hackle barbs about one to one and a half hook gaps.",
+  "hook": "Standard straight-eye dry-fly hook (TMC 101/100) #16-26. Rides point-DOWN.",
+  "errors": [],
+  "missing": [
+   "Hackle proportion (barbs about 1 to 1.5 hook gaps) - not an error, but worth stating so the model does not draw an over-large hackle"
+  ],
+  "invented": [],
+  "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is a \"Griffith's Gnat\". Tiny standard straight-eye dry-fly hook, size 20. From the eye back: a minute black thread head; a grizzly hackle (barred black-and-white barbs, each barb about one and a half hook gaps long) palmered in evenly spaced open spiral turns along the entire shank from eye to bend; beneath the hackle a body of dark iridescent green-bronze peacock herl wrapped the full length of the shank. No tail, no wing, no rib - the whole fly reads as a small fuzzy bristling cluster. Hook rides point-down: hook point facing DOWN, all materials on top of the shank. Only one fly, hook bend and point clearly visible.",
+  "sources": [
+   "https://charliesflybox.com/blogs/step-by-step-tutorials/griffith-s-gnat",
+   "https://www.mtfa-springfield.org/resources/fly-tying-recipes-patterns/dry-flies/griffiths-gnat/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "midge-adult",
+  "verdict": "minor",
+  "recipe": "This is a pattern class rather than one dressing, so sources differ. The common form (e.g. Matt's Midge, CDC Midge): eye to bend - tiny thread head; two to four sparse turns of grizzly hackle as a collar, often trimmed flat underneath; a short clump of WHITE CDC or white Zelon/Antron set just behind the eye, angled up and back over the body, roughly one shank length, primarily as a visibility wing; a slim black or grey thread (or twisted CDC) body tapering to the bend, often finely segmented. No tail.",
+  "hook": "Straight-eye standard dry-fly hook (Dai-Riki 310, TMC 101, Varivas 2200BL) #20-26. Rides point-DOWN.",
+  "errors": [
+   "\"a tiny CDC or hackle-tip wing lying back\" - the either/or will be mangled; published dressings use a short clump of white CDC or white Zelon/Antron, set up-and-back as a visibility wing, not paired hackle tips lying flat.",
+   "\"Slim thread body\" with no colour - the standard bodies are black or grey; leaving it uncoloured lets the model pick anything.",
+   "\"sparse hackle\" with no colour - grizzly is the standard in Matt's Midge and most published adult-midge dressings."
+  ],
+  "missing": [
+   "Hackle colour (grizzly) and the fact that it is a short collar of only 2-4 turns, commonly trimmed flat on the bottom so the fly sits in the film",
+   "Body colour (black or grey) and the fine segmentation"
+  ],
+  "invented": [],
+  "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is an \"Adult Midge (CDC/Hackle)\". Tiny straight-eye standard dry-fly hook, size 22. From the eye back: a minute thread head; two to four sparse turns of grizzly hackle as a short collar, the barbs trimmed flat underneath so the fly sits low; immediately behind that a short clump of white CDC feather fibres set angling up and back over the body, about one hook-shank long, as a visibility wing; then a very slim black thread body with fine even segmentation, tapering smoothly back to the bend. No tail. Hook rides point-down: hook point facing DOWN, all materials on top of the shank. Only one fly, hook bend and point clearly visible.",
+  "sources": [
+   "https://news.orvis.com/fly-fishing/video-tie-matts-midge",
+   "https://www.flies-stepbystep.com/en/flies/dry-flies/cdc-midge-dry-fly/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "royal-wulff",
+  "verdict": "minor",
+  "recipe": "Eye to bend: black thread head; two upright, divided white CALF BODY HAIR wings set about one third back from the eye, roughly one shank length tall; a coachman-brown hackle collar wound both in front of and behind the wings; body of peacock herl at the front, a red floss band in the middle, peacock herl butt at the rear; tail of dark/natural MOOSE BODY HAIR about one shank length.",
+  "hook": "Standard dry-fly hook (TMC 100 / 100SP-BL) #10-20. Rides point-DOWN.",
+  "errors": [
+   "\"a brown bucktail tail\" - the published Royal Wulff tail is dark or natural MOOSE BODY HAIR (Charlie's Fly Box: \"Dark Moose Hair\"; Orvis: \"natural moose body hair\"). Bucktail is not the standard dressing; some older Wulff variants use elk or bucktail, but not the Royal Wulff as published.",
+   "\"white calf-hair wings\" - correct material family but the recipes specify calf BODY hair (softer, cleaner stacking) rather than calf tail."
+  ],
+  "missing": [
+   "That the brown hackle is wound both in FRONT of and BEHIND the upright wings, not just as a single collar",
+   "That the body is three distinct bands in order: peacock herl butt, red floss centre, peacock herl front",
+   "Proportions: wings about one shank length tall and divided into a V, tail about one shank length"
+  ],
+  "invented": [
+   "Bucktail as the tail material - no consulted source lists it for the Royal Wulff"
+  ],
+  "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is a \"Royal Wulff\". Standard dry-fly hook, size 12. From the eye back: a small black thread head; a dense coachman-brown hackle collar wound both in front of and behind the wings; two upright, divided white calf-body-hair wings set about one third back from the eye and standing about one hook-shank tall in a clear V; then a three-part body in strict order - a front band of dark iridescent peacock herl, a bright red floss band in the middle, and a rear butt of peacock herl at the bend; and a tail of dark natural moose body hair about one hook-shank long. Hook rides point-down: hook point facing DOWN, all materials on top of the shank. Only one fly, hook bend and point clearly visible.",
+  "sources": [
+   "https://charliesflybox.com/blogs/fly-tying-videos/royal-wulff-fly-tying-video",
+   "https://howtoflyfish.orvis.com/fly-tying-videos/dry-flies/711-royal_wulff",
+   "https://news.orvis.com/fly-fishing/Tying-the-Royal-Wulff"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "morrish-hopper",
+  "verdict": "wrong",
+  "recipe": "Eye to bend: a blunt foam head over the eye; a bright ORANGE (or red) thin foam indicator patch sitting on top of the head/thorax; a laminated two-tone foam body (roughly 5mm total: tan on top, yellow/purple/olive on the belly depending on colourway) running the full length of the shank, razor-cut to a hopper shape - the TAN TOP FOAM IS THE WING, there is no separate hair or feather wing; two short straight rubber front legs just behind the head; two long knotted round-rubber hind legs swept back along the body with the knot forming the grasshopper knee. No antennae in any consulted recipe.",
+  "hook": "2XL long-shank hopper/nymph hook (TMC 5212 or a 2XL curved nymph hook), sizes 6-12. Rides point-DOWN.",
+  "errors": [
+   "\"a flat wing over the back\" - the Morrish Hopper has NO separate wing. The tan top layer of the laminated foam body is the wing; adding a wing on top will produce a different, generic hopper.",
+   "\"thin rubber antennae\" - no published Morrish Hopper recipe includes antennae; this is invented.",
+   "\"A segmented tan foam body\" - it is a laminated TWO-TONE foam body (tan top over a coloured belly), cut to a hopper silhouette, not a plain segmented tan slab."
+  ],
+  "missing": [
+   "The bright orange/red high-visibility foam indicator patch on top - the most visually distinctive feature of the fly",
+   "The two-tone (tan over yellow, or tan over purple/olive) laminated foam",
+   "The distinction between the two long KNOTTED rear legs and the two short STRAIGHT front legs",
+   "The colourway range: tan and olive naturals, plus pink, purple and chartreuse"
+  ],
+  "invented": [
+   "\"a flat wing over the back\"",
+   "\"thin rubber antennae\""
+  ],
+  "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is a \"Morrish Hopper\". A 2XL long-shank hopper hook, size 10. From the eye back: a blunt squared foam head projecting over the eye; a small bright orange thin-foam indicator patch lying flat on top of the head and thorax; a laminated two-tone foam body running the full length of the shank, tan on the top and yellow on the belly, razor-cut into a tapered grasshopper silhouette - the tan top foam IS the wing, there is NO separate hair or feather wing and NO antennae; two short straight tan rubber front legs angling out just behind the head; two long knotted round-rubber hind legs lying back along the body with a sharp knee knot partway along, the lower segment kicking out behind. Hook rides point-down: hook point facing DOWN, all materials on top of the shank. Only one fly, hook bend and point clearly visible.",
+  "sources": [
+   "https://globalflyfisher.com/node/42677",
+   "https://hopperfishing.wordpress.com/2014/05/10/morrish-hopper-step-by-step/",
+   "https://flylordsmag.com/how-to-tie-the-morrish-hopper/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "daves-hopper",
+  "verdict": "minor",
+  "recipe": "Eye to bend: natural deer body hair spun and trimmed to a squared, flat-bottomed HEAD, with a COLLAR of untrimmed deer hair tips left sweeping back over the body; knotted ringneck pheasant-tail fibre hind legs, one each side, kicking out and back; a mottled turkey quill slip wing lying flat over the back to the end of the body; a yellow poly-yarn body (with a small yarn loop at the rear) palmered with a brown rooster hackle trimmed short to a bristly rib; a short RED deer belly hair (or red hackle fibre) tail.",
+  "hook": "3XL long-shank hook (TMC 5262) #4-12. Rides point-DOWN.",
+  "errors": [
+   "\"A spun and trimmed deer-hair head\" alone - the recipe's head is spun and trimmed square and flat-bottomed AND leaves a collar of untrimmed deer hair tips flaring back over the body. Trimming all round gives the wrong silhouette."
+  ],
+  "missing": [
+   "The short red deer-hair (or red hackle fibre) tail at the bend",
+   "The brown rooster hackle palmered the length of the yellow yarn body and trimmed short to a bristle rib",
+   "The flared deer-hair collar sweeping back behind the trimmed head",
+   "The small yarn loop at the rear of the body",
+   "Hook is 3XL long (TMC 5262), and the wing is a turkey QUILL SLIP (usually cemented) lying flat, not a loose feather"
+  ],
+  "invented": [],
+  "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is a \"Dave's Hopper\". A 3XL long-shank hook, size 8. From the eye back: a natural deer body hair head, spun and razor-trimmed to a blunt square block with a flat bottom; immediately behind it a collar of untrimmed deer hair TIPS flaring back over the body; a knotted ringneck pheasant-tail-fibre hind leg on each side, kicking out and back with a sharp knee knot; a mottled brown turkey quill slip wing lying flat over the back and reaching to the end of the body; a yellow poly-yarn body along the shank, palmered with a brown rooster hackle trimmed short so only bristly stubs remain as a rib, and a small loop of the yellow yarn at the rear; a short red deer-hair tail at the bend. Hook rides point-down: hook point facing DOWN, all materials on top of the shank. Only one fly, hook bend and point clearly visible.",
+  "sources": [
+   "https://charliesflybox.com/blogs/step-by-step-tutorials/daves-hopper",
+   "https://en.wikipedia.org/wiki/Dave%27s_Hopper",
+   "https://charliesflybox.com/blogs/fly-tying-videos/daves-hopper-fly-tying-video"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "parachute-ant",
+  "verdict": "minor",
+  "recipe": "Eye to bend: small black thread head; a small BLACK dubbed thorax hump at the front; a white parachute post standing at the waist (roughly 60-80% of the shank forward) with four to five turns of GRIZZLY hackle wound horizontally around its base, barbs about one to one and a half hook gaps; a bare pinched thread waist; a larger BLACK dubbed abdomen hump running from the waist back to the bend. No tail; the horizontal hackle barbs are the legs. Black is the standard colour, cinnamon/rust is the common alternative.",
+  "hook": "Standard dry-fly hook (TMC 102Y, TMC 100) #14-20. Rides point-DOWN.",
+  "errors": [
+   "\"a small white parachute post with a few turns of hackle on the front hump\" - the post is normally set at the WAIST between the two humps (around 60-80% of the shank), not on top of the front hump, and it takes four to five full horizontal turns of hackle, not \"a few\".",
+   "\"Two round dubbed humps\" with no colour named - the prompt never says the ant is BLACK, so the image model is free to render any colour."
+  ],
+  "missing": [
+   "The colour: black (standard) or cinnamon/rust",
+   "The hackle colour: grizzly",
+   "That the hackle barbs ARE the legs - there are no separately tied legs, and the fly rides flush in the film"
+  ],
+  "invented": [],
+  "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is a \"Parachute Ant\". Standard dry-fly hook, size 16. From the eye back: a small black thread head; a small glossy black dubbed thorax hump at the front of the shank; then a short white parachute post standing straight up at the pinched waist, with four to five turns of grizzly hackle wound flat and horizontal around the base of the post, the barred barbs radiating out sideways like legs; a bare pinched black thread waist; then a larger glossy black dubbed abdomen hump running from the waist back to the bend. No tail. Hook rides point-down: hook point facing DOWN, all materials on top of the shank. Only one fly, hook bend and point clearly visible.",
+  "sources": [
+   "https://charliesflybox.com/blogs/step-by-step-tutorials/parachute-ant",
+   "https://news.orvis.com/fly-fishing/Tying-the-Parachute-Ant",
+   "https://troutbitten.com/2016/08/24/the-perfect-parachute-ant/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "foam-ant",
+  "verdict": "minor",
+  "recipe": "Eye to bend: black thread head; a smaller BLACK foam front hump; a black hackle wound at the waist and trimmed flat top and bottom leaving about three barbs sticking out each side as legs (fine black rubber legs in some dressings); commonly a small white or hi-vis foam tab laminated on top as an indicator; a thin pinched waist; a larger black foam rear hump ending at the bend. Sits flush and low.",
+  "hook": "Standard dry-fly hook (TMC 101) or 3XL curved (TMC 200R) #12-18. Rides point-DOWN.",
+  "errors": [
+   "\"a couple of rubber or hackle legs at the waist\" - an either/or the model will mangle, and it understates the count: the standard dressing wraps a black hackle at the waist and trims it top and bottom, leaving about three legs sticking out on EACH side."
+  ],
+  "missing": [
+   "The small white or hi-vis foam indicator tab laminated on top of the body, which most published foam-ant recipes include",
+   "That the rear hump is the LARGER of the two",
+   "That the legs stand out horizontally at the waist, three per side"
+  ],
+  "invented": [],
+  "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is a \"Foam Ant\". Standard dry-fly hook, size 16. From the eye back: a small black thread head; a smaller rounded black closed-cell foam front hump with a tiny white foam indicator tab laminated on its top surface; at the pinched waist, black hackle barbs sticking straight out horizontally, about three to each side, trimmed flush above and below; a thin bare black thread waist; a larger rounded black foam rear hump running back to the bend. The fly sits low and flush, no tail. Hook rides point-down: hook point facing DOWN, all materials on top of the shank. Only one fly, hook bend and point clearly visible.",
+  "sources": [
+   "https://www.mtfa-springfield.org/resources/fly-tying-recipes-patterns/terrestrials/foam-ant/",
+   "https://news.orvis.com/fly-fishing/video-how-to-tie-tims-favorite-foam-ant"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "flying-ant",
+  "verdict": "minor",
+  "recipe": "Sources differ by dressing. Common form, eye to bend: small thread head; a smaller front thorax hump of dubbing or foam (BLACK, or cinnamon/rust/orange); a few turns of brown or black hackle at the waist, usually trimmed flat underneath, as the legs; two pale wings - white polypropylene yarn, white Zelon, or light-dun hackle tips - swept BACK flat over the abdomen in a shallow V, about one and a quarter shank lengths; a thin pinched waist; a larger rear abdomen hump to the bend. No tail. The Orvis Cinnamon Flying Ant uses an orange foam cylinder body, white poly yarn wing and brown hackle legs.",
+  "hook": "Standard dry-fly hook (Dai-Riki 305, TMC 100) #14-20. Rides point-DOWN.",
+  "errors": [
+   "\"two clear or white wings\" - \"clear\" is not a tying material in any consulted recipe; the wings are white poly yarn, white Zelon/Antron, or light-dun hackle tips. \"Clear\" will invite a rendered insect wing, not a tied fly.",
+   "\"Two-humped ant body with thin waist\" with no colour named - standard colourways are black and cinnamon/rust-orange; the prompt leaves it open."
+  ],
+  "missing": [
+   "The hackle legs at the waist (brown or black, trimmed flat underneath) - present in essentially every published flying-ant dressing",
+   "The colourway (black or cinnamon/rust)",
+   "Wing proportion - swept back in a shallow V, extending roughly to or just past the bend"
+  ],
+  "invented": [
+   "\"clear\" wings"
+  ],
+  "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is a \"Flying Ant\". Standard dry-fly hook, size 16. From the eye back: a small thread head; a smaller rust-cinnamon dubbed front thorax hump; two or three turns of brown hackle at the waist trimmed flat underneath so the barbs stick out sideways as legs; two wings of white poly yarn lying BACK flat over the abdomen in a shallow V, reaching just past the hook bend; a thin pinched waist; a larger rust-cinnamon rear abdomen hump running back to the bend. No tail. (A black-bodied version with the same white wings is the other standard colourway.) Hook rides point-down: hook point facing DOWN, all materials on top of the shank. Only one fly, hook bend and point clearly visible.",
+  "sources": [
+   "https://news.orvis.com/fly-fishing/video-tie-cinnamon-flying-ant",
+   "https://flylordsmag.com/how-to-tie-the-cinnamon-flying-ant/",
+   "https://arricks.com/2018/03/how-to-black-and-cinnamon-flying-ant/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "foam-beetle",
+  "verdict": "minor",
+  "recipe": "Eye to bend: a short stub of black foam projecting forward over the eye as the head; a small bright ORANGE foam indicator dot on top at the junction of head and body; a black foam shellback pulled forward over the top of the body and tied down there; three MOOSE HAIR legs sticking out each side at that tie-down point, trimmed just longer than the hook gap; a body of several peacock herls wrapped full from the bend forward under the shellback.",
+  "hook": "Standard dry-fly hook (TMC 100SP-BL, TMC 100) #10-20. Rides point-DOWN.",
+  "errors": [
+   "\"a few rubber legs out the sides\" - the published Craven/Fly Fisherman and Orvis dressings use MOOSE HAIR legs, three to a side, trimmed just longer than the hook gap. Rubber legs appear in some shop variants, so this is a variant not a flat error, but moose hair is the standard.",
+   "\"An oval black foam shellback\" - correct as far as it goes, but the foam also continues forward as a stub head over the eye, which the prompt does not say."
+  ],
+  "missing": [
+   "The black foam head stub projecting over the hook eye",
+   "That the orange indicator dot sits at the head/body junction, not just vaguely \"on top\"",
+   "Leg count and proportion: three per side, trimmed just longer than the hook gap"
+  ],
+  "invented": [],
+  "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is a \"Foam Beetle\". Standard dry-fly hook, size 14. From the eye back: a short blunt stub of black foam projecting forward over the hook eye as the beetle's head; immediately behind it, at the head-to-body junction, a small bright orange foam dot on top as a sighter; from there a flat oval black foam shellback stretched back over the whole body and tied down at the same point; three stiff dark moose-hair legs sticking out to each side at that tie-down, each trimmed to just longer than the hook gap; and beneath the shellback a fat body of dark iridescent green-bronze peacock herl wrapped from the bend forward. Hook rides point-down: hook point facing DOWN, all materials on top of the shank. Only one fly, hook bend and point clearly visible.",
+  "sources": [
+   "https://www.flyfisherman.com/editorial/fly-tying-foam-beetle/151931",
+   "https://howtoflyfish.orvis.com/fly-tying-videos/dry-flies/733-foam_beetle",
+   "https://charliesflybox.com/blogs/fly-tying-videos/foam-beetle-fly-tying-video"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "rs2",
+  "verdict": "minor",
+  "recipe": "Rim Chung's RS2, eye to bend: tiny head; a short sparse upright clump of wing at the thorax, trimmed square at an angle - the ORIGINAL uses dark dun webby saddle-hackle fluff, while the widely sold \"sparkle wing\" version uses white or light-grey Antron/Zelon and another common variant uses a white CDC puff; a slightly thicker grey beaver or muskrat dubbed thorax; a slim tapered grey dubbed abdomen with fine segmentation; and two dark-dun Microfibett tails about one shank length, split widely (60-70 degrees). Standard colour grey; olive, black and brown also standard.",
+  "hook": "Straight-eye standard dry/nymph hook (TMC 101) #16-24. Rides point-DOWN.",
+  "errors": [
+   "\"a short stub of white Antron or CDC\" - correct for the common commercial Sparkle Wing RS2, but the ORIGINAL Rim Chung wing is dark dun webby saddle-hackle fluff. Sources genuinely differ; the honest range is dark dun hackle web (original) through white/light-grey Antron or white CDC (sparkle-wing and CDC variants). The prompt should pick one and say which.",
+   "\"Slim gray dubbed body\" - correct colour, but the dubbing is specifically beaver or muskrat fur, tightly twisted to give visible segmentation and a thorax noticeably thicker than the abdomen; the prompt implies a uniform slim body."
+  ],
+  "missing": [
+   "Tail proportion and splay: tails one full shank length, split 60-70 degrees apart",
+   "The thorax being distinctly thicker than the abdomen",
+   "The wing being trimmed square/at an angle rather than a rounded tuft"
+  ],
+  "invented": [],
+  "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is an \"RS2\". Tiny straight-eye standard dry-fly hook, size 20. From the eye back: a minute grey thread head; a short sparse upright clump of white Antron/Zelon fibres standing up from the thorax and trimmed square, no longer than the hook gap, as the wing stub (the original Rim Chung dressing uses dark dun webby hackle fluff here instead); a grey beaver-fur thorax noticeably thicker than the rest of the body; a slim, finely segmented, tapered grey dubbed abdomen running back to the bend; and two dark-dun Microfibett tails, each one full hook-shank long, split widely apart at about 60 to 70 degrees. Hook rides point-down: hook point facing DOWN, all materials on top of the shank. Only one fly, hook bend and point clearly visible.",
+  "sources": [
+   "https://oneflyfisherman.com/rim-chung-tying-the-rs2-fly/",
+   "https://thenorthernangler.com/blogs/fly-tying-tutorials/rs2-fly-tying-tutorial",
+   "https://www.flytyer.com/the-rs2-and-its-many-variations/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "cdc-loopwing",
+  "verdict": "minor",
+  "recipe": "Hans Weilenmann's CDC Loop Wing Emerger, eye to bend: thread head; a loop formed from two natural-dun CDC feathers, anchored AT THE EYE with the tips folded forward and the loop arching up and back over the thorax; a slightly thicker, darker olive hare's-ear thorax; a slim olive (or grey) dubbed abdomen covering about the rear three-fifths of the shank; and at the bend a short wispy CDC trailing SHUCK, not stiff split tails. Umpqua sells it in grey and olive, sizes 18-22.",
+  "hook": "Sources differ: Weilenmann's original specifies a straight-eye standard dry hook (Partridge SLD) #12-18; many tiers and the commercial version use a curved short-shank emerger hook (TMC 2487) #16-22. Either way it rides point-DOWN.",
+  "errors": [
+   "\"Small curved emerger hook\" - stated as fact, but the originator's own recipe uses a straight-eye dry hook (Partridge SLD). Curved is a common variant; the prompt should acknowledge one or the other rather than asserting curved.",
+   "\"short tails\" - the rear of this fly is a soft wispy CDC TRAILING SHUCK, not short stiff tails; drawing tails gives the wrong emerger silhouette.",
+   "\"Slim dubbed body\" with no colour - the standard colourways are olive and grey (BWO/Baetis), and the thorax is darker and thicker than the abdomen."
+  ],
+  "missing": [
+   "That the CDC loop is anchored at the EYE, with the feather tips folded forward over the eye",
+   "The distinct thicker, darker hare's-ear thorax versus the slim abdomen covering the rear three-fifths",
+   "Colourway: olive or grey"
+  ],
+  "invented": [],
+  "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is a \"CDC Loop Wing Emerger\". Small short-shank emerger hook, size 18 (the originator's dressing uses a straight-eye dry hook; curved emerger hooks are the common commercial variant). From the eye back: a fine thread head with the tips of two natural-dun CDC feathers folded forward and lashed down at the eye; from that same tie-down point the CDC fibres arch up and back in a soft translucent LOOP over the thorax and settle again just behind it; a thicker, darker medium-olive hare's-ear dubbed thorax under the loop; a slim, finely tapered medium-olive dubbed abdomen covering the rear three-fifths of the shank; and at the bend a short wispy CDC trailing shuck, soft and frayed, NOT stiff split tails. Hook rides point-down: hook point facing DOWN, all materials on top of the shank. Only one fly, hook bend and point clearly visible.",
+  "sources": [
+   "https://www.flytierspage.com/hweilenmann/cdc_loopwing_emerger.htm",
+   "https://www.umpqua.com/cdc-loop/",
+   "https://globalflyfisher.com/video/cdc-loop-wing-emerger-0"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "barrs-emerger",
+  "verdict": "wrong",
+  "recipe": "John Barr's Emerger (BWO), eye to bend: small dark thread head; a thorax of natural GREY muskrat or beaver dubbing; a wing case of dark dun hackle fibres (or wood duck) pulled over the thorax with the leftover tips splayed back along the sides as legs; an OLIVE-BROWN dubbed abdomen over roughly the rear two-thirds of the shank, slim and lightly tapered; and a sparse tail/shuck of brown or ginger hackle fibres, roughly half a shank long, imitating the nymphal shuck.",
+  "hook": "2X-short CURVED emerger hook (TMC 2487 or 2488, Dai-Riki 125) #16-24. Rides point-DOWN.",
+  "errors": [
+   "\"olive dubbed thorax\" - this is backwards. In every consulted recipe the ABDOMEN is the olive/olive-brown part and the THORAX is natural GREY muskrat or beaver dubbing. An olive thorax produces a visibly wrong fly.",
+   "\"Small nymph hook\" - the recipe calls for a 2X-short CURVED emerger hook (TMC 2487/2488, Dai-Riki 125); a straight nymph hook gives the wrong body curve and the wrong short-shank proportion.",
+   "\"Short brown dubbed abdomen\" - the abdomen is olive-brown (not plain brown) and it runs about two thirds of the shank; it is the long part of the fly, not a short one.",
+   "\"a few tail fibers\" - the tail is a deliberate sparse shuck of brown or ginger hackle fibres about half a shank long, representing the nymphal skin."
+  ],
+  "missing": [
+   "That the wing-case fibres continue past the tie-down as the LEGS, splayed back along both sides of the thorax - a single element, not two separate ones as the prompt implies",
+   "That the wing case is dark dun hackle fibres (Craven) or wood duck (Orvis)",
+   "The 2X-short curved hook and the resulting curved-body profile"
+  ],
+  "invented": [],
+  "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is a \"Barr's Emerger\" (blue-winged olive). A 2X-short CURVED emerger hook, size 18, so the body follows a gentle curve. From the eye back: a small dark thread head; a plump thorax of natural GREY muskrat/beaver dubbing; over the top of that thorax a wing case of dark dun hackle fibres pulled forward and tied off, with the leftover fibre tips splayed back along both sides of the thorax as the legs; behind the thorax a slim, lightly tapered OLIVE-BROWN dubbed abdomen covering about two thirds of the shank and following the hook's curve; and at the bend a sparse tail shuck of brown-ginger hackle fibres about half a shank long. Hook rides point-down: hook point facing DOWN, all materials on top of the shank. Only one fly, hook bend and point clearly visible.",
+  "sources": [
+   "https://charliesflybox.com/blogs/step-by-step-tutorials/barr-emerger",
+   "https://news.orvis.com/fly-fishing/video-tie-barrs-emerger-bwo",
+   "https://howtoflyfish.orvis.com/fly-tying-videos/emerger-flies/908-barrs_emerger_bwo"
+  ],
+  "confidence": "high"
+ }
+]

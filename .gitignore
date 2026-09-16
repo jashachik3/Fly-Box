@@ -14,3 +14,5 @@ app/src/content/bundle.json
 # The .png files beside them ARE committed — those are what the image model is
 # given, and making them needs a browser.
 tools/refs/*.svg
+
+transfer/

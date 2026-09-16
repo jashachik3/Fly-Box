@@ -1,0 +1,359 @@
+[
+  {
+    "id": "klinkhammer",
+    "verdict": "minor",
+    "recipe": "Hans van Klinken's Klinkhamår Special, eye to bend: a thorax of three strands of peacock herl carrying an upright white poly-yarn post with a parachute hackle (blue dun, dark dun, light dun or chestnut) wound horizontally around the base of the post, then a very slim tapered poly-dubbing abdomen that continues well down around the curve of the bend; there is no tail and no rib.",
+    "hook": "A dedicated Klinkhamår hook — Daiichi 1160 or 1167, Partridge 15BN — a wide-gape, deeply curved (continuous-bend) hook with a straight/ring eye, sizes 8-20. Rides point-DOWN.",
+    "errors": [
+      "\"The rear half of the body curves down below the surface\" — this describes the fly in water, not the fly itself; on a white studio background there is no surface. The recipe describes an abdomen wrapped down and around the hook's curve, and the prompt as written invites the image model to draw a waterline.",
+      "\"Curved emerger hook\" understates the hook: the Klinkhamår hook is a specific wide-gape continuous-curve hook with a STRAIGHT (ring) eye, not a standard down-eye curved emerger hook."
+    ],
+    "missing": [
+      "Explicit \"no tail\" — van Klinken states \"A tail can be helpful but isn't really necessary\"; the standard dressing has none, and an image model will add one unless told not to.",
+      "The thorax is specifically three strands of peacock herl built as a distinct fat ball at the front, in contrast to the slim abdomen.",
+      "Hackle colour — blue dun, dark dun, light dun or chestnut, wound 5-8 turns flat around the post base.",
+      "The abdomen must be conspicuously slim and tapered (\"the slimmer the body the more successful the fly\") and must extend well down the bend; standard body colours are tan, grey, olive or brown poly dubbing.",
+      "The post is a vertical white poly-yarn column standing clear above the thorax, trimmed to roughly the hook-gape-to-shank height."
+    ],
+    "invented": [
+      "\"below the surface\" — a water/surface reference that nothing in the recipe supports for a product photograph."
+    ],
+    "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is a \"Klinkhammer Special\". A wide-gape continuous-curve Klinkhammer emerger hook with a straight ring eye, deep hook bend. From the eye back: a short bare thread head, then a fat thorax of dark iridescent peacock herl; rising vertically from that thorax a single upright white poly-yarn post, with a grizzly-dun parachute hackle wound flat and horizontally around the base of the post so the fibres radiate out level; behind the thorax a very slim, smoothly tapered tan-grey dubbed abdomen that continues down and around the curve of the hook bend. No tail, no rib, no wings. Hook rides point-down: hook point facing DOWN, the post and hackle on top of the shank. Only one fly, hook bend and point clearly visible.",
+    "sources": [
+      "https://thefeatherbender.com/klinkhamer-fly-special/",
+      "https://www.tomsutcliffe.co.za/fly-fishing/fly-tying/item/248-hans-van-klinken-on-his-klinkhamer-special.html",
+      "https://news.orvis.com/fly-fishing/classic-video-tie-klinkhamer-special"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "sparkle-pupa",
+    "verdict": "wrong",
+    "recipe": "\"Sparkle Pupa\" is two different LaFontaine patterns. Emergent Sparkle Pupa, eye to bend: a head of brown dubbing (or brown marabou), a deer-hair wing lying back over the body, a body of Antron dubbing enclosed in a split sheath of Antron yarn brought around BOTH sides of the shank as a translucent bubble, and a trailing shuck of Antron yarn/dubbing extending about a shank length past the bend. Deep Sparkle Pupa, eye to bend: a head/collar of dark ostrich herl or natural dubbing, a few lemon wood-duck fibres as legs at the sides, an Antron-yarn overbody sheath veiling a 50/50 Antron-dubbing underbody, over a lead-weighted shank — no deer-hair wing.",
+    "hook": "Emergent: standard dry/wet hook, TMC 900BL, TMC 100, Daiichi 1180, #12-20. Deep: standard wet/nymph hook, TMC 100 or heavier TMC 3761/3769, #12-18, lead-weighted. Both ride point-DOWN.",
+    "errors": [
+      "\"The fly is a \\\"LaFontaine Sparkle Pupa\\\"\" — the prompt does not say which; it then mixes the two, giving a hair wing (Emergent only) AND \"an ostrich or dubbed head\" (ostrich is Deep only). No published recipe has both a deer-hair wing and an ostrich-herl head.",
+      "\"a short sparse hair wing\" — the Deep Sparkle Pupa has no hair wing at all; its equivalent is a few lemon wood-duck fibres tied as legs at the sides. If the intended fly is the Deep version this is simply the wrong material.",
+      "\"Standard nymph hook\" — the Emergent Sparkle Pupa (which matches this entry's \"weight: none\" and emerger type) is tied on a standard dry-fly/wet hook, not a nymph hook."
+    ],
+    "missing": [
+      "The trailing shuck — a loose tuft of Antron yarn/dubbing extending roughly one shank length past the bend. This is the pattern's most recognisable feature and the prompt omits it entirely.",
+      "How the sheath is formed: the Antron yarn is split with a bodkin and brought around BOTH sides of the shank, then tied off at the head, so it veils the body as a translucent halo rather than lying on top.",
+      "The underbody is an Antron-dubbing blend (roughly half Antron, half fine dry-fly dubbing) that must remain visible through the sheath.",
+      "Standard colourways — olive/caddis green, ginger/amber, tan or brown underbody with cream/white or matching Antron sheath.",
+      "For the Deep version: lemon wood-duck fibre legs at the sides and a lead underbody."
+    ],
+    "invented": [
+      "The combination of a hair wing with an ostrich head — an amalgam of two separate patterns that no source lists as one fly."
+    ],
+    "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is a \"LaFontaine Emergent Sparkle Pupa\". Standard dry-fly hook, straight shank, down eye. From the eye back: a small head of brown dubbing; a sparse dark deer-hair wing lying back low over the body and reaching to about the hook bend; a plump body of olive-amber Antron dubbing completely veiled by a loose translucent sheath of cream and white Antron yarn that is split around BOTH sides of the shank so it stands off the body like a glassy air bubble; and at the bend a straggly trailing shuck of pale Antron yarn fibres extending about one hook-shank length behind the fly. No hackle, no rib. Hook rides point-down: hook point facing DOWN, wing and sheath on top of the shank. Only one fly, hook bend and point clearly visible.",
+    "sources": [
+      "https://www.johnkreft.com/caddis-fly-patterns/lafontaine-emergent-pupa/",
+      "https://flyfishingthesierra.com/emergent-sparkle-pupa/",
+      "https://flyfishingthesierra.com/deep-sparkle-pupa/",
+      "http://www.rockyrivertu.org/deep-sparkle-caddis-pupa.html"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "soft-hackle-po",
+    "verdict": "minor",
+    "recipe": "Partridge and Orange, eye to bend: a sparse collar of mottled partridge hackle (one and a half to two turns) swept back, a small thorax of tan or brown hare's-mask dubbing, and a slim orange silk body (floss or tying silk) sometimes ribbed with fine gold wire. No tail and no wing.",
+    "hook": "Standard or 1X-long wet-fly hook, sizes 10-18 (some modern tiers use a curved emerger hook such as TMC 206BL or Daiichi 1130). Rides point-DOWN.",
+    "errors": [
+      "\"a sparse collar of brown partridge feather fibers\" — sources disagree on the feather: Fly Tyer's recipe specifies \"Gray partridge\", Wikipedia and the North Country tradition specify \"mottled brown partridge\" (the back feather). Both are in print; the prompt should say \"mottled brown-grey partridge\" rather than committing to one.",
+      "\"A slim body of orange silk floss\" — defensible, but the widely published modern versions build the body from orange tying silk/thread rather than floss (Wikipedia: body \"formed with tying thread\"). Range, not an outright error."
+    ],
+    "missing": [
+      "The thorax — most published recipes (Fly Tyer, Nemes-style, Wikipedia's note) include a small ball of tan or brown hare's-mask dubbing under the hackle. The prompt has no thorax at all, so the model will draw a bare silk body straight to the hackle.",
+      "The optional fine gold wire rib listed by Fly Tyer and Wikipedia.",
+      "Hackle proportion — only one and a half to two turns, very sparse, with fibres reaching back to about the hook point.",
+      "The waxed orange silk should read as a slightly translucent, hot orange, wound thin and even."
+    ],
+    "invented": [],
+    "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is a \"Partridge and Orange (soft hackle)\". Standard 1X-long wet-fly hook, straight shank, down eye. From the eye back: a very sparse collar of mottled brown-grey partridge feather fibres, only one and a half turns, swept back over the body and reaching to about the hook point; behind it a small neat ball of tan hare's-mask dubbing as a thorax; then a slim, smooth, slightly translucent hot-orange silk body wound evenly to the bend, optionally ribbed with fine gold wire. No tail, no wing, no bead. Hook rides point-down: hook point facing DOWN, hackle fibres flowing back over the top of the shank. Only one fly, hook bend and point clearly visible.",
+    "sources": [
+      "https://www.flytyer.com/mastering-the-classic-partridge-orange/",
+      "https://en.wikipedia.org/wiki/Partridge_and_Orange",
+      "http://www.rockyrivertu.org/orange-partridge-soft-hackle.html"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "diving-caddis",
+    "verdict": "wrong",
+    "recipe": "LaFontaine's Diving Caddis, eye to bend: a thread head, two turns of soft brown/body-colour dry-fly hackle forced back over the fly, an OVERWING of clear Antron strands lying over an UNDERWING of mottled partridge, grouse or mallard fibres (both reaching just past the bend), over a body of Antron sparkle dubbing in ginger, bright green, amber or grey. No tail.",
+    "hook": "Standard wet-fly hook, Daiichi 1550 or Dai-Riki 070, sizes 8-24. Rides point-DOWN.",
+    "errors": [
+      "\"a wing of Antron fibers slicked back along the body\" — the recipe specifies TWO wing layers: a mottled game-bird underwing (partridge, grouse or mallard) with the clear Antron laid over it. Drawn as a single synthetic wing the fly loses its defining mottled-under-clear look.",
+      "\"small hackle\" — vague and understated; the recipe is two turns of dry-fly hackle in the body colour, deliberately forced/swept back over the wing at the head, not a small neat collar.",
+      "The batch entry's \"weight: light\" is not supported — published Diving Caddis recipes list no lead or bead; it is a plain wet fly fished in the film or just under."
+    ],
+    "missing": [
+      "The partridge/grouse/mallard underwing, extending just beyond the hook bend.",
+      "The clear Antron overwing is tied slightly LONGER than the underwing.",
+      "Body colour options — ginger, bright green (apple green), amber or grey Antron sparkle dubbing.",
+      "No tail (the prompt does not exclude one, so the model may add one)."
+    ],
+    "invented": [
+      "\"small hackle\" implies a tidy wet-fly collar; sources describe a deliberately sparse, low-grade hackle swept flat back over the wing."
+    ],
+    "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is a \"Diving Caddis\". Standard wet-fly hook, straight shank, down eye. From the eye back: a small thread head; two turns of sparse soft brown hackle swept flat back over the fly; a low down-wing in two layers — an underwing of mottled brown partridge or grouse fibres reaching just past the hook bend, with an overwing of clear glassy Antron fibres laid over it and slightly longer; beneath the wing a body of bright green sparkle Antron dubbing wound to the bend. No tail, no rib, no bead. Hook rides point-down: hook point facing DOWN, wing and hackle on top of the shank. Only one fly, hook bend and point clearly visible.",
+    "sources": [
+      "https://www.johnkreft.com/caddis-fly-patterns/diving-caddis/",
+      "https://nwflytyer.wordpress.com/2012/07/01/gary-lafontaines-diving-caddis/"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "wd40",
+    "verdict": "minor",
+    "recipe": "Mark Engler's WD-40, eye to bend: a small ball of grey muskrat (or matching) dubbing as the thorax, with the butt ends of the tail fibres pulled forward over it as a wing case and tied off behind the eye, a slim tapered tying-thread abdomen, and a short tuft of dyed wood-duck mallard flank fibres as the tail. Nothing else — no rib, no bead in the original.",
+    "hook": "Charlie Craven and most commercial versions use a curved 2X-short emerger/scud hook, TMC 2487, #16-24; Engler's original and some shops tie it on a straight standard nymph hook. Rides point-DOWN.",
+    "errors": [
+      "\"Tiny nymph hook\" — too vague to steer the silhouette. Sources split between a curved TMC 2487-style emerger hook (Craven, most commercial ties) and a straight standard nymph hook (Engler's original); the prompt should name one and note it is short-shanked.",
+      "No colour is given at all. The standard colourways are olive, grey, black or tobacco-brown thread with a grey muskrat thorax; left unstated the model will invent one."
+    ],
+    "missing": [
+      "The tail and wing case are the SAME bunch of wood-duck-dyed mallard flank — tips tied in as the tail, butts folded forward over the thorax as the wing case. Saying this explicitly keeps the two the same colour and texture.",
+      "Proportion: the tail is short, roughly a third to a half of the shank, and the abdomen is very slim and smoothly tapered with a distinctly bulbous thorax.",
+      "The wing-case butts are clipped short right behind the eye (some tiers leave a very short stub), not left long."
+    ],
+    "invented": [],
+    "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is a \"WD-40\". A tiny short-shank curved emerger/scud hook, size 18-22. From the eye back: a small bulbous thorax of grey muskrat dubbing, with a wing case of barred wood-duck-dyed mallard flank fibres pulled forward over the top of that thorax and tied off behind the eye, the butts clipped short; behind the thorax a very slim, smoothly tapered olive-brown tying-thread abdomen; at the bend a short sparse tail of the same barred wood-duck fibres, only about one third of the shank long. No rib, no bead, no wings, no hackle. Hook rides point-down: hook point facing DOWN, wing case on top of the shank. Only one fly, hook bend and point clearly visible.",
+    "sources": [
+      "https://charliesflybox.com/blogs/step-by-step-tutorials/wd-40",
+      "https://duranglers.com/mark-englers-wd-40-nymph/",
+      "https://howtoflyfish.orvis.com/fly-tying-videos/nymph-flies/660-wd_40_fly"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "pheasant-tail",
+    "verdict": "minor",
+    "recipe": "The American (Al Troth-style) Pheasant Tail Nymph, eye to bend: a brown thread head, a wing case of dark pheasant-tail fibres pulled over a peacock-herl thorax with the fibre tips folded back down each side as legs, a slim abdomen wound from pheasant-tail fibres and counter-ribbed with fine copper wire, and three to five pheasant-tail fibre tips as the tail. Sawyer's original English version is more minimal — copper wire in place of thread, a pheasant-tail thorax hump, and no legs, no peacock, no wing case.",
+    "hook": "Standard to 2X-long straight-shank nymph hook — TMC 3761 or 5262, Daiichi 730 or 1560, sizes 12-22. Minimalist Sawyer-style versions are sometimes tied on a curved scud hook (e.g. TMC 2499SPBL), but the classic peacock-thorax dressing is a straight-shank fly. Rides point-DOWN.",
+    "errors": [
+      "\"Curved nymph hook\" — the standard Pheasant Tail Nymph as published by Orvis and most shops is tied on a straight-shank standard or 2X-long nymph hook. Curved-hook PTs exist but are the minimalist Sawyer-style tie without the peacock thorax and legs the rest of this prompt describes, so the hook and the dressing contradict each other."
+    ],
+    "missing": [
+      "The copper wire is COUNTER-wrapped (opposite direction to the pheasant-tail fibres) over the abdomen only, not over the thorax — it reinforces the fibres and gives the tight segmented look.",
+      "The legs are the tips of the wing-case fibres folded back and splayed down each side, not a separate material.",
+      "Tail proportion — three to five pheasant-tail fibre tips, roughly half to three quarters of the shank.",
+      "Colour: the whole fly reads as a warm reddish-brown with a green-bronze iridescent peacock thorax."
+    ],
+    "invented": [],
+    "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is a \"Pheasant Tail Nymph\". Standard 2X-long straight-shank nymph hook, down eye, size 14-18. From the eye back: a small brown thread head; a wing case of dark reddish-brown pheasant-tail fibres pulled tight over a fat green-bronze iridescent peacock-herl thorax, with the tips of those same fibres folded back and splayed down each side as short legs; behind the thorax a slim reddish-brown abdomen wound from pheasant-tail fibres and counter-ribbed with fine copper wire in evenly spaced turns; at the bend three or four pheasant-tail fibre tips as a tail about half the shank long. No bead, no hackle collar, no flash. Hook rides point-down: hook point facing DOWN, wing case on top of the shank. Only one fly, hook bend and point clearly visible.",
+    "sources": [
+      "https://howtoflyfish.orvis.com/fly-tying-videos/nymph-flies/692-american_pheasant_tail_nymph",
+      "https://news.orvis.com/fly-fishing/video-how-to-tie-the-pheasant-tail-nymph",
+      "https://www.johnkreft.com/frank-sawyers-pheasant-tail-nymph/",
+      "https://www.lwflies.com/tutorials/nymphs/beadhead-pheasant-tail-nymph"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "hares-ear",
+    "verdict": "minor",
+    "recipe": "Gold Ribbed Hare's Ear, eye to bend: a thread head, a wing case of mottled turkey tail over a shaggy thorax of natural hare's-mask dubbing picked out so the guard hairs stick out as legs, a tapered hare's-mask abdomen ribbed with fine gold wire or gold oval tinsel, and a short tail of hare's-mask guard hairs (or India hen back / brown partridge fibres). The \"gold\" in the name is the rib — the classic dressing has no bead.",
+    "hook": "1X to 2X-long straight-shank nymph hook, TMC 5262 or 3761, sizes 8-18. Rides point-DOWN.",
+    "errors": [
+      "\"A gold bead head\" is stated as though it were part of the pattern — the Gold Ribbed Hare's Ear is classically beadless (Flylords/TMC 5262 recipe lists no bead and notes split shot is needed without one). A bead-head version is a common modern variant, so the prompt should mark it optional rather than asserting it.",
+      "\"a buggy thick dubbed thorax\" is right but the prompt never says the thorax is PICKED OUT — that raked, spiky guard-hair halo is the signature of the fly and doubles as its legs."
+    ],
+    "missing": [
+      "The thorax is deliberately picked out with a dubbing brush so guard hairs stand out to the sides as legs.",
+      "The rib may be fine gold wire OR gold oval/flat tinsel — sources list both; the prompt commits to tinsel only.",
+      "Tail material range — hare's-mask guard hairs, India hen back fibres, brown partridge or wood duck, tied short (about half the shank).",
+      "The abdomen should be noticeably slimmer and smoother than the thorax, giving a clear taper."
+    ],
+    "invented": [],
+    "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is a \"Gold Ribbed Hare's Ear\". A 2X-long straight-shank nymph hook, down eye, size 12-16. From the eye back: a small dark thread head; a wing case of dark mottled turkey tail pulled over the top of a fat, shaggy thorax of natural grey-brown hare's-mask dubbing that is picked out so stiff guard hairs stick out to both sides as legs; behind it a slimmer, smoothly tapered hare's-mask abdomen ribbed with evenly spaced turns of gold oval tinsel or fine gold wire; at the bend a short sparse tail of mottled hare's-mask guard hairs about half the shank long. No bead in the classic dressing (a small gold bead at the eye is an optional variant). Hook rides point-down: hook point facing DOWN, wing case on top of the shank. Only one fly, hook bend and point clearly visible.",
+    "sources": [
+      "https://flylordsmag.com/how-to-tie-gold-ribbed-hares-ear/",
+      "http://www.rockyrivertu.org/gold-ribbed-hares-ear.html",
+      "https://www.intheriffle.com/in-the-riffle-blog/gold-ribbed-hares-ear-tied-by-charlie-craven"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "jig-hares-ear",
+    "verdict": "wrong",
+    "recipe": "Jig Hare's Ear (Euro nymph), eye to bend: a slotted tungsten bead seated hard against the bend of the jig eye, usually a hot-spot thread collar (red, orange or pink) and/or a thorax-collar of peacock Ice Dub, sometimes with a turn of Hungarian partridge soft hackle, then a hare's-ear dubbed body ribbed with fine gold or copper wire, and a short tail of coq de Leon or hare's-mask guard-hair fibres. There is no wing and no dumbbell or bead-chain eyes.",
+    "hook": "60-degree competition jig hook (Umpqua U555, Hanak 400BL, Firehole 516, TMC 403BLJ), sizes 12-18, with a slotted tungsten bead. Rides point-UP (inverted): the bent jig eye and the tungsten bead roll the hook over so the point rides uppermost — Umpqua: \"Because jigs ride with the hook point up they are less prone to snagging.\"",
+    "errors": [
+      "\"A 90-degree jig hook\" — Euro jig nymphs are tied on 60-degree competition jig hooks; 90-degree jig hooks are the older style used for streamers and balanced leeches (Umpqua's own explainer distinguishes the two). A 90-degree bend would give a visibly wrong hook silhouette.",
+      "\"The wing/hair and weighted eyes are tied on the SAME side of the shank as the hook point\" — this fly has NO wing, NO hair and NO weighted eyes. This sentence is Clouser/flats-pattern boilerplate pasted into a nymph prompt; it will make the image model add a hair wing and dumbbell eyes that no recipe supports.",
+      "That same sentence is duplicated verbatim in the prompt, doubling the weight the model gives to the invented wing and eyes.",
+      "The orientation claim, while landing on the right answer (point up), gives the wrong mechanism: the fly rides inverted because the slotted tungsten bead sits on the bent jig eye above the shank, not because materials are tied on the point side."
+    ],
+    "missing": [
+      "The tail — a short sparse bunch of speckled coq de Leon or hare's-mask guard hairs at the bend.",
+      "The wire rib (fine gold or copper) over the hare's-ear abdomen.",
+      "The hot-spot collar of red, orange or pink thread immediately behind the bead — near-universal on this pattern.",
+      "The peacock Ice Dub or picked-out hare's-ear thorax, and on some versions a single turn of Hungarian partridge soft hackle.",
+      "That the bead is a SLOTTED tungsten bead (gold, copper or black) seated hard against the jig bend so the slot straddles the eye."
+    ],
+    "invented": [
+      "\"the wing/hair\" — this pattern has no wing of any kind.",
+      "\"weighted eyes\" — there are no dumbbell or bead-chain eyes; the weight is the slotted tungsten bead."
+    ],
+    "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is a \"Jig Hare's Ear\" Euro nymph. A 60-degree competition jig hook, barbless, size 14, with a large slotted gold tungsten bead seated hard against the bend of the jig eye. From the eye back: the tungsten bead; immediately behind it a bright red hot-spot thread collar; then a fat picked-out thorax of peacock-bronze Ice Dub or shaggy hare's-ear dubbing; then a slimmer tapered hare's-ear dubbed abdomen ribbed with evenly spaced turns of fine gold wire; at the bend a short sparse tail of speckled coq de Leon fibres. There is no wing, no hair wing and no dumbbell eyes on this fly. Because the tungsten bead sits on the bent jig eye above the shank, the fly rides inverted: show the hook point facing UP, the bead and body uppermost at the eye end, and the bare underside of the shank facing down. Only one fly, hook bend and point clearly visible.",
+    "sources": [
+      "https://www.umpqua.com/stories/why-jig-hooks/",
+      "https://thenorthernangler.com/blogs/fly-tying-tutorials/guides-choice-hares-ear-jig-tutorial",
+      "https://howtoflyfish.orvis.com/fly-tying-videos/techniques/1062-jig_hooks_and_slotted_beads_part_1_of_2",
+      "https://www.johnkreft.com/jig-nymphs-for-euro-nymphing/"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "prince-nymph",
+    "verdict": "minor",
+    "recipe": "Doug Prince's Prince Nymph (originally the Brown Forked Tail), eye to bend: an optional gold bead, a brown hen-hackle collar swept back, two white goose biots tied flat on top in a splayed V reaching back over the body (concave side down), a peacock-herl body counter-ribbed with gold wire or gold oval tinsel over a lead underbody, and two brown or black goose biots split in a forked V as the tail.",
+    "hook": "2X-long, heavy (2X-heavy) straight-shank nymph hook, sizes 4-18. Rides point-DOWN.",
+    "errors": [
+      "\"Standard nymph hook\" — the published recipe calls for a 2X-long heavy nymph hook; a standard-length hook gives a stubbier fly than the pattern.",
+      "\"two brown biot tails forked\" — correct but narrow: sources list brown OR black goose biots for the tail. Worth stating the range.",
+      "\"Gold bead head\" is fine for the modern beadhead version but the original Prince Nymph is beadless with a black thread head; the prompt asserts the bead as standard."
+    ],
+    "missing": [
+      "The rib is COUNTER-wrapped gold wire or gold oval tinsel over the peacock herl, which is what keeps the herl from breaking and gives the visible gold spiral.",
+      "The white biot wings are tied concave side down, splayed into a V, and reach back to roughly the hook bend — the prompt says V but not the length or the concave-down orientation.",
+      "The hen-hackle collar is wound behind the bead and stroked back so the fibres sweep over the body.",
+      "A lead underbody gives the body its slight bulge (not visible, but it explains the profile)."
+    ],
+    "invented": [],
+    "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is a \"Prince Nymph\". A 2X-long heavy straight-shank nymph hook, down eye, size 12-14, with a gold bead at the eye. From the eye back: the gold bead; a collar of soft brown hen hackle swept back over the body; two stiff white goose biots tied flat on top of the shank, concave side down, splayed apart into a narrow V and reaching back to about the hook bend; beneath and behind them a plump body of dark green-bronze iridescent peacock herl counter-ribbed with evenly spaced turns of gold oval tinsel; at the bend two dark brown goose biots split into a forked V tail. No wing case, no flash, no rubber legs. Hook rides point-down: hook point facing DOWN, biot wings and hackle on top of the shank. Only one fly, hook bend and point clearly visible.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Prince_Nymph",
+      "https://globalflyfisher.com/patterns/prince-nymphs",
+      "https://www.johnkreft.com/mayfly-fly-patterns/prince-nymph/"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "copper-john",
+    "verdict": "wrong",
+    "recipe": "John Barr's Copper John, eye to bend: a gold bead; a wing case of BLACK THIN SKIN pulled over a bushy peacock-herl thorax, with strands of pearl Flashabou pulled over the top of the Thin Skin and the whole thing coated in epoxy; legs of Hungarian partridge or hen-back fibres, one clump splayed back along each side of the thorax; a tightly wound copper-wire abdomen over a tapered thread underbody; and two dark brown goose biots split into a V tail.",
+    "hook": "TMC 5262, a 2X-long 2X-heavy straight-shank nymph hook, sizes 12-20, with lead wraps under the thorax. Rides point-DOWN.",
+    "errors": [
+      "\"an epoxy-coated pheasant-tail wing case\" — the wing case is black Thin Skin, a smooth opaque synthetic sheet, not pheasant tail. Charlie Craven's and Barr's own recipes both specify \"Black Thinskin\". This is the most visible error in the prompt: a pheasant-tail wing case would read as a completely different fly.",
+      "\"a strip of pearl flash over a peacock thorax\" — wrong layer order. The pearl Flashabou lies OVER the Thin Skin wing case (Barr: \"Pull the Flashabou over the top of the Thin Skin\"), with the epoxy over both. It does not sit directly on the peacock thorax.",
+      "\"Standard nymph hook\" — the recipe specifies a 2X-long, 2X-heavy hook (TMC 5262)."
+    ],
+    "missing": [
+      "The legs — Hungarian partridge or hen-back fibres, one clump on each side of the thorax splayed back. The prompt has no legs at all, and they are a prominent part of the silhouette.",
+      "The abdomen is wound over a tapered thread underbody so it swells slightly toward the thorax, and the wire is wrapped in tight touching turns for a hard segmented metallic look.",
+      "The epoxy/UV-resin dome is glossy and thick, covering the whole wing case front to back and side to side.",
+      "Colour range — the original is copper, but red, chartreuse, blue and zebra wire versions are standard commercial colourways.",
+      "Lead wraps under the thorax give the front of the fly its bulk."
+    ],
+    "invented": [
+      "\"pheasant-tail wing case\" — no source lists pheasant tail as the Copper John's wing case material."
+    ],
+    "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is a \"Copper John\". A 2X-long, 2X-heavy straight-shank nymph hook, down eye, size 14, with a gold bead at the eye. From the eye back: the gold bead; then a wing case made of smooth black synthetic Thin Skin pulled forward over a bushy dark peacock-herl thorax, with two or three strands of pearl Flashabou laid on top of that black Thin Skin and the whole wing case sealed under a thick glossy clear epoxy dome; a clump of speckled brown Hungarian partridge fibres splayed back along each side of the thorax as legs; behind the thorax a slim, hard, brightly polished copper wire abdomen wound in tight touching turns over a tapered underbody; at the bend two dark brown goose biots split into a V tail. Hook rides point-down: hook point facing DOWN, wing case and legs on top of the shank. Only one fly, hook bend and point clearly visible.",
+    "sources": [
+      "https://charliesflybox.com/blogs/step-by-step-tutorials/copper-john",
+      "https://midcurrent.com/flies/tying-the-original-copper-john/",
+      "https://en.wikipedia.org/wiki/Copper_John_fly",
+      "https://news.orvis.com/fly-fishing/video-how-to-tie-the-copper-john"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "zebra-midge",
+    "verdict": "minor",
+    "recipe": "Zebra Midge, eye to bend: a small tungsten or brass bead (silver, black, copper or red) at the eye, and a very slim tapered body of black (or red, olive, brown) tying thread ribbed with evenly spaced turns of fine silver or copper wire all the way to the bend. No tail, no wing, no hackle, no dubbing.",
+    "hook": "Standard nymph hook or curved scud/emerger hook (TMC 2487, TMC 2457, TMC 101, Daiichi 1120), sizes 16-24 — published recipes list both straight and curved. Rides point-DOWN.",
+    "errors": [
+      "Nothing in the prompt is contradicted by the sources; the only weakness is that \"Tiny curved scud hook\" commits to one of two attested hook styles without saying so."
+    ],
+    "missing": [
+      "Proportion — the bead is conspicuously large relative to an unusually thin, sparse thread body; that contrast is the whole look of the fly, and without saying so the model tends to draw a fat dubbed body.",
+      "That the body is bare tying thread with no dubbing at all, wound to a slight taper.",
+      "Colour range — black thread with silver wire is the standard, but red/silver, olive/copper and brown/copper are equally standard commercial colourways."
+    ],
+    "invented": [],
+    "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is a \"Zebra Midge\". A tiny curved scud/emerger hook, size 18-20, with a proportionally large polished silver tungsten bead seated at the eye. From the eye back: the silver bead, then an extremely slim, bare, slightly tapered black tying-thread body — no dubbing at all — ribbed from bend to bead with five or six evenly spaced turns of fine bright silver wire, giving a crisp black-and-silver banded look right down around the bend. No tail, no wing, no hackle, no wing case. Hook rides point-down: hook point facing DOWN, bead at the eye on top of the shank. Only one fly, hook bend and point clearly visible.",
+    "sources": [
+      "https://springcreekfly.com/blog-spring-creek-fly/zebra-midge",
+      "https://www.leewulfftu.org/Images/flies/Zebra_Midges.pdf",
+      "https://gbflycasters.org/fly_tying/patterns/Zebra_Midge/Zebra_Midge.htm"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "bloodworm",
+    "verdict": "minor",
+    "recipe": "\"Bloodworm\" is a category rather than one named pattern and published dressings differ. The common shape, eye to bend: a small dark head or short collar (black thread, peacock herl, or a black/clear glass bead), then a slim bright blood-red body of red tying thread, red wire or red vernille, segmented by a contrasting rib (fine wire, often black, silver or gold), carried well down around the bend. Pat Dorsey's Mercury Blood Midge adds a clear glass bead and a peacock-herl collar; other stillwater versions add a short red marabou or Flexi-floss tail.",
+    "hook": "Curved scud/grub hook (TMC 2487, TMC 2457, TMC 200R, Daiichi 1120/1270), sizes 10-18. Rides point-DOWN.",
+    "errors": [
+      "\"A slim segmented bright red body, no tail, no wings\" — defensible for the plainest larva, but published bloodworm recipes almost always finish with a contrasting dark head or short collar (black thread, peacock herl, or a glass/tungsten bead), which the prompt excludes by implication.",
+      "The prompt does not say what creates the segmentation. Sources give three distinct answers — a contrasting wire rib over thread, the red wire itself, or ribbed vernille — and the image model will invent one.",
+      "Sources disagree on the tail: Into Fly Fishing's bloodworm has a red marabou tail, Dorsey's Mercury Blood Midge has none. \"no tail\" picks one side of a genuine split."
+    ],
+    "missing": [
+      "The dark contrasting head/collar (black thread, peacock herl, or clear/black bead).",
+      "What material forms the body and the rib.",
+      "That the body is carried well down and around the bend, giving the curled larval shape the pattern is named for.",
+      "The colour should be a deep translucent blood red, not a flat scarlet."
+    ],
+    "invented": [],
+    "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is a \"Bloodworm Midge Larva\". A curved scud/grub hook, size 14-16, deeply curved shank. From the eye back: a small dark collar of black thread or two turns of dark peacock herl at the head; then a slim, glossy, deep blood-red body of red tying thread or red wire, carried in even turns well down and around the curve of the bend, and segmented by evenly spaced turns of fine contrasting black wire. No wings, no hackle, no wing case, no bead; tail optional and usually absent. Hook rides point-down: hook point facing DOWN, body following the top of the shank. Only one fly, hook bend and point clearly visible.",
+    "sources": [
+      "https://intoflyfishing.com/how-to-tie-a-bloodworm-larva/",
+      "https://bluequillangler.com/blogs/home-page/tying-the-mercury-blood-midge-with-pat-dorsey",
+      "https://blog.avidmax.com/2025/01/07/how-to-tie-fulling-mills-gut-bomb-bloodworm/"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "pats-rubber-legs",
+    "verdict": "minor",
+    "recipe": "Pat's Rubberlegs (Jimmy Legs), eye to bend: a pair of rubber antennae at the head, a body of medium variegated chenille (black/coffee, black/brown, brown/yellow or olive/brown) over a lead underbody, with three pairs of rubber legs (Spanflex, Superfloss or Sili Legs) tied in perpendicular at evenly spaced points along the shank, and a pair of short rubber tails at the bend. No rib, no wing case, no bead.",
+    "hook": "3X-long nymph hook, straight or slightly curved — Daiichi 1720, TMC 5263 or TMC 200R — sizes 4-12, weighted with lead wire. Rides point-DOWN.",
+    "errors": [
+      "The prompt never states the leg colour. Published recipes specify black or brown rubber/Spanflex to match the chenille; left blank, an image model is very likely to draw the white rubber legs of a Girdle Bug, making two flies in this batch look identical.",
+      "\"six long rubber legs sticking out to the sides along the body\" is numerically right but does not say they are three PAIRS tied in perpendicular at evenly spaced points — which is what produces the segmented, banded body."
+    ],
+    "missing": [
+      "Leg, tail and antennae colour (black or brown, matching the chenille) and material (Spanflex, Superfloss, Sili Legs, Lifeflex).",
+      "The legs are tied in as single strands crossed over the shank at three points, which pinches the chenille and creates the visible body segmentation.",
+      "The lead underbody, which gives the fly its heavy, thick profile.",
+      "Hook is 3X-long and large (size 4-10); the tails are short and splayed, the antennae longer and forward-swept."
+    ],
+    "invented": [],
+    "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is a \"Pat's Rubber Legs\". A large 3X-long nymph hook, size 6-8, with a lead underbody giving a thick heavy profile. From the eye back: two black rubber antennae swept forward past the eye; a fat body of medium variegated black-and-coffee-brown chenille; three pairs of long black round-rubber legs tied in perpendicular at evenly spaced points along the shank so they stick straight out to both sides and pinch the chenille into visible segments; at the bend two short black rubber tails splayed apart. The legs, tails and antennae are all black or brown rubber, not white. No rib, no wing case, no bead, no hackle. Hook rides point-down: hook point facing DOWN, chenille body on top of the shank. Only one fly, hook bend and point clearly visible.",
+    "sources": [
+      "https://www.jsflyfishing.com/pages/flybrary/pats-rubber-legs",
+      "https://www.johnkreft.com/stonefly-fly-patterns/pats-rubberlegs/",
+      "https://howtoflyfish.orvis.com/fly-tying-videos/nymph-flies/892-pats_rubber_legs",
+      "https://catalog.theflyshop.com/products/pats-rubberlegs-jimmy-legs"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "girdle-bug",
+    "verdict": "minor",
+    "recipe": "Girdle Bug, eye to bend: a pair of white round-rubber antennae at the head, a body of black chenille over a lead underbody with three pairs of white round-rubber legs tied in perpendicular at evenly spaced points along the shank, and a forked pair of white rubber tails at the bend. Variegated-chenille variants (olive, coffee/black, yellow/brown) are common regionally, but the original is plain black chenille with white legs.",
+    "hook": "Long-shank streamer/nymph hook, TMC 300 or equivalent (3X-4X long), sizes 4-12, weighted with lead wire. Rides point-DOWN.",
+    "errors": [
+      "\"pairs of white rubber legs sticking out to the sides\" — correct materially, but the count is unstated; published recipes give three pairs of legs along the shank plus the tail and antennae pairs. Unstated, the model may draw two pairs or a dozen."
+    ],
+    "missing": [
+      "The number and spacing of legs — three pairs tied in perpendicular at evenly spaced points, pinching the chenille into segments.",
+      "The tails and antennae are the same white round rubber as the legs (forked tail at the bend, antennae swept forward past the eye).",
+      "The lead underbody giving a thick, heavy profile on a long-shank hook.",
+      "That the original colourway is plain black chenille with white legs — worth stating so the model does not default to variegated chenille, which would make it a Pat's Rubberlegs."
+    ],
+    "invented": [],
+    "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is a \"Girdle Bug\". A long-shank streamer/nymph hook, 3X long, size 8, with a lead underbody giving a thick heavy profile. From the eye back: two white round-rubber antennae swept forward past the eye; a fat body of plain black chenille; three pairs of long white round-rubber legs tied in perpendicular at evenly spaced points along the shank so they stand straight out to both sides and pinch the chenille into visible segments; at the bend two white rubber tails splayed into a fork. Plain black chenille, white rubber throughout — no variegated chenille, no rib, no wing case, no bead, no hackle. Hook rides point-down: hook point facing DOWN, chenille body on top of the shank. Only one fly, hook bend and point clearly visible.",
+    "sources": [
+      "http://www.rockyrivertu.org/girdle-bug.html",
+      "https://www.intheriffle.com/in-the-riffle-blog/girdle-bug-stonefly",
+      "https://www.jsflyfishing.com/blogs/fly-tying/my-love-affair-with-the-girdle-bug"
+    ],
+    "confidence": "medium"
+  }
+]

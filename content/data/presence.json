@@ -817,5 +817,393 @@
     "sources": [
       "NEEDS REVIEW"
     ]
+  },
+  {
+    "id": "idaho-yellow-sally-marapr",
+    "name": "Little Yellow Sally — Idaho, Mar–Apr",
+    "region": "idaho",
+    "organism": "yellow-sally",
+    "stages": [
+      "adult",
+      "nymph"
+    ],
+    "months": [
+      3,
+      4
+    ],
+    "abundance": "present",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "idaho-salmonfly-mayjun",
+    "name": "Salmonfly — Idaho, May–Jun",
+    "region": "idaho",
+    "organism": "salmonfly",
+    "stages": [
+      "adult",
+      "nymph"
+    ],
+    "months": [
+      5,
+      6
+    ],
+    "abundance": "present",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "idaho-golden-stonefly-mayjun",
+    "name": "Golden stonefly — Idaho, May–Jun",
+    "region": "idaho",
+    "organism": "golden-stonefly",
+    "stages": [
+      "adult",
+      "nymph"
+    ],
+    "months": [
+      5,
+      6
+    ],
+    "abundance": "present",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "idaho-green-drake-mayjun",
+    "name": "Green Drake — Idaho, May–Jun",
+    "region": "idaho",
+    "organism": "green-drake",
+    "stages": [
+      "dun",
+      "nymph",
+      "spinner"
+    ],
+    "months": [
+      5,
+      6
+    ],
+    "abundance": "present",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "idaho-trico-julaug",
+    "name": "Trico — Idaho, Jul–Aug",
+    "region": "idaho",
+    "organism": "trico",
+    "stages": [
+      "dun",
+      "nymph",
+      "spinner"
+    ],
+    "months": [
+      7,
+      8
+    ],
+    "abundance": "present",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "idaho-callibaetis-julaug",
+    "name": "Callibaetis — Idaho, Jul–Aug",
+    "region": "idaho",
+    "organism": "callibaetis",
+    "stages": [
+      "dun",
+      "nymph",
+      "spinner"
+    ],
+    "months": [
+      7,
+      8
+    ],
+    "abundance": "present",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "idaho-hopper-julaug",
+    "name": "Grasshopper — Idaho, Jul–Aug",
+    "region": "idaho",
+    "organism": "hopper",
+    "stages": [
+      "adult"
+    ],
+    "months": [
+      7,
+      8
+    ],
+    "abundance": "present",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "idaho-ant-julaug",
+    "name": "Ant — Idaho, Jul–Aug",
+    "region": "idaho",
+    "organism": "ant",
+    "stages": [
+      "adult",
+      "winged"
+    ],
+    "months": [
+      7,
+      8
+    ],
+    "abundance": "present",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "idaho-mahogany-dun-sepoct",
+    "name": "Mahogany Dun — Idaho, Sep–Oct",
+    "region": "idaho",
+    "organism": "mahogany-dun",
+    "stages": [
+      "dun",
+      "nymph"
+    ],
+    "months": [
+      9,
+      10
+    ],
+    "abundance": "present",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "nc-mountains-blue-quill-febmar",
+    "name": "Blue Quill — North Carolina Mountains, Feb–Mar",
+    "region": "nc-mountains",
+    "organism": "blue-quill",
+    "stages": [
+      "dun",
+      "nymph"
+    ],
+    "months": [
+      2,
+      3
+    ],
+    "abundance": "present",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "nc-mountains-quill-gordon-febmar",
+    "name": "Quill Gordon — North Carolina Mountains, Feb–Mar",
+    "region": "nc-mountains",
+    "organism": "quill-gordon",
+    "stages": [
+      "dun",
+      "nymph"
+    ],
+    "months": [
+      2,
+      3
+    ],
+    "abundance": "present",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "nc-mountains-blue-winged-olive-febmar",
+    "name": "Blue-winged olive — North Carolina Mountains, Feb–Mar",
+    "region": "nc-mountains",
+    "organism": "blue-winged-olive",
+    "stages": [
+      "dun",
+      "emerger",
+      "nymph",
+      "spinner"
+    ],
+    "months": [
+      2,
+      3
+    ],
+    "abundance": "present",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "nc-mountains-hendrickson-aprmay",
+    "name": "Hendrickson — North Carolina Mountains, Apr–May",
+    "region": "nc-mountains",
+    "organism": "hendrickson",
+    "stages": [
+      "dun",
+      "nymph",
+      "spinner"
+    ],
+    "months": [
+      4,
+      5
+    ],
+    "abundance": "present",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "nc-mountains-march-brown-aprmay",
+    "name": "March Brown — North Carolina Mountains, Apr–May",
+    "region": "nc-mountains",
+    "organism": "march-brown",
+    "stages": [
+      "dun",
+      "nymph"
+    ],
+    "months": [
+      4,
+      5
+    ],
+    "abundance": "present",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "nc-mountains-sulphur-aprmay",
+    "name": "Sulphur — North Carolina Mountains, Apr–May",
+    "region": "nc-mountains",
+    "organism": "sulphur",
+    "stages": [
+      "dun",
+      "emerger",
+      "nymph",
+      "spinner"
+    ],
+    "months": [
+      4,
+      5
+    ],
+    "abundance": "present",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "nc-mountains-yellow-sally-aprmay",
+    "name": "Little Yellow Sally — North Carolina Mountains, Apr–May",
+    "region": "nc-mountains",
+    "organism": "yellow-sally",
+    "stages": [
+      "adult",
+      "nymph"
+    ],
+    "months": [
+      4,
+      5
+    ],
+    "abundance": "present",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "nc-mountains-inchworm-junaug",
+    "name": "Inchworm — North Carolina Mountains, Jun–Aug",
+    "region": "nc-mountains",
+    "organism": "inchworm",
+    "stages": [
+      "larva"
+    ],
+    "months": [
+      6,
+      7,
+      8
+    ],
+    "abundance": "present",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "nc-mountains-ant-junaug",
+    "name": "Ant — North Carolina Mountains, Jun–Aug",
+    "region": "nc-mountains",
+    "organism": "ant",
+    "stages": [
+      "adult",
+      "winged"
+    ],
+    "months": [
+      6,
+      7,
+      8
+    ],
+    "abundance": "present",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "nc-mountains-beetle-junaug",
+    "name": "Beetle — North Carolina Mountains, Jun–Aug",
+    "region": "nc-mountains",
+    "organism": "beetle",
+    "stages": [
+      "adult"
+    ],
+    "months": [
+      6,
+      7,
+      8
+    ],
+    "abundance": "present",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "nc-mountains-hopper-junaug",
+    "name": "Grasshopper — North Carolina Mountains, Jun–Aug",
+    "region": "nc-mountains",
+    "organism": "hopper",
+    "stages": [
+      "adult"
+    ],
+    "months": [
+      6,
+      7,
+      8
+    ],
+    "abundance": "present",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
   }
 ]

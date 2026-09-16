@@ -9,18 +9,19 @@
     "water": "fresh",
     "strengthPct": 95,
     "steps": [
-      "Pass the tag through the hook eye and back alongside the standing line.",
-      "Wrap the tag forward, away from the eye, three or four turns around the standing line.",
-      "Bring the tag back and pass it through the loop formed at the eye.",
-      "Wet it and pull the standing line to seat the knot tight against the eye.",
+      "Pass the tag through the hook eye and fold it back under the standing line, pinching the small loop that forms at the eye.",
+      "Wrap the tag around both parallel lines four times, working back DOWN toward the hook eye.",
+      "Pass the tag through the small loop you are still pinching at the eye.",
+      "Wet it and pull the standing line — the knot slides down and seats against the eye, often with an audible pop.",
       "Trim the tag close."
     ],
     "bestFor": "Freshwater dries and nymphs — small, strong, and it seats clean on tiny hook eyes.",
-    "failsWhen": "Seated dry, or drawn up by pulling the tag instead of the standing line.",
-    "notes": "House rule: this is the freshwater fly knot. Do not mix a clinch into the rotation — one knot tied well beats two tied adequately.",
+    "failsWhen": "Wrapped the wrong way. The turns travel toward the eye, not away from it — wrap away and you have tied something else.",
+    "notes": "House rule: this is the freshwater fly knot. Do not mix a clinch into the rotation — one knot tied well beats two tied adequately. The direction of the wraps is the step people get wrong.",
     "sources": [
       "Jeff's stated knot policy",
-      "Allowance is a working convention, not a measured figure — practitioners use 1–6 in per end"
+      "NetKnots — Pitzen knot",
+      "Orlando Outfitters — 16-20 (Pitzen) knot"
     ],
     "diagram": "assets/diagrams/knot-pitzen.svg",
     "allowanceIn": [
@@ -144,13 +145,15 @@
     "failsWhen": "Seated without wetting in heavy butt material, which cuts itself.",
     "sources": [
       "NEEDS REVIEW",
-      "Allowance is a working convention, not a measured figure — practitioners use 1–6 in per end"
+      "Allowance is a working convention, not a measured figure — practitioners use 1–6 in per end",
+      "FLYBOX v0.3 legacy content (2026-09-13)"
     ],
     "diagram": "assets/diagrams/knot-perfection-loop.svg",
     "allowanceIn": [
       4,
       5
-    ]
+    ],
+    "notes": "Loop in the butt of a leader (loop-to-loop to fly line)"
   },
   {
     "id": "nail-knot",
@@ -211,5 +214,183 @@
     ],
     "defaultTurns": 10,
     "stepToleranceIn": 0.04
+  },
+  {
+    "id": "nonslip-loop",
+    "name": "Non-Slip Mono Loop (Kreh Loop)",
+    "uses": [
+      "tippet-to-fly"
+    ],
+    "steps": [
+      "Tie a loose overhand knot in the tippet about 8 in from the end",
+      "Pass the tag end through the hook eye",
+      "Bring the tag back through the overhand knot, entering on the same side it exited",
+      "Wrap the tag around the standing line 3-5 times (fewer wraps for heavier tippet)",
+      "Pass the tag back through the overhand knot again, same side as before",
+      "Moisten, pull tag and standing line to tighten, then set loop size and pull hard to seat"
+    ],
+    "bestFor": "Fixed loop lets the fly swim freely; strong on heavy mono/fluoro",
+    "notes": "Tippet to fly — streamers and all saltwater flies",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "improved-clinch",
+    "name": "Improved Clinch",
+    "uses": [
+      "tippet-to-fly"
+    ],
+    "steps": [
+      "Through the eye",
+      "5-7 wraps around standing line",
+      "Tag through the small loop at the eye",
+      "Tag through the big loop just formed",
+      "Moisten and seat"
+    ],
+    "bestFor": "Everyone knows it; weaker than the Pitzen on fine tippet",
+    "notes": "Tippet to fly — backup/common knot",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "surgeons",
+    "name": "Double Surgeon's Knot",
+    "uses": [
+      "leader-to-tippet"
+    ],
+    "steps": [
+      "Overlap leader and tippet by 6 in",
+      "Tie a loose overhand with both strands",
+      "Pass the same doubled end through the overhand a second time",
+      "Moisten, pull all four ends evenly",
+      "Trim tags (or leave one long as a dropper tag)"
+    ],
+    "bestFor": "Fast, strong, works on unequal diameters; tag can be a dropper",
+    "notes": "Tippet to leader (line-to-line, similar or dissimilar diameters)",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "blood",
+    "name": "Blood Knot",
+    "uses": [
+      "leader-to-tippet"
+    ],
+    "steps": [
+      "Overlap the two ends",
+      "Wrap one around the other 5 times, bring tag back to center",
+      "Repeat with the other end, opposite direction, tag through center gap the other way",
+      "Moisten, pull standing lines to seat"
+    ],
+    "bestFor": "Slimmest line-to-line knot, passes through guides cleanly",
+    "notes": "Joining leader sections of similar diameter (building tapered leaders)",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "nail",
+    "name": "Nail Knot",
+    "uses": [
+      "tippet-to-fly",
+      "line-to-leader",
+      "backing-to-line"
+    ],
+    "steps": [
+      "Lay tube, fly line end, and leader butt together",
+      "Wrap leader 5-6 times around all three",
+      "Pass tag back through the tube",
+      "Remove tube, snug wraps, pull tight",
+      "Trim both tags close, coat with UV resin optional"
+    ],
+    "bestFor": "Slim permanent connection; use a tube or nail-knot tool",
+    "notes": "Leader butt or backing to fly line",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "arbor",
+    "name": "Arbor Knot",
+    "uses": [
+      "backing-to-line"
+    ],
+    "steps": [
+      "Wrap backing around the arbor",
+      "Tie an overhand knot around the standing line",
+      "Tie a second overhand in the tag as a stopper",
+      "Pull tight against the arbor"
+    ],
+    "notes": "Backing to reel spool",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "bimini",
+    "name": "Bimini Twist",
+    "uses": [
+      "loop-to-loop",
+      "bite-tippet"
+    ],
+    "steps": [
+      "Form a long loop and twist 20 times",
+      "Spread the loop with knees, feed wraps back over the twists",
+      "Half hitch around one leg",
+      "Finish with a 3-turn half hitch around both legs",
+      "Trim"
+    ],
+    "bestFor": "100% knot strength; creates a shock-absorbing loop",
+    "notes": "Class tippet doubled loop (saltwater, big-game leaders)",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "loop-to-loop",
+    "name": "Loop-to-Loop Connection",
+    "uses": [
+      "line-to-leader",
+      "loop-to-loop"
+    ],
+    "steps": [
+      "Pass the leader loop over the fly line loop",
+      "Pass the leader's far end through the fly line loop",
+      "Pull so the loops seat like a square knot (handshake), NOT a girth hitch"
+    ],
+    "bestFor": "Fast leader changes, no knot tying on the water",
+    "notes": "Fly line loop to leader loop",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "huffnagle",
+    "name": "Huffnagle / Slim Beauty",
+    "uses": [
+      "bite-tippet"
+    ],
+    "steps": [
+      "Double overhand in the shock tippet",
+      "Pass class tippet (Bimini loop) through",
+      "Wrap and half-hitch to lock",
+      "Seat"
+    ],
+    "notes": "Class tippet to heavy shock tippet (tarpon)",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
   }
 ]

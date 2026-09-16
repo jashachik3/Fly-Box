@@ -2030,5 +2030,1391 @@
     "sources": [
       "NEEDS REVIEW"
     ]
+  },
+  {
+    "id": "blue-winged-olive-nymph-perdigon",
+    "organism": "blue-winged-olive",
+    "stage": "nymph",
+    "fly": "perdigon",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "blue-winged-olive-nymph-barrs-emerger",
+    "organism": "blue-winged-olive",
+    "stage": "nymph",
+    "fly": "barrs-emerger",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "blue-winged-olive-emerger-cdc-loopwing",
+    "organism": "blue-winged-olive",
+    "stage": "emerger",
+    "fly": "cdc-loopwing",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "blue-winged-olive-emerger-klinkhammer",
+    "organism": "blue-winged-olive",
+    "stage": "emerger",
+    "fly": "klinkhammer",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "blue-winged-olive-dun-bwo-comparadun",
+    "organism": "blue-winged-olive",
+    "stage": "dun",
+    "fly": "bwo-comparadun",
+    "strength": "first-choice",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "blue-winged-olive-dun-sparkle-dun",
+    "organism": "blue-winged-olive",
+    "stage": "dun",
+    "fly": "sparkle-dun",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "blue-winged-olive-spinner-rusty-spinner",
+    "organism": "blue-winged-olive",
+    "stage": "spinner",
+    "fly": "rusty-spinner",
+    "strength": "first-choice",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "pale-morning-dun-nymph-pheasant-tail",
+    "organism": "pale-morning-dun",
+    "stage": "nymph",
+    "fly": "pheasant-tail",
+    "strength": "first-choice",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "pale-morning-dun-nymph-hares-ear",
+    "organism": "pale-morning-dun",
+    "stage": "nymph",
+    "fly": "hares-ear",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "pale-morning-dun-emerger-barrs-emerger",
+    "organism": "pale-morning-dun",
+    "stage": "emerger",
+    "fly": "barrs-emerger",
+    "strength": "first-choice",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "pale-morning-dun-emerger-cdc-loopwing",
+    "organism": "pale-morning-dun",
+    "stage": "emerger",
+    "fly": "cdc-loopwing",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "pale-morning-dun-emerger-soft-hackle-po",
+    "organism": "pale-morning-dun",
+    "stage": "emerger",
+    "fly": "soft-hackle-po",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "pale-morning-dun-dun-pmd-comparadun",
+    "organism": "pale-morning-dun",
+    "stage": "dun",
+    "fly": "pmd-comparadun",
+    "strength": "first-choice",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "pale-morning-dun-dun-sparkle-dun",
+    "organism": "pale-morning-dun",
+    "stage": "dun",
+    "fly": "sparkle-dun",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "pale-morning-dun-spinner-rusty-spinner",
+    "organism": "pale-morning-dun",
+    "stage": "spinner",
+    "fly": "rusty-spinner",
+    "strength": "first-choice",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "hendrickson-nymph-pheasant-tail",
+    "organism": "hendrickson",
+    "stage": "nymph",
+    "fly": "pheasant-tail",
+    "strength": "first-choice",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "hendrickson-nymph-hares-ear",
+    "organism": "hendrickson",
+    "stage": "nymph",
+    "fly": "hares-ear",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "hendrickson-dun-hendrickson-dry",
+    "organism": "hendrickson",
+    "stage": "dun",
+    "fly": "hendrickson-dry",
+    "strength": "first-choice",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "hendrickson-dun-parachute-adams",
+    "organism": "hendrickson",
+    "stage": "dun",
+    "fly": "parachute-adams",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "hendrickson-dun-sparkle-dun",
+    "organism": "hendrickson",
+    "stage": "dun",
+    "fly": "sparkle-dun",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "hendrickson-spinner-rusty-spinner",
+    "organism": "hendrickson",
+    "stage": "spinner",
+    "fly": "rusty-spinner",
+    "strength": "first-choice",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "march-brown-nymph-hares-ear",
+    "organism": "march-brown",
+    "stage": "nymph",
+    "fly": "hares-ear",
+    "strength": "first-choice",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "march-brown-nymph-jig-hares-ear",
+    "organism": "march-brown",
+    "stage": "nymph",
+    "fly": "jig-hares-ear",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "march-brown-dun-march-brown-dry",
+    "organism": "march-brown",
+    "stage": "dun",
+    "fly": "march-brown-dry",
+    "strength": "first-choice",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "march-brown-dun-parachute-adams",
+    "organism": "march-brown",
+    "stage": "dun",
+    "fly": "parachute-adams",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "green-drake-nymph-hares-ear",
+    "organism": "green-drake",
+    "stage": "nymph",
+    "fly": "hares-ear",
+    "strength": "first-choice",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "green-drake-nymph-pats-rubber-legs",
+    "organism": "green-drake",
+    "stage": "nymph",
+    "fly": "pats-rubber-legs",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "green-drake-dun-green-drake-extended",
+    "organism": "green-drake",
+    "stage": "dun",
+    "fly": "green-drake-extended",
+    "strength": "first-choice",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "green-drake-dun-stimulator",
+    "organism": "green-drake",
+    "stage": "dun",
+    "fly": "stimulator",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "green-drake-spinner-rusty-spinner",
+    "organism": "green-drake",
+    "stage": "spinner",
+    "fly": "rusty-spinner",
+    "strength": "first-choice",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "trico-nymph-pheasant-tail",
+    "organism": "trico",
+    "stage": "nymph",
+    "fly": "pheasant-tail",
+    "strength": "first-choice",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "trico-nymph-zebra-midge",
+    "organism": "trico",
+    "stage": "nymph",
+    "fly": "zebra-midge",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "trico-dun-trico-dun",
+    "organism": "trico",
+    "stage": "dun",
+    "fly": "trico-dun",
+    "strength": "first-choice",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "trico-spinner-trico-spinner",
+    "organism": "trico",
+    "stage": "spinner",
+    "fly": "trico-spinner",
+    "strength": "first-choice",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "caddis-larva-green-rockworm",
+    "organism": "caddis",
+    "stage": "larva",
+    "fly": "green-rockworm",
+    "strength": "first-choice",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "caddis-pupa-sparkle-pupa",
+    "organism": "caddis",
+    "stage": "pupa",
+    "fly": "sparkle-pupa",
+    "strength": "first-choice",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "caddis-pupa-soft-hackle-po",
+    "organism": "caddis",
+    "stage": "pupa",
+    "fly": "soft-hackle-po",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "caddis-pupa-prince-nymph",
+    "organism": "caddis",
+    "stage": "pupa",
+    "fly": "prince-nymph",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "caddis-adult-x-caddis",
+    "organism": "caddis",
+    "stage": "adult",
+    "fly": "x-caddis",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "caddis-adult-cdc-caddis",
+    "organism": "caddis",
+    "stage": "adult",
+    "fly": "cdc-caddis",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "golden-stonefly-nymph-kaufmann-stone",
+    "organism": "golden-stonefly",
+    "stage": "nymph",
+    "fly": "kaufmann-stone",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "golden-stonefly-nymph-girdle-bug",
+    "organism": "golden-stonefly",
+    "stage": "nymph",
+    "fly": "girdle-bug",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "golden-stonefly-adult-stimulator",
+    "organism": "golden-stonefly",
+    "stage": "adult",
+    "fly": "stimulator",
+    "strength": "first-choice",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "golden-stonefly-adult-chubby-chernobyl",
+    "organism": "golden-stonefly",
+    "stage": "adult",
+    "fly": "chubby-chernobyl",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "salmonfly-nymph-kaufmann-stone",
+    "organism": "salmonfly",
+    "stage": "nymph",
+    "fly": "kaufmann-stone",
+    "strength": "first-choice",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "salmonfly-nymph-pats-rubber-legs",
+    "organism": "salmonfly",
+    "stage": "nymph",
+    "fly": "pats-rubber-legs",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "salmonfly-adult-chubby-chernobyl",
+    "organism": "salmonfly",
+    "stage": "adult",
+    "fly": "chubby-chernobyl",
+    "strength": "first-choice",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "salmonfly-adult-stimulator",
+    "organism": "salmonfly",
+    "stage": "adult",
+    "fly": "stimulator",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "yellow-sally-nymph-prince-nymph",
+    "organism": "yellow-sally",
+    "stage": "nymph",
+    "fly": "prince-nymph",
+    "strength": "first-choice",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "yellow-sally-nymph-hares-ear",
+    "organism": "yellow-sally",
+    "stage": "nymph",
+    "fly": "hares-ear",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "yellow-sally-adult-yellow-sally-dry",
+    "organism": "yellow-sally",
+    "stage": "adult",
+    "fly": "yellow-sally-dry",
+    "strength": "first-choice",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "yellow-sally-adult-stimulator",
+    "organism": "yellow-sally",
+    "stage": "adult",
+    "fly": "stimulator",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "midge-larva-zebra-midge",
+    "organism": "midge",
+    "stage": "larva",
+    "fly": "zebra-midge",
+    "strength": "first-choice",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "midge-larva-bloodworm",
+    "organism": "midge",
+    "stage": "larva",
+    "fly": "bloodworm",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "midge-pupa-rs2",
+    "organism": "midge",
+    "stage": "pupa",
+    "fly": "rs2",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "midge-pupa-wd40",
+    "organism": "midge",
+    "stage": "pupa",
+    "fly": "wd40",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "midge-adult-midge-adult",
+    "organism": "midge",
+    "stage": "adult",
+    "fly": "midge-adult",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "hopper-adult-morrish-hopper",
+    "organism": "hopper",
+    "stage": "adult",
+    "fly": "morrish-hopper",
+    "strength": "first-choice",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "hopper-adult-chubby-chernobyl",
+    "organism": "hopper",
+    "stage": "adult",
+    "fly": "chubby-chernobyl",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "hopper-adult-daves-hopper",
+    "organism": "hopper",
+    "stage": "adult",
+    "fly": "daves-hopper",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "ant-adult-parachute-ant",
+    "organism": "ant",
+    "stage": "adult",
+    "fly": "parachute-ant",
+    "strength": "first-choice",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "ant-adult-foam-ant",
+    "organism": "ant",
+    "stage": "adult",
+    "fly": "foam-ant",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "ant-winged-flying-ant",
+    "organism": "ant",
+    "stage": "winged",
+    "fly": "flying-ant",
+    "strength": "first-choice",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "beetle-adult-foam-beetle",
+    "organism": "beetle",
+    "stage": "adult",
+    "fly": "foam-beetle",
+    "strength": "first-choice",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "scud-adult-sowbug",
+    "organism": "scud",
+    "stage": "adult",
+    "fly": "sowbug",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "crayfish-adult-crayfish-fly",
+    "organism": "crayfish",
+    "stage": "adult",
+    "fly": "crayfish-fly",
+    "strength": "first-choice",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "crayfish-adult-woolly-bugger",
+    "organism": "crayfish",
+    "stage": "adult",
+    "fly": "woolly-bugger",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "sculpin-adult-sculpzilla",
+    "organism": "sculpin",
+    "stage": "adult",
+    "fly": "sculpzilla",
+    "strength": "first-choice",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "sculpin-adult-muddler-minnow",
+    "organism": "sculpin",
+    "stage": "adult",
+    "fly": "muddler-minnow",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "sculpin-adult-sex-dungeon",
+    "organism": "sculpin",
+    "stage": "adult",
+    "fly": "sex-dungeon",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "sculpin-adult-slumpbuster",
+    "organism": "sculpin",
+    "stage": "adult",
+    "fly": "slumpbuster",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "minnow-adult-zonker",
+    "organism": "minnow",
+    "stage": "adult",
+    "fly": "zonker",
+    "strength": "first-choice",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "minnow-adult-clouser-minnow",
+    "organism": "minnow",
+    "stage": "adult",
+    "fly": "clouser-minnow",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "minnow-adult-sparkle-minnow",
+    "organism": "minnow",
+    "stage": "adult",
+    "fly": "sparkle-minnow",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "minnow-adult-game-changer",
+    "organism": "minnow",
+    "stage": "adult",
+    "fly": "game-changer",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "leech-adult-woolly-bugger",
+    "organism": "leech",
+    "stage": "adult",
+    "fly": "woolly-bugger",
+    "strength": "first-choice",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "sulphur-nymph-pheasant-tail",
+    "organism": "sulphur",
+    "stage": "nymph",
+    "fly": "pheasant-tail",
+    "strength": "first-choice",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "sulphur-nymph-frenchie",
+    "organism": "sulphur",
+    "stage": "nymph",
+    "fly": "frenchie",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "sulphur-emerger-barrs-emerger",
+    "organism": "sulphur",
+    "stage": "emerger",
+    "fly": "barrs-emerger",
+    "strength": "first-choice",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "sulphur-emerger-cdc-loopwing",
+    "organism": "sulphur",
+    "stage": "emerger",
+    "fly": "cdc-loopwing",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "sulphur-emerger-soft-hackle-po",
+    "organism": "sulphur",
+    "stage": "emerger",
+    "fly": "soft-hackle-po",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "sulphur-dun-pmd-comparadun",
+    "organism": "sulphur",
+    "stage": "dun",
+    "fly": "pmd-comparadun",
+    "strength": "first-choice",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "sulphur-dun-sparkle-dun",
+    "organism": "sulphur",
+    "stage": "dun",
+    "fly": "sparkle-dun",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "sulphur-dun-parachute-adams",
+    "organism": "sulphur",
+    "stage": "dun",
+    "fly": "parachute-adams",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "sulphur-spinner-rusty-spinner",
+    "organism": "sulphur",
+    "stage": "spinner",
+    "fly": "rusty-spinner",
+    "strength": "first-choice",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "quill-gordon-nymph-hares-ear",
+    "organism": "quill-gordon",
+    "stage": "nymph",
+    "fly": "hares-ear",
+    "strength": "first-choice",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "quill-gordon-nymph-pheasant-tail",
+    "organism": "quill-gordon",
+    "stage": "nymph",
+    "fly": "pheasant-tail",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "quill-gordon-dun-quill-gordon-dry",
+    "organism": "quill-gordon",
+    "stage": "dun",
+    "fly": "quill-gordon-dry",
+    "strength": "first-choice",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "quill-gordon-dun-parachute-adams",
+    "organism": "quill-gordon",
+    "stage": "dun",
+    "fly": "parachute-adams",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "blue-quill-nymph-pheasant-tail",
+    "organism": "blue-quill",
+    "stage": "nymph",
+    "fly": "pheasant-tail",
+    "strength": "first-choice",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "blue-quill-dun-parachute-adams",
+    "organism": "blue-quill",
+    "stage": "dun",
+    "fly": "parachute-adams",
+    "strength": "first-choice",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "blue-quill-dun-bwo-comparadun",
+    "organism": "blue-quill",
+    "stage": "dun",
+    "fly": "bwo-comparadun",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "inchworm-larva-green-weenie",
+    "organism": "inchworm",
+    "stage": "larva",
+    "fly": "green-weenie",
+    "strength": "first-choice",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "mahogany-dun-nymph-pheasant-tail",
+    "organism": "mahogany-dun",
+    "stage": "nymph",
+    "fly": "pheasant-tail",
+    "strength": "first-choice",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "mahogany-dun-dun-parachute-adams",
+    "organism": "mahogany-dun",
+    "stage": "dun",
+    "fly": "parachute-adams",
+    "strength": "first-choice",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "mahogany-dun-dun-sparkle-dun",
+    "organism": "mahogany-dun",
+    "stage": "dun",
+    "fly": "sparkle-dun",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "callibaetis-nymph-pheasant-tail",
+    "organism": "callibaetis",
+    "stage": "nymph",
+    "fly": "pheasant-tail",
+    "strength": "first-choice",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "callibaetis-nymph-hares-ear",
+    "organism": "callibaetis",
+    "stage": "nymph",
+    "fly": "hares-ear",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "callibaetis-dun-parachute-adams",
+    "organism": "callibaetis",
+    "stage": "dun",
+    "fly": "parachute-adams",
+    "strength": "first-choice",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "callibaetis-dun-sparkle-dun",
+    "organism": "callibaetis",
+    "stage": "dun",
+    "fly": "sparkle-dun",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "callibaetis-spinner-rusty-spinner",
+    "organism": "callibaetis",
+    "stage": "spinner",
+    "fly": "rusty-spinner",
+    "strength": "first-choice",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "sand-eel-adult-ep-sand-eel",
+    "organism": "sand-eel",
+    "stage": "adult",
+    "fly": "ep-sand-eel",
+    "strength": "first-choice",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "sand-eel-adult-clouser-minnow",
+    "organism": "sand-eel",
+    "stage": "adult",
+    "fly": "clouser-minnow",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "sand-eel-adult-surf-candy",
+    "organism": "sand-eel",
+    "stage": "adult",
+    "fly": "surf-candy",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "mullet-adult-lefty-deceiver",
+    "organism": "mullet",
+    "stage": "adult",
+    "fly": "lefty-deceiver",
+    "strength": "first-choice",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "mullet-adult-ep-baitfish",
+    "organism": "mullet",
+    "stage": "adult",
+    "fly": "ep-baitfish",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "mullet-adult-hollow-fleye",
+    "organism": "mullet",
+    "stage": "adult",
+    "fly": "hollow-fleye",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "mullet-adult-game-changer",
+    "organism": "mullet",
+    "stage": "adult",
+    "fly": "game-changer",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "pilchard-adult-ep-baitfish",
+    "organism": "pilchard",
+    "stage": "adult",
+    "fly": "ep-baitfish",
+    "strength": "first-choice",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "pilchard-adult-lefty-deceiver",
+    "organism": "pilchard",
+    "stage": "adult",
+    "fly": "lefty-deceiver",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "pilchard-adult-clouser-minnow",
+    "organism": "pilchard",
+    "stage": "adult",
+    "fly": "clouser-minnow",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "snapping-shrimp-adult-ep-shrimp",
+    "organism": "snapping-shrimp",
+    "stage": "adult",
+    "fly": "ep-shrimp",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "mantis-shrimp-adult-mantis-shrimp",
+    "organism": "mantis-shrimp",
+    "stage": "adult",
+    "fly": "mantis-shrimp",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "swimming-crab-adult-merkin",
+    "organism": "swimming-crab",
+    "stage": "adult",
+    "fly": "merkin",
+    "strength": "first-choice",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "swimming-crab-adult-flexo-crab",
+    "organism": "swimming-crab",
+    "stage": "adult",
+    "fly": "flexo-crab",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "swimming-crab-adult-raghead-crab",
+    "organism": "swimming-crab",
+    "stage": "adult",
+    "fly": "raghead-crab",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "swimming-crab-adult-bauer-crab",
+    "organism": "swimming-crab",
+    "stage": "adult",
+    "fly": "bauer-crab",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "squid-adult-squid-fly",
+    "organism": "squid",
+    "stage": "adult",
+    "fly": "squid-fly",
+    "strength": "first-choice",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "squid-adult-hollow-fleye",
+    "organism": "squid",
+    "stage": "adult",
+    "fly": "hollow-fleye",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "needlefish-adult-needlefish-fly",
+    "organism": "needlefish",
+    "stage": "adult",
+    "fly": "needlefish-fly",
+    "strength": "first-choice",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "mud-minnow-adult-clouser-minnow",
+    "organism": "mud-minnow",
+    "stage": "adult",
+    "fly": "clouser-minnow",
+    "strength": "first-choice",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "mud-minnow-adult-redfish-toad",
+    "organism": "mud-minnow",
+    "stage": "adult",
+    "fly": "redfish-toad",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "mud-minnow-adult-kwan",
+    "organism": "mud-minnow",
+    "stage": "adult",
+    "fly": "kwan",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "finger-mullet-adult-ep-baitfish",
+    "organism": "finger-mullet",
+    "stage": "adult",
+    "fly": "ep-baitfish",
+    "strength": "first-choice",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "finger-mullet-adult-clouser-minnow",
+    "organism": "finger-mullet",
+    "stage": "adult",
+    "fly": "clouser-minnow",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "finger-mullet-adult-seaducer",
+    "organism": "finger-mullet",
+    "stage": "adult",
+    "fly": "seaducer",
+    "strength": "change-up",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
   }
 ]

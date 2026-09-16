@@ -8,7 +8,7 @@
     "aliases": [
       "pistol shrimp"
     ],
-    "image": "assets/snapping-shrimp.jpg",
+    "image": "assets/bugs/snapping-shrimp.jpg",
     "stages": [
       {
         "stage": "adult",
@@ -29,7 +29,7 @@
         "behavior": "Lives in the bottom; when flushed it darts backward in short hops and stops. The stop is when it gets eaten.",
         "where": "On and just under the bottom, sand and grass",
         "vulnerable": true,
-        "image": "assets/snapping-shrimp-adult.jpg"
+        "image": "assets/bugs/snapping-shrimp-adult.jpg"
       }
     ],
     "notes": "The default bonefish food across all three salt regions. Almost every bonefish pattern is some argument about this animal.",
@@ -43,7 +43,7 @@
     "status": "draft",
     "kind": "crustacean",
     "water": "salt",
-    "image": "assets/mantis-shrimp.jpg",
+    "image": "assets/bugs/mantis-shrimp.jpg",
     "stages": [
       {
         "stage": "adult",
@@ -64,7 +64,7 @@
         "behavior": "Longer-bodied and slower than a snapping shrimp; swims more than it hops.",
         "where": "Grass and rubble bottom",
         "vulnerable": true,
-        "image": "assets/mantis-shrimp-adult.jpg"
+        "image": "assets/bugs/mantis-shrimp-adult.jpg"
       }
     ],
     "notes": "A bigger mouthful — worth having when fish are refusing small tan flies.",
@@ -82,7 +82,7 @@
       "blue crab",
       "flats crab"
     ],
-    "image": "assets/swimming-crab.jpg",
+    "image": "assets/bugs/swimming-crab.jpg",
     "stages": [
       {
         "stage": "juvenile",
@@ -102,7 +102,7 @@
         "behavior": "Scuttles and then drops flat to the bottom when threatened.",
         "where": "Bottom, sand and grass",
         "vulnerable": true,
-        "image": "assets/swimming-crab-juvenile.jpg"
+        "image": "assets/bugs/swimming-crab-juvenile.jpg"
       },
       {
         "stage": "adult",
@@ -122,7 +122,7 @@
         "behavior": "Faces the threat with claws up, then drops.",
         "where": "Bottom",
         "vulnerable": true,
-        "image": "assets/swimming-crab-adult.jpg"
+        "image": "assets/bugs/swimming-crab-adult.jpg"
       },
       {
         "stage": "molting",
@@ -142,7 +142,7 @@
         "behavior": "Soft and defenceless; pale and slow-moving.",
         "where": "Bottom, often tucked against structure",
         "vulnerable": true,
-        "image": "assets/swimming-crab-molting.jpg"
+        "image": "assets/bugs/swimming-crab-molting.jpg"
       }
     ],
     "notes": "The permit answer, and a real bonefish and redfish food too. The drop-to-the-bottom behaviour is what the presentation imitates — the fly should fall, not swim.",
@@ -161,7 +161,7 @@
       "silverside",
       "spearing"
     ],
-    "image": "assets/glass-minnow.jpg",
+    "image": "assets/bugs/glass-minnow.jpg",
     "stages": [
       {
         "stage": "schooling",
@@ -182,7 +182,7 @@
         "behavior": "Dense translucent schools that ball up under pressure.",
         "where": "Upper column, inlets and current seams",
         "vulnerable": true,
-        "image": "assets/glass-minnow-schooling.jpg"
+        "image": "assets/bugs/glass-minnow-schooling.jpg"
       }
     ],
     "notes": "Drives the fall albacore run on the NC coast, alongside finger mullet. The naturals are two to three inches, and matching that length matters more than colour.",
@@ -196,7 +196,7 @@
     "status": "draft",
     "kind": "baitfish",
     "water": "salt",
-    "image": "assets/bay-anchovy.jpg",
+    "image": "assets/bugs/bay-anchovy.jpg",
     "stages": [
       {
         "stage": "schooling",
@@ -216,12 +216,14 @@
         "behavior": "Tight schools, higher in the column than silversides.",
         "where": "Upper column, inlets and marsh creeks",
         "vulnerable": true,
-        "image": "assets/bay-anchovy-schooling.jpg"
+        "image": "assets/bugs/bay-anchovy-schooling.jpg"
       }
     ],
     "sources": [
-      "NEEDS REVIEW"
-    ]
+      "NEEDS REVIEW",
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "notes": "Eaten by: false albacore, spanish mackerel, bluefish, speckled trout. Found: inlets, nearshore."
   },
   {
     "id": "palolo-worm",
@@ -229,7 +231,7 @@
     "status": "draft",
     "kind": "annelid",
     "water": "salt",
-    "image": "assets/palolo-worm.jpg",
+    "image": "assets/bugs/palolo-worm.jpg",
     "stages": [
       {
         "stage": "spawning",
@@ -249,7 +251,7 @@
         "behavior": "Swims in the open column in enormous numbers over a few consecutive evenings. The worms do not hatch so much as disassemble, and the swimming sections are what gets eaten.",
         "where": "Mid to upper column, outgoing tide near reef and coral",
         "vulnerable": true,
-        "image": "assets/palolo-worm-spawning.jpg"
+        "image": "assets/bugs/palolo-worm-spawning.jpg"
       }
     ],
     "notes": "Early May into July, in sequences of four to six consecutive nights. The folk calendar pins it to the May full moon, but current strength is the better predictor and some May full moons produce nothing while some June tides are exceptional. Carry the fly only on a trip that overlaps the window, and do not plan around it.",
@@ -268,7 +270,7 @@
       "BWO",
       "baetis"
     ],
-    "image": "assets/blue-winged-olive.jpg",
+    "image": "assets/bugs/blue-winged-olive.jpg",
     "stages": [
       {
         "stage": "nymph",
@@ -288,7 +290,7 @@
         "behavior": "Strong swimmer; darts between rocks.",
         "where": "Riffles and seams, near the bottom",
         "vulnerable": true,
-        "image": "assets/blue-winged-olive-nymph.jpg"
+        "image": "assets/bugs/blue-winged-olive-nymph.jpg"
       },
       {
         "stage": "emerger",
@@ -307,7 +309,7 @@
         "behavior": "Hangs in the film, struggling out of the shuck.",
         "where": "Surface film",
         "vulnerable": true,
-        "image": "assets/blue-winged-olive-emerger.jpg"
+        "image": "assets/bugs/blue-winged-olive-emerger.jpg"
       },
       {
         "stage": "dun",
@@ -326,7 +328,7 @@
         "behavior": "Rides the surface a long way on cold, wet days — which is exactly why fish key on it.",
         "where": "Surface",
         "vulnerable": true,
-        "image": "assets/blue-winged-olive-dun.jpg"
+        "image": "assets/bugs/blue-winged-olive-dun.jpg"
       },
       {
         "stage": "spinner",
@@ -346,7 +348,7 @@
         "behavior": "Falls spent, flush in the film. Rises to it are subtle and easy to misread.",
         "where": "Surface film, usually evening",
         "vulnerable": true,
-        "image": "assets/blue-winged-olive-spinner.jpg"
+        "image": "assets/bugs/blue-winged-olive-spinner.jpg"
       }
     ],
     "notes": "The cold-weather workhorse in both Idaho and the NC mountains. Overcast and drizzle are the trigger, not the calendar.",
@@ -364,7 +366,7 @@
     "aliases": [
       "PMD"
     ],
-    "image": "assets/pale-morning-dun.jpg",
+    "image": "assets/bugs/pale-morning-dun.jpg",
     "stages": [
       {
         "stage": "nymph",
@@ -384,7 +386,7 @@
         "behavior": "Crawler; clings rather than swims.",
         "where": "Riffles, among cobble",
         "vulnerable": true,
-        "image": "assets/pale-morning-dun-nymph.jpg"
+        "image": "assets/bugs/pale-morning-dun-nymph.jpg"
       },
       {
         "stage": "emerger",
@@ -403,7 +405,7 @@
         "behavior": "Cripples in the film are taken preferentially over clean duns.",
         "where": "Surface film",
         "vulnerable": true,
-        "image": "assets/pale-morning-dun-emerger.jpg"
+        "image": "assets/bugs/pale-morning-dun-emerger.jpg"
       },
       {
         "stage": "dun",
@@ -423,7 +425,7 @@
         "behavior": "Mid-morning to midday emergence in warm months.",
         "where": "Surface",
         "vulnerable": true,
-        "image": "assets/pale-morning-dun-dun.jpg"
+        "image": "assets/bugs/pale-morning-dun-dun.jpg"
       },
       {
         "stage": "spinner",
@@ -442,12 +444,14 @@
         "behavior": "Evening spinner fall.",
         "where": "Surface film",
         "vulnerable": true,
-        "image": "assets/pale-morning-dun-spinner.jpg"
+        "image": "assets/bugs/pale-morning-dun-spinner.jpg"
       }
     ],
     "sources": [
-      "NEEDS REVIEW"
-    ]
+      "NEEDS REVIEW",
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "notes": "Season: summer. Best: late morning, evening. Water: river, tailwater."
   },
   {
     "id": "caddis",
@@ -456,7 +460,7 @@
     "kind": "caddis",
     "water": "fresh",
     "scientificName": "Trichoptera",
-    "image": "assets/caddis.jpg",
+    "image": "assets/bugs/caddis.jpg",
     "stages": [
       {
         "stage": "larva",
@@ -477,7 +481,7 @@
         "behavior": "Cased or free-living on the bottom; dislodged larvae drift helplessly.",
         "where": "Bottom, riffles",
         "vulnerable": true,
-        "image": "assets/caddis-larva.jpg"
+        "image": "assets/bugs/caddis-larva.jpg"
       },
       {
         "stage": "pupa",
@@ -497,7 +501,7 @@
         "behavior": "Rises fast through the column in a gas bubble — this is the stage fish chase.",
         "where": "Mid column, rising",
         "vulnerable": true,
-        "image": "assets/caddis-pupa.jpg"
+        "image": "assets/bugs/caddis-pupa.jpg"
       },
       {
         "stage": "adult",
@@ -518,7 +522,7 @@
         "behavior": "Skitters and hops on the surface rather than riding it. Splashy rises mean adults.",
         "where": "Surface",
         "vulnerable": true,
-        "image": "assets/caddis-adult.jpg"
+        "image": "assets/bugs/caddis-adult.jpg"
       }
     ],
     "notes": "Splashy, aggressive rises are the field tell that separates caddis from a mayfly hatch.",
@@ -533,7 +537,7 @@
     "kind": "midge",
     "water": "fresh",
     "scientificName": "Chironomidae",
-    "image": "assets/midge.jpg",
+    "image": "assets/bugs/midge.jpg",
     "stages": [
       {
         "stage": "larva",
@@ -554,7 +558,7 @@
         "behavior": "Wriggling, thin, almost featureless.",
         "where": "Bottom, silt and slow water",
         "vulnerable": true,
-        "image": "assets/midge-larva.jpg"
+        "image": "assets/bugs/midge-larva.jpg"
       },
       {
         "stage": "pupa",
@@ -575,7 +579,7 @@
         "behavior": "Hangs vertically in the film before emerging.",
         "where": "Upper column and film",
         "vulnerable": true,
-        "image": "assets/midge-pupa.jpg"
+        "image": "assets/bugs/midge-pupa.jpg"
       },
       {
         "stage": "adult",
@@ -595,7 +599,7 @@
         "behavior": "Clusters on the surface on cold days.",
         "where": "Surface",
         "vulnerable": false,
-        "image": "assets/midge-adult.jpg"
+        "image": "assets/bugs/midge-adult.jpg"
       }
     ],
     "notes": "The winter answer in the NC mountains. Size down further than feels reasonable.",
@@ -609,7 +613,7 @@
     "status": "draft",
     "kind": "stonefly",
     "water": "fresh",
-    "image": "assets/golden-stonefly.jpg",
+    "image": "assets/bugs/golden-stonefly.jpg",
     "stages": [
       {
         "stage": "nymph",
@@ -629,7 +633,7 @@
         "behavior": "Crawls to the bank to emerge — available on the bottom year-round, not just at hatch time.",
         "where": "Bottom, fast rocky water",
         "vulnerable": true,
-        "image": "assets/golden-stonefly-nymph.jpg"
+        "image": "assets/bugs/golden-stonefly-nymph.jpg"
       },
       {
         "stage": "adult",
@@ -649,13 +653,15 @@
         "behavior": "Clumsy on the water; big fish move for them.",
         "where": "Surface, near banks",
         "vulnerable": true,
-        "image": "assets/golden-stonefly-adult.jpg"
+        "image": "assets/bugs/golden-stonefly-adult.jpg"
       }
     ],
     "notes": "The nymph earns its place as a year-round anchor fly regardless of whether adults are around.",
     "sources": [
-      "NEEDS REVIEW"
-    ]
+      "NEEDS REVIEW",
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "scientificName": "Perlidae (Hesperoperla, Calineuria)"
   },
   {
     "id": "scud",
@@ -667,7 +673,7 @@
       "freshwater shrimp",
       "gammarus"
     ],
-    "image": "assets/scud.jpg",
+    "image": "assets/bugs/scud.jpg",
     "stages": [
       {
         "stage": "adult",
@@ -688,13 +694,15 @@
         "behavior": "Swims in short bursts, curls when dislodged.",
         "where": "Weed beds and among cobble",
         "vulnerable": true,
-        "image": "assets/scud-adult.jpg"
+        "image": "assets/bugs/scud-adult.jpg"
       }
     ],
     "notes": "Turns orange when dead or gravid, which is why the orange version works on some water and nowhere else.",
     "sources": [
-      "NEEDS REVIEW"
-    ]
+      "NEEDS REVIEW",
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "scientificName": "Amphipoda"
   },
   {
     "id": "aquatic-worm",
@@ -706,7 +714,7 @@
       "San Juan worm",
       "annelid"
     ],
-    "image": "assets/aquatic-worm.jpg",
+    "image": "assets/bugs/aquatic-worm.jpg",
     "stages": [
       {
         "stage": "adult",
@@ -727,7 +735,7 @@
         "behavior": "Washed loose from silt and drifts helplessly.",
         "where": "Bottom, everywhere, especially after rain",
         "vulnerable": true,
-        "image": "assets/aquatic-worm-adult.jpg"
+        "image": "assets/bugs/aquatic-worm-adult.jpg"
       }
     ],
     "notes": "The rising-and-off-color-water answer.",
@@ -745,7 +753,7 @@
       "bullhead",
       "muddler"
     ],
-    "image": "assets/sculpin.jpg",
+    "image": "assets/bugs/sculpin.jpg",
     "stages": [
       {
         "stage": "adult",
@@ -766,13 +774,15 @@
         "behavior": "Sits on the bottom among cobble and bolts in short bursts when disturbed, then pins itself flat again. It has no swim bladder, so it cannot hover — everything it does is on or near the stones.",
         "where": "On the bottom, in and behind rocks in fast water",
         "vulnerable": true,
-        "image": "assets/sculpin-adult.jpg"
+        "image": "assets/bugs/sculpin-adult.jpg"
       }
     ],
     "notes": "The reason a big brown eats a streamer. Broad flat head, no silver flash, and it lives where the current is.",
     "sources": [
-      "NEEDS REVIEW"
-    ]
+      "NEEDS REVIEW",
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "scientificName": "Cottidae"
   },
   {
     "id": "leech",
@@ -780,7 +790,7 @@
     "status": "draft",
     "kind": "annelid",
     "water": "fresh",
-    "image": "assets/leech.jpg",
+    "image": "assets/bugs/leech.jpg",
     "stages": [
       {
         "stage": "adult",
@@ -801,12 +811,763 @@
         "behavior": "Swims with a slow undulating ripple down its whole body, then sinks when it stops. The sink is when it gets eaten.",
         "where": "Near the bottom in slow water, silt and weed",
         "vulnerable": true,
-        "image": "assets/leech-adult.jpg"
+        "image": "assets/bugs/leech-adult.jpg"
       }
     ],
     "notes": "Available year-round and nothing else moves quite like it — which is why a marabou tail works so well.",
     "sources": [
-      "NEEDS REVIEW"
+      "NEEDS REVIEW",
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ],
+    "scientificName": "Hirudinea"
+  },
+  {
+    "id": "hendrickson",
+    "name": "Hendrickson",
+    "kind": "mayfly",
+    "water": "fresh",
+    "scientificName": "Ephemerella subvaria",
+    "stages": [
+      {
+        "stage": "nymph",
+        "hookSizes": [
+          12,
+          14
+        ],
+        "look": "Reddish-brown crawler, robust, 3 tails",
+        "vulnerable": true,
+        "image": "assets/bugs/hendrickson-nymph.jpg"
+      },
+      {
+        "stage": "dun",
+        "hookSizes": [
+          12,
+          14
+        ],
+        "look": "Pinkish-tan (female) or reddish-brown (male) body, smoky gray wings",
+        "vulnerable": true,
+        "image": "assets/bugs/hendrickson-dun.jpg"
+      },
+      {
+        "stage": "spinner",
+        "hookSizes": [
+          12,
+          14
+        ],
+        "look": "Rusty body, clear wings flat, evening spinner fall",
+        "vulnerable": true,
+        "image": "assets/bugs/hendrickson-spinner.jpg"
+      }
+    ],
+    "notes": "Season: spring. Best: afternoon. Water: river, freestone.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "march-brown",
+    "name": "March Brown",
+    "kind": "mayfly",
+    "water": "fresh",
+    "scientificName": "Maccaffertium vicarium",
+    "stages": [
+      {
+        "stage": "nymph",
+        "hookSizes": [
+          10,
+          14
+        ],
+        "look": "Flat, wide clinger nymph, mottled brown, hugs rocks in fast water",
+        "vulnerable": true,
+        "image": "assets/bugs/march-brown-nymph.jpg"
+      },
+      {
+        "stage": "dun",
+        "hookSizes": [
+          10,
+          14
+        ],
+        "look": "Large tan-brown body, heavily mottled wings",
+        "vulnerable": true,
+        "image": "assets/bugs/march-brown-dun.jpg"
+      }
+    ],
+    "notes": "Season: spring. Best: afternoon. Water: river, freestone.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "green-drake",
+    "name": "Green Drake",
+    "kind": "mayfly",
+    "water": "fresh",
+    "scientificName": "Drunella grandis / Ephemera guttulata",
+    "stages": [
+      {
+        "stage": "nymph",
+        "hookSizes": [
+          8,
+          12
+        ],
+        "look": "Big dark olive-brown crawler, chunky, fringed gills",
+        "vulnerable": true,
+        "image": "assets/bugs/green-drake-nymph.jpg"
+      },
+      {
+        "stage": "dun",
+        "hookSizes": [
+          8,
+          12
+        ],
+        "look": "Huge olive-green body, dark slate wings, unmistakable on the water",
+        "vulnerable": true,
+        "image": "assets/bugs/green-drake-dun.jpg"
+      },
+      {
+        "stage": "spinner",
+        "hookSizes": [
+          8,
+          12
+        ],
+        "look": "Coffin fly (east) — cream body, dark wings, spent",
+        "vulnerable": true,
+        "image": "assets/bugs/green-drake-spinner.jpg"
+      }
+    ],
+    "notes": "Season: late spring, early summer. Best: afternoon, evening. Water: river.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "trico",
+    "name": "Trico",
+    "kind": "mayfly",
+    "water": "fresh",
+    "scientificName": "Tricorythodes",
+    "stages": [
+      {
+        "stage": "nymph",
+        "hookSizes": [
+          20,
+          26
+        ],
+        "look": "Tiny dark crawler, squat, 3 tails",
+        "vulnerable": true,
+        "image": "assets/bugs/trico-nymph.jpg"
+      },
+      {
+        "stage": "dun",
+        "hookSizes": [
+          20,
+          26
+        ],
+        "look": "Tiny, olive (female) or black (male) body, white-gray wings",
+        "vulnerable": true,
+        "image": "assets/bugs/trico-dun.jpg"
+      },
+      {
+        "stage": "spinner",
+        "hookSizes": [
+          20,
+          26
+        ],
+        "look": "Black body, clear flat wings, clouds of them over riffles at dawn",
+        "vulnerable": true,
+        "image": "assets/bugs/trico-spinner.jpg"
+      }
+    ],
+    "notes": "Season: summer, early fall. Best: early morning. Water: spring creek, tailwater.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "salmonfly",
+    "name": "Salmonfly",
+    "kind": "stonefly",
+    "water": "fresh",
+    "scientificName": "Pteronarcys californica",
+    "stages": [
+      {
+        "stage": "nymph",
+        "hookSizes": [
+          2,
+          6
+        ],
+        "look": "Massive black-brown nymph, 2 tails, up to 2 inches, 3-year life cycle",
+        "vulnerable": true,
+        "image": "assets/bugs/salmonfly-nymph.jpg"
+      },
+      {
+        "stage": "adult",
+        "hookSizes": [
+          2,
+          6
+        ],
+        "look": "Huge orange-and-black adult, clumsy flier, lands on the water hard",
+        "vulnerable": true,
+        "image": "assets/bugs/salmonfly-adult.jpg"
+      }
+    ],
+    "notes": "Season: late spring. Best: afternoon. Water: freestone, big river.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "yellow-sally",
+    "name": "Little Yellow Sally",
+    "kind": "stonefly",
+    "water": "fresh",
+    "scientificName": "Isoperla",
+    "stages": [
+      {
+        "stage": "nymph",
+        "hookSizes": [
+          14,
+          16
+        ],
+        "look": "Small yellow-brown stonefly nymph, 2 tails",
+        "vulnerable": true,
+        "image": "assets/bugs/yellow-sally-nymph.jpg"
+      },
+      {
+        "stage": "adult",
+        "hookSizes": [
+          14,
+          16
+        ],
+        "look": "Small bright yellow stonefly, sometimes red-tipped abdomen, flat wings",
+        "vulnerable": true,
+        "image": "assets/bugs/yellow-sally-adult.jpg"
+      }
+    ],
+    "notes": "Season: summer. Best: afternoon, evening. Water: freestone.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "hopper",
+    "name": "Grasshopper",
+    "kind": "terrestrial",
+    "water": "fresh",
+    "scientificName": "Orthoptera",
+    "stages": [
+      {
+        "stage": "adult",
+        "hookSizes": [
+          6,
+          12
+        ],
+        "look": "Tan/yellow/green body, long hind legs, lands with a plop near grassy banks",
+        "vulnerable": true,
+        "image": "assets/bugs/hopper-adult.jpg"
+      }
+    ],
+    "notes": "Season: late summer. Best: afternoon, windy. Water: meadow stream, river bank.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "ant",
+    "name": "Ant",
+    "kind": "terrestrial",
+    "water": "fresh",
+    "scientificName": "Formicidae",
+    "stages": [
+      {
+        "stage": "adult",
+        "hookSizes": [
+          14,
+          20
+        ],
+        "look": "Two distinct body segments with thin waist, black or cinnamon",
+        "vulnerable": true,
+        "image": "assets/bugs/ant-adult.jpg"
+      },
+      {
+        "stage": "winged",
+        "hookSizes": [
+          14,
+          20
+        ],
+        "look": "Winged ant during mating swarms, trout key on them hard",
+        "vulnerable": true,
+        "image": "assets/bugs/ant-winged.jpg"
+      }
+    ],
+    "notes": "Season: summer, fall. Best: afternoon. Water: any.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "beetle",
+    "name": "Beetle",
+    "kind": "terrestrial",
+    "water": "fresh",
+    "scientificName": "Coleoptera",
+    "stages": [
+      {
+        "stage": "adult",
+        "hookSizes": [
+          12,
+          16
+        ],
+        "look": "Hard rounded black or brown shell, sits low in the film",
+        "vulnerable": true,
+        "image": "assets/bugs/beetle-adult.jpg"
+      }
+    ],
+    "notes": "Season: summer. Best: any. Water: any.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "crayfish",
+    "name": "Crayfish",
+    "kind": "crustacean",
+    "water": "fresh",
+    "scientificName": "Astacoidea",
+    "stages": [
+      {
+        "stage": "adult",
+        "hookSizes": [
+          4,
+          8
+        ],
+        "look": "Lobster-like, olive-brown to rust, scoots backward with tail flip",
+        "vulnerable": true,
+        "image": "assets/bugs/crayfish-adult.jpg"
+      }
+    ],
+    "notes": "Season: summer, fall. Best: low light. Water: river.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "minnow",
+    "name": "Minnow / Shiner",
+    "kind": "baitfish",
+    "water": "fresh",
+    "scientificName": "Cyprinidae",
+    "stages": [
+      {
+        "stage": "adult",
+        "hookSizes": [
+          4,
+          10
+        ],
+        "look": "Slim silver-flashing baitfish, schools in shallows",
+        "vulnerable": true,
+        "image": "assets/bugs/minnow-adult.jpg"
+      }
+    ],
+    "notes": "Season: all year. Best: any. Water: river.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "sulphur",
+    "name": "Sulphur",
+    "kind": "mayfly",
+    "water": "fresh",
+    "scientificName": "Ephemerella invaria / dorothea",
+    "stages": [
+      {
+        "stage": "nymph",
+        "hookSizes": [
+          14,
+          18
+        ],
+        "look": "Brown crawler, 3 tails, very like a PMD nymph (eastern cousin)",
+        "vulnerable": true,
+        "image": "assets/bugs/sulphur-nymph.jpg"
+      },
+      {
+        "stage": "emerger",
+        "hookSizes": [
+          14,
+          18
+        ],
+        "look": "Yellow body pushing out of a brown shuck in the film",
+        "vulnerable": true,
+        "image": "assets/bugs/sulphur-emerger.jpg"
+      },
+      {
+        "stage": "dun",
+        "hookSizes": [
+          14,
+          18
+        ],
+        "look": "Bright yellow-orange body, pale gray wings — the East's PMD",
+        "vulnerable": true,
+        "image": "assets/bugs/sulphur-dun.jpg"
+      },
+      {
+        "stage": "spinner",
+        "hookSizes": [
+          14,
+          18
+        ],
+        "look": "Rusty-orange body, clear wings spent at dusk",
+        "vulnerable": true,
+        "image": "assets/bugs/sulphur-spinner.jpg"
+      }
+    ],
+    "notes": "Season: late spring, early summer. Best: evening. Water: river, tailwater.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "quill-gordon",
+    "name": "Quill Gordon",
+    "kind": "mayfly",
+    "water": "fresh",
+    "scientificName": "Epeorus pleuralis",
+    "stages": [
+      {
+        "stage": "nymph",
+        "hookSizes": [
+          12,
+          14
+        ],
+        "look": "Flat clinger, 2 tails, dark brown, emerges on the bottom then swims up",
+        "vulnerable": true,
+        "image": "assets/bugs/quill-gordon-nymph.jpg"
+      },
+      {
+        "stage": "dun",
+        "hookSizes": [
+          12,
+          14
+        ],
+        "look": "Gray-tan body, gray wings, first big hatch of the Appalachian spring",
+        "vulnerable": true,
+        "image": "assets/bugs/quill-gordon-dun.jpg"
+      }
+    ],
+    "notes": "Season: early spring. Best: afternoon. Water: freestone.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "blue-quill",
+    "name": "Blue Quill",
+    "kind": "mayfly",
+    "water": "fresh",
+    "scientificName": "Paraleptophlebia",
+    "stages": [
+      {
+        "stage": "nymph",
+        "hookSizes": [
+          16,
+          18
+        ],
+        "look": "Small dark brown swimmer, 3 tails, slow water",
+        "vulnerable": true,
+        "image": "assets/bugs/blue-quill-nymph.jpg"
+      },
+      {
+        "stage": "dun",
+        "hookSizes": [
+          16,
+          18
+        ],
+        "look": "Slate wings, brownish body, small — often confused with BWO",
+        "vulnerable": true,
+        "image": "assets/bugs/blue-quill-dun.jpg"
+      }
+    ],
+    "notes": "Season: early spring, fall. Best: afternoon. Water: freestone.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "inchworm",
+    "name": "Inchworm",
+    "kind": "terrestrial",
+    "water": "fresh",
+    "scientificName": "Geometridae larva",
+    "stages": [
+      {
+        "stage": "larva",
+        "hookSizes": [
+          12,
+          14
+        ],
+        "look": "Bright green looper hanging from overhanging trees on silk",
+        "vulnerable": true,
+        "image": "assets/bugs/inchworm-larva.jpg"
+      }
+    ],
+    "notes": "Season: late spring, summer. Best: any. Water: freestone, brushy stream.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "mahogany-dun",
+    "name": "Mahogany Dun",
+    "kind": "mayfly",
+    "water": "fresh",
+    "scientificName": "Paraleptophlebia bicornuta",
+    "stages": [
+      {
+        "stage": "nymph",
+        "hookSizes": [
+          14,
+          16
+        ],
+        "look": "Slim brown swimmer, 3 tails",
+        "vulnerable": true,
+        "image": "assets/bugs/mahogany-dun-nymph.jpg"
+      },
+      {
+        "stage": "dun",
+        "hookSizes": [
+          14,
+          16
+        ],
+        "look": "Reddish-brown body, slate wings, fall on the Henry's Fork and South Fork",
+        "vulnerable": true,
+        "image": "assets/bugs/mahogany-dun-dun.jpg"
+      }
+    ],
+    "notes": "Season: fall. Best: afternoon. Water: river, spring creek.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "callibaetis",
+    "name": "Callibaetis",
+    "kind": "mayfly",
+    "water": "fresh",
+    "scientificName": "Callibaetis",
+    "stages": [
+      {
+        "stage": "nymph",
+        "hookSizes": [
+          14,
+          16
+        ],
+        "look": "Speckled tan swimmer, 3 tails, weed beds",
+        "vulnerable": true,
+        "image": "assets/bugs/callibaetis-nymph.jpg"
+      },
+      {
+        "stage": "dun",
+        "hookSizes": [
+          14,
+          16
+        ],
+        "look": "Speckled gray wings, tan body — Silver Creek classic",
+        "vulnerable": true,
+        "image": "assets/bugs/callibaetis-dun.jpg"
+      },
+      {
+        "stage": "spinner",
+        "hookSizes": [
+          14,
+          16
+        ],
+        "look": "Speckled clear wings spent",
+        "vulnerable": true,
+        "image": "assets/bugs/callibaetis-spinner.jpg"
+      }
+    ],
+    "notes": "Season: summer. Best: late morning. Water: spring creek, slow river.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "sand-eel",
+    "name": "Sand Eel / Sand Lance",
+    "kind": "baitfish",
+    "water": "salt",
+    "stages": [
+      {
+        "stage": "adult",
+        "sizeMm": [
+          76,
+          152
+        ],
+        "look": "Long, thin, pointed head, olive back, silver sides, burrows in sand",
+        "vulnerable": true,
+        "image": "assets/bugs/sand-eel-adult.jpg"
+      }
+    ],
+    "notes": "Eaten by: striped bass, bluefish, albies. Found: surf, inshore.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "mullet",
+    "name": "Mullet / Menhaden (bunker)",
+    "kind": "baitfish",
+    "water": "salt",
+    "stages": [
+      {
+        "stage": "adult",
+        "sizeMm": [
+          102,
+          254
+        ],
+        "look": "Deep-bodied, silver, big schools flipping on surface",
+        "vulnerable": true,
+        "image": "assets/bugs/mullet-adult.jpg"
+      }
+    ],
+    "notes": "Eaten by: striped bass, tarpon, snook, jacks, redfish. Found: inshore, surf, estuary.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "pilchard",
+    "name": "Pilchard / Scaled Sardine",
+    "kind": "baitfish",
+    "water": "salt",
+    "stages": [
+      {
+        "stage": "adult",
+        "sizeMm": [
+          51,
+          102
+        ],
+        "look": "Bright silver with greenish back, schools \"raining\" when chased",
+        "vulnerable": true,
+        "image": "assets/bugs/pilchard-adult.jpg"
+      }
+    ],
+    "notes": "Eaten by: tarpon, snook, jacks, permit. Found: flats, inshore.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "squid",
+    "name": "Squid",
+    "kind": "cephalopod",
+    "water": "salt",
+    "stages": [
+      {
+        "stage": "adult",
+        "sizeMm": [
+          102,
+          203
+        ],
+        "look": "Torpedo body, fins at rear, pinkish-white, big eyes, jets backward",
+        "vulnerable": true,
+        "image": "assets/bugs/squid-adult.jpg"
+      }
+    ],
+    "notes": "Eaten by: striped bass, tuna, bluefish. Found: offshore edges, rips.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "needlefish",
+    "name": "Needlefish / Ballyhoo",
+    "kind": "baitfish",
+    "water": "salt",
+    "stages": [
+      {
+        "stage": "adult",
+        "sizeMm": [
+          152,
+          305
+        ],
+        "look": "Extremely long thin body, beak-like jaw, skims surface",
+        "vulnerable": true,
+        "image": "assets/bugs/needlefish-adult.jpg"
+      }
+    ],
+    "notes": "Eaten by: barracuda, tarpon, sailfish. Found: flats, reef edges.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "mud-minnow",
+    "name": "Mud Minnow / Killifish",
+    "kind": "baitfish",
+    "water": "salt",
+    "stages": [
+      {
+        "stage": "adult",
+        "sizeMm": [
+          51,
+          102
+        ],
+        "look": "Stubby, olive-brown, rounded tail, lives in grass and mud",
+        "vulnerable": true,
+        "image": "assets/bugs/mud-minnow-adult.jpg"
+      }
+    ],
+    "notes": "Eaten by: redfish, seatrout, striped bass. Found: marsh, estuary.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "finger-mullet",
+    "name": "Finger Mullet",
+    "kind": "baitfish",
+    "water": "salt",
+    "stages": [
+      {
+        "stage": "adult",
+        "sizeMm": [
+          76,
+          127
+        ],
+        "look": "Small mullet pouring out of the marsh in the fall run",
+        "vulnerable": true,
+        "image": "assets/bugs/finger-mullet-adult.jpg"
+      }
+    ],
+    "notes": "Eaten by: redfish, flounder, speckled trout, bluefish. Found: inlets, surf, marsh.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
     ]
   }
 ]

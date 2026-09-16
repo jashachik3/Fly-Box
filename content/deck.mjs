@@ -257,7 +257,8 @@ export function deckResolver(tables) {
       if (filter.kinds?.length && !filter.kinds.includes(concept.kind)) return false;
 
       const reach = reachOf(concept);
-      if (filter.water && reach.water && reach.water !== filter.water) return false;
+      // 'both' means exactly that — it is not a third water to filter on.
+      if (filter.water && reach.water && reach.water !== 'both' && reach.water !== filter.water) return false;
 
       for (const axis of AXES) {
         const want = filter[axis];

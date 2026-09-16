@@ -10,7 +10,9 @@
     "diameterIn": 0.024,
     "spoolYd": 27,
     "bestFor": "Saltwater leader butt. Stiff, abrasion-resistant, turns a big fly over.",
-    "sources": ["Maxima published diameter table (Mad River Outfitters)"]
+    "sources": [
+      "Maxima published diameter table (Mad River Outfitters)"
+    ]
   },
   {
     "id": "maxima-chameleon-30",
@@ -22,7 +24,9 @@
     "lb": 30,
     "diameterIn": 0.022,
     "spoolYd": 27,
-    "sources": ["Maxima published diameter table (Mad River Outfitters)"]
+    "sources": [
+      "Maxima published diameter table (Mad River Outfitters)"
+    ]
   },
   {
     "id": "maxima-chameleon-25",
@@ -32,10 +36,12 @@
     "line": "Chameleon",
     "kind": "hard-mono",
     "lb": 25,
-    "diameterIn": 0.020,
+    "diameterIn": 0.02,
     "spoolYd": 27,
     "notes": "25 to 20 lb is a 0.003 in step — one size past what an even blood knot seats. Use 5/7 turns.",
-    "sources": ["Maxima published diameter table (Mad River Outfitters)"]
+    "sources": [
+      "Maxima published diameter table (Mad River Outfitters)"
+    ]
   },
   {
     "id": "maxima-chameleon-20",
@@ -48,7 +54,9 @@
     "diameterIn": 0.017,
     "spoolYd": 27,
     "bestFor": "The standard euro/mono-rig butt, and a mid section in saltwater.",
-    "sources": ["Maxima published diameter table (Mad River Outfitters)"]
+    "sources": [
+      "Maxima published diameter table (Mad River Outfitters)"
+    ]
   },
   {
     "id": "maxima-chameleon-15",
@@ -60,7 +68,9 @@
     "lb": 15,
     "diameterIn": 0.015,
     "spoolYd": 27,
-    "sources": ["Maxima published diameter table (Mad River Outfitters)"]
+    "sources": [
+      "Maxima published diameter table (Mad River Outfitters)"
+    ]
   },
   {
     "id": "maxima-chameleon-12",
@@ -72,7 +82,9 @@
     "lb": 12,
     "diameterIn": 0.013,
     "spoolYd": 27,
-    "sources": ["Maxima published diameter table (Mad River Outfitters)"]
+    "sources": [
+      "Maxima published diameter table (Mad River Outfitters)"
+    ]
   },
   {
     "id": "maxima-chameleon-10",
@@ -84,7 +96,9 @@
     "lb": 10,
     "diameterIn": 0.012,
     "spoolYd": 27,
-    "sources": ["Maxima published diameter table (Mad River Outfitters)"]
+    "sources": [
+      "Maxima published diameter table (Mad River Outfitters)"
+    ]
   },
   {
     "id": "amnesia-12-red",
@@ -97,7 +111,9 @@
     "diameterIn": 0.014,
     "bestFor": "Sighter. High-vis red, holds a straight memory-free line you can actually watch.",
     "notes": "Diameter is nominal — sighter mono is not published as consistently as Maxima.",
-    "sources": ["NEEDS REVIEW — nominal diameter"]
+    "sources": [
+      "NEEDS REVIEW — nominal diameter"
+    ]
   },
   {
     "id": "stren-gold-10",
@@ -108,7 +124,9 @@
     "lb": 10,
     "diameterIn": 0.012,
     "bestFor": "The second sighter colour. Stacked against red, the contrast is the strike indicator.",
-    "sources": ["NEEDS REVIEW — nominal diameter"]
+    "sources": [
+      "NEEDS REVIEW — nominal diameter"
+    ]
   },
   {
     "id": "fluoro-60",
@@ -119,7 +137,9 @@
     "diameterIn": 0.031,
     "bestFor": "Tarpon bite tippet.",
     "notes": "Nominal. Saltwater fluoro diameter varies by brand — only compare within one brand.",
-    "sources": ["NEEDS REVIEW — nominal diameter"]
+    "sources": [
+      "NEEDS REVIEW — nominal diameter"
+    ]
   },
   {
     "id": "fluoro-20",
@@ -129,7 +149,10 @@
     "lb": 20,
     "diameterIn": 0.018,
     "bestFor": "Tarpon class tippet. 20 lb is the IGFA ceiling for a class tippet.",
-    "sources": ["NEEDS REVIEW — nominal diameter", "IGFA International Angling Rules"]
+    "sources": [
+      "NEEDS REVIEW — nominal diameter",
+      "IGFA International Angling Rules"
+    ]
   },
   {
     "id": "fluoro-16",
@@ -139,7 +162,9 @@
     "lb": 16,
     "diameterIn": 0.016,
     "bestFor": "Bonefish tippet in normal conditions.",
-    "sources": ["NEEDS REVIEW — nominal diameter"]
+    "sources": [
+      "NEEDS REVIEW — nominal diameter"
+    ]
   },
   {
     "id": "fluoro-12",
@@ -149,7 +174,9 @@
     "lb": 12,
     "diameterIn": 0.014,
     "bestFor": "Bonefish tippet when it is flat calm and they are refusing.",
-    "sources": ["NEEDS REVIEW — nominal diameter"]
+    "sources": [
+      "NEEDS REVIEW — nominal diameter"
+    ]
   },
   {
     "id": "fluoro-10",
@@ -159,7 +186,9 @@
     "lb": 10,
     "diameterIn": 0.012,
     "bestFor": "Freshwater streamer tippet.",
-    "sources": ["NEEDS REVIEW — nominal diameter"]
+    "sources": [
+      "NEEDS REVIEW — nominal diameter"
+    ]
   },
   {
     "id": "fluoro-4x",
@@ -169,7 +198,9 @@
     "x": "4X",
     "lb": 6,
     "diameterIn": 0.007,
-    "sources": ["Standard X-to-diameter table"]
+    "sources": [
+      "Standard X-to-diameter table"
+    ]
   },
   {
     "id": "fluoro-5x",
@@ -179,7 +210,9 @@
     "x": "5X",
     "lb": 5,
     "diameterIn": 0.006,
-    "sources": ["Standard X-to-diameter table"]
+    "sources": [
+      "Standard X-to-diameter table"
+    ]
   },
   {
     "id": "tapered-4x",
@@ -192,7 +225,9 @@
     "buttDiameterIn": 0.021,
     "bestFor": "Bought off a card. The whole taper in one piece — nothing to tie and nothing to catch weed.",
     "notes": "Commercial knotless leaders run a 0.021-0.022 in butt whatever the rod weight, which is the main argument for building your own.",
-    "sources": ["MidCurrent — how to build fly fishing leaders"]
+    "sources": [
+      "MidCurrent — how to build fly fishing leaders"
+    ]
   },
   {
     "id": "tippet-ring-2mm",
@@ -202,6 +237,144 @@
     "lb": 25,
     "bestFor": "Stops the leader shortening every time you change tippet, and lets you hang fine tippet off heavy mono with no taper rule to obey.",
     "notes": "25 lb rated. Fine for trout; far too weak for a flats butt.",
-    "sources": ["RIO tippet ring specification"]
+    "sources": [
+      "RIO tippet ring specification"
+    ]
+  },
+  {
+    "id": "tippet-0x",
+    "name": "0X tippet",
+    "kind": "fluoro",
+    "x": "0X",
+    "lb": 15,
+    "diameterIn": 0.011,
+    "flySizes": [
+      2,
+      4
+    ],
+    "bestFor": "Matched to hook sizes 2-4.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "tippet-1x",
+    "name": "1X tippet",
+    "kind": "fluoro",
+    "x": "1X",
+    "lb": 13,
+    "diameterIn": 0.01,
+    "flySizes": [
+      4,
+      8
+    ],
+    "bestFor": "Matched to hook sizes 4-8.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "tippet-2x",
+    "name": "2X tippet",
+    "kind": "fluoro",
+    "x": "2X",
+    "lb": 11,
+    "diameterIn": 0.009,
+    "flySizes": [
+      6,
+      10
+    ],
+    "bestFor": "Matched to hook sizes 6-10.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "tippet-3x",
+    "name": "3X tippet",
+    "kind": "fluoro",
+    "x": "3X",
+    "lb": 8.5,
+    "diameterIn": 0.008,
+    "flySizes": [
+      10,
+      14
+    ],
+    "bestFor": "Matched to hook sizes 10-14.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "tippet-4x",
+    "name": "4X tippet",
+    "kind": "fluoro",
+    "x": "4X",
+    "lb": 6,
+    "diameterIn": 0.007,
+    "flySizes": [
+      12,
+      16
+    ],
+    "bestFor": "Matched to hook sizes 12-16.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "tippet-5x",
+    "name": "5X tippet",
+    "kind": "fluoro",
+    "x": "5X",
+    "lb": 4.5,
+    "diameterIn": 0.006,
+    "flySizes": [
+      14,
+      20
+    ],
+    "bestFor": "Matched to hook sizes 14-20.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "tippet-6x",
+    "name": "6X tippet",
+    "kind": "fluoro",
+    "x": "6X",
+    "lb": 3.5,
+    "diameterIn": 0.005,
+    "flySizes": [
+      18,
+      24
+    ],
+    "bestFor": "Matched to hook sizes 18-24.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
+  },
+  {
+    "id": "tippet-7x",
+    "name": "7X tippet",
+    "kind": "fluoro",
+    "x": "7X",
+    "lb": 2.5,
+    "diameterIn": 0.004,
+    "flySizes": [
+      22,
+      28
+    ],
+    "bestFor": "Matched to hook sizes 22-28.",
+    "status": "draft",
+    "sources": [
+      "FLYBOX v0.3 legacy content (2026-09-13)"
+    ]
   }
 ]

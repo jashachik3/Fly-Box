@@ -1,3 +1,5 @@
+import { formatHookRange } from '../../../content/hooksize.mjs';
+import { traitsOf, sizeRangeMm } from './traits.js';
 // Fly Box — content queries
 // ---------------------------------------------------------------------------
 // Pure functions over a built bundle. No React, no storage, no I/O — so the
@@ -117,19 +119,54 @@ export function identify(bundle, organism, stage, q = {}) {
     .sort((a, b) => RANK[a.strength] - RANK[b.strength]);
 }
 
-/** Narrow by what you can actually see on the bank, one axis at a time. */
-export function keyCandidates(bundle, { water, kind, hookSize, color } = {}) {
+const AROUND = { peak: 0, present: 1, sparse: 2 };
+
+/**
+ * The field key. `answers` is {shape, place, wings, tails, size, colour}, any
+ * subset — see traits.js for the vocabulary. Returns the stages that fit,
+ * with what is around the trip's region this month ranked first, because the
+ * bug on your thumb is far more likely to be the one the chart says is
+ * hatching than one from the other side of the country.
+ *
+ * `water` narrows to fresh or salt before anything is asked; with a region
+ * set the UI passes the region's water so a Bahamas key never offers a
+ * Hendrickson.
+ */
+export function fieldKey(bundle, answers = {}, { region, month, water } = {}) {
+  const around = new Map();
+  for (const p of bundle.tables.presence) {
+    if (region && p.region !== region) continue;
+    if (!region) continue;
+    if (month != null && !p.months.includes(month)) continue;
+    for (const s of p.stages ?? []) {
+      const k = `${p.organism}.${s}`;
+      const prev = around.get(k);
+      if (prev == null || AROUND[p.abundance] < AROUND[prev]) around.set(k, p.abundance);
+    }
+  }
+
+  const asked = Object.entries(answers).filter(([, v]) => v != null && v !== '');
   const out = [];
   for (const org of bundle.tables.organisms) {
     if (water && org.water !== water) continue;
-    if (kind && org.kind !== kind) continue;
     for (const st of org.stages ?? []) {
-      if (hookSize != null && st.hookSizes && !(hookSize >= st.hookSizes[0] && hookSize <= st.hookSizes[1])) continue;
-      if (color && st.colors && !st.colors.some((c) => c.includes(color))) continue;
-      out.push({ organism: org, stage: st });
+      const t = traitsOf(org, st);
+      const fits = asked.every(([q, v]) => t[q] == null || t[q].includes(v));
+      if (!fits) continue;
+      out.push({
+        organism: org,
+        stage: st,
+        around: around.get(`${org.id}.${st.stage}`) ?? null,
+        sizeMm: sizeRangeMm(st),
+      });
     }
   }
-  return out;
+
+  return out.sort((a, b) => {
+    const ra = a.around ? AROUND[a.around] : 3;
+    const rb = b.around ? AROUND[b.around] : 3;
+    return ra - rb || a.organism.name.localeCompare(b.organism.name) || a.stage.stage.localeCompare(b.stage.stage);
+  });
 }
 
 // ---------------------------------------------------------------------------
@@ -170,7 +207,7 @@ export function scenarioCard(bundle, match) {
       : `${org?.name ?? match.organism}, ${match.stage}`,
     question: 'What do you tie on?',
     answer: bundle.byId.flies[match.fly]?.name ?? match.fly,
-    size: match.hookSizes ? `#${match.hookSizes[0]}–${match.hookSizes[1]}` : null,
+    size: match.hookSizes ? `#${formatHookRange(match.hookSizes)}` : null,
     because: match.presentation ?? '',
     rigs: (match.rigs ?? []).map((x) => bundle.byId.rigs[x]?.name ?? x),
   };
@@ -231,7 +268,7 @@ export function renderCard(bundle, concept, { variant } = {}) {
       seeing: `${org?.name ?? match.organism} — ${match.stage}`,
       question: 'Which fly imitates this?',
       answer: fly?.name ?? match.fly,
-      size: match.hookSizes ? `#${match.hookSizes[0]}–${match.hookSizes[1]}` : null,
+      size: match.hookSizes ? `#${formatHookRange(match.hookSizes)}` : null,
       because: match.notes ?? match.presentation ?? '',
       rigs: [],
     };
@@ -248,7 +285,7 @@ export function renderCard(bundle, concept, { variant } = {}) {
       seeing: st.behavior ?? '',
       question: `What is this, and what stage?`,
       answer: `${org.name} — ${st.stage}`,
-      size: st.hookSizes ? `#${st.hookSizes[0]}–${st.hookSizes[1]}` : null,
+      size: st.hookSizes ? `#${formatHookRange(st.hookSizes)}` : null,
       because: org.notes ?? '',
       image: st.image ?? org.image ?? null,
       rigs: [],
@@ -265,7 +302,7 @@ export function renderCard(bundle, concept, { variant } = {}) {
       seeing: fly.name,
       question: 'What does it imitate, and when do you reach for it?',
       answer: fly.tiedFor ?? '—',
-      size: fly.hookSizes ? `#${fly.hookSizes[0]}–${fly.hookSizes[1]}` : null,
+      size: fly.hookSizes ? `#${formatHookRange(fly.hookSizes)}` : null,
       because: fly.notes ?? '',
       image: fly.image ?? null,
       retrieve: retrieveForFly(bundle, fly.id),

@@ -1,0 +1,391 @@
+[
+  {
+    "id": "bonefish-bitters",
+    "verdict": "wrong",
+    "recipe": "Craig Mathews' Bonefish Bitters: short saltwater hook (Kamasan B175) #4-8; a small bunch of deer hair or bucktail tied in at the REAR of the shank extending about one shank length past the bend, with 6-8 rubber legs of matching colour slightly longer than the hair; the hair butts are left about half the shank long and small bead-chain eyes are lashed on top of the shank about midway; hot-melt glue or epoxy is then melted over the eyes and butts and shaped into a teardrop that forms the whole front half of the fly. Colours amber, olive, brown/hermit-crab, tan and white.",
+    "hook": "Short-shank saltwater hook, Kamasan B175 or similar, #4-8; rides HOOK POINT UP - Umpqua describes it as 'nearly weedless with its epoxy head and lightweight bead chain eyes', which works only if the bead chain flips the hook point up.",
+    "errors": [
+      "The whole inverted-orientation paragraph is DUPLICATED verbatim in the prompt ('The wing/hair and weighted eyes are tied on the SAME side of the shank as the hook point... ' appears twice) - systemic paste bug.",
+      "'The wing/hair and weighted eyes are tied on the SAME side of the shank' - physically backwards. The weighted/bead-chain eyes must be on the OPPOSITE side of the shank from the hook point (i.e. hanging underneath the shank once the fly is inverted); it is the weight below the shank that holds the point up.",
+      "'a short sparse hair wing' - the Bitters has no wing. The deer hair/bucktail is a TAIL tied at the rear of the shank, projecting about a shank length past the bend.",
+      "'tiny bead-chain eyes' at the head - the bead chain sits roughly MIDWAY along the shank and is buried inside the glue/epoxy blob, not perched at the hook eye.",
+      "'A small teardrop of colored epoxy at the head' understates it - the hot-melt/epoxy teardrop is the body of the fly and covers the front half of the shank including the eyes."
+    ],
+    "missing": [
+      "6-8 rubber legs, matched to the hair colour and LONGER than the hair, splaying from the rear where the hair is tied in",
+      "the hair butts trapped under the glue, which is what gives the head its bulk",
+      "the standard colourways: amber, olive, brown 'hermit crab', tan, white",
+      "the fly is tiny - a #6-8 hook, roughly an inch overall"
+    ],
+    "invented": [
+      "'a short sparse hair wing' - no published Bitters recipe has a wing"
+    ],
+    "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is a \"Bonefish Bitters\". Small short-shank saltwater hook, size 6. From the hook eye back: the front half of the shank is encased in a smooth glossy teardrop of amber-tan epoxy/hot-melt glue, with small silver bead-chain eyes embedded in that teardrop about midway along the shank; from the rear of the epoxy blob a short sparse bunch of tan deer hair projects back about one shank length past the bend, and six to eight fine tan rubber legs, slightly longer than the hair, splay out to the sides from the same point. No wing. The fly rides inverted: the hook point and the deer-hair tail are on the SAME side of the shank and are shown facing UP, while the bead-chain eyes sit on the OPPOSITE side, hanging beneath the shank. Only one fly, hook bend and point clearly visible.",
+    "sources": [
+      "https://globalflyfisher.com/patterns/bonefish-bitters",
+      "https://www.umpqua.com/bonefish-bitters/"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ep-shrimp",
+    "verdict": "wrong",
+    "recipe": "EP Spawning Shrimp (Enrico Puglisi): Mustad S71SAP or TMC 811S, #1/0-6; silver bead-chain or lead dumbbell eyes at the hook eye, with a double mono weedguard; at the REAR third of the shank a hot-orange dubbing ball (Ice Dub, Senyo's Laser Yarn or orange EP fibre) representing the egg mass of a spawning shrimp, with EP mono/crustacean eyes, tan barred rubber legs and two or three strands of black Krystal Flash set just ahead of it; the body is an EP Shrimp Dub Brush in tan, olive or rootbeer wrapped forward in open turns, then brushed out and trimmed to a tapered shrimp profile.",
+    "hook": "Straight-eye saltwater hook (Mustad S71SAP / TMC 811S) #1/0-6; fished HOOK POINT UP - the weighted eyes are mounted at the hook eye so the fly inverts, and the pattern carries a mono weedguard for casting into mangroves. No source states the orientation in so many words, so this is inferred from the eye placement and weedguard.",
+    "errors": [
+      "The inverted-orientation paragraph is DUPLICATED verbatim - systemic paste bug.",
+      "'The wing/hair and weighted eyes are tied on the SAME side of the shank' - backwards; the lead/bead-chain eyes belong on the opposite side of the shank from the point. Also there is no 'wing' on this fly at all, so the boilerplate wording does not describe anything present.",
+      "'a small orange egg cluster underneath' - the orange egg mass is at the REAR of the fly, built as a ball on the back third of the shank near the bend, not slung under the middle of the body.",
+      "'a tan segmented EP-fiber body' - the body is a wrapped and brushed-out EP dubbing brush trimmed to a taper; it reads as shaggy and translucent, not as neat segments."
+    ],
+    "missing": [
+      "the double mono weedguard, which is a standard part of the commercial fly",
+      "tan barred rubber legs and two or three strands of black Krystal Flash at the rear",
+      "EP mono/crustacean eyes are the correct component (the prompt's 'mono eyes on stalks' is right but should be named as the small black EP crab/shrimp eyes)",
+      "standard colourways: tan, olive, rootbeer, transparent, coyote; overall length about 2.5 in at #4 and 3 in at #1/0"
+    ],
+    "invented": [
+      "nothing beyond the misplaced egg sac and the 'wing' wording"
+    ],
+    "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is an \"EP Spawning Shrimp\". Straight-eye saltwater hook, size 4. From the hook eye back: a small lead dumbbell (or silver bead-chain) pair of eyes just behind the hook eye and a loop of clear monofilament weedguard; then a shaggy, semi-translucent tan body of brushed-out EP fibre wrapped along the shank and trimmed to a tapered shrimp profile; small black mono crab eyes on short stalks and a few tan barred rubber legs and two or three strands of black Krystal Flash sweeping back past the bend as antennae; and at the REAR of the body, over the bend, a compact hot-orange ball of dubbing as the spawning egg mass. The fly rides inverted: the hook point and the shrimp's dressing are on the SAME side of the shank and are shown facing UP, while the weighted eyes sit on the OPPOSITE side, hanging beneath the shank behind the hook eye. Only one fly, hook bend and point clearly visible.",
+    "sources": [
+      "https://midcurrent.com/v2/how-to-tie-the-ep-spawning-shrimp-for-march-redfish-and-bonefish/",
+      "https://www.saltwaterflies.com/ep_spawning_shrimp.html",
+      "https://www.tridentflyfishing.com/products/enrico-puglisi-spawning-shrimp-fly"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "mantis-shrimp",
+    "verdict": "wrong",
+    "recipe": "Veverka's Mantis Shrimp (Bob Veverka): Daiichi 2546 #2-4; 5/32 dumbbell or large bead-chain eyes at the hook eye; at the bend a tan craft-fur tail with tan or pearl Krystal Flash antennae and large black burnt-mono or EP crustacean eyes on stalks; the body is craft-fur dubbing wrapped in three turns with a separate set of tan rubber legs between each turn - 'one turn of tan Craft-fur dubbing then another set of rubber legs... 3 sets in all'; a strip of tan rabbit fur is pulled over the top as the carapace and the whole thing is coated with thin UV resin. Sand/tan is the standard colour.",
+    "hook": "Daiichi 2546 or similar straight-eye saltwater hook, #2-4; rides HOOK POINT UP - the dumbbell or bead-chain eyes at the head invert the fly.",
+    "errors": [
+      "The inverted-orientation paragraph is DUPLICATED verbatim - systemic paste bug.",
+      "'The wing/hair and weighted eyes are tied on the SAME side of the shank' - backwards; the dumbbell eyes must be on the opposite side of the shank from the hook point. There is also no wing on this fly.",
+      "'rubber-leg antennae' - the antennae are strands of tan or pearl Krystal Flash. The rubber legs are not antennae; they are three separate sets spaced along the BODY.",
+      "'dubbed segmented body with legs underneath' - the legs are in three sets spread along the length of the body and splay out to the sides, not massed underneath."
+    ],
+    "missing": [
+      "the tan craft-fur tail at the bend",
+      "the tan rabbit-fur strip pulled over the top of the body as a carapace/back",
+      "the large black burnt-mono (or EP crustacean) eyes on stalks - the prompt says 'prominent mono eyes' but does not say they are large, black and stalked at the rear/bend end",
+      "UV resin coating",
+      "that the body dubbing is craft fur, which gives a translucent spiky look"
+    ],
+    "invented": [
+      "'rubber-leg antennae' - no source uses rubber for the antennae"
+    ],
+    "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is a \"Veverka's Mantis Shrimp\". Straight-eye saltwater hook, size 2. From the hook eye back: a pair of lead dumbbell eyes just behind the hook eye; then a translucent spiky body dubbed from tan craft fur in three segments, with a set of fine tan rubber legs splayed out to the sides between each segment (three sets in all); a strip of tan rabbit fur pulled over the top of the body as a carapace and coated with thin clear UV resin; and at the bend, two large black burnt-monofilament eyes on short stalks, a few strands of pearl Krystal Flash as long antennae, and a soft tan craft-fur tail. Sand-tan overall. The fly rides inverted: the hook point and all the dressing are on the SAME side of the shank and are shown facing UP, while the dumbbell eyes sit on the OPPOSITE side, hanging beneath the shank behind the hook eye. Only one fly, hook bend and point clearly visible.",
+    "sources": [
+      "https://blog.saltyflytying.com/ververka-mantis-shrimp-%E2%80%A2-bob-ververka/",
+      "https://deneki.com/2020/07/veverkas-mantis-shrimp-from-its-creator-2/"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "merkin",
+    "verdict": "wrong",
+    "recipe": "Del Brown's Merkin: TMC 811S #1/0-6 (commonly 2-4); plated lead dumbbell eyes lashed on TOP of the shank about two eye-lengths behind the hook eye - 'This will make the hook point ride up'; at the bend, four (or two) splayed brown, cree or barred-ginger neck hackle tips about a shank length long as claws, with 3-6 strands of pearl Flashabou over them in a narrow V; the body is roughly five 1.5-in bunches of tan acrylic rug/craft yarn tied crosswise with X-wraps from the bend forward and trimmed into a flat oval/teardrop carapace, widest near the bend; four white square or round rubber legs are knotted between the yarn bunches and their tips marked red.",
+    "hook": "TMC 811S or similar straight-eye saltwater hook, #1/0-6; rides HOOK POINT UP (dumbbell eyes tied on top of the shank behind the hook eye).",
+    "errors": [
+      "The inverted-orientation paragraph is DUPLICATED verbatim - systemic paste bug.",
+      "'The wing/hair and weighted eyes are tied on the SAME side of the shank as the hook point' - backwards. Sea Island's step-by-step is explicit: 'Tie the dumbbell eyes right behind the eye of the hook on the top of the hook. This will make the hook point ride up.' In the finished fly the eyes hang BELOW the shank while the point is up. There is also no wing on a Merkin.",
+      "'splayed grizzly hackle tips' - wrong feather. The claws are brown, cree or barred-ginger neck hackle tips; grizzly (black-and-white barred) is not the pattern.",
+      "'rubber legs at the bend as claws and legs' - the rubber legs are not at the bend; they are knotted in between the yarn bunches along the WHOLE length of the body, four of them, sticking out sideways."
+    ],
+    "missing": [
+      "3-6 strands of pearl Flashabou tied over the hackle claws in a narrow V",
+      "the white rubber legs have red-marked tips",
+      "the yarn is tied in about five separate crosswise bunches and trimmed to a teardrop/oval widest at the bend end, tapering toward the hook eye",
+      "olive/brown and cream/tan are the other standard colourways"
+    ],
+    "invented": [
+      "grizzly hackle claws"
+    ],
+    "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is a \"Merkin (Del Brown's Permit Fly)\". Straight-eye saltwater hook, size 2. From the hook eye back: a pair of heavy plated lead dumbbell eyes about two eye-widths behind the hook eye; then the body - about five crosswise bunches of tan acrylic rug yarn X-wrapped onto the shank and trimmed into a flat, dense oval crab carapace, narrowest at the hook eye and widest at the bend; four white square rubber legs with red-marked tips knotted in between the yarn bunches and sticking out sideways along the whole body; and at the bend, four splayed brown barred-ginger neck hackle tips about a shank length long as the crab's claws, with three or four strands of pearl Flashabou over them in a narrow V. The fly rides inverted: the hook point is on the SAME side of the shank as the claws and is shown facing UP, while the lead dumbbell eyes sit on the OPPOSITE side, hanging beneath the shank behind the hook eye. Only one fly, hook bend and point clearly visible.",
+    "sources": [
+      "https://charliesflybox.com/blogs/step-by-step-tutorials/dels-merkin",
+      "https://seaislandflyfishers.org/del-browns-merkin-crab/",
+      "https://themissionflymag.com/del-browns-merkin-crab-sbs/"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "flexo-crab",
+    "verdict": "wrong",
+    "recipe": "Flexo Crab: Gamakatsu SL11-3H or SS15, #4-1/0; lead (or brass) dumbbell eyes at the hook eye; the carapace is a length of Flexo / E-Z Body expandable braided mesh tubing tied over the shank and flexed so it opens into a crab-shaped shell - it stays HOLLOW so water passes through it and the fly sinks fast on modest weight; tan micro/velvet chenille legs and claws are threaded THROUGH the mesh with a wire threader and locked in place with UV resin (Deercreek Sculpt), so a torn-off leg can simply be re-threaded; large red or black EP crab eyes on stalks at the front of the shell. Beige/tan is the standard colour, often barred with a marker.",
+    "hook": "Gamakatsu SL11-3H or SS15 saltwater hook, #4-1/0; rides HOOK POINT UP (dumbbell eyes at the head; the fly needs 'enough weight for the fly to swim without spinning').",
+    "errors": [
+      "The inverted-orientation paragraph is DUPLICATED verbatim - systemic paste bug.",
+      "'The wing/hair and weighted eyes are tied on the SAME side of the shank' - backwards; the dumbbell eyes belong on the opposite side of the shank from the point. There is no wing on this fly.",
+      "'stuffed and shaped' - wrong. The whole point of the Flexo Crab is that the mesh shell is hollow and open so 'water can easily pass through the body'; nothing is stuffed inside it.",
+      "'painted olive-tan' - the tubing is supplied coloured (beige/tan is standard) and is at most barred with a permanent marker; it is not painted.",
+      "'A round crab body' - the flexed mesh forms a flattened oval carapace, not a ball.",
+      "'rubber legs' - the legs and claws are micro velvet chenille pulled through the mesh and set with resin."
+    ],
+    "missing": [
+      "large red or black EP crab eyes on stalks at the front of the shell",
+      "the distinction between two claws and the several legs, all threaded through the mesh",
+      "the dabs of clear UV resin where the legs pass through the shell",
+      "the visible woven/braided texture of the mesh, which is the pattern's signature look"
+    ],
+    "invented": [
+      "the stuffed body",
+      "a painted finish"
+    ],
+    "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is a \"Flexo Crab\". Straight-eye saltwater hook, size 2. From the hook eye back: a pair of lead dumbbell eyes just behind the hook eye; then the carapace - a length of beige expandable braided mesh tubing tied over the shank and flexed open into a hollow, flattened oval crab shell with the woven braid texture clearly visible and faint darker barring; two large red crab eyes on short stalks project from the front of the shell; several tan micro-chenille legs and two thicker chenille claws are threaded straight through the mesh and locked with small dabs of clear resin, splaying out to both sides. The fly rides inverted: the hook point is on the SAME side of the shank as the shell's back and is shown facing UP, while the lead dumbbell eyes sit on the OPPOSITE side, hanging beneath the shank behind the hook eye. Only one fly, hook bend and point clearly visible.",
+    "sources": [
+      "https://www.cw-flies.com/blog/flexo-crab-step-by-step",
+      "https://deneki.com/2021/10/fly-tying-flexo-crab-pattern/",
+      "https://globalflyfisher.com/video/flexo-crab"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "raghead-crab",
+    "verdict": "wrong",
+    "recipe": "Raghead Crab (Casa Blanca Raghead): Gamakatsu SL11-3H #6-1/0 (commonly 2-4); lead, brass or tungsten dumbbell eyes at the hook eye; at the bend a marabou plume flanked by two splayed hackle tips as the claws, with Krystal Flash antennae; the body is wool or McFly Foam tied in crosswise bunches, glued, and trimmed into a flat round crab disc; medium round rubber legs project from the sides; commonly sold with a mono weedguard and with yellow or black mono crab eyes. Cream/tan, olive and white are the standard colours.",
+    "hook": "Gamakatsu SL11-3H or similar straight-eye saltwater hook, #6-1/0; rides HOOK POINT UP (dumbbell eyes at the head; the weedguard version is sold for grassy permit flats).",
+    "errors": [
+      "The inverted-orientation paragraph is DUPLICATED verbatim - systemic paste bug.",
+      "'The wing/hair and weighted eyes are tied on the SAME side of the shank' - backwards; dumbbell eyes go on the opposite side of the shank from the point. There is no wing on this fly.",
+      "'A round body of tan yarn trimmed flat' - the body is wool or McFly Foam, glued and trimmed; 'yarn' is the Merkin's material and the two flies should not look alike. The Raghead reads as a fuzzy, slightly shaggy disc, not as neat yarn bunches.",
+      "'hackle-tip claws' alone - the claws are a marabou plume FLANKED by two hackle tips, so the rear of the fly is soft and mobile, not just two feather tips."
+    ],
+    "missing": [
+      "the marabou between the hackle-tip claws",
+      "Krystal Flash antennae at the bend",
+      "mono crab eyes (yellow or black) - a distinguishing feature of the Casa Blanca versions",
+      "the mono weedguard on the common weedguard version",
+      "olive, cream and white as the other standard colours"
+    ],
+    "invented": [
+      "nothing outright, but 'tan yarn' substitutes the wrong body material"
+    ],
+    "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is a \"Raghead Crab\". Straight-eye saltwater hook, size 2. From the hook eye back: a pair of lead dumbbell eyes just behind the hook eye and a single loop of clear mono weedguard; then the body - cream-tan wool / McFly Foam tied in crosswise bunches along the shank, glued and trimmed into a fuzzy flat round crab disc; four to six medium round rubber legs sticking out sideways from the edges of the disc; two small yellow mono crab eyes on stalks; and at the bend a tan marabou plume flanked by two splayed hackle tips as the claws, with a few strands of Krystal Flash as antennae. The fly rides inverted: the hook point is on the SAME side of the shank as the crab's back and is shown facing UP, while the lead dumbbell eyes sit on the OPPOSITE side, hanging beneath the shank behind the hook eye. Only one fly, hook bend and point clearly visible.",
+    "sources": [
+      "https://globalflyfisher.com/video/raghead-crab",
+      "https://www.yellowdogflyfishing.com/products/casa-blanca-raghead-crab-weedguard",
+      "https://www.jackshirkflyfishing.com/fly-tying/tying-the-raghead-crab/"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "bauer-crab",
+    "verdict": "wrong",
+    "recipe": "Bauer Crab (Will Bauer, developed for Belize permit; an Umpqua saltwater pattern): saltwater hook #4-6 (Martyn White's version uses a Gamakatsu SL12 #4-1/0); lead dumbbell eyes at the hook eye; the body is McFly Foam / egg yarn tied in crosswise bunches and trimmed into a thin flat oval carapace that soaks up water and sinks fast while still landing softly; square rubber legs out the sides; epoxy or mono crab eyes on stalks; finished with Pliobond or contact cement. Tan and olive with subtle orange accents are the standard colours.",
+    "hook": "Straight-eye saltwater hook, #4-6 (up to 1/0 in the larger versions); rides HOOK POINT UP - lead dumbbell eyes at the head.",
+    "errors": [
+      "The inverted-orientation paragraph is DUPLICATED verbatim - systemic paste bug.",
+      "'The wing/hair and weighted eyes are tied on the SAME side of the shank' - backwards; the dumbbell eyes go on the opposite side of the shank from the point. There is no wing on this fly.",
+      "'a flat oval crab body of tan synthetic fibers' - vague and slightly wrong: the published descriptions name McFly Foam / egg yarn, which trims to a soft, matte, slightly fuzzy disc rather than looking like brushed EP/synthetic fibre.",
+      "'small lead eyes' - sources describe lead dumbbells sized to suit; the fly is explicitly described as sinking fast, so 'small' undersells it."
+    ],
+    "missing": [
+      "epoxy or mono crab eyes on stalks",
+      "square (flat) rubber legs rather than round",
+      "the orange accent colour in the tan and olive dressings",
+      "'small claws' should be specified - the material varies between tiers, so a modest pair of soft feather-tip claws at the bend is the safe depiction"
+    ],
+    "invented": [
+      "nothing outright; the body fibre description is unsupported in its exact wording"
+    ],
+    "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is a \"Bauer Crab\", a Belize permit fly. Straight-eye saltwater hook, size 4. From the hook eye back: a pair of lead dumbbell eyes just behind the hook eye; then the body - tan McFly Foam / egg yarn tied in crosswise bunches along the shank and trimmed into a thin, flat, soft-edged oval crab carapace with a small orange accent patch; two small black mono crab eyes on stalks at the front of the carapace; several flat square tan rubber legs splaying out from both sides; and a modest pair of soft splayed feather-tip claws at the bend. Thin profile overall. The fly rides inverted: the hook point is on the SAME side of the shank as the crab's back and is shown facing UP, while the lead dumbbell eyes sit on the OPPOSITE side, hanging beneath the shank behind the hook eye. Only one fly, hook bend and point clearly visible.",
+    "sources": [
+      "https://midcurrent.com/v2/best-permit-crab-flies-7-proven-patterns-that-actually-work/",
+      "https://globalflyfisher.com/video/bauer-crab",
+      "https://www.calgarysflyshop.com/products/bauer-flats-crab-all-colors"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "kwan",
+    "verdict": "wrong",
+    "recipe": "Kwan (Patrick Dorsey, the 'grand slam fly'): Mustad 34007 or Daiichi 2546, #1-6; lead dumbbell or bead-chain eyes at the hook eye with a 20 lb mono weedguard tied in ahead of them; a craft-fur (or coyote-fur) tail with a few strands of polar/Krystal Flash at the bend, held clear of the shank by a 30 lb mono anti-foul loop; a small hot-orange egg/attractor spot; a palmered hackle collar; and a body of Aunt Lydia's rug yarn (or EP fibres) tied crosswise in segments and trimmed to a flat crescent about 1/4 in from the shank. Tans, browns, white and chartreuse are the common colours.",
+    "hook": "Mustad 34007 / Daiichi 2546 straight-eye saltwater hook, #1-6; rides HOOK POINT UP - Texas Saltwater Fishing Magazine: 'Kwan Flies ride with the hook oriented in the upright position and a mono loop tied above the tail prevents it from fouling on the hook shank', with lead or bead-chain eyes at the head and a mono weedguard.",
+    "errors": [
+      "The inverted-orientation paragraph is DUPLICATED verbatim - systemic paste bug.",
+      "'The wing/hair and weighted eyes are tied on the SAME side of the shank' - backwards; the weighted eyes go on the opposite side of the shank from the point. There is no wing on this fly.",
+      "'a tan rabbit-strip tail off the bend' - the standard Kwan tail is CRAFT FUR (Drew Chicone's version uses coyote fur). A rabbit strip belongs only to the 'Rabbit Kwan' variant, so calling it the Kwan's tail is wrong."
+    ],
+    "missing": [
+      "the small hot-orange egg/attractor hot spot at the back of the body",
+      "the palmered hackle collar",
+      "a few strands of flash in the tail",
+      "the 30 lb mono anti-foul loop above the tail (separate from the weedguard at the front)",
+      "the body is trimmed to a flat crescent that stands only about 1/4 in off the shank"
+    ],
+    "invented": [
+      "the rabbit-strip tail as the defining Kwan feature"
+    ],
+    "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is a \"Kwan\". Straight-eye saltwater hook, size 2. From the hook eye back: a loop of stiff mono weedguard and a pair of lead dumbbell eyes just behind the hook eye; then the body - tan rug yarn tied crosswise in several segments along the shank with figure-eight wraps and trimmed to a flat crescent standing about a quarter inch off the shank; a sparse palmered hackle collar behind the body; a small hot-orange egg spot at the rear of the body; and a soft tan craft-fur tail with a few strands of flash sweeping off the bend, held clear of the shank by a fine mono anti-foul loop. The fly rides inverted: the hook point is on the SAME side of the shank as the body and tail and is shown facing UP, while the lead dumbbell eyes sit on the OPPOSITE side, hanging beneath the shank behind the hook eye. Only one fly, hook bend and point clearly visible.",
+    "sources": [
+      "https://www.texassaltwaterfishingmagazine.com/fishing/by-type/fly-fishing/fly-month-kwan-fly",
+      "https://flylifemagazine.com/fly-tying-with-drew-chicone-patrick-dorsey-ambassador-of-kwan/",
+      "https://www.sightcastfishing.com/reports/top-5-redfish-flies"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "redfish-toad",
+    "verdict": "wrong",
+    "recipe": "Redfish Toad: treated by the guide sources as the same fly family as the Kwan - 'a tail of Craft Fur, a hint of flash, a small attractor/egg hot spot, a palmered hackle collar, segmented sections of yarn or EP fibres' trimmed flat, over 'either bead chain or lead eyes', usually with a mono weedguard. Naturals (tan, brown, orange) and bright versions (white, pink, chartreuse) are both standard; #2-4.",
+    "hook": "Straight-eye saltwater hook, #2-4; rides HOOK POINT UP - bead-chain or lead eyes at the head plus a mono weedguard, for fishing in grass.",
+    "errors": [
+      "The inverted-orientation paragraph is DUPLICATED verbatim - systemic paste bug.",
+      "'The wing/hair and weighted eyes are tied on the SAME side of the shank' - backwards; the bead-chain eyes go on the opposite side of the shank from the point. There is no wing on this fly.",
+      "'A wide flat body of tan rabbit fur strips tied crosswise' - wrong material. The toad/Kwan body is segmented sections of YARN or EP FIBRES tied crosswise and trimmed flat; rabbit strips are not tied crosswise to make the body.",
+      "'a rabbit-strip tail' - the described tail in the guide sources is craft fur (rabbit is a variant, not the standard)."
+    ],
+    "missing": [
+      "the small orange attractor/egg hot spot",
+      "the palmered hackle collar",
+      "a hint of flash in the tail",
+      "the bright colourways (white, pink, chartreuse) alongside the naturals"
+    ],
+    "invented": [
+      "a body built from rabbit fur strips"
+    ],
+    "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is a \"Redfish Toad\". Straight-eye saltwater hook, size 2. From the hook eye back: a loop of mono weedguard and a pair of silver bead-chain eyes just behind the hook eye; then the body - tan yarn / EP fibres tied crosswise in several segments along the shank and trimmed into a wide flat oval; a sparse palmered hackle collar behind the body and a small hot-orange egg hot spot; and a soft tan craft-fur tail with a few strands of flash streaming off the bend. The fly rides inverted: the hook point is on the SAME side of the shank as the body and tail and is shown facing UP, while the bead-chain eyes sit on the OPPOSITE side, hanging beneath the shank behind the hook eye. Only one fly, hook bend and point clearly visible.",
+    "sources": [
+      "https://www.sightcastfishing.com/reports/top-5-redfish-flies",
+      "https://anycreek.com/academy/ultimate-guide-to-redfish-flies-guided",
+      "https://www.microskiff.com/threads/redfish-toad-tying-instruction.21280/"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "tarpon-toad",
+    "verdict": "wrong",
+    "recipe": "Tarpon Toad (Gary Merriman): Owner SSW straight-eye 5180 or Gamakatsu SC15, 1/0-3/0 (2/0 typical); a rabbit-strip tail tied in at the hook point and propped up with parachute wraps so it cannot foul, about 1.25-1.5 in long; two or three strands of flash; a marabou collar; then the head - a small bunch of EP fibres or poly yarn tied in four or five figure-eight sections occupying roughly the FRONT THIRD of the fly and trimmed into a wide flat 'toad' head; mono eyes set in the head. Unweighted or lightly weighted; total length 2.25-2.5 in. Original was a chartreuse bunny tail with chartreuse marabou collar and yellow/cream head; black/purple and black/red are the other staples.",
+    "hook": "Owner SSW / Gamakatsu SC15 straight-eye saltwater hook, 1/0-3/0; rides HOOK POINT DOWN - it is an unweighted, slow-sinking sight-casting fly with the dressing on top of the shank.",
+    "errors": [
+      "The point-down orientation paragraph is DUPLICATED verbatim ('Hook rides point-down: hook point facing DOWN, materials on top of the shank.' appears twice) - systemic paste bug.",
+      "'A wide flat yarn body tied crosswise along the shank' - wrong extent. The flat crosswise head occupies only the front third of the fly, right behind the hook eye; the rest of the shank is bare thread with the tail and collar at the back.",
+      "'a short hackle collar' - the collar is MARABOU, not hackle.",
+      "Calling it a 'body' rather than a 'head' misplaces the mass - the Toad's signature is a broad flat head at the front."
+    ],
+    "missing": [
+      "mono eyes set into the flat head",
+      "two or three strands of flash at the tail",
+      "the rabbit strip is tied in at the hook point and propped upward so it will not wrap the bend",
+      "the proportions: head about one third of a 2.25-2.5 in fly, tail 1.25-1.5 in",
+      "the original chartreuse tail / chartreuse collar / yellow-cream head colourway"
+    ],
+    "invented": [
+      "the hackle collar"
+    ],
+    "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is a \"Tarpon Toad\". Large straight-eye saltwater hook, size 2/0. From the hook eye back: a broad flat 'toad' head made of four or five crosswise figure-eight bunches of pale yellow-cream EP fibre / poly yarn, trimmed wide and flat and occupying about the front third of the fly, with a small black mono eye set on each side of it; then bare thread-wrapped shank; then a soft chartreuse marabou collar and, tied in at the hook point, a chartreuse rabbit-strip tail about an inch and a half long with two or three strands of flash, propped so it stands clear of the bend. No weight and no dumbbell eyes; total length about two and a half inches. The fly rides hook point DOWN: the hook point faces down and the dressing sits on top of the shank. Only one fly, hook bend and point clearly visible.",
+    "sources": [
+      "https://midcurrent.com/flies/tying-the-tarpon-toad/",
+      "https://www.tailflyfishing.com/the-tarpon-toad/",
+      "https://www.umpqua.com/tarpon-toad/"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "palolo-worm-fly",
+    "verdict": "wrong",
+    "recipe": "Palolo Worm: Gamakatsu SC15 #1/0-2/0; a coral / orange-red rabbit strip (or craft fur) tail tied at the bend, roughly 1.5-2.5 in; a body of orange or golden-olive micro / ultra chenille wrapped up the shank; a soft strung saddle-hackle collar in the same tone at the front; a 20 lb mono weedguard on many versions. Unweighted, no eyes; fished during the Keys palolo hatch.",
+    "hook": "Gamakatsu SC15 or similar straight-eye saltwater hook, #1/0-2/0; rides HOOK POINT DOWN - unweighted, materials on top of the shank.",
+    "errors": [
+      "'a small mono eye' - no published palolo worm recipe has eyes of any kind. This is a segmented marine worm imitation; mono eyes belong on shrimp and crab patterns, not here.",
+      "'rabbit strip OR chenille worm body' is too loose - the standard tie uses BOTH: a rabbit-strip tail off the bend and a chenille body on the shank."
+    ],
+    "missing": [
+      "the soft saddle-hackle collar at the front",
+      "the 20 lb mono weedguard",
+      "the two-tone look of the common ties (orange/coral tail against a golden-olive or darker chenille body)"
+    ],
+    "invented": [
+      "the mono eye"
+    ],
+    "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is a \"Palolo Worm Fly\". Large straight-eye saltwater hook, size 1/0. From the hook eye back: a loop of stiff mono weedguard, a short soft collar of golden-olive saddle hackle, then a slim body of golden-olive micro chenille wrapped along the shank, and off the bend a bright coral orange-red rabbit strip tail about an inch and a half long that makes the fly a short segmented worm roughly two inches overall. No eyes, no dumbbells, no weight. The fly rides hook point DOWN: the hook point faces down and the dressing sits on top of the shank. Only one fly, hook bend and point clearly visible.",
+    "sources": [
+      "https://flylordsmag.com/how-to-tie-the-palolo-worm/",
+      "https://www.ginkandgasoline.com/gink-gasoline-fly-patterns/bruce-chards-palolo-worm/",
+      "https://www.yellowdogflyfishing.com/blogs/back-stage-pass/the-top-six-tarpon-flies"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "squid-fly",
+    "verdict": "minor",
+    "recipe": "Squid fly (e.g. King's Emergent Sparkle Squid): long-shank saltwater hook 1/0-4/0; 8-10 long white/pink saddle hackles (or tapered fur) as the arms and tentacles trailing well past the bend and making roughly half the fly's total length; an inner body of palmered chenille or Estaz with an outer body of yak hair or Kinky Fibre - about 2 in swept back and 5-6 in swept forward - forming a bulky mantle tapered at both ends; a Siliskin / resin head carrying large stick-on or 3-D eyes. The eyes sit where the arms join the mantle, so they read as being at the rear of the body facing the tentacles. Modern EP-fibre versions substitute EP fibre and laser-cut synthetic suede.",
+    "hook": "Long-shank saltwater hook, 1/0-4/0; rides HOOK POINT DOWN - unweighted, materials on top of the shank.",
+    "errors": [
+      "'large eyes at the rear of the body facing the tentacles' is correct as written, but the prompt does not say how large - squid eyes are oversized relative to the body and the sources warn that undersizing them ruins the look.",
+      "'marabou as tentacles' is a reasonable stand-in but the written recipes specify 8-10 saddle hackles or tapered fur; marabou is a secondary material."
+    ],
+    "missing": [
+      "the inner body of palmered chenille or Estaz under the outer mantle fibre",
+      "the mantle is tapered at BOTH ends, and arms/tentacles make roughly half the total length",
+      "the resin/Siliskin head the eyes are set into",
+      "typical overall length of 4-8 in"
+    ],
+    "invented": [
+      "nothing"
+    ],
+    "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is a \"Squid Fly\". Long-shank saltwater hook, size 2/0, about six inches overall. From the hook eye back: a bulky white and pale pink mantle of yak hair / kinky synthetic fibre over an inner core of palmered pearl chenille, tapered at both ends and finished with a smooth clear resin collar; set into the rear of that mantle, where the arms join it, two oversized 3-D eyes with black pupils facing back toward the tentacles; and trailing well past the bend, eight to ten long soft white and pink saddle hackles plus a few longer tentacles, making roughly half the fly's total length. The fly rides hook point DOWN: the hook point faces down and the dressing sits on top of the shank. Only one fly, hook bend and point clearly visible.",
+    "sources": [
+      "https://www.saltwatersportsman.com/techniques/fly-recipies/sensational-squid/",
+      "https://www.jsflyfishing.com/blogs/fly-tying/how-to-tie-a-squid-fly-for-striped-bass"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "needlefish-fly",
+    "verdict": "wrong",
+    "recipe": "Needlefish fly for barracuda (the Orvis/Bahamas style): a TWO-HOOK rig - a front Daiichi 2546 2/0 and a trailing size 1-2 stinger joined by 30 lb knottable wire running inside the body; the body is pearl E-Z Body braided tubing 5-6 in long (the Nightmare Needlefish version uses a 6-7 in mylar tube over about 100 chartreuse yak hairs); the top half is marked green or chartreuse with red gill stripes; large 6-7.5 mm 3-D or doll eyes are glued on and the whole head is coated in epoxy or UV resin.",
+    "hook": "Front hook Daiichi 2546 or Mustad beak bait 2/0 with a trailing stinger hook on wire; the fly rides HOOK POINT DOWN (the main hook; the trailing stinger is often set point-up).",
+    "errors": [
+      "'small eyes' - wrong. The eyes on a needlefish/cuda fly are large and conspicuous: 6 mm Fish Skull Living Eyes or 7.5 mm fluorescent yellow doll eyes, set in an epoxy head.",
+      "'A very long thin chartreuse braided tube body 8 inches long' - the sources give 5-6 in of E-Z Body braid (6-7 in of mylar tube in the Nightmare version). Eight inches is at the extreme long end and should not be stated as the norm.",
+      "'Long saltwater hook' - the pattern is not a single long-shank hook; it is a two-hook rig with a wire-joined trailer, and that is the part the picture would get visibly wrong."
+    ],
+    "missing": [
+      "the trailing stinger hook and the wire that joins it through the body",
+      "the epoxy / UV-resin head",
+      "the green or chartreuse top over a pearl body, with red gill marks behind the head",
+      "the yak-hair or flash core inside the braided tube"
+    ],
+    "invented": [
+      "small eyes"
+    ],
+    "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is a \"Needlefish Fly\" for barracuda. Two-hook rig: a straight-eye saltwater front hook size 2/0 and a small trailing stinger hook joined by a short length of dark wire that runs inside the body. From the front hook eye back: a smooth epoxy-coated head with a large 6 mm three-dimensional eye on each side and two red gill slashes behind it; then a very long, very thin body of pearl braided E-Z Body tubing about six inches long, its top half shaded chartreuse-green with a permanent marker and its underside left pearl, tapering to a fine point at the tail where the stinger hook sits. No weight, no dumbbell eyes. The fly rides hook point DOWN: the front hook point faces down and the body lies along and above the shank. Only one fly, hook bend and point clearly visible.",
+    "sources": [
+      "https://deneki.com/2016/01/needlefish-fly-for-barracuda-tying-instructions/",
+      "https://blog.saltyflytying.com/nightmare-needlefish-fly-catch-more-bigger-barracuda/"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "cuda-fly",
+    "verdict": "wrong",
+    "recipe": "Cuda Fly (Umpqua): a needlefish imitation about 8 in long tied on TWO saltwater hooks (front hook 2/0 plus a trailer) to raise the hook-up rate; a long thin green/chartreuse-over-pearl synthetic body - braided tubing or long synthetic hair - with large 3-D eyes and an epoxy or resin head; fished on a wire bite tippet and stripped as fast as the angler can move it.",
+    "hook": "Straight-eye saltwater hook 1/0-2/0 at the front with a trailing second hook; rides HOOK POINT DOWN.",
+    "errors": [
+      "'small eyes' - cuda/needlefish flies carry large 3-D or doll eyes in an epoxy head, not small ones.",
+      "'wire tippet loop' - misleading. The wire on these flies is the BITE TIPPET the angler ties on, or (in the Nightmare Needlefish) the internal wire joining the trailer hook; showing a loose wire loop dangling from the hook eye as part of the fly is not what the published patterns describe. Sources vary on whether a wire loop is built into the fly, so it should not be asserted as a defining feature.",
+      "'Long saltwater hook' - the Umpqua Cuda Fly is built on two hooks, not one long-shank hook."
+    ],
+    "missing": [
+      "the second, trailing hook",
+      "the epoxy / resin head",
+      "large 3-D eyes",
+      "the stated length of about 8 inches",
+      "the green-over-pearl / chartreuse layering rather than a uniformly coloured tube"
+    ],
+    "invented": [
+      "a wire tippet loop presented as part of the fly"
+    ],
+    "corrected_prompt": "Ultra-detailed macro product photograph of a single real fly-fishing fly on a seamless pure white background, studio softbox lighting, sharp focus, side profile view, no hands, no text. The fly is a \"Cuda Fly\", a barracuda needlefish pattern about eight inches long. Two-hook rig: a straight-eye saltwater front hook size 2/0 and a small trailing hook linked inside the body. From the front hook eye back: a smooth epoxy head with a large three-dimensional eye on each side; then a very long, slender body of green and chartreuse synthetic fibre over pearl flash, laid tight and thin like a needlefish and tapering to a fine tail at the trailing hook. No weight, no dumbbell eyes. The fly rides hook point DOWN: the front hook point faces down and the body lies along and above the shank. Only one fly, hook bend and point clearly visible.",
+    "sources": [
+      "https://www.theflyfishers.com/P/6323/CudaFly",
+      "https://deneki.com/2016/01/needlefish-fly-for-barracuda-tying-instructions/",
+      "https://blog.saltyflytying.com/nightmare-needlefish-fly-catch-more-bigger-barracuda/"
+    ],
+    "confidence": "medium"
+  }
+]

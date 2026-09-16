@@ -169,6 +169,7 @@ for (const fly of bundle.tables.flies) {
   entries.push({
     id: fly.id,
     kind: 'fly',
+    water: fly.water,
     file: `assets/${fly.id}.jpg`,
     label: fly.name,
     prompt: [
@@ -197,7 +198,7 @@ for (const org of bundle.tables.organisms) {
       kind: 'organism',
       organism: org.id,
       stage: st.stage,
-      file: `assets/${org.id}-${st.stage}.jpg`,
+      file: `assets/bugs/${org.id}-${st.stage}.jpg`,
       label: `${org.name} — ${st.stage}`,
       prompt: [anatomy, size, colour, where, BUG_STYLE].filter(Boolean).join(' '),
     });
@@ -240,6 +241,9 @@ const knotsData = JSON.parse(readFileSync(resolve(HERE, '..', 'content', 'data',
 const rigsData = JSON.parse(readFileSync(resolve(HERE, '..', 'content', 'data', 'rigs.json'), 'utf8'));
 
 for (const k of knotsData) {
+  // Only knots with drawn panel geometry have a reference image to send; the
+  // rest would fail generate-images.mjs's missing-reference check.
+  if (!k.diagram) continue;
   (k.steps ?? []).forEach((step, i) => {
     entries.push({
       id: `knot-${k.id}-${i + 1}`,
@@ -277,6 +281,73 @@ for (const r of rigsData) {
   });
 }
 
+// ---------------------------------------------------------------------------
+// Reviewed prompts win
+// ---------------------------------------------------------------------------
+// tools/prompts-reviewed.json holds the prompts that were checked against
+// published tying recipes and entomology sources and corrected where they were
+// wrong (see PROMPT-REVIEW.md). Those beat anything generated here: a generated
+// prompt is a guess from the content record, a reviewed one has been checked
+// against a source. Anything without a reviewed version keeps its generated
+// prompt, so adding a new fly still works without a review pass.
+
+let reviewed = {};
+try {
+  reviewed = JSON.parse(readFileSync(resolve(HERE, 'prompts-reviewed.json'), 'utf8')).prompts ?? {};
+} catch {
+  // No review file is a normal state, not an error.
+}
+
+// Flies and organism stages are separate id spaces that can collide — a Trico
+// dun is both a real mayfly and the dry fly tied to imitate it, and both used
+// to resolve to assets/trico-dun.jpg. Organism prompts are therefore keyed
+// "bug:<id>" in the review file and rendered into assets/bugs/, so the two can
+// never claim the same prompt or the same image again.
+const reviewKey = (e) => (e.kind === 'organism' ? `bug:${e.id}` : e.id);
+
+let overridden = 0;
+for (const e of entries) {
+  const k = reviewKey(e);
+  if (reviewed[k]) { e.prompt = reviewed[k]; e.reviewed = true; overridden += 1; }
+}
+
+// A reviewed prompt is itself the construction text, so an id that this script
+// skipped for want of a template is not skippable once a reviewed prompt
+// exists — it is the BEST prompt we have. Add those back.
+const have = new Set(entries.map((e) => reviewKey(e)));
+let recovered = 0;
+for (const [key, prompt] of Object.entries(reviewed)) {
+  if (have.has(key)) continue;
+  const isBug = key.startsWith('bug:');
+  const id = isBug ? key.slice(4) : key;
+  // A "bug:" key is an organism stage by construction, so it is never tested
+  // against the fly table — that test is exactly what used to hand a mayfly
+  // illustration to the dry fly named after it.
+  const fly = isBug ? null : bundle.byId.flies?.[id];
+  const org = bundle.tables.organisms.find((o) => id.startsWith(`${o.id}-`));
+  if (fly) {
+    entries.push({
+      id, kind: 'fly', water: fly.water, file: `assets/${id}.jpg`, label: fly.name, prompt, reviewed: true,
+    });
+  } else if (isBug && org) {
+    entries.push({
+      id, kind: 'organism', organism: org.id, file: `assets/bugs/${id}.jpg`,
+      label: org.name, prompt, reviewed: true,
+    });
+  } else if (org && !isBug) {
+    entries.push({
+      id, kind: 'organism', organism: org.id, file: `assets/bugs/${id}.jpg`,
+      label: org.name, prompt, reviewed: true,
+    });
+  } else {
+    // Legacy ids with no home in current content — keep them, since the
+    // prompt was still reviewed and the id may come back.
+    entries.push({ id, kind: 'legacy', file: `assets/${id}.jpg`, label: id, prompt, reviewed: true });
+  }
+  recovered += 1;
+  overridden += 1;
+}
+
 const out = {
   builtAt: new Date().toISOString(),
   model: 'fal-ai/nano-banana-2',
@@ -292,5 +363,7 @@ const by = (kind) => entries.filter((e) => e.kind === kind).length;
 console.log('');
 console.log(`  tools/image-prompts.json — ${entries.length} prompts`);
 console.log(`  ${by('fly')} flies · ${by('organism')} bug stages · ${by('knot-panel')} knot panels · ${by('leader')} leaders`);
+console.log(`  ${overridden} using reviewed, source-checked prompts; ${entries.length - overridden} generated`);
+if (recovered) console.log(`  ${recovered} recovered from the review that this script had no template for`);
 console.log('  next:  node tools/generate-images.mjs --kind=knot-panel --limit=5');
 console.log('');

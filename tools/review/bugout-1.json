@@ -1,0 +1,406 @@
+[
+ {
+  "id": "fw-bwo-nymph",
+  "verdict": "minor",
+  "truth": "Baetis nymphs are small (3-12 mm, typically 4-9 mm), streamlined, torpedo-shaped agile swimmers, olive to olive-brown, with three caudal filaments (the middle one usually shorter; a few species such as B. bicaudatus have two), single oval or heart-shaped flat gill plates on the top and sides of abdominal segments 1-7, a single tarsal claw per leg, and antennae at least two to three times the width of the head.",
+  "errors": [
+   "'small head with short antennae' - macroinvertebrates.org gives Baetidae antennae as 'long', 'at least two or three times the width of the head'; short antennae is a Heptageniidae/Ephemerellidae character, not a Baetis one",
+   "'three tail filaments (two for Epeorus/Quill Gordon)' - leaked template text about a different genus that has nothing to do with Baetis; an image model given this may draw two tails"
+  ],
+  "missing": [
+   "middle tail filament is shorter than the outer two in most Baetis",
+   "gill plates are oval/heart-shaped and lie on the TOP and sides of segments 1-7 only (not the whole abdomen)",
+   "single hooked tarsal claw on each leg",
+   "size: roughly 4-9 mm body excluding tails",
+   "the small hindwing pads behind the large forewing pads"
+  ],
+  "invented": [
+   "'darts in short bursts' is behaviour, not visible anatomy, and cannot be drawn - harmless but it is not a description"
+  ],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. A Blue-Winged Olive mayfly nymph (Baetis species), the aquatic immature insect underwater, dorsal view from directly above, body about 6 mm long excluding the tails. Slim streamlined torpedo-shaped swimmer, olive to olive-brown with faint paler bands across the abdomen. Ten-segmented abdomen carrying a single small oval heart-shaped flat gill plate on each side of segments one to seven, lying along the top and sides of the abdomen. Rounded head with eyes at the sides and long slender antennae, each antenna two to three times as long as the head is wide. Thorax bears one pair of dark forewing pads and a much smaller pair of hindwing pads, with no actual wings. Six slender legs, each ending in a single hooked claw. Three slender tail filaments fringed with fine hairs, the middle filament slightly shorter than the two outer ones. It is an aquatic insect nymph, not a bird, not a shrimp.",
+  "sources": [
+   "https://www.troutnut.com/hatch/180/Mayfly-Baetis-Blue-Winged-Olives",
+   "https://www.macroinvertebrates.org/taxa-info/ephemeroptera-larva/baetidae/baetis/dorsal"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "fw-bwo-emerger",
+  "verdict": "minor",
+  "truth": "At emergence the Baetis nymph rises to the film, the thoracic skin splits along the mid-dorsal line and the subimago (dun) pulls free, leaving a translucent amber-brown nymphal shuck; the shuck keeps the nymph's three tails and gill plates while the dun that steps out has only two tails and dull slate-grey crumpled wings over an olive body of 4-9 mm.",
+  "errors": [
+   "no tail counts given at all, so the prompt cannot enforce the single most diagnostic emergence detail: three tails on the discarded shuck, two tails on the emerging Baetis dun"
+  ],
+  "missing": [
+   "the nymphal shuck retains three tails and the abdominal gill plates",
+   "the emerging dun has exactly two tails",
+   "dun wing colour - dull slate grey, crumpled and not yet dried",
+   "size, about 6 mm",
+   "the waterline / surface film itself, and that the shuck hangs below the film while the dun is above it"
+  ],
+  "invented": [],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. A Blue-Winged Olive mayfly (Baetis species) emerging at the water surface, strict side view with a horizontal waterline across the image, total length about 6 mm. The olive-brown nymphal skin has split open along the mid-line of the back of the thorax; the pale olive-bodied adult dun is pushing up and out of the split with its two wings still soft, crumpled and dull slate grey. The emptied translucent amber-brown nymphal shuck trails behind and below, still hanging in the surface film, and it keeps the nymph's three fringed tail filaments and the row of small oval gill plates along its abdomen. The emerging adult itself has a slender olive abdomen, six thin legs and only two long tail filaments. It is an aquatic insect at the moment of moulting into an adult, not a bird, not a shrimp.",
+  "sources": [
+   "https://www.troutnut.com/hatch/180/Mayfly-Baetis-Blue-Winged-Olives",
+   "https://www.macroinvertebrates.org/taxa-info/ephemeroptera-larva/baetidae/baetis/dorsal"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "fw-bwo-dun",
+  "verdict": "minor",
+  "truth": "The Baetis dun (subimago) has exactly TWO tails, a body of roughly 4-9 mm in shades of olive, grey or brown, and dull opaque wings in 'various shades of gray, sometimes with a slight pale blue tint' held upright over the back; the large forewings are accompanied by a minute pair of hindwings (present in most Baetis, reduced or absent in a few species).",
+  "errors": [
+   "'two or three very long thin tail filaments' - Baetis duns have two tails, never three; Troutnut's Baetis page states duns 'display two caudal filaments rather than three'. Leaving it ambiguous invites a three-tailed drawing",
+   "'two large translucent opaque-tinted wings' - a mayfly has four wings; Baetis carries a minute second pair of hindwings behind the large forewings",
+   "'very long' tails - the dun's tails are roughly body length, not the greatly elongated filaments of the spinner"
+  ],
+  "missing": [
+   "body length 4-9 mm",
+   "the tiny hindwings",
+   "males have enlarged turbinate (turret-shaped) eyes on top of the head, females do not",
+   "dun wings are dull and opaque rather than glassy, which is what separates a dun from a spinner"
+  ],
+  "invented": [],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. An adult Blue-Winged Olive mayfly (Baetis species) at the dun or subimago stage, strict side view, standing on the water surface with a waterline across the image, body about 6 mm long. Slender segmented abdomen in olive to olive-brown, curving slightly upward at the rear; compact thorax; small head with large compound eyes and short antennae. Six thin legs, the front pair held forward. One pair of large wings held together vertically upright over the back like a sail, the wing membrane dull and opaque in shades of grey with a faint pale blue tint and fine darker veining, plus a minute second pair of hindwings tucked behind them. Exactly two long slender tail filaments, about as long as the body, trailing straight behind. It is an adult aquatic insect, a mayfly, not a bird, not a moth.",
+  "sources": [
+   "https://www.troutnut.com/hatch/180/Mayfly-Baetis-Blue-Winged-Olives"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "fw-bwo-spinner",
+  "verdict": "minor",
+  "truth": "The Baetis spinner (imago) keeps the two-tailed configuration of the dun, has fully clear glassy wings, tails longer than in the dun, and a body in olive-brown to rusty brown; male spinners become pale or translucent over much of the abdomen and carry large turbinate eyes.",
+  "errors": [
+   "'two or three extremely long tail filaments splayed' - Baetis spinners have two tails only; Troutnut states spinners 'retain the two-tailed configuration of duns'",
+   "'two clear glassy transparent wings' - omits the minute hindwing pair, so the animal is drawn with a two-winged, fly-like build"
+  ],
+  "missing": [
+   "body length 4-9 mm",
+   "male spinners are pale or translucent over much of the abdomen and have large turret-shaped eyes; females are darker and more uniformly coloured",
+   "the spent posture detail - dead or dying, wings flat in the surface film, legs collapsed"
+  ],
+  "invented": [],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. An adult Blue-Winged Olive mayfly (Baetis species) at the spent spinner stage, dead and lying flat in the water surface film, viewed from directly above, body about 6 mm long. Slender segmented abdomen in rusty olive-brown, paler and translucent toward the middle segments. One pair of large fully clear glassy transparent wings with fine dark veins, spread flat out to the sides in a cross shape and lying on the water, plus a minute second pair of clear hindwings behind them. Small head with large compound eyes, six thin legs collapsed and splayed. Exactly two extremely long slender tail filaments, considerably longer than the body, splayed apart behind. It is an adult aquatic insect, a mayfly, not a bird, not a dragonfly.",
+  "sources": [
+   "https://www.troutnut.com/hatch/180/Mayfly-Baetis-Blue-Winged-Olives"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "fw-pmd-nymph",
+  "verdict": "minor",
+  "truth": "Pale Morning Dun nymphs (Ephemerella excrucians and E. dorothea infrequens) are stocky spiny crawlers about 7-10 mm long, reddish-brown to olive and irregularly mottled, often with pale longitudinal stripes on the abdominal dorsum; they carry flat overlapping oval gill plates on TOP of abdominal segments 3-7 only (segment 2 has no gill), paired dorsal tubercles on the abdominal terga, thickened fore femora, and three hair-fringed tails held in a fan.",
+  "errors": [
+   "'a row of small gills along each side' - macroinvertebrates.org states Ephemerella gills are on segments 3-7 with 'segment 2 without gills', and they are plate-like lamellae lying in paired depressions on the top of the abdomen, not a lateral row running the length of the body",
+   "'three tail filaments (two for Epeorus/Quill Gordon)' - leaked template text naming an unrelated genus",
+   "'Ephemerella spp.' is genus-level; the PMD hatch is E. excrucians in the west and E. dorothea infrequens, which differ in size and shade"
+  ],
+  "missing": [
+   "paired dorsal tubercles / short spines on the abdominal segments (the 'spiny crawler' character)",
+   "the three tails are fringed with fine setae and held spread in a fan",
+   "thickened, bristly fore femora, noticeably stouter than the tibiae",
+   "size: about 7-10 mm excluding tails",
+   "pale longitudinal stripes or variegated pattern on the abdominal dorsum"
+  ],
+  "invented": [
+   "'clings to rocks' - Ephemerella are crawlers among substrate and vegetation rather than flat rock-clingers in the Heptageniid sense; it is behaviour, not drawable anatomy"
+  ],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. A Pale Morning Dun mayfly nymph (Ephemerella excrucians), the aquatic immature insect underwater, dorsal view from directly above, body about 9 mm long excluding the tails. Stocky compact spiny crawler, mottled reddish-brown and olive with faint pale longitudinal stripes down the back of the abdomen. Flat oval gill plates lie on TOP of abdominal segments three to seven only, overlapping backwards like roof tiles; segments one and two carry no gills. Small paired tubercles or short blunt spines run down the middle of the abdominal segments. Small head with short antennae and eyes at the sides; thorax bears one pair of dark forewing pads and a smaller pair of hindwing pads, with no actual wings. Six sturdy legs, the front femora noticeably thickened and fringed with bristles. Three tail filaments fringed with fine hairs, held spread apart in a fan. It is an aquatic insect nymph, not a bird, not a shrimp.",
+  "sources": [
+   "https://www.macroinvertebrates.org/taxa-info/ephemeroptera-larva/ephemerellidae/ephemerella/dorsal",
+   "https://www.troutnut.com/hatch/459/Mayfly-Ephemerella-excrucians-Pale-Morning-Dun"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "fw-pmd-emerger",
+  "verdict": "minor",
+  "truth": "The Ephemerella nymph splits along the back of the thorax in or just under the surface film and the pale yellow-olive dun, 5.5-7.5 mm, pulls free with soft crumpled pale grey wings, leaving a mottled reddish-brown shuck that still carries its three fringed tails and its dorsal gill plates; PMDs are notoriously slow and are often trapped half out of the shuck.",
+  "errors": [
+   "no tail count is stated for either the shuck or the emerging dun - both are three in Ephemerella, and leaving it unsaid is the usual route to a wrongly drawn mayfly"
+  ],
+  "missing": [
+   "three tails on both the shuck and the emerging adult (Ephemerellidae have three at every stage)",
+   "size, 5.5-7.5 mm body",
+   "the shuck is mottled reddish-brown with the dorsal gill plates visible on segments 3-7",
+   "the waterline itself, and the characteristic stuck-in-the-shuck posture PMDs are known for"
+  ],
+  "invented": [],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. A Pale Morning Dun mayfly (Ephemerella excrucians) emerging at the water surface, strict side view with a horizontal waterline across the image, total length about 8 mm. The mottled reddish-brown nymphal skin has split open along the mid-line of the back of the thorax and the pale yellow-olive adult dun is levering itself up and out, its two wings still soft, crumpled and pale grey. The emptied nymphal shuck hangs behind and below in the surface film, still showing its three hair-fringed tails and the flat oval gill plates on top of abdominal segments three to seven. The emerging adult has a slender pale yellow-olive abdomen, six thin legs and three long tail filaments. It is an aquatic insect at the moment of moulting into an adult, not a bird, not a shrimp.",
+  "sources": [
+   "https://www.macroinvertebrates.org/taxa-info/ephemeroptera-larva/ephemerellidae/ephemerella/dorsal",
+   "https://www.troutnut.com/hatch/459/Mayfly-Ephemerella-excrucians-Pale-Morning-Dun"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "fw-pmd-dun",
+  "verdict": "minor",
+  "truth": "PMD duns are 5.5-7.5 mm in the body with 7-8.5 mm wings, pale yellow through creamy orange to olive-green depending on population, with pale grey dull subimago wings carrying a slight yellowish tinge along the leading edge; Ephemerellidae carry THREE tails as both nymphs and adults.",
+  "errors": [
+   "'two or three very long thin tail filaments' - Ephemerella adults have three tails; Wikipedia's Ephemerellidae page and Troutnut's Ephemerella material both give three tails in nymph and adult. The ambiguity permits a two-tailed drawing, which would be wrong",
+   "'two large translucent opaque-tinted wings' - omits the second, smaller pair of hindwings, which are well developed and visible in Ephemerella"
+  ],
+  "missing": [
+   "body length 5.5-7.5 mm, wing length 7-8.5 mm",
+   "a faint yellowish tinge along the costa (leading edge) of the wing",
+   "the smaller hindwing pair",
+   "the very wide colour range across populations - pale yellow, creamy orange, or distinctly olive-green"
+  ],
+  "invented": [
+   "'pinkish-olive' - Troutnut's E. excrucians description gives pale yellow, creamy orange and olive green; pink is the Hendrickson female's character, not a PMD one"
+  ],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. An adult Pale Morning Dun mayfly (Ephemerella excrucians) at the dun or subimago stage, strict side view, standing on the water surface with a waterline across the image, body about 7 mm long. Slender segmented abdomen in pale yellow to soft yellow-olive, curving slightly upward at the rear; compact thorax; small head with compound eyes and short antennae; six thin legs. One pair of large wings held together vertically upright over the back like a sail, the membrane dull and opaque pale grey with a faint yellowish tinge along the leading edge, plus a distinctly smaller second pair of hindwings behind them. Three slender tail filaments, roughly body length, trailing behind. It is an adult aquatic insect, a mayfly, not a bird, not a moth.",
+  "sources": [
+   "https://www.troutnut.com/hatch/459/Mayfly-Ephemerella-excrucians-Pale-Morning-Dun",
+   "https://en.wikipedia.org/wiki/Ephemerellidae"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "fw-pmd-spinner",
+  "verdict": "minor",
+  "truth": "The PMD spinner is the same 5.5-7.5 mm body with 7-8.5 mm clear wings; male spinners are reddish-brown on the thorax and abdominal dorsum with whitish tails marked by brown joinings, females are variable and often more olive to rust; Ephemerella adults have three tails.",
+  "errors": [
+   "'two or three extremely long tail filaments splayed' - Ephemerella adults have three tails, not two",
+   "'two clear glassy transparent wings' - omits the second smaller pair of hindwings"
+  ],
+  "missing": [
+   "male spinner tails are whitish with distinct brown bands at the segment joinings",
+   "body 5.5-7.5 mm, wings 7-8.5 mm",
+   "female spinners differ from males and are often more olive than rust"
+  ],
+  "invented": [
+   "'at dusk' - a lighting cue that the sources do not tie to a visible feature of the animal; harmless but not descriptive"
+  ],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. An adult Pale Morning Dun mayfly (Ephemerella excrucians) at the spent spinner stage, dead and lying flat in the water surface film, viewed from directly above, body about 7 mm long. Slender segmented abdomen in reddish-brown to rust, darker across the thorax. One pair of large fully clear glassy transparent wings with fine veins, spread flat out to the sides in a cross shape and lying on the water, plus a smaller second pair of clear hindwings behind them. Small head with compound eyes, six thin legs collapsed and splayed. Three long slender tail filaments, longer than the body, splayed apart behind, whitish with fine dark brown bands at the joints. It is an adult aquatic insect, a mayfly, not a bird, not a dragonfly.",
+  "sources": [
+   "https://www.troutnut.com/hatch/459/Mayfly-Ephemerella-excrucians-Pale-Morning-Dun",
+   "https://en.wikipedia.org/wiki/Ephemerellidae"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "fw-hendrickson-nymph",
+  "verdict": "minor",
+  "truth": "Ephemerella subvaria nymphs are robust spiny crawlers roughly 9-12 mm long, olive to reddish-brown and extremely variable in colour, with dorsal spines/tubercles on the abdomen, double-banded tibiae, flat gill plates on top of abdominal segments 3-7 (segment 2 bare) and three hair-fringed tails held spread in the characteristic 'fan tail'.",
+  "errors": [
+   "'a row of small gills along each side' - Ephemerella gills sit as flat overlapping plates on the TOP of segments 3-7, with no gill on segment 2; a lateral row along the whole abdomen is wrong for this family",
+   "'three tail filaments (two for Epeorus/Quill Gordon)' - leaked template text about an unrelated genus"
+  ],
+  "missing": [
+   "the fringed 'fan tail' - Troutnut singles this out as the prominent character of subvaria nymphs",
+   "dorsal spines / paired tubercles down the abdomen",
+   "double-banded tibiae (two dark bands on each leg segment)",
+   "size, about 9-12 mm",
+   "sources stress 'tremendous physical variation within this species, especially in the coloration of the nymphs' - olive through brown, not reliably reddish"
+  ],
+  "invented": [],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. A Hendrickson mayfly nymph (Ephemerella subvaria), the aquatic immature insect underwater, dorsal view from directly above, body about 11 mm long excluding the tails. Robust stocky spiny crawler, mottled reddish-brown and olive. Flat oval gill plates lie on TOP of abdominal segments three to seven only, overlapping backwards like roof tiles; segments one and two carry no gills. A row of small paired spines or tubercles runs down the middle of the abdominal segments. Small head with short antennae and eyes at the sides; thorax bears one pair of dark forewing pads and a smaller pair of hindwing pads, with no actual wings. Six sturdy legs, the front femora thickened and bristly, each tibia marked with two dark bands. Three tail filaments densely fringed with fine hairs and held spread wide in a fan. It is an aquatic insect nymph, not a bird, not a shrimp.",
+  "sources": [
+   "https://www.troutnut.com/hatch/7/mayfly-ephemerella-subvaria-hendrickson",
+   "https://www.macroinvertebrates.org/taxa-info/ephemeroptera-larva/ephemerellidae/ephemerella/dorsal"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "fw-hendrickson-dun",
+  "verdict": "minor",
+  "truth": "Male Hendrickson duns are about 9 mm in the body with 10 mm wings, deep brown head and thorax with reddish tinges, light reddish-brown abdomen shaded smoky at the sides, bright red-brown eyes and deep dull amber legs; females are larger and distinctly paler, the pinkish-tan 'Light Hendrickson'. Both sexes have three tails, pale and yellowish at the base with smoky brown bands at the joinings.",
+  "errors": [
+   "'two or three very long thin tail filaments' - Ephemerella adults have three tails; the ambiguity permits a wrong two-tailed drawing",
+   "'two large translucent opaque-tinted wings' - omits the second, smaller pair of hindwings"
+  ],
+  "missing": [
+   "males have bright reddish-brown eyes",
+   "tails are pale/yellowish at the base with distinctly smoky brown bands at the segment joinings",
+   "size: male body about 9 mm with 10 mm wings, females larger",
+   "wing veins are distinctly light brown against the pale membrane",
+   "the smaller hindwing pair"
+  ],
+  "invented": [],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. An adult Hendrickson mayfly (Ephemerella subvaria) at the dun or subimago stage, strict side view, standing on the water surface with a waterline across the image, body about 10 mm long. Slender segmented abdomen curving slightly upward at the rear, pinkish-tan to olive-tan in the female form and deep reddish-brown in the male form, shaded smoky along the lower edges of the segments. Deep brown thorax with reddish tinges, small head with large compound eyes tinted reddish-brown, short antennae, six thin dull amber legs. One pair of large wings held together vertically upright over the back like a sail, the membrane dull opaque smoky slate grey with distinctly light brown veins, plus a smaller second pair of hindwings behind them. Three slender tail filaments, roughly body length, pale yellowish at the base with fine smoky brown bands at the joints. It is an adult aquatic insect, a mayfly, not a bird, not a moth.",
+  "sources": [
+   "https://www.troutnut.com/hatch/7/mayfly-ephemerella-subvaria-hendrickson",
+   "https://en.wikipedia.org/wiki/Ephemerella_subvaria"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "fw-hendrickson-spinner",
+  "verdict": "minor",
+  "truth": "Hendrickson spinners keep the dun's structure and three tails but with fully clear hyaline wings crossed by light brown veins; the body is reddish-brown ('rusty'), males darker, and the tails are pale with smoky brown joinings. Body about 9-11 mm.",
+  "errors": [
+   "'two or three extremely long tail filaments splayed' - Ephemerella adults have three tails",
+   "'two clear glassy transparent wings' - omits the smaller pair of hindwings"
+  ],
+  "missing": [
+   "light brown veining visible in the otherwise clear wings",
+   "pale tails with smoky brown bands at the joints",
+   "body length about 9-11 mm",
+   "sexual dimorphism persists into the spinner stage - males darker reddish-brown, females paler"
+  ],
+  "invented": [
+   "'evening spinner fall' - timing, not a drawable feature of the animal"
+  ],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. An adult Hendrickson mayfly (Ephemerella subvaria) at the spent spinner stage, dead and lying flat in the water surface film, viewed from directly above, body about 10 mm long. Slender segmented abdomen in rusty reddish-brown with paler margins between the segments, thorax darker. One pair of large fully clear glassy transparent wings crossed by fine light brown veins, spread flat out to the sides in a cross shape and lying on the water, plus a smaller second pair of clear hindwings behind them. Small head with large compound eyes, six thin legs collapsed and splayed. Three long slender tail filaments, longer than the body, splayed apart behind, pale with fine smoky brown bands at the joints. It is an adult aquatic insect, a mayfly, not a bird, not a dragonfly.",
+  "sources": [
+   "https://www.troutnut.com/hatch/7/mayfly-ephemerella-subvaria-hendrickson"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "fw-march-brown-nymph",
+  "verdict": "minor",
+  "truth": "Maccaffertium vicarium nymphs are strongly dorsoventrally flattened Heptageniid clingers with a broad blunt head, eyes set on top of the head, legs splayed out sideways, seven pairs of oval plate gills along the sides of abdominal segments 1-7, and three tails; colour is highly variable from pale to dark mottled brown, and mature nymphs run roughly 12-16 mm.",
+  "errors": [
+   "'three tail filaments (two for Epeorus/Quill Gordon)' - leaked template text; Maccaffertium nymphs have three tails and the Epeorus aside only invites a wrong two-tailed drawing",
+   "'small head with short antennae' understates the key character - the Heptageniid head is broad, flat and blunt, as wide as or wider than the thorax, with the eyes on the upper surface"
+  ],
+  "missing": [
+   "eyes positioned on TOP of the flattened head, visible from directly above",
+   "legs splayed laterally, held out sideways rather than beneath the body, so the whole animal is a flat oval in dorsal view",
+   "seven pairs of oval plate gills along the sides of the abdomen, projecting beyond the body outline",
+   "banded tails and banded legs",
+   "size, about 12-16 mm excluding tails"
+  ],
+  "invented": [],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. A March Brown mayfly nymph (Maccaffertium vicarium), the aquatic immature insect underwater, dorsal view from directly above, body about 14 mm long excluding the tails. Strongly flattened, wide, pancake-shaped clinger in mottled light and dark brown. Broad blunt rounded head, as wide as the thorax, with the compound eyes set on the upper surface of the head and short antennae. Six legs splayed straight out to the sides rather than beneath the body, the femora broad and flat and banded with dark markings. Seven pairs of oval flat plate gills along the sides of abdominal segments one to seven, projecting out past the edges of the body like a fringe of small paddles. Thorax bears one pair of dark forewing pads and a smaller pair of hindwing pads, with no actual wings. Three slender tail filaments with dark bands, held spread apart. It is an aquatic insect nymph, not a bird, not a shrimp.",
+  "sources": [
+   "https://www.troutnut.com/hatch/601/Mayfly-Maccaffertium-vicarium-March-Brown",
+   "https://www.troutnut.com/hatch/39/Mayfly-Heptageniidae-March-Browns-Cahills-Quill-Gordons"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "fw-march-brown-dun",
+  "verdict": "minor",
+  "truth": "The March Brown dun is large - 10-14 mm body, 13-16 mm wings - with body colour from pale yellow through reddish-brown to dark greyish-brown (the dark 'March Brown' and pale 'Gray Fox' forms are the same species), and pale wings whose barred appearance comes from heavy yellowish-brown longitudinal veins and purplish-brown crossveins. Maccaffertium duns and spinners have TWO tails.",
+  "errors": [
+   "'two or three very long thin tail filaments' - Heptageniid adults including Maccaffertium have exactly two tails; Troutnut's M. vicarium page gives 2 tails for both dun and spinner. NOTE a source conflict: the Wikipedia Heptageniidae page loosely states adults have 'three long tails', but the species-level description and the standard family diagnosis give two, and I follow the species-level source",
+   "'two large translucent opaque-tinted wings' - omits the smaller hindwing pair, which is well developed in Heptageniidae",
+   "'heavily mottled wings' is an over-reading: Troutnut describes the wing membrane as hyaline with yellowish-brown longitudinal veins and purplish-brown crossveins, so the mottled/barred look is produced by heavy dark venation rather than by pigmented blotches"
+  ],
+  "missing": [
+   "size: body 10-14 mm, wings 13-16 mm - this is a large mayfly and the prompt never says so in absolute terms",
+   "two recognised colour forms, the darker March Brown and the paler Gray Fox",
+   "the smaller hindwing pair",
+   "banded legs"
+  ],
+  "invented": [],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. An adult March Brown mayfly (Maccaffertium vicarium) at the dun or subimago stage, strict side view, standing on the water surface with a waterline across the image, a large mayfly with a body about 12 mm long and wings about 15 mm. Stout segmented abdomen curving slightly upward at the rear, pale yellowish-tan to reddish-brown with darker markings along the segment edges; robust thorax; head with large compound eyes and short antennae; six legs banded with dark marks. One pair of large wings held together vertically upright over the back like a sail, the membrane pale and only faintly clouded but crossed by heavy yellowish-brown lengthwise veins and dark purplish-brown crossveins, which together give the wing a strongly barred, netted appearance; a smaller second pair of hindwings sits behind them. Exactly two long slender tail filaments trailing behind. It is an adult aquatic insect, a mayfly, not a bird, not a moth.",
+  "sources": [
+   "https://www.troutnut.com/hatch/601/Mayfly-Maccaffertium-vicarium-March-Brown",
+   "https://www.troutnut.com/hatch/39/Mayfly-Heptageniidae-March-Browns-Cahills-Quill-Gordons",
+   "https://en.wikipedia.org/wiki/Heptageniidae"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "fw-green-drake-nymph",
+  "verdict": "wrong",
+  "truth": "The two animals named in this entry are not the same shape of insect. Ephemera guttulata (eastern Green Drake) is a BURROWER: up to about 20 mm, pale greyish-brown with no abdominal pattern, with large mandibular tusks projecting forward from the face and curving upward, fossorial (shovel-like) fore tibiae, and long forked feathery gills with fringed margins on abdominal segments 2-7 carried curled up over the back so the animal looks fluffy, plus three hair-fringed tails. Drunella grandis (western Green Drake) is a stout spiny CRAWLER of 13-20 mm with no tusks, erect finger-like dorsal spines on abdominal segments 2-9, occipital and prothoracic tubercles, yellowish legs with dark brown banding, flat plate gills on top of the abdomen, light reddish-brown body with dark lateral patches, and red-and-yellow banded tails.",
+  "errors": [
+   "'Drunella grandis / Ephemera guttulata' - one prompt cannot draw both; these are a tusked burrower and a spiny crawler with completely different silhouettes. This entry needs to be split into two prompts",
+   "'a row of small gills along each side' - wrong for both. Ephemera gills are long, forked, feathery and held over the BACK; Drunella gills are flat plates on top of segments 3-7",
+   "'chunky crawler' with 'fringed gills' - the fringed feathery gills belong to the burrowing Ephemera, the crawler build belongs to Drunella; the prompt fuses characters from two animals into one non-existent insect",
+   "'Big dark olive-brown' - Troutnut gives mature E. guttulata nymphs as dark greyish-brown and explicitly notes the absence of dark markings on the abdominal segments; Drunella grandis is light reddish-brown with dark lateral patches. Neither is olive",
+   "'three tail filaments (two for Epeorus/Quill Gordon)' - leaked template text about an unrelated genus"
+  ],
+  "missing": [
+   "for Ephemera guttulata: the forward-projecting, upcurved mandibular tusks - the single most recognisable feature of the animal",
+   "for Ephemera guttulata: fossorial, shovel-like fore tibiae for digging",
+   "for Ephemera guttulata: gills on segments 2-7 only, forked and elongate-lanceolate with fringed margins, conspicuous from above",
+   "for Drunella grandis: erect, slender, backward-directed finger-like dorsal spines on abdominal segments 2-9, and paired occipital and prothoracic tubercles",
+   "size in either case - up to 20 mm for guttulata, 13-20 mm for grandis"
+  ],
+  "invented": [
+   "a single insect that is simultaneously a fringe-gilled burrower and a chunky crawler; no source supports such an animal"
+  ],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. An Eastern Green Drake mayfly nymph (Ephemera guttulata), the aquatic immature burrowing insect, dorsal view from directly above, a large nymph about 20 mm long excluding the tails. Elongate cylindrical pale greyish-brown body with no dark pattern on the abdominal segments. A pair of large mandibular tusks projects forward from the front of the head and curves upward, clearly visible from above. Fore tibiae broadened into shovel-like digging blades. Seven pairs of long, forked, elongate feathery gills with finely fringed margins on abdominal segments two to seven, curled up over the top of the abdomen so the whole insect looks fluffy along the back. Small head with short antennae; thorax bears dark wing pads and no actual wings; six legs. Three tail filaments fringed with fine hairs. NOTE: the western Green Drake, Drunella grandis, is a different insect and needs its own prompt - a stout spiny crawler with no tusks, erect finger-like spines down the back of the abdomen and flat plate gills. It is an aquatic insect nymph, not a bird, not a shrimp.",
+  "sources": [
+   "https://www.troutnut.com/hatch/494/mayfly-ephemera-guttulata-green-drake",
+   "https://www.macroinvertebrates.org/taxa-info/ephemeroptera-larva/ephemeridae/ephemera/dorsal",
+   "https://www.troutnut.com/hatch/446/Mayfly-Drunella-grandis-Western-Green-Drake"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "fw-green-drake-dun",
+  "verdict": "wrong",
+  "truth": "The eastern Green Drake dun (Ephemera guttulata) has a greenish-yellow to creamy body of 13-15 mm with wings of 13.5-15 mm that are heavily marked with dark blotches spread across the venation. The western Green Drake dun (Drunella grandis) is 13-15 mm in the body with 15-18 mm wings, bright green when freshly emerged and darkening to brown, the abdomen conspicuously ringed dark purplish-brown with pale segment margins, the wings pale with dark purplish-brown veins. Both have three tails.",
+  "errors": [
+   "'Drunella grandis / Ephemera guttulata' - two species with different bodies and, crucially, different wings; the eastern insect has heavily blotched dark-patterned wings, the western has pale wings with dark veins only. One prompt cannot render both",
+   "'Huge olive-green body, dark slate wings' matches neither source description cleanly: Troutnut gives E. guttulata as greenish-yellow with blotched wings and D. grandis as bright green fading to brown with an abdomen conspicuously ringed in purplish-brown and pale",
+   "'two or three very long thin tail filaments' - both species have three tails as adults",
+   "'two large translucent opaque-tinted wings' - omits the second smaller hindwing pair, which is large and conspicuous in Ephemera"
+  ],
+  "missing": [
+   "for E. guttulata: the dark blotches scattered across the wing venation, the species' most obvious adult feature",
+   "for D. grandis: the abdomen conspicuously ringed, dark purplish-brown segments with pale posterior margins",
+   "absolute size: body 13-15 mm, wings 13.5-18 mm - among the largest mayflies a trout stream produces",
+   "the smaller hindwing pair"
+  ],
+  "invented": [
+   "'unmistakable on the water' - an angling impression, not an anatomical description"
+  ],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. An adult Eastern Green Drake mayfly (Ephemera guttulata) at the dun or subimago stage, strict side view, standing on the water surface with a waterline across the image, a very large mayfly with a body about 14 mm long and wings about 14 mm. Long stout segmented abdomen in creamy greenish-yellow with dark olive-brown markings along the sides of the segments, curving slightly upward at the rear; robust thorax; head with large compound eyes and short antennae; six legs. One pair of very large wings held together vertically upright over the back like a sail, the membrane pale and dull but heavily marked with dark purplish-brown blotches scattered along and between the veins, plus a smaller second pair of similarly blotched hindwings behind them. Three long slender tail filaments trailing behind. NOTE: the western Green Drake, Drunella grandis, is a separate species needing its own prompt - bright green fading to brown, abdomen conspicuously ringed dark purplish-brown with pale margins, wings pale with dark purplish-brown veins and no blotches. It is an adult aquatic insect, a mayfly, not a bird, not a moth.",
+  "sources": [
+   "https://www.troutnut.com/hatch/494/mayfly-ephemera-guttulata-green-drake",
+   "https://www.troutnut.com/hatch/446/Mayfly-Drunella-grandis-Western-Green-Drake"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "fw-green-drake-spinner",
+  "verdict": "wrong",
+  "truth": "The Coffin Fly is the spinner of the EASTERN Green Drake, Ephemera guttulata, and its whole point is the black-and-white contrast: a white or cream abdomen against wings that are largely blackish with extensive dark purplish-brown blotches, body about 13 mm and wings 13.5-15 mm, with three long tails. The western Drunella grandis spinner is a different animal - dark reddish-brown head and thorax, dark purplish-brown abdomen with pale segment margins, and genuinely hyaline wings with dark veins - and it is never called a Coffin Fly.",
+  "errors": [
+   "'two clear glassy transparent wings spread flat' directly contradicts the same prompt's own note 'Coffin fly (east) - cream body, dark wings, spent'. Troutnut describes the Coffin Fly's wings as 'largely blackish' with extensive dark purplish-brown blotches - the opposite of clear",
+   "'Drunella grandis / Ephemera guttulata' with the Coffin Fly description attached - only E. guttulata produces the Coffin Fly; applying that name and colouring to the western Drunella is simply wrong",
+   "'two or three extremely long tail filaments' - Ephemera adults have three tails",
+   "'two clear glassy transparent wings' - also omits the second, large hindwing pair"
+  ],
+  "missing": [
+   "the black-and-white contrast that gives the Coffin Fly its name, stated as such",
+   "body about 13 mm, wings 13.5-15 mm",
+   "the large hindwing pair, itself dark-blotched",
+   "dark markings on the sides of the white abdominal segments"
+  ],
+  "invented": [
+   "clear glassy wings on a Coffin Fly - no source supports this; the sources say blackish and blotched"
+  ],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. An adult Eastern Green Drake mayfly (Ephemera guttulata) at the spent spinner stage, the insect anglers call the Coffin Fly, dead and lying flat in the water surface film, viewed from directly above, a large mayfly with a body about 13 mm and wings about 14 mm. Long segmented abdomen chalky white to cream with small dark brown markings along the sides of the segments; darker brown thorax. One pair of large wings spread flat out to the sides in a cross shape and lying on the water, the membrane largely blackish and heavily clouded with dark purplish-brown blotches along the veins, plus a smaller second pair of similarly dark hindwings behind them; the overall effect is a striking black-and-white insect. Head with large compound eyes, six thin legs collapsed and splayed. Three very long slender tail filaments, longer than the body, splayed apart behind. It is an adult aquatic insect, a mayfly, not a bird, not a dragonfly.",
+  "sources": [
+   "https://www.troutnut.com/hatch/494/mayfly-ephemera-guttulata-green-drake",
+   "https://www.troutnut.com/hatch/446/Mayfly-Drunella-grandis-Western-Green-Drake"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "fw-trico-nymph",
+  "verdict": "minor",
+  "truth": "Tricorythodes nymphs are tiny (about 3-5 mm), squat and somewhat flattened sprawlers on sediment, usually dark brown to blackish and often coated in silt. Their diagnostic feature is a pair of enlarged, roughly triangular or oval operculate gill covers on abdominal segment 2 that shield the simple plate gills on segments 3-6 beneath them - not an exposed lateral row. They have three tails (occasionally two), a single tarsal claw with tiny teeth along the basal edge, and they LACK hind wing pads, so only one pair of wing pads is present.",
+  "errors": [
+   "'a row of small gills along each side' - macroinvertebrates.org gives Tricorythodes a semi-operculate triangular or oval gill cover on segment 2 concealing the plate gills of segments 3-6; an exposed lateral row is the wrong silhouette for this genus",
+   "'dark wing pads on the thorax' left unqualified - Tricorythodes 'lack hind wing pads', a stated genus-level diagnostic, so there is only ONE pair of wing pads",
+   "'three tail filaments (two for Epeorus/Quill Gordon)' - leaked template text about an unrelated genus"
+  ],
+  "missing": [
+   "the operculate gill cover on segment 2, the single diagnostic character of the genus",
+   "absence of hind wing pads",
+   "size, roughly 3-5 mm - among the smallest mayflies, imitated on hooks down to size 26",
+   "single tarsal claw bearing a row of tiny teeth along the basal edge",
+   "nymphs are typically coated in silt/detritus, which is how they usually appear in the substrate"
+  ],
+  "invented": [],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. A Trico mayfly nymph (Tricorythodes species), the aquatic immature insect underwater, dorsal view from directly above, a very small nymph about 4 mm long excluding the tails. Squat, short, slightly flattened dark brown to blackish body, often dusted with fine silt. On abdominal segment two, a pair of enlarged hardened roughly triangular gill covers lies flat over the back like small shields, meeting near the mid-line without fusing and concealing the small simple plate gills of segments three to six beneath them; no gills project along the sides of the rear abdomen. Small head with short antennae and eyes at the sides. Thorax bears only ONE pair of dark wing pads, with no hind wing pads at all and no actual wings. Six short legs, each with a single claw. Three slender tail filaments. It is an aquatic insect nymph, not a bird, not a shrimp.",
+  "sources": [
+   "https://www.macroinvertebrates.org/taxa-info/ephemeroptera-larva/leptohyphidae/tricorythodes/dorsal",
+   "https://www.wiflyfisher.com/Trico-Hatch.asp"
+  ],
+  "confidence": "high"
+ }
+]

@@ -730,3 +730,30 @@ ul.adjust .when {
   color: var(--ink-3);
   margin-bottom: 3px;
 }
+
+/* ---------- field key (ID tab) ---------- */
+
+/* An open result: the stage's picture at a size you can actually compare to
+   the bug in your hand, then its flies. Indented under the row it belongs to
+   so the list still reads as a list. */
+.keydetail {
+  padding: 4px 14px 14px;
+  border-bottom: 1px solid var(--rule);
+  background: var(--surface-2);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.keydetail:last-child { border-bottom: 0; }
+.keyimg {
+  width: 100%;
+  max-width: 320px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 8px;
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  align-self: center;
+}
+.keyflies { margin-top: 4px; border-top: 1px solid var(--rule); padding-top: 6px; }
+.keyflies .listrow { padding-left: 0; padding-right: 0; }

@@ -1,0 +1,1692 @@
+[
+ {
+  "id": "fw-bwo-nymph",
+  "verdict": "minor",
+  "truth": "Baetis nymphs are small (3-12 mm, typically 4-9 mm), streamlined, torpedo-shaped agile swimmers, olive to olive-brown, with three caudal filaments (the middle one usually shorter; a few species such as B. bicaudatus have two), single oval or heart-shaped flat gill plates on the top and sides of abdominal segments 1-7, a single tarsal claw per leg, and antennae at least two to three times the width of the head.",
+  "errors": [
+   "'small head with short antennae' - macroinvertebrates.org gives Baetidae antennae as 'long', 'at least two or three times the width of the head'; short antennae is a Heptageniidae/Ephemerellidae character, not a Baetis one",
+   "'three tail filaments (two for Epeorus/Quill Gordon)' - leaked template text about a different genus that has nothing to do with Baetis; an image model given this may draw two tails"
+  ],
+  "missing": [
+   "middle tail filament is shorter than the outer two in most Baetis",
+   "gill plates are oval/heart-shaped and lie on the TOP and sides of segments 1-7 only (not the whole abdomen)",
+   "single hooked tarsal claw on each leg",
+   "size: roughly 4-9 mm body excluding tails",
+   "the small hindwing pads behind the large forewing pads"
+  ],
+  "invented": [
+   "'darts in short bursts' is behaviour, not visible anatomy, and cannot be drawn - harmless but it is not a description"
+  ],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. A Blue-Winged Olive mayfly nymph (Baetis species), the aquatic immature insect underwater, dorsal view from directly above, body about 6 mm long excluding the tails. Slim streamlined torpedo-shaped swimmer, olive to olive-brown with faint paler bands across the abdomen. Ten-segmented abdomen carrying a single small oval heart-shaped flat gill plate on each side of segments one to seven, lying along the top and sides of the abdomen. Rounded head with eyes at the sides and long slender antennae, each antenna two to three times as long as the head is wide. Thorax bears one pair of dark forewing pads and a much smaller pair of hindwing pads, with no actual wings. Six slender legs, each ending in a single hooked claw. Three slender tail filaments fringed with fine hairs, the middle filament slightly shorter than the two outer ones. It is an aquatic insect nymph, not a bird, not a shrimp.",
+  "sources": [
+   "https://www.troutnut.com/hatch/180/Mayfly-Baetis-Blue-Winged-Olives",
+   "https://www.macroinvertebrates.org/taxa-info/ephemeroptera-larva/baetidae/baetis/dorsal"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "fw-bwo-emerger",
+  "verdict": "minor",
+  "truth": "At emergence the Baetis nymph rises to the film, the thoracic skin splits along the mid-dorsal line and the subimago (dun) pulls free, leaving a translucent amber-brown nymphal shuck; the shuck keeps the nymph's three tails and gill plates while the dun that steps out has only two tails and dull slate-grey crumpled wings over an olive body of 4-9 mm.",
+  "errors": [
+   "no tail counts given at all, so the prompt cannot enforce the single most diagnostic emergence detail: three tails on the discarded shuck, two tails on the emerging Baetis dun"
+  ],
+  "missing": [
+   "the nymphal shuck retains three tails and the abdominal gill plates",
+   "the emerging dun has exactly two tails",
+   "dun wing colour - dull slate grey, crumpled and not yet dried",
+   "size, about 6 mm",
+   "the waterline / surface film itself, and that the shuck hangs below the film while the dun is above it"
+  ],
+  "invented": [],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. A Blue-Winged Olive mayfly (Baetis species) emerging at the water surface, strict side view with a horizontal waterline across the image, total length about 6 mm. The olive-brown nymphal skin has split open along the mid-line of the back of the thorax; the pale olive-bodied adult dun is pushing up and out of the split with its two wings still soft, crumpled and dull slate grey. The emptied translucent amber-brown nymphal shuck trails behind and below, still hanging in the surface film, and it keeps the nymph's three fringed tail filaments and the row of small oval gill plates along its abdomen. The emerging adult itself has a slender olive abdomen, six thin legs and only two long tail filaments. It is an aquatic insect at the moment of moulting into an adult, not a bird, not a shrimp.",
+  "sources": [
+   "https://www.troutnut.com/hatch/180/Mayfly-Baetis-Blue-Winged-Olives",
+   "https://www.macroinvertebrates.org/taxa-info/ephemeroptera-larva/baetidae/baetis/dorsal"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "fw-bwo-dun",
+  "verdict": "minor",
+  "truth": "The Baetis dun (subimago) has exactly TWO tails, a body of roughly 4-9 mm in shades of olive, grey or brown, and dull opaque wings in 'various shades of gray, sometimes with a slight pale blue tint' held upright over the back; the large forewings are accompanied by a minute pair of hindwings (present in most Baetis, reduced or absent in a few species).",
+  "errors": [
+   "'two or three very long thin tail filaments' - Baetis duns have two tails, never three; Troutnut's Baetis page states duns 'display two caudal filaments rather than three'. Leaving it ambiguous invites a three-tailed drawing",
+   "'two large translucent opaque-tinted wings' - a mayfly has four wings; Baetis carries a minute second pair of hindwings behind the large forewings",
+   "'very long' tails - the dun's tails are roughly body length, not the greatly elongated filaments of the spinner"
+  ],
+  "missing": [
+   "body length 4-9 mm",
+   "the tiny hindwings",
+   "males have enlarged turbinate (turret-shaped) eyes on top of the head, females do not",
+   "dun wings are dull and opaque rather than glassy, which is what separates a dun from a spinner"
+  ],
+  "invented": [],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. An adult Blue-Winged Olive mayfly (Baetis species) at the dun or subimago stage, strict side view, standing on the water surface with a waterline across the image, body about 6 mm long. Slender segmented abdomen in olive to olive-brown, curving slightly upward at the rear; compact thorax; small head with large compound eyes and short antennae. Six thin legs, the front pair held forward. One pair of large wings held together vertically upright over the back like a sail, the wing membrane dull and opaque in shades of grey with a faint pale blue tint and fine darker veining, plus a minute second pair of hindwings tucked behind them. Exactly two long slender tail filaments, about as long as the body, trailing straight behind. It is an adult aquatic insect, a mayfly, not a bird, not a moth.",
+  "sources": [
+   "https://www.troutnut.com/hatch/180/Mayfly-Baetis-Blue-Winged-Olives"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "fw-bwo-spinner",
+  "verdict": "minor",
+  "truth": "The Baetis spinner (imago) keeps the two-tailed configuration of the dun, has fully clear glassy wings, tails longer than in the dun, and a body in olive-brown to rusty brown; male spinners become pale or translucent over much of the abdomen and carry large turbinate eyes.",
+  "errors": [
+   "'two or three extremely long tail filaments splayed' - Baetis spinners have two tails only; Troutnut states spinners 'retain the two-tailed configuration of duns'",
+   "'two clear glassy transparent wings' - omits the minute hindwing pair, so the animal is drawn with a two-winged, fly-like build"
+  ],
+  "missing": [
+   "body length 4-9 mm",
+   "male spinners are pale or translucent over much of the abdomen and have large turret-shaped eyes; females are darker and more uniformly coloured",
+   "the spent posture detail - dead or dying, wings flat in the surface film, legs collapsed"
+  ],
+  "invented": [],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. An adult Blue-Winged Olive mayfly (Baetis species) at the spent spinner stage, dead and lying flat in the water surface film, viewed from directly above, body about 6 mm long. Slender segmented abdomen in rusty olive-brown, paler and translucent toward the middle segments. One pair of large fully clear glassy transparent wings with fine dark veins, spread flat out to the sides in a cross shape and lying on the water, plus a minute second pair of clear hindwings behind them. Small head with large compound eyes, six thin legs collapsed and splayed. Exactly two extremely long slender tail filaments, considerably longer than the body, splayed apart behind. It is an adult aquatic insect, a mayfly, not a bird, not a dragonfly.",
+  "sources": [
+   "https://www.troutnut.com/hatch/180/Mayfly-Baetis-Blue-Winged-Olives"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "fw-pmd-nymph",
+  "verdict": "minor",
+  "truth": "Pale Morning Dun nymphs (Ephemerella excrucians and E. dorothea infrequens) are stocky spiny crawlers about 7-10 mm long, reddish-brown to olive and irregularly mottled, often with pale longitudinal stripes on the abdominal dorsum; they carry flat overlapping oval gill plates on TOP of abdominal segments 3-7 only (segment 2 has no gill), paired dorsal tubercles on the abdominal terga, thickened fore femora, and three hair-fringed tails held in a fan.",
+  "errors": [
+   "'a row of small gills along each side' - macroinvertebrates.org states Ephemerella gills are on segments 3-7 with 'segment 2 without gills', and they are plate-like lamellae lying in paired depressions on the top of the abdomen, not a lateral row running the length of the body",
+   "'three tail filaments (two for Epeorus/Quill Gordon)' - leaked template text naming an unrelated genus",
+   "'Ephemerella spp.' is genus-level; the PMD hatch is E. excrucians in the west and E. dorothea infrequens, which differ in size and shade"
+  ],
+  "missing": [
+   "paired dorsal tubercles / short spines on the abdominal segments (the 'spiny crawler' character)",
+   "the three tails are fringed with fine setae and held spread in a fan",
+   "thickened, bristly fore femora, noticeably stouter than the tibiae",
+   "size: about 7-10 mm excluding tails",
+   "pale longitudinal stripes or variegated pattern on the abdominal dorsum"
+  ],
+  "invented": [
+   "'clings to rocks' - Ephemerella are crawlers among substrate and vegetation rather than flat rock-clingers in the Heptageniid sense; it is behaviour, not drawable anatomy"
+  ],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. A Pale Morning Dun mayfly nymph (Ephemerella excrucians), the aquatic immature insect underwater, dorsal view from directly above, body about 9 mm long excluding the tails. Stocky compact spiny crawler, mottled reddish-brown and olive with faint pale longitudinal stripes down the back of the abdomen. Flat oval gill plates lie on TOP of abdominal segments three to seven only, overlapping backwards like roof tiles; segments one and two carry no gills. Small paired tubercles or short blunt spines run down the middle of the abdominal segments. Small head with short antennae and eyes at the sides; thorax bears one pair of dark forewing pads and a smaller pair of hindwing pads, with no actual wings. Six sturdy legs, the front femora noticeably thickened and fringed with bristles. Three tail filaments fringed with fine hairs, held spread apart in a fan. It is an aquatic insect nymph, not a bird, not a shrimp.",
+  "sources": [
+   "https://www.macroinvertebrates.org/taxa-info/ephemeroptera-larva/ephemerellidae/ephemerella/dorsal",
+   "https://www.troutnut.com/hatch/459/Mayfly-Ephemerella-excrucians-Pale-Morning-Dun"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "fw-pmd-emerger",
+  "verdict": "minor",
+  "truth": "The Ephemerella nymph splits along the back of the thorax in or just under the surface film and the pale yellow-olive dun, 5.5-7.5 mm, pulls free with soft crumpled pale grey wings, leaving a mottled reddish-brown shuck that still carries its three fringed tails and its dorsal gill plates; PMDs are notoriously slow and are often trapped half out of the shuck.",
+  "errors": [
+   "no tail count is stated for either the shuck or the emerging dun - both are three in Ephemerella, and leaving it unsaid is the usual route to a wrongly drawn mayfly"
+  ],
+  "missing": [
+   "three tails on both the shuck and the emerging adult (Ephemerellidae have three at every stage)",
+   "size, 5.5-7.5 mm body",
+   "the shuck is mottled reddish-brown with the dorsal gill plates visible on segments 3-7",
+   "the waterline itself, and the characteristic stuck-in-the-shuck posture PMDs are known for"
+  ],
+  "invented": [],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. A Pale Morning Dun mayfly (Ephemerella excrucians) emerging at the water surface, strict side view with a horizontal waterline across the image, total length about 8 mm. The mottled reddish-brown nymphal skin has split open along the mid-line of the back of the thorax and the pale yellow-olive adult dun is levering itself up and out, its two wings still soft, crumpled and pale grey. The emptied nymphal shuck hangs behind and below in the surface film, still showing its three hair-fringed tails and the flat oval gill plates on top of abdominal segments three to seven. The emerging adult has a slender pale yellow-olive abdomen, six thin legs and three long tail filaments. It is an aquatic insect at the moment of moulting into an adult, not a bird, not a shrimp.",
+  "sources": [
+   "https://www.macroinvertebrates.org/taxa-info/ephemeroptera-larva/ephemerellidae/ephemerella/dorsal",
+   "https://www.troutnut.com/hatch/459/Mayfly-Ephemerella-excrucians-Pale-Morning-Dun"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "fw-pmd-dun",
+  "verdict": "minor",
+  "truth": "PMD duns are 5.5-7.5 mm in the body with 7-8.5 mm wings, pale yellow through creamy orange to olive-green depending on population, with pale grey dull subimago wings carrying a slight yellowish tinge along the leading edge; Ephemerellidae carry THREE tails as both nymphs and adults.",
+  "errors": [
+   "'two or three very long thin tail filaments' - Ephemerella adults have three tails; Wikipedia's Ephemerellidae page and Troutnut's Ephemerella material both give three tails in nymph and adult. The ambiguity permits a two-tailed drawing, which would be wrong",
+   "'two large translucent opaque-tinted wings' - omits the second, smaller pair of hindwings, which are well developed and visible in Ephemerella"
+  ],
+  "missing": [
+   "body length 5.5-7.5 mm, wing length 7-8.5 mm",
+   "a faint yellowish tinge along the costa (leading edge) of the wing",
+   "the smaller hindwing pair",
+   "the very wide colour range across populations - pale yellow, creamy orange, or distinctly olive-green"
+  ],
+  "invented": [
+   "'pinkish-olive' - Troutnut's E. excrucians description gives pale yellow, creamy orange and olive green; pink is the Hendrickson female's character, not a PMD one"
+  ],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. An adult Pale Morning Dun mayfly (Ephemerella excrucians) at the dun or subimago stage, strict side view, standing on the water surface with a waterline across the image, body about 7 mm long. Slender segmented abdomen in pale yellow to soft yellow-olive, curving slightly upward at the rear; compact thorax; small head with compound eyes and short antennae; six thin legs. One pair of large wings held together vertically upright over the back like a sail, the membrane dull and opaque pale grey with a faint yellowish tinge along the leading edge, plus a distinctly smaller second pair of hindwings behind them. Three slender tail filaments, roughly body length, trailing behind. It is an adult aquatic insect, a mayfly, not a bird, not a moth.",
+  "sources": [
+   "https://www.troutnut.com/hatch/459/Mayfly-Ephemerella-excrucians-Pale-Morning-Dun",
+   "https://en.wikipedia.org/wiki/Ephemerellidae"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "fw-pmd-spinner",
+  "verdict": "minor",
+  "truth": "The PMD spinner is the same 5.5-7.5 mm body with 7-8.5 mm clear wings; male spinners are reddish-brown on the thorax and abdominal dorsum with whitish tails marked by brown joinings, females are variable and often more olive to rust; Ephemerella adults have three tails.",
+  "errors": [
+   "'two or three extremely long tail filaments splayed' - Ephemerella adults have three tails, not two",
+   "'two clear glassy transparent wings' - omits the second smaller pair of hindwings"
+  ],
+  "missing": [
+   "male spinner tails are whitish with distinct brown bands at the segment joinings",
+   "body 5.5-7.5 mm, wings 7-8.5 mm",
+   "female spinners differ from males and are often more olive than rust"
+  ],
+  "invented": [
+   "'at dusk' - a lighting cue that the sources do not tie to a visible feature of the animal; harmless but not descriptive"
+  ],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. An adult Pale Morning Dun mayfly (Ephemerella excrucians) at the spent spinner stage, dead and lying flat in the water surface film, viewed from directly above, body about 7 mm long. Slender segmented abdomen in reddish-brown to rust, darker across the thorax. One pair of large fully clear glassy transparent wings with fine veins, spread flat out to the sides in a cross shape and lying on the water, plus a smaller second pair of clear hindwings behind them. Small head with compound eyes, six thin legs collapsed and splayed. Three long slender tail filaments, longer than the body, splayed apart behind, whitish with fine dark brown bands at the joints. It is an adult aquatic insect, a mayfly, not a bird, not a dragonfly.",
+  "sources": [
+   "https://www.troutnut.com/hatch/459/Mayfly-Ephemerella-excrucians-Pale-Morning-Dun",
+   "https://en.wikipedia.org/wiki/Ephemerellidae"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "fw-hendrickson-nymph",
+  "verdict": "minor",
+  "truth": "Ephemerella subvaria nymphs are robust spiny crawlers roughly 9-12 mm long, olive to reddish-brown and extremely variable in colour, with dorsal spines/tubercles on the abdomen, double-banded tibiae, flat gill plates on top of abdominal segments 3-7 (segment 2 bare) and three hair-fringed tails held spread in the characteristic 'fan tail'.",
+  "errors": [
+   "'a row of small gills along each side' - Ephemerella gills sit as flat overlapping plates on the TOP of segments 3-7, with no gill on segment 2; a lateral row along the whole abdomen is wrong for this family",
+   "'three tail filaments (two for Epeorus/Quill Gordon)' - leaked template text about an unrelated genus"
+  ],
+  "missing": [
+   "the fringed 'fan tail' - Troutnut singles this out as the prominent character of subvaria nymphs",
+   "dorsal spines / paired tubercles down the abdomen",
+   "double-banded tibiae (two dark bands on each leg segment)",
+   "size, about 9-12 mm",
+   "sources stress 'tremendous physical variation within this species, especially in the coloration of the nymphs' - olive through brown, not reliably reddish"
+  ],
+  "invented": [],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. A Hendrickson mayfly nymph (Ephemerella subvaria), the aquatic immature insect underwater, dorsal view from directly above, body about 11 mm long excluding the tails. Robust stocky spiny crawler, mottled reddish-brown and olive. Flat oval gill plates lie on TOP of abdominal segments three to seven only, overlapping backwards like roof tiles; segments one and two carry no gills. A row of small paired spines or tubercles runs down the middle of the abdominal segments. Small head with short antennae and eyes at the sides; thorax bears one pair of dark forewing pads and a smaller pair of hindwing pads, with no actual wings. Six sturdy legs, the front femora thickened and bristly, each tibia marked with two dark bands. Three tail filaments densely fringed with fine hairs and held spread wide in a fan. It is an aquatic insect nymph, not a bird, not a shrimp.",
+  "sources": [
+   "https://www.troutnut.com/hatch/7/mayfly-ephemerella-subvaria-hendrickson",
+   "https://www.macroinvertebrates.org/taxa-info/ephemeroptera-larva/ephemerellidae/ephemerella/dorsal"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "fw-hendrickson-dun",
+  "verdict": "minor",
+  "truth": "Male Hendrickson duns are about 9 mm in the body with 10 mm wings, deep brown head and thorax with reddish tinges, light reddish-brown abdomen shaded smoky at the sides, bright red-brown eyes and deep dull amber legs; females are larger and distinctly paler, the pinkish-tan 'Light Hendrickson'. Both sexes have three tails, pale and yellowish at the base with smoky brown bands at the joinings.",
+  "errors": [
+   "'two or three very long thin tail filaments' - Ephemerella adults have three tails; the ambiguity permits a wrong two-tailed drawing",
+   "'two large translucent opaque-tinted wings' - omits the second, smaller pair of hindwings"
+  ],
+  "missing": [
+   "males have bright reddish-brown eyes",
+   "tails are pale/yellowish at the base with distinctly smoky brown bands at the segment joinings",
+   "size: male body about 9 mm with 10 mm wings, females larger",
+   "wing veins are distinctly light brown against the pale membrane",
+   "the smaller hindwing pair"
+  ],
+  "invented": [],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. An adult Hendrickson mayfly (Ephemerella subvaria) at the dun or subimago stage, strict side view, standing on the water surface with a waterline across the image, body about 10 mm long. Slender segmented abdomen curving slightly upward at the rear, pinkish-tan to olive-tan in the female form and deep reddish-brown in the male form, shaded smoky along the lower edges of the segments. Deep brown thorax with reddish tinges, small head with large compound eyes tinted reddish-brown, short antennae, six thin dull amber legs. One pair of large wings held together vertically upright over the back like a sail, the membrane dull opaque smoky slate grey with distinctly light brown veins, plus a smaller second pair of hindwings behind them. Three slender tail filaments, roughly body length, pale yellowish at the base with fine smoky brown bands at the joints. It is an adult aquatic insect, a mayfly, not a bird, not a moth.",
+  "sources": [
+   "https://www.troutnut.com/hatch/7/mayfly-ephemerella-subvaria-hendrickson",
+   "https://en.wikipedia.org/wiki/Ephemerella_subvaria"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "fw-hendrickson-spinner",
+  "verdict": "minor",
+  "truth": "Hendrickson spinners keep the dun's structure and three tails but with fully clear hyaline wings crossed by light brown veins; the body is reddish-brown ('rusty'), males darker, and the tails are pale with smoky brown joinings. Body about 9-11 mm.",
+  "errors": [
+   "'two or three extremely long tail filaments splayed' - Ephemerella adults have three tails",
+   "'two clear glassy transparent wings' - omits the smaller pair of hindwings"
+  ],
+  "missing": [
+   "light brown veining visible in the otherwise clear wings",
+   "pale tails with smoky brown bands at the joints",
+   "body length about 9-11 mm",
+   "sexual dimorphism persists into the spinner stage - males darker reddish-brown, females paler"
+  ],
+  "invented": [
+   "'evening spinner fall' - timing, not a drawable feature of the animal"
+  ],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. An adult Hendrickson mayfly (Ephemerella subvaria) at the spent spinner stage, dead and lying flat in the water surface film, viewed from directly above, body about 10 mm long. Slender segmented abdomen in rusty reddish-brown with paler margins between the segments, thorax darker. One pair of large fully clear glassy transparent wings crossed by fine light brown veins, spread flat out to the sides in a cross shape and lying on the water, plus a smaller second pair of clear hindwings behind them. Small head with large compound eyes, six thin legs collapsed and splayed. Three long slender tail filaments, longer than the body, splayed apart behind, pale with fine smoky brown bands at the joints. It is an adult aquatic insect, a mayfly, not a bird, not a dragonfly.",
+  "sources": [
+   "https://www.troutnut.com/hatch/7/mayfly-ephemerella-subvaria-hendrickson"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "fw-march-brown-nymph",
+  "verdict": "minor",
+  "truth": "Maccaffertium vicarium nymphs are strongly dorsoventrally flattened Heptageniid clingers with a broad blunt head, eyes set on top of the head, legs splayed out sideways, seven pairs of oval plate gills along the sides of abdominal segments 1-7, and three tails; colour is highly variable from pale to dark mottled brown, and mature nymphs run roughly 12-16 mm.",
+  "errors": [
+   "'three tail filaments (two for Epeorus/Quill Gordon)' - leaked template text; Maccaffertium nymphs have three tails and the Epeorus aside only invites a wrong two-tailed drawing",
+   "'small head with short antennae' understates the key character - the Heptageniid head is broad, flat and blunt, as wide as or wider than the thorax, with the eyes on the upper surface"
+  ],
+  "missing": [
+   "eyes positioned on TOP of the flattened head, visible from directly above",
+   "legs splayed laterally, held out sideways rather than beneath the body, so the whole animal is a flat oval in dorsal view",
+   "seven pairs of oval plate gills along the sides of the abdomen, projecting beyond the body outline",
+   "banded tails and banded legs",
+   "size, about 12-16 mm excluding tails"
+  ],
+  "invented": [],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. A March Brown mayfly nymph (Maccaffertium vicarium), the aquatic immature insect underwater, dorsal view from directly above, body about 14 mm long excluding the tails. Strongly flattened, wide, pancake-shaped clinger in mottled light and dark brown. Broad blunt rounded head, as wide as the thorax, with the compound eyes set on the upper surface of the head and short antennae. Six legs splayed straight out to the sides rather than beneath the body, the femora broad and flat and banded with dark markings. Seven pairs of oval flat plate gills along the sides of abdominal segments one to seven, projecting out past the edges of the body like a fringe of small paddles. Thorax bears one pair of dark forewing pads and a smaller pair of hindwing pads, with no actual wings. Three slender tail filaments with dark bands, held spread apart. It is an aquatic insect nymph, not a bird, not a shrimp.",
+  "sources": [
+   "https://www.troutnut.com/hatch/601/Mayfly-Maccaffertium-vicarium-March-Brown",
+   "https://www.troutnut.com/hatch/39/Mayfly-Heptageniidae-March-Browns-Cahills-Quill-Gordons"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "fw-march-brown-dun",
+  "verdict": "minor",
+  "truth": "The March Brown dun is large - 10-14 mm body, 13-16 mm wings - with body colour from pale yellow through reddish-brown to dark greyish-brown (the dark 'March Brown' and pale 'Gray Fox' forms are the same species), and pale wings whose barred appearance comes from heavy yellowish-brown longitudinal veins and purplish-brown crossveins. Maccaffertium duns and spinners have TWO tails.",
+  "errors": [
+   "'two or three very long thin tail filaments' - Heptageniid adults including Maccaffertium have exactly two tails; Troutnut's M. vicarium page gives 2 tails for both dun and spinner. NOTE a source conflict: the Wikipedia Heptageniidae page loosely states adults have 'three long tails', but the species-level description and the standard family diagnosis give two, and I follow the species-level source",
+   "'two large translucent opaque-tinted wings' - omits the smaller hindwing pair, which is well developed in Heptageniidae",
+   "'heavily mottled wings' is an over-reading: Troutnut describes the wing membrane as hyaline with yellowish-brown longitudinal veins and purplish-brown crossveins, so the mottled/barred look is produced by heavy dark venation rather than by pigmented blotches"
+  ],
+  "missing": [
+   "size: body 10-14 mm, wings 13-16 mm - this is a large mayfly and the prompt never says so in absolute terms",
+   "two recognised colour forms, the darker March Brown and the paler Gray Fox",
+   "the smaller hindwing pair",
+   "banded legs"
+  ],
+  "invented": [],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. An adult March Brown mayfly (Maccaffertium vicarium) at the dun or subimago stage, strict side view, standing on the water surface with a waterline across the image, a large mayfly with a body about 12 mm long and wings about 15 mm. Stout segmented abdomen curving slightly upward at the rear, pale yellowish-tan to reddish-brown with darker markings along the segment edges; robust thorax; head with large compound eyes and short antennae; six legs banded with dark marks. One pair of large wings held together vertically upright over the back like a sail, the membrane pale and only faintly clouded but crossed by heavy yellowish-brown lengthwise veins and dark purplish-brown crossveins, which together give the wing a strongly barred, netted appearance; a smaller second pair of hindwings sits behind them. Exactly two long slender tail filaments trailing behind. It is an adult aquatic insect, a mayfly, not a bird, not a moth.",
+  "sources": [
+   "https://www.troutnut.com/hatch/601/Mayfly-Maccaffertium-vicarium-March-Brown",
+   "https://www.troutnut.com/hatch/39/Mayfly-Heptageniidae-March-Browns-Cahills-Quill-Gordons",
+   "https://en.wikipedia.org/wiki/Heptageniidae"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "fw-green-drake-nymph",
+  "verdict": "wrong",
+  "truth": "The two animals named in this entry are not the same shape of insect. Ephemera guttulata (eastern Green Drake) is a BURROWER: up to about 20 mm, pale greyish-brown with no abdominal pattern, with large mandibular tusks projecting forward from the face and curving upward, fossorial (shovel-like) fore tibiae, and long forked feathery gills with fringed margins on abdominal segments 2-7 carried curled up over the back so the animal looks fluffy, plus three hair-fringed tails. Drunella grandis (western Green Drake) is a stout spiny CRAWLER of 13-20 mm with no tusks, erect finger-like dorsal spines on abdominal segments 2-9, occipital and prothoracic tubercles, yellowish legs with dark brown banding, flat plate gills on top of the abdomen, light reddish-brown body with dark lateral patches, and red-and-yellow banded tails.",
+  "errors": [
+   "'Drunella grandis / Ephemera guttulata' - one prompt cannot draw both; these are a tusked burrower and a spiny crawler with completely different silhouettes. This entry needs to be split into two prompts",
+   "'a row of small gills along each side' - wrong for both. Ephemera gills are long, forked, feathery and held over the BACK; Drunella gills are flat plates on top of segments 3-7",
+   "'chunky crawler' with 'fringed gills' - the fringed feathery gills belong to the burrowing Ephemera, the crawler build belongs to Drunella; the prompt fuses characters from two animals into one non-existent insect",
+   "'Big dark olive-brown' - Troutnut gives mature E. guttulata nymphs as dark greyish-brown and explicitly notes the absence of dark markings on the abdominal segments; Drunella grandis is light reddish-brown with dark lateral patches. Neither is olive",
+   "'three tail filaments (two for Epeorus/Quill Gordon)' - leaked template text about an unrelated genus"
+  ],
+  "missing": [
+   "for Ephemera guttulata: the forward-projecting, upcurved mandibular tusks - the single most recognisable feature of the animal",
+   "for Ephemera guttulata: fossorial, shovel-like fore tibiae for digging",
+   "for Ephemera guttulata: gills on segments 2-7 only, forked and elongate-lanceolate with fringed margins, conspicuous from above",
+   "for Drunella grandis: erect, slender, backward-directed finger-like dorsal spines on abdominal segments 2-9, and paired occipital and prothoracic tubercles",
+   "size in either case - up to 20 mm for guttulata, 13-20 mm for grandis"
+  ],
+  "invented": [
+   "a single insect that is simultaneously a fringe-gilled burrower and a chunky crawler; no source supports such an animal"
+  ],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. An Eastern Green Drake mayfly nymph (Ephemera guttulata), the aquatic immature burrowing insect, dorsal view from directly above, a large nymph about 20 mm long excluding the tails. Elongate cylindrical pale greyish-brown body with no dark pattern on the abdominal segments. A pair of large mandibular tusks projects forward from the front of the head and curves upward, clearly visible from above. Fore tibiae broadened into shovel-like digging blades. Seven pairs of long, forked, elongate feathery gills with finely fringed margins on abdominal segments two to seven, curled up over the top of the abdomen so the whole insect looks fluffy along the back. Small head with short antennae; thorax bears dark wing pads and no actual wings; six legs. Three tail filaments fringed with fine hairs. NOTE: the western Green Drake, Drunella grandis, is a different insect and needs its own prompt - a stout spiny crawler with no tusks, erect finger-like spines down the back of the abdomen and flat plate gills. It is an aquatic insect nymph, not a bird, not a shrimp.",
+  "sources": [
+   "https://www.troutnut.com/hatch/494/mayfly-ephemera-guttulata-green-drake",
+   "https://www.macroinvertebrates.org/taxa-info/ephemeroptera-larva/ephemeridae/ephemera/dorsal",
+   "https://www.troutnut.com/hatch/446/Mayfly-Drunella-grandis-Western-Green-Drake"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "fw-green-drake-dun",
+  "verdict": "wrong",
+  "truth": "The eastern Green Drake dun (Ephemera guttulata) has a greenish-yellow to creamy body of 13-15 mm with wings of 13.5-15 mm that are heavily marked with dark blotches spread across the venation. The western Green Drake dun (Drunella grandis) is 13-15 mm in the body with 15-18 mm wings, bright green when freshly emerged and darkening to brown, the abdomen conspicuously ringed dark purplish-brown with pale segment margins, the wings pale with dark purplish-brown veins. Both have three tails.",
+  "errors": [
+   "'Drunella grandis / Ephemera guttulata' - two species with different bodies and, crucially, different wings; the eastern insect has heavily blotched dark-patterned wings, the western has pale wings with dark veins only. One prompt cannot render both",
+   "'Huge olive-green body, dark slate wings' matches neither source description cleanly: Troutnut gives E. guttulata as greenish-yellow with blotched wings and D. grandis as bright green fading to brown with an abdomen conspicuously ringed in purplish-brown and pale",
+   "'two or three very long thin tail filaments' - both species have three tails as adults",
+   "'two large translucent opaque-tinted wings' - omits the second smaller hindwing pair, which is large and conspicuous in Ephemera"
+  ],
+  "missing": [
+   "for E. guttulata: the dark blotches scattered across the wing venation, the species' most obvious adult feature",
+   "for D. grandis: the abdomen conspicuously ringed, dark purplish-brown segments with pale posterior margins",
+   "absolute size: body 13-15 mm, wings 13.5-18 mm - among the largest mayflies a trout stream produces",
+   "the smaller hindwing pair"
+  ],
+  "invented": [
+   "'unmistakable on the water' - an angling impression, not an anatomical description"
+  ],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. An adult Eastern Green Drake mayfly (Ephemera guttulata) at the dun or subimago stage, strict side view, standing on the water surface with a waterline across the image, a very large mayfly with a body about 14 mm long and wings about 14 mm. Long stout segmented abdomen in creamy greenish-yellow with dark olive-brown markings along the sides of the segments, curving slightly upward at the rear; robust thorax; head with large compound eyes and short antennae; six legs. One pair of very large wings held together vertically upright over the back like a sail, the membrane pale and dull but heavily marked with dark purplish-brown blotches scattered along and between the veins, plus a smaller second pair of similarly blotched hindwings behind them. Three long slender tail filaments trailing behind. NOTE: the western Green Drake, Drunella grandis, is a separate species needing its own prompt - bright green fading to brown, abdomen conspicuously ringed dark purplish-brown with pale margins, wings pale with dark purplish-brown veins and no blotches. It is an adult aquatic insect, a mayfly, not a bird, not a moth.",
+  "sources": [
+   "https://www.troutnut.com/hatch/494/mayfly-ephemera-guttulata-green-drake",
+   "https://www.troutnut.com/hatch/446/Mayfly-Drunella-grandis-Western-Green-Drake"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "fw-green-drake-spinner",
+  "verdict": "wrong",
+  "truth": "The Coffin Fly is the spinner of the EASTERN Green Drake, Ephemera guttulata, and its whole point is the black-and-white contrast: a white or cream abdomen against wings that are largely blackish with extensive dark purplish-brown blotches, body about 13 mm and wings 13.5-15 mm, with three long tails. The western Drunella grandis spinner is a different animal - dark reddish-brown head and thorax, dark purplish-brown abdomen with pale segment margins, and genuinely hyaline wings with dark veins - and it is never called a Coffin Fly.",
+  "errors": [
+   "'two clear glassy transparent wings spread flat' directly contradicts the same prompt's own note 'Coffin fly (east) - cream body, dark wings, spent'. Troutnut describes the Coffin Fly's wings as 'largely blackish' with extensive dark purplish-brown blotches - the opposite of clear",
+   "'Drunella grandis / Ephemera guttulata' with the Coffin Fly description attached - only E. guttulata produces the Coffin Fly; applying that name and colouring to the western Drunella is simply wrong",
+   "'two or three extremely long tail filaments' - Ephemera adults have three tails",
+   "'two clear glassy transparent wings' - also omits the second, large hindwing pair"
+  ],
+  "missing": [
+   "the black-and-white contrast that gives the Coffin Fly its name, stated as such",
+   "body about 13 mm, wings 13.5-15 mm",
+   "the large hindwing pair, itself dark-blotched",
+   "dark markings on the sides of the white abdominal segments"
+  ],
+  "invented": [
+   "clear glassy wings on a Coffin Fly - no source supports this; the sources say blackish and blotched"
+  ],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. An adult Eastern Green Drake mayfly (Ephemera guttulata) at the spent spinner stage, the insect anglers call the Coffin Fly, dead and lying flat in the water surface film, viewed from directly above, a large mayfly with a body about 13 mm and wings about 14 mm. Long segmented abdomen chalky white to cream with small dark brown markings along the sides of the segments; darker brown thorax. One pair of large wings spread flat out to the sides in a cross shape and lying on the water, the membrane largely blackish and heavily clouded with dark purplish-brown blotches along the veins, plus a smaller second pair of similarly dark hindwings behind them; the overall effect is a striking black-and-white insect. Head with large compound eyes, six thin legs collapsed and splayed. Three very long slender tail filaments, longer than the body, splayed apart behind. It is an adult aquatic insect, a mayfly, not a bird, not a dragonfly.",
+  "sources": [
+   "https://www.troutnut.com/hatch/494/mayfly-ephemera-guttulata-green-drake",
+   "https://www.troutnut.com/hatch/446/Mayfly-Drunella-grandis-Western-Green-Drake"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "fw-trico-nymph",
+  "verdict": "minor",
+  "truth": "Tricorythodes nymphs are tiny (about 3-5 mm), squat and somewhat flattened sprawlers on sediment, usually dark brown to blackish and often coated in silt. Their diagnostic feature is a pair of enlarged, roughly triangular or oval operculate gill covers on abdominal segment 2 that shield the simple plate gills on segments 3-6 beneath them - not an exposed lateral row. They have three tails (occasionally two), a single tarsal claw with tiny teeth along the basal edge, and they LACK hind wing pads, so only one pair of wing pads is present.",
+  "errors": [
+   "'a row of small gills along each side' - macroinvertebrates.org gives Tricorythodes a semi-operculate triangular or oval gill cover on segment 2 concealing the plate gills of segments 3-6; an exposed lateral row is the wrong silhouette for this genus",
+   "'dark wing pads on the thorax' left unqualified - Tricorythodes 'lack hind wing pads', a stated genus-level diagnostic, so there is only ONE pair of wing pads",
+   "'three tail filaments (two for Epeorus/Quill Gordon)' - leaked template text about an unrelated genus"
+  ],
+  "missing": [
+   "the operculate gill cover on segment 2, the single diagnostic character of the genus",
+   "absence of hind wing pads",
+   "size, roughly 3-5 mm - among the smallest mayflies, imitated on hooks down to size 26",
+   "single tarsal claw bearing a row of tiny teeth along the basal edge",
+   "nymphs are typically coated in silt/detritus, which is how they usually appear in the substrate"
+  ],
+  "invented": [],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. A Trico mayfly nymph (Tricorythodes species), the aquatic immature insect underwater, dorsal view from directly above, a very small nymph about 4 mm long excluding the tails. Squat, short, slightly flattened dark brown to blackish body, often dusted with fine silt. On abdominal segment two, a pair of enlarged hardened roughly triangular gill covers lies flat over the back like small shields, meeting near the mid-line without fusing and concealing the small simple plate gills of segments three to six beneath them; no gills project along the sides of the rear abdomen. Small head with short antennae and eyes at the sides. Thorax bears only ONE pair of dark wing pads, with no hind wing pads at all and no actual wings. Six short legs, each with a single claw. Three slender tail filaments. It is an aquatic insect nymph, not a bird, not a shrimp.",
+  "sources": [
+   "https://www.macroinvertebrates.org/taxa-info/ephemeroptera-larva/leptohyphidae/tricorythodes/dorsal",
+   "https://www.wiflyfisher.com/Trico-Hatch.asp"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "fw-trico-dun",
+  "verdict": "minor",
+  "truth": "Troutnut's family key places Tricorythodes in Leptohyphidae, whose adults have three well-developed tails and hind wings that are reduced to tiny pads with only two or three simple veins, so in flight or at rest only one obvious pair of wings shows; the species pages give a body length of 2.5-5 mm with wings 3.5-7 mm, the male pitch-black and the female reddish-brown to olive. Wikipedia's mayfly account states the subimago (dun) has dull, partially cloudy wings fringed with microtrichia, held upright over the back, in contrast to the clear-winged imago.",
+  "errors": [
+   "'two or three very long thin tail filaments trailing behind' - the sources are not ambiguous here: Troutnut's key to families of duns and spinners gives Leptohyphidae (Tricorythodes) 'three well-developed tails'. The number is three, not 'two or three'.",
+   "'two large translucent opaque-tinted wings' - self-contradictory, and wrong for a dun. The subimago wing is dull and partially cloudy, not translucent; and the wings are not 'large' - wing length is only 3.5-7 mm and the fore wings are the only conspicuous pair because the hind wings are vestigial.",
+   "'very long thin tail filaments' for a dun - Troutnut's adult key notes 'Male tails around twice the length of the body' as a Tricorythodes character, but that applies to the male; the female's tails are much shorter. The prompt applies 'very long' to an unspecified sex."
+  ],
+  "missing": [
+   "The tail count is three (two cerci plus a median terminal filament).",
+   "The hind wings are present but vestigial - tiny pads with two or three simple veins - which is the single most distinctive Tricorythodes adult character.",
+   "Body length 2.5-5 mm, fore wing 3.5-7 mm; this is among the smallest mayflies.",
+   "The subimago wing surface is dull and opaque with a fringe of fine hairs (microtrichia) along the margin.",
+   "Male has enlarged turbinate-set dark eyes and a pitch-black head and thorax; the female specimen descriptions give reddish-brown to olive abdomen with a darker thorax."
+  ],
+  "invented": [
+   "'freshly hatched dun stage... resting on the water surface' is a plausible scene but no anatomy source asserts it; it is behavioural framing, not a described trait. Harmless but unsourced.",
+   "'abdomen curving slightly upward' - not stated in any of the descriptions consulted."
+  ],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. An adult Trico mayfly (Tricorythodes), subimago or dun stage, a single live insect in strict side view standing on the water surface film. Very small: body only 2.5 to 5 mm long, fore wing 3.5 to 7 mm. Slender segmented abdomen of ten visible segments, olive to reddish-brown in the female and pitch-black in the male, a compact darker thorax, a small head with large dark compound eyes and very short fine antennae, six thin legs. One conspicuous pair of triangular fore wings held together vertically upright over the back like a sail, their surface dull, cloudy and opaque rather than glassy, finely veined, with a fringe of minute hairs along the margin; the hind wings are vestigial, mere tiny pads at the wing base carrying only two or three simple veins, almost invisible. Exactly three long thin tail filaments trailing straight behind - two outer cerci and a median terminal filament - noticeably longer in the male than the female. It is a live adult aquatic insect, a mayfly, not a bird, not a moth, not a fishing fly tied on a hook.",
+  "sources": [
+   "https://www.troutnut.com/taxonomic-key/3/Key-to-Identify-Families-of-Mayfly-Duns-and-Spinners",
+   "https://www.troutnut.com/hatch/700/Mayfly-Tricorythodes-minutus-Trico",
+   "https://www.troutnut.com/taxonomic-key/110/Easy-Anglers-Key-to-Identify-Common-Adult-Mayflies",
+   "https://en.wikipedia.org/wiki/Mayfly"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "fw-trico-spinner",
+  "verdict": "minor",
+  "truth": "Troutnut's species description of a Tricorythodes spinner gives the male 'Body pitch-black; femora deep pitch brown, tibiae brownish, tarsi yellowish white', with wings 'whitish, hyaline' and blackish or purplish-black subcosta and radius, and tails 'whitish, the edges and joinings black'; the female is reddish-brown. The adult key notes male tails about twice the length of the body, and the family key gives three well-developed tails and vestigial hind wings. Females are described squeezing 'little green balls of eggs' from the abdomen.",
+  "errors": [
+   "'two or three extremely long tail filaments splayed' - the count is three, per Troutnut's family key for Leptohyphidae; and 'extremely long' is a male character (tails about twice body length), not a female one.",
+   "'two clear glassy transparent wings' - the species description says 'whitish, hyaline' with distinctly blackish or purplish-black costal and subcostal veins in the male, so not plainly clear glass; and it omits the vestigial hind wings that are the diagnostic Tricorythodes feature.",
+   "'clouds of them over riffles at dawn' - this sentence describes a mating swarm and directly contradicts the rest of the prompt, which specifies one insect lying flat on the water viewed from above. It will push the image toward a swarm scene rather than a specimen illustration."
+  ],
+  "missing": [
+   "Three tails, not two; male tails roughly twice body length.",
+   "The spent posture itself: dead or dying, legs collapsed, body limp and pinned in the surface film, wings flat on the water rather than merely 'spread'.",
+   "Male body pitch-black with brownish femora and yellowish-white tarsi; female reddish-brown to olive - the prompt asserts 'black body' for both sexes.",
+   "Dark blackish or purplish-black leading-edge veins (subcosta and radius) against the whitish hyaline membrane.",
+   "Vestigial hind wings with two or three simple veins.",
+   "Body length 2.5-5 mm.",
+   "Females may carry a small green-grey egg ball at the tip of the abdomen."
+  ],
+  "invented": [
+   "'clouds of them over riffles at dawn' as an anatomical descriptor - it is behaviour, not morphology, and no consulted source ties it to the appearance of a single spent spinner."
+  ],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. A single adult Trico mayfly (Tricorythodes), spent spinner or imago stage, dead and lying flat in the surface film, viewed from directly above. Very small: body 2.5 to 5 mm long. Slender ten-segmented abdomen, pitch-black in the male and reddish-brown to olive in the female, compact dark thorax, small head with large dark compound eyes. One pair of triangular fore wings, whitish and hyaline with fine venation and conspicuously blackened leading-edge veins, spread flat and limp out to the sides at right angles to the body in a cross shape, resting on the water; hind wings vestigial, tiny pads with only two or three simple veins. Six thin legs collapsed and splayed, brownish femora and pale yellowish-white feet. Exactly three long thin tail filaments splayed behind, whitish with dark joints, roughly twice the body length in the male. The posture is that of a dying insect: limp, unsupported, pinned in the surface film. It is a live-collected adult aquatic insect, a mayfly, not a bird, not a spider, not a fishing fly tied on a hook.",
+  "sources": [
+   "https://www.troutnut.com/hatch/700/Mayfly-Tricorythodes-minutus-Trico",
+   "https://www.troutnut.com/taxonomic-key/3/Key-to-Identify-Families-of-Mayfly-Duns-and-Spinners",
+   "https://www.troutnut.com/hatch/669/Mayfly-Tricorythodes-Tricos/",
+   "https://en.wikipedia.org/wiki/Mayfly"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "fw-caddis-larva",
+  "verdict": "minor",
+  "truth": "Caddis larvae are eruciform grubs with a hard sclerotized head capsule, three pairs of segmented thoracic legs, no abdominal prolegs except a terminal pair of anal prolegs each bearing a single hook. The three genera named differ sharply: macroinvertebrates.org describes Hydropsyche as having pro-, meso- and metanota entirely covered by sclerites, rows of branched ventral abdominal gills, anal prolegs with a conspicuous tuft of long hairs, and NO portable case - it builds a fixed silk retreat with a capture net. Rhyacophila is 'free-living, meaning that they do not live in a case or retreat', with only the pronotum sclerotized, a beaded-looking segmented body, often green, under 25 mm. Only Brachycentrus carries a portable case, 'square or round in cross-section and usually made of plant pieces that are mostly transversely oriented'.",
+  "errors": [
+   "'often in a stick or pebble case' applied to all three genera - this is wrong for two of the three. Hydropsyche builds a fixed silk-and-detritus retreat with a filter net and does not carry a case; Rhyacophila is explicitly free-living with no case or retreat.",
+   "'shown partly inside its tubular case of small pebbles and sticks' - Brachycentrus, the only case-maker named, builds a case that is square or round in cross-section from transversely arranged plant pieces, not a pebble tube. A pebble tube is a different family (Glossosomatidae, Limnephilidae).",
+   "'three pairs of legs at the front' is correct but the prompt never states that there are no other legs, which is the whole diagnostic point against a caterpillar."
+  ],
+  "missing": [
+   "Ventral rows of branched, tufted abdominal gills in Hydropsyche (about ten filaments per gill) - the most visible larval feature of that genus.",
+   "The extent of dorsal sclerite plates: all three thoracic nota plated in Hydropsyche, pronotum only in Rhyacophila.",
+   "The anal prolegs are a terminal pair, each with a single hook, and in Hydropsyche carry a conspicuous fan of long hairs.",
+   "Rhyacophila's deeply constricted, 'beaded' body segmentation and length under 25 mm.",
+   "Brachycentrus's humpless first abdominal segment (the family character) and its square-section plant-strip case.",
+   "The closing 'it is an insect' assertion sentence required by the house style is absent from this prompt entirely."
+  ],
+  "invented": [
+   "The pebble-and-stick case for this genus set - no consulted source assigns a mineral case to Hydropsyche, Rhyacophila or Brachycentrus."
+  ],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. Three caddisfly larvae of different genera shown side by side in strict lateral view, each a soft grub-like aquatic insect larva under 25 mm long. Left, a free-living Rhyacophila larva: bright green, no case and no retreat, body deeply constricted between segments so it looks beaded, a hard dark brown sclerotized head capsule, only the pronotum plated and the rest of the thorax soft, three pairs of jointed legs on the thorax and no other legs, and a terminal pair of stout anal prolegs each with a single curved hook. Centre, a Hydropsyche larva: tan-olive, all three thoracic segments covered by hard brown dorsal plates, dense rows of branched tufted pale gills along the underside of the abdomen, anal prolegs each with one hook and a conspicuous fan of long hairs, crouched at the mouth of a fixed silk-and-detritus retreat with a fine silk capture net stretched across the current beside it - not a portable case. Right, a Brachycentrus larva part-withdrawn into its portable case, the case tapered and square in cross-section and built from short plant strips laid crosswise, the larva's first abdominal segment without a dorsal hump. All three have chewing mouthparts, no wings, no wing pads and no antennae to speak of. It is an aquatic insect larva, not a caterpillar, not a bird, not a worm with legs, and not a fishing fly tied on a hook.",
+  "sources": [
+   "https://www.macroinvertebrates.org/taxa-info/trichoptera-larva/hydropsychidae/hydropsyche/lateral",
+   "https://www.macroinvertebrates.org/taxa-info/trichoptera-larva/rhyacophilidae/rhyacophila/lateral",
+   "https://www.macroinvertebrates.org/taxa-info/trichoptera-larva/brachycentridae",
+   "https://genent.cals.ncsu.edu/insect-identification/order-trichoptera"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "fw-caddis-pupa",
+  "verdict": "minor",
+  "truth": "Wikipedia's caddisfly account describes the aquatic pupa as having 'functional mandibles (to cut through the case), gills, and swimming legs', and says that at emergence 'most pupal caddisflies cut through their cases with a special pair of mandibles, swim up to the water surface, moult using the exuviae as a floating platform, and emerge as fully formed adults'. The pupa is exarate - legs, antennae and wing sheaths are free of the body rather than glued down - with the antennae laid back along the sides often to the abdomen tip, and rows of small hooks on the abdominal terga.",
+  "errors": [
+   "'no legs visible' is not said here, but 'long legs and antennae swept back' understates it: the middle legs are the swimming oars and carry dense fringes of long hairs, which the prompt omits entirely.",
+   "'a silvery sheen of trapped gas around the body' - I could not confirm this in an entomology source. The gas layer at caddis emergence is asserted throughout angling literature; the entomological sources consulted describe pupal gills and a swim to the surface, not a silver gas envelope. Treat as unverified rather than established."
+  ],
+  "missing": [
+   "The large functional sickle-shaped mandibles used to cut out of the case or cocoon - a defining pupal feature.",
+   "Dense fringes of long swimming hairs on the middle legs, used as oars.",
+   "Antennae laid back along the sides of the body, in many genera reaching the tip of the abdomen.",
+   "Rows of small hooks or hook plates on the dorsal surface of the abdominal segments.",
+   "Filamentous gills persisting on the abdomen in some genera.",
+   "The pupa is exarate: all appendages free and standing away from the body, not fused down like a moth chrysalis.",
+   "The closing 'it is an insect' assertion sentence is absent from this prompt."
+  ],
+  "invented": [
+   "'a silvery sheen of trapped gas around the body' - not supported by the entomological sources consulted; the only silvery-sheen air-store description I found applies to aquatic beetles and true bugs, not caddis pupae."
+  ],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. A caddisfly pupa (pharate adult) of Hydropsyche, Rhyacophila or Brachycentrus, swimming up through open water, strict lateral view. Body curved into a comma, 10 to 20 mm long, tan to olive-brown with a darker thorax. Exarate pupa: every appendage free of the body and standing clear of it, not fused down like a moth chrysalis. Swollen thorax bearing two pairs of dark developing wing sheaths folded down along the sides. A pair of large dark sickle-shaped functional mandibles projecting forward from the head, used to cut out of the case. Very long thread-like antennae laid back along the sides of the body, reaching almost to the tip of the abdomen. Six free legs, the middle pair much the longest and fringed along their length with dense rows of fine swimming hairs, held out like oars. Segmented abdomen of soft pale segments, each bearing a transverse row of tiny dark hooks on its upper surface, and in some genera short filamentous pale gills along the sides. It is an aquatic insect pupa, not a shrimp, not a bird, not a caterpillar, and not a fishing fly tied on a hook.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Caddisfly",
+   "https://genent.cals.ncsu.edu/insect-identification/order-trichoptera",
+   "https://thedragonflywoman.com/2013/12/06/bugs-with-bubbles/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "fw-caddis-adult",
+  "verdict": "minor",
+  "truth": "NC State's Trichoptera page describes adults as having 'Two pairs of wings clothed with long hairs', 'Wings held tent-like over the abdomen', 'Filiform antennae' and 'Mouthparts reduced or vestigial'. Wikipedia adds that the wings are membranous and hairy, the antennae 'fairly long and threadlike', the legs have five tarsi, and the order is defined by a short proboscis called the haustellum. No long tails.",
+  "errors": [
+   "'mottled tan-brown wings folded over the back in a tent shape' - the tent shape is right but the wing COUNT is never stated. Caddis adults have two pairs, four wings; a prompt that just says 'wings' invites a two-winged drawing.",
+   "'Moth-like' is used twice with no correction - the single most important difference is that caddis wings are clothed in fine hairs, not scales, and the adult has no coiled proboscis. As written the prompt is likely to produce a moth."
+  ],
+  "missing": [
+   "Four wings in two pairs; the hind pair broader and folded beneath the fore pair.",
+   "Wings clothed in fine hairs, not scales - the defining order character (Trichoptera = 'hair wing').",
+   "Mouthparts reduced or vestigial, with a short haustellum; explicitly no coiled butterfly/moth proboscis.",
+   "Antennae often as long as or longer than the body, held forward and straight.",
+   "Five tarsal segments per leg.",
+   "No cerci or tails of any length."
+  ],
+  "invented": [],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. An adult caddisfly (Hydropsyche, Rhyacophila or Brachycentrus), a single live insect in strict lateral view at rest on a wet stone at the water's edge. Two pairs of wings, four wings in all, the narrow fore pair folded down over the broader hind pair so that together they form a steep inverted V, a tent roof pitched over the whole abdomen and hiding it from the side. The wing surface is clothed in fine short hairs, mottled tan and brown, matte - not scaled and never iridescent. Small rounded head with two long thread-like antennae as long as the body or longer, held straight out in front. Mouthparts reduced to a short soft proboscis stub; there is no coiled butterfly tongue. Six slender legs, each foot with five small segments, some bearing spurs. Segmented tan-brown abdomen, hidden beneath the wings in side view. No tails, no cerci, no wing pads. It is an adult aquatic insect, a caddisfly - not a moth, not a bird, and not a fishing fly tied on a hook.",
+  "sources": [
+   "https://genent.cals.ncsu.edu/insect-identification/order-trichoptera",
+   "https://en.wikipedia.org/wiki/Caddisfly"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "fw-caddis-diving",
+  "verdict": "wrong",
+  "truth": "Some caddisfly females oviposit underwater. A USGS study records Hydropsyche centra, Hydropsyche occidentalis and Hydroptila argosa females captured underwater in Oregon reservoirs at record dive depths, and attributes this to 'sexually dimorphic leg characteristics that may be adaptations for swimming, diving, or both', specifically widened leg segments and 'fringes of long hairs on meso- and metathoracic tibiae and basal tarsal segments'. Wikipedia notes females attach eggs in a gelatinous mass above or below the water surface depending on species.",
+  "errors": [
+   "'side view resting on the water surface' - flatly contradicts the stage. This entry is the egg-laying adult diving UNDERWATER; the prompt puts it on the surface.",
+   "'wings folded over the back in a tent shape covering the abdomen' - contradicts the entry's own look note ('wings slick to body') and is wrong for a diving female, which clamps the wings tight and streamlined against the abdomen rather than tenting them.",
+   "The entire anatomy paragraph is copy-pasted verbatim from the fw-caddis-adult entry, so nothing in it is stage-specific. There is no diving posture, no submerged setting, no egg mass.",
+   "'six legs' with no further detail - the diving females are specifically described as having widened middle and hind leg segments with fringes of long swimming hairs, which is the one anatomical thing that makes this stage look different."
+  ],
+  "missing": [
+   "Underwater setting: the insect submerged, below the surface, not on it.",
+   "Wings held flat and tight against the body, streamlined for swimming.",
+   "Widened middle and hind tibiae and basal tarsal segments fringed with long hairs, used as swimming oars.",
+   "A gelatinous egg mass being attached to the underside of a submerged stone.",
+   "Four wings, hairy not scaled (same omission as the adult entry).",
+   "The silvery film of air trapped against the body that anglers describe is plausible but I found no entomology source confirming it for caddis; if included it should be worded as a faint sheen rather than an asserted plastron."
+  ],
+  "invented": [
+   "'resting on the water surface' for a diving stage - unsupported and self-contradictory."
+  ],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. An adult female caddisfly (Hydropsyche), egg-laying stage, shown fully underwater, swimming down beside a submerged stone, strict lateral view with the water surface visible far above. Two pairs of wings, four wings in all, clamped flat and tight along the back and against the sides of the abdomen in a slim streamlined shape - not tented, not raised. Wing surface clothed in fine hairs, mottled tan-brown, darkened and slicked down by the water, with a faint silvery sheen of trapped air clinging along the body and beneath the wings. Small head with two long thread-like antennae swept back along the body in the current. Six legs, the middle and hind pairs with conspicuously widened tibiae and basal foot segments fringed with long hairs and held out as swimming oars, the front legs tucked. Segmented tan-brown abdomen, its tip carrying a small clear gelatinous mass of pale eggs being pressed against the underside of the stone. No tails. It is an adult aquatic insect swimming underwater, a caddisfly - not a moth, not a bird, not a beetle, and not a fishing fly tied on a hook.",
+  "sources": [
+   "https://www.usgs.gov/publications/caddisfly-dives-oviposition-record-shattering-depths-and-poor-life-choices-a-dammed",
+   "https://en.wikipedia.org/wiki/Caddisfly",
+   "https://genent.cals.ncsu.edu/insect-identification/order-trichoptera"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "fw-golden-stone-nymph",
+  "verdict": "minor",
+  "truth": "The University of Minnesota's aquatic invertebrate pages state plainly that 'Perlidae Stoneflies have gills on the ventral side of their thorax', which distinguishes them from mayflies whose gills project from the abdomen. Troutnut describes Perlidae nymphs as stout, active predators coloured anywhere from 'dark brown, delicately patterned gold and amber, to a brilliant yellow and black striped pattern reminiscent of Bengal tigers'. The iNaturalist Oregon guide adds that Hesperoperla pacifica has 'a pair of gill tufts between its tails' while Calineuria californica does not, though both show gill remnants at the base of each leg; Hesperoperla also carries an hourglass-shaped mark on the front of the head.",
+  "errors": [
+   "'dark wing pads on the thorax' - the count is not given. Stonefly nymphs carry two pairs of wing pads, on the second and third thoracic segments, and the two-pairs point is exactly what separates them from a mayfly nymph's single pair. Leaving it vague wastes the contrast.",
+   "'Flattened segmented body' is defensible for Perlidae but Troutnut describes adults as 'stout bodied' and 'much more ovoid in cross section'; the nymphs are depressed rather than paper-flat."
+  ],
+  "missing": [
+   "Two pairs of wing pads, meso- and metathoracic.",
+   "The gills are branched, filamentous tufts on the UNDERSIDE of the thorax at the leg bases - saying 'at the bases of the legs' is right but the ventral position and the branched, finger-like form are what make them drawable.",
+   "Hesperoperla pacifica also has a pair of anal gill tufts between the tails, and an hourglass mark on the front of the head; Calineuria californica lacks the anal tufts. If the illustration is generic these should be named as a genus-level variation.",
+   "The strong contrasting mottled pattern of dark brown on amber-gold across the head and pronotum - Troutnut's descriptions stress the pattern, and 'golden-brown' alone loses it.",
+   "Mature nymph length, roughly 20 to 40 mm excluding tails.",
+   "Two tarsal claws per leg; three clearly separated thoracic segments each with a distinct plate."
+  ],
+  "invented": [],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. A Golden Stonefly nymph (Perlidae: Hesperoperla or Calineuria), the aquatic immature insect, dorsal view from directly above, crawling on a wet cobble. Large and robust, 20 to 40 mm long excluding tails, the body depressed and broad rather than paper-flat. Head broad and blunt with two long many-segmented antennae sweeping forward, chewing mouthparts, and a bold mottled pattern of dark brown on amber-gold across the head and the rectangular pronotum. Thorax of three plated segments; the second and third each bear a dark wing pad, giving two pairs of wing pads in all - never one pair. Six stout sprawling legs, each with two claws, and branched finger-like pale gill tufts clustered on the underside of the thorax at the base of each leg, just visible past the body edge from above. Long segmented golden-brown abdomen with darker banding on each segment. Exactly two long tail filaments - two cerci, never three - trailing behind, sometimes with a small pair of gill tufts between them. No wings, no case, no shell. It is an aquatic insect nymph, not a bird, not a beetle, not a worm with legs, and not a fishing fly tied on a hook.",
+  "sources": [
+   "https://midge.cfans.umn.edu/vsmivp/plecoptera/perlidae",
+   "https://www.troutnut.com/hatch/965/Stonefly-Perlidae-Golden-Stones",
+   "https://www.inaturalist.org/guide_taxa/117854",
+   "https://www.troutnut.com/hatch/1058/Stonefly-Hesperoperla-pacifica-Golden-Stone",
+   "https://en.wikipedia.org/wiki/Plecoptera"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "fw-golden-stone-adult",
+  "verdict": "minor",
+  "truth": "Wikipedia's Plecoptera account states adults have 'two pairs of wings, which are membranous and fold flat over their backs', 'long, paired cerci projecting from the tip of their abdomens' and 'long, multiple-segmented antennae', and that the abdomen 'may include remnants of the nymphal gills even in the adult'. Troutnut describes Perlidae adults as stout-bodied with 'lighter, patterned coloration' compared with the darker salmonflies, and notes that some males have 'very short wings' while females retain full wings. Hesperoperla adults are described as more sombre than Calineuria, and emerge 'by crawling out on shore, during late evening'.",
+  "errors": [
+   "'Golden-yellow body' alone - Troutnut emphasises that Perlidae adults are patterned rather than uniformly coloured, and Hesperoperla pacifica specifically has 'a more somber appearance' than Calineuria. A flat golden-yellow wash loses the genus difference and the pronotal pattern."
+  ],
+  "missing": [
+   "The wings extend beyond the tip of the abdomen when folded, and are membranous with heavy complex venation, overlapping flat.",
+   "Adults retain shrivelled gill remnants at the base of each leg - a visible Perlidae adult character.",
+   "The rectangular pronotum with a dark patterned centre, distinct from the head.",
+   "Body length roughly 15 to 40 mm depending on species and sex; females noticeably larger than males.",
+   "Some males are short-winged (brachypterous), a genuine variation worth noting if the plate is generic.",
+   "Wing tint: pale amber to smoky, not stated."
+  ],
+  "invented": [
+   "'crawls out on rocks to hatch (no emerger)' is behaviour, correct in substance (Troutnut says adults emerge by crawling out on shore) but it is a fishing note rather than a visual trait and does nothing for the illustration."
+  ],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. An adult Golden Stonefly (Perlidae: Hesperoperla or Calineuria), a single live insect in dorsal view from directly above, at rest on a dry streamside rock. Elongated stout-bodied insect 15 to 40 mm long. Broad flat head with two very long many-segmented antennae sweeping forward, and behind it a distinct rectangular pronotum patterned dark brown on amber. Body golden-yellow to amber with darker brown mottling, not a flat uniform yellow. Two pairs of membranous wings, four wings in all, heavily and complexly veined, pale amber to smoky, folded flat and overlapping along the back so they lie parallel to the body and extend past the tip of the abdomen - flat, never tented like a caddis and never raised upright like a mayfly. Six sprawling legs, each with shrivelled pale gill remnants at its base. Segmented abdomen and exactly two long many-segmented tail filaments (cerci) projecting straight back from the tip. It is an adult aquatic insect, a stonefly - not a bird, not a cockroach, not a caddisfly, and not a fishing fly tied on a hook.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Plecoptera",
+   "https://www.troutnut.com/hatch/965/Stonefly-Perlidae-Golden-Stones",
+   "https://www.troutnut.com/hatch/1058/Stonefly-Hesperoperla-pacifica-Golden-Stone",
+   "https://www.inaturalist.org/guide_taxa/117854"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "fw-salmonfly-nymph",
+  "verdict": "minor",
+  "truth": "The iNaturalist Selected Aquatic Insects of Oregon account for Pteronarcys californica gives the larva 'Thick filamentous gills on underside of thorax and first two abdominal segments', a mature body length of 40-50 mm excluding tails, dark brown to black above with lighter tones on the abdominal underside, and - critically - 'Two tail appendages measuring half the abdominal length or less'. The University of Minnesota key confirms 'Pteronarcyidae has gills on abdominal segments 1 and 2 as well as the thorax', which is what separates the family from Perlidae. Wikipedia gives lengths 'in excess of 5 centimetres (2 in)' and three to four years in the water.",
+  "errors": [
+   "'two long tail filaments (never three)' - the count of two is right but 'long' is wrong. The Oregon account gives Pteronarcys cerci as 'half the abdominal length or less'. Salmonfly nymph tails are conspicuously SHORT and stubby, which is a field mark.",
+   "'tufted gills at the bases of the legs' as the only gills - incomplete to the point of being wrong. Pteronarcyidae is defined against Perlidae by also having thick filamentous gill tufts on the underside of abdominal segments 1 and 2.",
+   "'Flattened segmented body' - the Pteronarcys nymph is heavy and robust, dark above and lighter below; the Oregon and Wikipedia descriptions do not describe it as flattened in the Perlidae sense.",
+   "The whole anatomy paragraph is identical boilerplate shared with the Golden Stone and Yellow Sally entries, so nothing in it identifies this species."
+  ],
+  "missing": [
+   "Gill tufts on the underside of abdominal segments 1 and 2 as well as the thorax - the family-diagnostic feature.",
+   "Short cerci, half the abdomen length or less.",
+   "Size: 40-50 mm body, up to 5 cm / 2 inches - among the largest stonefly nymphs in North America.",
+   "Dark brown to black dorsally with a lighter, paler underside.",
+   "Two pairs of wing pads (meso- and metathoracic) rather than an unspecified number.",
+   "Three to four years spent in the water before emergence (the look note says three; Wikipedia says three to four)."
+  ],
+  "invented": [
+   "'long tail filaments' - contradicted by the Oregon species account."
+  ],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. A Giant Salmonfly nymph (Pteronarcys californica), the aquatic immature insect, dorsal view from directly above, crawling on a wet cobble. Very large and heavily built: 40 to 50 mm long excluding tails, up to two inches. Dark brown to near-black across the back, the underside noticeably paler. Broad blunt head with chewing mouthparts and two long many-segmented antennae sweeping forward, a rectangular pronotum with rounded corners behind it. Thorax of three plated segments, the second and third each bearing a dark wing pad, so two pairs of wing pads in all - never one pair. Six stout sprawling legs, each with two claws. Thick pale filamentous gill tufts on the underside of the thorax at the leg bases AND a further pair of gill tufts on the underside of the first and second abdominal segments, just showing past the body outline from above. Long segmented abdomen of ten visible segments. Exactly two SHORT stubby tail filaments at the tip, no longer than half the abdomen - short, not streaming. No wings. It is an aquatic insect nymph, not a bird, not a beetle, not a cockroach, not a worm with legs, and not a fishing fly tied on a hook.",
+  "sources": [
+   "https://www.inaturalist.org/guide_taxa/117853",
+   "https://midge.cfans.umn.edu/vsmivp/plecoptera/pteronarcyidae",
+   "https://en.wikipedia.org/wiki/Pteronarcys_californica"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "fw-salmonfly-adult",
+  "verdict": "minor",
+  "truth": "The iNaturalist Oregon account gives the adult Pteronarcys californica a body of 40-50 mm, upper surface 'light to dark brown', underside 'pale to bright orange' with an 'Obvious orange band in front and behind prothorax', wings 'heavily veined with a grayish appearance', and 'Two tails comprising one-half or less of the abdominal length'. Wikipedia adds that the wings are 'longer than the body' and 'kept flat against the body when at rest', with bright orange on 'the abdomen, leg joints, and several thorax joints', and females carrying an egg cluster that looks like orange salmon eggs.",
+  "errors": [
+   "'two long tail filaments' - wrong. The Oregon account gives adult cerci as one-half the abdominal length or less. Salmonfly adult tails are short.",
+   "'Huge orange-and-black adult' combined with 'dorsal view resting on a rock' - these fight each other. The orange is largely ventral (pale to bright orange underside) plus bands immediately in front of and behind the prothorax and at the leg joints; the dorsal surface is light to dark brown with grey-brown wings over it. A dorsal view would read as mostly dark with orange collar bands, not as an orange-and-black insect.",
+   "The anatomy paragraph is shared boilerplate with the Golden Stone and Yellow Sally adults and states no colour at all, so the only colour information is in the look note."
+  ],
+  "missing": [
+   "Body length 40-50 mm; females larger than males - the largest stonefly in western North America.",
+   "Wings longer than the body, heavily veined, greyish-smoky.",
+   "The specific orange bands immediately in front of and behind the prothorax, and orange at the leg joints; pale to bright orange underside.",
+   "Short cerci, half the abdomen or less.",
+   "Non-functional gill remnants persisting on the first two abdominal segments even in the adult.",
+   "Females may carry a cluster of orange eggs at the abdomen tip."
+  ],
+  "invented": [
+   "'clumsy flier, lands on the water hard' - behaviour, unobjectionable but not a visual trait and not drawn from an anatomical source."
+  ],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. An adult Giant Salmonfly (Pteronarcys californica), a single live insect in dorsal view from directly above, at rest on a dry streamside rock. Very large: body 40 to 50 mm long, females larger than males. Upper surface light to dark brown, nearly black on the head, with a vivid orange band immediately in front of and immediately behind the small rectangular prothorax like a collar, and orange showing at the leg joints; the underside, glimpsed at the body edges, is pale to bright orange. Broad blunt head with two long many-segmented antennae sweeping forward. Two pairs of wings, four wings in all, greyish and smoky with heavy dark venation, folded flat and overlapping along the back so they lie parallel to the body and extend well beyond the tip of the abdomen - flat, never tented like a caddis and never upright like a mayfly. Six sprawling legs with orange joints. Segmented brown abdomen, with shrivelled non-functional gill remnants on the first two segments. Exactly two SHORT tail filaments at the tip, no more than half the length of the abdomen. It is an adult aquatic insect, a stonefly - not a bird, not a cockroach, not a wasp, and not a fishing fly tied on a hook.",
+  "sources": [
+   "https://www.inaturalist.org/guide_taxa/117853",
+   "https://en.wikipedia.org/wiki/Pteronarcys_californica",
+   "https://en.wikipedia.org/wiki/Plecoptera"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "fw-yellow-sally-nymph",
+  "verdict": "wrong",
+  "truth": "macroinvertebrates.org states for the genus Isoperla (Perlodidae) that gills are 'Absent from thoracic and abdominal segments', and that this is what distinguishes the genus from many other stoneflies. The same account gives two cerci 'subequal to the length of abdomen or longer', an abdomen frequently showing 'dark longitudinal pigment bands', a thorax with a 'distinct pigment pattern', chewing mouthparts with two apical teeth on the lacinia, two tarsal claws per leg, and hind legs that do not reach the end of the abdomen. Isoperla is a slender, elongate nymph, not a broad flattened one.",
+  "errors": [
+   "'tufted gills at the bases of the legs' - flatly wrong. Isoperla nymphs have NO thoracic gills and no abdominal gills; macroinvertebrates.org calls their absence a diagnostic character of the genus. This is Perlidae anatomy pasted onto a perlodid.",
+   "'Flattened segmented body' - wrong body form. Isoperla nymphs are slender and elongate, roughly cylindrical, not the broad depressed shape of a Golden Stone.",
+   "'Small yellow-brown stonefly nymph' with no pattern - the genus is defined visually by strong dark longitudinal pigment bands on the abdomen and a distinct pigment pattern on the head and thorax; a plain yellow-brown wash loses the identification.",
+   "The anatomy paragraph is identical boilerplate shared with the Golden Stone and Salmonfly nymph entries, which is precisely how the wrong-family gills got in."
+  ],
+  "missing": [
+   "The absence of gills - it needs to be stated as an explicit negative, because the model will otherwise default to stonefly gill tufts.",
+   "Dark longitudinal pigment stripes down the abdomen and a patterned head and pronotum.",
+   "Two cerci as long as or longer than the abdomen.",
+   "Slender elongate body form, roughly cylindrical.",
+   "Two tarsal claws per leg; hind legs not reaching the abdomen tip.",
+   "Two pairs of wing pads.",
+   "Size: small, well under 20 mm in most species - the sources consulted are genus-level and do not give a single figure, and Isoperla is one of the largest stonefly genera with over 57 North American species, so size and pattern vary."
+  ],
+  "invented": [
+   "The gill tufts - no source supports gills anywhere on an Isoperla nymph."
+  ],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. A Little Yellow Sally stonefly nymph (Isoperla, family Perlodidae), the aquatic immature insect, dorsal view from directly above, crawling among gravel. Small and SLENDER: an elongate, roughly cylindrical body well under 20 mm long, not broad and not flattened. Pale yellow-brown to olive-yellow ground colour with a distinct dark pigment pattern on the head and on the rectangular pronotum, and two or three dark longitudinal stripes running the length of the abdomen. Head with chewing mouthparts and two long many-segmented antennae sweeping forward. Thorax of three segments, the second and third each bearing a small dark wing pad, so two pairs of wing pads in all - never one pair. Six slender legs, each with two claws, the hind legs not reaching the tip of the abdomen. There are NO gills anywhere: no tufts at the leg bases, none on the underside of the thorax, none on the abdomen - the body surface is smooth and bare, which is what identifies this genus. Exactly two long thin tail filaments at the tip, as long as the abdomen or longer. No wings. It is an aquatic insect nymph, not a bird, not a beetle, not a silverfish, not a worm with legs, and not a fishing fly tied on a hook.",
+  "sources": [
+   "https://www.macroinvertebrates.org/taxa-info/plecoptera-larva/perlodidae/isoperla/dorsal",
+   "https://www.troutnut.com/hatch/1115/Stonefly-Isoperla-Yellow-Sallies",
+   "http://www.ohiostoneflies.org/Key%20to%20Nymphs/perlodidae_isoperla.html",
+   "https://en.wikipedia.org/wiki/Plecoptera"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "fw-yellow-sally-adult",
+  "verdict": "minor",
+  "truth": "Wikipedia's Plecoptera account gives stonefly adults 'two pairs of wings, which are membranous and fold flat over their backs', 'long, paired cerci' and 'long, multiple-segmented antennae'. Troutnut's Isoperla page describes specimens with 'plain yellow bodies, but on closer inspection turn out to have striking, fiery red abdomens', and First Nature describes Isoperla grammatica as a medium-sized stonefly appearing as 'a sulphur yellow blur in the summer sunshine', hatching during the heat of the day.",
+  "errors": [
+   "'sometimes red-tipped abdomen' - understated and slightly off. Troutnut describes whole 'fiery red abdomens' under apparently plain yellow bodies, not merely a red tip. The red-tip formulation comes from fly-tying convention rather than the entomological description.",
+   "'flat wings' with no colour - Isoperla adult wings are pale yellowish and translucent, not stated."
+  ],
+  "missing": [
+   "Four wings in two pairs (the prompt does say two pairs, so this is covered, but the wings extending past the abdomen tip is not).",
+   "Wing colour: pale yellowish-hyaline with yellow-brown venation.",
+   "Body colour: sulphur to greenish yellow, often with a darker median line down the head, pronotum and abdomen.",
+   "Size: small to medium, roughly 8 to 15 mm - Troutnut is explicit that Isoperla species-level identification is hard and the sources consulted are genus-level, so size and exact pattern vary across a very large genus.",
+   "Adults are day-fliers, active in bright sun (First Nature), which is why the yellow is so conspicuous."
+  ],
+  "invented": [],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. An adult Little Yellow Sally stonefly (Isoperla), a single live insect in dorsal view from directly above, at rest on a sunlit streamside rock. Small to medium, roughly 8 to 15 mm long, slender. Body sulphur to greenish yellow overall, often with a narrow darker median line running down the head, the rectangular pronotum and the abdomen; in many individuals the abdomen itself is a striking fiery red or orange-red showing through the pale yellow of the back, not merely a red tip. Head with two long many-segmented pale antennae sweeping forward. Two pairs of wings, four wings in all, pale yellowish and translucent with yellow-brown venation, folded flat and overlapping along the back so they lie parallel to the body and extend past the tip of the abdomen - flat, never tented like a caddis and never upright like a mayfly. Six slender yellow legs. Exactly two long many-segmented tail filaments (cerci) projecting straight back from the abdomen tip. It is an adult aquatic insect, a stonefly - not a bird, not a wasp, not a caddisfly, and not a fishing fly tied on a hook.",
+  "sources": [
+   "https://www.troutnut.com/hatch/1115/Stonefly-Isoperla-Yellow-Sallies",
+   "https://www.first-nature.com/insects/p-isoperla-grammatica.php",
+   "https://en.wikipedia.org/wiki/Plecoptera"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "fw-midge-larva",
+  "verdict": "minor",
+  "truth": "Animal Diversity Web describes chironomid larvae as 'elongate and cylindrical, with distinct segmentation and a hard sclerotized head capsule that cannot be retracted into the body', adding 'They have no true legs, but do have a pair of unjointed \"prolegs\" on the first segment of the thorax'. macroinvertebrates.org gives 'hook-bearing prothoracic and anal prolegs paired'. The IntechOpen review describes 'two non-segmented pseudopods with a crown of simple or hook-shaped claws' on the thorax plus posterior pseudopods on the terminal segment, and notes that Chironominae larvae are 'generally provided with hemoglobin and colored red' while Orthocladiinae lack the pigment.",
+  "errors": [
+   "'no legs' stated flatly - true for jointed thoracic legs, but the larva does have a pair of unjointed fleshy prolegs bearing a crown of hooked claws on the first thoracic segment and a second pair at the tail end. 'No legs at all' will produce a smooth featureless thread, losing two real structures.",
+   "'A thin slender segmented worm-like body' with no size - chironomid larvae range from a couple of millimetres to well over 20 mm depending on genus; a single 'tiny' is not a description."
+  ],
+  "missing": [
+   "The pair of stumpy unjointed prothoracic prolegs with a crown of hooked claws, and the paired posterior prolegs at the tail tip.",
+   "The head capsule is hard, sclerotized, fully exposed and non-retractile - not merely 'a tiny dark head'.",
+   "Pale finger-like anal tubules at the rear in many genera.",
+   "The red colour is specifically haemoglobin in Chironominae; Orthocladiinae larvae lack it and are olive, cream or brown - so the red/olive/black range in the look note has a real taxonomic basis worth stating.",
+   "The characteristic figure-of-eight or C-curved posture caused by the undulating body movements used to draw oxygen.",
+   "The closing 'it is an insect' assertion sentence required by the house style is absent from this prompt - and this is the entry most at risk of being drawn as an earthworm."
+  ],
+  "invented": [],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. A midge larva (Chironomidae), the aquatic immature insect, strict lateral view, curved into a loose C or figure-of-eight in open water. A slender, elongate, distinctly segmented cylindrical body, a few millimetres to about 20 mm long. Colour either translucent blood-red - the bloodworm form, red because the blood carries haemoglobin - or olive, cream or dark brown in other groups. At the front a small hard dark sclerotized head capsule, fully exposed and not retracted into the body, with tiny chewing mouthparts. Immediately behind the head, on the first thoracic segment, a pair of short stumpy unjointed fleshy prolegs tipped with a crown of small hooked claws; a second pair of similar prolegs at the very tip of the abdomen, and beside them a few pale finger-like anal tubules. There are NO jointed legs, no wings, no wing pads, no antennae to speak of and no tails. It is an aquatic insect larva, a true fly larva, not an earthworm, not a bird, not a snake, not a worm with legs, and not a fishing fly tied on a hook.",
+  "sources": [
+   "https://animaldiversity.org/accounts/Chironomidae/",
+   "https://www.macroinvertebrates.org/taxa-info/diptera-larva/chironomidae",
+   "https://www.intechopen.com/chapters/74836",
+   "https://en.wikipedia.org/wiki/Chironomidae"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "fw-midge-pupa",
+  "verdict": "minor",
+  "truth": "The IntechOpen Chironomidae review describes the pupa as comma-shaped with 'a swollen cephalothorax and a dorsoventrally flattened abdomen', 3 to 18 mm long; the thorax bears 'a pair of respiratory organs, also called: prothoracic horns or thoracic horns, which vary greatly in shape depending on the species or genera', along with 'the wing sheaths, or pterotheca and the legs sheaths or podotheca'. The abdomen has nine articulated segments and 'The last segment widens forming the two anal lobes. The external margin of these anal lobes always bears swimming setae forming the swimming fringe.' The pupa reaches the surface by 'eel-like whole-body undulation'.",
+  "errors": [
+   "'a tuft of white gill filaments on the head' - misplaced. The paired respiratory organs are THORACIC horns, borne on the thorax immediately behind the head, not on the head itself, and their shape varies greatly by genus from a simple tube to a branched plume.",
+   "'no legs visible' - wrong. The swollen thorax carries visible leg sheaths (podotheca) as well as wing sheaths, curved down along the underside.",
+   "'hanging vertically just under the water surface' as the sole posture - the review describes the pupa actively ascending by whole-body eel-like undulation; the motionless vertical hang is an angling framing of one moment rather than the described behaviour."
+  ],
+  "missing": [
+   "Size, 3 to 18 mm.",
+   "Dorsoventrally flattened abdomen of nine articulated segments behind the swollen cephalothorax.",
+   "The terminal segment widening into two anal lobes fringed along their outer margin with swimming setae - a paddle at the tail end.",
+   "Leg sheaths (podotheca) curving along the underside of the thorax alongside the wing sheaths.",
+   "The thoracic horns are paired and vary from simple tubes to branched plumes.",
+   "The closing 'it is an insect' assertion sentence is absent from this prompt."
+  ],
+  "invented": [],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. A midge pupa (Chironomidae), the aquatic pupal stage, strict lateral view, ascending through open water just beneath the surface film with its body flexed. Comma-shaped: a swollen bulbous cephalothorax at the front tapering into a slender, slightly flattened abdomen of nine clearly articulated segments. Length 3 to 18 mm. Body translucent olive, amber or dark brown, the thorax darkest. On top of the thorax immediately behind the head, a pair of pale respiratory thoracic horns - branched feathery plumes in some genera, simple short tubes in others - standing up like a tuft. Down the sides and underside of the thorax, dark developing wing sheaths and, beside them, curved leg sheaths pressed against the body. Fine pale hair fringes along the sides of the abdominal segments. At the tail the last segment widens into two flat anal lobes whose outer margins carry a dense fringe of long swimming hairs, forming a paddle. No jointed free legs, no open wings, no tails. It is an aquatic insect pupa, a true fly pupa, not a shrimp, not a bird, not a tadpole, and not a fishing fly tied on a hook.",
+  "sources": [
+   "https://www.intechopen.com/chapters/74836",
+   "https://animaldiversity.org/accounts/Chironomidae/",
+   "https://en.wikipedia.org/wiki/Chironomidae"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "fw-midge-adult",
+  "verdict": "minor",
+  "truth": "Animal Diversity Web describes adult Chironomidae as small flies of 1-20 mm with two wings that 'do not bite, and have no scales on their wings' unlike mosquitoes; 'Many species rest on their hind two pairs of legs, and hold their forelegs out in front of them'; 'adult males have plumose antennae that are much larger than the females'; most are brown or black; and adults lack functional feeding mouthparts. Wikipedia adds that they are distinguished from true mosquitoes by 'the absence of the wing scales and elongated mouthparts characteristic of the Culicidae'.",
+  "errors": [
+   "'Looks like a tiny mosquito' with no correction - the two named differences from a mosquito are that chironomids have no scales on the wings and no elongated piercing mouthparts. Telling the model it looks like a mosquito without stating those negatives is the most likely way to get a drawn proboscis.",
+   "'long thin legs' with no posture - the diagnostic chironomid stance is resting on the hind two pairs of legs with the FORELEGS held out and raised in front, often vibrating. The prompt omits it.",
+   "'two clear wings folded flat over the back' - the wings are held over the abdomen, typically narrow and somewhat roof-like or overlapping rather than pressed flat like a stonefly's."
+  ],
+  "missing": [
+   "The raised, forward-held forelegs, the single most recognisable adult chironomid posture.",
+   "Halteres: the reduced hind wings as a pair of tiny knobbed stalks behind the wing bases - the visible proof that this is a two-winged fly.",
+   "No wing scales and no elongated biting proboscis; mouthparts non-functional.",
+   "Size 1-20 mm, most species brown or black.",
+   "The male's plumose antennae are described specifically as much larger than the female's - so if one sex is drawn, say which."
+  ],
+  "invented": [
+   "'forms clusters on surface' - a fishing observation, not an anatomical trait from the sources consulted."
+  ],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. An adult male midge (Chironomidae), a single live insect in strict lateral view standing on the water surface film. Small and delicate, 1 to 20 mm long, body dark brown to black, slender, with a humped thorax and a narrow segmented abdomen. Exactly TWO wings - one pair - clear and unmarked, held back over the abdomen and slightly overlapping, narrow and glassy; the wing membrane bears fine hairs but NO scales. Immediately behind the wing bases, a pair of tiny knobbed stalks, the halteres, marking this as a two-winged fly. Head small with large dark compound eyes and, in the male, large feathery plumose antennae like two bottle brushes - much larger than the female's. Mouthparts are short and non-functional: there is NO long piercing proboscis, this insect does not bite. Six very long thin legs: the insect stands on the two hind pairs while the front pair is held up and out in front of the head, raised clear of the surface. No tails, no cerci, no wing pads. It is an adult aquatic insect, a non-biting midge, not a mosquito, not a crane fly, not a bird, and not a fishing fly tied on a hook.",
+  "sources": [
+   "https://animaldiversity.org/accounts/Chironomidae/",
+   "https://en.wikipedia.org/wiki/Chironomidae"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "fw-hopper-adult",
+  "verdict": "minor",
+  "truth": "Wikipedia's grasshopper account describes a head held vertically with mouthparts at the bottom, 'a large pair of compound eyes which give all-round vision, three simple eyes which can detect light and dark, and a pair of thread-like antennae'; Caeliferans have 'fewer segments in their shorter, stouter antennae' than crickets and katydids; the thorax bears three pairs of legs and two pairs of wings, the forewings or tegmina 'narrow and leathery' and the hindwings 'large and membranous, the veins providing strength'; the hind femur is 'robust and has several ridges'. Wikipedia's Acrididae page confirms 'relatively short and stout antennae' (short-horned grasshoppers) and tympana on the side of the first abdominal segment.",
+  "errors": [
+   "'two antennae' with no length given - the defining character of a grasshopper as against a cricket or katydid is that the antennae are SHORT and stout. An unqualified 'two antennae' invites long katydid antennae and the wrong insect.",
+   "'wings folded along the back' with no count or structure - there are two pairs: narrow leathery tegmina covering large membranous fan-folded hind wings. As written this could produce anything.",
+   "'Orthoptera' is used as though it were the taxon of a grasshopper; Orthoptera also contains crickets and katydids. The relevant group is the suborder Caelifera, family Acrididae.",
+   "The prompt never states the leg count."
+  ],
+  "missing": [
+   "Short, stout antennae - the short-horned grasshopper character.",
+   "Six legs; two pairs of wings (leathery narrow tegmina over large membranous hind wings folded fanwise beneath).",
+   "Head held vertically with chewing mouthparts at the bottom, large compound eyes giving all-round vision and three ocelli.",
+   "Robust ridged hind femur and a long spined hind tibia.",
+   "A tympanum, a round membrane on the side of the first abdominal segment.",
+   "Size and sex note: females are normally larger than males.",
+   "The closing 'it is an insect' assertion sentence required by the house style is absent from this prompt."
+  ],
+  "invented": [
+   "'lands with a plop near grassy banks' - behaviour from fishing lore, not a visual trait."
+  ],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. An adult short-horned grasshopper (Acrididae, suborder Caelifera), a single live insect in strict lateral view clinging to a grass stem. Body 20 to 50 mm, tan, straw-yellow or grass-green, often mottled. Head held vertically, deeper than long, with the chewing mouthparts at the bottom, a large pair of bulging compound eyes set high, three tiny simple eyes between them, and two SHORT stout thread-like antennae no longer than the head and thorax together - short, never long and whip-like. Saddle-shaped pronotum behind the head. Six legs: two short pairs at the front, and a pair of greatly enlarged hind legs, the femur thick, robust and marked with several oblique ridges, folded into a sharp jump-ready Z, the long tibia below it lined with two rows of small spines. Two pairs of wings folded along the back: the narrow leathery forewings (tegmina) lying like straight covers over the sides of the abdomen, with the large membranous hind wings folded fanwise and hidden beneath them. Segmented abdomen with a round membranous tympanum on the side of the first segment. It is an adult insect, a grasshopper - not a cricket, not a katydid, not a bird, and not a fishing fly tied on a hook.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Grasshopper",
+   "https://en.wikipedia.org/wiki/Acrididae"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "fw-ant-adult",
+  "verdict": "minor",
+  "truth": "Wikipedia's ant account describes the body as dividing into 'the head, mesosoma, and metasoma', with 'the petiole forms a narrow waist between their mesosoma (thorax plus the first abdominal segment, which is fused to it) and gaster', plus 'geniculate (elbowed) antennae', 'a strong constriction of their second abdominal segment into a node-like petiole', compound eyes and three ocelli, 'two strong jaws, the mandibles', six legs ending in hooked claws, and crucially 'Only reproductive ants (queens and males) have wings. Queens shed their wings after the nuptial flight.' Workers range from 0.75 to 52 mm and most species are 'yellow to red or brown to black'.",
+  "errors": [
+   "The entry's own look note says 'Two distinct body segments with thin waist' - that is wrong, and it contradicts the prompt body, which correctly says three. Ants have three body regions: head, mesosoma and metasoma/gaster. Worth fixing at source so it does not leak into a future prompt.",
+   "'A Ant (Formicidae)' - grammatical slip in the prompt text itself.",
+   "'Three body segments with a narrow waist' - correct as far as it goes, but the waist is specifically one or two node-like petiole segments, a visibly distinct pinched structure, not merely a narrowing."
+  ],
+  "missing": [
+   "The caste must be stated. Only queens and males have wings; workers are wingless. An unspecified 'ant' can be drawn winged, which for a fishing context is a different thing entirely (the flying-ant fall).",
+   "The petiole as one or two discrete raised nodes between mesosoma and gaster.",
+   "The bulbous rounded gaster.",
+   "Strong forward-projecting mandibles.",
+   "Compound eyes and three ocelli on top of the head.",
+   "Legs ending in hooked claws.",
+   "Size range 0.75 to 52 mm; most species yellow to red or brown to black, which supports the 'black or cinnamon' note.",
+   "The closing 'it is an insect' assertion sentence is absent from this prompt."
+  ],
+  "invented": [],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. An adult worker ant (Formicidae), a single live insect in strict lateral view walking on a twig. Small, 2 to 10 mm long, glossy black or warm cinnamon-brown. The body is in three distinct parts: a rounded head, a compact arched mesosoma bearing all the legs, and a smooth bulbous gaster behind. Between the mesosoma and the gaster the waist is pinched into one or two small raised node-like segments, the petiole - a sharply defined hinge, not a gentle narrowing. Head with strong forward-projecting toothed mandibles, a pair of compound eyes on the sides and three tiny simple eyes on top, and two elbowed antennae: a long straight first segment rising from near the mouth, then a sharp bend and a shorter jointed club angled forward. Six slender legs attached to the mesosoma, each ending in a small hooked claw. This is a worker, so it is completely WINGLESS - no wings, no wing stubs, no wing pads; only queens and males have wings. No tail, no sting shown. It is an adult terrestrial insect, an ant - not a wasp, not a bee, not a bird, not a spider, and not a fishing fly tied on a hook.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Ant"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "fw-ant-flying",
+  "verdict": "minor",
+  "truth": "Sources describe an ant as having three body regions (head, mesosoma, metasoma) joined by a node-like petiole that makes the narrow waist, geniculate (elbowed) antennae, compound eyes plus three ocelli on top of the head, and six legs each ending in a hooked claw; only reproductives (queens and males) are winged, and Hymenoptera carry two pairs of membranous wings in which the smaller hind wing is locked to the larger fore wing by hooked bristles (hamuli). Body length across ants ranges from 0.75 to 52 mm.",
+  "errors": [
+   "\"two pairs of clear wings\" is the right count but implies four equal wings; Hymenoptera sources state the hind wing is distinctly smaller than the fore wing and is coupled to it by hamuli",
+   "\"Winged ant during mating swarms, trout key on them hard\" - fishing behaviour text left inside an image prompt; 'trout key on them hard' invites the model to draw a fish"
+  ],
+  "missing": [
+   "the node-like petiole (one or two raised nodes) that actually forms the narrow waist",
+   "compound eyes plus three small ocelli on top of the head",
+   "wings longer than the body and held over the back at rest",
+   "size (an alate of the species trout eat is a small insect, roughly 5-12 mm)",
+   "hooked claw at the end of each leg"
+  ],
+  "invented": [
+   "\"trout key on them hard\" - a fishing observation, not an anatomical fact, and no source supports putting it in a picture of the animal"
+  ],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. A winged reproductive ant (Formicidae, alate), side view on plain ground. Three body regions - a head, a mesosoma (thorax), and a bulbous gaster - joined by a sharply constricted waist formed by one or two raised petiole nodes. Head bears a pair of geniculate elbowed antennae with a long first segment, large compound eyes, and three tiny ocelli on top. Six slender legs, three on each side, each ending in a hooked claw. Two pairs of clear membranous veined wings held over the back, the fore wing distinctly larger than the hind wing, both wings longer than the body. Dark brown to black body about 8 mm long. It is a winged adult ant, an insect, not a wasp, not a termite, and not a fish.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Ant",
+   "https://en.wikipedia.org/wiki/Hymenoptera"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "fw-beetle-adult",
+  "verdict": "minor",
+  "truth": "Sources describe beetles as having a hard exoskeleton and hardened forewings (elytra) that cover the hind part of the body and protect the folded membranous hindwings, the elytra typically meeting in a straight line down the back; the body is head, thorax and abdomen, with a hard pronotum plate visible in front of the elytra, antennae of usually 11 or fewer segments, and three pairs of legs.",
+  "errors": [
+   "\"Hard rounded black or brown shell, sits low in the film\" - 'sits low in the film' is fly-fishing behaviour text left inside an image prompt, not anatomy",
+   "\"short antennae\" is asserted for the whole order Coleoptera; sources say antennae usually have 11 or fewer segments but vary enormously in length and form between families"
+  ],
+  "missing": [
+   "the elytra meeting in a straight suture line down the midline of the back",
+   "the pronotum, a separate hard plate between the head and the elytra",
+   "distinct head visible in front of the pronotum",
+   "membranous hindwings folded away beneath the elytra",
+   "three body regions (head, thorax, abdomen) and the abdomen being hidden under the elytra",
+   "size (a trout-relevant terrestrial beetle is roughly 5-15 mm)"
+  ],
+  "invented": [],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. A small terrestrial beetle (Coleoptera), dorsal view from directly above on plain ground. Broad oval domed body about 10 mm long in three regions: a small head at the front, a hard shield-like pronotum plate behind it, and a pair of hard shiny convex wing covers (elytra) that cover the entire abdomen and meet along a straight suture down the midline of the back, with the membranous flight wings folded hidden underneath. Six legs, three on each side, emerging from beneath the body. One pair of segmented antennae on the head, moderately short with about eleven segments. Glossy black to warm chestnut brown with a faint metallic sheen. It is a live beetle, an insect with hard wing covers, not a ladybug toy, not a cockroach, and not a fishing fly.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Beetle"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "fw-scud-adult",
+  "verdict": "minor",
+  "truth": "Sources describe amphipods (scuds) as crustaceans with 13 body segments, an arched body flattened side-to-side, no carapace, sessile compound eyes with no eyestalks, two pairs of antennae, eight pairs of thoracic appendages (the front two pairs modified into clawed gnathopods), swimming pleopods and three pairs of uropods that do not form a tail fan; they crawl and swim on their sides, most are about a quarter to three quarters of an inch long, and fly-fishing sources give olive and tan as commonest with grey, yellow, pink and orange shading.",
+  "errors": [
+   "\"Curved shrimp-like body\" is the only body description given and risks producing an actual shrimp; sources stress amphipods lack a carapace and have sessile eyes with no eyestalks, unlike shrimp",
+   "no leg count, antennae count or segment count is given at all - the prompt gives the model nothing to count"
+  ],
+  "missing": [
+   "laterally compressed (flattened side to side), not top-to-bottom",
+   "13 body segments and no carapace",
+   "seven pairs of walking legs behind the two clawed gnathopod pairs",
+   "two pairs of antennae, the second pair long",
+   "sessile compound eyes, no eyestalks",
+   "several pairs of feathery swimming pleopods under the abdomen and three pairs of uropods at the rear (no shrimp-style tail fan)",
+   "size, roughly 6-20 mm"
+  ],
+  "invented": [],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. A freshwater scud (Amphipoda, e.g. Gammarus), side view, aquatic, body curled into a comma or C shape. Body about 12 mm long, strongly flattened side to side so it is tall and narrow, divided into roughly thirteen visible segments with no shell-like carapace over the back. Small head with two pairs of antennae, the second pair long and whip-like, and small black sessile compound eyes set flush in the head with no eyestalks. Two pairs of small clawed grasping gnathopods at the front, followed by seven pairs of slender jointed walking legs along the thorax, then several pairs of short feathery swimming pleopods beneath the curled abdomen and three small pairs of uropods at the tail end, with no flat fan tail. Translucent olive to tan with faint darker banding and a hint of orange. It is a live freshwater crustacean, an amphipod, not an insect, not a true shrimp, and not a shrimp cocktail.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Amphipoda",
+   "https://mdc.mo.gov/discover-nature/field-guide/scuds-sideswimmers-amphipods",
+   "https://uwm.edu/field-station/bug-of-the-week/scuds/",
+   "https://www.troutnut.com/hatch/71/Arthropod-Amphipoda-Scuds"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "fw-crayfish-adult",
+  "verdict": "minor",
+  "truth": "Sources describe a crayfish as a decapod with the front of the body covered by a carapace ending in a pointed rostrum, stalked compound eyes, a small first pair of antennules and a much larger second pair of antennae, ten pereopods of which the first pair are greatly enlarged pincers (chelipeds), five pairs of swimmerets under a six-segmented abdomen, and a telson plus uropods forming a tail fan used as a paddle to swim backwards.",
+  "errors": [
+   "\"Lobster-like, olive-brown to rust, scoots backward with tail flip\" is the entire anatomy given; no claw, leg, antenna or segment count appears, which is the commonest failure mode for this animal"
+  ],
+  "missing": [
+   "carapace covering the cephalothorax and the pointed rostrum in front",
+   "two stalked compound eyes",
+   "two pairs of antennae - short antennules and much longer second antennae",
+   "five pairs of pereopods, the first pair enlarged into large pincers, the remaining four pairs walking legs (small claws on the front walking legs)",
+   "six-segmented abdomen with five pairs of small swimmerets beneath",
+   "telson and uropods forming the flat fan tail"
+  ],
+  "invented": [],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. A freshwater crayfish (Astacoidea), side view, aquatic, body about 8 cm long. The front half is a single hard carapace covering the fused head and thorax, ending in a pointed forward-projecting rostrum, with two compound eyes on short movable stalks, a short pair of antennules and a much longer pair of whip-like second antennae. Five pairs of legs on the thorax: the first pair enlarged into two big hinged pincer claws held forward, then four pairs of thinner walking legs, the front walking legs tipped with tiny claws. Behind the carapace a clearly six-segmented muscular abdomen with overlapping plates, five pairs of small feathery swimmerets underneath, and at the end a flat fan tail made of a central telson flanked by broad uropod plates. Mottled olive-brown with rust and orange tones, joints picked out darker. It is a live freshwater crustacean, not an insect, not a lobster on a plate, and not a shrimp.",
+  "sources": [
+   "https://lanwebs.lander.edu/faculty/rsfox/invertebrates/procambarus.html",
+   "https://en.wikipedia.org/wiki/Crayfish"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "fw-sculpin-adult",
+  "verdict": "minor",
+  "truth": "State wildlife sources describe the mottled sculpin as having a broad flattened head tapering abruptly into a slender, rounded body with no scales (only small prickles), a dorsal fin divided into two distinct parts (a soft-spined front section and a soft-rayed rear section), large fan-shaped pectoral fins, pelvic fins of one spine and three or four rays, olive-brown to slate-grey mottled colour with about four indistinct dark saddle bars, and a length of about 2.5-3.5 inches (most cottids under 10 cm).",
+  "errors": [
+   "\"big flat head, mottled brown, large pectoral fins\" is correct as far as it goes but gives no fin structure; a single undivided dorsal fin is the likely result and sources are explicit that the dorsal fin is in two distinct parts"
+  ],
+  "missing": [
+   "dorsal fin divided into two parts, the front one spiny and the rear soft-rayed",
+   "scaleless skin (small prickles only)",
+   "eyes set high on top of the broad head",
+   "rounded caudal fin and small pelvic fins beneath the pectorals",
+   "roughly four dark saddle bars across the back",
+   "size, about 6-10 cm",
+   "lateral line along the flank"
+  ],
+  "invented": [],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. A sculpin (Cottidae, e.g. Cottus bairdii), a small bottom-dwelling fish about 8 cm long, side view resting on gravel underwater. Broad flattened wedge-shaped head, wider than the body, with a wide mouth and eyes set high on top of the head; the head tapers abruptly into a slender tubular body that narrows to the tail. Skin scaleless and slightly velvety. Two dorsal fins along the back - a low soft-spined front fin followed by a longer soft-rayed second fin - a single anal fin below the rear, very large fan-shaped pectoral fins spread wide just behind the head, small pelvic fins beneath them, and a rounded caudal fin. Faint lateral line along the flank. Olive-brown to slate grey, heavily mottled and speckled darker, with about four indistinct dark saddle bars across the back and a pale belly. It is a live freshwater fish, not an insect and not a tadpole.",
+  "sources": [
+   "https://mdc.mo.gov/discover-nature/field-guide/mottled-sculpin",
+   "https://en.wikipedia.org/wiki/Cottidae"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "fw-minnow-adult",
+  "verdict": "minor",
+  "truth": "State wildlife sources describe the common shiner as a silvery, rather deep and slab-sided minnow with a terminal oblique mouth lacking barbels, a single dorsal fin set well forward (its base much closer to the snout than to the tail), olive back with a dark midline stripe, silvery iridescent sides and silvery-white belly, at 3-5 inches long and up to about 7 inches; cyprinids generally have cycloid scales, a forked caudal fin and a lateral line.",
+  "errors": [
+   "\"Slim silver-flashing baitfish, schools in shallows\" is the whole description; no fins, mouth, scales or lateral line are specified, and 'schools in shallows' is behaviour text left inside an image prompt of a single fish",
+   "\"Slim\" understates the shape - sources call the common shiner \"rather deep and slab-sided\""
+  ],
+  "missing": [
+   "single soft-rayed dorsal fin set forward on the back, no adipose fin",
+   "deeply forked caudal fin",
+   "visible cycloid scales and a lateral line along the flank",
+   "terminal oblique mouth with no barbels",
+   "dark olive back with a dark midline stripe and silvery-white belly",
+   "size, roughly 8-13 cm"
+  ],
+  "invented": [],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. A minnow or shiner (Cyprinidae, e.g. Luxilus cornutus), a small fish about 10 cm long, side view underwater. Body laterally compressed and slab-sided, deepest just ahead of the middle, tapering to a narrow tail base. Blunt snout with a small terminal oblique mouth and no barbels; large round eye. A single soft-rayed dorsal fin set on the midback, its base closer to the snout than to the tail, and no small fleshy adipose fin behind it. Deeply forked caudal fin, one anal fin under the rear, paired pectoral fins behind the gill cover and small pelvic fins beneath the belly. Regular rows of large cycloid scales and a faint lateral line running the length of the flank. Olive-green back with a fine dark midline stripe, bright silvery iridescent sides, silvery-white belly, plain fins. It is a live freshwater baitfish, not an insect and not a fishing lure.",
+  "sources": [
+   "https://mdc.mo.gov/discover-nature/field-guide/common-shiner",
+   "https://portal.ct.gov/DEEP/Fishing/Freshwater/Freshwater-Fishes-of-Connecticut/Common-Shiner"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "fw-leech-adult",
+  "verdict": "minor",
+  "truth": "Sources describe leeches as annelids with 32 body somites (34 counting the head segments), the surface subdivided into many fine external rings (annuli), a body that is dorso-ventrally flattened and tapers at both ends, a sucker at both the front and rear ends, and two to ten pigment-spot ocelli arranged in pairs towards the front; Hirudinidae and Erpobdellidae swim with up-and-down undulations, and sizes run from about 1 cm to 30 cm.",
+  "errors": [
+   "\"Undulating flat black/brown/olive ribbon\" omits the suckers entirely - a leech without a posterior sucker is not a recognisable leech"
+  ],
+  "missing": [
+   "a sucker at both the anterior and posterior end, the rear one larger and disc-like",
+   "body of about 32-34 segments subdivided into many fine external annuli (fine transverse ringing)",
+   "body tapering at both ends and dorso-ventrally flattened",
+   "two to ten small paired eyespots near the front",
+   "size, roughly 2-10 cm for the species trout eat"
+  ],
+  "invented": [],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. A freshwater leech (Hirudinea), adult, side view swimming in open water, body about 5 cm long in a smooth up-and-down undulating wave. Soft muscular worm-like body, flattened from top to bottom, tapering at both ends, its surface finely ringed by many close-set transverse annuli grouped into about thirty-four body segments. A small narrow sucker at the head end with several tiny paired dark eyespots along the top near the front, and a larger round disc-shaped sucker at the rear end. No legs, no bristles, no antennae. Glossy dark olive-brown to near-black on the back, often with fine paler speckling or a dull orange to olive underside. It is a live aquatic annelid worm, not an insect larva, not an eel, and not a strip of rabbit fur.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Hirudinea"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "fw-sulphur-nymph",
+  "verdict": "minor",
+  "truth": "Sources describe the Ephemerella invaria nymph as 7-10 mm, rounded in cross section, olive-brown through red-brown to blackish brown (or pale yellowish brown sprinkled with brown dots), with light brown banded legs and three tails; Ephemerellidae nymphs are crawlers whose gills are hardened operculate plates carried on the top of the rear abdominal segments, not a lateral fringe. Ephemerella dorothea dorothea nymphs are smaller and yellowish brown speckled with pale dots.",
+  "errors": [
+   "\"three tail filaments (two for Epeorus/Quill Gordon)\" - a template parenthetical about a different genus left in a Sulphur prompt; it contradicts the instruction it is attached to and could produce a two-tailed Ephemerella. Ephemerella has three tails, full stop",
+   "\"a row of small gills along each side\" - sources describe Ephemerellidae gills as hardened operculate plates on the dorsal surface of the rear abdominal segments, not a fringe running along both flanks"
+  ],
+  "missing": [
+   "crawler body form, stout and rounded in cross section",
+   "banded legs and banded tails",
+   "body colour described in the sources (olive-brown to red-brown, or pale yellowish brown speckled with brown dots)",
+   "size, 7-10 mm excluding tails",
+   "small paired tubercles/spines along the abdomen"
+  ],
+  "invented": [],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. A Sulphur mayfly nymph (Ephemerella invaria / dorothea), the aquatic immature insect, dorsal view from directly above. Stout crawler about 8 mm long excluding tails, rounded rather than flattened in cross section. Small head with short antennae and eyes to the sides, a thorax bearing two dark unopened wing pads lying flat on the back, and a ten-segmented abdomen carrying a row of overlapping hardened oval gill plates on top of the rear segments, small paired spines along the sides. Six sturdy legs, three on each side, splayed outward, each banded with a darker ring. Exactly three slender tail filaments of equal length at the rear, faintly banded. Olive-brown to reddish brown speckled with pale yellowish dots. No wings, only wing pads. It is an aquatic immature insect, a mayfly nymph, not a shrimp and not a winged adult.",
+  "sources": [
+   "https://www.inaturalist.org/guide_taxa/35361",
+   "https://www.troutnut.com/hatch/11/Mayfly-Ephemerella-invaria-Sulphur-Dun",
+   "https://www.troutnut.com/hatch/458/Mayfly-Ephemerella-dorothea-Sulphur",
+   "https://en.wikipedia.org/wiki/Ephemerellidae"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "fw-sulphur-emerger",
+  "verdict": "minor",
+  "truth": "Sources describe Ephemerella duns as emerging through the surface film with a pale yellow to cream body, light grey wings and three tails, the nymphal skin splitting along the back of the thorax; the emerging insect is 5-11 mm depending on species (E. invaria 8-11 mm, E. dorothea dorothea 5-6 mm).",
+  "errors": [
+   "\"the pale adult with crumpled, half-unfolded wings\" is correct but no tail count is given, and Ephemerella has exactly three"
+  ],
+  "missing": [
+   "three tails on both the emerging dun and the shuck",
+   "the shuck's own anatomy - split thorax, empty leg sheaths, three shuck tails, gill plates on its back",
+   "wing colour of the emerging dun (light grey, still crumpled and damp)",
+   "size, 5-11 mm depending on species",
+   "six legs pulling free of the shuck"
+  ],
+  "invented": [],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. A Sulphur mayfly (Ephemerella invaria / dorothea) emerging at the water surface, side view at the waterline, the whole insect about 9 mm long. The brown nymphal skin has split open along the top of the thorax; the pale yellow to cream winged adult is pulling upward and forward out of the split, its two crumpled, damp, half-unfolded light grey forewings still folded against its back, six thin legs drawing free of the empty leg sheaths, three slender tails still partly inside the shuck. Behind and below it the emptied brown nymphal shuck lies collapsed and translucent in the surface film, its own three tails and the row of oval gill plates on its back still visible. Thin meniscus line of water across the scene. It is a live aquatic insect in the act of moulting at the surface, not a butterfly, not a fly pattern on a hook.",
+  "sources": [
+   "https://www.inaturalist.org/guide_taxa/35361",
+   "https://www.troutnut.com/hatch/28/Mayfly-Ephemerella-Hendricksons-Sulphurs-PMDs"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "fw-sulphur-dun",
+  "verdict": "minor",
+  "truth": "Sources give the Ephemerella invaria dun as 8-11 mm with a yellow to cream body often with light brown markings on top of the abdomen, light grey wings and three light brown barred tails; E. dorothea dorothea duns are 5-6 mm with a pale yellowish body and pale, iridescent wings. Ephemerellid adults have three tails and two pairs of wings - large forewings plus a much smaller pair of hind wings.",
+  "errors": [
+   "\"two or three very long thin tail filaments trailing behind\" - Ephemerella duns have exactly three tails; leaving the model a choice invites a two-tailed sulphur",
+   "\"two large translucent opaque-tinted wings held together vertically upright\" - mayflies have two pairs of wings; the small rounded hind wings are omitted, so the drawing will have half the wings",
+   "\"Bright yellow-orange body\" overstates the colour; sources give yellow to cream with light brown abdominal markings (invaria) or pale yellowish (dorothea), with reddish tones mainly in spinners"
+  ],
+  "missing": [
+   "a small pair of rounded hind wings beside the large forewings",
+   "three tails, light brown and faintly barred",
+   "light grey wing colour stated plainly",
+   "size, 8-11 mm (invaria) or 5-6 mm (dorothea)",
+   "long forelegs held forward, typical of mayfly duns"
+  ],
+  "invented": [
+   "\"Bright yellow-orange\" - no source describes the dun as orange"
+  ],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. An adult Sulphur mayfly (Ephemerella invaria / dorothea), freshly hatched dun stage, an insect, side view standing on the water surface, body about 9 mm long. Slender ten-segmented abdomen curving gently upward at the rear, compact thorax, small head with rounded compound eyes and very short antennae. Six thin legs, three on each side, the front pair longer and reaching forward. Two pairs of wings held together vertically upright over the back like a sail: a pair of large finely veined forewings, dull and opaque light grey rather than glassy, and beside them a much smaller pair of rounded hind wings. Exactly three long slender tail filaments trailing straight behind, pale brown with faint bars. Body pale sulphur yellow to cream with soft light brown markings along the top of the abdomen. It is an insect, a mayfly dun, not a bird, not a moth, and not a fishing fly.",
+  "sources": [
+   "https://www.inaturalist.org/guide_taxa/35361",
+   "https://www.troutnut.com/hatch/458/Mayfly-Ephemerella-dorothea-Sulphur",
+   "https://en.wikipedia.org/wiki/Ephemerellidae"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "fw-sulphur-spinner",
+  "verdict": "minor",
+  "truth": "Sources give the Ephemerella invaria spinner as 7-10 mm body with 8-10 mm wings, males light reddish brown in head and thorax with a light smoky to purplish brown abdomen dorsally and pale yellowish white beneath, females tan to cream, wings clear (hyaline), three tails that are white with very distinct purplish black joinings; ephemerellid adults have three tails and two pairs of wings.",
+  "errors": [
+   "\"two or three extremely long tail filaments splayed\" - the spinner has exactly three tails",
+   "\"two clear glassy transparent wings spread flat out to the sides\" - two pairs, not two wings; the small hind wings are omitted",
+   "\"Rusty-orange body\" - sources describe male spinners as light reddish brown and females as tan or cream; 'rusty-orange' is an approximation at best and wrong for females"
+  ],
+  "missing": [
+   "three white tails with distinct dark banding at the joints",
+   "a small pair of hind wings",
+   "size, 7-10 mm body",
+   "pale yellowish-white underside contrasting with the darker dorsal abdomen",
+   "spent posture detail - wings flat in the surface film, body resting on the water"
+  ],
+  "invented": [],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. An adult Sulphur mayfly (Ephemerella invaria / dorothea), spent spinner stage, an insect lying flat and dead on the water surface, viewed from directly above, body about 8 mm long. Slender ten-segmented abdomen, light reddish brown to smoky purplish brown along the top and pale yellowish white beneath, small thorax, small head with compound eyes and tiny antennae. Two pairs of wings lying spread flat out to the sides in a cross shape and resting in the surface film: a pair of large clear glassy hyaline forewings with fine pale veins, and beside each a much smaller rounded hind wing. Six thin legs splayed on the water. Exactly three extremely long slender tail filaments splayed behind, white with sharply marked dark purplish joinings. It is an insect, a spent mayfly spinner, not a bird, not a dragonfly, and not a fishing fly.",
+  "sources": [
+   "https://www.troutnut.com/hatch/11/Mayfly-Ephemerella-invaria-Sulphur-Dun",
+   "https://www.inaturalist.org/guide_taxa/35361",
+   "https://en.wikipedia.org/wiki/Ephemerellidae"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "fw-quill-gordon-nymph",
+  "verdict": "wrong",
+  "truth": "Sources describe the Epeorus pleuralis nymph as a flattened clinger 9-12 mm long excluding tails, head as wide as or slightly wider than the thorax, with exactly two tails - Epeorus and Ironodes are among the only mayflies with just two tails as nymphs - and large gill plates held out to the sides and overlapping, with large anterior lobes that do not quite meet beneath the body; colour grey/olive-tan to reddish brown.",
+  "errors": [
+   "\"three tail filaments (two for Epeorus/Quill Gordon)\" - the lead instruction is flatly wrong for this species and contradicts its own parenthetical. Epeorus pleuralis has exactly two tails as a nymph and as an adult",
+   "\"a row of small gills along each side\" - sources describe the gills as large plates held out to the sides and overlapping, not small; understating them loses the diagnostic silhouette",
+   "\"Flat clinger, 2 tails, dark brown, emerges on the bottom then swims up\" - emergence behaviour text left inside an image prompt; also the prompt's own body text says three tails while the look note says two"
+  ],
+  "missing": [
+   "dorsoventrally flattened body - the defining clinger shape",
+   "broad blunt head as wide as or wider than the thorax, with eyes on top of the head",
+   "stout legs splayed sideways beyond the body outline",
+   "size, 9-12 mm excluding tails",
+   "colour range grey/olive-tan to reddish brown"
+  ],
+  "invented": [],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. A Quill Gordon mayfly nymph (Epeorus pleuralis), the aquatic immature insect, dorsal view from directly above, about 11 mm long excluding tails. Strongly flattened teardrop-shaped body pressed low, with a broad blunt rounded head as wide as or slightly wider than the thorax and the eyes set on top of the head. Thorax bears two dark unopened wing pads lying flat. Ten-segmented abdomen fringed on each side by large flat oval gill plates that are held out sideways beyond the body outline and overlap one another, the front pair with large lobes reaching under the body without quite meeting. Six short stout legs splayed wide to the sides, clearly visible from above. Exactly two tail filaments at the rear, no third middle tail. Grey-olive to reddish brown with darker mottling. No wings, only wing pads. It is an aquatic immature insect, a flat clinging mayfly nymph, not a beetle and not a winged adult.",
+  "sources": [
+   "https://www.inaturalist.org/guide_taxa/186328",
+   "https://www.troutnut.com/hatch/39/Mayfly-Heptageniidae-March-Browns-Cahills-Quill-Gordons",
+   "https://www.troutnut.com/hatch/551/Mayfly-Epeorus-pleuralis-Quill-Gordon",
+   "https://pollinators.psu.edu/assets/uploads/documents/2021-05-Epeorus-nymph-Heptageniidae.pdf"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "fw-quill-gordon-dun",
+  "verdict": "minor",
+  "truth": "Sources give the Epeorus pleuralis dun as 9-12 mm body length with greyish-brown to olive-grey body with slight to moderate abdominal banding, uniformly slate-grey wings and exactly two tails; an older taxonomic description quoted by Troutnut calls the male reddish brown with a dark red-brown thorax and near-hyaline wings, so sources disagree on body tone.",
+  "errors": [
+   "\"two or three very long thin tail filaments trailing behind\" - Epeorus duns have exactly two tails; offering three is an error for this genus",
+   "\"two large translucent opaque-tinted wings\" - two pairs of wings, not two; the small hind wings are omitted",
+   "\"first big hatch of the Appalachian spring\" - hatch-timing text left inside an image prompt, not anatomy"
+  ],
+  "missing": [
+   "exactly two tails stated plainly",
+   "a small pair of hind wings beside the forewings",
+   "uniformly slate-grey wing colour",
+   "size, 9-12 mm",
+   "slight to moderate banding on the abdomen",
+   "the dark spot on each femur noted in the taxonomic description"
+  ],
+  "invented": [],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. An adult Quill Gordon mayfly (Epeorus pleuralis), freshly hatched dun stage, an insect, side view standing on the water surface, body about 10 mm long. Slender ten-segmented abdomen curving slightly upward at the rear with faint darker banding at the segment joints, compact thorax, small head with rounded compound eyes and tiny antennae. Six thin legs, three on each side, the front pair longer and held forward, each thigh marked with a small dark spot. Two pairs of wings held together vertically upright over the back like a sail: large finely veined forewings of uniform opaque slate grey, and beside them a much smaller pair of rounded hind wings. Exactly two long slender tail filaments trailing behind, no third middle tail. Body greyish-brown to olive-grey, some specimens described as reddish brown. It is an insect, a mayfly dun, not a bird, not a moth, and not a fishing fly.",
+  "sources": [
+   "https://www.inaturalist.org/guide_taxa/186328",
+   "https://www.troutnut.com/hatch/551/Mayfly-Epeorus-pleuralis-Quill-Gordon"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "fw-blue-quill-nymph",
+  "verdict": "minor",
+  "truth": "Sources describe Paraleptophlebia (Leptophlebiidae, the prong-gilled mayflies) nymphs as slender, uniformly built, three-tailed, and recognised above all by forked (two-pronged) gills on the abdomen; Troutnut classifies them as crawlers that nonetheless swim, living in moderate to fast current over sand, gravel or detritus. Eastern species are small, hook sizes 16-20.",
+  "errors": [
+   "\"a row of small gills along each side\" - misses the one diagnostic feature of the family: the gills are forked into two slender prongs, which is why they are called prong-gilled mayflies",
+   "\"three tail filaments (two for Epeorus/Quill Gordon)\" - the parenthetical is about a different genus and has no business in a Paraleptophlebia prompt; it risks a two-tailed Blue Quill. Paraleptophlebia has three tails",
+   "\"Small dark brown swimmer\" - sources differ: Troutnut classifies Paraleptophlebia as crawlers that look like burrowers and swim well, while many guides call them swimmers; 'swimmer' is defensible but not settled"
+  ],
+  "missing": [
+   "forked, two-pronged gills on the abdominal segments - the family's defining character",
+   "slender uniform build with long thin legs",
+   "size, roughly 6-9 mm for eastern species",
+   "long slender tails, often as long as the body"
+  ],
+  "invented": [],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. A Blue Quill mayfly nymph (Paraleptophlebia), the aquatic immature insect, dorsal view from directly above, about 8 mm long excluding tails. Slim, evenly built, softly rounded body, not flattened. Small head with short antennae, thorax bearing two dark unopened wing pads lying flat on the back, and a ten-segmented abdomen carrying a pair of slender forked gills on each of the front abdominal segments, each gill split into two thin pointed prongs standing out to the sides like tiny feathers. Six long thin legs, three on each side. Exactly three long slender tail filaments at the rear, roughly as long as the body and held apart. Dark chocolate brown to grey-brown with paler joints. No wings, only wing pads. It is an aquatic immature insect, a prong-gilled mayfly nymph, not a stonefly and not a winged adult.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Leptophlebiidae",
+   "https://www.troutnut.com/hatch/47/Mayfly-Paraleptophlebia-Blue-Quills/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "fw-blue-quill-dun",
+  "verdict": "minor",
+  "truth": "Troutnut describes Paraleptophlebia duns as brown to mahogany, running from grey to almost black depending on location, with smoky grey wings, three tails, and distinctive oval vertically held hind wings; eastern species are tiny, hook sizes 16-20 (mostly 18).",
+  "errors": [
+   "\"two or three very long thin tail filaments\" - Paraleptophlebia duns have three tails",
+   "\"two large translucent opaque-tinted wings\" - two pairs; Troutnut singles out the oval, vertically held hind wings as a distinguishing feature of this genus, so omitting them loses a diagnostic character",
+   "\"often confused with BWO\" - angler's comparison text left inside an image prompt"
+  ],
+  "missing": [
+   "the oval, vertically held hind wings that distinguish the genus",
+   "three tails stated plainly",
+   "body colour range - brown to mahogany, sometimes grey to nearly black",
+   "size, roughly 6-8 mm for eastern species"
+  ],
+  "invented": [],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. An adult Blue Quill mayfly (Paraleptophlebia), freshly hatched dun stage, an insect, side view standing on the water surface, body about 7 mm long, a small delicate mayfly. Slender ten-segmented abdomen curving slightly upward, compact thorax, small head with rounded compound eyes and tiny antennae. Six very thin legs, three on each side, the front pair longer and held forward. Two pairs of wings held together vertically upright over the back like a sail: a pair of large finely veined forewings of opaque smoky slate grey, and behind them a distinctly oval smaller pair of hind wings also held vertically. Exactly three long slender tail filaments trailing behind. Body dark brown to mahogany, some populations nearly grey-black. It is an insect, a small mayfly dun, not a bird, not a mosquito, and not a fishing fly.",
+  "sources": [
+   "https://www.troutnut.com/hatch/47/Mayfly-Paraleptophlebia-Blue-Quills/",
+   "https://en.wikipedia.org/wiki/Leptophlebiidae"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "fw-inchworm-adult",
+  "verdict": "minor",
+  "truth": "Sources describe geometrid larvae (inchworms, loopers, cankerworms) as smooth caterpillars about 25 mm (1 inch) long, green, grey or brownish, which lack the full complement of prolegs - only two or three pairs at the rear end instead of the usual five - so they walk by clasping with the front legs, drawing up the hind end, and looping the body; they spin silk threads and descend on them, and when disturbed stand erect and motionless resembling a twig.",
+  "errors": [
+   "\"Slender smooth bright green looper body arched in an inch shape\" gives no legs at all, which risks a legless grub or worm; the reduced proleg count is the reason the animal loops and is its single most diagnostic feature",
+   "entry id is 'fw-inchworm-adult' but the stage is 'larva' and the prompt correctly draws a caterpillar - the id/stage labelling is inconsistent, though the prompt itself is right"
+  ],
+  "missing": [
+   "three pairs of true jointed legs at the front, behind the head",
+   "only two or three pairs of fleshy prolegs clustered at the rear end, none in the middle - the gap in the middle is what produces the loop",
+   "size, about 25 mm (1 inch)",
+   "smooth hairless body and small rounded head",
+   "colour range beyond bright green - sources also give grey and brownish, often with fine pale longitudinal stripes"
+  ],
+  "invented": [],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. An inchworm caterpillar (Geometridae larva), side view hanging in mid-air from a fine silk thread, body about 25 mm long. Slender smooth hairless cylindrical body, faintly ringed by its segments, arched up into a tall loop in the middle. Small rounded head at the front. Three pairs of short jointed true legs clustered just behind the head, then a bare middle section of the body with no legs at all, then only two or three pairs of stubby fleshy prolegs gripping at the rear end - it is this gap that makes the body loop. Bright leaf green with faint pale lengthwise stripes along the sides, some individuals grey-brown. A single fine silk thread runs upward from the head end. It is a live moth caterpillar, an insect larva, not an earthworm, not a leech, and not a piece of green chenille on a hook.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Geometer_moth",
+   "https://extension.umn.edu/yard-and-garden-insects/spring-and-fall-cankerworms"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "fw-mahogany-nymph",
+  "verdict": "minor",
+  "truth": "Troutnut states that Paraleptophlebia bicornuta is one of the few mayflies outside the Ephemeridae to possess large tusks on the front of its head, that it is one of the largest Paraleptophlebia species (male spinner 9 mm body), and that its nymphs associate with gravel, sand or wood in fast or moderately fast water and are clumsy swimmers; the family Leptophlebiidae is recognised by forked, two-pronged abdominal gills, and the genus has three tails.",
+  "errors": [
+   "\"Slim brown swimmer, 3 tails\" plus the generic template omits the tusks - for P. bicornuta specifically the large paired head tusks are the single most distinctive feature and their absence makes the drawing a generic Paraleptophlebia",
+   "\"three tail filaments (two for Epeorus/Quill Gordon)\" - template parenthetical about a different genus, contradicting its own instruction; P. bicornuta has three tails",
+   "\"a row of small gills along each side\" - the family's gills are forked into two prongs, which the prompt does not say",
+   "\"Slim brown swimmer\" - Troutnut calls P. bicornuta nymphs clumsy swimmers that associate with gravel, sand or wood, and classifies the genus as crawlers; sources disagree with the flat 'swimmer' label"
+  ],
+  "missing": [
+   "the large paired tusks projecting from the front of the head",
+   "forked two-pronged gills on the abdominal segments",
+   "size - one of the largest Paraleptophlebia, around 9-11 mm excluding tails",
+   "long slender tails and long thin legs"
+  ],
+  "invented": [],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. A Mahogany Dun mayfly nymph (Paraleptophlebia bicornuta), the aquatic immature insect, dorsal view from directly above, about 10 mm long excluding tails, one of the largest of its genus. Slim, evenly built, softly rounded body. Head bears short antennae and a pair of large curved tusks projecting forward from the front of the head, one on each side of the mouth. Thorax carries two dark unopened wing pads lying flat on the back. Ten-segmented abdomen with a pair of slender forked gills on each front segment, every gill split into two thin pointed prongs held out to the sides. Six long thin legs, three on each side. Exactly three long slender tail filaments at the rear. Rich mahogany to dark brown with paler joints. No wings, only wing pads. It is an aquatic immature insect, a tusked prong-gilled mayfly nymph, not a stonefly, not a beetle larva, and not a winged adult.",
+  "sources": [
+   "https://www.troutnut.com/hatch/746/Mayfly-Paraleptophlebia-bicornuta-Mahogany-Dun",
+   "https://www.troutnut.com/hatch/47/Mayfly-Paraleptophlebia-Blue-Quills/",
+   "https://en.wikipedia.org/wiki/Leptophlebiidae"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "fw-mahogany-dun",
+  "verdict": "minor",
+  "truth": "Paraleptophlebia is a leptophlebiid ('prong-gilled') mayfly, and Troutnut's genus page states the adults are distinguished from baetids by their \"three tails\"; duns and spinners are \"a rich brown\" (hence Mahogany Dun), and Troutnut's P. bicornuta page quotes a formal description of \"head and thorax blackish brown above,\" abdominal segments \"3 to 7 whitish with brownish cloud\" and \"reddish brown on segments 8 to 10,\" with a male body length of 9 mm and wing length 10 mm, emerging \"September through early November.\"",
+  "errors": [
+   "\"two or three very long thin tail filaments trailing behind\" \u2014 Paraleptophlebia has exactly three tails at every stage; Troutnut's genus page uses the \"three tails\" character precisely to separate it from the two-tailed baetids, so offering the model a choice invites the wrong count",
+   "\"two large translucent opaque-tinted wings\" \u2014 a Paraleptophlebia dun has four wings: a large triangular forewing plus a small separate oval hind wing on each side (Leptophlebiidae, unlike Baetidae, have well-developed hind wings)",
+   "\"fall on the Henry's Fork and South Fork\" is left inside the visual description; it is locality lore, not anatomy, and gives the illustrator nothing to draw"
+  ],
+  "missing": [
+   "The three tails are roughly body length in the dun, not the greatly elongated filaments of the spinner",
+   "Body about 9-10 mm, wing about 10 mm \u2014 the largest Paraleptophlebia",
+   "The banded abdomen described in the source: dark head and thorax, pale/whitish middle segments 3-7, reddish-brown segments 8-10",
+   "The small oval hind wing behind the forewing"
+  ],
+  "invented": [
+   "\"slate wings\" is a common-name convention (bicornuta is sometimes called the Large Slate-Winged Mahogany Dun) but the formal description Troutnut quotes says the wings are \"hyaline with brown longitudinal veins\"; sources disagree on how dark the dun's wing is"
+  ],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. An adult Mahogany Dun mayfly (Paraleptophlebia bicornuta), freshly emerged subimago (dun) stage, side view standing on the water surface, body about 10 mm long. Slender segmented abdomen held slightly upcurved, blackish-brown head and thorax, pale whitish middle abdominal segments shading to reddish-brown on the last three segments, small head with rounded compound eyes and very short antennae, six slender pale legs with the front pair reaching forward, and exactly THREE long thin tail filaments \u2014 count them, three, not two \u2014 held apart and roughly as long as the body. Four wings: one large triangular dull slate-grey forewing on each side held together upright and vertical over the back like a sail, with a much smaller oval hind wing tucked behind it. It is a mayfly, a soft-bodied aquatic insect with three tails and upright sail-like wings \u2014 not a bird, not a moth, not a stonefly, not a caddisfly.",
+  "sources": [
+   "https://www.troutnut.com/hatch/47/Mayfly-Paraleptophlebia-Blue-Quills-and-Mahogany-Duns",
+   "https://www.troutnut.com/hatch/746/Mayfly-Paraleptophlebia-bicornuta-Mahogany-Dun",
+   "https://en.wikipedia.org/wiki/Leptophlebiidae"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "fw-callibaetis-nymph",
+  "verdict": "minor",
+  "truth": "Rick Hafele's Callibaetis account states the nymphs \"have three well-developed tails of equal length, and antennae two or three times longer than the width of their head,\" with gills bearing \"recurved flaps that increase their surface area\"; colour \"ranges from light gray to brown, as well as shades of olive,\" and they are agile minnow-like swimmers of weedy lakes and slow water (Troutnut: \"very slow weedy sections of rivers or lakes and ponds\").",
+  "errors": [
+   "\"three tail filaments (two for Epeorus/Quill Gordon)\" \u2014 this parenthetical is leaked boilerplate from another entry. Epeorus is a heptageniid clinger with nothing to do with Callibaetis, and putting \"two\" in the prompt at the point where the tail count is specified is the single most likely way to make the model draw a two-tailed nymph",
+   "\"Speckled tan swimmer, 3 tails, weed beds\" is dropped in as a raw note rather than as description, duplicating the tail count in shorthand"
+  ],
+  "missing": [
+   "Antennae two to three times the width of the head \u2014 a conspicuous baetid character the prompt reduces to \"short antennae\"",
+   "The three tails are of equal length and fringed with fine hairs",
+   "Gills as oval plates along abdominal segments 1-7 with recurved flaps (some doubled), not just \"a row of small gills\"",
+   "Streamlined, torpedo-shaped, strongly swimming body \u2014 Callibaetis is a minnow-like swimmer, not a crawler",
+   "Body 6-12 mm; mottled pale banding and pale spots on the abdomen that produce the 'speckled' look"
+  ],
+  "invented": [],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. A Callibaetis mayfly nymph (Callibaetis, the speckled dun), the aquatic immature insect, dorsal view from directly above, body 6-12 mm long. Streamlined torpedo-shaped swimmer: slender segmented abdomen mottled light grey-brown and olive with pale speckles, an oval plate-like gill with a recurved flap projecting from each side of abdominal segments one through seven, dark rounded wing pads on the thorax and NO wings, six slender legs, a small rounded head with two long thin antennae each two to three times as long as the head is wide, and exactly THREE tail filaments of equal length fringed with fine hairs. It is a mayfly nymph \u2014 a wingless aquatic insect with side gills along the abdomen and three tails \u2014 not an adult mayfly, not a stonefly nymph, not a damselfly nymph, not a fly-tying pattern.",
+  "sources": [
+   "https://www.rickhafele.com/bug-blog/8m7ydza71stn45bdktfd2u9oxd68b9",
+   "https://www.troutnut.com/hatch/183/Mayfly-Callibaetis-Speckled-Duns",
+   "https://en.wikipedia.org/wiki/Baetidae"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "fw-callibaetis-dun",
+  "verdict": "minor",
+  "truth": "Callibaetis is a baetid, and Rick Hafele states plainly that \"duns and spinners have two tails, about body length in duns and twice the body length in spinners\"; the dun's wings are \"mostly brown or gray\" with \"distinct light markings along the wing veins,\" which is the speckling the common name refers to. Wikipedia's Baetidae page notes adults have \"two long slender tails\" and that hind wings are \"usually very small or even absent.\" Body 6-12 mm.",
+  "errors": [
+   "\"two or three very long thin tail filaments trailing behind\" \u2014 a Callibaetis dun has exactly two tails, and they are about body length, not 'very long'; the extremely long tails belong to the spinner stage. Both the count and the proportion are wrong for this stage",
+   "\"two large translucent opaque-tinted wings\" \u2014 the forewings are correct in number, but the prompt omits the tiny hind wings that Baetidae retain, and Hafele describes the dun wing as brown or grey with light vein markings rather than merely 'opaque-tinted'",
+   "\"Speckled gray wings, tan body \u2014 Silver Creek classic\" is left as an unprocessed note; the locality tag is not anatomy"
+  ],
+  "missing": [
+   "Two tails about equal to body length",
+   "The pale markings along the wing veins against a darker grey-brown wing that give the 'speckled dun' its name",
+   "Very small hind wings",
+   "Males have turbinate (turret-like) eyes raised on top of the head \u2014 a striking baetid feature",
+   "Body length 6-12 mm, speckled/mottled tan-grey abdomen"
+  ],
+  "invented": [],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. An adult Callibaetis mayfly (Callibaetis, the speckled dun), freshly emerged subimago (dun) stage, side view standing on the water surface, body 6-12 mm long. Slender mottled tan and grey segmented abdomen held slightly upcurved, small thorax, small head with large rounded compound eyes and short fine antennae, six thin legs, and exactly TWO tail filaments \u2014 two, not three \u2014 held apart and about as long as the body. Two large grey-brown forewings, faintly opaque and marked with pale flecks along the veins, held together vertically upright over the back like a sail, with a very small hind wing tucked behind each. It is a mayfly, a soft-bodied insect with two tails and upright sail-like wings \u2014 not a bird, not a moth, not a caddisfly, not a fly-tying pattern.",
+  "sources": [
+   "https://www.rickhafele.com/bug-blog/8m7ydza71stn45bdktfd2u9oxd68b9",
+   "https://en.wikipedia.org/wiki/Baetidae",
+   "https://www.troutnut.com/hatch/183/Mayfly-Callibaetis-Speckled-Duns"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "fw-callibaetis-spinner",
+  "verdict": "minor",
+  "truth": "Hafele: \"duns and spinners have two tails, about body length in duns and twice the body length in spinners\"; male spinner wings are clear, while female spinners have \"wings marked with small dark splotches along their leading edge.\" Troutnut's genus page likewise describes female spinners with \"clear wing's leading edges marked with dark blotches.\" The spent spinner lies flat in the surface film with wings out to the sides.",
+  "errors": [
+   "\"two or three extremely long tail filaments splayed\" \u2014 exactly two tails; the count must not be left open",
+   "\"two clear glassy transparent wings\" \u2014 this contradicts the entry's own note \"Speckled clear wings spent\" and drops the one feature that identifies a female Callibaetis spinner: the row of small dark blotches along the leading edge of an otherwise clear wing",
+   "\"Speckled clear wings spent\" is left in as an unprocessed shorthand note rather than being described"
+  ],
+  "missing": [
+   "The dark blotches along the costal (leading) edge of the female spinner's clear wing",
+   "Tails about twice body length in the spinner \u2014 the prompt says 'extremely long' but does not tie it to the proportion the source gives",
+   "The very small hind wings",
+   "Body 6-12 mm; slender mottled tan-brown abdomen; legs and tails sprawled in the film"
+  ],
+  "invented": [],
+  "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. An adult female Callibaetis mayfly (Callibaetis, the speckled spinner), spent imago stage, lying flat and dead in the surface film, viewed from directly above, body 6-12 mm long. Slender mottled tan-brown segmented abdomen, two glassy transparent wings spread flat out to the sides in a cross shape with a row of small dark blotches along the leading edge of each wing, a very small clear hind wing behind each forewing, six thin legs sprawled limply, and exactly TWO thin tail filaments \u2014 two, not three \u2014 splayed behind and about twice the length of the body. It is a mayfly spinner, a soft-bodied insect with two tails lying with clear wings flat on the water \u2014 not a bird, not a dragonfly, not a moth, not a fly-tying pattern.",
+  "sources": [
+   "https://www.rickhafele.com/bug-blog/8m7ydza71stn45bdktfd2u9oxd68b9",
+   "https://www.troutnut.com/hatch/183/Mayfly-Callibaetis-Speckled-Duns",
+   "https://en.wikipedia.org/wiki/Baetidae"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "sw-glass-minnow",
+  "verdict": "minor",
+  "truth": "The Atlantic silverside (Menidia menidia) is a slender, nearly translucent schooling fish of 5-9 cm (max about 15 cm) with a \"broad silver stripe running down each side\" alongside the lateral line, brown speckling on the top of the head and back, \"one spiny and one soft dorsal fin\" with the first set well back on the body, and a large mouth; it lacks an adipose fin. Note the name is ambiguous \u2014 in the Gulf and Florida \"glass minnow\" is more often applied to the bay anchovy (Anchoa mitchilli), and in the Northeast to silversides.",
+  "errors": [
+   "\"Scientific entomological illustration\" \u2014 this is a fish, not an insect; house style for fish is 'Scientific natural-history illustration'",
+   "\"A Glass Minnow / Silverside\" \u2014 the prompt should name the species, because 'glass minnow' is applied to two unrelated fish (silversides, Atherinopsidae, and bay anchovy, Engraulidae) with quite different heads and mouths",
+   "\"Accurate anatomy.\" is asserted but no anatomy is actually specified \u2014 there are no fins, no tail shape, no eye"
+  ],
+  "missing": [
+   "Two separate dorsal fins \u2014 a small spiny first dorsal set well back, then a soft second dorsal",
+   "Forked caudal fin",
+   "Large eye near the front of a small pointed head",
+   "Fine dark speckling over a greenish translucent back, white belly (countershading), with the silver stripe running above the lateral line",
+   "Size 5-9 cm; slender, only slightly compressed body"
+  ],
+  "invented": [],
+  "corrected_prompt": "Scientific natural-history illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. An Atlantic silverside (Menidia menidia), also called a glass minnow, a single live fish in strict left side view underwater, about 8 cm long. Very slender, elongate, barely compressed body, almost translucent so the backbone shows faintly through the flank; a broad bright silver stripe runs the whole length of each side just above the lateral line; greenish-olive back finely speckled with dark dots shading to a white belly; a small pointed head with a large round eye set well forward and a small upward-slanting mouth. Two separate dorsal fins \u2014 a small spiny one set well back on the back, then a soft-rayed second dorsal above the long anal fin \u2014 small pectoral fins set high on the side, and a forked tail. It is a small silvery bony fish with fins and scales \u2014 not an eel, not an insect, not a larva, not a fly-tying pattern.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Atlantic_silverside",
+   "https://www.fishbase.se/summary/Menidia-menidia.html"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "sw-sand-eel",
+  "verdict": "minor",
+  "truth": "The American sand lance (Ammodytes americanus) has \"a long, thin body with a pointed snout\" and \"a lower jaw that extends well beyond the upper,\" a long low very delicate dorsal fin running \"along most of its back,\" small pectorals, a forked caudal fin, and countershading \u2014 \"muted brownish-green dorsal side transitioning to white sides and stomach,\" overall greenish-silver, with the lateral line marking the colour change. Mature fish are 10-15 cm, occasionally 18 cm, and burrow head-first into sand.",
+  "errors": [
+   "\"Scientific entomological illustration\" \u2014 this is a fish; house style for fish is 'Scientific natural-history illustration'",
+   "\"pointed head\" understates and mis-states the diagnostic: the snout is pointed because the lower jaw projects well beyond the upper, giving an underslung look",
+   "\"olive back, silver sides\" is close but the source describes brownish-green above grading to white sides and belly with an overall greenish-silver cast \u2014 the countershading is not stated as a gradient",
+   "\"Accurate anatomy.\" is asserted while no fins are specified at all"
+  ],
+  "missing": [
+   "No pelvic fins \u2014 the most diagnostic single feature of a sand lance",
+   "A single very long low dorsal fin running along most of the back, and a long anal fin behind the mid-body",
+   "Forked caudal fin",
+   "Small pectoral fins set low and well forward",
+   "Oblique skin folds along the flanks and the visible lateral line at the colour boundary",
+   "Size 10-15 cm"
+  ],
+  "invented": [],
+  "corrected_prompt": "Scientific natural-history illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. An American sand lance or sand eel (Ammodytes americanus), a single live fish in strict left side view underwater, about 13 cm long. Extremely long, thin, almost cylindrical eel-like body held in a slight sinuous curve; sharply pointed head with the lower jaw projecting well beyond the upper; one single very long low delicate dorsal fin running along nearly the whole back, a long anal fin along the rear underside, small pectoral fins set low and far forward, and NO pelvic fins at all; a forked tail. Brownish-green above shading through greenish-silver flanks marked by fine oblique skin folds and a visible lateral line to a plain white belly. It is a slender bony fish with fins and a forked tail \u2014 not a true eel, not a worm, not a needlefish, not a fly-tying pattern.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Ammodytes_americanus"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "sw-mullet",
+  "verdict": "wrong",
+  "truth": "'Mullet' and 'menhaden' are two unrelated fish. The flathead grey/striped mullet (Mugil cephalus, Mugilidae) is per FishBase \"stout, cylindrical\" and only \"slightly compressed,\" with a \"broad and flattened\" head, a \"well developed adipose eyelid,\" two widely separated dorsal fins (first with 5 spines, second with 7-9 soft rays), and per Wikipedia \"olive-green\" back, \"silvery\" sides shading to white with \"six to seven distinctive lateral horizontal stripes.\" The Atlantic menhaden (Brevoortia tyrannus) is a herring with \"a moderately compressed body,\" silvery, with \"a black spot on their shoulder behind their gill openings,\" a single soft dorsal fin, a saw-toothed keel of belly scutes and a deeply forked tail.",
+  "errors": [
+   "\"A Mullet / Menhaden (bunker)\" \u2014 this names two fish in different orders and asks the model to draw one image of both; it will produce a chimera or the wrong fish",
+   "\"Deep-bodied, silver\" \u2014 deep-bodied describes the menhaden, not the mullet, which FishBase calls \"stout, cylindrical\" and only slightly compressed; as written the phrase contradicts half the animals it names",
+   "\"Scientific entomological illustration\" \u2014 this is a fish; house style for fish is 'Scientific natural-history illustration'",
+   "\"big schools flipping on surface\" is behaviour, not anatomy, and is doing the work that a fin and tail description should be doing",
+   "\"Accurate anatomy.\" is asserted while no fins, tail shape, head shape or markings are given"
+  ],
+  "missing": [
+   "For mullet: two widely separated dorsal fins, blunt flattened head, small terminal mouth, adipose eyelid over the eye, large scales, forked tail, dark horizontal stripes along the scale rows",
+   "For menhaden: single soft dorsal, the black humeral shoulder spot (often followed by rows of smaller spots), the keeled belly of sharp scutes, the big head and deeply forked tail",
+   "Countershading in either case \u2014 dark olive or blue-green back over silver sides and white belly",
+   "Size: the entry gives 4-10 in, which spans juvenile mullet and adult menhaden"
+  ],
+  "invented": [
+   "The combined description 'deep-bodied mullet' matches neither published species description; no source describes Mugil cephalus as deep-bodied"
+  ],
+  "corrected_prompt": "Scientific natural-history illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. An Atlantic menhaden or bunker (Brevoortia tyrannus), a single live fish in strict left side view underwater, about 20 cm long. Deep, strongly side-compressed herring body with a large blunt head roughly one third of the body length, a large upward-slanting mouth, a big round eye, and a sharply keeled belly edged with a saw-toothed row of scutes running from throat to vent. One single soft-rayed dorsal fin near the middle of the back, small pectoral fins set low behind the gill cover, small pelvic fins beneath, a short anal fin, and a deeply forked tail. Dark blue-green back shading abruptly to bright burnished silver flanks and a white belly, with a distinct black spot on the shoulder just behind the gill opening followed by a scattering of smaller dark spots along the upper side. It is a single deep-bodied silvery herring, one fish with scales and fins \u2014 not a mullet, not an eel, not a school of fish, not a fly-tying pattern.",
+  "sources": [
+   "https://www.fishbase.se/summary/Mugil-cephalus.html",
+   "https://en.wikipedia.org/wiki/Flathead_grey_mullet",
+   "https://en.wikipedia.org/wiki/Atlantic_menhaden"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "sw-pilchard",
+  "verdict": "minor",
+  "truth": "The scaled sardine (Harengula jaguana) is a herring: FishBase describes a \"fusiform\" but \"compressed\" body whose \"lower profile [is] decidedly more curved than the flattened upper profile,\" scales \"fairly strongly attached, not easily lost\" (hence 'scaled sardine'), a single soft dorsal of 13-21 rays with no spines, \"no orange or red spot at opercle,\" maximum 21.2 cm TL and common length about 12 cm. Like other Clupeidae it has a keel of belly scutes and a deeply forked tail; the back is bluish-green over bright silver sides.",
+  "errors": [
+   "\"Scientific entomological illustration\" \u2014 this is a fish; house style for fish is 'Scientific natural-history illustration'",
+   "\"schools \\\"raining\\\" when chased\" is behaviour and belongs nowhere in a single-specimen field-guide plate; it risks the model drawing a school or a splash",
+   "\"Accurate anatomy.\" is asserted while no fin, tail or head detail is given"
+  ],
+  "missing": [
+   "The deeply curved belly profile against a flatter back \u2014 the shape that distinguishes it from a round-bodied herring",
+   "The keel of sharp scutes along the belly",
+   "A single short soft-rayed dorsal fin near mid-body, no spines",
+   "Deeply forked tail",
+   "Large eye and upturned mouth; large firmly attached silvery scales",
+   "Size: commonly about 12 cm (the entry's 2-4 in is a juvenile)"
+  ],
+  "invented": [],
+  "corrected_prompt": "Scientific natural-history illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. A scaled sardine or pilchard (Harengula jaguana), a single live fish in strict left side view underwater, about 10 cm long. Moderately deep, strongly side-compressed herring body whose belly profile curves much more deeply than the flatter back; a keel of small sharp overlapping scutes runs along the midline of the belly from throat to vent; large firmly attached silvery scales; a large round eye and a small upturned mouth on a short blunt head. One single short soft-rayed dorsal fin near the middle of the back with no spines, small pectoral fins low behind the gill cover, small pelvic fins beneath the dorsal, a short anal fin near the tail, and a deeply forked tail. Bluish-green back shading sharply to brilliant burnished silver flanks and a white belly. It is one small silvery herring-type bony fish with scales and fins \u2014 not a school, not a sardine tin, not a mullet, not a fly-tying pattern.",
+  "sources": [
+   "https://www.fishbase.se/summary/Harengula-jaguana.html"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "sw-shrimp",
+  "verdict": "minor",
+  "truth": "A shrimp is a decapod crustacean: Wikipedia's Decapoda page states they have \"ten ... legs\" (five pairs of pereiopods on the last five thoracic segments, one or two pairs bearing chelae), \"five more pairs of appendages on the abdomen\" (pleopods/swimmerets), and \"one final pair called uropods, which, with the telson, form the tail fan\"; the carapace covers the cephalothorax and the eyes are stalked. Carideans show the characteristic 'caridean bend' where the second abdominal segment overlaps the first and third; they escape by flicking the tail fan, driving them backwards.",
+  "errors": [
+   "\"Scientific entomological illustration\" \u2014 a shrimp is a crustacean, not an insect; house style here should be 'Scientific natural-history illustration'",
+   "\"A Shrimp\" with no species or family \u2014 penaeid shrimp (the common Gulf/Atlantic fly prey) and caridean grass shrimp differ in body curve, rostrum and claw arrangement, so an unnamed shrimp gives the model nothing to anchor on",
+   "\"kicks backward\" is behaviour rather than anatomy; without the tail fan being described it cannot be drawn",
+   "\"Accurate anatomy.\" is asserted while every count \u2014 legs, swimmerets, antennae \u2014 is absent"
+  ],
+  "missing": [
+   "Five pairs of walking legs (ten legs), the front pairs tipped with small pincers",
+   "Five pairs of feathery swimmerets under the abdomen",
+   "Telson plus a pair of uropods forming the fan-shaped tail",
+   "Two pairs of antennae \u2014 short antennules and one pair of very long whip-like antennae, often longer than the body",
+   "A toothed rostrum projecting forward between the stalked eyes",
+   "Carapace over the cephalothorax, then a six-segmented abdomen, bent in carideans"
+  ],
+  "invented": [],
+  "corrected_prompt": "Scientific natural-history illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. A small coastal shrimp, a single live animal in strict left side view underwater, about 6 cm long. Translucent tan and olive body faintly speckled and showing the gut as a dark line: a smooth carapace covering the head and thorax, a toothed spear-like rostrum projecting forward over the head between two dark eyes on short stalks, two pairs of antennae \u2014 a short forked pair and a pair of very long whip-like antennae trailing back past the tail \u2014 five pairs of jointed walking legs beneath the thorax with the front pairs tipped by tiny pincers, a segmented abdomen arching over the back in six visible plates, five pairs of small feathery swimmerets in a row beneath it, and at the rear a pointed central telson flanked by a pair of flat uropods forming a spread fan-shaped tail. It is a crustacean, a shrimp with a jointed shell, long antennae and a fan tail \u2014 not an insect, not a prawn cocktail, not a crayfish, not a fly-tying pattern.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Decapoda",
+   "https://en.wikipedia.org/wiki/Caridea"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "sw-crab",
+  "verdict": "minor",
+  "truth": "A true crab is a decapod with ten legs (five pairs, the first pair being chelipeds/claws); Wikipedia's Crab page describes the carcinised body as having \"a carapace ... flatter than it is broad\" with the pleon (abdomen) \"flattened and strongly bent,\" folded forward beneath the body and hidden in dorsal view. Eyes are on short stalks and there are two pairs of antennae. Many run \"crabwise\" (sideways); swimming crabs such as Callinectes have the last pair of legs flattened into paddles.",
+  "errors": [
+   "\"side view underwater\" directly conflicts with \"Round or oval carapace\" \u2014 a crab's carapace outline and its leg arrangement are only visible from above; a strict side view of a crab is a thin edge-on sliver and hides everything the note asks for",
+   "\"Scientific entomological illustration\" \u2014 a crab is a crustacean, not an insect; house style here should be 'Scientific natural-history illustration'",
+   "\"claws up, scuttles sideways and dives to bottom\" is behaviour, not anatomy, and 'claws up' describes a defensive posture rather than an identifying feature",
+   "\"Accurate anatomy.\" is asserted while no leg count is given at all \u2014 the most common failure mode for crab illustrations"
+  ],
+  "missing": [
+   "Ten legs total: five pairs, the front pair being the chelipeds with pincers, four pairs of walking legs behind",
+   "The reduced abdomen folded flat forward under the body and hidden from above",
+   "Two short eyestalks set in sockets on the front edge of the carapace, and two pairs of antennae",
+   "Spines or teeth along the front-side margins of the carapace",
+   "If a swimming crab is intended, the flattened paddle-shaped last pair of legs"
+  ],
+  "invented": [],
+  "corrected_prompt": "Scientific natural-history illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. A small coastal crab, a single live animal viewed from directly above (dorsal view), carapace about 4 cm across. A broad, smooth, oval carapace wider than it is long, mottled olive and tan with small teeth along its front-side margins; two short eyestalks set in notches at the front edge with two pairs of small antennae between them; and exactly TEN legs \u2014 five pairs \u2014 arranged symmetrically, the front pair being stout claws with toothed pincers held forward, followed by four pairs of jointed pointed walking legs, two pairs on each side, with the hindmost pair flattened into swimming paddles. The small triangular abdominal flap is folded flat forward underneath the body and hidden from above. It is a crustacean, a true crab with a hard shell, ten legs and two claws \u2014 not a spider, not an insect, not a horseshoe crab, not a fly-tying pattern.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Crab",
+   "https://en.wikipedia.org/wiki/Decapoda"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "sw-palolo",
+  "verdict": "minor",
+  "truth": "Palolo worms are eunicid polychaetes; Britannica describes adults \"about 40 cm (16 inches) long ... divided into ringlike segments, each with paddlelike appendages bearing gills,\" and it is the epitoke \u2014 \"the tail section ... bearing reproductive cells\" \u2014 that detaches and swims to the surface to spawn. The Atlantic species is Eunice furcata (E. schemacephala); Britannica says it \"swarms during the last quarter of the June\u2013July Moon,\" while Keys Weekly reports the Florida Keys swarms of \"little reddish worms\" happen \"around the late May full moon and early June new moon.\" Britannica gives Pacific males as reddish brown and females bluish green.",
+  "errors": [
+   "\"Scientific entomological illustration\" \u2014 a polychaete is an annelid worm, not an insect; house style here should be 'Scientific natural-history illustration'",
+   "\"spring full-moon hatch\" \u2014 sources disagree and none support a flat 'spring full moon': Britannica puts the Atlantic swarm at the last quarter of the June-July moon, and Keys Weekly at the late-May full moon and the early-June new moon. The moon phase is not a visual feature in any case",
+   "\"swims near surface\" is behaviour standing in for anatomy; the prompt gives no body detail beyond 'segmented'",
+   "\"Accurate anatomy.\" is asserted while nothing anatomical is specified beyond the word 'segmented'"
+  ],
+  "missing": [
+   "That the swimming animal is the epitoke \u2014 the detached posterior portion of the worm, not a whole worm with a head",
+   "A pair of paddle-like appendages (parapodia) bearing bristles and gills on every single segment, giving a fringed outline down both sides",
+   "The ring-like segmentation is dense \u2014 dozens of short close-set rings, not a few big ones",
+   "Undulating, ribbon-like swimming posture at the surface",
+   "Colour is contested: Keys reports 'little reddish worms', Britannica gives reddish-brown males and bluish-green females"
+  ],
+  "invented": [
+   "The specific pairing of 'spring' with 'full moon' \u2014 no source gives that combination for the Atlantic palolo"
+  ],
+  "corrected_prompt": "Scientific natural-history illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. An Atlantic palolo worm (Eunice furcata), the detached swimming reproductive section called the epitoke, a single animal in side view undulating just below the surface, about 8 cm long. A long, slender, soft-bodied annelid worm divided into many dozens of short close-set ring-like segments, its body held in shallow S-curves; every single segment bears a small paddle-shaped appendage on each side tipped with a tuft of fine bristles, so both edges of the worm show a continuous even fringe; the body tapers to a blunt end at each extremity. Translucent orange-red to reddish-brown, darker along the gut line, paler toward the tail. It is a segmented marine bristle worm \u2014 not a caterpillar, not an eel, not a centipede, not a strand of yarn, not a fly-tying pattern.",
+  "sources": [
+   "https://www.britannica.com/animal/palolo-worm",
+   "https://keysweekly.com/42/worm-wonders-a-tiny-reef-creature-lures-the-keys-tarpon/",
+   "https://en.wikipedia.org/wiki/Palolo_worm"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "sw-squid",
+  "verdict": "minor",
+  "truth": "Wikipedia's Squid page states squids have \"eight arms and two distinctive tentacles\" round the mouth, each \"flexible and prehensile, usually bearing disc-like suckers\" whose \"rims are stiffened with chitin\"; the paired eyes sit \"on either side of the head\"; \"swimming fins\" run along \"each side\" of the mantle; water is \"expelled out of the funnel in a fast, strong jet\"; and the mouth holds \"a sharp, horny beak.\" The longfin inshore squid (Doryteuthis pealeii), the usual northeast bait, is often \"seen with a reddish hue\" and shifts \"from deep red to soft pink\" via chromatophores.",
+  "errors": [
+   "\"Scientific entomological illustration\" \u2014 a squid is a cephalopod mollusc, not an insect; house style here should be 'Scientific natural-history illustration'",
+   "\"jets backward\" is behaviour used in place of the funnel/siphon that produces it",
+   "\"Accurate anatomy.\" is asserted while the prompt gives no arm count and no tentacle count \u2014 for a squid this is the single most important number and its absence is what produces octopus-like or ten-identical-arm results"
+  ],
+  "missing": [
+   "Eight arms plus two distinctly longer tentacles \u2014 ten appendages, not all alike",
+   "The two tentacles are longer than the arms and widen into a sucker-bearing club at the tip",
+   "Rows of small stalked suckers along the arms",
+   "The funnel/siphon projecting beneath the head",
+   "The chitinous beak at the centre of the arm crown",
+   "Red-brown chromatophore speckling over a translucent pinkish-white body rather than a flat pinkish wash",
+   "Fin shape \u2014 for Doryteuthis, long triangular fins occupying roughly the rear half of the mantle"
+  ],
+  "invented": [],
+  "corrected_prompt": "Scientific natural-history illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. A longfin inshore squid (Doryteuthis pealeii), a single live animal in side view underwater, mantle about 15 cm long. A long torpedo-shaped mantle tapering to a point at the rear, with a pair of long triangular fins running along the sides of roughly the rear half of the mantle; a short head in front of the mantle opening carrying one large round eye on each side and a short funnel projecting beneath; and at the front, exactly TEN appendages \u2014 EIGHT arms of moderate length lined with two rows of small suckers, plus TWO noticeably LONGER tentacles that are slender along most of their length and widen into a sucker-covered club at the tip. A small dark horny beak sits hidden at the centre of the arm crown. Translucent pinkish-white flesh dusted all over with fine red-brown speckles. It is a squid, a cephalopod with a pointed mantle, rear fins, eight arms and two longer tentacles \u2014 not an octopus, not a cuttlefish, not a fish, not a fly-tying pattern.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Squid",
+   "https://en.wikipedia.org/wiki/Doryteuthis_pealeii"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "sw-needlefish",
+  "verdict": "wrong",
+  "truth": "Needlefish and ballyhoo are different families with opposite jaw anatomy. In Belonidae (needlefish) \"both jaws are elongated\" into \"long, narrow jaws filled with sharp teeth,\" with \"a single dorsal fin, placed far back on the body, almost opposite to the anal fin,\" and lengths from 3 to 95 cm. The ballyhoo (Hemiramphus brasiliensis, Hemiramphidae) is a halfbeak with \"an elongated lower jaw\" only \u2014 the upper jaw is a short triangular flap \u2014 on a \"cylindrical elongated body,\" to about 35 cm.",
+  "errors": [
+   "\"A Needlefish / Ballyhoo\" \u2014 two fish from different families with directly contradictory head anatomy, offered as one subject; the model must produce a chimera or pick one at random",
+   "\"beak-like jaw\" (singular) \u2014 ambiguous exactly where the two candidates differ: a needlefish has two elongated jaws, a ballyhoo has one",
+   "\"Scientific entomological illustration\" \u2014 this is a fish; house style for fish is 'Scientific natural-history illustration'",
+   "\"skims surface\" is behaviour, not anatomy",
+   "\"Accurate anatomy.\" is asserted while no fins, tail or colour are specified"
+  ],
+  "missing": [
+   "For needlefish: the single dorsal fin set far back, almost directly opposite the anal fin; sharp teeth in both jaws; green or blue back over bright silver sides",
+   "For ballyhoo: the short triangular upper jaw, the orange-red tip on the elongated lower beak, and the forked tail with a much longer lower lobe",
+   "Countershading, the silver lateral stripe, the large eye",
+   "A size that matches one animal rather than spanning both"
+  ],
+  "invented": [
+   "The implied single animal that is both a needlefish and a ballyhoo \u2014 no source describes such a fish"
+  ],
+  "corrected_prompt": "Scientific natural-history illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. A ballyhoo halfbeak (Hemiramphus brasiliensis), a single live fish in strict left side view underwater, about 28 cm long. Extremely long, slender, nearly cylindrical body; the head bears ONE elongated jaw only \u2014 a long thin needle-like LOWER jaw projecting far forward, tipped bright orange-red, while the UPPER jaw is a short triangular flap no longer than the eye \u2014 with a large round eye just behind it. A single small soft dorsal fin set far back on the body almost directly above the small anal fin, small pectoral fins high on the side behind the gill cover, small pelvic fins far back on the belly, and a deeply forked tail whose LOWER lobe is distinctly longer than the upper. Dark blue-green back with a bright silver lateral stripe along the flank and a white belly. It is a halfbeak, a slender surface-dwelling bony fish with only its lower jaw drawn out into a beak \u2014 not a needlefish with two long jaws, not a gar, not a garfish, not an eel, not a fly-tying pattern.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Needlefish",
+   "https://en.wikipedia.org/wiki/Ballyhoo"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "sw-mud-minnow",
+  "verdict": "minor",
+  "truth": "In salt marshes 'mud minnow' means the mummichog (Fundulus heteroclitus), a killifish: \"elongate but thick\" body with a deep caudal peduncle, typically 7.5-9 cm and up to 15 cm, with the mouth \"upturned and the lower jaw protrud[ing] when the mouth is closed,\" round pectoral and tail fins, and males \"dark olive-green on the back, steel-blue on the sides with about 15 silvery bars, and yellow or orange-yellow on the underside\" while females are \"paler, without bars.\" It lives in \"salt marshes, muddy creeks, tidal channels ... eelgrass or cordgrass beds.\" Note the true mudminnows (Umbra, Umbridae) are unrelated freshwater fish.",
+  "errors": [
+   "\"Scientific entomological illustration\" \u2014 this is a fish; house style for fish is 'Scientific natural-history illustration'",
+   "\"Mud Minnow / Killifish\" \u2014 'mudminnow' is the accepted common name of the freshwater genus Umbra, a different family entirely; in a saltwater context the species should be named as the mummichog, Fundulus heteroclitus",
+   "\"Stubby, olive-brown\" \u2014 the source describes it as \"elongate but thick\" rather than stubby, and olive-green on the back with steel-blue sides rather than uniformly olive-brown",
+   "\"Accurate anatomy.\" is asserted while no fins beyond the tail are specified"
+  ],
+  "missing": [
+   "The upturned mouth with the lower jaw protruding \u2014 the most recognisable feature of the head",
+   "About fifteen thin silvery-white vertical bars along the male's steel-blue sides (females plain and paler)",
+   "A single small dorsal fin set far back on the body, close to the tail, and rounded pectoral fins",
+   "Yellow or orange belly on breeding males; a dark eyespot at the rear of the male's dorsal fin",
+   "Deep caudal peduncle; size 7.5-9 cm"
+  ],
+  "invented": [],
+  "corrected_prompt": "Scientific natural-history illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. A mummichog or marsh mud minnow (Fundulus heteroclitus), a single live male fish in strict left side view underwater, about 9 cm long. Thick-set but elongate body with a blunt rounded snout, a small upturned mouth whose lower jaw protrudes when closed, a large round eye, and a notably deep muscular tail base. A single small soft dorsal fin set far back on the body close to the tail, a matching anal fin beneath it, rounded pectoral fins behind the gill cover, small pelvic fins on the belly, and a plainly ROUNDED tail with no fork. Dark olive-green back shading to steel-blue sides crossed by about fifteen thin wavy silvery-white vertical bars, with a yellow-orange belly and a small dark eyespot near the rear edge of the dorsal fin. It is a small stout-bodied bony fish with scales, fins and a rounded tail \u2014 not a tadpole, not a true mudminnow of the freshwater genus Umbra, not an eel, not a fly-tying pattern.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Mummichog"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "sw-bay-anchovy",
+  "verdict": "minor",
+  "truth": "The bay anchovy (Anchoa mitchilli) is \"a small, slender, schooling fish\" of about 6 cm (max 10-11 cm) with \"a greenish body and a silvery stripe,\" \"a single dorsal fin\" located \"directly above the anal fin origin,\" and a very long jaw. FishBase gives the diagnostic head: \"Snout fairly blunt, a little over 1/2 eye diameter\" with the \"maxilla long, tip pointed, reaching beyond hind border of pre-operculum, almost to gill opening.\" Sources disagree on the jaws: Wikipedia states the lower jaw extends beyond the upper, while FishBase's description of a blunt projecting snout over a very long maxilla matches the standard engraulid arrangement of an overhanging snout and an inferior mouth.",
+  "errors": [
+   "\"Scientific entomological illustration\" \u2014 this is a fish; house style for fish is 'Scientific natural-history illustration'",
+   "\"the NC fall albie bait\" is angling context inside the visual description and gives the illustrator nothing",
+   "\"Accurate anatomy.\" is asserted while the one diagnostic feature \u2014 the enormous mouth with the maxilla reaching almost to the gill opening \u2014 is absent",
+   "\"minnow\" \u2014 a bay anchovy is an engraulid, not a minnow (Cyprinidae); the word may steer the model toward a freshwater shiner"
+  ],
+  "missing": [
+   "The very long maxilla reaching back almost to the gill opening under a short blunt projecting snout",
+   "A single dorsal fin sitting directly above the origin of the long anal fin",
+   "Forked tail; small pectoral fins low on the body",
+   "The silvery lateral stripe on a translucent greenish body, white belly",
+   "Size about 6 cm; very slender, laterally compressed body; scales loose and easily shed"
+  ],
+  "invented": [],
+  "corrected_prompt": "Scientific natural-history illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. A bay anchovy (Anchoa mitchilli), a single live fish in strict left side view underwater, about 6 cm long. Very slender, slightly side-compressed, half-translucent body with a pale greenish-olive back finely peppered with dark dots, a narrow silvery stripe along each flank and a white belly. Large round eye set well forward on a short blunt snout that projects slightly over an enormous mouth, the upper jawbone running back almost as far as the gill opening. One single small soft dorsal fin set at mid-back directly above the front of a long low anal fin, small pectoral fins low behind the gill cover, tiny pelvic fins, and a forked tail. It is a small slender silvery-green marine bony fish with scales, fins and a forked tail \u2014 not a freshwater minnow, not a larva, not a worm, not a fly-tying pattern.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bay_anchovy",
+   "https://www.fishbase.se/summary/Anchoa-mitchilli.html"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "sw-finger-mullet",
+  "verdict": "minor",
+  "truth": "'Finger mullet' is the juvenile striped/flathead grey mullet (Mugil cephalus). FishBase describes a \"stout, cylindrical\" body \"slightly compressed\" with a \"broad and flattened\" head, two separate dorsal fins (first with 5 spines, second with 7-9 soft rays), an anal fin of 3 spines and 8-9 soft rays, a \"well developed adipose eyelid\" covering \"most of pupil,\" and an upper lip \"thin and without papillae.\" Wikipedia gives an \"olive-green\" back with \"sides ... silvery and shad[ing] to white towards the belly\" and \"six to seven distinctive lateral horizontal stripes,\" and notes the mullet \"has no lateral line.\"",
+  "errors": [
+   "\"Scientific entomological illustration\" \u2014 this is a fish; house style for fish is 'Scientific natural-history illustration'",
+   "\"Small mullet pouring out of the marsh in the fall run\" is the whole description \u2014 it is angling narrative, not anatomy, and 'pouring out' invites a picture of a school rather than one specimen",
+   "\"Accurate anatomy.\" is asserted while the prompt names not one anatomical feature: no fins, no head shape, no colour, no tail"
+  ],
+  "missing": [
+   "Stout, near-cylindrical, only slightly compressed body \u2014 not a deep or a flat one",
+   "Two widely separated dorsal fins: a small spiny first dorsal near mid-back, then a soft second dorsal well behind it",
+   "Broad flattened head with a small terminal mouth and a thin upper lip",
+   "Forked tail",
+   "Large scales; olive-green back, silver sides, white belly, with six to seven faint dark horizontal stripes along the scale rows",
+   "No visible lateral line; an adipose eyelid over the eye in larger fish",
+   "Size 3-5 in for a juvenile"
+  ],
+  "invented": [],
+  "corrected_prompt": "Scientific natural-history illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. A juvenile striped mullet, a 'finger mullet' (Mugil cephalus), a single live fish in strict left side view underwater, about 10 cm long. Stout, nearly cylindrical, only slightly side-compressed body with a broad flattened head, a small blunt terminal mouth with a thin upper lip, and a large round eye. Two clearly SEPARATE dorsal fins \u2014 a small triangular spiny one near the middle of the back, then a gap, then a soft-rayed second dorsal further back \u2014 with small pectoral fins set high behind the gill cover, pelvic fins on the belly, a short anal fin, and a forked tail. Large silvery scales; dark olive-green back shading to bright silver flanks and a white belly, with six or seven faint dark horizontal stripes running along the rows of scales, and no visible lateral line. It is one small silvery bony fish with scales and fins \u2014 not a school of fish, not a menhaden, not an eel, not a fly-tying pattern.",
+  "sources": [
+   "https://www.fishbase.se/summary/Mugil-cephalus.html",
+   "https://en.wikipedia.org/wiki/Flathead_grey_mullet"
+  ],
+  "confidence": "high"
+ }
+]

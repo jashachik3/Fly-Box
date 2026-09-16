@@ -1,0 +1,409 @@
+[
+  {
+    "id": "fw-mahogany-dun",
+    "verdict": "minor",
+    "truth": "Paraleptophlebia is a leptophlebiid ('prong-gilled') mayfly, and Troutnut's genus page states the adults are distinguished from baetids by their \"three tails\"; duns and spinners are \"a rich brown\" (hence Mahogany Dun), and Troutnut's P. bicornuta page quotes a formal description of \"head and thorax blackish brown above,\" abdominal segments \"3 to 7 whitish with brownish cloud\" and \"reddish brown on segments 8 to 10,\" with a male body length of 9 mm and wing length 10 mm, emerging \"September through early November.\"",
+    "errors": [
+      "\"two or three very long thin tail filaments trailing behind\" — Paraleptophlebia has exactly three tails at every stage; Troutnut's genus page uses the \"three tails\" character precisely to separate it from the two-tailed baetids, so offering the model a choice invites the wrong count",
+      "\"two large translucent opaque-tinted wings\" — a Paraleptophlebia dun has four wings: a large triangular forewing plus a small separate oval hind wing on each side (Leptophlebiidae, unlike Baetidae, have well-developed hind wings)",
+      "\"fall on the Henry's Fork and South Fork\" is left inside the visual description; it is locality lore, not anatomy, and gives the illustrator nothing to draw"
+    ],
+    "missing": [
+      "The three tails are roughly body length in the dun, not the greatly elongated filaments of the spinner",
+      "Body about 9-10 mm, wing about 10 mm — the largest Paraleptophlebia",
+      "The banded abdomen described in the source: dark head and thorax, pale/whitish middle segments 3-7, reddish-brown segments 8-10",
+      "The small oval hind wing behind the forewing"
+    ],
+    "invented": [
+      "\"slate wings\" is a common-name convention (bicornuta is sometimes called the Large Slate-Winged Mahogany Dun) but the formal description Troutnut quotes says the wings are \"hyaline with brown longitudinal veins\"; sources disagree on how dark the dun's wing is"
+    ],
+    "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. An adult Mahogany Dun mayfly (Paraleptophlebia bicornuta), freshly emerged subimago (dun) stage, side view standing on the water surface, body about 10 mm long. Slender segmented abdomen held slightly upcurved, blackish-brown head and thorax, pale whitish middle abdominal segments shading to reddish-brown on the last three segments, small head with rounded compound eyes and very short antennae, six slender pale legs with the front pair reaching forward, and exactly THREE long thin tail filaments — count them, three, not two — held apart and roughly as long as the body. Four wings: one large triangular dull slate-grey forewing on each side held together upright and vertical over the back like a sail, with a much smaller oval hind wing tucked behind it. It is a mayfly, a soft-bodied aquatic insect with three tails and upright sail-like wings — not a bird, not a moth, not a stonefly, not a caddisfly.",
+    "sources": [
+      "https://www.troutnut.com/hatch/47/Mayfly-Paraleptophlebia-Blue-Quills-and-Mahogany-Duns",
+      "https://www.troutnut.com/hatch/746/Mayfly-Paraleptophlebia-bicornuta-Mahogany-Dun",
+      "https://en.wikipedia.org/wiki/Leptophlebiidae"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "fw-callibaetis-nymph",
+    "verdict": "minor",
+    "truth": "Rick Hafele's Callibaetis account states the nymphs \"have three well-developed tails of equal length, and antennae two or three times longer than the width of their head,\" with gills bearing \"recurved flaps that increase their surface area\"; colour \"ranges from light gray to brown, as well as shades of olive,\" and they are agile minnow-like swimmers of weedy lakes and slow water (Troutnut: \"very slow weedy sections of rivers or lakes and ponds\").",
+    "errors": [
+      "\"three tail filaments (two for Epeorus/Quill Gordon)\" — this parenthetical is leaked boilerplate from another entry. Epeorus is a heptageniid clinger with nothing to do with Callibaetis, and putting \"two\" in the prompt at the point where the tail count is specified is the single most likely way to make the model draw a two-tailed nymph",
+      "\"Speckled tan swimmer, 3 tails, weed beds\" is dropped in as a raw note rather than as description, duplicating the tail count in shorthand"
+    ],
+    "missing": [
+      "Antennae two to three times the width of the head — a conspicuous baetid character the prompt reduces to \"short antennae\"",
+      "The three tails are of equal length and fringed with fine hairs",
+      "Gills as oval plates along abdominal segments 1-7 with recurved flaps (some doubled), not just \"a row of small gills\"",
+      "Streamlined, torpedo-shaped, strongly swimming body — Callibaetis is a minnow-like swimmer, not a crawler",
+      "Body 6-12 mm; mottled pale banding and pale spots on the abdomen that produce the 'speckled' look"
+    ],
+    "invented": [],
+    "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. A Callibaetis mayfly nymph (Callibaetis, the speckled dun), the aquatic immature insect, dorsal view from directly above, body 6-12 mm long. Streamlined torpedo-shaped swimmer: slender segmented abdomen mottled light grey-brown and olive with pale speckles, an oval plate-like gill with a recurved flap projecting from each side of abdominal segments one through seven, dark rounded wing pads on the thorax and NO wings, six slender legs, a small rounded head with two long thin antennae each two to three times as long as the head is wide, and exactly THREE tail filaments of equal length fringed with fine hairs. It is a mayfly nymph — a wingless aquatic insect with side gills along the abdomen and three tails — not an adult mayfly, not a stonefly nymph, not a damselfly nymph, not a fly-tying pattern.",
+    "sources": [
+      "https://www.rickhafele.com/bug-blog/8m7ydza71stn45bdktfd2u9oxd68b9",
+      "https://www.troutnut.com/hatch/183/Mayfly-Callibaetis-Speckled-Duns",
+      "https://en.wikipedia.org/wiki/Baetidae"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "fw-callibaetis-dun",
+    "verdict": "minor",
+    "truth": "Callibaetis is a baetid, and Rick Hafele states plainly that \"duns and spinners have two tails, about body length in duns and twice the body length in spinners\"; the dun's wings are \"mostly brown or gray\" with \"distinct light markings along the wing veins,\" which is the speckling the common name refers to. Wikipedia's Baetidae page notes adults have \"two long slender tails\" and that hind wings are \"usually very small or even absent.\" Body 6-12 mm.",
+    "errors": [
+      "\"two or three very long thin tail filaments trailing behind\" — a Callibaetis dun has exactly two tails, and they are about body length, not 'very long'; the extremely long tails belong to the spinner stage. Both the count and the proportion are wrong for this stage",
+      "\"two large translucent opaque-tinted wings\" — the forewings are correct in number, but the prompt omits the tiny hind wings that Baetidae retain, and Hafele describes the dun wing as brown or grey with light vein markings rather than merely 'opaque-tinted'",
+      "\"Speckled gray wings, tan body — Silver Creek classic\" is left as an unprocessed note; the locality tag is not anatomy"
+    ],
+    "missing": [
+      "Two tails about equal to body length",
+      "The pale markings along the wing veins against a darker grey-brown wing that give the 'speckled dun' its name",
+      "Very small hind wings",
+      "Males have turbinate (turret-like) eyes raised on top of the head — a striking baetid feature",
+      "Body length 6-12 mm, speckled/mottled tan-grey abdomen"
+    ],
+    "invented": [],
+    "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. An adult Callibaetis mayfly (Callibaetis, the speckled dun), freshly emerged subimago (dun) stage, side view standing on the water surface, body 6-12 mm long. Slender mottled tan and grey segmented abdomen held slightly upcurved, small thorax, small head with large rounded compound eyes and short fine antennae, six thin legs, and exactly TWO tail filaments — two, not three — held apart and about as long as the body. Two large grey-brown forewings, faintly opaque and marked with pale flecks along the veins, held together vertically upright over the back like a sail, with a very small hind wing tucked behind each. It is a mayfly, a soft-bodied insect with two tails and upright sail-like wings — not a bird, not a moth, not a caddisfly, not a fly-tying pattern.",
+    "sources": [
+      "https://www.rickhafele.com/bug-blog/8m7ydza71stn45bdktfd2u9oxd68b9",
+      "https://en.wikipedia.org/wiki/Baetidae",
+      "https://www.troutnut.com/hatch/183/Mayfly-Callibaetis-Speckled-Duns"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "fw-callibaetis-spinner",
+    "verdict": "minor",
+    "truth": "Hafele: \"duns and spinners have two tails, about body length in duns and twice the body length in spinners\"; male spinner wings are clear, while female spinners have \"wings marked with small dark splotches along their leading edge.\" Troutnut's genus page likewise describes female spinners with \"clear wing's leading edges marked with dark blotches.\" The spent spinner lies flat in the surface film with wings out to the sides.",
+    "errors": [
+      "\"two or three extremely long tail filaments splayed\" — exactly two tails; the count must not be left open",
+      "\"two clear glassy transparent wings\" — this contradicts the entry's own note \"Speckled clear wings spent\" and drops the one feature that identifies a female Callibaetis spinner: the row of small dark blotches along the leading edge of an otherwise clear wing",
+      "\"Speckled clear wings spent\" is left in as an unprocessed shorthand note rather than being described"
+    ],
+    "missing": [
+      "The dark blotches along the costal (leading) edge of the female spinner's clear wing",
+      "Tails about twice body length in the spinner — the prompt says 'extremely long' but does not tie it to the proportion the source gives",
+      "The very small hind wings",
+      "Body 6-12 mm; slender mottled tan-brown abdomen; legs and tails sprawled in the film"
+    ],
+    "invented": [],
+    "corrected_prompt": "Scientific entomological illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. An adult female Callibaetis mayfly (Callibaetis, the speckled spinner), spent imago stage, lying flat and dead in the surface film, viewed from directly above, body 6-12 mm long. Slender mottled tan-brown segmented abdomen, two glassy transparent wings spread flat out to the sides in a cross shape with a row of small dark blotches along the leading edge of each wing, a very small clear hind wing behind each forewing, six thin legs sprawled limply, and exactly TWO thin tail filaments — two, not three — splayed behind and about twice the length of the body. It is a mayfly spinner, a soft-bodied insect with two tails lying with clear wings flat on the water — not a bird, not a dragonfly, not a moth, not a fly-tying pattern.",
+    "sources": [
+      "https://www.rickhafele.com/bug-blog/8m7ydza71stn45bdktfd2u9oxd68b9",
+      "https://www.troutnut.com/hatch/183/Mayfly-Callibaetis-Speckled-Duns",
+      "https://en.wikipedia.org/wiki/Baetidae"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "sw-glass-minnow",
+    "verdict": "minor",
+    "truth": "The Atlantic silverside (Menidia menidia) is a slender, nearly translucent schooling fish of 5-9 cm (max about 15 cm) with a \"broad silver stripe running down each side\" alongside the lateral line, brown speckling on the top of the head and back, \"one spiny and one soft dorsal fin\" with the first set well back on the body, and a large mouth; it lacks an adipose fin. Note the name is ambiguous — in the Gulf and Florida \"glass minnow\" is more often applied to the bay anchovy (Anchoa mitchilli), and in the Northeast to silversides.",
+    "errors": [
+      "\"Scientific entomological illustration\" — this is a fish, not an insect; house style for fish is 'Scientific natural-history illustration'",
+      "\"A Glass Minnow / Silverside\" — the prompt should name the species, because 'glass minnow' is applied to two unrelated fish (silversides, Atherinopsidae, and bay anchovy, Engraulidae) with quite different heads and mouths",
+      "\"Accurate anatomy.\" is asserted but no anatomy is actually specified — there are no fins, no tail shape, no eye"
+    ],
+    "missing": [
+      "Two separate dorsal fins — a small spiny first dorsal set well back, then a soft second dorsal",
+      "Forked caudal fin",
+      "Large eye near the front of a small pointed head",
+      "Fine dark speckling over a greenish translucent back, white belly (countershading), with the silver stripe running above the lateral line",
+      "Size 5-9 cm; slender, only slightly compressed body"
+    ],
+    "invented": [],
+    "corrected_prompt": "Scientific natural-history illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. An Atlantic silverside (Menidia menidia), also called a glass minnow, a single live fish in strict left side view underwater, about 8 cm long. Very slender, elongate, barely compressed body, almost translucent so the backbone shows faintly through the flank; a broad bright silver stripe runs the whole length of each side just above the lateral line; greenish-olive back finely speckled with dark dots shading to a white belly; a small pointed head with a large round eye set well forward and a small upward-slanting mouth. Two separate dorsal fins — a small spiny one set well back on the back, then a soft-rayed second dorsal above the long anal fin — small pectoral fins set high on the side, and a forked tail. It is a small silvery bony fish with fins and scales — not an eel, not an insect, not a larva, not a fly-tying pattern.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Atlantic_silverside",
+      "https://www.fishbase.se/summary/Menidia-menidia.html"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "sw-sand-eel",
+    "verdict": "minor",
+    "truth": "The American sand lance (Ammodytes americanus) has \"a long, thin body with a pointed snout\" and \"a lower jaw that extends well beyond the upper,\" a long low very delicate dorsal fin running \"along most of its back,\" small pectorals, a forked caudal fin, and countershading — \"muted brownish-green dorsal side transitioning to white sides and stomach,\" overall greenish-silver, with the lateral line marking the colour change. Mature fish are 10-15 cm, occasionally 18 cm, and burrow head-first into sand.",
+    "errors": [
+      "\"Scientific entomological illustration\" — this is a fish; house style for fish is 'Scientific natural-history illustration'",
+      "\"pointed head\" understates and mis-states the diagnostic: the snout is pointed because the lower jaw projects well beyond the upper, giving an underslung look",
+      "\"olive back, silver sides\" is close but the source describes brownish-green above grading to white sides and belly with an overall greenish-silver cast — the countershading is not stated as a gradient",
+      "\"Accurate anatomy.\" is asserted while no fins are specified at all"
+    ],
+    "missing": [
+      "No pelvic fins — the most diagnostic single feature of a sand lance",
+      "A single very long low dorsal fin running along most of the back, and a long anal fin behind the mid-body",
+      "Forked caudal fin",
+      "Small pectoral fins set low and well forward",
+      "Oblique skin folds along the flanks and the visible lateral line at the colour boundary",
+      "Size 10-15 cm"
+    ],
+    "invented": [],
+    "corrected_prompt": "Scientific natural-history illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. An American sand lance or sand eel (Ammodytes americanus), a single live fish in strict left side view underwater, about 13 cm long. Extremely long, thin, almost cylindrical eel-like body held in a slight sinuous curve; sharply pointed head with the lower jaw projecting well beyond the upper; one single very long low delicate dorsal fin running along nearly the whole back, a long anal fin along the rear underside, small pectoral fins set low and far forward, and NO pelvic fins at all; a forked tail. Brownish-green above shading through greenish-silver flanks marked by fine oblique skin folds and a visible lateral line to a plain white belly. It is a slender bony fish with fins and a forked tail — not a true eel, not a worm, not a needlefish, not a fly-tying pattern.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ammodytes_americanus"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "sw-mullet",
+    "verdict": "wrong",
+    "truth": "'Mullet' and 'menhaden' are two unrelated fish. The flathead grey/striped mullet (Mugil cephalus, Mugilidae) is per FishBase \"stout, cylindrical\" and only \"slightly compressed,\" with a \"broad and flattened\" head, a \"well developed adipose eyelid,\" two widely separated dorsal fins (first with 5 spines, second with 7-9 soft rays), and per Wikipedia \"olive-green\" back, \"silvery\" sides shading to white with \"six to seven distinctive lateral horizontal stripes.\" The Atlantic menhaden (Brevoortia tyrannus) is a herring with \"a moderately compressed body,\" silvery, with \"a black spot on their shoulder behind their gill openings,\" a single soft dorsal fin, a saw-toothed keel of belly scutes and a deeply forked tail.",
+    "errors": [
+      "\"A Mullet / Menhaden (bunker)\" — this names two fish in different orders and asks the model to draw one image of both; it will produce a chimera or the wrong fish",
+      "\"Deep-bodied, silver\" — deep-bodied describes the menhaden, not the mullet, which FishBase calls \"stout, cylindrical\" and only slightly compressed; as written the phrase contradicts half the animals it names",
+      "\"Scientific entomological illustration\" — this is a fish; house style for fish is 'Scientific natural-history illustration'",
+      "\"big schools flipping on surface\" is behaviour, not anatomy, and is doing the work that a fin and tail description should be doing",
+      "\"Accurate anatomy.\" is asserted while no fins, tail shape, head shape or markings are given"
+    ],
+    "missing": [
+      "For mullet: two widely separated dorsal fins, blunt flattened head, small terminal mouth, adipose eyelid over the eye, large scales, forked tail, dark horizontal stripes along the scale rows",
+      "For menhaden: single soft dorsal, the black humeral shoulder spot (often followed by rows of smaller spots), the keeled belly of sharp scutes, the big head and deeply forked tail",
+      "Countershading in either case — dark olive or blue-green back over silver sides and white belly",
+      "Size: the entry gives 4-10 in, which spans juvenile mullet and adult menhaden"
+    ],
+    "invented": [
+      "The combined description 'deep-bodied mullet' matches neither published species description; no source describes Mugil cephalus as deep-bodied"
+    ],
+    "corrected_prompt": "Scientific natural-history illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. An Atlantic menhaden or bunker (Brevoortia tyrannus), a single live fish in strict left side view underwater, about 20 cm long. Deep, strongly side-compressed herring body with a large blunt head roughly one third of the body length, a large upward-slanting mouth, a big round eye, and a sharply keeled belly edged with a saw-toothed row of scutes running from throat to vent. One single soft-rayed dorsal fin near the middle of the back, small pectoral fins set low behind the gill cover, small pelvic fins beneath, a short anal fin, and a deeply forked tail. Dark blue-green back shading abruptly to bright burnished silver flanks and a white belly, with a distinct black spot on the shoulder just behind the gill opening followed by a scattering of smaller dark spots along the upper side. It is a single deep-bodied silvery herring, one fish with scales and fins — not a mullet, not an eel, not a school of fish, not a fly-tying pattern.",
+    "sources": [
+      "https://www.fishbase.se/summary/Mugil-cephalus.html",
+      "https://en.wikipedia.org/wiki/Flathead_grey_mullet",
+      "https://en.wikipedia.org/wiki/Atlantic_menhaden"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "sw-pilchard",
+    "verdict": "minor",
+    "truth": "The scaled sardine (Harengula jaguana) is a herring: FishBase describes a \"fusiform\" but \"compressed\" body whose \"lower profile [is] decidedly more curved than the flattened upper profile,\" scales \"fairly strongly attached, not easily lost\" (hence 'scaled sardine'), a single soft dorsal of 13-21 rays with no spines, \"no orange or red spot at opercle,\" maximum 21.2 cm TL and common length about 12 cm. Like other Clupeidae it has a keel of belly scutes and a deeply forked tail; the back is bluish-green over bright silver sides.",
+    "errors": [
+      "\"Scientific entomological illustration\" — this is a fish; house style for fish is 'Scientific natural-history illustration'",
+      "\"schools \\\"raining\\\" when chased\" is behaviour and belongs nowhere in a single-specimen field-guide plate; it risks the model drawing a school or a splash",
+      "\"Accurate anatomy.\" is asserted while no fin, tail or head detail is given"
+    ],
+    "missing": [
+      "The deeply curved belly profile against a flatter back — the shape that distinguishes it from a round-bodied herring",
+      "The keel of sharp scutes along the belly",
+      "A single short soft-rayed dorsal fin near mid-body, no spines",
+      "Deeply forked tail",
+      "Large eye and upturned mouth; large firmly attached silvery scales",
+      "Size: commonly about 12 cm (the entry's 2-4 in is a juvenile)"
+    ],
+    "invented": [],
+    "corrected_prompt": "Scientific natural-history illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. A scaled sardine or pilchard (Harengula jaguana), a single live fish in strict left side view underwater, about 10 cm long. Moderately deep, strongly side-compressed herring body whose belly profile curves much more deeply than the flatter back; a keel of small sharp overlapping scutes runs along the midline of the belly from throat to vent; large firmly attached silvery scales; a large round eye and a small upturned mouth on a short blunt head. One single short soft-rayed dorsal fin near the middle of the back with no spines, small pectoral fins low behind the gill cover, small pelvic fins beneath the dorsal, a short anal fin near the tail, and a deeply forked tail. Bluish-green back shading sharply to brilliant burnished silver flanks and a white belly. It is one small silvery herring-type bony fish with scales and fins — not a school, not a sardine tin, not a mullet, not a fly-tying pattern.",
+    "sources": [
+      "https://www.fishbase.se/summary/Harengula-jaguana.html"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "sw-shrimp",
+    "verdict": "minor",
+    "truth": "A shrimp is a decapod crustacean: Wikipedia's Decapoda page states they have \"ten ... legs\" (five pairs of pereiopods on the last five thoracic segments, one or two pairs bearing chelae), \"five more pairs of appendages on the abdomen\" (pleopods/swimmerets), and \"one final pair called uropods, which, with the telson, form the tail fan\"; the carapace covers the cephalothorax and the eyes are stalked. Carideans show the characteristic 'caridean bend' where the second abdominal segment overlaps the first and third; they escape by flicking the tail fan, driving them backwards.",
+    "errors": [
+      "\"Scientific entomological illustration\" — a shrimp is a crustacean, not an insect; house style here should be 'Scientific natural-history illustration'",
+      "\"A Shrimp\" with no species or family — penaeid shrimp (the common Gulf/Atlantic fly prey) and caridean grass shrimp differ in body curve, rostrum and claw arrangement, so an unnamed shrimp gives the model nothing to anchor on",
+      "\"kicks backward\" is behaviour rather than anatomy; without the tail fan being described it cannot be drawn",
+      "\"Accurate anatomy.\" is asserted while every count — legs, swimmerets, antennae — is absent"
+    ],
+    "missing": [
+      "Five pairs of walking legs (ten legs), the front pairs tipped with small pincers",
+      "Five pairs of feathery swimmerets under the abdomen",
+      "Telson plus a pair of uropods forming the fan-shaped tail",
+      "Two pairs of antennae — short antennules and one pair of very long whip-like antennae, often longer than the body",
+      "A toothed rostrum projecting forward between the stalked eyes",
+      "Carapace over the cephalothorax, then a six-segmented abdomen, bent in carideans"
+    ],
+    "invented": [],
+    "corrected_prompt": "Scientific natural-history illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. A small coastal shrimp, a single live animal in strict left side view underwater, about 6 cm long. Translucent tan and olive body faintly speckled and showing the gut as a dark line: a smooth carapace covering the head and thorax, a toothed spear-like rostrum projecting forward over the head between two dark eyes on short stalks, two pairs of antennae — a short forked pair and a pair of very long whip-like antennae trailing back past the tail — five pairs of jointed walking legs beneath the thorax with the front pairs tipped by tiny pincers, a segmented abdomen arching over the back in six visible plates, five pairs of small feathery swimmerets in a row beneath it, and at the rear a pointed central telson flanked by a pair of flat uropods forming a spread fan-shaped tail. It is a crustacean, a shrimp with a jointed shell, long antennae and a fan tail — not an insect, not a prawn cocktail, not a crayfish, not a fly-tying pattern.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Decapoda",
+      "https://en.wikipedia.org/wiki/Caridea"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "sw-crab",
+    "verdict": "minor",
+    "truth": "A true crab is a decapod with ten legs (five pairs, the first pair being chelipeds/claws); Wikipedia's Crab page describes the carcinised body as having \"a carapace ... flatter than it is broad\" with the pleon (abdomen) \"flattened and strongly bent,\" folded forward beneath the body and hidden in dorsal view. Eyes are on short stalks and there are two pairs of antennae. Many run \"crabwise\" (sideways); swimming crabs such as Callinectes have the last pair of legs flattened into paddles.",
+    "errors": [
+      "\"side view underwater\" directly conflicts with \"Round or oval carapace\" — a crab's carapace outline and its leg arrangement are only visible from above; a strict side view of a crab is a thin edge-on sliver and hides everything the note asks for",
+      "\"Scientific entomological illustration\" — a crab is a crustacean, not an insect; house style here should be 'Scientific natural-history illustration'",
+      "\"claws up, scuttles sideways and dives to bottom\" is behaviour, not anatomy, and 'claws up' describes a defensive posture rather than an identifying feature",
+      "\"Accurate anatomy.\" is asserted while no leg count is given at all — the most common failure mode for crab illustrations"
+    ],
+    "missing": [
+      "Ten legs total: five pairs, the front pair being the chelipeds with pincers, four pairs of walking legs behind",
+      "The reduced abdomen folded flat forward under the body and hidden from above",
+      "Two short eyestalks set in sockets on the front edge of the carapace, and two pairs of antennae",
+      "Spines or teeth along the front-side margins of the carapace",
+      "If a swimming crab is intended, the flattened paddle-shaped last pair of legs"
+    ],
+    "invented": [],
+    "corrected_prompt": "Scientific natural-history illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. A small coastal crab, a single live animal viewed from directly above (dorsal view), carapace about 4 cm across. A broad, smooth, oval carapace wider than it is long, mottled olive and tan with small teeth along its front-side margins; two short eyestalks set in notches at the front edge with two pairs of small antennae between them; and exactly TEN legs — five pairs — arranged symmetrically, the front pair being stout claws with toothed pincers held forward, followed by four pairs of jointed pointed walking legs, two pairs on each side, with the hindmost pair flattened into swimming paddles. The small triangular abdominal flap is folded flat forward underneath the body and hidden from above. It is a crustacean, a true crab with a hard shell, ten legs and two claws — not a spider, not an insect, not a horseshoe crab, not a fly-tying pattern.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Crab",
+      "https://en.wikipedia.org/wiki/Decapoda"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "sw-palolo",
+    "verdict": "minor",
+    "truth": "Palolo worms are eunicid polychaetes; Britannica describes adults \"about 40 cm (16 inches) long ... divided into ringlike segments, each with paddlelike appendages bearing gills,\" and it is the epitoke — \"the tail section ... bearing reproductive cells\" — that detaches and swims to the surface to spawn. The Atlantic species is Eunice furcata (E. schemacephala); Britannica says it \"swarms during the last quarter of the June–July Moon,\" while Keys Weekly reports the Florida Keys swarms of \"little reddish worms\" happen \"around the late May full moon and early June new moon.\" Britannica gives Pacific males as reddish brown and females bluish green.",
+    "errors": [
+      "\"Scientific entomological illustration\" — a polychaete is an annelid worm, not an insect; house style here should be 'Scientific natural-history illustration'",
+      "\"spring full-moon hatch\" — sources disagree and none support a flat 'spring full moon': Britannica puts the Atlantic swarm at the last quarter of the June-July moon, and Keys Weekly at the late-May full moon and the early-June new moon. The moon phase is not a visual feature in any case",
+      "\"swims near surface\" is behaviour standing in for anatomy; the prompt gives no body detail beyond 'segmented'",
+      "\"Accurate anatomy.\" is asserted while nothing anatomical is specified beyond the word 'segmented'"
+    ],
+    "missing": [
+      "That the swimming animal is the epitoke — the detached posterior portion of the worm, not a whole worm with a head",
+      "A pair of paddle-like appendages (parapodia) bearing bristles and gills on every single segment, giving a fringed outline down both sides",
+      "The ring-like segmentation is dense — dozens of short close-set rings, not a few big ones",
+      "Undulating, ribbon-like swimming posture at the surface",
+      "Colour is contested: Keys reports 'little reddish worms', Britannica gives reddish-brown males and bluish-green females"
+    ],
+    "invented": [
+      "The specific pairing of 'spring' with 'full moon' — no source gives that combination for the Atlantic palolo"
+    ],
+    "corrected_prompt": "Scientific natural-history illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. An Atlantic palolo worm (Eunice furcata), the detached swimming reproductive section called the epitoke, a single animal in side view undulating just below the surface, about 8 cm long. A long, slender, soft-bodied annelid worm divided into many dozens of short close-set ring-like segments, its body held in shallow S-curves; every single segment bears a small paddle-shaped appendage on each side tipped with a tuft of fine bristles, so both edges of the worm show a continuous even fringe; the body tapers to a blunt end at each extremity. Translucent orange-red to reddish-brown, darker along the gut line, paler toward the tail. It is a segmented marine bristle worm — not a caterpillar, not an eel, not a centipede, not a strand of yarn, not a fly-tying pattern.",
+    "sources": [
+      "https://www.britannica.com/animal/palolo-worm",
+      "https://keysweekly.com/42/worm-wonders-a-tiny-reef-creature-lures-the-keys-tarpon/",
+      "https://en.wikipedia.org/wiki/Palolo_worm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "sw-squid",
+    "verdict": "minor",
+    "truth": "Wikipedia's Squid page states squids have \"eight arms and two distinctive tentacles\" round the mouth, each \"flexible and prehensile, usually bearing disc-like suckers\" whose \"rims are stiffened with chitin\"; the paired eyes sit \"on either side of the head\"; \"swimming fins\" run along \"each side\" of the mantle; water is \"expelled out of the funnel in a fast, strong jet\"; and the mouth holds \"a sharp, horny beak.\" The longfin inshore squid (Doryteuthis pealeii), the usual northeast bait, is often \"seen with a reddish hue\" and shifts \"from deep red to soft pink\" via chromatophores.",
+    "errors": [
+      "\"Scientific entomological illustration\" — a squid is a cephalopod mollusc, not an insect; house style here should be 'Scientific natural-history illustration'",
+      "\"jets backward\" is behaviour used in place of the funnel/siphon that produces it",
+      "\"Accurate anatomy.\" is asserted while the prompt gives no arm count and no tentacle count — for a squid this is the single most important number and its absence is what produces octopus-like or ten-identical-arm results"
+    ],
+    "missing": [
+      "Eight arms plus two distinctly longer tentacles — ten appendages, not all alike",
+      "The two tentacles are longer than the arms and widen into a sucker-bearing club at the tip",
+      "Rows of small stalked suckers along the arms",
+      "The funnel/siphon projecting beneath the head",
+      "The chitinous beak at the centre of the arm crown",
+      "Red-brown chromatophore speckling over a translucent pinkish-white body rather than a flat pinkish wash",
+      "Fin shape — for Doryteuthis, long triangular fins occupying roughly the rear half of the mantle"
+    ],
+    "invented": [],
+    "corrected_prompt": "Scientific natural-history illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. A longfin inshore squid (Doryteuthis pealeii), a single live animal in side view underwater, mantle about 15 cm long. A long torpedo-shaped mantle tapering to a point at the rear, with a pair of long triangular fins running along the sides of roughly the rear half of the mantle; a short head in front of the mantle opening carrying one large round eye on each side and a short funnel projecting beneath; and at the front, exactly TEN appendages — EIGHT arms of moderate length lined with two rows of small suckers, plus TWO noticeably LONGER tentacles that are slender along most of their length and widen into a sucker-covered club at the tip. A small dark horny beak sits hidden at the centre of the arm crown. Translucent pinkish-white flesh dusted all over with fine red-brown speckles. It is a squid, a cephalopod with a pointed mantle, rear fins, eight arms and two longer tentacles — not an octopus, not a cuttlefish, not a fish, not a fly-tying pattern.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Squid",
+      "https://en.wikipedia.org/wiki/Doryteuthis_pealeii"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "sw-needlefish",
+    "verdict": "wrong",
+    "truth": "Needlefish and ballyhoo are different families with opposite jaw anatomy. In Belonidae (needlefish) \"both jaws are elongated\" into \"long, narrow jaws filled with sharp teeth,\" with \"a single dorsal fin, placed far back on the body, almost opposite to the anal fin,\" and lengths from 3 to 95 cm. The ballyhoo (Hemiramphus brasiliensis, Hemiramphidae) is a halfbeak with \"an elongated lower jaw\" only — the upper jaw is a short triangular flap — on a \"cylindrical elongated body,\" to about 35 cm.",
+    "errors": [
+      "\"A Needlefish / Ballyhoo\" — two fish from different families with directly contradictory head anatomy, offered as one subject; the model must produce a chimera or pick one at random",
+      "\"beak-like jaw\" (singular) — ambiguous exactly where the two candidates differ: a needlefish has two elongated jaws, a ballyhoo has one",
+      "\"Scientific entomological illustration\" — this is a fish; house style for fish is 'Scientific natural-history illustration'",
+      "\"skims surface\" is behaviour, not anatomy",
+      "\"Accurate anatomy.\" is asserted while no fins, tail or colour are specified"
+    ],
+    "missing": [
+      "For needlefish: the single dorsal fin set far back, almost directly opposite the anal fin; sharp teeth in both jaws; green or blue back over bright silver sides",
+      "For ballyhoo: the short triangular upper jaw, the orange-red tip on the elongated lower beak, and the forked tail with a much longer lower lobe",
+      "Countershading, the silver lateral stripe, the large eye",
+      "A size that matches one animal rather than spanning both"
+    ],
+    "invented": [
+      "The implied single animal that is both a needlefish and a ballyhoo — no source describes such a fish"
+    ],
+    "corrected_prompt": "Scientific natural-history illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. A ballyhoo halfbeak (Hemiramphus brasiliensis), a single live fish in strict left side view underwater, about 28 cm long. Extremely long, slender, nearly cylindrical body; the head bears ONE elongated jaw only — a long thin needle-like LOWER jaw projecting far forward, tipped bright orange-red, while the UPPER jaw is a short triangular flap no longer than the eye — with a large round eye just behind it. A single small soft dorsal fin set far back on the body almost directly above the small anal fin, small pectoral fins high on the side behind the gill cover, small pelvic fins far back on the belly, and a deeply forked tail whose LOWER lobe is distinctly longer than the upper. Dark blue-green back with a bright silver lateral stripe along the flank and a white belly. It is a halfbeak, a slender surface-dwelling bony fish with only its lower jaw drawn out into a beak — not a needlefish with two long jaws, not a gar, not a garfish, not an eel, not a fly-tying pattern.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Needlefish",
+      "https://en.wikipedia.org/wiki/Ballyhoo"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "sw-mud-minnow",
+    "verdict": "minor",
+    "truth": "In salt marshes 'mud minnow' means the mummichog (Fundulus heteroclitus), a killifish: \"elongate but thick\" body with a deep caudal peduncle, typically 7.5-9 cm and up to 15 cm, with the mouth \"upturned and the lower jaw protrud[ing] when the mouth is closed,\" round pectoral and tail fins, and males \"dark olive-green on the back, steel-blue on the sides with about 15 silvery bars, and yellow or orange-yellow on the underside\" while females are \"paler, without bars.\" It lives in \"salt marshes, muddy creeks, tidal channels ... eelgrass or cordgrass beds.\" Note the true mudminnows (Umbra, Umbridae) are unrelated freshwater fish.",
+    "errors": [
+      "\"Scientific entomological illustration\" — this is a fish; house style for fish is 'Scientific natural-history illustration'",
+      "\"Mud Minnow / Killifish\" — 'mudminnow' is the accepted common name of the freshwater genus Umbra, a different family entirely; in a saltwater context the species should be named as the mummichog, Fundulus heteroclitus",
+      "\"Stubby, olive-brown\" — the source describes it as \"elongate but thick\" rather than stubby, and olive-green on the back with steel-blue sides rather than uniformly olive-brown",
+      "\"Accurate anatomy.\" is asserted while no fins beyond the tail are specified"
+    ],
+    "missing": [
+      "The upturned mouth with the lower jaw protruding — the most recognisable feature of the head",
+      "About fifteen thin silvery-white vertical bars along the male's steel-blue sides (females plain and paler)",
+      "A single small dorsal fin set far back on the body, close to the tail, and rounded pectoral fins",
+      "Yellow or orange belly on breeding males; a dark eyespot at the rear of the male's dorsal fin",
+      "Deep caudal peduncle; size 7.5-9 cm"
+    ],
+    "invented": [],
+    "corrected_prompt": "Scientific natural-history illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. A mummichog or marsh mud minnow (Fundulus heteroclitus), a single live male fish in strict left side view underwater, about 9 cm long. Thick-set but elongate body with a blunt rounded snout, a small upturned mouth whose lower jaw protrudes when closed, a large round eye, and a notably deep muscular tail base. A single small soft dorsal fin set far back on the body close to the tail, a matching anal fin beneath it, rounded pectoral fins behind the gill cover, small pelvic fins on the belly, and a plainly ROUNDED tail with no fork. Dark olive-green back shading to steel-blue sides crossed by about fifteen thin wavy silvery-white vertical bars, with a yellow-orange belly and a small dark eyespot near the rear edge of the dorsal fin. It is a small stout-bodied bony fish with scales, fins and a rounded tail — not a tadpole, not a true mudminnow of the freshwater genus Umbra, not an eel, not a fly-tying pattern.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mummichog"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "sw-bay-anchovy",
+    "verdict": "minor",
+    "truth": "The bay anchovy (Anchoa mitchilli) is \"a small, slender, schooling fish\" of about 6 cm (max 10-11 cm) with \"a greenish body and a silvery stripe,\" \"a single dorsal fin\" located \"directly above the anal fin origin,\" and a very long jaw. FishBase gives the diagnostic head: \"Snout fairly blunt, a little over 1/2 eye diameter\" with the \"maxilla long, tip pointed, reaching beyond hind border of pre-operculum, almost to gill opening.\" Sources disagree on the jaws: Wikipedia states the lower jaw extends beyond the upper, while FishBase's description of a blunt projecting snout over a very long maxilla matches the standard engraulid arrangement of an overhanging snout and an inferior mouth.",
+    "errors": [
+      "\"Scientific entomological illustration\" — this is a fish; house style for fish is 'Scientific natural-history illustration'",
+      "\"the NC fall albie bait\" is angling context inside the visual description and gives the illustrator nothing",
+      "\"Accurate anatomy.\" is asserted while the one diagnostic feature — the enormous mouth with the maxilla reaching almost to the gill opening — is absent",
+      "\"minnow\" — a bay anchovy is an engraulid, not a minnow (Cyprinidae); the word may steer the model toward a freshwater shiner"
+    ],
+    "missing": [
+      "The very long maxilla reaching back almost to the gill opening under a short blunt projecting snout",
+      "A single dorsal fin sitting directly above the origin of the long anal fin",
+      "Forked tail; small pectoral fins low on the body",
+      "The silvery lateral stripe on a translucent greenish body, white belly",
+      "Size about 6 cm; very slender, laterally compressed body; scales loose and easily shed"
+    ],
+    "invented": [],
+    "corrected_prompt": "Scientific natural-history illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. A bay anchovy (Anchoa mitchilli), a single live fish in strict left side view underwater, about 6 cm long. Very slender, slightly side-compressed, half-translucent body with a pale greenish-olive back finely peppered with dark dots, a narrow silvery stripe along each flank and a white belly. Large round eye set well forward on a short blunt snout that projects slightly over an enormous mouth, the upper jawbone running back almost as far as the gill opening. One single small soft dorsal fin set at mid-back directly above the front of a long low anal fin, small pectoral fins low behind the gill cover, tiny pelvic fins, and a forked tail. It is a small slender silvery-green marine bony fish with scales, fins and a forked tail — not a freshwater minnow, not a larva, not a worm, not a fly-tying pattern.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Bay_anchovy",
+      "https://www.fishbase.se/summary/Anchoa-mitchilli.html"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "sw-finger-mullet",
+    "verdict": "minor",
+    "truth": "'Finger mullet' is the juvenile striped/flathead grey mullet (Mugil cephalus). FishBase describes a \"stout, cylindrical\" body \"slightly compressed\" with a \"broad and flattened\" head, two separate dorsal fins (first with 5 spines, second with 7-9 soft rays), an anal fin of 3 spines and 8-9 soft rays, a \"well developed adipose eyelid\" covering \"most of pupil,\" and an upper lip \"thin and without papillae.\" Wikipedia gives an \"olive-green\" back with \"sides ... silvery and shad[ing] to white towards the belly\" and \"six to seven distinctive lateral horizontal stripes,\" and notes the mullet \"has no lateral line.\"",
+    "errors": [
+      "\"Scientific entomological illustration\" — this is a fish; house style for fish is 'Scientific natural-history illustration'",
+      "\"Small mullet pouring out of the marsh in the fall run\" is the whole description — it is angling narrative, not anatomy, and 'pouring out' invites a picture of a school rather than one specimen",
+      "\"Accurate anatomy.\" is asserted while the prompt names not one anatomical feature: no fins, no head shape, no colour, no tail"
+    ],
+    "missing": [
+      "Stout, near-cylindrical, only slightly compressed body — not a deep or a flat one",
+      "Two widely separated dorsal fins: a small spiny first dorsal near mid-back, then a soft second dorsal well behind it",
+      "Broad flattened head with a small terminal mouth and a thin upper lip",
+      "Forked tail",
+      "Large scales; olive-green back, silver sides, white belly, with six to seven faint dark horizontal stripes along the scale rows",
+      "No visible lateral line; an adipose eyelid over the eye in larger fish",
+      "Size 3-5 in for a juvenile"
+    ],
+    "invented": [],
+    "corrected_prompt": "Scientific natural-history illustration, ink line and soft watercolor wash on plain cream paper, accurate anatomy, no text, no labels. A juvenile striped mullet, a 'finger mullet' (Mugil cephalus), a single live fish in strict left side view underwater, about 10 cm long. Stout, nearly cylindrical, only slightly side-compressed body with a broad flattened head, a small blunt terminal mouth with a thin upper lip, and a large round eye. Two clearly SEPARATE dorsal fins — a small triangular spiny one near the middle of the back, then a gap, then a soft-rayed second dorsal further back — with small pectoral fins set high behind the gill cover, pelvic fins on the belly, a short anal fin, and a forked tail. Large silvery scales; dark olive-green back shading to bright silver flanks and a white belly, with six or seven faint dark horizontal stripes running along the rows of scales, and no visible lateral line. It is one small silvery bony fish with scales and fins — not a school of fish, not a menhaden, not an eel, not a fly-tying pattern.",
+    "sources": [
+      "https://www.fishbase.se/summary/Mugil-cephalus.html",
+      "https://en.wikipedia.org/wiki/Flathead_grey_mullet"
+    ],
+    "confidence": "high"
+  }
+]
