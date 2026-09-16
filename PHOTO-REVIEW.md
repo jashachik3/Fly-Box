@@ -982,8 +982,52 @@ for consistency or keep it:
 node tools/generate-images.mjs --only=game-changer-chartreuse --kind=fly --force
 ```
 
-**225 flies and 71 organism stages, every one checked against photographs.**
+Re-rolled and landed — chartreuse, linked shanks, one fly, eye left.
 
+**Pass complete, 16 Sep 2026: 225 flies and 71 organism stages, every image checked against
+photographs.**
+
+
+## Jeff's review pass — begun 17 Sep 2026
+
+The photo pass was mine; this one is Jeff's, and it catches what mine cannot: he has tied and
+fished these. Two findings so far, both from one look each, both systematic.
+
+**Bead-chain eyes (18 flies).** The Gotcha had "a bead-chain necklace" — one ball under the shank
+with chain draped round the body. Every bead-chain pattern had it. Cause: the prompts named the
+*material* ("silver bead-chain eyes"), so the model drew a chain; and the shared inverted clause
+said "the weighted eyes sit UNDER the shank", which is dumbbell wording and wrong for bead chain.
+Fix: describe the *geometry* — "exactly two steel balls joined by a hidden stub of chain, lashed
+crosswise like a tiny barbell, one ball each side, no loose chain anywhere" — and a bead-chain
+variant of the inverted clause ("straddle the shank at shank height"). Re-rendered: 18/18 right.
+
+**Bonefish Bitters (3 flies).** Jeff sent photographs. The real fly is nearly all HEAD — one
+translucent lentil of hot-melt glue moulded over tiny bead-chain eyes, a wisp of deer hair and
+hackle, speckled rubber legs, almost nothing behind. Ours had two glass beads in a row and a long
+body, because *my* earlier "correction" had insisted "no epoxy, no resin, glass beads only" — I had
+read recipes, not pictures. First rewrite still drew two beads: it said "one fused lump" but also
+"moulded over a pair of bead-chain eyes" and "two faint bulges". Second rewrite removed every
+countable noun that was not the answer — "count the hard parts: exactly one; not two, not a row of
+beads, not eyes; a drop of hardened honey" — and landed all three.
+
+### Rules learned, for every prompt from here
+
+1. **Geometry, not material names.** "Bead-chain eyes" draws a chain. "Two balls on a hidden
+   stub, lashed crosswise" draws eyes. Name what it looks like, not what it is made of.
+2. **When the model gets a count wrong, remove the other countable nouns.** Saying "one" louder
+   does nothing while "a pair" or "two bulges" is anywhere in the text. The count the model
+   renders is the one it can find a noun for.
+3. **Shared clauses leak.** The inverted block was written for lead dumbbells and applied to 61
+   flies; on 18 of them it was describing the wrong eyes. Any shared sentence needs a check
+   against each family it lands on.
+4. **A photograph beats a recipe.** Recipes say "bead chain, hot glue"; only a picture says the
+   glue *is* the head. Where Jeff can send a picture, the prompt gets written from it.
+5. **A 422 "did not generate the expected output" is usually transient.** Retry once before
+   rewording.
+
+Numbered review sheets of all 225 flies (`fly-review-sheets.pdf`, 7 pages, saltwater first) are
+with Jeff. Notes come back as "number — what is wrong, in tying terms"; fixes go out as one
+`--only=` line per batch.
 
 ## Next
 

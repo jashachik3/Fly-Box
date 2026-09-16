@@ -187,7 +187,10 @@ await Promise.all(lanes);
 console.log('');
 console.log(`  ${done} rendered, ${failed} failed`);
 if (failures.length) {
-  console.log(`  retry with:  node tools/generate-images.mjs --only=${failures.map((f) => f.id).join(',')}`);
+  // Carry --kind and --force through: three ids (trico-dun, trico-spinner, midge-adult)
+  // are both a fly and a bug stage, and a bare --only would render both.
+  const carry = `${KIND ? ` --kind=${KIND}` : ''}${FORCE ? ' --force' : ''}`;
+  console.log(`  retry with:  node tools/generate-images.mjs --only=${failures.map((f) => f.id).join(',')}${carry}`);
 }
 if (queue.some((e) => e.mode === 'edit')) {
   console.log('  then:        node tools/build-diagrams.mjs      (composites the panels back under the labels)');
