@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { bundle, concepts, record, assetUrl, deckMembers } from '../content/index.js';
-import { deckFilter, renderCard, retrieveLine, setWord } from '../content/query.js';
+import { deckFilter, renderCard, retrieveLine, setWord, choicesFor } from '../content/query.js';
 import { buildQueue, grade, newCard, progress, GRADE } from '../user/review.mjs';
 import { store } from '../state/db.js';
 import { useAsync } from '../state/useAsync.js';
@@ -18,6 +18,12 @@ function CardImage({ src, alt }) {
     <img className="cardimg" src={assetUrl(src)} alt={alt} loading="lazy"
          onError={() => setOk(false)} />
   );
+}
+
+function ChoiceImage({ src }) {
+  const [ok, setOk] = useState(true);
+  if (!ok) return null;
+  return <img className="choiceimg" src={assetUrl(src)} alt="" loading="lazy" onError={() => setOk(false)} />;
 }
 
 const GRADES = [
@@ -149,6 +155,7 @@ function DeckPicker({ deck, trip, cards, onPick, onClose }) {
 export default function LearnTab({ trip, deck = null, setDeck, onDueCount }) {
   const { data: cards, reload } = useAsync(() => store.review.all(), []);
   const [revealed, setRevealed] = useState(false);
+  const [picked, setPicked] = useState(null);   // option key chosen on a multiple-choice card
   const [done, setDone] = useState(0);
   const [picking, setPicking] = useState(false);
 
@@ -182,20 +189,75 @@ export default function LearnTab({ trip, deck = null, setDeck, onDueCount }) {
     [item, done],
   );
 
+  // Four options, one right, shuffled once per card. Knots and leaders come
+  // back null and keep the reveal-and-rate form.
+  const choices = useMemo(
+    () => (item && face ? choicesFor(bundle, item.concept, face, { seed: `${item.concept.id}|${done}` }) : null),
+    [item, face, done],
+  );
+
   async function answer(g) {
     if (!item) return;
     const base = item.card ?? newCard(item.concept.id, item.concept.kind);
     await store.review.put(grade(base, g));
     setRevealed(false);
+    setPicked(null);
     setDone((n) => n + 1);
     reload();
   }
 
+  // Multiple choice: the pick is the grade. Right on the first try is Good;
+  // wrong is Again, and the card comes back in ten minutes. The answer is
+  // shown either way, and Next moves on — so a wrong pick is a lesson before
+  // it is a penalty.
+  function choose(key) {
+    if (picked != null) return;
+    setPicked(key);
+    setRevealed(true);
+  }
+  const pickedRight = choices && picked != null && picked === choices.answerKey;
+
   function pick(id) {
     setDeck(id);
     setRevealed(false);
+    setPicked(null);
     setDone(0);
   }
+
+  const answerBlock = revealed ? (
+              <div className="answer">
+                {/* A knot's answer IS the picture, so it gets the full diagram
+                    treatment: readable inline, full screen on a tap. */}
+                {face.answerImage && (face.kind === 'knot' || face.kind === 'rig')
+                  ? <Diagram src={face.answerImage} alt={face.question}
+                             hint={face.kind === 'knot' ? 'Tap for every step' : 'Tap for the whole leader'} />
+                  : face.answerImage && !choices?.options.some((o) => o.image)
+                    && <CardImage src={face.answerImage} alt="" />}
+                {face.kind === 'knot' || face.kind === 'rig'
+                  ? <pre>{face.answer}</pre>
+                  : <div className="big">{face.answer}{face.size ? ` · ${face.size}` : ''}</div>}
+                {face.because && <div className="muted">{face.because}</div>}
+
+                {face.retrieve && face.kind !== 'retrieve' && (
+                  <div className="retrieve">
+                    <div className="spread">
+                      <strong>{face.retrieve.name}</strong>
+                      <span className="tiny">{setWord(face.retrieve)}</span>
+                    </div>
+                    <div className="tiny num">{retrieveLine(face.retrieve)}</div>
+                    {face.retrieve.cue && <div className="muted">{face.retrieve.cue}</div>}
+                  </div>
+                )}
+
+                {face.rigs?.length > 0 && <div className="tiny">Rig: {face.rigs.join(' or ')}</div>}
+                <details className="whyline">
+                  <summary className="tiny">Why this card</summary>
+                  <div className="tiny">
+                    Scheduled as one fact: <code>{face.concept}</code>
+                  </div>
+                </details>
+              </div>
+  ) : null;
 
   if (!queue || !stats) return <Empty>Loading…</Empty>;
 
@@ -258,42 +320,43 @@ export default function LearnTab({ trip, deck = null, setDeck, onDueCount }) {
             {face.seeing && <div className="seeing">{face.seeing}</div>}
             <div className="question">{face.question}</div>
 
-            {revealed && (
-              <div className="answer">
-                {/* A knot's answer IS the picture, so it gets the full diagram
-                    treatment: readable inline, full screen on a tap. */}
-                {face.answerImage && (face.kind === 'knot' || face.kind === 'rig')
-                  ? <Diagram src={face.answerImage} alt={face.question}
-                             hint={face.kind === 'knot' ? 'Tap for every step' : 'Tap for the whole leader'} />
-                  : face.answerImage && <CardImage src={face.answerImage} alt="" />}
-                {face.kind === 'knot' || face.kind === 'rig'
-                  ? <pre>{face.answer}</pre>
-                  : <div className="big">{face.answer}{face.size ? ` · ${face.size}` : ''}</div>}
-                {face.because && <div className="muted">{face.because}</div>}
-
-                {face.retrieve && face.kind !== 'retrieve' && (
-                  <div className="retrieve">
-                    <div className="spread">
-                      <strong>{face.retrieve.name}</strong>
-                      <span className="tiny">{setWord(face.retrieve)}</span>
-                    </div>
-                    <div className="tiny num">{retrieveLine(face.retrieve)}</div>
-                    {face.retrieve.cue && <div className="muted">{face.retrieve.cue}</div>}
-                  </div>
-                )}
-
-                {face.rigs?.length > 0 && <div className="tiny">Rig: {face.rigs.join(' or ')}</div>}
-                <details className="whyline">
-                  <summary className="tiny">Why this card</summary>
-                  <div className="tiny">
-                    Scheduled as one fact: <code>{face.concept}</code>
-                  </div>
-                </details>
-              </div>
-            )}
+            {!choices && answerBlock}
           </div>
 
-          {revealed ? (
+          {choices ? (
+            <>
+              <div className={`choices${choices.options.some((o) => o.image) ? ' pictures' : ''}`}
+                   role="group" aria-label="Answers">
+                {choices.options.map((o) => {
+                  const state = picked == null ? '' : o.correct ? ' right' : o.key === picked ? ' wrong' : ' dim';
+                  return (
+                    <button key={o.key} type="button" className={`choice${state}`}
+                            onClick={() => choose(o.key)} disabled={picked != null}
+                            aria-pressed={picked === o.key}>
+                      {o.image && <ChoiceImage src={o.image} />}
+                      <span className="choicetext">
+                        <span className="choicelabel">{o.label}</span>
+                        {o.sub && <span className="tiny">{o.sub}</span>}
+                      </span>
+                    </button>
+                  );
+                })}
+              </div>
+              {picked != null && <div className="study">{answerBlock}</div>}
+              {picked != null && (
+                <button type="button" className={`primary big${pickedRight ? '' : ' again'}`}
+                        onClick={() => answer(pickedRight ? GRADE.GOOD : GRADE.AGAIN)}>
+                  {pickedRight ? 'Right — next' : 'Not that one — back in 10 minutes'}
+                </button>
+              )}
+              {picked == null && (
+                <div className="tiny">
+                  Pick one. Right first time and it comes back in days; wrong and it
+                  comes back in ten minutes, with the answer shown now.
+                </div>
+              )}
+            </>
+          ) : revealed ? (
             <div className="grades">
               {GRADES.map((g) => (
                 <button key={g.g} type="button" className={g.cls} onClick={() => answer(g.g)}>
@@ -307,11 +370,13 @@ export default function LearnTab({ trip, deck = null, setDeck, onDueCount }) {
             </button>
           )}
 
-          <div className="tiny">
-            Rate yourself honestly — <strong>Again</strong> brings a card back in
-            minutes, <strong>Good</strong> pushes it days out. The app uses that
-            to decide what you see tomorrow.
-          </div>
+          {!choices && (
+            <div className="tiny">
+              Rate yourself honestly — <strong>Again</strong> brings a card back in
+              minutes, <strong>Good</strong> pushes it days out. The app uses that
+              to decide what you see tomorrow.
+            </div>
+          )}
         </section>
       )}
     </>

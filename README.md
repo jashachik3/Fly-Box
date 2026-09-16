@@ -31,6 +31,7 @@ Fly Box/
     log-demo.mjs      runs the user layer end to end, doubles as a test
     key-demo.mjs      the field key, with assertions
     conditions-demo.mjs  tide / flow / weather parsing, with assertions (--live hits the services)
+    learn-demo.mjs    every study card and its multiple choice, with assertions
 ```
 
 ## On your phone
@@ -157,7 +158,15 @@ carries it to the Log as the session's recorded recommendation.
 
 **Learn** — the review queue, scheduled on concept IDs. One fact gets dressed
 several ways: identify the stage, match the fly, or a generated scenario with
-real conditions. Decks are queries, so a trip deck costs nothing.
+real conditions. Every card that has a photograph shows it up front. Cards
+with one right answer are multiple choice: four options, the wrong three drawn
+from the same water, a different family, and never a fly that also imitates
+the same bug (that would be a second right answer marked wrong) — for a
+mayfly card, three other mayfly dries; for a bonefish shrimp, three other flats
+patterns with pictures. Right first time is Good, wrong is Again and the answer
+is shown before you move on. Knots and leaders, whose answer is a sequence,
+keep reveal-and-rate. `tools/learn-demo.mjs` renders all 1,692 faces and
+checks every choice set. Decks are queries, so a trip deck costs nothing.
 
 **Log** — start a session, put a rig on, `+ Fish`. Three taps: species, size,
 which fly ate. Then your numbers, with `n` on every row, and the book-vs-log

@@ -768,3 +768,35 @@ ul.adjust .when {
   flex-direction: column;
   gap: 6px;
 }
+
+/* ---------- multiple choice (Learn) ---------- */
+.choices { display: flex; flex-direction: column; gap: 8px; }
+.choices.pictures { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+button.choice {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 56px;
+  padding: 10px 12px;
+  text-align: left;
+  font: inherit;
+  background: var(--surface);
+  border: 1.5px solid var(--rule);
+  border-radius: 10px;
+  color: var(--ink);
+}
+.choices.pictures button.choice { flex-direction: column; align-items: stretch; padding: 8px; gap: 6px; }
+.choiceimg {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 6px;
+  background: var(--surface-2);
+}
+.choicetext { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.choicelabel { font-weight: 600; line-height: 1.25; }
+button.choice:disabled { opacity: 1; }
+button.choice.right { border-color: var(--accent); background: var(--accent-soft); }
+button.choice.wrong { border-color: var(--hot); background: var(--hot-soft); }
+button.choice.dim { opacity: 0.45; }
+button.primary.again { background: var(--hot); border-color: var(--hot); }

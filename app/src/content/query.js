@@ -219,9 +219,12 @@ export function scenarioCard(bundle, match) {
   return {
     concept: `match:${match.organism}.${match.stage}>${match.fly}`,
     kind: 'scenario',
+    answerId: match.fly,
     retrieve: r,
-    // The scenario IS the question, so no picture up front — but the answer
-    // should show you the fly you were supposed to name.
+    // The conditions are the question, but the bug you are seeing is part of
+    // them — a photograph of the natural belongs up front. The fly you were
+    // supposed to name is the answer picture.
+    image: stage?.image ?? org?.image ?? null,
     answerImage: bundle.byId.flies[match.fly]?.image ?? null,
     conditions: bits,
     seeing: stage?.behavior
@@ -266,6 +269,7 @@ export function renderCard(bundle, concept, { variant } = {}) {
       return {
         concept: concept.id,
         kind: 'match-retrieve',
+        answerId: r.id,
         retrieve: r,
         image: fly?.image ?? null,
         conditions: [org?.name ?? match.organism, match.stage],
@@ -281,6 +285,7 @@ export function renderCard(bundle, concept, { variant } = {}) {
     return {
       concept: concept.id,
       kind: 'match',
+      answerId: fly?.id ?? match.fly,
       retrieve: r,
       // Identify the natural, then see the fly that imitates it. That pairing
       // is the whole lesson, and it only really lands as two pictures.
@@ -303,12 +308,18 @@ export function renderCard(bundle, concept, { variant } = {}) {
     return {
       concept: concept.id,
       kind: 'organism-stage',
-      conditions: [st.where, st.colors?.slice(0, 3).join(', ')].filter(Boolean),
-      seeing: st.behavior ?? '',
+      answerId: `${org.id}.${st.stage}`,
+      // The picture and where you found it are the question. The behaviour
+      // and the colours are half the answer, so they wait for the reveal —
+      // a photo-ID card that tells you it "darts backward in short hops" has
+      // already said "shrimp".
+      conditions: [st.where].filter(Boolean),
+      seeing: '',
       question: `What is this, and what stage?`,
       answer: `${org.name} — ${st.stage}`,
       size: st.hookSizes ? `#${formatHookRange(st.hookSizes)}` : null,
-      because: org.notes ?? '',
+      because: [st.behavior, st.colors?.length ? `Colours: ${st.colors.slice(0, 4).join(', ')}.` : null, org.notes]
+        .filter(Boolean).join(' '),
       image: st.image ?? org.image ?? null,
       rigs: [],
     };
@@ -320,6 +331,7 @@ export function renderCard(bundle, concept, { variant } = {}) {
     return {
       concept: concept.id,
       kind: 'fly',
+      answerId: fly.id,
       conditions: [fly.water, fly.weight].filter(Boolean),
       seeing: fly.name,
       question: 'What does it imitate, and when do you reach for it?',
@@ -372,6 +384,7 @@ export function renderCard(bundle, concept, { variant } = {}) {
     return {
       concept: concept.id,
       kind: 'retrieve',
+      answerId: r.id,
       retrieve: r,
       conditions: [r.imitates].filter(Boolean),
       seeing: r.name,
@@ -389,6 +402,7 @@ export function renderCard(bundle, concept, { variant } = {}) {
     return {
       concept: concept.id,
       kind: 'presence',
+      answerId: p.id,
       conditions: [bundle.byId.regions[p.region]?.name ?? p.region],
       seeing: bundle.byId.organisms[p.organism]?.name ?? p.organism,
       question: 'When is this around, and what sets it off?',
@@ -434,4 +448,163 @@ export function deckFilter(bundle, { region, species, water } = {}) {
     }
     return true;
   };
+}
+
+// ---------------------------------------------------------------------------
+// Multiple choice
+// ---------------------------------------------------------------------------
+// A card with one right answer and three wrong ones that could have been
+// right. The distractors are the whole art: a Bahamas crab fly against three
+// trout nymphs teaches nothing, against three other flats patterns it teaches
+// the difference. So distractors come from the same water, a different
+// family, and — for a match — never from a fly that ALSO imitates this stage,
+// because that would be a second right answer marked wrong.
+//
+// Knots and leaders have no choice form: their answer is a sequence, and they
+// keep the reveal-and-rate card.
+
+function seeded(seedStr) {
+  // mulberry32 over a string hash — deterministic per card so the options do
+  // not reshuffle under your thumb on a re-render.
+  let h = 1779033703 ^ seedStr.length;
+  for (let i = 0; i < seedStr.length; i++) {
+    h = Math.imul(h ^ seedStr.charCodeAt(i), 3432918353);
+    h = (h << 13) | (h >>> 19);
+  }
+  let a = h >>> 0;
+  return () => {
+    a |= 0; a = (a + 0x6D2B79F5) | 0;
+    let t = Math.imul(a ^ (a >>> 15), 1 | a);
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
+function shuffle(arr, rnd) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(rnd() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+/** Take up to n from the tiers in order, each shuffled; no repeats by key. */
+function pickDistractors(tiers, n, rnd, keyOf) {
+  const out = [];
+  const seen = new Set();
+  for (const pool of tiers.map((t) => shuffle(t, rnd))) {
+    for (const x of pool) {
+      if (out.length >= n) break;
+      const k = keyOf(x);
+      if (seen.has(k)) continue;
+      seen.add(k);
+      out.push(x);
+    }
+  }
+  return out;
+}
+
+export function choicesFor(bundle, concept, face, { n = 4, seed } = {}) {
+  if (!face || face.answerId == null) return null;
+  const rnd = seeded(seed ?? `${concept.id}|${face.kind}`);
+  const want = n - 1;
+  let correct;
+  let distractors;
+
+  if (face.kind === 'match' || face.kind === 'scenario') {
+    const fly = bundle.byId.flies[face.answerId];
+    if (!fly) return null;
+    const match = bundle.byId.matches[concept.refs.match];
+    // Every fly that imitates this same stage is also right. Keep them out.
+    const alsoRight = new Set(
+      (bundle.index.matchesByOrganismStage[`${match.organism}.${match.stage}`] ?? [])
+        .map((id) => bundle.byId.matches[id]?.fly),
+    );
+    const pool = bundle.tables.flies.filter((f) =>
+      f.id !== fly.id && !alsoRight.has(f.id) && f.family !== fly.family &&
+      (f.water === fly.water || f.water === 'both' || fly.water === 'both'));
+    // Tiers, most convincing first: a fly tied for the same KIND of bug (another
+    // mayfly pattern for a mayfly card), then one on a similar hook, then the
+    // same category, then anything in the water. Without this a #18 dry drew
+    // three #8 hoppers and the hook size gave it away.
+    const kindOf = (f) => new Set((bundle.index.matchesByFly[f.id] ?? [])
+      .map((id) => bundle.byId.organisms[bundle.byId.matches[id]?.organism]?.kind).filter(Boolean));
+    const kinds = kindOf(fly);
+    const overlaps = (a, b) => a && b && a[0] <= b[1] && b[0] <= a[1];
+    const sameKind = pool.filter((f) => [...kindOf(f)].some((k) => kinds.has(k)));
+    const sameHook = pool.filter((f) => f.category === fly.category && overlaps(f.hookSizes, fly.hookSizes));
+    const sameCat = pool.filter((f) => f.category === fly.category);
+    const sameKindCat = sameKind.filter((f) => f.category === fly.category);
+    distractors = pickDistractors([sameKindCat, sameKind, sameHook, sameCat, pool], want, rnd, (f) => f.family);
+    const opt = (f) => ({ key: f.id, label: f.name, image: f.image ?? null,
+      sub: f.hookSizes ? `#${formatHookRange(f.hookSizes)}` : null });
+    correct = opt(fly);
+    distractors = distractors.map(opt);
+  }
+
+  else if (face.kind === 'organism-stage') {
+    const [orgId, stage] = face.answerId.split('.');
+    const org = bundle.byId.organisms[orgId];
+    if (!org) return null;
+    const all = [];
+    for (const o of bundle.tables.organisms) {
+      if (o.water !== org.water) continue;
+      for (const st of o.stages ?? []) {
+        if (o.id === orgId && st.stage === stage) continue;
+        all.push({ org: o, st });
+      }
+    }
+    // Same kind first (another mayfly's dun is the convincing wrong answer),
+    // then the same organism's other stages, then anything in the water.
+    const sameKindStage = all.filter((x) => x.org.kind === org.kind && x.st.stage === stage);
+    const sameKind = all.filter((x) => x.org.kind === org.kind);
+    distractors = pickDistractors([sameKindStage, sameKind, all], want, rnd, (x) => `${x.org.id}.${x.st.stage}`);
+    const opt = (o, st) => ({ key: `${o.id}.${st.stage}`, label: `${o.name} — ${st.stage}`, image: null, sub: null });
+    correct = opt(org, org.stages.find((x) => x.stage === stage));
+    distractors = distractors.map((x) => opt(x.org, x.st));
+  }
+
+  else if (face.kind === 'fly') {
+    const fly = bundle.byId.flies[face.answerId];
+    if (!fly?.tiedFor) return null;
+    const pool = bundle.tables.flies.filter((f) =>
+      f.id !== fly.id && f.family !== fly.family && f.tiedFor && f.tiedFor !== fly.tiedFor &&
+      (f.water === fly.water || f.water === 'both' || fly.water === 'both'));
+    const preferred = pool.filter((f) => f.category === fly.category);
+    distractors = pickDistractors([preferred, pool], want, rnd, (f) => f.tiedFor);
+    const opt = (f) => ({ key: f.id, label: f.tiedFor, image: null, sub: null });
+    correct = opt(fly);
+    distractors = distractors.map(opt);
+  }
+
+  else if (face.kind === 'match-retrieve' || face.kind === 'retrieve') {
+    const r = bundle.byId.retrieves[face.answerId];
+    if (!r) return null;
+    const pool = bundle.tables.retrieves.filter((x) => x.id !== r.id);
+    distractors = pickDistractors([pool], want, rnd, (x) => x.id);
+    const opt = face.kind === 'retrieve'
+      ? (x) => ({ key: x.id, label: retrieveLine(x), image: null, sub: x.name })
+      : (x) => ({ key: x.id, label: x.name, image: null, sub: retrieveLine(x) });
+    correct = opt(r);
+    distractors = distractors.map(opt);
+  }
+
+  else if (face.kind === 'presence') {
+    const p = bundle.byId.presence[face.answerId];
+    if (!p) return null;
+    const text = (x) => `${x.months.map(monthName).join(', ')} — ${x.abundance}`;
+    const pool = bundle.tables.presence.filter((x) => x.id !== p.id && text(x) !== text(p));
+    const preferred = pool.filter((x) => x.region === p.region);
+    distractors = pickDistractors([preferred, pool], want, rnd, text);
+    const opt = (x) => ({ key: x.id, label: text(x), image: null, sub: null });
+    correct = opt(p);
+    distractors = distractors.map(opt);
+  }
+
+  else return null;
+
+  if (distractors.length < 2) return null; // not enough to make a fair question
+  const options = shuffle([{ ...correct, correct: true }, ...distractors.map((d) => ({ ...d, correct: false }))], rnd);
+  return { options, answerKey: correct.key };
 }
