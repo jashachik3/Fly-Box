@@ -800,3 +800,9 @@ button.choice.right { border-color: var(--accent); background: var(--accent-soft
 button.choice.wrong { border-color: var(--hot); background: var(--hot-soft); }
 button.choice.dim { opacity: 0.45; }
 button.primary.again { background: var(--hot); border-color: var(--hot); }
+
+/* ---------- picture flags ---------- */
+.flagpic { display: flex; gap: 12px; align-items: center; }
+.flagpic img { width: 96px; height: 96px; object-fit: cover; border-radius: 8px; border: 1px solid var(--rule); background: var(--surface-2); }
+.flagpic .name { font-weight: 600; }
+textarea { width: 100%; font: inherit; padding: 10px 12px; border: 1px solid var(--rule); border-radius: 8px; background: var(--surface); color: var(--ink); resize: vertical; }

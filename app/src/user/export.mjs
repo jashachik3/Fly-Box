@@ -44,12 +44,12 @@ export async function importAll(store, payload, { mode = 'merge' } = {}) {
   const data = migrate(payload);
 
   if (mode === 'replace') {
-    for (const c of ['sessions', 'catches', 'presets', 'review', 'box', 'gear', 'setups']) await store[c].clear();
+    for (const c of ['sessions', 'catches', 'presets', 'review', 'box', 'gear', 'setups', 'flags']) await store[c].clear();
   }
 
-  const result = { sessions: 0, catches: 0, presets: 0, review: 0, box: 0, gear: 0, setups: 0, skipped: 0 };
+  const result = { sessions: 0, catches: 0, presets: 0, review: 0, box: 0, gear: 0, setups: 0, flags: 0, skipped: 0 };
 
-  for (const key of ['sessions', 'catches', 'presets', 'review', 'box', 'gear', 'setups']) {
+  for (const key of ['sessions', 'catches', 'presets', 'review', 'box', 'gear', 'setups', 'flags']) {
     for (const rec of data[key] ?? []) {
       if (mode === 'merge') {
         const existing = await store[key].get(rec.id);

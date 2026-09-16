@@ -1,5 +1,5 @@
 import React, { useMemo, useState } from 'react';
-import { bundle, record, nameOf, MONTHS, assetUrl } from '../content/index.js';
+import { bundle, record, nameOf, MONTHS } from '../content/index.js';
 import { fieldKey, identify, retrieveFor, retrieveLine } from '../content/query.js';
 import { QUESTIONS, QUESTION_ORDER, sizeWords } from '../content/traits.js';
 import { Card, Label, Empty, Pill, Strength } from './bits.jsx';
@@ -10,14 +10,12 @@ import { formatHookRange } from '../../../content/hooksize.mjs';
 // fish to move off. So: chips, not dropdowns; answer what you can see, skip
 // what you cannot; the list narrows as you go and never empties silently.
 
-function Thumb({ src, big = false }) {
-  const [ok, setOk] = useState(true);
-  if (!src || !ok) return null;
-  return (
-    <img className={big ? 'keyimg' : 'thumb'} src={assetUrl(src)} alt="" loading="lazy"
-         onError={() => setOk(false)} />
-  );
-}
+import Pic from './Pic.jsx';
+
+const Thumb = ({ src, subject, big = false }) => (
+  <Pic src={src} subject={subject} className={big ? 'keyimg' : 'thumb'} />
+);
+const bugSubject = (org, st) => ({ kind: 'organism', id: `${org.id}.${st.stage}`, label: `${org.name} — ${st.stage}` });
 
 const SHOW = 12;
 
@@ -133,7 +131,7 @@ export default function IdTab({ trip }) {
                 <div key={key}>
                   <button type="button" className="listrow" aria-expanded={isOpen}
                           onClick={() => setOpen(isOpen ? null : key)}>
-                    <Thumb src={h.stage.image ?? h.organism.image} />
+                    <Thumb src={h.stage.image ?? h.organism.image} subject={bugSubject(h.organism, h.stage)} />
                     <div className="grow">
                       <div className="name">{h.organism.name} — {h.stage.stage}</div>
                       <div className="sub">
@@ -174,7 +172,7 @@ function StageDetail({ hit, trip }) {
 
   return (
     <div className="keydetail">
-      <Thumb src={st.image ?? org.image} big />
+      <Thumb src={st.image ?? org.image} subject={bugSubject(org, st)} big />
       {st.look && <div>{st.look}</div>}
       {st.behavior && <div className="muted">{st.behavior}</div>}
       {st.colors?.length > 0 && (
@@ -192,7 +190,7 @@ function StageDetail({ hit, trip }) {
           const r = retrieveFor(bundle, m);
           return (
             <div className="listrow" key={m.id}>
-              <Thumb src={fly?.image} />
+              <Thumb src={fly?.image} subject={fly ? { kind: 'fly', id: fly.id, label: fly.name } : null} />
               <div className="grow">
                 <div className="name">{fly?.name ?? m.fly}</div>
                 <div className="sub">

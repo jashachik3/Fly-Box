@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useState } from 'react';
-import { bundle, concepts, record, assetUrl, deckMembers } from '../content/index.js';
+import { bundle, concepts, record, deckMembers } from '../content/index.js';
 import { deckFilter, renderCard, retrieveLine, setWord, choicesFor } from '../content/query.js';
 import { buildQueue, grade, newCard, progress, GRADE } from '../user/review.mjs';
 import { store } from '../state/db.js';
@@ -11,19 +11,28 @@ import { Card, Label, Empty, Pill, Meter, Sheet, Diagram } from './bits.jsx';
  * image icon on a study card is worse than no image, so a file that fails to
  * load removes itself and the card reads exactly as it did before.
  */
-function CardImage({ src, alt }) {
-  const [ok, setOk] = useState(true);
-  if (!ok) return null;
-  return (
-    <img className="cardimg" src={assetUrl(src)} alt={alt} loading="lazy"
-         onError={() => setOk(false)} />
-  );
-}
+import Pic from './Pic.jsx';
 
-function ChoiceImage({ src }) {
-  const [ok, setOk] = useState(true);
-  if (!ok) return null;
-  return <img className="choiceimg" src={assetUrl(src)} alt="" loading="lazy" onError={() => setOk(false)} />;
+const CardImage = ({ src, alt, subject }) => <Pic src={src} alt={alt} subject={subject} className="cardimg" />;
+const ChoiceImage = ({ src, subject }) => <Pic src={src} subject={subject} className="choiceimg" />;
+
+/**
+ * Who a face's pictures are of, so a long-press can flag the right record.
+ * The question picture on a match card is the bug; the answer picture is the
+ * fly. A fly card's picture is the fly. A bug card's is the bug.
+ */
+function subjectsOf(concept, face) {
+  const r = concept.refs ?? {};
+  const flyOf = (id) => { const f = bundle.byId.flies[id]; return f ? { kind: 'fly', id: f.id, label: f.name } : null; };
+  const bugOf = (orgId, stage) => { const o = bundle.byId.organisms[orgId]; return o ? { kind: 'organism', id: `${orgId}.${stage}`, label: `${o.name} — ${stage}` } : null; };
+  if (face.kind === 'match' || face.kind === 'scenario') {
+    const m = bundle.byId.matches[r.match];
+    return { question: m ? bugOf(m.organism, m.stage) : null, answer: m ? flyOf(m.fly) : null };
+  }
+  if (face.kind === 'match-retrieve') { const m = bundle.byId.matches[r.match]; return { question: m ? flyOf(m.fly) : null, answer: null }; }
+  if (face.kind === 'organism-stage') return { question: bugOf(r.organism, r.stage), answer: null };
+  if (face.kind === 'fly') return { question: flyOf(r.fly), answer: null };
+  return { question: null, answer: null };
 }
 
 const GRADES = [
@@ -232,7 +241,7 @@ export default function LearnTab({ trip, deck = null, setDeck, onDueCount }) {
                   ? <Diagram src={face.answerImage} alt={face.question}
                              hint={face.kind === 'knot' ? 'Tap for every step' : 'Tap for the whole leader'} />
                   : face.answerImage && !choices?.options.some((o) => o.image)
-                    && <CardImage src={face.answerImage} alt="" />}
+                    && <CardImage src={face.answerImage} alt="" subject={subjectsOf(item.concept, face).answer} />}
                 {face.kind === 'knot' || face.kind === 'rig'
                   ? <pre>{face.answer}</pre>
                   : <div className="big">{face.answer}{face.size ? ` · ${face.size}` : ''}</div>}
@@ -316,7 +325,7 @@ export default function LearnTab({ trip, deck = null, setDeck, onDueCount }) {
               </div>
             )}
 
-            {face.image && <CardImage src={face.image} alt="" />}
+            {face.image && <CardImage src={face.image} alt="" subject={subjectsOf(item.concept, face).question} />}
             {face.seeing && <div className="seeing">{face.seeing}</div>}
             <div className="question">{face.question}</div>
 
@@ -333,7 +342,7 @@ export default function LearnTab({ trip, deck = null, setDeck, onDueCount }) {
                     <button key={o.key} type="button" className={`choice${state}`}
                             onClick={() => choose(o.key)} disabled={picked != null}
                             aria-pressed={picked === o.key}>
-                      {o.image && <ChoiceImage src={o.image} />}
+                      {o.image && <ChoiceImage src={o.image} subject={{ kind: 'fly', id: o.key, label: o.label }} />}
                       <span className="choicetext">
                         <span className="choicelabel">{o.label}</span>
                         {o.sub && <span className="tiny">{o.sub}</span>}

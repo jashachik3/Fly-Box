@@ -1,16 +1,12 @@
 import React, { useEffect, useMemo, useState } from 'react';
-import { bundle, regions, speciesIn, record, nameOf, MONTHS, confidence, assetUrl } from '../content/index.js';
+import { bundle, regions, speciesIn, record, nameOf, MONTHS, confidence } from '../content/index.js';
 import { slate as buildSlate, whatsOn, retrieveFor, retrieveLine, setWord, tripImages } from '../content/query.js';
 import { packStatus, savePack, canPack } from '../state/pack.js';
 import { Card, Label, Empty, Pill, Strength, Field, Select, Diagram } from './bits.jsx';
 import { formatHookRange } from '../../../content/hooksize.mjs';
 import LiveNow from './LiveNow.jsx';
 
-function Thumb({ src }) {
-  const [ok, setOk] = useState(true);
-  if (!ok) return null;
-  return <img className="thumb" src={assetUrl(src)} alt="" loading="lazy" onError={() => setOk(false)} />;
-}
+import Pic from './Pic.jsx';
 
 export default function PlanTab({ trip, setTrip, setSlate, onStudy, onLog }) {
   const region = trip.regionId ? record('regions', trip.regionId) : null;
@@ -181,7 +177,7 @@ export default function PlanTab({ trip, setTrip, setSlate, onStudy, onLog }) {
                     const r = retrieveFor(bundle, m);
                     return (
                       <div className="listrow" key={m.id}>
-                        {fly?.image && <Thumb src={fly.image} />}
+                        {fly?.image && <Pic src={fly.image} subject={{ kind: 'fly', id: fly.id, label: fly.name }} />}
                         <div className="grow">
                           <div className="name">{fly?.name ?? m.fly}</div>
                           <div className="sub">
