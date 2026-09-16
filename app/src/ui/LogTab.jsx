@@ -6,6 +6,9 @@ import { exportAll, toJson, exportFilename } from '../user/export.mjs';
 import { createLocker, describeSetup } from '../user/gear.mjs';
 import { Card, Label, Empty, Pill, Field, Select, Sheet, FlyPicker, duration, shortDate, clock } from './bits.jsx';
 import Numbers from './Numbers.jsx';
+import { cachedLive, isFresh } from '../state/live.js';
+import { toSessionConditions } from '../live/conditions.mjs';
+import { liveSummary } from './LiveNow.jsx';
 
 const locker = createLocker(store);
 
@@ -199,7 +202,10 @@ function LiveSession({ session, stint, today, setups, gearById, onSheet, onEdit 
         <div className="tiny">
           {[
             session.placeNote || session.waterId,
-            session.conditions?.waterF ? `${session.conditions.waterF}°F` : null,
+            session.conditions?.tide ? `${session.conditions.tide} tide` : null,
+            session.conditions?.flowCfs != null ? `${session.conditions.flowCfs} cfs` : null,
+            session.conditions?.waterF ? `${session.conditions.waterF}°F water` : null,
+            session.conditions?.airF != null ? `${session.conditions.airF}°F air` : null,
             session.conditions?.light,
             session.conditions?.wind ? `${session.conditions.wind} wind` : null,
             session.gps?.blurred ? 'location blurred' : null,
@@ -317,8 +323,28 @@ function StartSheet({ trip, slate, onClose, onDone }) {
   const [light, setLight] = useState(null);
   const [wind, setWind] = useState(null);
   const [busy, setBusy] = useState(false);
+  // The last live reading for this region, if it is recent enough to trust.
+  // It pre-fills the chips and rides along as tide / flow / air; anything you
+  // tap over the top wins.
+  const [live, setLive] = useState(null);
 
   const region = regionId ? record('regions', regionId) : null;
+
+  React.useEffect(() => {
+    let alive = true;
+    (async () => {
+      const c = await cachedLive(regionId);
+      if (!alive) return;
+      const usable = c && isFresh(c, 120) ? c : null;
+      setLive(usable);
+      if (usable) {
+        setLight((v) => v ?? usable.light ?? null);
+        setWind((v) => v ?? usable.wind ?? null);
+        setWaterF((v) => (v === '' && usable.waterF != null ? String(usable.waterF) : v));
+      }
+    })();
+    return () => { alive = false; };
+  }, [regionId]);
 
   async function go() {
     setBusy(true);
@@ -338,10 +364,12 @@ function StartSheet({ trip, slate, onClose, onDone }) {
     // Only carry the slate if it was built for the water you are actually on.
     const carry = slate?.flies?.length && slate.regionId === regionId ? slate.flies : [];
 
+    const fromLive = live ? toSessionConditions(live) : {};
     await log.start({
       regionId,
       waterId,
       conditions: {
+        ...fromLive,
         waterF: waterF === '' ? null : Number(waterF),
         light,
         wind,
@@ -389,6 +417,12 @@ function StartSheet({ trip, slate, onClose, onDone }) {
           ))}
         </div>
       </fieldset>
+
+      {live && (
+        <div className="tiny">
+          Pre-filled from the live reading: {liveSummary(live).join(' · ')}. Tap to change.
+        </div>
+      )}
 
       <fieldset className="chipset">
         <legend>Wind</legend>

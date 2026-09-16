@@ -3,6 +3,7 @@ import { bundle, regions, speciesIn, record, nameOf, MONTHS, confidence, assetUr
 import { slate as buildSlate, whatsOn, retrieveFor, retrieveLine, setWord } from '../content/query.js';
 import { Card, Label, Empty, Pill, Strength, Field, Select, Diagram } from './bits.jsx';
 import { formatHookRange } from '../../../content/hooksize.mjs';
+import LiveNow from './LiveNow.jsx';
 
 function Thumb({ src }) {
   const [ok, setOk] = useState(true);
@@ -116,6 +117,8 @@ export default function PlanTab({ trip, setTrip, setSlate, onStudy, onLog }) {
               </Card>
             </section>
           )}
+
+          <LiveNow region={region} />
 
           {species && (
             <section className="block">

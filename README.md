@@ -25,10 +25,12 @@ Fly Box/
   app/                Vite + React PWA
     src/content/      bundle.json (generated — do not edit) + query.js
     src/user/         the log: schema, store, API, rates, review, export
+    src/live/         conditions: NOAA tides, USGS flow, Open-Meteo weather
     src/ui/           Plan · Learn · Log · ID · Box
   tools/
     log-demo.mjs      runs the user layer end to end, doubles as a test
     key-demo.mjs      the field key, with assertions
+    conditions-demo.mjs  tide / flow / weather parsing, with assertions (--live hits the services)
 ```
 
 ## On your phone
@@ -51,6 +53,7 @@ npm run check                 # validate content + run the log tests
 node content/query-demo.mjs   # trip slate, field ID, and a generated quiz card
 node tools/log-demo.mjs       # the log layer, with assertions
 node tools/key-demo.mjs       # the field key: traits → stage → fly, with assertions
+node tools/conditions-demo.mjs --live   # what every region's water is doing right now
 
 node tools/build-diagrams.mjs          # redraw every knot and leader diagram
 node tools/build-diagrams.mjs --refs   # art-only references for the image model
@@ -188,6 +191,17 @@ Also built: images on every card, in the Box and on the slate (all 296
 generated and checked against photographs — see `PHOTO-REVIEW.md`), and the
 field-ID key as its own tab.
 
+Also built: live conditions. A region's record carries what makes them
+possible — a NOAA tide station, a USGS gauge, coordinates and a timezone —
+and `app/src/live/conditions.mjs` turns those into one reading: tide stage
+with the next turn, flow and water temperature, air, wind and sky, mapped onto
+the same light/wind/tide words the log uses. Plan shows it as *Right now* with
+its age; starting a session pre-fills from it (what you tap wins); and
+sessions started without signal are filled in later by `log.enrich()` from the
+historical endpoints, for the hour the session began. Each source fails alone.
+`tools/conditions-demo.mjs` proves the parsing on recorded responses;
+`--live` calls the real services for every region.
+
 Next: the Bahamas brief authored properly and trip packs cached for offline ·
-live data from NOAA, USGS and Open-Meteo through `log.enrich()` · the review
-pass over the records still marked draft.
+the review pass over the records still marked draft · lazy-load the images
+instead of precaching all 90 MB on install.

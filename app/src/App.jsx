@@ -4,9 +4,11 @@ import LearnTab from './ui/LearnTab.jsx';
 import LogTab from './ui/LogTab.jsx';
 import IdTab from './ui/IdTab.jsx';
 import BoxTab from './ui/BoxTab.jsx';
-import { store } from './state/db.js';
+import { store, log } from './state/db.js';
 import { useAsync } from './state/useAsync.js';
 import { Empty } from './ui/bits.jsx';
+import { bundle } from './content/index.js';
+import { enricherFor } from './live/conditions.mjs';
 
 const TABS = [
   { id: 'plan', label: 'Plan' },
@@ -90,6 +92,20 @@ export default function App() {
     ...slate,
     stale: slate.regionId !== trip.regionId || slate.month !== trip.month,
   };
+
+  // Sessions started without signal are missing tide, flow or weather. Fill
+  // them in whenever there is a connection — on boot and on coming back
+  // online — from the historical endpoints, for the time the session began.
+  useEffect(() => {
+    if (!boot.data) return;
+    const run = () => {
+      if (typeof navigator !== 'undefined' && navigator.onLine === false) return;
+      log.enrich(enricherFor(bundle.byId.regions, fetch)).catch(() => {});
+    };
+    run();
+    window.addEventListener('online', run);
+    return () => window.removeEventListener('online', run);
+  }, [boot.data]);
 
   const goStudy = () => { setDeck('trip'); setTab('learn'); };
   const goLog = () => setTab('log');
